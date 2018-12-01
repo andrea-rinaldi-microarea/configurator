@@ -1,1 +1,17 @@
-<p *ngFor="let value of apiValues"><span>{{value.module}}</span>  <span>{{value.functionality}}</span> </p>
+<h1>{{configuration.name}}</h1>
+<table>
+    <tr>
+        <th>Modulo</th>
+        <th>Funzionalità</th>
+        <th>Standard</th>
+        <th>Professional</th>
+        <th>Enterprise</th>
+    </tr> 
+    <tr *ngFor="let feature of configuration.features">
+        <td>{{feature.module}}</td>  
+        <td>{{feature.functionality}}</td> 
+        <td class="flag" (click)="feature.standard=!feature.standard">{{feature.standard ? "X":""}}</td>
+        <td class="flag" (click)="feature.professional=!feature.professional">{{feature.professional ? "X":""}}</td>
+        <td class="flag" (click)="feature.enterprise=!feature.enterprise">{{feature.enterprise ? "X":""}}</td>
+    </tr>
+</table>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Feature } from '../models/feature';
+import { Configuration } from '../models/configuration';
 
 @Component({
   selector: 'app-root',
@@ -8,11 +9,16 @@ import { Feature } from '../models/feature';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  constructor(private http: HttpClient) { }
-  apiValues: Feature[] = [];
+
+  constructor(
+    private http: HttpClient
+  ) { }
+
+  private configuration: Configuration = new Configuration("Production",[]);
+  
   ngOnInit() {
      this.http.get('/api/features').subscribe((data:Feature[]) => {
-        this.apiValues = data;
+        this.configuration.features = data;
      });
   }
 }

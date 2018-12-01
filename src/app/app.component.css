@@ -1,0 +1,9 @@
+table, td {
+    border: 1px solid black;
+}
+h1 {
+    text-align: center
+}
+td.flag {
+    text-align: center
+}

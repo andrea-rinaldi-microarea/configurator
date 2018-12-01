@@ -1,7 +1,10 @@
 
 export class Feature {
     constructor(
-        public Module: string,
-        public Functionality: string,
+        public module: string,
+        public functionality: string,
+        public standard: boolean,
+        public professional: boolean,
+        public enterprise: boolean
     ) {}
 }
