@@ -1,6 +1,10 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Configurator.Models;
+using System.IO;
+using CsvHelper;
+using System.Text;
+using System;
 
 namespace Configurator.Controllers
 {
@@ -12,10 +16,17 @@ namespace Configurator.Controllers
         [HttpGet]
         public ActionResult<List<Feature>> Get()
         {
-            List<Feature> f = new List<Feature>();
-            f.Add(new Feature() { Module = "a", Functionality = "b" });
-            f.Add(new Feature() { Module = "x", Functionality = "y" });
-            return f;
+            TextReader reader = new StreamReader("public\\FeaturesList.csv");
+            var csvReader = new CsvReader(reader);
+            csvReader.Configuration.HasHeaderRecord = false;
+            csvReader.Configuration.Encoding = Encoding.UTF8;
+            csvReader.Configuration.Delimiter = ";";
+            csvReader.Configuration.BadDataFound = context =>
+            {
+                Console.WriteLine( $"Bad data found on row '{context.RawRow}'" );
+            };
+            var features = new List<Feature>(csvReader.GetRecords<Feature>());
+            return features;
         }
     }
 }
