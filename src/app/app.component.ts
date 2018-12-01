@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Http } from '@angular/http'
+import { HttpClient } from '@angular/common/http';
+import { Feature } from '../models/feature';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +8,11 @@ import { Http } from '@angular/http'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  constructor(private _httpService: Http) { }
-  apiValues: string[] = [];
+  constructor(private http: HttpClient) { }
+  apiValues: Feature[] = [];
   ngOnInit() {
-     this._httpService.get('/api/values').subscribe(values => {
-        this.apiValues = values.json() as string[];
+     this.http.get('/api/features').subscribe((data:Feature[]) => {
+        this.apiValues = data;
      });
   }
 }
