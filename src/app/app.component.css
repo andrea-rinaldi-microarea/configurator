@@ -20,3 +20,7 @@ td.flag {
     color: grey;
     font-style: italic;
 }
+
+.package {
+    background: lightblue;
+}

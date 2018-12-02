@@ -52,7 +52,7 @@
     { "tag": "UBIC" },
     { "tag": "XGAT" },
     { 
-        "tag": "ADFK",
+        "tag": "ADKF",
         "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"] 
     },
     { 

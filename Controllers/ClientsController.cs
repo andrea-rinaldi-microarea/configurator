@@ -15,7 +15,7 @@ namespace Configurator.Controllers
         [HttpGet]
         public ActionResult<List<object>> Get()
         {
-            TextReader reader = new StreamReader("public\\clients.csv");
+            TextReader reader = new StreamReader("public\\clients-all.csv");
             var csvReader = new CsvReader(reader);
             // csvReader.Configuration.HasHeaderRecord = false;
             csvReader.Configuration.Encoding = Encoding.UTF8;
