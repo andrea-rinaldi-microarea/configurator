@@ -1,0 +1,109 @@
+[
+    { "tag": "SEVR" },
+    { "tag": "CONT" },
+    { "tag": "COPR" },
+    { "tag": "XBRL" },
+    { "tag": "BAII" },
+    { "tag": "BICO" },
+    { "tag": "COAN" },
+    { "tag": "CSPT" },
+    { "tag": "CASH" },
+    { "tag": "INTR" },
+    { "tag": "BAPL" },
+    { "tag": "LIBR" },
+    { "tag": "ORCL" },
+    { "tag": "VEDT" },
+    { "tag": "CONA" },
+    { "tag": "RAEE" },
+    { "tag": "SFMG" },
+    { "tag": "CRED" },
+    { "tag": "ORFO" },
+    { "tag": "ACQT" },
+    { "tag": "INSP" },
+    { "tag": "MAGA" },
+    { "tag": "LOTT" },
+    { "tag": "WMAA" },
+    { "tag": "WMAD" },
+    { "tag": "WMRF" },
+    { "tag": "BARC" },
+    { "tag": "DIST" },
+    { "tag": "VARI" },
+    { "tag": "PRZB" },
+    { "tag": "CONF" },
+    { "tag": "PRZA" },
+    { "tag": "OPOR" },
+    { "tag": "MANM" },
+    { "tag": "PRZP" },
+    { "tag": "PRPA" },
+    { "tag": "EATT" },
+    { "tag": "MAIL" },
+    { "tag": "SCHD" },
+    { "tag": "OSLS" },
+    { "tag": "AUDT" },
+    { "tag": "ELSR" },
+    { "tag": "FISC" },
+    { "tag": "IBCO" },
+    { "tag": "INPC" },
+    { "tag": "MAIF" },
+    { "tag": "MDOC" },
+    { "tag": "MIGR" },
+    { "tag": "OSLL" },
+    { "tag": "SOSC" },
+    { "tag": "UBIC" },
+    { "tag": "XGAT" },
+    { 
+        "tag": "ADFK",
+        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"] 
+    },
+    { 
+        "tag": "ADPK",
+        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"] 
+    },
+    { 
+        "tag": "COMF",
+        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CASH", "VEDT", "ACQT", "MAGA"] 
+    },
+    
+    { 
+        "tag": "COMM",
+        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CASH", "VEDT", "ACQT", "MAGA"] 
+    },
+    { 
+        "tag": "EDU1",
+        "match": ["SEVR", ""] 
+    },
+    { 
+        "tag": "PACK",
+        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA"] 
+    },
+    { 
+        "tag": "PCKF",
+        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA"] 
+    },
+    
+    { 
+        "tag": "SCOM",
+        "match": ["SEVR", ""] 
+    },
+    { 
+        "tag": "SERD",
+        "match": ["SEVR"] 
+    },
+    { 
+        "tag": "TRKF",
+        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR", "ORCL", "ORFO", "ACQT", "CSPT"] 
+    },
+    { 
+        "tag": "TRPK",
+        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR", "ORCL", "ORFO", "ACQT", "CSPT"] 
+    },
+    { 
+        "tag": "CFIN",
+        "match": ["SEVR", "CONT", "COPR", "XBRL", "BAII", "BICO", "COAN", "CSPT", "CASH", "INTR", "BAPL", "LIBR", "ORCL", "VEDT", "CONA", "RAEE", "SFMG", "CRED", "ORFO", "ACQT", "INSP", "MAGA", "LOTT", "WMAA", "WMAD", "BARC", "DIST", "VARI", "CONF", "OPOR", "EATT", "MAIL", "SCHD", "OSLS", "AUDT", "ELSR", "FISC", "MDOC", "OSLL", "SOSC", "XGAT"] 
+    },
+    { 
+        "tag": "CFUL",
+        "match": ["SEVR", "CONT", "COPR", "XBRL", "BAII", "BICO", "COAN", "CSPT", "CASH", "INTR", "BAPL", "LIBR", "ORCL", "VEDT", "CONA", "RAEE", "SFMG", "CRED", "ORFO", "ACQT", "INSP", "MAGA", "LOTT", "WMAA", "WMAD", "BARC", "DIST", "VARI", "PRZB", "CONF", "PRZA", "OPOR", "PRZP", "PRPA", "EATT", "MAIL", "SCHD", "OSLS", "AUDT", "ELSR", "FISC", "MDOC", "OSLL", "SOSC", "XGAT"] 
+    }
+]
+

@@ -1,15 +1,20 @@
 <h1>{{configuration.name}}</h1>
+<button (click)="onDownload()">cliente</button>
 <table>
     <tr>
+        <th></th>
         <th>Modulo</th>
         <th>Funzionalità</th>
+        <th></th>
         <th>Standard</th>
         <th>Professional</th>
         <th>Enterprise</th>
     </tr> 
-    <tr *ngFor="let feature of configuration.features">
-        <td>{{feature.module}}</td>  
-        <td>{{feature.functionality}}</td> 
+    <tr *ngFor="let feature of configuration.features" [class.unavailable]="feature.unavailable">
+        <td class="flag" width="15px" (click)="feature.unavailable=!feature.unavailable">{{feature.unavailable ? "+":"-"}}</td>
+        <td [class.discontinued]="feature.discontinued">{{feature.module}}</td>  
+        <td [class.discontinued]="feature.discontinued">{{feature.functionality}}</td> 
+        <td class="flag" width="15px">{{feature.customer ? "X":""}}</td>
         <td class="flag" (click)="feature.standard=!feature.standard">{{feature.standard ? "X":""}}</td>
         <td class="flag" (click)="feature.professional=!feature.professional">{{feature.professional ? "X":""}}</td>
         <td class="flag" (click)="feature.enterprise=!feature.enterprise">{{feature.enterprise ? "X":""}}</td>

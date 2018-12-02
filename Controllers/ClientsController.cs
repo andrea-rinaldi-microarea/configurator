@@ -1,23 +1,21 @@
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Configurator.Models;
-using System.IO;
-using CsvHelper;
-using System.Text;
 using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+using CsvHelper;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Configurator.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FeaturesController : ControllerBase
+    public class ClientsController : ControllerBase
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<List<Feature>> Get()
+        public ActionResult<List<object>> Get()
         {
-            TextReader reader = new StreamReader("data\\FeaturesList.csv");
-            // TextReader reader = new StreamReader("public\\test.csv");
+            TextReader reader = new StreamReader("public\\clients.csv");
             var csvReader = new CsvReader(reader);
             // csvReader.Configuration.HasHeaderRecord = false;
             csvReader.Configuration.Encoding = Encoding.UTF8;
@@ -26,8 +24,8 @@ namespace Configurator.Controllers
             {
                 Console.WriteLine( $"Bad data found on row '{context.RawRow}'" );
             };
-            var features = new List<Feature>(csvReader.GetRecords<Feature>());
-            return features;
+            var clients = new List<object>(csvReader.GetRecords<object>());
+            return clients;
         }
     }
 }

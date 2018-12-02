@@ -1,9 +1,22 @@
 table, td {
     border: 1px solid black;
+    border-collapse: collapse;
 }
 h1 {
     text-align: center
 }
+td {
+    margin: 0;
+}
 td.flag {
     text-align: center
+}
+.discontinued {
+    color: red;
+    text-decoration: line-through;
+}
+
+.unavailable {
+    color: grey;
+    font-style: italic;
 }

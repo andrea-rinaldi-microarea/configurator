@@ -1,0 +1,56 @@
+Trade  Pack 
+"EATT" DMS  
+"SOSC" SOS  Enginee  &  SOSConnector  (embedded)
+"XGAT" XGate
+"CONT" Contabilità  Generale
+"VEDT" Vendite
+"MAGA" Magazzino
+"COPR" Contabilità  previsionale
+"SFMG" Sales Force  Management
+"LOTT" Lotti  e  Matricole
+"CONA" CONAI
+"INTR" Intrastat
+"ORCL" Ordini  Clienti
+"ORFO" Ordini  Fornitori
+"ACQT" Acquisti
+"CSPT" Ammortamenti
+
+Advanced  Pack 
+"EATT" DMS  
+"SOSC" SOS  Enginee  &  SOSConnector  (embedded)
+"XGAT" XGate
+"CONT" Contabilità Generale
+"VEDT" Vendite
+"MAGA" Magazzino
+"COPR" Contabilità  previsionale
+"SFMG" Sales  Force  Management
+"LOTT" Lotti  e  Matricole
+"CONA" CONAI
+"INTR" Intrastat
+
+Small  Business  Pack
+"EATT" DMS  
+"SOSC" SOS  Enginee  &  SOSConnector  (embedded)
+"XGAT" XGate
+"CONT" Contabilità  Generale
+"VEDT" Vendite
+"MAGA" Magazzino.
+
+Commercial  Pack 
+"EATT" DMS  
+"SOSC" SOS  Enginee  &  SOSConnector  (embedded),
+"XGAT" XGate
+"CASH" Gestione  cassa
+"VEDT" Vendite
+"ACQT" Acquisti
+"MAGA" Magazzino. 
+
+Small commercial package?
+Educational?
+
+
+CAL Enterprise full
+"SEVR", "CONT", "COPR", "XBRL", "BAII", "BICO", "COAN", "CSPT", "CASH", "INTR", "BAPL", "LIBR", "ORCL", "VEDT", "CONA", "RAEE", "SFMG", "CRED", "ORFO", "ACQT", "INSP", "MAGA", "LOTT", "WMAA", "WMAD", "BARC", "DIST", "VARI", "PRZB", "CONF", "PRZA", "OPOR", "PRZP", "PRPA", "EATT", "MAIL", "SCHD", "OSLS", "AUDT", "ELSR", "FISC", "MDOC", "OSLL", "SOSC", "XGAT"
+
+CAL Enterprise Financials
+"SEVR", "CONT", "COPR", "XBRL", "BAII", "BICO", "COAN", "CSPT", "CASH", "INTR", "BAPL", "LIBR", "ORCL", "VEDT", "CONA", "RAEE", "SFMG", "CRED", "ORFO", "ACQT", "INSP", "MAGA", "LOTT", "WMAA", "WMAD", "BARC", "DIST", "VARI", "CONF", "OPOR", "EATT", "MAIL", "SCHD", "OSLS", "AUDT", "ELSR", "FISC", "MDOC", "OSLL", "SOSC", "XGAT"
