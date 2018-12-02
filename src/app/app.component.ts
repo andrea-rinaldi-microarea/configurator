@@ -5,6 +5,7 @@ import { Configuration } from '../models/configuration';
 
 declare var require: any;
 const moduleTags = require("./module-tags.json");
+const industryList = require("./industry-list.json");
 
 @Component({
   selector: 'app-root',
@@ -17,15 +18,15 @@ export class AppComponent implements OnInit {
     private http: HttpClient
   ) { }
 
-  private configuration: Configuration = new Configuration("Production",[]);
+  private configuration: Configuration;
   private clients: any[];
   private client: any = null;
   private currentClient: number = 0;
+  private currIndustry:  string;
+  private industryList = industryList;
+  private editMode: boolean;
   
   ngOnInit() {
-     this.http.get('/api/features').subscribe((data:Feature[]) => {
-        this.configuration.features = data;
-     });
   }
 
   private lookForMods(mods: string[], fromPackage: boolean) {
@@ -39,16 +40,21 @@ export class AppComponent implements OnInit {
     });
   }
 
-  private showUsing(client: any) {
+  private showUsing() {
+    if(!this.client || !this.configuration){
+      return;
+    }
+
     for (var f = 0; f < this.configuration.features.length; f++) {
       this.configuration.features[f].customer = false;
       this.configuration.features[f].fromPackage = false;
     }
+
     moduleTags.forEach(mod => {
-      if (client[mod.tag] !== "X")
+      if (this.client[mod.tag] !== "X")
         return;
       if (mod.match) {
-        client.package = mod.tag;
+        this.client.package = mod.tag;
         this.lookForMods(mod.match, true);
       } else {
         this.lookForMods([mod.tag], false);
@@ -56,26 +62,48 @@ export class AppComponent implements OnInit {
     });
   }
 
+  private loadConfiguration() {
+    this.http.get('/api/configurations/' + this.currIndustry).subscribe((data:Feature[]) => {
+      this.configuration = new Configuration(this.currIndustry);
+      this.configuration.features = data;
+      this.showUsing();
+      this.editMode = false; 
+   });
+  }
+
   onDownload() {
     this.http.get('/api/clients').subscribe((data:any[]) => {
       this.clients = data;
-      this.client = this.clients[0];
-      this.currentClient = 0;
-      this.showUsing(this.clients[0]);
+      this.client = this.clients[this.currentClient];
+      this.showUsing();
     });
+  }
+
+  onIndustryChanged() {
+    this.loadConfiguration();
+  }
+
+  onSave() {
+    this.http.post('/api/configurations/save', this.configuration).subscribe(res => {
+      console.log("saved");
+    });
+  }
+
+  onCancel() {
+    this.loadConfiguration();
   }
 
   onPrev() {
     if (this.currentClient > 0) {
       this.client = this.clients[--this.currentClient];
-      this.showUsing(this.client);
+      this.showUsing();
     }
   }
 
   onNext() {
     if (this.currentClient < this.clients.length - 1) {
       this.client = this.clients[++this.currentClient];
-      this.showUsing(this.client);
+      this.showUsing();
     }
   }
 }

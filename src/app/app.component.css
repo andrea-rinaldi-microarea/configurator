@@ -9,7 +9,10 @@ td {
     margin: 0;
 }
 td.flag {
-    text-align: center
+    text-align: center;
+}
+td.action {
+    cursor: pointer
 }
 .discontinued {
     color: red;
@@ -24,3 +27,12 @@ td.flag {
 .package {
     background: lightblue;
 }
+.cover {
+    cursor: not-allowed;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #ffffff;
+    opacity: 0.2;
+  }
