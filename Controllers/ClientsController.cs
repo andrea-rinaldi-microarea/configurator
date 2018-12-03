@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using CsvHelper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Configurator.Controllers
@@ -27,5 +28,19 @@ namespace Configurator.Controllers
             var clients = new List<object>(csvReader.GetRecords<object>());
             return clients;
         }
+
+        // POST api/clients/upload
+        [HttpPost("upload")]
+        public IActionResult Upload()
+        {
+            using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8))
+            {  
+                string content = reader.ReadToEnd();
+            }
+
+            return NoContent();
+        }
+
     }
+    
 }

@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpEventType, HttpResponse } from '@angular/common/http';
 import { Feature } from '../models/feature';
 import { Configuration } from '../models/configuration';
+import { UploadService } from './service/upload.service';
 
 declare var require: any;
 const moduleTags = require("./module-tags.json");
@@ -15,7 +16,8 @@ const industryList = require("./industry-list.json");
 export class AppComponent implements OnInit {
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private upload: UploadService 
   ) { }
 
   private configuration: Configuration;
@@ -105,5 +107,36 @@ export class AppComponent implements OnInit {
       this.client = this.clients[++this.currentClient];
       this.showUsing();
     }
+  }
+
+  fileChange(event) {
+    let fileList: FileList = event.target.files;
+    if (fileList.length == 0) {
+      return;
+    }
+
+    // this.http.post('/api/clients/upload', "ciao").subscribe(res => {
+    //   console.log("saved");
+    // });
+
+
+    let file: File = fileList[0];
+
+    this.upload.uploadFile("/api/clients/upload", file)
+      .subscribe(
+        event => {
+          if (event.type == HttpEventType.UploadProgress) {
+            const percentDone = Math.round(100 * event.loaded / event.total);
+            console.log(`File is ${percentDone}% loaded.`);
+          } else if (event instanceof HttpResponse) {
+            console.log('File is completely loaded!');
+          }
+        },
+        (err) => {
+          console.log("Upload Error:", err);
+        }, () => {
+          console.log("Upload done");
+        }
+      )    
   }
 }

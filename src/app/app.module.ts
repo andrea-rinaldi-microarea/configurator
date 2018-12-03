@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { FunctionalityPipe } from './functionality-pipe';
+import { UploadService } from './service/upload.service';
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import { FunctionalityPipe } from './functionality-pipe';
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [UploadService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,5 @@
 <button (click)="onDownload()">scarica clienti</button>
+<input type="file" (change)="fileChange($event)" placeholder="Apri elenco clienti" accept=".csv">
 <div *ngIf="client">
     <p><button (click)="onPrev()">&lt;</button><button (click)="onNext()">&gt;</button></p>
     <p>{{client["Ragione Sociale"]}}</p>
