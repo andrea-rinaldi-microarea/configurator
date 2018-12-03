@@ -1,0 +1,70 @@
+import { Injectable } from '@angular/core';
+import { Configuration } from '../../models/configuration';
+import { Observable } from 'rxjs/Observable';
+import { HttpClient } from '@angular/common/http';
+import { Feature } from '../../models/feature';
+
+declare var require: any;
+const moduleTags = require("./module-tags.json");
+
+@Injectable()
+export class ConfigurationService {
+
+  public current: Configuration;
+
+  constructor(
+    private http: HttpClient
+  ) { }
+
+  private lookForMods(mods: string[], fromPackage: boolean) {
+    mods.forEach(mod => {
+        this.current.features.forEach( feat => {
+          if (feat.tag === mod) {
+            feat.customer = true;
+            feat.fromPackage = fromPackage;
+          }
+        });
+    });
+  }
+
+  public showUsing(client: any) {
+    if(!client || !this.current){
+      return;
+    }
+
+    for (var f = 0; f < this.current.features.length; f++) {
+      this.current.features[f].customer = false;
+      this.current.features[f].fromPackage = false;
+    }
+
+    moduleTags.forEach(mod => {
+      if (client[mod.tag] !== "X")
+        return;
+      if (mod.match) {
+        client.package = mod.tag;
+        this.lookForMods(mod.match, true);
+      } else {
+        this.lookForMods([mod.tag], false);
+      }
+    });
+  }
+
+  public load(industry: string): Observable<any> {
+    var $configuration = new Observable<any>(observer => {
+      this.http.get('/api/configurations/' + industry).subscribe((data:Feature[]) => {
+        this.current = new Configuration(industry);
+        this.current.features = data;
+        observer.next();
+        observer.complete();
+      });
+    });
+    return $configuration;
+  }
+
+  public save() {
+    this.http.post('/api/configurations/save', this.current).subscribe(res => {
+      console.log("saved");
+    });
+  }
+
+}
