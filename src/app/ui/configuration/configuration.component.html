@@ -12,31 +12,33 @@
   <div class="col-1 text-left btn btn-sm" (click)="onNext()">
     <i class="fa fa-big fa-chevron-right text-config-light"></i>
   </div>
-  <div class="right-toolbar" [hidden]="!currIndustry">
+  <div class="right-toolbar" [hidden]="currIndustry == null">
       <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button> 
       <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onSave(); editMode=false"><i class="fa fa-big fa-floppy-o text-config-light"></i></button> 
       <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button> 
   </div>
 </div>
-<div class="row" *ngIf="configuration.current"> 
+<div class="row mt-2" *ngIf="configuration.current"> 
   <table class="table table-sm">
       <tr>
-          <th></th>
+          <th><app-toggle class="text-config-light" [icons]="['fa-eye-slash', 'fa-eye']" [(flag)]="hideExcluded"></app-toggle></th>
           <th>Modulo</th>
-          <th><div class="d-flex justify-content-between"><span>Funzionalità</span><i class="fa btn btn-sm" [class.fa-eye-slash]="!hideFunctionalities" [class.fa-eye]="hideFunctionalities" (click)="hideFunctionalities=!hideFunctionalities"></i> </div> </th>
-          <th></th>
+          <th class="p-0"></th>
+          <th>Funzionalità<app-toggle class="ml-0 mr-0 p-0 text-config-light" [icons]="['fa-eye-slash', 'fa-eye']" [(flag)]="hideFunctionalities"></app-toggle></th>
+          <th class="text-center" [hidden]="!clients.show"><i class="fa fa-user fa-big text-success"></i> </th>
           <th>Standard</th>
           <th>Professional</th>
           <th>Enterprise</th>
       </tr> 
-      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities" [class.unavailable]="feature.unavailable">
-          <td class="flag action" width="15px" (click)="feature.unavailable=!feature.unavailable">{{feature.unavailable ? "+":"-"}}</td>
+      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="feature.unavailable">
+          <td width="15px"><app-toggle [hidden]="feature.discontinued" class="text-config-light" [icons]="['fa-ban', 'fa-sign-in']" [(flag)]="feature.unavailable"></app-toggle></td>
           <td [class.discontinued]="feature.discontinued">{{feature.module}}</td>  
+          <td class="p-0"></td>
           <td [class.discontinued]="feature.discontinued">{{hideFunctionalities ? "" : feature.functionality}}</td> 
-          <td class="flag" [class.package]="feature.fromPackage" width="15px">{{feature.customer ? "X":""}}</td>
-          <td class="flag action" (click)="feature.standard=!feature.standard">{{feature.standard ? "X":""}}</td>
-          <td class="flag action" (click)="feature.professional=!feature.professional">{{feature.professional ? "X":""}}</td>
-          <td class="flag action" (click)="feature.enterprise=!feature.enterprise">{{feature.enterprise ? "X":""}}</td>
+          <td class="text-center" [hidden]="!clients.show" [class.package]="feature.fromPackage"><i class="fa in-use text-success" [class.fa-circle]="feature.customer" [class.fa-circle-thin]="!feature.customer"></i></td>
+          <td class="text-center"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.standard"></app-toggle></td>
+          <td class="text-center"><app-toggle [hidden]="feature.unavailable || feature.discontinued" class="text-config" [(flag)]="feature.professional"></app-toggle></td>
+          <td class="text-center"><app-toggle [hidden]="feature.unavailable || feature.discontinued" class="text-config" [(flag)]="feature.enterprise"></app-toggle></td>
       </tr>
   </table>
 </div>

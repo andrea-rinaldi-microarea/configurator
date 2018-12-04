@@ -1,4 +1,4 @@
-import { Feature } from './../models/feature';
+import { Feature } from '../../../models/feature';
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({

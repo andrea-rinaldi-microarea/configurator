@@ -2,9 +2,6 @@
     border: 1px solid black;
     border-collapse: collapse;
 } */
-/* h3 {
-    text-align: center
-} */
 td {
     margin: 0;
 }
@@ -25,7 +22,7 @@ td.action {
 }
 
 .package {
-    background: lightblue;
+    background: #b1faee;
 }
 .cover {
     cursor: not-allowed;
@@ -51,4 +48,12 @@ select{
 .right-toolbar {
     position: absolute;
     right: 4px;
+}
+
+.in-use {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.2rem;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
 }
