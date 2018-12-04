@@ -5,9 +5,10 @@ import { Observable } from 'rxjs/Observable';
 @Injectable()
 export class ClientsService {
 
-  public list: any[];
   public current: any = null;
-  public index: number = 0;
+  public show: boolean = false;
+  private index: number = 0;
+  private list: any[];
 
   constructor(
     private http: HttpClient

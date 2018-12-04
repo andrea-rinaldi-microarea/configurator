@@ -1,0 +1,54 @@
+/* table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+/* h3 {
+    text-align: center
+} */
+td {
+    margin: 0;
+}
+td.flag {
+    text-align: center;
+}
+td.action {
+    cursor: pointer
+}
+.discontinued {
+    color: red;
+    text-decoration: line-through;
+}
+
+.unavailable {
+    color: grey;
+    font-style: italic;
+}
+
+.package {
+    background: lightblue;
+}
+.cover {
+    cursor: not-allowed;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #ffffff;
+    opacity: 0.2;
+  }
+
+select{
+    text-align: center;
+    text-align-last:center;
+    border:0;
+    padding: 3px 15px;
+}
+
+.fa-big {
+    font-size: 28px;
+}
+
+.right-toolbar {
+    position: absolute;
+    right: 4px;
+}

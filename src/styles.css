@@ -1,3 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
+
+.bg-config {
+    background-color:#fb5710 !important;
+}
+
+.bg-config-light {
+    background-color:#fc9565 !important;
+}
+
+.text-config {
+    color: #fb5710 !important;
+}
+
+.text-config-light {
+    color: #fc9565 !important;
+}
+
+.text-config-white {
+    color: #FBFAF9 !important;
+}
+
+/* 
+#fb5710 orange red
+#fc9565 salmon 
+#FBFAF9 white
+#5E5C63 slate gray
+#A8A7A9 light  slate gray
+
+*/

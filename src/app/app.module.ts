@@ -5,15 +5,19 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { FunctionalityPipe } from './functionality-pipe';
-import { ClientsComponent } from './clients/clients.component';
+import { ClientsComponent } from './ui/clients/clients.component';
 import { ConfigurationService } from './services/configuration.service';
+import { ConfigurationComponent } from './ui/configuration/configuration.component';
+import { ToolbarComponent } from './ui/toolbar/toolbar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FunctionalityPipe,
-    ClientsComponent
+    ClientsComponent,
+    ConfigurationComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,

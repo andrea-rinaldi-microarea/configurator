@@ -1,5 +1,5 @@
-import { ConfigurationService } from './../services/configuration.service';
-import { ClientsService } from './../services/clients.service';
+import { ConfigurationService } from './../../services/configuration.service';
+import { ClientsService } from './../../services/clients.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

@@ -1,0 +1,8 @@
+<div class="row">
+    <span>Apri elenco clienti&nbsp;&nbsp;</span><input type="file" (change)="openClients($event)" placeholder="Apri elenco clienti" accept=".csv">
+    <div *ngIf="clients.current">
+        <p><button (click)="onPrev()">&lt;</button><button (click)="onNext()">&gt;</button></p>
+        <p>{{clients.current["Ragione Sociale"]}}</p>
+        <p><span [hidden]="!clients.current.package">({{clients.current.package}})</span>&nbsp;</p>
+    </div>
+</div>

@@ -2,8 +2,8 @@ Module;Functionality;Tag;Discontinued;Standard;Professional;Enterprise;Unavailab
 Modulo Base;Descrizioni Multilingua;SEVR;False;True;True;True;False
 ;Gestione Contatti;SEVR;False;False;True;False;False
 ;Budget (Cli/For);SEVR;False;False;True;False;False
-;Multivaluta;SEVR;False;False;True;False;False
-Contabilità Generale;Gestione Pro-rata;CONT;False;False;True;False;False
+;Multivaluta;SEVR;False;False;True;True;False
+Contabilità Generale;Gestione Pro-rata;CONT;False;False;True;True;False
 ;Gestione Plafond;CONT;False;False;True;False;False
 ;Modelli contabili personalizzabili;CONT;False;False;True;False;False
 ;IVA Agenzie di Viaggio;CONT;False;False;True;False;False
