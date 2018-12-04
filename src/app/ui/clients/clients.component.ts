@@ -39,4 +39,12 @@ export class ClientsComponent implements OnInit {
       this.configuration.showUsing(this.clients.current);
     })
   }
+
+  productDescri(fullDescri: string) {
+    return fullDescri
+      .replace("All Database", "")
+      .replace("Powered by MSDE", "")
+      .replace("Powered by SQL Server","")
+      .trim();
+  }
 }

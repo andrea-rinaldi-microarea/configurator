@@ -8,7 +8,7 @@ export class ClientsService {
   public current: any = null;
   public show: boolean = false;
   private index: number = 0;
-  private list: any[];
+  private list: any[] = null;
 
   constructor(
     private http: HttpClient
@@ -25,6 +25,13 @@ export class ClientsService {
       });
     });
     return $clients;
+  }
+
+  available() {
+    return this.list != null;
+  }
+  count() {
+    return this.list? this.list.length : 0;
   }
 
   next(): boolean {

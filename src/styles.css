@@ -27,6 +27,10 @@
     color: #0066CC;
 }
 
+.border-user {
+    border-color: #0066CC !important;
+}
+
 /* 
 #fb5710 orange red
 #fc9565 salmon 

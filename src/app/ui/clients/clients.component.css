@@ -1,0 +1,11 @@
+.card-header {
+    padding: 0.2rem 1.0rem;
+}
+.card-footer {
+    padding: 0;
+    border-top: 0;
+}
+
+.card-body {
+    padding: 0.25rem 0.75rem 0 0.75rem;
+}
