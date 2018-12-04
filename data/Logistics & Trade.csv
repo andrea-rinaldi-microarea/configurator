@@ -1,9 +1,9 @@
 Module;Functionality;Tag;Discontinued;Standard;Professional;Enterprise;Unavailable
 Modulo Base;Descrizioni Multilingua;SEVR;False;True;True;True;False
-;Gestione Contatti;SEVR;False;False;False;False;False
+;Gestione Contatti;SEVR;False;True;True;False;False
 ;Budget (Cli/For);SEVR;False;False;False;False;False
 ;Multivaluta;SEVR;False;False;False;False;False
-Contabilità Generale;"Gestione Pro-rata ";CONT;False;False;False;False;False
+Contabilità Generale;Gestione Pro-rata;CONT;False;False;False;False;False
 ;Gestione Plafond;CONT;False;False;False;False;False
 ;Modelli contabili personalizzabili;CONT;False;False;False;False;False
 ;IVA Agenzie di Viaggio;CONT;False;False;False;False;False
@@ -22,10 +22,10 @@ Contabilità Generale;"Gestione Pro-rata ";CONT;False;False;False;False;False
 Contabilità Previsionale;;COPR;False;False;False;False;False
 XBRL Bilancio;;XBRL;False;False;False;False;False
 Analisi di Bilancio (Basilea II);;BAII;False;False;False;False;False
-"Bilancio Consolidato ";;BICO;False;False;False;False;False
+Bilancio Consolidato;;BICO;False;False;False;False;False
 Contabilità Analitica;Linee di Prodotto;COAN;False;False;False;False;False
 ;Ribaltamenti;COAN;False;False;False;False;False
-"Cespiti ";;CSPT;False;False;False;False;False
+Cespiti;;CSPT;False;False;False;False;False
 Gestione cassa;;CASH;False;False;False;False;False
 Intrastat;;INTR;False;False;False;False;False
 Gestione Banche Avanzato;;BAPL;False;False;False;False;False
@@ -39,7 +39,7 @@ Ordini da clienti;Offerte a clienti;ORCL;False;False;False;False;False
 ;Codice parlante;ORCL;False;False;False;False;False
 ;Multiple Unità di Misura dell'Articolo;ORCL;False;False;False;False;False
 ;Quantità accessorie;ORCL;False;False;False;False;False
-;"Codice a barre dàacquisto e di vendita ";ORCL;False;False;False;False;False
+;Codice a barre dàacquisto e di vendita;ORCL;False;False;False;False;False
 ;Articoli equivalenti;ORCL;False;False;False;False;False
 ;Produttori/Categorie prodotti;ORCL;False;False;False;False;False
 ;Copia documenti;ORCL;False;False;False;False;False
@@ -50,7 +50,7 @@ Vendite;Politiche prezzi;VEDT;False;False;False;False;False
 ;Gestione di pià bollettari;VEDT;False;False;False;False;False
 ;Unità di misura derivate dall'articolo;VEDT;False;False;False;False;False
 ;Quantità accessorie;VEDT;False;False;False;False;False
-;"Codice a barre dàacquisto e di vendita ";VEDT;False;False;False;False;False
+;Codice a barre dàacquisto e di vendita;VEDT;False;False;False;False;False
 ;Picking List;VEDT;False;False;False;False;False
 ;Articoli equivalenti;VEDT;False;False;False;False;False
 ;Import/Export file articoli e note;VEDT;False;False;False;False;False
@@ -61,12 +61,12 @@ RAEE;;RAEE;False;False;False;False;False
 Sales Force Management;;SFMG;False;False;False;False;False
 Gestione Fidi;;CRED;False;False;False;False;False
 Ordini fornitori;Gestione offerte da fornitore;ORFO;False;False;False;False;False
-;"Politiche prezzi ";ORFO;False;False;False;False;False
+;Politiche prezzi;ORFO;False;False;False;False;False
 ;Multilistino;ORFO;False;False;False;False;False
 ;Codice parlante;ORFO;False;False;False;False;False
 ;Unità di misura derivate dallàarticolo;ORFO;False;False;False;False;False
 ;Quantità accessorie;ORFO;False;False;False;False;False
-;"Codice a barre dàacquisto e di vendita ";ORFO;False;False;False;False;False
+;Codice a barre dàacquisto e di vendita;ORFO;False;False;False;False;False
 ;Articoli equivalenti;ORFO;False;False;False;False;False
 ;Produttori/Categorie prodotti;ORFO;False;False;False;False;False
 ;Copia documenti;ORFO;False;False;False;False;False
@@ -79,14 +79,14 @@ Magazzino;Multi deposito;MAGA;False;False;False;False;False
 ;Multi bollettario;MAGA;False;False;False;False;False
 ;Unità di misura derivate dallàarticolo;MAGA;False;False;False;False;False
 ;Quantità accessorie;MAGA;False;False;False;False;False
-;"Codice a barre dàacquisto e di vendita ";MAGA;False;False;False;False;False
+;Codice a barre dàacquisto e di vendita;MAGA;False;False;False;False;False
 ;Articoli equivalenti;MAGA;False;False;False;False;False
 ;Produttori/Categorie prodotti;MAGA;False;False;False;False;False
 ;Import/Export file articoli e note;MAGA;False;False;False;False;False
 ;Movimenti di magazzino di rettifica inventariale;MAGA;False;False;False;False;False
 ;Note Tecniche;MAGA;False;False;False;False;False
 Lotti e Matricole;;LOTT;False;False;False;False;False
-"WMS ";Base;WMAA;False;False;False;False;False
+WMS;Base;WMAA;False;False;False;False;False
 ;Avanzato;WMAD;False;False;False;False;False
 ;Mobile;WMRF;False;False;False;False;False
 Barcode Manager;;BARC;False;False;False;False;False
@@ -108,7 +108,7 @@ Manufacturing Mobile;;MANM;False;False;False;False;True
 Pianificazione;;PRZP;False;False;False;False;True
 Pianificazione Avanzata;Gestione Make or Buy;PRPA;False;False;False;False;True
 Attrezzi;;;False;False;False;False;True
-"DMS ";Base;EATT;False;False;False;False;False
+DMS;Base;EATT;False;False;False;False;False
 ;Massive Archiving Plug-In;EATT;False;False;False;False;False
 Mail Services;;MAIL;False;False;False;False;False
 Resources Management;;;False;False;False;False;False
@@ -121,7 +121,7 @@ Job Scheduler;;SCHD;False;False;False;False;False
 Security;Access profiles;OSLS;False;False;False;False;False
 ;Auditing;AUDT;False;False;False;False;False
 ;Data Protection;;False;False;False;False;False
-"Integration Tools ";IMS;;False;False;False;False;False
+Integration Tools;IMS;;False;False;False;False;False
 ;MagicLink;;False;False;False;False;False
 ;Xgate;;False;False;False;False;False
 e-commerce;;;False;False;False;False;False

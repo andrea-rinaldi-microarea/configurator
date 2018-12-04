@@ -4,10 +4,10 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   selector: 'app-toggle',
   template: `<i 
     class="fa btn btn-sm" 
+    [class.disabled]="disabled"
     [ngClass]= "icons[flag? 1 : 0]"
     (click)="toggle()"
-  ></i>`,
-  styles: [``]
+  ></i>`
 })
 export class ToggleComponent implements OnInit {
   @Input()  flag: boolean;

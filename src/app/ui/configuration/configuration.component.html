@@ -1,5 +1,5 @@
 <div class="row mt-2 d-flex justify-content-center">
-  <div class="col-1 text-right btn btn-sm" (click)="onPrev()">
+  <div class="col-1 text-right btn btn-sm" [class.disabled]="editMode" (click)="editMode || onPrev()">
       <i class="fa fa-big fa-chevron-left text-config-light"></i>
   </div>
   <div>
@@ -9,7 +9,7 @@
       </option>
     </select>
   </div>
-  <div class="col-1 text-left btn btn-sm" (click)="onNext()">
+  <div class="col-1 text-left btn btn-sm" [class.disabled]="editMode" (click)="editMode || onNext()">
     <i class="fa fa-big fa-chevron-right text-config-light"></i>
   </div>
   <div class="right-toolbar" [hidden]="currIndustry == null">
@@ -19,26 +19,24 @@
   </div>
 </div>
 <div class="row mt-2" *ngIf="configuration.current"> 
-  <table class="table table-sm">
+  <table class="table table-sm table-borderless">
       <tr>
           <th><app-toggle class="text-config-light" [icons]="['fa-eye-slash', 'fa-eye']" [(flag)]="hideExcluded"></app-toggle></th>
           <th>Modulo</th>
-          <th class="p-0"></th>
           <th>Funzionalità<app-toggle class="ml-0 mr-0 p-0 text-config-light" [icons]="['fa-eye-slash', 'fa-eye']" [(flag)]="hideFunctionalities"></app-toggle></th>
-          <th class="text-center" [hidden]="!clients.show"><i class="fa fa-user fa-big text-success"></i> </th>
-          <th>Standard</th>
-          <th>Professional</th>
-          <th>Enterprise</th>
+          <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
+          <th class="text-center edition-sep">Standard</th>
+          <th class="text-center edition-sep">Professional</th>
+          <th class="text-center edition-sep">Enterprise</th>
       </tr> 
-      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="feature.unavailable">
-          <td width="15px"><app-toggle [hidden]="feature.discontinued" class="text-config-light" [icons]="['fa-ban', 'fa-sign-in']" [(flag)]="feature.unavailable"></app-toggle></td>
+      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="feature.unavailable" [class.module-sep]="feature.module != ''">
+          <td width="15px"><app-toggle [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [icons]="['fa-ban', 'fa-sign-in']" [(flag)]="feature.unavailable"></app-toggle></td>
           <td [class.discontinued]="feature.discontinued">{{feature.module}}</td>  
-          <td class="p-0"></td>
           <td [class.discontinued]="feature.discontinued">{{hideFunctionalities ? "" : feature.functionality}}</td> 
-          <td class="text-center" [hidden]="!clients.show" [class.package]="feature.fromPackage"><i class="fa in-use text-success" [class.fa-circle]="feature.customer" [class.fa-circle-thin]="!feature.customer"></i></td>
-          <td class="text-center"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.standard"></app-toggle></td>
-          <td class="text-center"><app-toggle [hidden]="feature.unavailable || feature.discontinued" class="text-config" [(flag)]="feature.professional"></app-toggle></td>
-          <td class="text-center"><app-toggle [hidden]="feature.unavailable || feature.discontinued" class="text-config" [(flag)]="feature.enterprise"></app-toggle></td>
+          <td class="text-center edition-sep" [hidden]="!clients.show"><i class="fa in-use text-user" [class.fa-circle]="feature.fromPackage" [class.fa-check]="feature.customer"></i></td>
+          <td class="text-center edition-sep"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.standard"></app-toggle></td>
+          <td class="text-center edition-sep"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.professional"></app-toggle></td>
+          <td class="text-center edition-sep"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.enterprise"></app-toggle></td>
       </tr>
   </table>
 </div>
