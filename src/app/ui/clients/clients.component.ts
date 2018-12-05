@@ -36,6 +36,7 @@ export class ClientsComponent implements OnInit {
 
   onRandom() {
     this.clients.random();
+    this.configuration.showUsing(this.clients.current);
   }
 
   openClients(event) {
