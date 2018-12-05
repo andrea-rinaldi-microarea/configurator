@@ -38,7 +38,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class ToggleComponent implements OnInit {
   @Input()  flag: boolean;
   @Output() flagChange = new EventEmitter<boolean>();
-  @Input() icons: string[] = ["fa-circle-thin", "fa-circle", "fa-check-square-o", "fa-sort-numeric-asc"];
+  @Input() icons: string[] = ["fa-circle-thin", "fa-circle", "fa-check-square-o", "fa-sort-numeric-desc"];
   @Input() disabled: boolean = false;
   private index: number = 1;
   constructor() { }
