@@ -34,9 +34,8 @@
           <td [class.discontinued]="feature.discontinued">{{feature.module}}</td>  
           <td [class.discontinued]="feature.discontinued">{{hideFunctionalities ? "" : feature.functionality}}</td> 
           <td class="text-center edition-sep" [hidden]="!clients.show"><i class="fa in-use text-user" [class.fa-circle]="feature.fromPackage" [class.fa-check]="feature.customer"></i></td>
-          <td class="text-center edition-sep feature" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'">
+          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'">
             <app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.standard"></app-toggle>
-            <i class="fa fa-exchange exchange text-config-light" [hidden]="!editMode"></i>
           </td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.professional"></app-toggle></td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.enterprise"></app-toggle></td>
