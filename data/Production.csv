@@ -6,8 +6,8 @@ Modulo Base;Descrizioni Multilingua;SEVR;False;True;True;True;False
 Contabilità Generale;Gestione Pro-rata;CONT;False;False;True;False;False
 ;Gestione Plafond;CONT;False;False;False;False;False
 ;Modelli contabili personalizzabili;CONT;False;False;True;False;False
-;IVA Agenzie di Viaggio;CONT;False;False;False;False;False
-;Ratei e risconti automatici;CONT;False;False;False;False;False
+;IVA Agenzie di Viaggio;CONT;False;True;False;False;False
+;Ratei e risconti automatici;CONT;False;True;False;False;False
 ;Analisi e riclassificazioni bilancio;CONT;False;False;False;False;False
 ;Presentazioni effetti parametrizzabili;CONT;False;False;False;False;False
 ;Gestione reversali di incasso;CONT;False;False;False;False;False

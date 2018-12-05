@@ -2,12 +2,17 @@ import { ConfigurationService } from './../../services/configuration.service';
 import { ClientsService } from './../../services/clients.service';
 import { Component, OnInit } from '@angular/core';
 
+declare var require: any;
+const packageDescription = require("./package-description.json");
+
 @Component({
   selector: 'app-clients',
   templateUrl: './clients.component.html',
   styleUrls: ['./clients.component.css']
 })
 export class ClientsComponent implements OnInit {
+
+  private packageDescription: any = packageDescription;
 
   constructor(
     private clients: ClientsService,
@@ -27,6 +32,10 @@ export class ClientsComponent implements OnInit {
     if (this.clients.next()) {
       this.configuration.showUsing(this.clients.current);
     }
+  }
+
+  onRandom() {
+    this.clients.random();
   }
 
   openClients(event) {

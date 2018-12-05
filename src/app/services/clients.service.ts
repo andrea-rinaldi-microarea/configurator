@@ -27,11 +27,16 @@ export class ClientsService {
     return $clients;
   }
 
-  available() {
+  available(): boolean {
     return this.list != null;
   }
-  count() {
+
+  count(): number {
     return this.list? this.list.length : 0;
+  }
+
+  currIdx(): number {
+    return this.index + 1;
   }
 
   next(): boolean {
@@ -48,5 +53,14 @@ export class ClientsService {
     }
     this.current = this.list[--this.index];
     return true;
+  }
+
+  random() {
+    if (!this.list) {
+      return;
+    }
+
+    this.index = Math.floor(Math.random() * this.list.length);
+    this.current = this.list[this.index];
   }
 }

@@ -83,7 +83,7 @@
     
     { 
         "tag": "SCOM",
-        "match": ["SEVR", ""] 
+        "match": ["SEVR"] 
     },
     { 
         "tag": "SERD",

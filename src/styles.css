@@ -31,6 +31,14 @@
     border-color: #0066CC !important;
 }
 
+.bg-user-light {
+    background-color: aliceblue;
+}
+
+.bg-user {
+    background-color: lightblue;
+}
+
 /* 
 #fb5710 orange red
 #fc9565 salmon 
