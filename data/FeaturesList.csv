@@ -39,7 +39,7 @@ ORCL;;Multilistino;false
 ORCL;;Codice parlante;false
 ORCL;;Multiple Unità di Misura dell'Articolo;false
 ORCL;;Quantità accessorie;false
-ORCL;;Codice a barre dàacquisto e di vendita ;false
+ORCL;;Codice a barre d'acquisto e di vendita ;false
 ORCL;;Articoli equivalenti;false
 ORCL;;Produttori/Categorie prodotti;false
 ORCL;;Copia documenti;false
@@ -47,10 +47,10 @@ ORCL;;Import/Export file articoli e note;false
 VEDT;Vendite;Politiche prezzi;false
 VEDT;;Multilistino;false
 VEDT;;Codice parlante;false
-VEDT;;Gestione di pià bollettari;false
+VEDT;;Gestione di più bollettari;false
 VEDT;;Unità di misura derivate dall'articolo;false
 VEDT;;Quantità accessorie;false
-VEDT;;Codice a barre dàacquisto e di vendita ;false
+VEDT;;Codice a barre d'acquisto e di vendita ;false
 VEDT;;Picking List;false
 VEDT;;Articoli equivalenti;false
 VEDT;;Import/Export file articoli e note;false
@@ -64,9 +64,9 @@ ORFO;Ordini fornitori;Gestione offerte da fornitore;false
 ORFO;;Politiche prezzi ;false
 ORFO;;Multilistino;false
 ORFO;;Codice parlante;false
-ORFO;;Unità di misura derivate dallàarticolo;false
+ORFO;;Unità di misura derivate dall'articolo;false
 ORFO;;Quantità accessorie;false
-ORFO;;Codice a barre dàacquisto e di vendita ;false
+ORFO;;Codice a barre d'acquisto e di vendita ;false
 ORFO;;Articoli equivalenti;false
 ORFO;;Produttori/Categorie prodotti;false
 ORFO;;Copia documenti;false
@@ -77,9 +77,9 @@ MAGA;Magazzino;Multi deposito;false
 MAGA;;LIFO/FIFO a scatti continui;false
 MAGA;;Codice parlante;false
 MAGA;;Multi bollettario;false
-MAGA;;Unità di misura derivate dallàarticolo;false
+MAGA;;Unità di misura derivate dall'articolo;false
 MAGA;;Quantità accessorie;false
-MAGA;;Codice a barre dàacquisto e di vendita ;false
+MAGA;;Codice a barre d'acquisto e di vendita ;false
 MAGA;;Articoli equivalenti;false
 MAGA;;Produttori/Categorie prodotti;false
 MAGA;;Import/Export file articoli e note;false
