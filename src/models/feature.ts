@@ -8,8 +8,11 @@ export class Feature {
         public unavailable: boolean,
         public fromPackage: boolean,
         public standard: boolean,
+        public standardType: number,
         public professional: boolean,
+        public professionalType: number,
         public enterprise: boolean,
+        public enterpriseType: number,
         public customer: boolean
     ) {}
 }

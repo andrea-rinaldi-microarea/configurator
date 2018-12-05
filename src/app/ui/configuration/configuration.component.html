@@ -35,10 +35,14 @@
           <td [class.discontinued]="feature.discontinued">{{hideFunctionalities ? "" : feature.functionality}}</td> 
           <td class="text-center edition-sep" [hidden]="!clients.show"><i class="fa in-use text-user" [class.fa-circle]="feature.fromPackage" [class.fa-check]="feature.customer"></i></td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'">
-            <app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.standard"></app-toggle>
+            <app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.standard" [(index)]="feature.standardType"></app-toggle>
           </td>
-          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.professional"></app-toggle></td>
-          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.enterprise"></app-toggle></td>
+          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'">
+            <app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.professional" [(index)]="feature.professionalType"></app-toggle>
+          </td>
+          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'">
+            <app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.enterprise" [(index)]="feature.enterpriseType"></app-toggle>
+          </td>
       </tr>
   </table>
 </div>

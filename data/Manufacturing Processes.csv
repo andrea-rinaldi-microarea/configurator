@@ -1,5 +1,5 @@
 Module;Functionality;Tag;Discontinued;Standard;StandardType;Professional;ProfessionalType;Enterprise;EnterpriseType;Unavailable
-Modulo Base;Descrizioni Multilingua;SEVR;False;True;0;True;0;False;0;False
+Modulo Base;Descrizioni Multilingua;SEVR;False;True;2;True;3;True;1;False
 ;Gestione Contatti;SEVR;False;False;0;False;0;False;0;False
 ;Budget (Cli/For);SEVR;False;False;0;False;0;False;0;False
 ;Multivaluta;SEVR;False;False;0;False;0;False;0;False

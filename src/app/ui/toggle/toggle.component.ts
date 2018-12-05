@@ -40,7 +40,8 @@ export class ToggleComponent implements OnInit {
   @Output() flagChange = new EventEmitter<boolean>();
   @Input() icons: string[] = ["fa-circle-thin", "fa-circle", "fa-check-square-o", "fa-sort-numeric-desc"];
   @Input() disabled: boolean = false;
-  private index: number = 1;
+  @Input() index: number = 1;
+  @Output() indexChange = new EventEmitter<number>();
   constructor() { }
 
   ngOnInit() {
@@ -52,7 +53,7 @@ export class ToggleComponent implements OnInit {
     }
 
     this.flag = !this.flag;
-    if (this.flag)
+    if (!this.flag)
       this.index = 1; 
     this.flagChange.emit(this.flag);
   }
@@ -61,7 +62,8 @@ export class ToggleComponent implements OnInit {
     if (this.disabled || !this.flag) {
       return;
     }
-    this.index = 1 + ((this.index + 1) % (this.icons.length - 1)); 
+    this.index = 1 + ((this.index + 1) % (this.icons.length - 1));
+    this.indexChange.emit(this.index); 
   }
 
 }
