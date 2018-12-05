@@ -1,15 +1,15 @@
 Module;Functionality;Tag;Discontinued;Standard;Professional;Enterprise;Unavailable
 Modulo Base;Descrizioni Multilingua;SEVR;False;True;True;True;False
-;Gestione Contatti;SEVR;False;False;True;False;False
-;Budget (Cli/For);SEVR;False;False;True;False;False
+;Gestione Contatti;SEVR;False;False;True;True;False
+;Budget (Cli/For);SEVR;False;False;True;True;False
 ;Multivaluta;SEVR;False;False;True;True;False
 Contabilità Generale;Gestione Pro-rata;CONT;False;False;True;True;False
-;Gestione Plafond;CONT;False;False;True;False;False
-;Modelli contabili personalizzabili;CONT;False;False;True;False;False
-;IVA Agenzie di Viaggio;CONT;False;False;True;False;False
-;Ratei e risconti automatici;CONT;False;False;False;False;False
-;Analisi e riclassificazioni bilancio;CONT;False;False;False;False;False
-;Presentazioni effetti parametrizzabili;CONT;False;False;False;False;False
+;Gestione Plafond;CONT;False;False;True;True;False
+;Modelli contabili personalizzabili;CONT;False;False;True;True;False
+;IVA Agenzie di Viaggio;CONT;False;False;True;True;False
+;Ratei e risconti automatici;CONT;False;False;False;True;False
+;Analisi e riclassificazioni bilancio;CONT;False;False;False;True;False
+;Presentazioni effetti parametrizzabili;CONT;False;False;False;True;False
 ;Gestione reversali di incasso;CONT;False;False;False;False;False
 ;Gestione Factoring;CONT;False;False;False;False;False
 ;Solleciti di pagamento;CONT;False;False;False;False;False
@@ -86,28 +86,28 @@ Magazzino;Multi deposito;MAGA;False;False;False;False;False
 ;Movimenti di magazzino di rettifica inventariale;MAGA;False;False;False;False;False
 ;Note Tecniche;MAGA;False;False;False;False;False
 Lotti e Matricole;;LOTT;False;False;False;False;False
-WMS;Base;WMAA;False;False;False;False;False
-;Avanzato;WMAD;False;False;False;False;False
-;Mobile;WMRF;False;False;False;False;False
-Barcode Manager;;BARC;False;False;False;False;False
-Distinta Base;Calendario Associato ai CdL;DIST;False;False;False;False;False
-;Famiglie di CdL;DIST;False;False;False;False;False
-;E.C.O.;DIST;False;False;False;False;False
-Varianti;;VARI;False;False;False;False;False
-Produzione Base;;PRZB;False;False;False;False;False
-Configuratore;;CONF;False;False;False;False;False
-Produzione Avanzata;Gestione Disegni;PRZA;False;False;False;False;False
-;Storico disegni e indici di revisione;PRZA;False;False;False;False;False
-;Pannello di Controllo;PRZA;False;False;False;False;False
-;Dettaglio delle Consuntivazioni OdP;PRZA;False;False;False;False;False
-;Confronto tra OdP e Distinta;PRZA;False;False;False;False;False
-;Kanban;PRZA;False;False;False;False;False
-;Analisi materiali in produzione;PRZA;False;False;False;False;False
-Ordini Aperti;;OPOR;False;False;False;False;False
-Manufacturing Mobile;;MANM;False;False;False;False;False
-Pianificazione;;PRZP;False;False;False;False;False
-Pianificazione Avanzata;Gestione Make or Buy;PRPA;False;False;False;False;False
-Attrezzi;;;False;False;False;False;False
+WMS;Base;WMAA;False;False;False;False;True
+;Avanzato;WMAD;False;False;False;False;True
+;Mobile;WMRF;False;False;False;False;True
+Barcode Manager;;BARC;False;False;False;False;True
+Distinta Base;Calendario Associato ai CdL;DIST;False;False;False;False;True
+;Famiglie di CdL;DIST;False;False;False;False;True
+;E.C.O.;DIST;False;False;False;False;True
+Varianti;;VARI;False;False;False;False;True
+Produzione Base;;PRZB;False;False;False;False;True
+Configuratore;;CONF;False;False;False;False;True
+Produzione Avanzata;Gestione Disegni;PRZA;False;False;False;False;True
+;Storico disegni e indici di revisione;PRZA;False;False;False;False;True
+;Pannello di Controllo;PRZA;False;False;False;False;True
+;Dettaglio delle Consuntivazioni OdP;PRZA;False;False;False;False;True
+;Confronto tra OdP e Distinta;PRZA;False;False;False;False;True
+;Kanban;PRZA;False;False;False;False;True
+;Analisi materiali in produzione;PRZA;False;False;False;False;True
+Ordini Aperti;;OPOR;False;False;False;False;True
+Manufacturing Mobile;;MANM;False;False;False;False;True
+Pianificazione;;PRZP;False;False;False;False;True
+Pianificazione Avanzata;Gestione Make or Buy;PRPA;False;False;False;False;True
+Attrezzi;;;False;False;False;False;True
 DMS;Base;EATT;False;False;False;False;False
 ;Massive Archiving Plug-In;EATT;False;False;False;False;False
 Mail Services;;MAIL;False;False;False;False;False

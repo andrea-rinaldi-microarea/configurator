@@ -1,5 +1,8 @@
 [
-    { "tag": "SEVR" },
+    { 
+        "tag": "SEVR", 
+        "alias": ["SCOM", "SERD"] 
+    },
     { "tag": "CONT" },
     { "tag": "COPR" },
     { "tag": "XBRL" },
@@ -53,57 +56,37 @@
     { "tag": "XGAT" },
     { 
         "tag": "ADKF",
-        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"] 
-    },
-    { 
-        "tag": "ADPK",
-        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"] 
+        "alias": ["ADPK", "ADPD"], 
+        "package": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"] 
     },
     { 
         "tag": "COMF",
-        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CASH", "VEDT", "ACQT", "MAGA"] 
-    },
-    
-    { 
-        "tag": "COMM",
-        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CASH", "VEDT", "ACQT", "MAGA"] 
+        "alias": ["COMM", "COMD"], 
+        "package": ["SEVR", "EATT", "SOSC", "XGAT", "CASH", "VEDT", "ACQT", "MAGA"] 
     },
     { 
         "tag": "EDU1",
-        "match": ["SEVR", ""] 
+        "package": ["SEVR"] 
     },
     { 
         "tag": "PACK",
-        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA"] 
-    },
-    { 
-        "tag": "PCKF",
-        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA"] 
-    },
-    
-    { 
-        "tag": "SCOM",
-        "match": ["SEVR"] 
-    },
-    { 
-        "tag": "SERD",
-        "match": ["SEVR"] 
+        "alias": ["PCKF", "SBPD"], 
+        "package": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA"] 
     },
     { 
         "tag": "TRKF",
-        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR", "ORCL", "ORFO", "ACQT", "CSPT"] 
-    },
-    { 
-        "tag": "TRPK",
-        "match": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR", "ORCL", "ORFO", "ACQT", "CSPT"] 
+        "alias": ["TRPD", "TRPK"], 
+        "package": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR", "ORCL", "ORFO", "ACQT", "CSPT"] 
     },
     { 
         "tag": "CFIN",
-        "match": ["SEVR", "CONT", "COPR", "XBRL", "BAII", "BICO", "COAN", "CSPT", "CASH", "INTR", "BAPL", "LIBR", "ORCL", "VEDT", "CONA", "RAEE", "SFMG", "CRED", "ORFO", "ACQT", "INSP", "MAGA", "LOTT", "WMAA", "WMAD", "BARC", "DIST", "VARI", "CONF", "OPOR", "EATT", "MAIL", "SCHD", "OSLS", "AUDT", "ELSR", "FISC", "MDOC", "OSLL", "SOSC", "XGAT"] 
+        "alias": ["FIND"], 
+        "package": ["SEVR", "CONT", "COPR", "XBRL", "BAII", "BICO", "COAN", "CSPT", "CASH", "INTR", "BAPL", "LIBR", "ORCL", "VEDT", "CONA", "RAEE", "SFMG", "CRED", "ORFO", "ACQT", "INSP", "MAGA", "LOTT", "WMAA", "WMAD", "BARC", "DIST", "VARI", "CONF", "OPOR", "EATT", "MAIL", "SCHD", "OSLS", "AUDT", "ELSR", "FISC", "MDOC", "OSLL", "SOSC", "XGAT"] 
     },
     { 
         "tag": "CFUL",
-        "match": ["SEVR", "CONT", "COPR", "XBRL", "BAII", "BICO", "COAN", "CSPT", "CASH", "INTR", "BAPL", "LIBR", "ORCL", "VEDT", "CONA", "RAEE", "SFMG", "CRED", "ORFO", "ACQT", "INSP", "MAGA", "LOTT", "WMAA", "WMAD", "BARC", "DIST", "VARI", "PRZB", "CONF", "PRZA", "OPOR", "PRZP", "PRPA", "EATT", "MAIL", "SCHD", "OSLS", "AUDT", "ELSR", "FISC", "MDOC", "OSLL", "SOSC", "XGAT"] 
+        "alias": ["FULD"], 
+        "package": ["SEVR", "CONT", "COPR", "XBRL", "BAII", "BICO", "COAN", "CSPT", "CASH", "INTR", "BAPL", "LIBR", "ORCL", "VEDT", "CONA", "RAEE", "SFMG", "CRED", "ORFO", "ACQT", "INSP", "MAGA", "LOTT", "WMAA", "WMAD", "BARC", "DIST", "VARI", "PRZB", "CONF", "PRZA", "OPOR", "PRZP", "PRPA", "EATT", "MAIL", "SCHD", "OSLS", "AUDT", "ELSR", "FISC", "MDOC", "OSLL", "SOSC", "XGAT"] 
     }
 ]
 

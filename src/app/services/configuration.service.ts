@@ -38,11 +38,23 @@ export class ConfigurationService {
     }
 
     moduleTags.forEach(mod => {
-      if (client[mod.tag] !== "X")
-        return;
-      if (mod.match) {
+      if (client[mod.tag] !== "X") {
+        if (!mod.alias)
+          return;
+        var found: boolean = false;
+        for (var a = 0; a < mod.alias.length; a++) {
+          if (client[mod.alias[a]] == "X") {
+            found = true;
+            break;
+          }
+        }
+        if (!found)
+          return;
+      }
+      
+      if (mod.package) {
         client.package = mod.tag;
-        this.lookForMods(mod.match, true);
+        this.lookForMods(mod.package, true);
       } else {
         this.lookForMods([mod.tag], false);
       }
