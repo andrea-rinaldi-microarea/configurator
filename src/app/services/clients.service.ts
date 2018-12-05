@@ -63,4 +63,18 @@ export class ClientsService {
     this.index = Math.floor(Math.random() * this.list.length);
     this.current = this.list[this.index];
   }
+
+  getEdition(): string {
+    if (!this.current)
+      return "";
+    var product: string = this.current["Descrizione prodotto"];
+    if (product.includes("PRO"))
+      return "PRO";
+    else if (product.includes("ENT"))
+      return "ENT";
+    else if (product.includes("STD"))
+      return "STD"
+    else
+      return "";
+  }
 }

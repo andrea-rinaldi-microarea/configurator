@@ -25,18 +25,18 @@
           <th>Modulo</th>
           <th>Funzionalità<app-toggle class="ml-0 mr-0 p-0 text-config-light" [icons]="['fa-eye-slash', 'fa-eye']" [(flag)]="hideFunctionalities"></app-toggle></th>
           <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
-          <th class="text-center edition-sep">Standard</th>
-          <th class="text-center edition-sep">Professional</th>
-          <th class="text-center edition-sep">Enterprise</th>
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'">Standard</th>
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'">Professional</th>
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'">Enterprise</th>
       </tr> 
       <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="feature.unavailable" [class.module-sep]="feature.module != ''">
           <td width="15px"><app-toggle [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [icons]="['fa-ban', 'fa-sign-in']" [(flag)]="feature.unavailable"></app-toggle></td>
           <td [class.discontinued]="feature.discontinued">{{feature.module}}</td>  
           <td [class.discontinued]="feature.discontinued">{{hideFunctionalities ? "" : feature.functionality}}</td> 
           <td class="text-center edition-sep" [hidden]="!clients.show"><i class="fa in-use text-user" [class.fa-circle]="feature.fromPackage" [class.fa-check]="feature.customer"></i></td>
-          <td class="text-center edition-sep"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.standard"></app-toggle></td>
-          <td class="text-center edition-sep"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.professional"></app-toggle></td>
-          <td class="text-center edition-sep"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.enterprise"></app-toggle></td>
+          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.standard"></app-toggle></td>
+          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.professional"></app-toggle></td>
+          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'"><app-toggle [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(flag)]="feature.enterprise"></app-toggle></td>
       </tr>
   </table>
 </div>
