@@ -49,3 +49,12 @@ select{
     border: 1px solid transparent;
 }
 
+.exchange {
+    float: right;
+    position: absolute;
+    display: none;
+}
+  
+.feature:hover .exchange {
+    display: inline-block;
+}
