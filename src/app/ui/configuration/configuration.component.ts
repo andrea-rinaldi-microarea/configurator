@@ -17,7 +17,36 @@ export class ConfigurationComponent implements OnInit {
   private currIndustry:  number = null;
   private industryList: string[] = industryList;
   private editMode: boolean;
-  
+
+  private featureTypes = [
+    {
+      value: "",
+      icon: "fa-circle-thin"
+    },
+    {
+      value: "X",
+      icon: "fa-circle"
+    },
+    {
+      value: "X/0",
+      icon: "fa-check-square-o"
+    },
+    {
+      value: "Nr-User",
+      icon: "fa-sort-numeric-desc"
+    }
+  ];
+  private unavailableOptions = [
+    {
+      value: false,
+      icon: "fa-ban"
+    }, 
+    {
+      value: true,
+      icon: "fa-sign-in"
+    }
+  ];
+
   constructor(
     private configuration: ConfigurationService,
     private clients: ClientsService 

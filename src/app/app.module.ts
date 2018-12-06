@@ -9,9 +9,9 @@ import { ClientsComponent } from './ui/clients/clients.component';
 import { ConfigurationService } from './services/configuration.service';
 import { ConfigurationComponent } from './ui/configuration/configuration.component';
 import { ToolbarComponent } from './ui/toolbar/toolbar.component';
-import { ToggleComponent } from './ui/toggle/toggle.component';
 import { ExcludedPipe } from './ui/configuration/excluded-pipe';
 import { EditionHeaderComponent } from './ui/edition-header/edition-header.component';
+import { TogglerComponent } from './ui/toggler/toggler.component';
 
 
 @NgModule({
@@ -22,8 +22,8 @@ import { EditionHeaderComponent } from './ui/edition-header/edition-header.compo
     ClientsComponent,
     ConfigurationComponent,
     ToolbarComponent,
-    ToggleComponent,
-    EditionHeaderComponent
+    EditionHeaderComponent,
+    TogglerComponent
   ],
   imports: [
     BrowserModule,

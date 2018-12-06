@@ -7,12 +7,9 @@ export class Feature {
         public discontinued: boolean,
         public unavailable: boolean,
         public fromPackage: boolean,
-        public standard: boolean,
-        public standardType: number,
-        public professional: boolean,
-        public professionalType: number,
-        public enterprise: boolean,
-        public enterpriseType: number,
+        public standard: string,
+        public professional: string,
+        public enterprise: string,
         public customer: boolean
     ) {}
 }
