@@ -25,9 +25,15 @@
           <th>Modulo</th>
           <th>Funzionalità<app-toggle class="ml-0 mr-0 p-0 text-config-light" [icons]="['fa-eye-slash', 'fa-eye']" [(flag)]="hideFunctionalities"></app-toggle></th>
           <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'" (click)="editMode && selectAll('standard')">Standard</th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'" (click)="editMode && selectAll('professional')">Professional</th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'" (click)="editMode && selectAll('enterprise')">Enterprise</th>
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'" (click)="editMode && selectAll('standard')">
+            <app-edition-header [disabled]="!editMode">Standard</app-edition-header> 
+          </th>
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'" (click)="editMode && selectAll('professional')">
+            <app-edition-header [disabled]="!editMode">Professional</app-edition-header>
+          </th>
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'" (click)="editMode && selectAll('enterprise')">
+            <app-edition-header [disabled]="!editMode">Enterprise</app-edition-header>
+          </th>
       </tr> 
       <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="feature.unavailable" [class.module-sep]="feature.module != ''">
           <td width="15px"><app-toggle [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [icons]="['fa-ban', 'fa-sign-in']" [(flag)]="feature.unavailable"></app-toggle></td>

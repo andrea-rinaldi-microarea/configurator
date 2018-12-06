@@ -11,6 +11,7 @@ import { ConfigurationComponent } from './ui/configuration/configuration.compone
 import { ToolbarComponent } from './ui/toolbar/toolbar.component';
 import { ToggleComponent } from './ui/toggle/toggle.component';
 import { ExcludedPipe } from './ui/configuration/excluded-pipe';
+import { EditionHeaderComponent } from './ui/edition-header/edition-header.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ExcludedPipe } from './ui/configuration/excluded-pipe';
     ClientsComponent,
     ConfigurationComponent,
     ToolbarComponent,
-    ToggleComponent
+    ToggleComponent,
+    EditionHeaderComponent
   ],
   imports: [
     BrowserModule,
