@@ -65,5 +65,16 @@ export class ConfigurationComponent implements OnInit {
     }
   }
 
+  selectAll(edition: string) {
+    for (var f = 0; f < this.configuration.current.features.length; f++ ) {
+      if (typeof this.configuration.current.features[f][edition] === "undefined" || this.configuration.current.features[f][edition] == null) {
+        this.configuration.current.features[f][edition] = true;
+        this.configuration.current.features[f][edition+"Type"] = 1;
+      } else {
+        this.configuration.current.features[f][edition] = !(this.configuration.current.features[f][edition]);
+        this.configuration.current.features[f][edition+"Type"] = this.configuration.current.features[f][edition] ? 1 : 0;
+      }
+    }
+  }
 
 }

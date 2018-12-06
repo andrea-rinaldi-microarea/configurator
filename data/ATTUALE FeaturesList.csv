@@ -1,0 +1,140 @@
+Tag;Module;Functionality;Discontinued
+SEVR;Modulo Base;Descrizioni Multilingua;false
+SEVR;;Gestione Contatti;false
+SEVR;;Budget (Cli/For);false
+SEVR;;Multivaluta;false
+CONT;Contabilità Generale;Gestione Pro-rata ;false
+CONT;;Gestione Plafond;false
+CONT;;Modelli contabili personalizzabili;false
+CONT;;IVA Agenzie di Viaggio;false
+CONT;;Ratei e risconti automatici;false
+CONT;;Analisi e riclassificazioni bilancio;false
+CONT;;Presentazioni effetti parametrizzabili;false
+CONT;;Gestione reversali di incasso;false
+CONT;;Gestione Factoring;false
+CONT;;Solleciti di pagamento;false
+CONT;;Gestione automatica insoluti;false
+CONT;;Analisi Scadenzari e Cash Flow;false
+CONT;;Gestione parcelle professionisti e ritenute d'acconto;false
+CONT;;Illimitati registri IVA vendite;false
+CONT;;Illimitati registri IVA acquisti;false
+CONT;;Illimitati registri IVA di altro tipo;false
+COPR;Contabilità Previsionale;;false
+XBRL;XBRL Bilancio;;false
+BAII;Analisi di Bilancio (Basilea II);;false
+BICO;Bilancio Consolidato ;;false
+COAN;Contabilità Analitica;Linee di Prodotto;false
+COAN;;Ribaltamenti;false
+CSPT;Cespiti ;;false
+CASH;Gestione cassa;;false
+INTR;Intrastat;;false
+BAPL;Gestione Banche Avanzato;;false
+LIBR;Libro Inventari e Allegati;;false
+;Tesoreria;;false
+;Fatturazione Elettronica Passiva;;false
+;Fatturazione Elettronica Import. Ciclo Passivo;;false
+ORCL;Ordini da clienti;Offerte a clienti;false
+ORCL;;Politiche prezzi;false
+ORCL;;Multilistino;false
+ORCL;;Codice parlante;false
+ORCL;;Multiple Unità di Misura dell'Articolo;false
+ORCL;;Quantità accessorie;false
+ORCL;;Codice a barre d'acquisto e di vendita ;false
+ORCL;;Articoli equivalenti;false
+ORCL;;Produttori/Categorie prodotti;false
+ORCL;;Copia documenti;false
+ORCL;;Import/Export file articoli e note;false
+VEDT;Vendite;Politiche prezzi;false
+VEDT;;Multilistino;false
+VEDT;;Codice parlante;false
+VEDT;;Gestione di più bollettari;false
+VEDT;;Unità di misura derivate dall'articolo;false
+VEDT;;Quantità accessorie;false
+VEDT;;Codice a barre d'acquisto e di vendita ;false
+VEDT;;Picking List;false
+VEDT;;Articoli equivalenti;false
+VEDT;;Import/Export file articoli e note;false
+VEDT;;Produttori/Categorie prodotti;false
+VEDT;;Copia documenti;false
+CONA;Conai;;false
+RAEE;RAEE;;false
+SFMG;Sales Force Management;;false
+CRED;Gestione Fidi;;false
+ORFO;Ordini fornitori;Gestione offerte da fornitore;false
+ORFO;;Politiche prezzi ;false
+ORFO;;Multilistino;false
+ORFO;;Codice parlante;false
+ORFO;;Unità di misura derivate dall'articolo;false
+ORFO;;Quantità accessorie;false
+ORFO;;Codice a barre d'acquisto e di vendita ;false
+ORFO;;Articoli equivalenti;false
+ORFO;;Produttori/Categorie prodotti;false
+ORFO;;Copia documenti;false
+ORFO;;Import/Export file articoli e note;false
+ACQT;Acquisti;;false
+INSP;Controllo qualità;;false
+MAGA;Magazzino;Multi deposito;false
+MAGA;;LIFO/FIFO a scatti continui;false
+MAGA;;Codice parlante;false
+MAGA;;Multi bollettario;false
+MAGA;;Unità di misura derivate dall'articolo;false
+MAGA;;Quantità accessorie;false
+MAGA;;Codice a barre d'acquisto e di vendita ;false
+MAGA;;Articoli equivalenti;false
+MAGA;;Produttori/Categorie prodotti;false
+MAGA;;Import/Export file articoli e note;false
+MAGA;;Movimenti di magazzino di rettifica inventariale;false
+MAGA;;Note Tecniche;false
+LOTT;Lotti e Matricole;;false
+WMAA;WMS ;Base;false
+WMAD;;Avanzato;false
+WMRF;;Mobile;false
+BARC;Barcode Manager;;false
+DIST;Distinta Base;Calendario Associato ai CdL;false
+DIST;;Famiglie di CdL;false
+DIST;;E.C.O.;false
+VARI;Varianti;;false
+PRZB;Produzione Base;;false
+CONF;Configuratore;;false
+PRZA;Produzione Avanzata;Gestione Disegni;false
+PRZA;;Storico disegni e indici di revisione;false
+PRZA;;Pannello di Controllo;false
+PRZA;;Dettaglio delle Consuntivazioni OdP;false
+PRZA;;Confronto tra OdP e Distinta;false
+PRZA;;Kanban;false
+PRZA;;Analisi materiali in produzione;false
+OPOR;Ordini Aperti;;false
+MANM;Manufacturing Mobile;;false
+PRZP;Pianificazione;;false
+PRPA;Pianificazione Avanzata;Gestione Make or Buy;false
+;Attrezzi;;false
+EATT;DMS ;Base;false
+EATT;;Massive Archiving Plug-In;false
+MAIL;Mail Services;;false
+;Resources Management;;false
+;Calendario Aziendale;;false
+;Reporting Services;;false
+;Collaboration Services;;false
+;Administration Services;;false
+;Subscrption Management;;false
+SCHD;Job Scheduler;;false
+OSLS;Security;Access profiles;false
+AUDT;;Auditing;false
+;;Data Protection;false
+;Integration Tools ;IMS;false
+;;MagicLink;false
+;;Xgate;false
+;e-commerce;;false
+;Reporting Services Studio;;false
+;IMS Studio;;false
+ELSR;Easy Look;;TRUE
+FISC;Spesometro;;TRUE
+IBCO;InfoBusiness Connector Standard;;TRUE
+INPC; ICRM Pat Connector;;false
+MAIF;Infinity Connector;;TRUE
+MDOC;Magic Document;;TRUE
+MIGR;Migration Kit da MagoXP a Mago.Net;;TRUE
+OSLL;Security Light;;TRUE
+SOSC;SOSConnector;;false
+UBIC;Ubicazioni;;TRUE
+XGAT;Xgate;;TRUE
