@@ -53,16 +53,16 @@ export class ToggleComponent implements OnInit {
     }
 
     this.flag = !this.flag;
-    if (!this.flag)
-      this.index = 1; 
+    this.index = 1; 
     this.flagChange.emit(this.flag);
+    this.indexChange.emit(this.index); 
   }
 
   switchImage() {
     if (this.disabled || !this.flag) {
       return;
     }
-    this.index = 1 + ((this.index + 1) % (this.icons.length - 1));
+    this.index = 1 + ((this.index) % (this.icons.length - 1));
     this.indexChange.emit(this.index); 
   }
 
