@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, OnChanges } from '@angular/core';
 
 @Component({
   selector: 'app-toggler',
@@ -35,7 +35,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   }
 `]
 })
-export class TogglerComponent implements OnInit {
+export class TogglerComponent implements OnInit, OnChanges {
   @Input()  value: any;
   @Output() valueChange = new EventEmitter<any>();
   @Input() options: any[] = [
@@ -54,6 +54,14 @@ export class TogglerComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.setIndex();
+  }
+
+  ngOnChanges() {
+    this.setIndex();
+  }
+
+  private setIndex() {
     for (var i = 0; i < this.options.length; i++) {
       if (this.value == this.options[i].value)
         this.index = i;

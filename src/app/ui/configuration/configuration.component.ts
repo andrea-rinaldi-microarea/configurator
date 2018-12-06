@@ -49,7 +49,7 @@ export class ConfigurationComponent implements OnInit {
 
   constructor(
     private configuration: ConfigurationService,
-    private clients: ClientsService 
+    private clients: ClientsService
   ) { }
 
   ngOnInit() {
@@ -95,14 +95,20 @@ export class ConfigurationComponent implements OnInit {
   }
 
   selectAll(edition: string) {
+    var newValue;
+    if  (
+          typeof this.configuration.current.features[0][edition] === "undefined" || 
+          this.configuration.current.features[0][edition] == null
+    ) {
+      newValue = this.featureTypes[1].value;
+    } else {
+      newValue = this.configuration.current.features[0][edition] === this.featureTypes[0].value ? 
+                      this.featureTypes[1].value : 
+                      this.featureTypes[0].value;
+    }
+
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
-      if (typeof this.configuration.current.features[f][edition] === "undefined" || this.configuration.current.features[f][edition] == null) {
-        this.configuration.current.features[f][edition] = true;
-        this.configuration.current.features[f][edition+"Type"] = 1;
-      } else {
-        this.configuration.current.features[f][edition] = !(this.configuration.current.features[f][edition]);
-        this.configuration.current.features[f][edition+"Type"] = this.configuration.current.features[f][edition] ? 1 : 0;
-      }
+      this.configuration.current.features[f][edition] = newValue;
     }
   }
 
