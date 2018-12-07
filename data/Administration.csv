@@ -1,134 +1,134 @@
-Module;Functionality;Tag;Discontinued;Standard;StandardType;Professional;ProfessionalType;Enterprise;EnterpriseType;Unavailable
-Modulo Base;;SEVR;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-;Descrizioni Multilingua;SEVR;FALSE;FALSE;1;TRUE;1;TRUE;1;FALSE
-;Multivaluta;SEVR;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Gestione Contatti;SEVR;FALSE;FALSE;0;FALSE;0;TRUE;1;TRUE
-;Budget (Cli/For);SEVR;FALSE;FALSE;0;FALSE;0;TRUE;1;TRUE
-Contabilità Generale;;CONT;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-;Gestione Pro-rata;CONT;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-;IVA Agenzie di Viaggio;CONT;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-;Gestione Plafond;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Modelli contabili personalizzabili;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Ratei e risconti automatici;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Analisi e riclassificazioni bilancio;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Presentazioni effetti parametrizzabili;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Gestione reversali di incasso;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Solleciti di pagamento;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Gestione parcelle professionisti e ritenute d'acconto;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Illimitati registri IVA vendite;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Illimitati registri IVA acquisti;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Illimitati registri IVA di altro tipo;CONT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Gestione Factoring;CONT;FALSE;FALSE;0;FALSE;1;TRUE;1;FALSE
-;Gestione automatica insoluti;CONT;FALSE;FALSE;0;FALSE;1;TRUE;1;FALSE
-;Analisi Scadenzari e Cash Flow;CONT;FALSE;FALSE;0;FALSE;1;TRUE;1;FALSE
-Connettore AGO;;CONT;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-Connettore B&O / Maestro;;CONT;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-Connettore Magix Fisco Azienda;;CONT;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-Connettore OMNIA;;CONT;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-Connettore Paghe Web;;CONT;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-Fatturazione Elettronica Passiva;;;FALSE;FALSE;1;TRUE;1;TRUE;1;FALSE
-Cespiti;;CSPT;FALSE;FALSE;1;TRUE;1;TRUE;1;FALSE
-Contabilità Previsionale;;COPR;FALSE;FALSE;0;FALSE;1;TRUE;1;FALSE
-XBRL Bilancio;;XBRL;FALSE;FALSE;0;FALSE;1;TRUE;1;FALSE
-Analisi di Bilancio (Basilea II);;BAII;FALSE;FALSE;0;FALSE;1;TRUE;1;FALSE
-Bilancio Consolidato;;BICO;FALSE;FALSE;0;FALSE;0;TRUE;1;FALSE
-Contabilità Analitica;;COAN;FALSE;FALSE;0;FALSE;1;TRUE;1;FALSE
-;Linee di Prodotto;COAN;FALSE;FALSE;0;FALSE;0;TRUE;1;FALSE
-;Ribaltamenti;COAN;FALSE;FALSE;0;FALSE;0;TRUE;1;FALSE
-Gestione cassa;;CASH;FALSE;FALSE;0;FALSE;0;TRUE;1;FALSE
-Intrastat;;INTR;FALSE;FALSE;1;FALSE;1;TRUE;1;FALSE
-Gestione Banche Avanzato;;BAPL;FALSE;FALSE;0;FALSE;1;TRUE;1;FALSE
-Libro Inventari e Allegati;;LIBR;FALSE;FALSE;0;FALSE;0;TRUE;1;FALSE
-Tesoreria;;;FALSE;FALSE;0;FALSE;1;TRUE;1;FALSE
-Vendite/Acquisti;;;FALSE;FALSE;1;FALSE;1;FALSE;1;TRUE
-;Copia documenti;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Import/Export file articoli e note;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Politiche prezzi;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Multilistino;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Codice parlante;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Multiple Unità di Misura dell'Articolo;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Quantità accessorie;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Codice a barre d'acquisto e di vendita;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Articoli equivalenti;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Produttori/Categorie prodotti;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-Politiche Spese;;VEDT;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Connettore TESAN;;VEDT;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Ordini da clienti;;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Offerte a clienti;ORCL;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-Fatturazione/Bollettazione;;VEDT;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-;Gestione di più bollettari;VEDT;FALSE;FALSE;0;TRUE;1;TRUE;1;TRUE
-;Picking List;VEDT;FALSE;FALSE;0;TRUE;1;TRUE;1;TRUE
-e-commerce;;;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-CRM;Base;;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-;ICRM Pat Connector;INPC;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-Conai;;CONA;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-RAEE;;RAEE;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-Sales Force Management;;SFMG;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-Gestione Fidi;;CRED;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-Oneri accessori;;;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Ordini fornitori;;ORFO;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-;Gestione offerte da fornitore;ORFO;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-Acquisti;;ACQT;FALSE;FALSE;0;FALSE;0;FALSE;1;TRUE
-Fatturazione Elettronica Import. Ciclo Passivo;;;FALSE;FALSE;1;TRUE;1;TRUE;1;TRUE
-Controllo qualità;;INSP;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Magazzino;;MAGA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Multi deposito;MAGA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;LIFO/FIFO a scatti continui;MAGA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Movimenti di magazzino di rettifica inventariale;MAGA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Note Tecniche;MAGA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-LIFO/FIFO a scatti continui;;MAGA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Barcode Manager;;BARC;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Lotti e Matricole;;LOTT;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-WMS;Base;WMAA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Avanzato;WMAD;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Shipping;WMAA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Mobile;WMRF;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Distinta Base;;DIST;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Calendario Associato ai CdL;DIST;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Famiglie di CdL;DIST;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;E.C.O.;DIST;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Varianti;;VARI;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Configuratore;;CONF;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Produzione Base;;PRZB;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Produzione Avanzata;;PRZA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Gestione Disegni;PRZA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Storico disegni e indici di revisione;PRZA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Pannello di Controllo;PRZA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Dettaglio delle Consuntivazioni OdP;PRZA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Confronto tra OdP e Distinta;PRZA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Kanban;PRZA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Analisi materiali in produzione;PRZA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Ordini Aperti;;OPOR;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Manufacturing Mobile;;MANM;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Pianificazione;Base;PRZP;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Avanzata;PRPA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-;Gestione Make or Buy;PRPA;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Attrezzi;;;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-DMS;Base;EATT;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;SOSConnector;SOSC;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Massive Archiving Plug-In;EATT;FALSE;FALSE;0;FALSE;0;TRUE;1;FALSE
-Mail Services;;MAIL;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-Resources Management;;;FALSE;FALSE;0;FALSE;1;TRUE;1;TRUE
-Calendario Aziendale;;;FALSE;FALSE;0;FALSE;0;FALSE;0;TRUE
-Reporting Services;;;FALSE;FALSE;0;FALSE;0;TRUE;2;FALSE
-Collaboration Services;;;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-Administration Services;;;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-Subscrption Management;;;FALSE;TRUE;1;TRUE;1;TRUE;1;FALSE
-Job Scheduler;;SCHD;FALSE;FALSE;0;FALSE;0;TRUE;1;FALSE
-Security;Access profiles;OSLS;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-;Auditing;AUDT;FALSE;FALSE;0;TRUE;2;TRUE;1;FALSE
-;Data Protection;;FALSE;FALSE;0;TRUE;2;TRUE;1;FALSE
-Integration Tools;IMS;;FALSE;FALSE;0;TRUE;2;TRUE;2;FALSE
-;MagicLink;;FALSE;FALSE;0;TRUE;2;TRUE;2;FALSE
-;Xgate;;FALSE;FALSE;0;TRUE;2;TRUE;2;FALSE
-IMS Studio;;;FALSE;FALSE;0;TRUE;2;TRUE;2;FALSE
-Reporting Services Studio;;;FALSE;FALSE;0;TRUE;2;TRUE;2;FALSE
-InfoBusiness Connector Standard;;IBCO;FALSE;FALSE;0;TRUE;1;TRUE;1;FALSE
-Easy Look;;ELSR;TRUE;FALSE;0;FALSE;0;FALSE;0;FALSE
-Spesometro;;FISC;TRUE;FALSE;0;FALSE;0;FALSE;0;FALSE
-Infinity Connector;;MAIF;TRUE;FALSE;0;FALSE;0;FALSE;0;FALSE
-Magic Document;;MDOC;TRUE;FALSE;0;FALSE;0;FALSE;0;FALSE
-Migration Kit da MagoXP a Mago.Net;;MIGR;TRUE;FALSE;0;FALSE;0;FALSE;0;FALSE
-Security Light;;OSLL;TRUE;FALSE;0;FALSE;0;FALSE;0;FALSE
-Ubicazioni;;UBIC;TRUE;FALSE;0;FALSE;0;FALSE;0;FALSE
-Xgate;;XGAT;TRUE;FALSE;0;FALSE;0;FALSE;0;FALSE
+Module;Functionality;Tag;Discontinued;Standard;Professional;Enterprise;Unavailable
+Modulo Base;;SEVR;False;X;X;X;False
+;Descrizioni Multilingua;SEVR;False;FALSE;X;X;False
+;Multivaluta;SEVR;False;FALSE;X;X;False
+;Gestione Contatti;SEVR;False;FALSE;FALSE;TRUE;True
+;Budget (Cli/For);SEVR;False;FALSE;FALSE;TRUE;True
+Contabilità Generale;;CONT;False;X;X;X;False
+;Gestione Pro-rata;CONT;False;X;X;X;False
+;IVA Agenzie di Viaggio;CONT;False;X;X;X;False
+;Gestione Plafond;CONT;False;FALSE;X;X;False
+;Modelli contabili personalizzabili;CONT;False;FALSE;X;X;False
+;Ratei e risconti automatici;CONT;False;FALSE;X;X;False
+;Analisi e riclassificazioni bilancio;CONT;False;FALSE;X;X;False
+;Presentazioni effetti parametrizzabili;CONT;False;FALSE;X;X;False
+;Gestione reversali di incasso;CONT;False;FALSE;X;X;False
+;Solleciti di pagamento;CONT;False;FALSE;X;X;False
+;Gestione parcelle professionisti e ritenute d'acconto;CONT;False;FALSE;X;X;False
+;Illimitati registri IVA vendite;CONT;False;FALSE;X;X;False
+;Illimitati registri IVA acquisti;CONT;False;FALSE;X;X;False
+;Illimitati registri IVA di altro tipo;CONT;False;FALSE;X;X;False
+;Gestione Factoring;CONT;False;FALSE;FALSE;X;False
+;Gestione automatica insoluti;CONT;False;FALSE;FALSE;X;False
+;Analisi Scadenzari e Cash Flow;CONT;False;FALSE;FALSE;X;False
+Connettore AGO;;CONT;False;TRUE;TRUE;TRUE;False
+Connettore B&O / Maestro;;CONT;False;TRUE;TRUE;TRUE;False
+Connettore Magix Fisco Azienda;;CONT;False;TRUE;TRUE;TRUE;False
+Connettore OMNIA;;CONT;False;TRUE;TRUE;TRUE;False
+Connettore Paghe Web;;CONT;False;TRUE;TRUE;TRUE;False
+Fatturazione Elettronica Passiva;;;False;FALSE;X;X;False
+Cespiti;;CSPT;False;FALSE;X;X;False
+Contabilità Previsionale;;COPR;False;FALSE;FALSE;X;False
+XBRL Bilancio;;XBRL;False;FALSE;FALSE;X;False
+Analisi di Bilancio (Basilea II);;BAII;False;FALSE;FALSE;X;False
+Bilancio Consolidato;;BICO;False;FALSE;FALSE;X;False
+Contabilità Analitica;;COAN;False;FALSE;FALSE;X;False
+;Linee di Prodotto;COAN;False;FALSE;FALSE;X;False
+;Ribaltamenti;COAN;False;FALSE;FALSE;X;False
+Gestione cassa;;CASH;False;FALSE;FALSE;X;False
+Intrastat;;INTR;False;FALSE;FALSE;X;False
+Gestione Banche Avanzato;;BAPL;False;FALSE;FALSE;X;False
+Libro Inventari e Allegati;;LIBR;False;FALSE;FALSE;X;False
+Tesoreria;;;False;FALSE;FALSE;X;False
+Vendite/Acquisti;;;False;X;X;X;False
+;Copia documenti;ORCL;False;FALSE;FALSE;FALSE;False
+;Import/Export file articoli e note;ORCL;False;FALSE;FALSE;FALSE;False
+;Politiche prezzi;ORCL;False;FALSE;FALSE;FALSE;True
+;Multilistino;ORCL;False;FALSE;FALSE;FALSE;True
+;Codice parlante;ORCL;False;FALSE;FALSE;FALSE;True
+;Multiple Unità di Misura dell'Articolo;ORCL;False;FALSE;FALSE;FALSE;True
+;Quantità accessorie;ORCL;False;FALSE;FALSE;FALSE;True
+;Codice a barre d'acquisto e di vendita;ORCL;False;FALSE;FALSE;FALSE;True
+;Articoli equivalenti;ORCL;False;FALSE;FALSE;FALSE;True
+;Produttori/Categorie prodotti;ORCL;False;FALSE;FALSE;FALSE;True
+Politiche Spese;;VEDT;False;FALSE;FALSE;FALSE;True
+Connettore TESAN;;VEDT;False;FALSE;FALSE;FALSE;True
+Ordini da clienti;;ORCL;False;FALSE;FALSE;FALSE;True
+;Offerte a clienti;ORCL;False;FALSE;FALSE;FALSE;True
+Fatturazione/Bollettazione;;VEDT;False;X;X;X;False
+;Gestione di più bollettari;VEDT;False;FALSE;TRUE;TRUE;True
+;Picking List;VEDT;False;FALSE;TRUE;TRUE;True
+e-commerce;;;False;FALSE;FALSE;FALSE;True
+CRM;Base;;False;TRUE;X;X;False
+;ICRM Pat Connector;INPC;False;FALSE;X;X;False
+Conai;;CONA;False;FALSE;FALSE;FALSE;True
+RAEE;;RAEE;False;FALSE;FALSE;FALSE;True
+Sales Force Management;;SFMG;False;FALSE;FALSE;FALSE;True
+Gestione Fidi;;CRED;False;FALSE;X;X;False
+Oneri accessori;;;False;FALSE;FALSE;FALSE;True
+Ordini fornitori;;ORFO;False;FALSE;FALSE;FALSE;True
+;Gestione offerte da fornitore;ORFO;False;FALSE;FALSE;FALSE;True
+Acquisti;;ACQT;False;FALSE;FALSE;FALSE;True
+Fatturazione Elettronica Import. Ciclo Passivo;;;False;FALSE;TRUE;TRUE;True
+Controllo qualità;;INSP;False;FALSE;FALSE;FALSE;True
+Magazzino;;MAGA;False;FALSE;FALSE;FALSE;True
+;Multi deposito;MAGA;False;FALSE;FALSE;FALSE;True
+;LIFO/FIFO a scatti continui;MAGA;False;FALSE;FALSE;FALSE;True
+;Movimenti di magazzino di rettifica inventariale;MAGA;False;FALSE;FALSE;FALSE;True
+;Note Tecniche;MAGA;False;FALSE;FALSE;FALSE;True
+LIFO/FIFO a scatti continui;;MAGA;False;FALSE;FALSE;FALSE;True
+Barcode Manager;;BARC;False;FALSE;FALSE;FALSE;True
+Lotti e Matricole;;LOTT;False;FALSE;FALSE;FALSE;True
+WMS;Base;WMAA;False;FALSE;FALSE;FALSE;True
+;Avanzato;WMAD;False;FALSE;FALSE;FALSE;True
+;Shipping;WMAA;False;FALSE;FALSE;FALSE;True
+;Mobile;WMRF;False;FALSE;FALSE;FALSE;True
+Distinta Base;;DIST;False;FALSE;FALSE;FALSE;True
+;Calendario Associato ai CdL;DIST;False;FALSE;FALSE;FALSE;True
+;Famiglie di CdL;DIST;False;FALSE;FALSE;FALSE;True
+;E.C.O.;DIST;False;FALSE;FALSE;FALSE;True
+Varianti;;VARI;False;FALSE;FALSE;FALSE;True
+Configuratore;;CONF;False;FALSE;FALSE;FALSE;True
+Produzione Base;;PRZB;False;FALSE;FALSE;FALSE;True
+Produzione Avanzata;;PRZA;False;FALSE;FALSE;FALSE;True
+;Gestione Disegni;PRZA;False;FALSE;FALSE;FALSE;True
+;Storico disegni e indici di revisione;PRZA;False;FALSE;FALSE;FALSE;True
+;Pannello di Controllo;PRZA;False;FALSE;FALSE;FALSE;True
+;Dettaglio delle Consuntivazioni OdP;PRZA;False;FALSE;FALSE;FALSE;True
+;Confronto tra OdP e Distinta;PRZA;False;FALSE;FALSE;FALSE;True
+;Kanban;PRZA;False;FALSE;FALSE;FALSE;True
+;Analisi materiali in produzione;PRZA;False;FALSE;FALSE;FALSE;True
+Ordini Aperti;;OPOR;False;FALSE;FALSE;FALSE;True
+Manufacturing Mobile;;MANM;False;FALSE;FALSE;FALSE;True
+Pianificazione;Base;PRZP;False;FALSE;FALSE;FALSE;True
+;Avanzata;PRPA;False;FALSE;FALSE;FALSE;True
+;Gestione Make or Buy;PRPA;False;FALSE;FALSE;FALSE;True
+Attrezzi;;;False;FALSE;FALSE;FALSE;True
+DMS;Base;EATT;False;FALSE;X;X;False
+;SOSConnector;SOSC;False;FALSE;X;X;False
+;Massive Archiving Plug-In;EATT;False;FALSE;FALSE;X;False
+Mail Services;;MAIL;False;FALSE;X;X;False
+Resources Management;;;False;FALSE;FALSE;TRUE;True
+Calendario Aziendale;;;False;FALSE;FALSE;FALSE;True
+Reporting Services;;;False;FALSE;FALSE;X/0;False
+Collaboration Services;;;False;X;X;X;False
+Administration Services;;;False;X;X;X;False
+Subscrption Management;;;False;X;X;X;False
+Job Scheduler;;SCHD;False;FALSE;FALSE;X;False
+Security;Access profiles;OSLS;False;FALSE;X;X;False
+;Auditing;AUDT;False;FALSE;X/0;X;False
+;Data Protection;;False;FALSE;X/0;X;False
+Integration Tools;IMS;;False;FALSE;X/0;X/0;False
+;MagicLink;;False;FALSE;X/0;X/0;False
+;Xgate;;False;FALSE;X/0;X/0;False
+IMS Studio;;;False;FALSE;X/0;X/0;False
+Reporting Services Studio;;;False;FALSE;X/0;X/0;False
+InfoBusiness Connector Standard;;IBCO;False;FALSE;X;X;False
+Easy Look;;ELSR;True;FALSE;FALSE;FALSE;False
+Spesometro;;FISC;True;FALSE;FALSE;FALSE;False
+Infinity Connector;;MAIF;True;FALSE;FALSE;FALSE;False
+Magic Document;;MDOC;True;FALSE;FALSE;FALSE;False
+Migration Kit da MagoXP a Mago.Net;;MIGR;True;FALSE;FALSE;FALSE;False
+Security Light;;OSLL;True;FALSE;FALSE;FALSE;False
+Ubicazioni;;UBIC;True;FALSE;FALSE;FALSE;False
+Xgate;;XGAT;True;FALSE;FALSE;FALSE;False
