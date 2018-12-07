@@ -2,7 +2,17 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
 
-.bg-config {
+/* 
+sample price list
+
+#fb5710 orange red
+#fc9565 salmon 
+#FBFAF9 white
+#5E5C63 slate gray
+#A8A7A9 light  slate gray
+
+*/
+/* .bg-config {
     background-color:#fb5710 !important;
 }
 
@@ -23,7 +33,6 @@
 }
 
 .text-user {
-    /* color: #006600; */
     color: #0066CC;
 }
 
@@ -38,12 +47,66 @@
 .bg-user {
     background-color: lightblue;
 }
+ */
 
-/* 
-#fb5710 orange red
-#fc9565 salmon 
-#FBFAF9 white
-#5E5C63 slate gray
-#A8A7A9 light  slate gray
+
+/*
+from mago4.com
+
+#00B567 green (#009152)
+#CDCDCD gray
+#00BAEF cyan
+#F2F2F2 light gray
+#0065B3 blue
+
+*/
+.bg-config {
+    background-color:#009152 !important;
+}
+
+.bg-config-light {
+    background-color:#00BAEF !important;
+}
+
+.text-config {
+    color: #009152 !important;
+}
+
+.text-config-light {
+    color: #00BAEF !important;
+}
+
+.text-config-white {
+    color: #F2F2F2 !important;
+}
+
+.text-user {
+    color: #0065B3;
+}
+
+.border-user {
+    border-color: #0065B3 !important;
+}
+
+.bg-user-light {
+    background-color: aliceblue;
+}
+
+.bg-user {
+    background-color: lightblue;
+}
+
+
+
+
+
+/*
+mago4.com from color palette generator
+
+#14B7B7 Light Sea Green
+#8EB6BD Cadet Blue
+#EAF0F0 Light Steel Blue
+#111516 Dark Slate Gray
+#CCCBCC Light Grey
 
 */

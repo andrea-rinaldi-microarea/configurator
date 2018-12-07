@@ -1,5 +1,10 @@
 <nav class="navbar navbar-light bg-config p-1">
-    <span class="navbar-brand text-config-white">Configuratore</span>
+    <div>
+        <span class="navbar-brand">
+            <img src="/assets/M4Cloud.png" alt="">
+        </span>
+        <span class="navbar-brand text-config-white">Configuratore</span>
+    </div>
     <div class="navbar-nav">
         <button class="btn my-2 my-sm-0 btn-outline-light" [class.bg-config-light]="clients.show" (click)="clients.show = !clients.show"><i class="fa fa-users"></i></button>
     </div>
