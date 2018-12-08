@@ -48,3 +48,7 @@ select{
     vertical-align: middle;
     border: 1px solid transparent;
 }
+
+.not-visible {
+    visibility: hidden;
+}
