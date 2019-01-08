@@ -41,16 +41,16 @@ Gestione Banche Avanzato;;BAPL;False;FALSE;FALSE;X;False
 Libro Inventari e Allegati;;LIBR;False;FALSE;FALSE;X;False
 Tesoreria;;;False;FALSE;FALSE;X;False
 Vendite/Acquisti;;;False;X;X;X;False
-;Copia documenti;ORCL;False;FALSE;FALSE;FALSE;False
-;Import/Export file articoli e note;ORCL;False;FALSE;FALSE;FALSE;False
-;Politiche prezzi;ORCL;False;FALSE;FALSE;FALSE;True
-;Multilistino;ORCL;False;FALSE;FALSE;FALSE;True
-;Codice parlante;ORCL;False;FALSE;FALSE;FALSE;True
-;Multiple Unità di Misura dell'Articolo;ORCL;False;FALSE;FALSE;FALSE;True
-;Quantità accessorie;ORCL;False;FALSE;FALSE;FALSE;True
-;Codice a barre d'acquisto e di vendita;ORCL;False;FALSE;FALSE;FALSE;True
-;Articoli equivalenti;ORCL;False;FALSE;FALSE;FALSE;True
-;Produttori/Categorie prodotti;ORCL;False;FALSE;FALSE;FALSE;True
+;Copia documenti;VEDT;False;FALSE;FALSE;FALSE;False
+;Import/Export file articoli e note;VEDT;False;FALSE;FALSE;FALSE;False
+;Politiche prezzi;VEDT;False;FALSE;FALSE;FALSE;True
+;Multilistino;VEDT;False;FALSE;FALSE;FALSE;True
+;Codice parlante;VEDT;False;FALSE;FALSE;FALSE;True
+;Multiple Unità di Misura dell'Articolo;VEDT;False;FALSE;FALSE;FALSE;True
+;Quantità accessorie;VEDT;False;FALSE;FALSE;FALSE;True
+;Codice a barre d'acquisto e di vendita;VEDT;False;FALSE;FALSE;FALSE;True
+;Articoli equivalenti;VEDT;False;FALSE;FALSE;FALSE;True
+;Produttori/Categorie prodotti;VEDT;False;FALSE;FALSE;FALSE;True
 Politiche Spese;;VEDT;False;FALSE;FALSE;FALSE;True
 Connettore TESAN;;VEDT;False;FALSE;FALSE;FALSE;True
 Ordini da clienti;;ORCL;False;FALSE;FALSE;FALSE;True

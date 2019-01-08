@@ -41,16 +41,16 @@ Gestione Banche Avanzato;;BAPL;FALSE
 Libro Inventari e Allegati;;LIBR;FALSE
 Tesoreria;;;FALSE
 Vendite/Acquisti;;;FALSE
-;Copia documenti;ORCL;FALSE
-;Import/Export file articoli e note;ORCL;FALSE
-;Politiche prezzi;ORCL;FALSE
-;Multilistino;ORCL;FALSE
-;Codice parlante;ORCL;FALSE
-;Multiple Unità di Misura dell'Articolo;ORCL;FALSE
-;Quantità accessorie;ORCL;FALSE
-;Codice a barre d'acquisto e di vendita;ORCL;FALSE
-;Articoli equivalenti;ORCL;FALSE
-;Produttori/Categorie prodotti;ORCL;FALSE
+;Copia documenti;VEDT;FALSE
+;Import/Export file articoli e note;VEDT;FALSE
+;Politiche prezzi;VEDT;FALSE
+;Multilistino;VEDT;FALSE
+;Codice parlante;VEDT;FALSE
+;Multiple Unità di Misura dell'Articolo;VEDT;FALSE
+;Quantità accessorie;VEDT;FALSE
+;Codice a barre d'acquisto e di vendita;VEDT;FALSE
+;Articoli equivalenti;VEDT;FALSE
+;Produttori/Categorie prodotti;VEDT;FALSE
 Politiche Spese;;VEDT;FALSE
 Connettore TESAN;;VEDT;FALSE
 Ordini da clienti;;ORCL;FALSE
