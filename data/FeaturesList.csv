@@ -36,11 +36,13 @@ Contabilità Analitica;;COAN;FALSE
 ;Ribaltamenti;COAN;FALSE
 Gestione cassa;;CASH;FALSE
 Intrastat;;INTR;FALSE
-Connettore AGO;;CONT;FALSE
-Connettore B&O / Maestro;;CONT;FALSE
-Connettore Magix Fisco Azienda;;CONT;FALSE
-Connettore OMNIA;;CONT;FALSE
-Connettore Paghe Web;;CONT;FALSE
+Zucchetti Cross-Applications;;;FALSE
+;Connettore AGO;CONT;FALSE
+;Connettore B&O / Maestro;CONT;FALSE
+;Connettore Magix Fisco Azienda;CONT;FALSE
+;Connettore OMNIA;CONT;FALSE
+;Connettore Paghe Web;CONT;FALSE
+;Connettore TESAN;VEDT;FALSE
 Tesoreria;;;FALSE
 Vendite/Acquisti;;;FALSE
 ;Copia documenti;VEDT;FALSE
@@ -54,14 +56,14 @@ Vendite/Acquisti;;;FALSE
 ;Articoli equivalenti;VEDT;FALSE
 ;Produttori/Categorie prodotti;VEDT;FALSE
 Politiche Spese;;VEDT;FALSE
-Connettore TESAN;;VEDT;FALSE
 Ordini da clienti;;ORCL;FALSE
 ;Offerte a clienti;ORCL;FALSE
 Fatturazione/Bollettazione;;VEDT;FALSE
+;Fatturazione Elettronica Attiva;;False;X;X;X;False
 ;Gestione di più bollettari;VEDT;FALSE
 ;Picking List;VEDT;FALSE
 e-commerce;;;FALSE
-CRM;Infinity Connector;;FALSE
+CRM;Infinity Connector;MAIF;FALSE
 ;ICRM Pat Connector;INPC;FALSE
 Conai;;CONA;FALSE
 RAEE;;RAEE;FALSE
@@ -112,14 +114,14 @@ DMS;Base;EATT;FALSE
 Mail Services;;MAIL;FALSE
 Resources Management;;;FALSE
 Calendario Aziendale;;;FALSE
-Reporting Services;;;FALSE
+Reporting Personalizzati;;;FALSE
 Collaboration Services;;;FALSE
 Administration Services;;;FALSE
 Subscription Management;;;FALSE
 Job Scheduler;;SCHD;FALSE
 Security;Access profiles;OSLS;FALSE
 ;Auditing;AUDT;FALSE
-;Data Protection;;FALSE
+;Visibility;;FALSE
 Integration Tools;IMS;;FALSE
 ;MagicLink;;FALSE
 ;Xgate;;FALSE
@@ -128,7 +130,6 @@ Reporting Services Studio;;;FALSE
 InfoBusiness Connector Standard;;IBCO;FALSE
 Easy Look;;ELSR;TRUE
 Spesometro;;FISC;TRUE
-Infinity Connector;;MAIF;TRUE
 Magic Document;;MDOC;TRUE
 Migration Kit da MagoXP a Mago.Net;;MIGR;TRUE
 Security Light;;OSLL;TRUE

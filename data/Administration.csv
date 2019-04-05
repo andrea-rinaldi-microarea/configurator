@@ -36,11 +36,12 @@ Contabilità Analitica;;COAN;False;FALSE;X;X;False
 ;Ribaltamenti;COAN;False;FALSE;FALSE;X;False
 Gestione cassa;;CASH;False;FALSE;FALSE;X;False
 Intrastat;;INTR;False;FALSE;FALSE;X;False
-Connettore AGO;;CONT;False;X;X;X;False
-Connettore B&O / Maestro;;CONT;False;X;X;X;False
-Connettore Magix Fisco Azienda;;CONT;False;X;X;X;False
-Connettore OMNIA;;CONT;False;X;X;X;False
-Connettore Paghe Web;;CONT;False;X;X;X;False
+Zucchetti Cross-Applications;Connettore AGO;CONT;False;X;X;X;False
+;Connettore B&O / Maestro;CONT;False;X;X;X;False
+;Connettore Magix Fisco Azienda;CONT;False;X;X;X;False
+;Connettore OMNIA;CONT;False;X;X;X;False
+;Connettore Paghe Web;CONT;False;X;X;X;False
+;Connettore TESAN;VEDT;False;FALSE;FALSE;FALSE;True
 Tesoreria;;;False;FALSE;FALSE;X;False
 Vendite/Acquisti;;;False;X;X;X;True
 ;Copia documenti;VEDT;False;FALSE;FALSE;FALSE;True
@@ -54,7 +55,6 @@ Vendite/Acquisti;;;False;X;X;X;True
 ;Articoli equivalenti;VEDT;False;FALSE;FALSE;FALSE;True
 ;Produttori/Categorie prodotti;VEDT;False;FALSE;FALSE;FALSE;True
 Politiche Spese;;VEDT;False;FALSE;FALSE;FALSE;True
-Connettore TESAN;;VEDT;False;FALSE;FALSE;FALSE;True
 Ordini da clienti;;ORCL;False;FALSE;FALSE;FALSE;True
 ;Offerte a clienti;ORCL;False;FALSE;FALSE;FALSE;True
 Fatturazione/Bollettazione;;VEDT;False;X;X;X;False
@@ -62,7 +62,7 @@ Fatturazione/Bollettazione;;VEDT;False;X;X;X;False
 ;Gestione di più bollettari;VEDT;False;FALSE;TRUE;TRUE;True
 ;Picking List;VEDT;False;FALSE;TRUE;TRUE;True
 e-commerce;;;False;FALSE;FALSE;FALSE;True
-CRM;Infinity Connector;;False;TRUE;X;X;False
+CRM;Infinity Connector;MAIF;False;TRUE;X;X;False
 ;ICRM Pat Connector;INPC;False;FALSE;X;X;False
 Conai;;CONA;False;FALSE;FALSE;FALSE;True
 RAEE;;RAEE;False;FALSE;FALSE;FALSE;True
@@ -113,14 +113,14 @@ DMS;Base;EATT;False;FALSE;X;X;False
 Mail Services;;MAIL;False;FALSE;X;X;False
 Resources Management;;;False;FALSE;FALSE;TRUE;True
 Calendario Aziendale;;;False;FALSE;FALSE;FALSE;True
-Reporting Services;;;False;X;X;X;False
+Reporting Personalizzati;;;False;X;X;X;False
 Collaboration Services;;;False;X;X;X;False
 Administration Services;;;False;X;X;X;False
 Subscription Management;;;False;X;X;X;False
 Job Scheduler;;SCHD;False;FALSE;FALSE;X;False
 Security;Access profiles;OSLS;False;FALSE;X;X;False
 ;Auditing;AUDT;False;FALSE;X/0;X;False
-;Data Protection;;False;FALSE;X/0;X;False
+;Visibility;;False;FALSE;X/0;X;False
 Integration Tools;IMS;;False;FALSE;X/0;X/0;False
 ;MagicLink;;False;FALSE;X/0;X/0;False
 ;Xgate;;False;FALSE;X/0;X/0;False
@@ -129,7 +129,6 @@ Reporting Services Studio;;;False;FALSE;X/0;X/0;False
 InfoBusiness Connector Standard;;IBCO;False;FALSE;X;X;False
 Easy Look;;ELSR;True;FALSE;FALSE;FALSE;False
 Spesometro;;FISC;True;FALSE;FALSE;FALSE;False
-Infinity Connector;;MAIF;True;FALSE;FALSE;FALSE;False
 Magic Document;;MDOC;True;FALSE;FALSE;FALSE;False
 Migration Kit da MagoXP a Mago.Net;;MIGR;True;FALSE;FALSE;FALSE;False
 Security Light;;OSLL;True;FALSE;FALSE;FALSE;False
