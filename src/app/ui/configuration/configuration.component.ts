@@ -33,8 +33,13 @@ export class ConfigurationComponent implements OnInit {
     },
     {
       value: "Nr-User",
-      icon: "fa-sort-numeric-desc"
+      icon: "fa-user-plus"
+    },
+    {
+      value: "max",
+      icon: "fa-chevron-left"
     }
+    
   ];
   private unavailableOptions = [
     {

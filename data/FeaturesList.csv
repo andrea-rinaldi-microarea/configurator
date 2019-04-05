@@ -5,9 +5,9 @@ Modulo Base;;SEVR;FALSE
 ;Gestione Contatti;SEVR;FALSE
 ;Budget (Cli/For);SEVR;FALSE
 Contabilità Generale;;CONT;FALSE
-;Illimitati registri IVA vendite;CONT;FALSE
-;Illimitati registri IVA acquisti;CONT;FALSE
-;Illimitati registri IVA di altro tipo;CONT;FALSE
+;Registri IVA vendite;CONT;FALSE
+;Registri IVA acquisti;CONT;FALSE
+;Registri IVA di altro tipo;CONT;FALSE
 ;Modelli contabili personalizzabili;CONT;FALSE
 ;Import contabile Fatturazione Elettronica Passiva;;FALSE
 ;Gestione Pro-rata;CONT;FALSE

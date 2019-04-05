@@ -5,9 +5,9 @@ Modulo Base;;SEVR;False;X;X;X;False
 ;Gestione Contatti;SEVR;False;FALSE;FALSE;TRUE;True
 ;Budget (Cli/For);SEVR;False;FALSE;FALSE;TRUE;True
 Contabilità Generale;;CONT;False;X;X;X;False
-;Illimitati registri IVA vendite;CONT;False;FALSE;X;X;False
-;Illimitati registri IVA acquisti;CONT;False;FALSE;X;X;False
-;Illimitati registri IVA di altro tipo;CONT;False;FALSE;X;X;False
+;Registri IVA vendite;CONT;False;max;max;X;False
+;Registri IVA acquisti;CONT;False;max;max;X;False
+;Registri IVA di altro tipo;CONT;False;max;max;X;False
 ;Modelli contabili personalizzabili;CONT;False;FALSE;X;X;False
 ;Import contabile Fatturazione Elettronica Passiva;;False;FALSE;X;X;False
 ;Gestione Pro-rata;CONT;False;X;X;X;False
@@ -113,7 +113,7 @@ DMS;Base;EATT;False;FALSE;X;X;False
 Mail Services;;MAIL;False;FALSE;X;X;False
 Resources Management;;;False;FALSE;FALSE;TRUE;True
 Calendario Aziendale;;;False;FALSE;FALSE;FALSE;True
-Reporting Personalizzati;;;False;X;X;X;False
+Reporting Personalizzati;;;False;max;max;X;False
 Collaboration Services;;;False;X;X;X;False
 Administration Services;;;False;X;X;X;False
 Subscription Management;;;False;X;X;X;False
