@@ -116,7 +116,7 @@ Calendario Aziendale;;;False;FALSE;FALSE;FALSE;True
 Reporting Services;;;False;X;X;X;False
 Collaboration Services;;;False;X;X;X;False
 Administration Services;;;False;X;X;X;False
-Subscrption Management;;;False;X;X;X;False
+Subscription Management;;;False;X;X;X;False
 Job Scheduler;;SCHD;False;FALSE;FALSE;X;False
 Security;Access profiles;OSLS;False;FALSE;X;X;False
 ;Auditing;AUDT;False;FALSE;X/0;X;False
