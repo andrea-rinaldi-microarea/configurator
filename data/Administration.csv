@@ -5,44 +5,46 @@ Modulo Base;;SEVR;False;X;X;X;False
 ;Gestione Contatti;SEVR;False;FALSE;FALSE;TRUE;True
 ;Budget (Cli/For);SEVR;False;FALSE;FALSE;TRUE;True
 Contabilità Generale;;CONT;False;X;X;X;False
-;Gestione Pro-rata;CONT;False;X;X;X;False
-;IVA Agenzie di Viaggio;CONT;False;X;X;X;False
-;Gestione Plafond;CONT;False;FALSE;X;X;False
-;Modelli contabili personalizzabili;CONT;False;FALSE;X;X;False
-;Ratei e risconti automatici;CONT;False;FALSE;X;X;False
-;Analisi e riclassificazioni bilancio;CONT;False;FALSE;X;X;False
-;Presentazioni effetti parametrizzabili;CONT;False;FALSE;X;X;False
-;Gestione reversali di incasso;CONT;False;FALSE;X;X;False
-;Solleciti di pagamento;CONT;False;FALSE;X;X;False
-;Gestione parcelle professionisti e ritenute d'acconto;CONT;False;FALSE;X;X;False
 ;Illimitati registri IVA vendite;CONT;False;FALSE;X;X;False
 ;Illimitati registri IVA acquisti;CONT;False;FALSE;X;X;False
 ;Illimitati registri IVA di altro tipo;CONT;False;FALSE;X;X;False
+;Modelli contabili personalizzabili;CONT;False;FALSE;X;X;False
+;Import contabile Fatturazione Elettronica Passiva;;False;FALSE;X;X;False
+;Gestione Pro-rata;CONT;False;X;X;X;False
+;IVA Agenzie di Viaggio;CONT;False;X;X;X;False
+;Gestione Plafond;CONT;False;FALSE;X;X;False
+;Presentazioni effetti parametrizzabili;CONT;False;FALSE;X;X;False
+;Gestione reversali di incasso;CONT;False;FALSE;X;X;False
+;Solleciti di pagamento;CONT;False;FALSE;X;X;False
+;Analisi Scadenzari e Cash Flow;CONT;False;FALSE;FALSE;X;False
 ;Gestione Factoring;CONT;False;FALSE;FALSE;X;False
 ;Gestione automatica insoluti;CONT;False;FALSE;FALSE;X;False
-;Analisi Scadenzari e Cash Flow;CONT;False;FALSE;FALSE;X;False
-Connettore AGO;;CONT;False;TRUE;TRUE;TRUE;False
-Connettore B&O / Maestro;;CONT;False;TRUE;TRUE;TRUE;False
-Connettore Magix Fisco Azienda;;CONT;False;TRUE;TRUE;TRUE;False
-Connettore OMNIA;;CONT;False;TRUE;TRUE;TRUE;False
-Connettore Paghe Web;;CONT;False;TRUE;TRUE;TRUE;False
-Fatturazione Elettronica Passiva;;;False;FALSE;X;X;False
+;Ratei e risconti automatici;CONT;False;FALSE;X;X;False
+;Analisi e riclassificazioni bilancio;CONT;False;FALSE;X;X;False
+;Gestione parcelle professionisti e ritenute d'acconto;CONT;False;FALSE;X;X;False
+Gestione Banche Avanzato;SEPA XML;BAPL;False;X;X;X;False
+;Bonifici esteri / mandati SDD;BAPL;False;FALSE;X;X;False
+;Riconciliazioni bancarie;BAPL;False;FALSE;FALSE;X;False
 Cespiti;;CSPT;False;FALSE;X;X;False
 Contabilità Previsionale;;COPR;False;FALSE;FALSE;X;False
 XBRL Bilancio;;XBRL;False;FALSE;FALSE;X;False
+Libro Inventari e Allegati;;LIBR;False;FALSE;FALSE;X;False
 Analisi di Bilancio (Basilea II);;BAII;False;FALSE;FALSE;X;False
 Bilancio Consolidato;;BICO;False;FALSE;FALSE;X;False
-Contabilità Analitica;;COAN;False;FALSE;FALSE;X;False
+Contabilità Analitica;;COAN;False;FALSE;X;X;False
 ;Linee di Prodotto;COAN;False;FALSE;FALSE;X;False
 ;Ribaltamenti;COAN;False;FALSE;FALSE;X;False
 Gestione cassa;;CASH;False;FALSE;FALSE;X;False
 Intrastat;;INTR;False;FALSE;FALSE;X;False
-Gestione Banche Avanzato;;BAPL;False;FALSE;FALSE;X;False
-Libro Inventari e Allegati;;LIBR;False;FALSE;FALSE;X;False
+Connettore AGO;;CONT;False;X;X;X;False
+Connettore B&O / Maestro;;CONT;False;X;X;X;False
+Connettore Magix Fisco Azienda;;CONT;False;X;X;X;False
+Connettore OMNIA;;CONT;False;X;X;X;False
+Connettore Paghe Web;;CONT;False;X;X;X;False
 Tesoreria;;;False;FALSE;FALSE;X;False
-Vendite/Acquisti;;;False;X;X;X;False
-;Copia documenti;VEDT;False;FALSE;FALSE;FALSE;False
-;Import/Export file articoli e note;VEDT;False;FALSE;FALSE;FALSE;False
+Vendite/Acquisti;;;False;X;X;X;True
+;Copia documenti;VEDT;False;FALSE;FALSE;FALSE;True
+;Import/Export file articoli e note;VEDT;False;FALSE;FALSE;FALSE;True
 ;Politiche prezzi;VEDT;False;FALSE;FALSE;FALSE;True
 ;Multilistino;VEDT;False;FALSE;FALSE;FALSE;True
 ;Codice parlante;VEDT;False;FALSE;FALSE;FALSE;True
@@ -56,15 +58,16 @@ Connettore TESAN;;VEDT;False;FALSE;FALSE;FALSE;True
 Ordini da clienti;;ORCL;False;FALSE;FALSE;FALSE;True
 ;Offerte a clienti;ORCL;False;FALSE;FALSE;FALSE;True
 Fatturazione/Bollettazione;;VEDT;False;X;X;X;False
+;Fatturazione Elettronica Attiva;;False;X;X;X;False
 ;Gestione di più bollettari;VEDT;False;FALSE;TRUE;TRUE;True
 ;Picking List;VEDT;False;FALSE;TRUE;TRUE;True
 e-commerce;;;False;FALSE;FALSE;FALSE;True
-CRM;Base;;False;TRUE;X;X;False
+CRM;Infinity Connector;;False;TRUE;X;X;False
 ;ICRM Pat Connector;INPC;False;FALSE;X;X;False
 Conai;;CONA;False;FALSE;FALSE;FALSE;True
 RAEE;;RAEE;False;FALSE;FALSE;FALSE;True
 Sales Force Management;;SFMG;False;FALSE;FALSE;FALSE;True
-Gestione Fidi;;CRED;False;FALSE;X;X;False
+Gestione Fidi;;CRED;False;FALSE;X;X;True
 Oneri accessori;;;False;FALSE;FALSE;FALSE;True
 Ordini fornitori;;ORFO;False;FALSE;FALSE;FALSE;True
 ;Gestione offerte da fornitore;ORFO;False;FALSE;FALSE;FALSE;True
@@ -110,7 +113,7 @@ DMS;Base;EATT;False;FALSE;X;X;False
 Mail Services;;MAIL;False;FALSE;X;X;False
 Resources Management;;;False;FALSE;FALSE;TRUE;True
 Calendario Aziendale;;;False;FALSE;FALSE;FALSE;True
-Reporting Services;;;False;FALSE;FALSE;X/0;False
+Reporting Services;;;False;X;X;X;False
 Collaboration Services;;;False;X;X;X;False
 Administration Services;;;False;X;X;X;False
 Subscrption Management;;;False;X;X;X;False
