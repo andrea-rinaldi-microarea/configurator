@@ -12,13 +12,15 @@ import { ToolbarComponent } from './ui/toolbar/toolbar.component';
 import { ExcludedPipe } from './ui/configuration/excluded-pipe';
 import { EditionHeaderComponent } from './ui/edition-header/edition-header.component';
 import { TogglerComponent } from './ui/toggler/toggler.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { IndustryPipe } from './ui/configuration/industry-pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FunctionalityPipe,
     ExcludedPipe,
+    IndustryPipe,
     ClientsComponent,
     ConfigurationComponent,
     ToolbarComponent,
@@ -28,7 +30,8 @@ import { TogglerComponent } from './ui/toggler/toggler.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule.forRoot()
   ],
   providers: [ClientsService, ConfigurationService],
   bootstrap: [AppComponent]
