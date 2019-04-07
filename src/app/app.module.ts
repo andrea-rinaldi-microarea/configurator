@@ -13,14 +13,14 @@ import { ExcludedPipe } from './ui/configuration/excluded-pipe';
 import { EditionHeaderComponent } from './ui/edition-header/edition-header.component';
 import { TogglerComponent } from './ui/toggler/toggler.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { IndustryPipe } from './ui/configuration/industry-pipe';
+import { OtherIndustries } from './ui/configuration/other-industries-pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FunctionalityPipe,
     ExcludedPipe,
-    IndustryPipe,
+    OtherIndustries,
     ClientsComponent,
     ConfigurationComponent,
     ToolbarComponent,

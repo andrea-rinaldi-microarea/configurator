@@ -5,8 +5,6 @@ import { ClientsService } from '../../services/clients.service';
 declare var require: any;
 const industryList = require("./industry-list.json");
 
-
-
 @Component({
   selector: 'app-configuration',
   templateUrl: './configuration.component.html',

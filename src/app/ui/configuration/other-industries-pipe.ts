@@ -1,10 +1,10 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-    name: 'Industry',
+    name: 'OtherIndustries',
     pure: false
 })
-export class IndustryPipe implements PipeTransform {
+export class OtherIndustries implements PipeTransform {
     transform(industries: string[], current: number): any {
         if (!industries || current == null) {
             return industries;

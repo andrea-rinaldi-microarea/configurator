@@ -18,11 +18,10 @@
         <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle>
             <i class="fa fa-big fa-files-o text-config-light"></i>
         </button>
-        <div ngbDropdownMenu style="margin-left:-70px">
-          <button class="dropdown-item" ngbDropdownItem *ngFor="let industry of industryList | Industry:currIndustry">{{industry}}</button>
+        <div ngbDropdownMenu style="margin-left:-75px">
+          <button class="dropdown-item" ngbDropdownItem *ngFor="let industry of industryList | OtherIndustries:currIndustry">{{industry}}</button>
         </div>
       </div>
-      <!-- <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCopy(); editMode=false"><i class="fa fa-big fa-files-o text-config-light"></i></button>  -->
       <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onSave(); editMode=false"><i class="fa fa-big fa-floppy-o text-config-light"></i></button> 
       <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button> 
   </div>
