@@ -19,7 +19,7 @@
             <i class="fa fa-big fa-files-o text-config-light"></i>
         </button>
         <div ngbDropdownMenu style="margin-left:-75px">
-          <button class="dropdown-item" ngbDropdownItem *ngFor="let industry of industryList | OtherIndustries:currIndustry">{{industry}}</button>
+          <button class="dropdown-item" ngbDropdownItem *ngFor="let industry of industryList | OtherIndustries:currIndustry" (click)="onCopy(industry)">{{industry}}</button>
         </div>
       </div>
       <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onSave(); editMode=false"><i class="fa fa-big fa-floppy-o text-config-light"></i></button> 

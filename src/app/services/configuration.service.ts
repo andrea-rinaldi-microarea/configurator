@@ -79,4 +79,14 @@ export class ConfigurationService {
     });
   }
 
+  public copy(sourceIndustry: string): Observable<any> {
+    var $configuration = new Observable<any>(observer => {
+      this.http.get('/api/configurations/' + sourceIndustry).subscribe((data:Feature[]) => {
+        this.current.features = data;
+        observer.next();
+        observer.complete();
+      });
+    });
+    return $configuration;
+  }
 }
