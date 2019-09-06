@@ -81,9 +81,9 @@ Magazzino;;MAGA;False;X;X;X;False
 ;Note Tecniche;MAGA;False;FALSE;FALSE;X;False
 Barcode Manager;;BARC;False;X;X;X;False
 Lotti e Matricole;;LOTT;False;FALSE;X;X;False
-WMS;Base;WMAA;False;FALSE;X/0;X;False
-;Avanzato;WMAD;False;FALSE;FALSE;X;False
-;Shipping;WMAA;False;FALSE;X/0;X;False
+WMS;Base;WMAA;False;FALSE;X/0;X/0;False
+;Avanzato;WMAD;False;FALSE;FALSE;X/0;False
+;Shipping;WMAA;False;FALSE;X/0;X/0;False
 ;Mobile;WMRF;False;FALSE;Nr-User;Nr-User;False
 Distinta Base;;DIST;False;X;X;X;False
 ;Calendario Associato ai CdL;DIST;False;FALSE;FALSE;X;False
