@@ -80,7 +80,6 @@ Magazzino;;MAGA;FALSE
 ;LIFO/FIFO a scatti continui;MAGA;FALSE
 ;Movimenti di magazzino di rettifica inventariale;MAGA;FALSE
 ;Note Tecniche;MAGA;FALSE
-LIFO/FIFO a scatti continui;;MAGA;FALSE
 Barcode Manager;;BARC;FALSE
 Lotti e Matricole;;LOTT;FALSE
 WMS;Base;WMAA;FALSE

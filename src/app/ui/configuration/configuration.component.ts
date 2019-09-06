@@ -19,11 +19,11 @@ export class ConfigurationComponent implements OnInit {
   private featureTypes = [
     {
       value: "",
-      icon: "fa-circle-thin"
+      icon: "fa-star-o"
     },
     {
       value: "X",
-      icon: "fa-circle"
+      icon: "fa-star"
     },
     {
       value: "X/0",
@@ -35,7 +35,7 @@ export class ConfigurationComponent implements OnInit {
     },
     {
       value: "max",
-      icon: "fa-chevron-left"
+      icon: "fa-star-half-o"
     }
     
   ];

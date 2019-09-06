@@ -55,7 +55,7 @@ Vendite/Acquisti;;;False;X;X;X;True
 ;Articoli equivalenti;VEDT;False;FALSE;FALSE;FALSE;True
 ;Produttori/Categorie prodotti;VEDT;False;FALSE;FALSE;FALSE;True
 Politiche Spese;;VEDT;False;FALSE;FALSE;FALSE;True
-Ordini da clienti;;ORCL;False;FALSE;FALSE;FALSE;True
+Ordini da clienti;;ORCL;False;;X/0;X/0;False
 ;Offerte a clienti;ORCL;False;FALSE;FALSE;FALSE;True
 Fatturazione/Bollettazione;;VEDT;False;X;X;X;False
 ;Fatturazione Elettronica Attiva;;False;X;X;X;False
@@ -79,7 +79,6 @@ Magazzino;;MAGA;False;FALSE;FALSE;FALSE;True
 ;LIFO/FIFO a scatti continui;MAGA;False;FALSE;FALSE;FALSE;True
 ;Movimenti di magazzino di rettifica inventariale;MAGA;False;FALSE;FALSE;FALSE;True
 ;Note Tecniche;MAGA;False;FALSE;FALSE;FALSE;True
-LIFO/FIFO a scatti continui;;MAGA;False;FALSE;FALSE;FALSE;True
 Barcode Manager;;BARC;False;FALSE;FALSE;FALSE;True
 Lotti e Matricole;;LOTT;False;FALSE;FALSE;FALSE;True
 WMS;Base;WMAA;False;FALSE;FALSE;FALSE;True
