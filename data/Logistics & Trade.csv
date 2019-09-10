@@ -15,13 +15,14 @@ Contabilità Generale;;CONT;False;X;X;X;False
 ;Gestione Plafond;CONT;False;FALSE;X;X;False
 ;Presentazioni effetti parametrizzabili;CONT;False;FALSE;X;X;False
 ;Gestione reversali di incasso;CONT;False;FALSE;X;X;False
-;Solleciti di pagamento;CONT;False;FALSE;X;X;False
-;Analisi Scadenzari e Cash Flow;CONT;False;FALSE;FALSE;X;False
 ;Gestione Factoring;CONT;False;FALSE;FALSE;X;False
 ;Gestione automatica insoluti;CONT;False;FALSE;FALSE;X;False
+;Solleciti di pagamento;CONT;False;FALSE;X;X;False
+;Analisi Scadenzari e Cash Flow;CONT;False;FALSE;FALSE;X;False
 ;Ratei e risconti automatici;CONT;False;FALSE;X;X;False
 ;Analisi e riclassificazioni bilancio;CONT;False;FALSE;X;X;False
 ;Gestione parcelle professionisti e ritenute d'acconto;CONT;False;FALSE;X;X;False
+;CADI (liquidazione e dati documenti IVA);CONT;False;FALSE;X;X;False
 Gestione Banche Avanzato;SEPA XML;BAPL;False;X;X;X;False
 ;Bonifici esteri / mandati SDD;BAPL;False;FALSE;X;X;False
 ;Riconciliazioni bancarie;BAPL;False;FALSE;FALSE;X;False
@@ -42,7 +43,6 @@ Zucchetti Cross-Applications;Connettore AGO;CONT;False;X;X;X;False
 ;Connettore OMNIA;CONT;False;X;X;X;False
 ;Connettore Paghe Web;CONT;False;X;X;X;False
 ;Connettore TESAN;VEDT;False;X;X;X;False
-Tesoreria;;;False;FALSE;FALSE;X;False
 Vendite/Acquisti;;;False;X;X;X;False
 ;Copia documenti;VEDT;False;X;X;X;False
 ;Import/Export file articoli e note;VEDT;False;X;X;X;False
@@ -72,12 +72,12 @@ Oneri accessori;;;False;FALSE;X;X;False
 Ordini fornitori;;ORFO;False;X;X;X;False
 ;Gestione offerte da fornitore;ORFO;False;FALSE;X;X;False
 Acquisti;;ACQT;False;FALSE;X;X;False
-Fatturazione Elettronica Import. Ciclo Passivo;;;False;X;X;X;False
-Controllo qualità;;INSP;False;FALSE;FALSE;X;False
+;Fatturazione Elettronica Import. Ciclo Passivo;;False;X;X;X;False
 Magazzino;;MAGA;False;X;X;X;False
 ;Multi deposito;MAGA;False;FALSE;X;X;False
 ;LIFO/FIFO a scatti continui;MAGA;False;FALSE;FALSE;X;False
 ;Movimenti di magazzino di rettifica inventariale;MAGA;False;FALSE;FALSE;X;False
+Controllo qualità;;INSP;False;FALSE;FALSE;X;False
 ;Note Tecniche;MAGA;False;FALSE;FALSE;FALSE;True
 Barcode Manager;;BARC;False;X;X;X;False
 Lotti e Matricole;;LOTT;False;FALSE;X;X;False
@@ -122,7 +122,6 @@ Security;Access profiles;OSLS;False;FALSE;X;X;False
 ;Visibility;;False;FALSE;X/0;X;False
 Integration Tools;IMS;;False;FALSE;X/0;X/0;False
 ;MagicLink;;False;FALSE;X/0;X/0;False
-;Xgate;;False;FALSE;X/0;X/0;False
 IMS Studio;;;False;FALSE;X/0;X/0;False
 Reporting Services Studio;;;False;FALSE;X/0;X/0;False
 InfoBusiness Connector Standard;;IBCO;False;FALSE;X;X;False
