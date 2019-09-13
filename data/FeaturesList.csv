@@ -1,13 +1,13 @@
 Module;Functionality;Tag;Discontinued;Fragment;AllowISO;DenyISO;
-Modulo Base;;SEVR;FALSE;Server ;;;
+Modulo Base;;SEVR;FALSE;Server;;;
 ;Descrizioni Multilingua;SEVR;FALSE;Languages;;;
 ;Multivaluta;SEVR;FALSE;Currencies;;;
 ;Gestione Contatti;SEVR;FALSE;Contacts;;;
 ;Budget (Cli/For);SEVR;FALSE;Budget;;;
 Contabilità Generale;;CONT;FALSE;Financials;;;
-;Registri IVA vendite;CONT;FALSE;MultiTaxJournals ;;;
-;Registri IVA acquisti;CONT;FALSE;MultiTaxJournals ;;;
-;Registri IVA di altro tipo;CONT;FALSE;MultiTaxJournals ;;;
+;Registri IVA vendite;CONT;FALSE;MultiTaxJournals;;;
+;Registri IVA acquisti;CONT;FALSE;MultiTaxJournals;;;
+;Registri IVA di altro tipo;CONT;FALSE;MultiTaxJournals;;;
 ;Modelli contabili personalizzabili;CONT;FALSE;CustomizedAccountingTemplates;;;
 ;Import contabile Fatturazione Elettronica Passiva;;FALSE;PurchaseElectronicInvoicing;IT;;
 ;Gestione Pro-rata;CONT;FALSE;ProRata;IT,RO,RS,HR,ES;;

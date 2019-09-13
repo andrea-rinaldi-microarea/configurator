@@ -89,4 +89,25 @@ export class ConfigurationService {
     });
     return $configuration;
   }
+
+  public upgrade(): Observable<any> {
+    var $configuration = new Observable<any>(observer => {
+      this.http.get('/api/configurations/' + 'FeaturesList').subscribe((data:Feature[]) => {
+        for (var f = 0; f < data.length; f++) {
+          var curr = this.current.features.find(feat => data[f].module == feat.module && data[f].functionality == feat.functionality);
+          if (curr != null)
+          {
+            data[f].unavailable = curr.unavailable;
+            data[f].standard = curr.standard;
+            data[f].professional = curr.professional;
+            data[f].enterprise = curr.enterprise;
+          }
+        } 
+        this.current.features = data;
+        observer.next();
+        observer.complete();
+      });
+    });
+    return $configuration;
+  }
 }

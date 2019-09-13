@@ -119,7 +119,12 @@ export class ConfigurationComponent implements OnInit {
     this.configuration.copy(sourceIndustry).subscribe( res => {
       this.configuration.showUsing(this.clients.current);
     });
+  }
 
+  onUpgrade() {
+    this.configuration.upgrade().subscribe( res => {
+      this.configuration.showUsing(this.clients.current);
+    });
   }
 
 }
