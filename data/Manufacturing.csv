@@ -1,134 +1,135 @@
-Module;Functionality;Tag;Discontinued;Standard;Professional;Enterprise;Unavailable
-Modulo Base;;SEVR;FALSE;X;X;X;FALSE
-;Descrizioni Multilingua;SEVR;FALSE;;X;X;FALSE
-;Multivaluta;SEVR;FALSE;;X;X;FALSE
-;Gestione Contatti;SEVR;FALSE;;X;X;FALSE
-;Budget (Cli/For);SEVR;FALSE;;X;X;FALSE
-Contabilità Generale;;CONT;FALSE;X;X;X;FALSE
-;Registri IVA vendite;CONT;FALSE;max;max;X;FALSE
-;Registri IVA acquisti;CONT;FALSE;max;max;X;FALSE
-;Registri IVA di altro tipo;CONT;FALSE;max;max;X;FALSE
-;Modelli contabili personalizzabili;CONT;FALSE;;X;X;FALSE
-;Import contabile Fatturazione Elettronica Passiva;;FALSE;;X;X;FALSE
-;Gestione Pro-rata;CONT;FALSE;X;X;X;FALSE
-;IVA Agenzie di Viaggio;CONT;FALSE;X;X;X;FALSE
-;Gestione Plafond;CONT;FALSE;;X;X;FALSE
-;Presentazioni effetti parametrizzabili;CONT;FALSE;;X;X;FALSE
-;Gestione reversali di incasso;CONT;FALSE;;X;X;FALSE
-;Gestione Factoring;CONT;FALSE;;;X;FALSE
-;Gestione automatica insoluti;CONT;FALSE;;;X;FALSE
-;Solleciti di pagamento;CONT;FALSE;;X;X;FALSE
-;Analisi Scadenzari e Cash Flow;CONT;FALSE;;;X;FALSE
-;Ratei e risconti automatici;CONT;FALSE;;X;X;FALSE
-;Analisi e riclassificazioni bilancio;CONT;FALSE;;X;X;FALSE
-;Gestione parcelle professionisti e ritenute d'acconto;CONT;FALSE;;X;X;FALSE
-;CADI (liquidazione e dati documenti IVA);CONT;FALSE;;X;X;FALSE
-Gestione Banche Avanzato;SEPA XML;BAPL;FALSE;X;X;X;FALSE
-;Bonifici esteri / mandati SDD;BAPL;FALSE;;X;X;FALSE
-;Riconciliazioni bancarie;BAPL;FALSE;;;X;FALSE
-Cespiti;;CSPT;FALSE;;X;X;FALSE
-Contabilità Previsionale;;COPR;FALSE;;;X;FALSE
-XBRL Bilancio;;XBRL;FALSE;;;X;FALSE
-Libro Inventari e Allegati;;LIBR;FALSE;;;X;FALSE
-Analisi di Bilancio (Basilea II);;BAII;FALSE;;;X;FALSE
-Bilancio Consolidato;;BICO;FALSE;;;X;FALSE
-Contabilità Analitica;;COAN;FALSE;;X;X;FALSE
-;Linee di Prodotto;COAN;FALSE;;;X;FALSE
-;Ribaltamenti;COAN;FALSE;;;X;FALSE
-Gestione cassa;;CASH;FALSE;;;X;FALSE
-Intrastat;;INTR;FALSE;;;X;FALSE
-Zucchetti Cross-Applications;Connettore AGO;CONT;FALSE;X;X;X;FALSE
-;Connettore B&O / Maestro;CONT;FALSE;X;X;X;FALSE
-;Connettore Magix Fisco Azienda;CONT;FALSE;X;X;X;FALSE
-;Connettore OMNIA;CONT;FALSE;X;X;X;FALSE
-;Connettore Paghe Web;CONT;FALSE;X;X;X;FALSE
-;Connettore TESAN;VEDT;FALSE;X;X;X;FALSE
-Vendite/Acquisti;;;FALSE;X;X;X;FALSE
-;Copia documenti;VEDT;FALSE;X;X;X;FALSE
-;Import/Export file articoli e note;VEDT;FALSE;X;X;X;FALSE
-;Politiche prezzi;VEDT;FALSE;;X;X;FALSE
-;Multilistino;VEDT;FALSE;;X;X;FALSE
-;Codice parlante;VEDT;FALSE;;X;X;FALSE
-;Multiple Unità di Misura dell'Articolo;VEDT;FALSE;;X;X;FALSE
-;Quantità accessorie;VEDT;FALSE;;X;X;FALSE
-;Codice a barre d'acquisto e di vendita;VEDT;FALSE;;X;X;FALSE
-;Articoli equivalenti;VEDT;FALSE;;X;X;FALSE
-;Produttori/Categorie prodotti;VEDT;FALSE;;X;X;FALSE
-Politiche Spese;;VEDT;FALSE;;;X;FALSE
-Ordini da clienti;;ORCL;FALSE;X;X;X;FALSE
-;Offerte a clienti;ORCL;FALSE;;X;X;FALSE
-Fatturazione/Bollettazione;;VEDT;FALSE;X;X;X;FALSE
-;Fatturazione Elettronica Attiva;;FALSE;X;X;X;FALSE
-;Gestione di più bollettari;VEDT;FALSE;;X;X;FALSE
-;Picking List;VEDT;FALSE;;X;X;FALSE
-e-commerce;;;FALSE;;;;TRUE
-CRM;Infinity Connector;MAIF;FALSE;;X;X;FALSE
-;ICRM Pat Connector;INPC;FALSE;;X;X;FALSE
-Conai;;CONA;FALSE;;X;X;FALSE
-RAEE;;RAEE;FALSE;;X;X;FALSE
-Sales Force Management;;SFMG;FALSE;;X;X;FALSE
-Gestione Fidi;;CRED;FALSE;;X;X;FALSE
-Oneri accessori;;;FALSE;;X;X;FALSE
-Ordini fornitori;;ORFO;FALSE;X;X;X;FALSE
-;Gestione offerte da fornitore;ORFO;FALSE;;X;X;FALSE
-Acquisti;;ACQT;FALSE;;X;X;FALSE
-;Fatturazione Elettronica Import. Ciclo Passivo;;FALSE;X;X;X;FALSE
-Magazzino;;MAGA;FALSE;X;X;X;FALSE
-;Multi deposito;MAGA;FALSE;;X;X;FALSE
-;LIFO/FIFO a scatti continui;MAGA;FALSE;;;X;FALSE
-;Movimenti di magazzino di rettifica inventariale;MAGA;FALSE;;;X;FALSE
-Controllo qualità;;INSP;FALSE;;;X;FALSE
-;Note Tecniche;MAGA;FALSE;;;X;FALSE
-Barcode Manager;;BARC;FALSE;X;X;X;FALSE
-Lotti e Matricole;;LOTT;FALSE;;X;X;FALSE
-WMS;Base;WMAA;FALSE;;X/0;X/0;FALSE
-;Avanzato;WMAD;FALSE;;;X/0;FALSE
-;Shipping;WMAA;FALSE;;X/0;X/0;FALSE
-;Mobile;WMRF;FALSE;;Nr-User;Nr-User;FALSE
-Distinta Base;;DIST;FALSE;X;X;X;FALSE
-;Calendario Associato ai CdL;DIST;FALSE;;;X;FALSE
-;Famiglie di CdL;DIST;FALSE;;;X;FALSE
-;E.C.O.;DIST;FALSE;;;X;FALSE
-Varianti;;VARI;FALSE;;X;X;FALSE
-Configuratore;;CONF;FALSE;;X;X;FALSE
-Produzione Base;;PRZB;FALSE;X;X;X;FALSE
-Produzione Avanzata;;PRZA;FALSE;;X;X;FALSE
-;Gestione Disegni;PRZA;FALSE;;;X;FALSE
-;Storico disegni e indici di revisione;PRZA;FALSE;;;X;FALSE
-;Pannello di Controllo;PRZA;FALSE;;X;X;FALSE
-;Dettaglio delle Consuntivazioni OdP;PRZA;FALSE;;;X;FALSE
-;Confronto tra OdP e Distinta;PRZA;FALSE;;X;X;FALSE
-;Kanban;PRZA;FALSE;;;X;FALSE
-;Analisi materiali in produzione;PRZA;FALSE;;;X;FALSE
-Ordini Aperti;;OPOR;FALSE;;X/0;X;FALSE
-Manufacturing Mobile;;MANM;FALSE;;Nr-User;Nr-User;FALSE
-Pianificazione;Base;PRZP;FALSE;;X;X;FALSE
-;Avanzata;PRPA;FALSE;;;X;FALSE
-;Gestione Make or Buy;PRPA;FALSE;;;X;FALSE
-Attrezzi;;;FALSE;;;X;FALSE
-DMS;Base;EATT;FALSE;;X;X;FALSE
-;SOSConnector;SOSC;FALSE;;X;X;FALSE
-;Massive Archiving Plug-In;EATT;FALSE;;;X;FALSE
-Mail Services;;MAIL;FALSE;;X;X;FALSE
-Resources Management;;;FALSE;;X;X;FALSE
-Calendario Aziendale;;;FALSE;;X;X;FALSE
-Reporting Personalizzati;;;FALSE;max;max;X;FALSE
-Collaboration Services;;;FALSE;X;X;X;FALSE
-Administration Services;;;FALSE;X;X;X;FALSE
-Subscription Management;;;FALSE;X;X;X;FALSE
-Job Scheduler;;SCHD;FALSE;;;X;FALSE
-Security;Access profiles;OSLS;FALSE;;X;X;FALSE
-;Auditing;AUDT;FALSE;;X/0;X;FALSE
-;Visibility;;FALSE;;X/0;X;FALSE
-Integration Tools;IMS;;FALSE;;X/0;X/0;FALSE
-;MagicLink;;FALSE;;X/0;X/0;FALSE
-IMS Studio;;;FALSE;;X/0;X/0;FALSE
-Reporting Services Studio;;;FALSE;;X/0;X/0;FALSE
-InfoBusiness Connector Standard;;IBCO;FALSE;;X;X;FALSE
-Easy Look;;ELSR;TRUE;;;;FALSE
-Spesometro;;FISC;TRUE;;;;FALSE
-Magic Document;;MDOC;TRUE;;;;FALSE
-Migration Kit da MagoXP a Mago.Net;;MIGR;TRUE;;;;FALSE
-Security Light;;OSLL;TRUE;;;;FALSE
-Ubicazioni;;UBIC;TRUE;;;;FALSE
-Xgate;;XGAT;TRUE;;;;FALSE
+Module;Functionality;Tag;Discontinued;Fragment;AllowISO;DenyISO;Standard;Professional;Enterprise;Unavailable
+Modulo Base;;SEVR;False;Server;;;X;X;X;False
+;Descrizioni Multilingua;SEVR;False;Languages;;;;X;X;False
+;Multivaluta;SEVR;False;Currencies;;;;X;X;False
+;Gestione Contatti;SEVR;False;Contacts;;;;X;X;False
+;Budget (Cli/For);SEVR;False;Budget;;;;X;X;False
+Contabilità Generale;;CONT;False;Financials;;;X;X;X;False
+;Registri IVA vendite;CONT;False;MultiTaxJournals;;;max;max;X;False
+;Registri IVA acquisti;CONT;False;MultiTaxJournals;;;max;max;X;False
+;Registri IVA di altro tipo;CONT;False;MultiTaxJournals;;;max;max;X;False
+;Modelli contabili personalizzabili;CONT;False;CustomizedAccountingTemplates;;;;X;X;False
+;Import contabile Fatturazione Elettronica Passiva;;False;PurchaseElectronicInvoicing;IT;;;X;X;False
+;Gestione Pro-rata;CONT;False;ProRata;IT,RO,RS,HR,ES;;X;X;X;False
+;IVA Agenzie di Viaggio;CONT;False;TravelAgencyVAT;IT;;X;X;X;False
+;Gestione Plafond;CONT;False;Plafond;IT,HU;;;X;X;False
+;Presentazioni effetti parametrizzabili;CONT;False;AP_AR_Plus;;;;X;X;False
+;Gestione reversali di incasso;CONT;False;AP_AR_Plus;;;;X;X;False
+;Gestione Factoring;CONT;False;AP_AR_Plus;;;;;X;False
+;Gestione automatica insoluti;CONT;False;AP_AR_Plus;;;;;X;False
+;Solleciti di pagamento;CONT;False;Dunnings;;;;X;X;False
+;Analisi Scadenzari e Cash Flow;CONT;False;AP_AR_Analysis;;;;;X;False
+;Ratei e risconti automatici;CONT;False;AccrualsDeferrals;;;;X;X;False
+;Analisi e riclassificazioni bilancio;CONT;False;BalanceAnalysis;;;;X;X;False
+;Gestione parcelle professionisti e ritenute d'acconto;CONT;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;False
+;CADI (liquidazione e dati documenti IVA);CONT;False;CADI;;;;X;X;False
+Gestione Banche Avanzato;SEPA XML;BAPL;False;Banks_Plus;IT;;X;X;X;False
+;Bonifici esteri / mandati SDD;BAPL;False;Banks_Plus;IT;;;X;X;False
+;Riconciliazioni bancarie;BAPL;False;Banks_Plus;IT;;;;X;False
+Cespiti;;CSPT;False;FixedAssets;;;;X;X;False
+Contabilità Previsionale;;COPR;False;ForecastAccounting;;;;;X;False
+XBRL Bilancio;;XBRL;False;XBRL;IT;;;;X;False
+Libro Inventari e Allegati;;LIBR;False;AccountingBooks;;;;;X;False
+Analisi di Bilancio (Basilea II);;BAII;False;Basel_II;IT;;;;X;False
+Bilancio Consolidato;;BICO;False;MultiCompanyBalances;;;;;X;False
+Contabilità Analitica;;COAN;False;CostAccounting;;;;X;X;False
+;Linee di Prodotto;COAN;False;ProductLines;;;;;X;False
+;Ribaltamenti;COAN;False;CostAccountingTransfer;;;;;X;False
+Gestione cassa;;CASH;False;Cash;;IT,CH,BR;;;X;False
+Intrastat;;INTR;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;;;X;False
+Zucchetti Cross-Applications;;;False;;;;;;;False
+;Connettore AGO;CONT;False;AGOConnector;IT;;;;;False
+;Connettore B&O / Maestro;CONT;False;BEOConnector;IT;;X;X;X;False
+;Connettore Magix Fisco Azienda;CONT;False;FiscoAziendaConnector;IT;;X;X;X;False
+;Connettore OMNIA;CONT;False;OMNIAConnector;IT;;X;X;X;False
+;Connettore Paghe Web;CONT;False;PayrollImport;IT;;X;X;X;False
+;Connettore TESAN;VEDT;False;TESANConnector;IT;;X;X;X;False
+Vendite/Acquisti;;;False;Sales;;;X;X;X;False
+;Copia documenti;VEDT;False;DocumentCopy;;;X;X;X;False
+;Import/Export file articoli e note;VEDT;False;DocumentDetailImportExport;;;X;X;X;False
+;Politiche prezzi;VEDT;False;PricePolicies;;;;X;X;False
+;Multilistino;VEDT;False;PricePolicies;;;;X;X;False
+;Codice parlante;VEDT;False;SmartCode;;;;X;X;False
+;Multiple Unità di Misura dell'Articolo;VEDT;False;AdvancedUoMs;;;;X;X;False
+;Quantità accessorie;VEDT;False;AdditionalQty;;;;X;X;False
+;Codice a barre d'acquisto e di vendita;VEDT;False;PurhcaseBarCode;;;;X;X;False
+;Articoli equivalenti;VEDT;False;SubstituteItems;;;;X;X;False
+;Produttori/Categorie prodotti;VEDT;False;ProductCategories;;;;X;X;False
+Politiche Spese;;VEDT;False;ChargePolicies;;;;;X;False
+Ordini da clienti;;ORCL;False;SaleOrders;;BR;X;X;X;False
+;Offerte a clienti;ORCL;False;CustomerQuotations;;;;X;X;False
+Fatturazione/Bollettazione;;VEDT;False;;;;X;X;X;False
+;Fatturazione Elettronica Attiva;;False;ElectronicInvoicing;IT,HU,BR;;X;X;X;False
+;Gestione di più bollettari;VEDT;False;MultiStubBooks;;;;X;X;False
+;Picking List;VEDT;False;PickingList;;;;X;X;False
+e-commerce;;;False;;;;;;;True
+CRM;Infinity Connector;MAIF;False;;;;;X;X;False
+;ICRM Pat Connector;INPC;False;;;;;X;X;False
+Conai;;CONA;False;Conai;IT,RO,BG,HU,ES;;;X;X;False
+RAEE;;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;;X;X;False
+Sales Force Management;;SFMG;False;SalesPeople;;;;X;X;False
+Gestione Fidi;;CRED;False;CreditLimit;;;;X;X;False
+Oneri accessori;;;False;AdditionalCharges;;BR;;X;X;False
+Ordini fornitori;;ORFO;False;PurchaseOrders;;;X;X;X;False
+;Gestione offerte da fornitore;ORFO;False;SupplierQuotations;;;;X;X;False
+Acquisti;;ACQT;False;Purchases;;;;X;X;False
+;Fatturazione Elettronica Import. Ciclo Passivo;;False;;;;X;X;X;False
+Magazzino;;MAGA;False;Inventory;;;X;X;X;False
+;Multi deposito;MAGA;False;MultiStorage;;;;X;X;False
+;LIFO/FIFO a scatti continui;MAGA;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;;;X;False
+;Movimenti di magazzino di rettifica inventariale;MAGA;False;InventoryAdjustment;;;;;X;False
+Controllo qualità;;INSP;False;QualityInspection;;;;;X;False
+;Note Tecniche;MAGA;False;QualityInspection;;;;;X;False
+Barcode Manager;;BARC;False;Barcode;;;X;X;X;False
+Lotti e Matricole;;LOTT;False;LotsSerials;;;;X;X;False
+WMS;Base;WMAA;False;WMSBasic;;;;X/0;X/0;False
+;Avanzato;WMAD;False;WMSAdvanced;;;;;X/0;False
+;Shipping;WMAA;False;;;;;X/0;X/0;False
+;Mobile;WMRF;False;WMSMobile;;;;Nr-User;Nr-User;False
+Distinta Base;;DIST;False;;;;X;X;X;False
+;Calendario Associato ai CdL;DIST;False;;;;;;X;False
+;Famiglie di CdL;DIST;False;;;;;;X;False
+;E.C.O.;DIST;False;;;;;;X;False
+Varianti;;VARI;False;;;;;X;X;False
+Configuratore;;CONF;False;;;;;X;X;False
+Produzione Base;;PRZB;False;;;;X;X;X;False
+Produzione Avanzata;;PRZA;False;;;;;X;X;False
+;Gestione Disegni;PRZA;False;;;;;;X;False
+;Storico disegni e indici di revisione;PRZA;False;;;;;;X;False
+;Pannello di Controllo;PRZA;False;;;;;X;X;False
+;Dettaglio delle Consuntivazioni OdP;PRZA;False;;;;;;X;False
+;Confronto tra OdP e Distinta;PRZA;False;;;;;X;X;False
+;Kanban;PRZA;False;;;;;;X;False
+;Analisi materiali in produzione;PRZA;False;;;;;;X;False
+Ordini Aperti;;OPOR;False;;;;;X/0;X;False
+Manufacturing Mobile;;MANM;False;;;;;Nr-User;Nr-User;False
+Pianificazione;Base;PRZP;False;;;;;X;X;False
+;Avanzata;PRPA;False;;;;;;X;False
+;Gestione Make or Buy;PRPA;False;;;;;;X;False
+Attrezzi;;;False;;;;;;X;False
+DMS;Base;EATT;False;;;;;X;X;False
+;SOSConnector;SOSC;False;;;;;X;X;False
+;Massive Archiving Plug-In;EATT;False;;;;;;X;False
+Mail Services;;MAIL;False;;;;;X;X;False
+Resources Management;;;False;;;;;X;X;False
+Calendario Aziendale;;;False;;;;;X;X;False
+Reporting Personalizzati;;;False;;;;max;max;X;False
+Collaboration Services;;;False;;;;X;X;X;False
+Administration Services;;;False;;;;X;X;X;False
+Subscription Management;;;False;;;;X;X;X;False
+Job Scheduler;;SCHD;False;;;;;;X;False
+Security;Access profiles;OSLS;False;;;;;X;X;False
+;Auditing;AUDT;False;;;;;X/0;X;False
+;Visibility;;False;;;;;X/0;X;False
+Integration Tools;IMS;;False;;;;;X/0;X/0;False
+;MagicLink;;False;;;;;X/0;X/0;False
+IMS Studio;;;False;;;;;X/0;X/0;False
+Reporting Services Studio;;;False;;;;;X/0;X/0;False
+InfoBusiness Connector Standard;;IBCO;False;IBConnector;;;;X;X;False
+Easy Look;;ELSR;True;;;;;;;False
+Spesometro;;FISC;True;;;;;;;False
+Magic Document;;MDOC;True;;;;;;;False
+Migration Kit da MagoXP a Mago.Net;;MIGR;True;;;;;;;False
+Security Light;;OSLL;True;;;;;;;False
+Ubicazioni;;UBIC;True;;;;;;;False
+Xgate;;XGAT;True;;;;;;;False

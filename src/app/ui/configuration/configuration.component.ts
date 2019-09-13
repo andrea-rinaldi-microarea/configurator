@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ConfigurationService } from '../../services/configuration.service';
 import { ClientsService } from '../../services/clients.service';
+import { Feature } from '../../../models/feature';
 
 declare var require: any;
 const industryList = require("./industry-list.json");
@@ -125,6 +126,16 @@ export class ConfigurationComponent implements OnInit {
     this.configuration.upgrade().subscribe( res => {
       this.configuration.showUsing(this.clients.current);
     });
+  }
+
+  isLinked(feature: Feature) {
+    var idx = this.configuration.current.features.findIndex(feat => feature.module == feat.module && feature.functionality == feat.functionality);
+    return  feature.fragment != "" &&
+            feature.fragment != null &&
+            (
+              (idx > 0 && feature.fragment == this.configuration.current.features[idx - 1].fragment) ||
+              (idx < this.configuration.current.features.length - 1  && feature.fragment == this.configuration.current.features[idx + 1].fragment)
+            );
   }
 
 }
