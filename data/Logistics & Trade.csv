@@ -84,29 +84,29 @@ Barcode Manager;;BARC;False;Barcode;;;X;X;X;False
 Lotti e Matricole;;LOTT;False;LotsSerials;;;;X;X;False
 WMS;Base;WMAA;False;WMSBasic;;;;X/0;X;False
 ;Avanzato;WMAD;False;WMSAdvanced;;;;;X;False
-;Shipping;WMAA;False;;;;;X/0;X;False
+;Shipping;WMAA;False;WMSShipping;;;;X/0;X;False
 ;Mobile;WMRF;False;WMSMobile;;;;Nr-User;Nr-User;False
-Distinta Base;;DIST;False;;;;;X/0;X/0;False
-;Calendario Associato ai CdL;DIST;False;;;;;;;True
-;Famiglie di CdL;DIST;False;;;;;;;True
-;E.C.O.;DIST;False;;;;;;;True
-Varianti;;VARI;False;;;;;;;True
-Configuratore;;CONF;False;;;;;;;True
-Produzione Base;;PRZB;False;;;;;;;True
-Produzione Avanzata;;PRZA;False;;;;;;;True
-;Gestione Disegni;PRZA;False;;;;;;;True
-;Storico disegni e indici di revisione;PRZA;False;;;;;;;True
-;Pannello di Controllo;PRZA;False;;;;;;;True
-;Dettaglio delle Consuntivazioni OdP;PRZA;False;;;;;;;True
-;Confronto tra OdP e Distinta;PRZA;False;;;;;;;True
-;Kanban;PRZA;False;;;;;;;True
-;Analisi materiali in produzione;PRZA;False;;;;;;;True
-Ordini Aperti;;OPOR;False;;;;;;;True
-Manufacturing Mobile;;MANM;False;;;;;;;True
-Pianificazione;Base;PRZP;False;;;;;;;True
-;Avanzata;PRPA;False;;;;;;;True
-;Gestione Make or Buy;PRPA;False;;;;;;;True
-Attrezzi;;;False;;;;;;;True
+Distinta Base;;DIST;False;BillOfMaterials;;;;X/0;X/0;False
+;Calendario Associato ai CdL;DIST;False;BillOfMaterials;;;;;;True
+;Famiglie di CdL;DIST;False;BillOfMaterials;;;;;;True
+;E.C.O.;DIST;False;ECO;;;;;;True
+Varianti;;VARI;False;Variants;;;;;;True
+Configuratore;;CONF;False;Configurator;;;;;;True
+Produzione Base;;PRZB;False;ManufacturingBasic;;;;;;True
+Produzione Avanzata;;PRZA;False;ManufacturingAdvanced;;;;;;True
+;Dettaglio delle Consuntivazioni OdP;PRZA;False;ManufacturingAdvanced;;;;;;True
+;Confronto tra OdP e Distinta;PRZA;False;ManufacturingAdvanced;;;;;;True
+;Analisi materiali in produzione;PRZA;False;ManufacturingAdvanced;;;;;;True
+;Gestione Disegni;PRZA;False;BillOfMaterials;;;;;;True
+;Storico disegni e indici di revisione;PRZA;False;BillOfMaterialsPlus;;;;;;True
+;Pannello di Controllo;PRZA;False;ManufacturingPlus;;;;;;True
+;Kanban;PRZA;False;Kanban;;;;;;True
+Ordini Aperti;;OPOR;False;OpenOrders;;;;;;True
+Manufacturing Mobile;;MANM;False;ManufacturingMobile;;;;;;True
+Pianificazione;Base;PRZP;False;ManufacturingPlanning;;;;;;True
+;Avanzata;PRPA;False;MRPAdvanced;;;;;;True
+;Gestione Make or Buy;PRPA;False;MRPAdvanced;;;;;;True
+Attrezzi;;;False;ToolsManagement;;;;;;True
 DMS;Base;EATT;False;;;;;X;X;False
 ;SOSConnector;SOSC;False;;;;;X;X;False
 ;Massive Archiving Plug-In;EATT;False;;;;;;X;False
@@ -117,12 +117,12 @@ Reporting Personalizzati;;;False;;;;max;max;X;False
 Collaboration Services;;;False;;;;X;X;X;False
 Administration Services;;;False;;;;X;X;X;False
 Subscription Management;;;False;;;;X;X;X;False
-Job Scheduler;;SCHD;False;;;;;;X;False
-Security;Access profiles;OSLS;False;;;;;X;X;False
-;Auditing;AUDT;False;;;;;X/0;X;False
+Job Scheduler;;SCHD;False;JobScheduler;;;;;X;False
+Security;Access profiles;OSLS;False;Security;;;;X;X;False
+;Auditing;AUDT;False;Auditing;;;;X/0;X;False
 ;Visibility;;False;;;;;X/0;X;False
 Integration Tools;IMS;;False;;;;;X/0;X/0;False
-;MagicLink;;False;;;;;X/0;X/0;False
+;MagicLink;;False;MagicLink;;;;X/0;X/0;False
 IMS Studio;;;False;;;;;X/0;X/0;False
 Reporting Services Studio;;;False;;;;;X/0;X/0;False
 InfoBusiness Connector Standard;;IBCO;False;IBConnector;;;;X;X;False

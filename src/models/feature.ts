@@ -11,6 +11,8 @@ export class Feature {
         public standard: string,
         public professional: string,
         public enterprise: string,
-        public customer: boolean
+        public customer: boolean,
+        public allowISO: string,
+        public denyISO: string
     ) {}
 }

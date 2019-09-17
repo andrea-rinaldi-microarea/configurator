@@ -138,4 +138,20 @@ export class ConfigurationComponent implements OnInit {
             );
   }
 
+  isLocalized(feature: Feature) {
+    return  (feature.allowISO != "" && feature.allowISO != null) ||
+            (feature.denyISO != "" && feature.denyISO != null)
+  }
+
+  ISOTooltip(feature: Feature) {
+    var tooltip: string;
+    if (feature.allowISO != "") {
+      tooltip = "Disponibile in: " +  feature.allowISO;
+    }
+    if (feature.denyISO != "") {
+      if (tooltip != null) tooltip += "\n";
+      tooltip = "Non disponibile in: " +  feature.denyISO;
+    }
+    return tooltip;
+  }
 }
