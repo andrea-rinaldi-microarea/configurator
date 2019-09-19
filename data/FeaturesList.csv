@@ -37,8 +37,7 @@ Contabilità Analitica;;COAN;FALSE;CostAccounting;;
 ;Ribaltamenti;COAN;FALSE;CostAccountingTransfer;;
 Gestione cassa;;CASH;FALSE;Cash;;IT,CH,BR
 Intrastat;;INTR;FALSE;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;
-Zucchetti Cross-Applications;;;FALSE;;;
-;Connettore AGO;CONT;FALSE;AGOConnector;IT;
+Zucchetti Cross-Applications;Connettore AGO;CONT;FALSE;AGOConnector;IT;
 ;Connettore B&O / Maestro;CONT;FALSE;BEOConnector;IT;
 ;Connettore Magix Fisco Azienda;CONT;FALSE;FiscoAziendaConnector;IT;
 ;Connettore OMNIA;CONT;FALSE;OMNIAConnector;IT;
@@ -55,8 +54,8 @@ Vendite/Acquisti;;;FALSE;Sales;;
 ;Codice a barre d'acquisto e di vendita;VEDT;FALSE;PurhcaseBarCode;;
 ;Articoli equivalenti;VEDT;FALSE;SubstituteItems;;
 ;Produttori/Categorie prodotti;VEDT;FALSE;ProductCategories;;
-Politiche Spese;;VEDT;FALSE;ChargePolicies;;
-Ordini da clienti;;ORCL;FALSE;SaleOrders;;BR
+Politiche Spese;;VEDT;FALSE;ChargePolicies;;BR
+Ordini da clienti;;ORCL;FALSE;SaleOrders;;
 ;Offerte a clienti;ORCL;FALSE;CustomerQuotations;;
 Fatturazione/Bollettazione;;VEDT;FALSE;;;
 ;Fatturazione Elettronica Attiva;;FALSE;ElectronicInvoicing;IT,HU,BR;
