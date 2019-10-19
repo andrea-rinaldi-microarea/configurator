@@ -1,0 +1,70 @@
+{
+    "ADKF": {
+        "price": 1705,
+        "mlu": 307 
+    },
+    "ADPK": {
+        "price": 1705,
+        "mlu": 307 
+    },
+    "ADPD": {
+        "price": 1705,
+        "mlu": 307 
+    },
+    "COMF": {
+        "price": 968,
+        "mlu": 174 
+    },
+    "COMM": {
+        "price": 968,
+        "mlu": 174 
+    },
+    "COMD": {
+        "price": 968,
+        "mlu": 174 
+    },
+    "EDU1": {
+        "price": 0,
+        "mlu": 0 
+    },
+    "PACK": {
+        "price": 1375,
+        "mlu": 248 
+    },
+    "PCKF": {
+        "price": 1375,
+        "mlu": 248 
+    },
+    "SBPD": {
+        "price": 1375,
+        "mlu": 248 
+    },
+    "TRKF": {
+        "price": 3245,
+        "mlu": 584 
+    },
+    "TRPK": {
+        "price": 3245,
+        "mlu": 584 
+    },
+    "TRPD": {
+        "price": 3245,
+        "mlu": 584 
+    },
+    "CFIN": {
+        "price": 2000,
+        "mlu": 360 
+    },
+    "FIND": {
+        "price": 2000,
+        "mlu": 360 
+    },
+    "CFUL": {
+        "price": 3000,
+        "mlu": 540 
+    },
+    "FULD": {
+        "price": 3000,
+        "mlu": 540 
+    }
+}

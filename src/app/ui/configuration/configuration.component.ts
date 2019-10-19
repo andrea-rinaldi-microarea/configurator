@@ -5,6 +5,7 @@ import { Feature } from '../../../models/feature';
 
 declare var require: any;
 const industryList = require("./industry-list.json");
+const packagePrice = require("./package-price.json");
 
 @Component({
   selector: 'app-configuration',
@@ -16,6 +17,7 @@ export class ConfigurationComponent implements OnInit {
   private currIndustry:  number = null;
   private industryList: string[] = industryList;
   private editMode: boolean;
+  private packagePrice: any = packagePrice;
 
   private featureTypes = [
     {
@@ -153,5 +155,31 @@ export class ConfigurationComponent implements OnInit {
       tooltip = "Non disponibile in: " +  feature.denyISO;
     }
     return tooltip;
+  }
+
+  getPrice(edition: string): number {
+    var total: number = 0;
+    for (var f = 0; f < this.configuration.current.features.length; f++ ) {
+      var feat: Feature  = this.configuration.current.features[f];
+      if (feat[edition] != "") {
+        total += feat.price;
+      }
+    }
+    return total;
+  }
+
+  getCustomerPrice(): number {
+    var total: number = 0;
+    for (var f = 0; f < this.configuration.current.features.length; f++ ) {
+      var feat: Feature  = this.configuration.current.features[f];
+      if (!feat.unavailable && feat.customer && !feat.fromPackage) {
+        total += feat.price;
+      }
+    }
+    if (this.clients.current && this.clients.current.package) {
+      total += packagePrice[this.clients.current.package].price;
+    }
+
+    return total;
   }
 }
