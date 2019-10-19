@@ -13,6 +13,8 @@ export class Feature {
         public enterprise: string,
         public customer: boolean,
         public allowISO: string,
-        public denyISO: string
+        public denyISO: string,
+        public price: number,
+        public MLU: number
     ) {}
 }

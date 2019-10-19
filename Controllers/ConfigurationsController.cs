@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Text;
 using Configurator.Models;
@@ -27,6 +28,7 @@ namespace Configurator.Controllers
                 csv.Configuration.Delimiter = ";";
                 csv.Configuration.HeaderValidated = null;
                 csv.Configuration.MissingFieldFound = null;
+                csv.Configuration.CultureInfo = CultureInfo.InvariantCulture;
 
                 csv.Configuration.BadDataFound = context =>
                 {
