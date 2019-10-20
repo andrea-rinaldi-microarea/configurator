@@ -15,6 +15,6 @@ export class Feature {
         public allowISO: string,
         public denyISO: string,
         public price: number,
-        public MLU: number
+        public mlu: number
     ) {}
 }

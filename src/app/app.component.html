@@ -1,5 +1,7 @@
 <app-toolbar></app-toolbar>
-<div class="container">
+<div class="container main">
     <app-clients [hidden]="!clients.show"></app-clients>
     <app-configuration ></app-configuration>
+    <app-pricing class="footer print-only"></app-pricing>
 </div>
+<app-pricing class="footer screen-only"></app-pricing>

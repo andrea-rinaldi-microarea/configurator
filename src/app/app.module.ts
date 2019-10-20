@@ -14,6 +14,7 @@ import { EditionHeaderComponent } from './ui/edition-header/edition-header.compo
 import { TogglerComponent } from './ui/toggler/toggler.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { OtherIndustries } from './ui/configuration/other-industries-pipe';
+import { PricingComponent } from './ui/pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { OtherIndustries } from './ui/configuration/other-industries-pipe';
     ConfigurationComponent,
     ToolbarComponent,
     EditionHeaderComponent,
-    TogglerComponent
+    TogglerComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,

@@ -28,6 +28,7 @@ import { Component, OnInit, Input, Output, EventEmitter, OnChanges } from '@angu
 
   .toggler {
     display: inline;
+    position: relative;
   }
   
   .toggler:hover .switch {

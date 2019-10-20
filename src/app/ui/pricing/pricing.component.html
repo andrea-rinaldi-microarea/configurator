@@ -1,0 +1,36 @@
+<div *ngIf="configuration.current">
+  <div class="screen-only expand">
+    <button class="btn btn-light" (click)="showPrices=!showPrices"><i class="fa fa-eur"></i></button>
+  </div>
+  <div class="panel" *ngIf="showPrices">
+    <table class="table table-sm table-borderless mb-0">
+        <tr>
+            <th></th>
+            <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
+            <th class="text-center edition-sep" >
+              <app-edition-header>Standard</app-edition-header> 
+            </th>
+            <th class="text-center edition-sep" >
+              <app-edition-header>Professional</app-edition-header>
+            </th>
+            <th class="text-center edition-sep">
+              <app-edition-header>Enterprise</app-edition-header>
+            </th>
+        </tr> 
+        <tr>
+          <td class="text-right">licenza</td>
+          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{getCustomerPrice()}}</td>
+          <td class="text-center edition-sep" width="9%">{{getPrice('standard')}}</td>
+          <td class="text-center edition-sep" width="9%">{{getPrice('professional')}}</td>
+          <td class="text-center edition-sep" width="9%">{{getPrice('enterprise')}}</td>
+        </tr>
+        <tr>
+            <td class="text-right">MLU</td>
+            <td class="text-center edition-sep" width="5%" [hidden]="!clients.show"></td>
+            <td class="text-center edition-sep" width="9%"></td>
+            <td class="text-center edition-sep" width="9%"></td>
+            <td class="text-center edition-sep" width="9%"></td>
+          </tr>
+      </table>
+  </div>
+</div>

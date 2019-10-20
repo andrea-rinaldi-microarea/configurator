@@ -61,16 +61,6 @@
             <app-toggler [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(value)]="feature.enterprise" [options]="featureTypes"></app-toggler>
           </td>
       </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="text-center edition-sep" [hidden]="!clients.show">{{getCustomerPrice()}}</td>
-        <td width="25px" class="text-center edition-sep"></td>
-        <td class="text-center edition-sep">{{getPrice('standard')}}</td>
-        <td class="text-center edition-sep">{{getPrice('professional')}}</td>
-        <td class="text-center edition-sep">{{getPrice('enterprise')}}</td>
-      </tr>
   </table>
 </div>
 <div *ngIf="configuration.current">
