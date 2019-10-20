@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, DoCheck } from '@angular/core';
 import { ConfigurationService } from '../../services/configuration.service';
 import { ClientsService } from '../../services/clients.service';
 import { Feature } from '../../../models/feature';
@@ -11,7 +11,7 @@ const packagePrice = require("./package-price.json");
   templateUrl: './pricing.component.html',
   styleUrls: ['./pricing.component.css']
 })
-export class PricingComponent implements OnInit {
+export class PricingComponent implements OnInit, DoCheck  {
 
   private packagePrice: any = packagePrice;
   public totalMLU: number = 0;
@@ -22,6 +22,10 @@ export class PricingComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+  }
+  
+  ngDoCheck() {
+    console.log("change");
   }
 
   getPrice(edition: string): number {
