@@ -19,14 +19,14 @@
         </tr> 
         <tr>
           <td class="text-right">licenza</td>
-          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{getCustomerPrice()}}</td>
+          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customerLicense}}</td>
           <td class="text-center edition-sep" width="9%">{{getPrice('standard')}}</td>
           <td class="text-center edition-sep" width="9%">{{getPrice('professional')}}</td>
           <td class="text-center edition-sep" width="9%">{{getPrice('enterprise')}}</td>
         </tr>
         <tr>
             <td class="text-right">MLU</td>
-            <td class="text-center edition-sep" width="5%" [hidden]="!clients.show"></td>
+            <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customerMLU}}</td>
             <td class="text-center edition-sep" width="9%"></td>
             <td class="text-center edition-sep" width="9%"></td>
             <td class="text-center edition-sep" width="9%"></td>

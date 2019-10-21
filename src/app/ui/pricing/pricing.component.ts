@@ -14,7 +14,8 @@ const packagePrice = require("./package-price.json");
 export class PricingComponent implements OnInit, DoCheck  {
 
   private packagePrice: any = packagePrice;
-  public totalMLU: number = 0;
+  public customerLicense: number = 0;
+  public customerMLU: number = 0;
 
   constructor(
     private configuration: ConfigurationService,
@@ -26,6 +27,7 @@ export class PricingComponent implements OnInit, DoCheck  {
   
   ngDoCheck() {
     console.log("change");
+    this.calculateCustomerPrice();
   }
 
   getPrice(edition: string): number {
@@ -41,21 +43,22 @@ export class PricingComponent implements OnInit, DoCheck  {
     return total;
   }
 
-  getCustomerPrice(): number {
-    var total: number = 0;
+  calculateCustomerPrice(): void {
+    this.customerLicense = 0;
+    this.customerMLU = 0;
+    if (!this.configuration.current)
+      return;
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
       var feat: Feature  = this.configuration.current.features[f];
       if (!feat.unavailable && feat.customer && !feat.fromPackage) {
-        total += feat.price;
-        this.totalMLU += feat.mlu;
+        this.customerLicense += feat.price;
+        this.customerMLU += feat.mlu;
       }
     }
     if (this.clients.current && this.clients.current.package) {
-      total += packagePrice[this.clients.current.package].price;
-      this.totalMLU += packagePrice[this.clients.current.package].mlu;
+      this.customerLicense += packagePrice[this.clients.current.package].price;
+      this.customerMLU += packagePrice[this.clients.current.package].mlu;
     }
-
-    return total;
   }
 
 }
