@@ -19,17 +19,17 @@
         </tr> 
         <tr>
           <td class="text-right">licenza</td>
-          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customerLicense}}</td>
-          <td class="text-center edition-sep" width="9%">{{getPrice('standard')}}</td>
-          <td class="text-center edition-sep" width="9%">{{getPrice('professional')}}</td>
-          <td class="text-center edition-sep" width="9%">{{getPrice('enterprise')}}</td>
+          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.license}}</td>
+          <td class="text-center edition-sep" width="9%">{{standard.license}}</td>
+          <td class="text-center edition-sep" width="9%">{{professional.license}}</td>
+          <td class="text-center edition-sep" width="9%">{{enterprise.license}}</td>
         </tr>
         <tr>
             <td class="text-right">MLU</td>
-            <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customerMLU}}</td>
-            <td class="text-center edition-sep" width="9%"></td>
-            <td class="text-center edition-sep" width="9%"></td>
-            <td class="text-center edition-sep" width="9%"></td>
+            <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.mlu}}</td>
+            <td class="text-center edition-sep" width="9%">{{standard.mlu}}</td>
+            <td class="text-center edition-sep" width="9%">{{professional.mlu}}</td>
+            <td class="text-center edition-sep" width="9%">{{enterprise.mlu}}</td>
           </tr>
       </table>
   </div>

@@ -1,4 +1,4 @@
-Module;Functionality;Tag;Discontinued;Fragment;AllowISO;DenyISO;Price;MLU;Standard;Professional;Enterprise;Unavailable
+Module;Functionality;Tag;Discontinued;Fragment;AllowISO;DenyISO;License;MLU;Standard;Professional;Enterprise;Unavailable
 Modulo Base;;SEVR;False;Server;;;495;89;X;X;X;False
 ;Descrizioni Multilingua;SEVR;False;Languages;;;0;0;;X;X;False
 ;Multivaluta;SEVR;False;Currencies;;;0;0;;X;X;False
