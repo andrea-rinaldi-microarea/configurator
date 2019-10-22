@@ -89,7 +89,7 @@ WMS;Base;WMAA;False;WMSBasic;;;1650;297;;X/0;X/0;False
 Distinta Base;;DIST;False;BillOfMaterials;;;748;135;X;X;X;False
 ;Calendario Associato ai CdL;DIST;False;BillOfMaterials;;;0;0;;;X;False
 ;Famiglie di CdL;DIST;False;BillOfMaterials;;;0;0;;;X;False
-;E.C.O.;DIST;False;ECO;;;0;0;;;X;False
+;E.C.O.;ECO;False;ECO;;;0;0;;;X;False
 Varianti;;VARI;False;Variants;;;605;109;;X;X;False
 Configuratore;;CONF;False;Configurator;;;748;135;;X;X;False
 Produzione Base;;PRZB;False;ManufacturingBasic;;;748;135;X;X;X;False

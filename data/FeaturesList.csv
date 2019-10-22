@@ -89,7 +89,7 @@ WMS;Base;WMAA;FALSE;WMSBasic;;;1650.00;297.00
 Distinta Base;;DIST;FALSE;BillOfMaterials;;;748.00;135.00
 ;Calendario Associato ai CdL;DIST;FALSE;BillOfMaterials;;;0;0
 ;Famiglie di CdL;DIST;FALSE;BillOfMaterials;;;0;0
-;E.C.O.;DIST;FALSE;ECO;;;0;0
+;E.C.O.;ECO;FALSE;ECO;;;0;0
 Varianti;;VARI;FALSE;Variants;;;605.00;109.00
 Configuratore;;CONF;FALSE;Configurator;;;748.00;135.00
 Produzione Base;;PRZB;FALSE;ManufacturingBasic;;;748.00;135.00

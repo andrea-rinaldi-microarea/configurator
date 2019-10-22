@@ -7,7 +7,8 @@ import { Feature } from '../../../models/feature';
 declare var require: any;
 const packagePrice = require("./package-price.json");
 
-
+const CAL_PRICE: number = 660;
+const CAL_MLU: number = 119;
 
 @Component({
   selector: 'app-pricing',
@@ -17,10 +18,11 @@ const packagePrice = require("./package-price.json");
 export class PricingComponent implements OnInit, DoCheck  {
 
   private packagePrice: any = packagePrice;
-  public customer: Pricing = new Pricing(0,0);
-  public standard: Pricing = new Pricing(0,0);
-  public professional: Pricing = new Pricing(0,0);
-  public enterprise: Pricing = new Pricing(0,0);
+  public customer: Pricing = new Pricing();
+  public standard: Pricing = new Pricing();
+  public professional: Pricing = new Pricing();
+  public enterprise: Pricing = new Pricing();
+  private misconfigured: boolean = false;
 
   constructor(
     private configuration: ConfigurationService,
@@ -39,9 +41,9 @@ export class PricingComponent implements OnInit, DoCheck  {
   calculateIndustryPrices(): void {
     if (!this.configuration.current)
       return;
-    this.standard = new Pricing(0,0);
-    this.professional = new Pricing(0,0);
-    this.enterprise = new Pricing(0,0);
+    this.standard = new Pricing();
+    this.professional = new Pricing();
+    this.enterprise = new Pricing();
 
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
       var feat: Feature  = this.configuration.current.features[f];
@@ -61,8 +63,9 @@ export class PricingComponent implements OnInit, DoCheck  {
   }
 
   calculateCustomerPrice(): void {
-    this.customer = new Pricing(0,0);
-    if (!this.configuration.current)
+    this.customer = new Pricing();
+    this.misconfigured = false;
+    if (!this.configuration.current || !this.clients.current)
       return;
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
       var feat: Feature  = this.configuration.current.features[f];
@@ -70,11 +73,23 @@ export class PricingComponent implements OnInit, DoCheck  {
         this.customer.license += feat.license;
         this.customer.mlu += feat.mlu;
       }
+      if (feat.customer && feat.unavailable && !feat.discontinued) {
+        this.misconfigured = true;
+      }
     }
-    if (this.clients.current && this.clients.current.package) {
+    if (this.clients.current.package) {
       this.customer.license += packagePrice[this.clients.current.package].license;
       this.customer.mlu += packagePrice[this.clients.current.package].mlu;
     }
+    if (this.clients.current["Numero C.A.L."]) {
+      this.customer.cals = this.clients.current["Numero C.A.L."];
+      this.customer.calLicense = CAL_PRICE * this.customer.cals;
+      this.customer.calMlu = CAL_MLU * this.customer.cals;
+    }
+
+    this.customer.total5Years = this.customer.license + this.customer.calLicense + (this.customer.mlu + this.customer.calMlu) * 5;
+    this.customer.perUserMonth = this.customer.total5Years / (this.customer.cals * 60);
+
   }
 
 }

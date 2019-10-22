@@ -5,7 +5,7 @@
   <div class="panel" *ngIf="showPrices">
     <table class="table table-sm table-borderless mb-0">
         <tr>
-            <th></th>
+            <th class="text-right"><i [hidden]="!misconfigured" class="fa fa-bell fa-big text-danger" ngbTooltip="La configurazione in uso è più ampia di quella su cui è stato fatto il calcolo"></i></th>
             <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
             <th class="text-center edition-sep" >
               <app-edition-header>Standard</app-edition-header> 
@@ -25,12 +25,40 @@
           <td class="text-center edition-sep" width="9%">{{enterprise.license}}</td>
         </tr>
         <tr>
-            <td class="text-right">MLU</td>
-            <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.mlu}}</td>
-            <td class="text-center edition-sep" width="9%">{{standard.mlu}}</td>
-            <td class="text-center edition-sep" width="9%">{{professional.mlu}}</td>
-            <td class="text-center edition-sep" width="9%">{{enterprise.mlu}}</td>
-          </tr>
+          <td class="text-right">CAL x {{customer.cals}}</td>
+          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.calLicense}}</td>
+          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="9%"></td>
+        </tr>
+        <tr>
+          <td class="text-right">MLU</td>
+          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.mlu}}</td>
+          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="9%"></td>
+        </tr>
+        <tr>
+          <td class="text-right">MLU su CAL x {{customer.cals}}</td>
+          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.calMlu}}</td>
+          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="9%"></td>
+        </tr>
+        <tr>
+          <td class="text-right">Totale su 5 anni</td>
+          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.total5Years}}</td>
+          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="9%"></td>
+        </tr>
+        <tr>
+          <td class="text-right">utente/mese</td>
+          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.perUserMonth | number:'1.0-0'}}</td>
+          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="9%"></td>
+        </tr>
       </table>
   </div>
 </div>
