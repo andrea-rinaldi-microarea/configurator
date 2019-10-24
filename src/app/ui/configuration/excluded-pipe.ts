@@ -10,6 +10,6 @@ export class ExcludedPipe implements PipeTransform {
         if (!features || show) {
             return features;
         }
-        return features.filter(feat => !feat.discontinued && !feat.unavailable);
+        return features.filter(feat => !feat.discontinued && feat.available);
     }
 }

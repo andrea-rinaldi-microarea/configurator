@@ -14,7 +14,7 @@
         public string Standard {get; set;}
         public string Professional {get; set;}
         public string Enterprise {get; set;}
-        public bool Unavailable {get; set;}
+        public bool Available {get; set;}
     }
  }
  

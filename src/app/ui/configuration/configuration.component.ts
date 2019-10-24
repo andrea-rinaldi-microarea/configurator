@@ -40,14 +40,14 @@ export class ConfigurationComponent implements OnInit {
     }
     
   ];
-  private unavailableOptions = [
+  private availableOptions = [
     {
       value: false,
-      icon: "fa-ban"
-    }, 
+      icon: "fa-sign-in"
+    },
     {
       value: true,
-      icon: "fa-sign-in"
+      icon: "fa-ban"
     }
   ];
 

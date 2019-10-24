@@ -97,7 +97,7 @@ export class ConfigurationService {
           var curr = this.current.features.find(feat => data[f].module == feat.module && data[f].functionality == feat.functionality);
           if (curr != null)
           {
-            data[f].unavailable = curr.unavailable;
+            data[f].available = curr.available;
             data[f].standard = curr.standard;
             data[f].professional = curr.professional;
             data[f].enterprise = curr.enterprise;

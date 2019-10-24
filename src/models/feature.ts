@@ -6,7 +6,7 @@ export class Feature {
         public tag: string,
         public discontinued: boolean,
         public fragment: string,
-        public unavailable: boolean,
+        public available: boolean,
         public fromPackage: boolean,
         public standard: string,
         public professional: string,

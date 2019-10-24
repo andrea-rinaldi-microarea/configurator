@@ -69,11 +69,11 @@ export class PricingComponent implements OnInit, DoCheck  {
       return;
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
       var feat: Feature  = this.configuration.current.features[f];
-      if (!feat.unavailable && feat.customer && !feat.fromPackage) {
+      if (feat.available && feat.customer && !feat.fromPackage) {
         this.customer.license += feat.license;
         this.customer.mlu += feat.mlu;
       }
-      if (feat.customer && feat.unavailable && !feat.discontinued) {
+      if (feat.customer && !feat.available && !feat.discontinued) {
         this.misconfigured = true;
       }
     }
