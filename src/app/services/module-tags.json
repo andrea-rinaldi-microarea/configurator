@@ -38,7 +38,10 @@
     { "tag": "MANM" },
     { "tag": "PRZP" },
     { "tag": "PRPA" },
-    { "tag": "EATT" },
+    { 
+        "tag": "EATT", 
+        "alias": ["DMSL"] 
+    },
     { "tag": "MAIL" },
     { "tag": "SCHD" },
     { "tag": "OSLS" },
@@ -54,15 +57,16 @@
     { "tag": "SOSC" },
     { "tag": "UBIC" },
     { "tag": "XGAT" },
+    { "tag": "CPCO" },
     { 
         "tag": "ADKF",
         "alias": ["ADPK", "ADPD"], 
-        "package": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"] 
+        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"] 
     },
     { 
         "tag": "COMF",
         "alias": ["COMM", "COMD"], 
-        "package": ["SEVR", "EATT", "SOSC", "XGAT", "CASH", "VEDT", "ACQT", "MAGA"] 
+        "package": ["SEVR", "SOSC", "XGAT", "CASH", "VEDT", "ACQT", "MAGA"] 
     },
     { 
         "tag": "EDU1",
@@ -71,12 +75,12 @@
     { 
         "tag": "PACK",
         "alias": ["PCKF", "SBPD"], 
-        "package": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA"] 
+        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA"] 
     },
     { 
         "tag": "TRKF",
         "alias": ["TRPD", "TRPK"], 
-        "package": ["SEVR", "EATT", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR", "ORCL", "ORFO", "ACQT", "CSPT"] 
+        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR", "ORCL", "ORFO", "ACQT", "CSPT"] 
     },
     { 
         "tag": "CFIN",

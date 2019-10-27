@@ -38,7 +38,8 @@ Contabilità Analitica;;COAN;FALSE;CostAccounting;;;748.00;135.00
 ;Ribaltamenti;COAN;FALSE;CostAccountingTransfer;;;0;0
 Gestione cassa;;CASH;FALSE;Cash;;IT,CH,BR;110.00;20.00
 Intrastat;;INTR;FALSE;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;165.00;30.00
-Zucchetti Cross-Applications;Connettore AGO;CONT;FALSE;AGOConnector;IT;;0;0
+Zucchetti Cross-Applications;Connettore SOS;SOSC;FALSE;;IT;;0;0
+;Connettore AGO;CONT;FALSE;AGOConnector;IT;;0;0
 ;Connettore B&O / Maestro;CONT;FALSE;BEOConnector;IT;;0;0
 ;Connettore Magix Fisco Azienda;CONT;FALSE;FiscoAziendaConnector;IT;;0;0
 ;Connettore OMNIA;CONT;FALSE;OMNIAConnector;IT;;0;0
@@ -108,7 +109,6 @@ Pianificazione;Base;PRZP;FALSE;ManufacturingPlanning;;;3300.00;594.00
 ;Gestione Make or Buy;PRPA;FALSE;MRPAdvanced;;;0;0
 Attrezzi;;ATTR;FALSE;ToolsManagement;;;880.00;158.00
 DMS;Base;EATT;FALSE;;;;1650.00;297.00
-;SOSConnector;SOSC;FALSE;;;;0;0
 ;Massive Archiving Plug-In;MASS;FALSE;;;;300.00;54.00
 Mail Services;;MAIL;FALSE;;;;0;0
 Resources Management;;;FALSE;;;;0;0

@@ -38,7 +38,8 @@ Contabilità Analitica;;COAN;False;CostAccounting;;;748;135;;X;X;True
 ;Ribaltamenti;COAN;False;CostAccountingTransfer;;;0;0;;;X;True
 Gestione cassa;;CASH;False;Cash;;IT,CH,BR;110;20;;;X;True
 Intrastat;;INTR;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;165;30;;;X;True
-Zucchetti Cross-Applications;Connettore AGO;CONT;False;AGOConnector;IT;;0;0;X;X;X;True
+Zucchetti Cross-Applications;Connettore SOS;SOSC;False;;IT;;0;0;X;X;X;True
+;Connettore AGO;CONT;False;AGOConnector;IT;;0;0;X;X;X;True
 ;Connettore B&O / Maestro;CONT;False;BEOConnector;IT;;0;0;X;X;X;True
 ;Connettore Magix Fisco Azienda;CONT;False;FiscoAziendaConnector;IT;;0;0;X;X;X;True
 ;Connettore OMNIA;CONT;False;OMNIAConnector;IT;;0;0;X;X;X;True
@@ -108,7 +109,6 @@ Pianificazione;Base;PRZP;False;ManufacturingPlanning;;;3300;594;;;;False
 ;Gestione Make or Buy;PRPA;False;MRPAdvanced;;;0;0;;;;False
 Attrezzi;;ATTR;False;ToolsManagement;;;880;158;;;;False
 DMS;Base;EATT;False;;;;1650;297;;X;X;True
-;SOSConnector;SOSC;False;;;;0;0;;X;X;True
 ;Massive Archiving Plug-In;MASS;False;;;;300;54;;;X;True
 Mail Services;;MAIL;False;;;;0;0;;X;X;True
 Resources Management;;;False;;;;0;0;;;;False
