@@ -80,7 +80,7 @@ Magazzino;;MAGA;FALSE;Inventory;;;440.00;79.00
 ;LIFO/FIFO a scatti continui;MAGA;FALSE;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;0;0
 ;Movimenti di magazzino di rettifica inventariale;MAGA;FALSE;InventoryAdjustment;;;0;0
 Controllo qualità;;INSP;FALSE;QualityInspection;;;550.00;99.00
-;Note Tecniche;MAGA;FALSE;QualityInspection;;;0;0
+;Note Tecniche;CFIN;FALSE;QualityInspection;;;0;0
 Barcode Manager;;BARC;FALSE;Barcode;;;330.00;59.00
 Lotti e Matricole;;LOTT;FALSE;LotsSerials;;;165.00;30.00
 WMS;Base;WMAA;FALSE;WMSBasic;;;1650.00;297.00

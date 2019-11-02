@@ -80,7 +80,7 @@ Magazzino;;MAGA;False;Inventory;;;440;79;X;X;X;True
 ;LIFO/FIFO a scatti continui;MAGA;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;0;0;;;X;True
 ;Movimenti di magazzino di rettifica inventariale;MAGA;False;InventoryAdjustment;;;0;0;;;X;True
 Controllo qualità;;INSP;False;QualityInspection;;;550;99;;;X;True
-;Note Tecniche;MAGA;False;QualityInspection;;;0;0;;;X;True
+;Note Tecniche;CFIN;False;QualityInspection;;;0;0;;;X;True
 Barcode Manager;;BARC;False;Barcode;;;330;59;X;X;X;True
 Lotti e Matricole;;LOTT;False;LotsSerials;;;165;30;;X;X;True
 WMS;Base;WMAA;False;WMSBasic;;;1650;297;;X/0;X/0;True

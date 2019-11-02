@@ -3,7 +3,7 @@ import { ClientsService } from './../../services/clients.service';
 import { Component, OnInit } from '@angular/core';
 
 declare var require: any;
-const packageDescription = require("./package-description.json");
+const modulesDescription = require("./modules-description.json");
 
 @Component({
   selector: 'app-clients',
@@ -12,7 +12,7 @@ const packageDescription = require("./package-description.json");
 })
 export class ClientsComponent implements OnInit {
 
-  private packageDescription: any = packageDescription;
+  private modulesDescription: any = modulesDescription;
 
   constructor(
     private clients: ClientsService,
@@ -56,5 +56,15 @@ export class ClientsComponent implements OnInit {
       .replace("Powered by MSDE", "")
       .replace("Powered by SQL Server","")
       .trim();
+  }
+
+  decodeModules(modString: string) {
+    var modules = modString.split(";");
+    var description: string;
+    modules.forEach(mod => {
+      description = description ? description + " + ": ""; 
+      description += modulesDescription[mod.trim()] ? modulesDescription[mod.trim()] : mod 
+    });
+    return description;
   }
 }

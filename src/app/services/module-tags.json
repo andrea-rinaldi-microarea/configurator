@@ -1,7 +1,7 @@
 [
     { 
         "tag": "SEVR", 
-        "alias": ["SCOM", "SERD"] 
+        "alias": ["SCOM", "SERD"]
     },
     { "tag": "CONT" },
     { "tag": "COPR" },
@@ -61,7 +61,7 @@
     { 
         "tag": "ADKF",
         "alias": ["ADPK", "ADPD"], 
-        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"] 
+        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"]  
     },
     { 
         "tag": "COMF",
@@ -74,13 +74,13 @@
     },
     { 
         "tag": "PACK",
-        "alias": ["PCKF", "SBPD"], 
-        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA"] 
+        "alias": ["PCKF", "SBPD", "SBPK"], 
+        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA"]
     },
     { 
         "tag": "TRKF",
         "alias": ["TRPD", "TRPK"], 
-        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR", "ORCL", "ORFO", "ACQT", "CSPT"] 
+        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR", "ORCL", "ORFO", "ACQT", "CSPT"]
     },
     { 
         "tag": "CFIN",
