@@ -45,7 +45,7 @@ Zucchetti Cross-Applications;Connettore SOS;SOSC;False;;IT;;0;0;X;X;X;True
 ;Connettore OMNIA;CONT;False;OMNIAConnector;IT;;0;0;X;X;X;True
 ;Connettore Paghe Web;CONT;False;PayrollImport;IT;;0;0;X;X;X;True
 ;Connettore TESAN;VEDT;False;TESANConnector;IT;;0;0;X;X;X;True
-Vendite/Acquisti;;;False;Sales;;;0;0;X;X;X;True
+Vendite/Acquisti;;VEDT;False;Sales;;;0;0;X;X;X;True
 ;Copia documenti;VEDT;False;DocumentCopy;;;0;0;X;X;X;True
 ;Import/Export file articoli e note;VEDT;False;DocumentDetailImportExport;;;0;0;X;X;X;True
 ;Politiche prezzi;VEDT;False;PricePolicies;;;0;0;;X;X;True

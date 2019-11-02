@@ -53,3 +53,10 @@ select{
 .not-visible {
     visibility: hidden;
 }
+
+.subheader {
+    font-size: smaller;
+    font-weight: 500;
+    padding-top: 0;
+    padding-bottom: 2px;
+}

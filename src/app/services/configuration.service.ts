@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Configuration } from '../../models/configuration';
+import { Configuration, Distance } from '../../models/configuration';
 import { Observable } from 'rxjs/Observable';
 import { HttpClient } from '@angular/common/http';
 import { Feature } from '../../models/feature';
@@ -27,6 +27,23 @@ export class ConfigurationService {
     });
   }
 
+  public isMinus(feat: Feature, edition: string): boolean {
+    return feat.customer && (edition == "" || !feat.available);
+  }
+
+  public isPlus(feat: Feature, edition: string): boolean {
+    return !feat.customer && edition != "" && feat.available;
+  }
+
+  private calculateDistance(feat: Feature, edition: string, dist: Distance) {
+    if (this.isMinus(feat, edition)) {
+      dist.minus++;
+    }
+    if (this.isPlus(feat, edition)) {
+      dist.plus++;
+    }
+  }
+
   public showUsing(client: any) {
     if(!client || !this.current){
       return;
@@ -37,10 +54,11 @@ export class ConfigurationService {
       this.current.features[f].fromPackage = false;
     }
 
-    moduleTags.forEach(mod => {
+    for (var m = 0; m < moduleTags.length; m++ ) {
+      var mod = moduleTags[m];
       if (client[mod.tag] !== "X") {
         if (!mod.alias)
-          return;
+          continue;
         var found: boolean = false;
         for (var a = 0; a < mod.alias.length; a++) {
           if (client[mod.alias[a]] == "X") {
@@ -49,7 +67,7 @@ export class ConfigurationService {
           }
         }
         if (!found)
-          return;
+          continue;
       }
       
       if (mod.package) {
@@ -58,8 +76,23 @@ export class ConfigurationService {
       } else {
         this.lookForMods([mod.tag], false);
       }
-    });
-  }
+    }
+
+    this.current.stdDistance = new Distance();
+    this.current.proDistance = new Distance();
+    this.current.entDistance = new Distance();
+    for (var f = 0; f < this.current.features.length; f++) {
+        var feat = this.current.features[f];
+
+        // old discontinued features and new features that have no correspondance to existing ones are not counted as distance
+        if (feat.discontinued || feat.tag == "" || feat.tag == null)
+          continue; 
+
+        this.calculateDistance(feat, feat.standard, this.current.stdDistance);
+        this.calculateDistance(feat, feat.professional, this.current.proDistance);
+        this.calculateDistance(feat, feat.enterprise, this.current.entDistance);
+      }
+    }
 
   public load(industry: string): Observable<any> {
     var $configuration = new Observable<any>(observer => {
