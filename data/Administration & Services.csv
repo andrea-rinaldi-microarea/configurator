@@ -26,7 +26,7 @@ Contabilità Generale;;CONT;False;Financials;;;660;119;X;X;X;True
 Gestione Banche Avanzato;SEPA XML;BAPL;False;Banks_Plus;IT;;330;59;X;X;X;True
 ;Bonifici esteri / mandati SDD;BAPL;False;Banks_Plus;IT;;0;0;;X;X;True
 ;Riconciliazioni bancarie;BAPL;False;Banks_Plus;IT;;0;0;;;X;True
-Tesoreria;;TESO;False;;IT;;1200;300;;;;True
+Tesoreria;;TESO;False;;IT;;1200;300;;X;X;True
 Cespiti;;CSPT;False;FixedAssets;;;605;109;;X;X;True
 Contabilità Previsionale;;COPR;False;ForecastAccounting;;;275;50;;;X;True
 XBRL Bilancio;;XBRL;False;XBRL;IT;;550;99;;;X;True
@@ -37,7 +37,7 @@ Contabilità Analitica;;COAN;False;CostAccounting;;;748;135;;X;X;True
 ;Linee di Prodotto;COAN;False;ProductLines;;;0;0;;;X;True
 ;Ribaltamenti;COAN;False;CostAccountingTransfer;;;0;0;;;X;True
 Gestione cassa;;CASH;False;Cash;;IT,CH,BR;110;20;;;X;True
-Intrastat;;INTR;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;165;30;;;X;True
+Intrastat;;INTR;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;165;30;;X;X;True
 Zucchetti Cross-Applications;Connettore SOS;SOSC;False;;IT;;0;0;X;X;X;True
 ;Connettore AGO;CONT;False;AGOConnector;IT;;0;0;X;X;X;True
 ;Connettore B&O / Maestro;CONT;False;BEOConnector;IT;;0;0;X;X;X;True
@@ -65,7 +65,6 @@ Fatturazione/Bollettazione;;VEDT;False;;;;440;79;X;X;X;True
 ;Picking List;VEDT;False;PickingList;;;0;0;;;;False
 e-commerce;;;False;;;;0;0;;;;False
 CRM;Infinity Connector;MAIF;False;;;;0;0;;X;X;True
-;ICRM Pat Connector;INPC;False;;;;0;0;;X;X;True
 Conai;;CONA;False;Conai;IT,RO,BG,HU,ES;;165;30;;;;False
 RAEE;;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;275;50;;;;False
 Sales Force Management;;SFMG;False;SalesPeople;;;275;50;;;;False
@@ -114,23 +113,8 @@ Mail Services;;MAIL;False;;;;0;0;;X;X;True
 Resources Management;;;False;;;;0;0;;;;False
 Calendario Aziendale;;;False;;;;0;0;;;;False
 Reporting Personalizzati;;;False;;;;0;0;max;max;X;True
-Collaboration Services;;;False;;;;0;0;X;X;X;True
-Administration Services;;;False;;;;0;0;X;X;X;True
-Subscription Management;;;False;;;;0;0;X;X;X;True
 Job Scheduler;;SCHD;False;JobScheduler;;;660;119;;;X;True
 Security;;OSLL;False;Security;;;660;119;;X;X;True
 ;Access profiles;OSLS;False;Security;;;3000;540;;X;X;True
 ;Auditing;AUDT;False;Auditing;;;308;55;;X/0;X;True
 ;Visibility;;False;;;;0;0;;X/0;X;True
-Integration Tools;IMS;;False;;;;0;0;;X/0;X/0;True
-;MagicLink;;False;MagicLink;;;0;0;;X/0;X/0;True
-IMS Studio;;;False;;;;0;0;;X/0;X/0;True
-Reporting Services Studio;;;False;;;;0;0;;X/0;X/0;True
-InfoBusiness Connector Standard;;IBCO;False;IBConnector;;;0;0;;X;X;True
-Easy Look;;ELSR;True;;;;0;0;;;;True
-Spesometro;;FISC;True;;;;0;0;;;;True
-Magic Document;;MDOC;True;;;;0;0;;;;True
-Migration Kit da MagoXP a Mago.Net;;MIGR;True;;;;0;0;;;;True
-Security Light;;OSLL;True;;;;0;0;;;;True
-Ubicazioni;;UBIC;True;;;;0;0;;;;True
-Xgate;;XGAT;True;;;;0;0;;;;True

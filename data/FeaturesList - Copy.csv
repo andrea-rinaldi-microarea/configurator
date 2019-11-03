@@ -64,7 +64,8 @@ Fatturazione/Bollettazione;;VEDT;FALSE;;;;440.00;79.00
 ;Gestione di più bollettari;VEDT;FALSE;MultiStubBooks;;;0;0
 ;Picking List;VEDT;FALSE;PickingList;;;0;0
 e-commerce;;;FALSE;;;;0;0
-"CRM ";Infinity Connector;MAIF;FALSE;;;;0;0
+CRM;Infinity Connector;MAIF;FALSE;;;;0;0
+;ICRM Pat Connector;INPC;FALSE;;;;0;0
 Conai;;CONA;FALSE;Conai;IT,RO,BG,HU,ES;;165.00;30.00
 RAEE;;RAEE;FALSE;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;275.00;50.00
 Sales Force Management;;SFMG;FALSE;SalesPeople;;;275.00;50.00
@@ -113,8 +114,23 @@ Mail Services;;MAIL;FALSE;;;;0;0
 Resources Management;;;FALSE;;;;0;0
 Calendario Aziendale;;;FALSE;;;;0;0
 Reporting Personalizzati;;;FALSE;;;;0;0
+Collaboration Services;;;FALSE;;;;0;0
+Administration Services;;;FALSE;;;;0;0
+Subscription Management;;;FALSE;;;;0;0
 Job Scheduler;;SCHD;FALSE;JobScheduler;;;660.00;119.00
 Security;;OSLL;FALSE;Security;;;660.00;119.00
 ;Access profiles;OSLS;FALSE;Security;;;3000.00;540.00
 ;Auditing;AUDT;FALSE;Auditing;;;308.00;55.00
 ;Visibility;;FALSE;;;;0;0
+Integration Tools;IMS;;FALSE;;;;0;0
+;MagicLink;;FALSE;MagicLink;;;0;0
+IMS Studio;;;FALSE;;;;0;0
+Reporting Services Studio;;;FALSE;;;;0;0
+InfoBusiness Connector Standard;;IBCO;FALSE;IBConnector;;;0;0
+Easy Look;;ELSR;TRUE;;;;0;0
+Spesometro;;FISC;TRUE;;;;0;0
+Magic Document;;MDOC;TRUE;;;;0;0
+Migration Kit da MagoXP a Mago.Net;;MIGR;TRUE;;;;0;0
+Security Light;;OSLL;TRUE;;;;0;0
+Ubicazioni;;UBIC;TRUE;;;;0;0
+Xgate;;XGAT;TRUE;;;;0;0
