@@ -1,5 +1,5 @@
 Module;Functionality;Tag;Discontinued;Fragment;AllowISO;DenyISO;License;MLU;Standard;Professional;Enterprise;Available
-Modulo Base;;SEVR;False;Server;;;495;89;X;X;X;True
+#Modulo Base;;SEVR;False;Server;;;495;89;X;X;X;True
 ;Descrizioni Multilingua;SEVR;False;Languages;;;0;0;;X;X;True
 ;Multivaluta;SEVR;False;Currencies;;;0;0;;X;X;True
 ;Gestione Contatti;SEVR;False;Contacts;;;0;0;;X;X;True
@@ -64,6 +64,10 @@ Fatturazione/Bollettazione;;VEDT;False;;;;440;79;X;X;X;True
 ;Gestione di più bollettari;VEDT;False;MultiStubBooks;;;0;0;;X;X;True
 ;Picking List;VEDT;False;PickingList;;;0;0;;X;X;True
 e-commerce;;;False;;;;0;0;;;;False
+Store Management;;;False;;;;0;0;;;;False
+;Varianti / Taglie e Colori;;False;;;;0;0;;;;False
+;Ricette per Ristorazione;;False;;;;0;0;;;;False
+;In-store App Mobile;;False;;;;0;0;;;;False
 CRM;Infinity Connector;MAIF;False;;;;0;0;;X;X;True
 Conai;;CONA;False;Conai;IT,RO,BG,HU,ES;;165;30;;X;X;True
 RAEE;;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;275;50;;X;X;True
@@ -86,6 +90,8 @@ WMS;Base;WMAA;False;WMSBasic;;;1650;297;;X/0;X;True
 ;Avanzato;WMAD;False;WMSAdvanced;;;2860;515;;;X;True
 ;Shipping;;False;WMSShipping;;;0;0;;X/0;X;True
 ;Mobile;WMRF;False;WMSMobile;;;1100;198;;Nr-User;Nr-User;True
+Resources Management;;;False;;;;0;0;;X;X;True
+Calendario Aziendale;;;False;;;;0;0;;;;False
 Distinta Base;;DIST;False;BillOfMaterials;;;748;135;;X/0;X/0;True
 ;Calendario Associato ai CdL;DIST;False;BillOfMaterials;;;0;0;;;;False
 ;Famiglie di CdL;DIST;False;BillOfMaterials;;;0;0;;;;False
@@ -107,11 +113,9 @@ Pianificazione;Base;PRZP;False;ManufacturingPlanning;;;3300;594;;;;False
 ;Avanzata;PRPA;False;MRPAdvanced;;;2200;396;;;;False
 ;Gestione Make or Buy;PRPA;False;MRPAdvanced;;;0;0;;;;False
 Attrezzi;;ATTR;False;ToolsManagement;;;880;158;;;;False
-DMS;Base;EATT;False;;;;1650;297;;X;X;True
+#DMS;Base;EATT;False;;;;1650;297;;X;X;True
 ;Massive Archiving Plug-In;MASS;False;;;;300;54;;;X;True
 Mail Services;;MAIL;False;;;;0;0;;X;X;True
-Resources Management;;;False;;;;0;0;;X;X;True
-Calendario Aziendale;;;False;;;;0;0;;;;False
 Reporting Personalizzati;;;False;;;;0;0;max;max;X;True
 Job Scheduler;;SCHD;False;JobScheduler;;;660;119;;;X;True
 Security;;OSLL;False;Security;;;660;119;;X;X;True
