@@ -1,0 +1,203 @@
+{
+    "SEVR" : {
+        "license": 495,
+        "mlu": 89
+    },
+    "CONT" : {
+        "license": 660,
+        "mlu": 119
+    },
+    "CPCO" : {
+        "license": 150,
+        "mlu": 27
+    },
+    "BAPL" : {
+        "license": 330,
+        "mlu": 59
+    },
+    "TESO" : {
+        "license": 1200,
+        "mlu": 300
+    },
+    "CSPT" : {
+        "license": 605,
+        "mlu": 109
+    },
+    "COPR" : {
+        "license": 275,
+        "mlu": 50
+    },
+    "XBRL" : {
+        "license": 550,
+        "mlu": 99
+    },
+    "LIBR" : {
+        "license": 440,
+        "mlu": 79
+    },
+    "BAII" : {
+        "license": 330,
+        "mlu": 59
+    },
+    "BICO" : {
+        "license": 605,
+        "mlu": 109
+    },
+    "COAN" : {
+        "license": 748.00,
+        "mlu": 135.00
+    },
+    "CASH" : {
+        "license": 110.00,
+        "mlu": 20.00
+    },
+    "INTR" : {
+        "license": 165.00,
+        "mlu": 30.00
+    },
+    "SOSC" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "ORCL" : {
+        "license": 385.00,
+        "mlu": 69.00
+    },
+    "VEDT" : {
+        "license": 440.00,
+        "mlu": 79.00
+    },
+    "CONA" : {
+        "license": 165.00,
+        "mlu": 30.00
+    },
+    "RAEE" : {
+        "license": 275.00,
+        "mlu": 50.00
+    },
+    "SFMG" : {
+        "license": 275.00,
+        "mlu": 50.00
+    },
+    "CRED" : {
+        "license": 275.00,
+        "mlu": 50.00
+    },
+    "ORFO" : {
+        "license": 385.00,
+        "mlu": 69.00
+    },
+    "ACQT" : {
+        "license": 605.00,
+        "mlu": 109.00
+    },
+    "MAGA" : {
+        "license": 440.00,
+        "mlu": 79.00
+    },
+    "INSP" : {
+        "license": 550.00,
+        "mlu": 99.00
+    },
+    "BARC" : {
+        "license": 330.00,
+        "mlu": 59.00
+    },
+    "LOTT" : {
+        "license": 165.00,
+        "mlu": 30.00
+    },
+    "WMAA" : {
+        "license": 1650.00,
+        "mlu": 297.00
+    },
+    "WMAD" : {
+        "license": 2860.00,
+        "mlu": 515.00
+    },
+    "WMRF" : {
+        "license": 1100.00,
+        "mlu": 198.00
+    },
+    "WMRC" : {
+        "license": 330.00,
+        "mlu": 59.00
+    },
+    "DIST" : {
+        "license": 748.00,
+        "mlu": 135.00
+    },
+    "ECO" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "VARI" : {
+        "license": 605.00,
+        "mlu": 109.00
+    },
+    "CONF" : {
+        "license": 748.00,
+        "mlu": 135.00
+    },
+    "PRZB" : {
+        "license": 748.00,
+        "mlu": 135.00
+    },
+    "PRZA" : {
+        "license": 2860.00,
+        "mlu": 515.00
+    },
+    "OPOR" : {
+        "license": 880.00,
+        "mlu": 158.00
+    },
+    "MANM" : {
+        "license": 1320.00,
+        "mlu": 238.00
+    },
+    "MANC" : {
+        "license": 330,
+        "mlu": 59
+    },
+    "PRZP" : {
+        "license": 3300.00,
+        "mlu": 594.00
+    },
+    "PRPA" : {
+        "license": 2200.00,
+        "mlu": 396.00
+    },
+    "ATTR" : {
+        "license": 880.00,
+        "mlu": 158.00
+    },
+    "EATT" : {
+        "license": 1650,
+        "mlu": 297
+    },
+    "MASS" : {
+        "license": 300.00,
+        "mlu": 54.00
+    },
+    "MAIL" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "SCHD" : {
+        "license": 660.00,
+        "mlu": 119.00
+    },
+    "OSLL" : {
+        "license": 660.00,
+        "mlu": 119.00
+    },
+    "OSLS" : {
+        "license": 3000.00,
+        "mlu": 540.00
+    },
+    "AUDT" : {
+        "license": 308.00,
+        "mlu": 55.00
+    }
+
+}

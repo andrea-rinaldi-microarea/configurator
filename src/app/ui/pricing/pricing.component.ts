@@ -6,6 +6,7 @@ import { Feature } from '../../../models/feature';
 
 declare var require: any;
 const packagePrice = require("./package-price.json");
+const modulePrice = require("./module-price.json");
 
 const CAL_PRICE: number = 660;
 const CAL_MLU: number = 119;
@@ -18,6 +19,7 @@ const CAL_MLU: number = 119;
 export class PricingComponent implements OnInit, DoCheck  {
 
   private packagePrice: any = packagePrice;
+  private modulePrice: any = modulePrice;
   public customer: Pricing = new Pricing();
   public standard: Pricing = new Pricing();
   public professional: Pricing = new Pricing();
@@ -67,11 +69,12 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.misconfigured = false;
     if (!this.configuration.current || !this.clients.current)
       return;
+    var foundTags: string[] = [];
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
       var feat: Feature  = this.configuration.current.features[f];
-      if (feat.available && feat.customer && !feat.fromPackage) {
-        this.customer.license += feat.license;
-        this.customer.mlu += feat.mlu;
+      if (feat.available && feat.customer && !feat.fromPackage && !foundTags.includes(feat.tag)) {
+        this.customer.license += modulePrice[feat.tag].license;
+        this.customer.mlu += modulePrice[feat.tag].mlu;
       }
       if (feat.customer && !feat.available && !feat.discontinued) {
         this.misconfigured = true;
@@ -89,7 +92,6 @@ export class PricingComponent implements OnInit, DoCheck  {
 
     this.customer.total5Years = this.customer.license + this.customer.calLicense + (this.customer.mlu + this.customer.calMlu) * 5;
     this.customer.perUserMonth = this.customer.total5Years / (this.customer.cals * 60);
-
   }
 
 }

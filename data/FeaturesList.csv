@@ -89,7 +89,8 @@ Lotti e Matricole;;LOTT;FALSE;LotsSerials;;;165.00;30.00
 WMS;Base;WMAA;FALSE;WMSBasic;;;1650.00;297.00
 ;Avanzato;WMAD;FALSE;WMSAdvanced;;;2860.00;515.00
 ;Shipping;;FALSE;WMSShipping;;;0;0
-;Mobile;WMRF;FALSE;WMSMobile;;;1100.00;198.00
+;Mobile - backend;WMRF;FALSE;WMSMobile;;;1100.00;198.00
+;Mobile - app;WMRC;FALSE;WMSMobile;;;330.00;59.00
 Resources Management;;;FALSE;;;;0;0
 Calendario Aziendale;;;FALSE;;;;0;0
 Distinta Base;;DIST;FALSE;BillOfMaterials;;;748.00;135.00
@@ -108,7 +109,8 @@ Produzione Avanzata;;PRZA;FALSE;ManufacturingAdvanced;;;2860.00;515.00
 ;Pannello di Controllo;PRZA;FALSE;ManufacturingPlus;;;0;0
 ;Kanban;PRZA;FALSE;Kanban;;;0;0
 Ordini Aperti;;OPOR;FALSE;OpenOrders;;;880.00;158.00
-Manufacturing Mobile;;MANM;FALSE;ManufacturingMobile;;;1320.00;238.00
+Manufacturing Mobile;backend;MANM;FALSE;ManufacturingMobile;;;1320.00;238.00
+;app;MANC;FALSE;ManufacturingMobile;;;330.00;59.00
 Pianificazione;Base;PRZP;FALSE;ManufacturingPlanning;;;3300.00;594.00
 ;Avanzata;PRPA;FALSE;MRPAdvanced;;;2200.00;396.00
 ;Gestione Make or Buy;PRPA;FALSE;MRPAdvanced;;;0;0
