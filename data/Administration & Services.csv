@@ -45,11 +45,11 @@ Zucchetti Cross-Applications;Connettore SOS;SOSC;False;;IT;;0;0;X;X;X;True
 ;Connettore OMNIA;CONT;False;OMNIAConnector;IT;;0;0;X;X;X;True
 ;Connettore Paghe Web;CONT;False;PayrollImport;IT;;0;0;X;X;X;True
 ;Connettore TESAN;VEDT;False;TESANConnector;IT;;0;0;;;;False
-Vendite/Acquisti;;VEDT;False;Sales;;;0;0;X;X;X;False
-;Copia documenti;VEDT;False;DocumentCopy;;;0;0;;;;False
-;Import/Export file articoli e note;VEDT;False;DocumentDetailImportExport;;;0;0;;;;False
-;Politiche prezzi;VEDT;False;PricePolicies;;;0;0;;;;False
-;Multilistino;VEDT;False;PricePolicies;;;0;0;;;;False
+Vendite/Acquisti;;VEDT;False;Sales;;;0;0;X;X;X;True
+;Copia documenti;VEDT;False;DocumentCopy;;;0;0;;X;X;True
+;Import/Export file articoli e note;VEDT;False;DocumentDetailImportExport;;;0;0;;X;X;True
+;Politiche prezzi;VEDT;False;PricePolicies;;;0;0;;X;X;True
+;Multilistino;VEDT;False;PricePolicies;;;0;0;;X;X;True
 ;Codice parlante;VEDT;False;SmartCode;;;0;0;;;;False
 ;Multiple Unità di Misura dell'Articolo;VEDT;False;AdvancedUoMs;;;0;0;;;;False
 ;Quantità accessorie;VEDT;False;AdditionalQty;;;0;0;;;;False

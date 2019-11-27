@@ -1,0 +1,452 @@
+{
+  "name": "Administration",
+  "productCode": "MagoCloud",
+  "productID": "MC",
+  "CAL": 15,
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. ",
+  "code": "ADPK",
+
+  "editions": [
+    {
+      "editionCode": "STD",
+      "editionDescription": "Standard",
+      "prices": [
+        {
+          "country": "IT",
+          "value": 16.99,
+          "currency": "euro"
+        },
+        {
+          "country": "ES",
+          "value": 17.99,
+          "currency": "euro"
+        },
+        {
+          "country": "DE",
+          "value": 18.99,
+          "currency": "euro"
+        }
+      ]
+    },
+    {
+      "editionCode": "PRO",
+      "editionDescription": "Professional",
+      "prices": [
+        {
+          "country": "IT",
+          "value": 18.99,
+          "currency": "euro",
+          "paymentPeriodicity": "montly"
+        },
+        {
+          "country": "ES",
+          "value": 19.99,
+          "currency": "euro",
+          "paymentPeriodicity": "montly"
+        },
+        {
+          "country": "DE",
+          "value": 20.99,
+          "currency": "euro",
+          "paymentPeriodicity": "montly"
+        }
+      ]
+    },
+    {
+      "editionCode": "ENT",
+      "editionDescription": "Enterprise",
+      "prices": [
+        {
+          "country": "IT",
+          "value": 21.99,
+          "currency": "euro",
+          "paymentPeriodicity": "montly"
+        },
+        {
+          "country": "ES",
+          "value": 22.99,
+          "currency": "euro",
+          "paymentPeriodicity": "montly"
+        },
+        {
+          "country": "DE",
+          "value": 23.99,
+          "currency": "euro",
+          "paymentPeriodicity": "montly"
+        }
+      ]
+    }
+  ],
+
+  "features": [
+    {
+      "isModule": "true",
+      "description": "Modulo base",
+      "fragment": "Server",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "false",
+      "description": "Descrizioni multilingua",
+      "fragment": "Languages",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "false",
+      "description": "Multivaluta",
+      "fragment": "Currencies",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "true",
+      "description": "Contabilità Generale",
+      "fragment": "Financials",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "false",
+      "description": "Gestione Pro-rata",
+      "fragment": "ProRata",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "false",
+      "description": "IVA Agenzie di Viaggio",
+      "fragment": "TravelAgencyVAT",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "true",
+      "description": "Cespiti",
+      "fragment": "FixedAssets",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "true",
+      "description": "Vendite/Acquisti",
+      "fragment": "Sales",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "true",
+      "description": "Gestione Fidi",
+      "fragment": "CreditLimit",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "true",
+      "description": "DMS",
+      "fragment": "",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+
+    {
+      "isModule": "false",
+      "description": "BAse",
+      "fragment": "",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "false",
+      "description": "SOSConnector",
+      "fragment": "",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": "true",
+      "description": "Security",
+      "fragment": "",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": "false",
+      "description": "Access profiles",
+      "fragment": "Security",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": "false",
+      "description": "Auditing",
+      "fragment": "Auditing",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    }
+  ],
+  "optionalFeatures": [
+    {
+      "optID": "OPOROption",
+      "isModule": "true",
+      "description": "Ordini Aperti",
+      "fragment": "OpenOrders",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "optional",
+          "price": "2"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional",
+          "price": "3"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional",
+          "price": "4"
+        }
+      ]
+    },
+    {
+      "optID": "PRZBOption",
+      "isModule": "true",
+      "description": "Produzione Base",
+      "fragment": "ManufacturingBasic",
+      "discontinued": "false",
+      "unavailable": "false",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "optional",
+          "price": "15"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count",
+          "price": "16",
+          "maxUserLicence": "15"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional",
+          "price": "17"
+        }
+      ]
+    }
+  ]
+}
