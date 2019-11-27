@@ -1,5 +1,5 @@
 Module;Functionality;Tag;Discontinued;Fragment;AllowISO;DenyISO;License;MLU
-#Modulo Base;;SEVR;FALSE;Server;;;495.00;89.00
+Modulo Base;;SEVR;FALSE;Server;;;495.00;89.00
 ;Descrizioni Multilingua;SEVR;FALSE;Languages;;;0;0
 ;Multivaluta;SEVR;FALSE;Currencies;;;0;0
 ;Gestione Contatti;SEVR;FALSE;Contacts;;;0;0
@@ -64,11 +64,8 @@ Fatturazione/Bollettazione;;VEDT;FALSE;;;;440.00;79.00
 ;Gestione di più bollettari;VEDT;FALSE;MultiStubBooks;;;0;0
 ;Picking List;VEDT;FALSE;PickingList;;;0;0
 e-commerce;;;FALSE;;;;0;0
-Store Management;;;FALSE;;;;0;0
-;Varianti / Taglie e Colori;;FALSE;;;;0;0
-;Ricette per Ristorazione;;FALSE;;;;0;0
-;In-store App Mobile;;FALSE;;;;0;0
 CRM;Infinity Connector;MAIF;FALSE;;;;0;0
+;ICRM Pat Connector;INPC;FALSE;;;;0;0
 Conai;;CONA;FALSE;Conai;IT,RO,BG,HU,ES;;165.00;30.00
 RAEE;;RAEE;FALSE;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;275.00;50.00
 Sales Force Management;;SFMG;FALSE;SalesPeople;;;275.00;50.00
@@ -89,10 +86,7 @@ Lotti e Matricole;;LOTT;FALSE;LotsSerials;;;165.00;30.00
 WMS;Base;WMAA;FALSE;WMSBasic;;;1650.00;297.00
 ;Avanzato;WMAD;FALSE;WMSAdvanced;;;2860.00;515.00
 ;Shipping;;FALSE;WMSShipping;;;0;0
-;Mobile - backend;WMRF;FALSE;WMSMobile;;;1100.00;198.00
-;Mobile - app;WMRC;FALSE;WMSMobile;;;330.00;59.00
-Resources Management;;;FALSE;;;;0;0
-Calendario Aziendale;;;FALSE;;;;0;0
+;Mobile;WMRF;FALSE;WMSMobile;;;1100.00;198.00
 Distinta Base;;DIST;FALSE;BillOfMaterials;;;748.00;135.00
 ;Calendario Associato ai CdL;DIST;FALSE;BillOfMaterials;;;0;0
 ;Famiglie di CdL;DIST;FALSE;BillOfMaterials;;;0;0
@@ -109,18 +103,34 @@ Produzione Avanzata;;PRZA;FALSE;ManufacturingAdvanced;;;2860.00;515.00
 ;Pannello di Controllo;PRZA;FALSE;ManufacturingPlus;;;0;0
 ;Kanban;PRZA;FALSE;Kanban;;;0;0
 Ordini Aperti;;OPOR;FALSE;OpenOrders;;;880.00;158.00
-Manufacturing Mobile;backend;MANM;FALSE;ManufacturingMobile;;;1320.00;238.00
-;app;MANC;FALSE;ManufacturingMobile;;;330.00;59.00
+Manufacturing Mobile;;MANM;FALSE;ManufacturingMobile;;;1320.00;238.00
 Pianificazione;Base;PRZP;FALSE;ManufacturingPlanning;;;3300.00;594.00
 ;Avanzata;PRPA;FALSE;MRPAdvanced;;;2200.00;396.00
 ;Gestione Make or Buy;PRPA;FALSE;MRPAdvanced;;;0;0
 Attrezzi;;ATTR;FALSE;ToolsManagement;;;880.00;158.00
-#DMS;Base;EATT;FALSE;;;;1650.00;297.00
+DMS;Base;EATT;FALSE;;;;1650.00;297.00
 ;Massive Archiving Plug-In;MASS;FALSE;;;;300.00;54.00
 Mail Services;;MAIL;FALSE;;;;0;0
+Resources Management;;;FALSE;;;;0;0
+Calendario Aziendale;;;FALSE;;;;0;0
 Reporting Personalizzati;;;FALSE;;;;0;0
+Collaboration Services;;;FALSE;;;;0;0
+Administration Services;;;FALSE;;;;0;0
+Subscription Management;;;FALSE;;;;0;0
 Job Scheduler;;SCHD;FALSE;JobScheduler;;;660.00;119.00
 Security;;OSLL;FALSE;Security;;;660.00;119.00
 ;Access profiles;OSLS;FALSE;Security;;;3000.00;540.00
 ;Auditing;AUDT;FALSE;Auditing;;;308.00;55.00
 ;Visibility;;FALSE;;;;0;0
+Integration Tools;IMS;;FALSE;;;;0;0
+;MagicLink;;FALSE;MagicLink;;;0;0
+IMS Studio;;;FALSE;;;;0;0
+Reporting Services Studio;;;FALSE;;;;0;0
+InfoBusiness Connector Standard;;IBCO;FALSE;IBConnector;;;0;0
+Easy Look;;ELSR;TRUE;;;;0;0
+Spesometro;;FISC;TRUE;;;;0;0
+Magic Document;;MDOC;TRUE;;;;0;0
+Migration Kit da MagoXP a Mago.Net;;MIGR;TRUE;;;;0;0
+Security Light;;OSLL;TRUE;;;;0;0
+Ubicazioni;;UBIC;TRUE;;;;0;0
+Xgate;;XGAT;TRUE;;;;0;0

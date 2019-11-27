@@ -40,7 +40,7 @@ export class ClientsService {
   }
 
   next(): boolean {
-    if (this.index >= this.list.length) {
+    if (this.index >= this.list.length - 1) {
       return false;
     }
     this.current = this.list[++this.index];

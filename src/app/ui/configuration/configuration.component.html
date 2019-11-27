@@ -45,20 +45,63 @@
             <app-edition-header [disabled]="!editMode">Enterprise</app-edition-header>
           </th>
       </tr> 
-      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="feature.unavailable" [class.module-sep]="feature.module != ''">
-          <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.unavailable" [options]="unavailableOptions"></app-toggler></td>
-          <td [class.discontinued]="feature.discontinued">{{feature.module}}</td>  
+      <tr *ngIf="clients.show">
+        <th class="subheader"></th>
+        <th class="subheader"></th>
+        <th class="subheader"></th>
+        <th class="edition-sep subheader"></th>
+        <th class="edition-sep subheader"></th>
+        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">
+          <span *ngIf="configuration.current.stdDistance">+{{configuration.current.stdDistance.plus}} / -{{configuration.current.stdDistance.minus}}</span>
+        </th>
+        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRO'">
+          <span *ngIf="configuration.current.proDistance">+{{configuration.current.proDistance.plus}} / -{{configuration.current.proDistance.minus}}</span>
+        </th>
+        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='ENT'">
+          <span *ngIf="configuration.current.entDistance">+{{configuration.current.entDistance.plus}} / -{{configuration.current.entDistance.minus}}</span>
+        </th>
+      </tr>
+      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="!feature.available" [class.module-sep]="feature.module != ''" [class.group-sep]="feature.module.startsWith('#')">
+          <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.available" [options]="availableOptions"></app-toggler></td>
+          <td [class.discontinued]="feature.discontinued">{{feature.module.replace('#','')}}</td>  
           <td [class.discontinued]="feature.discontinued">{{hideFunctionalities ? "" : feature.functionality}}<i class="fa fa-link" style="float:right" [hidden]="!isLinked(feature)" placement="right" ngbTooltip="Non attivabili separatamente"></i></td> 
-          <td class="text-center edition-sep" [hidden]="!clients.show"><i class="fa in-use text-user" [class.fa-circle]="feature.fromPackage" [class.fa-check]="feature.customer"></i></td>
+          <td class="text-center edition-sep" [hidden]="!clients.show">
+            <i 
+              class="fa in-use text-user" 
+              [class.fa-circle]="feature.fromPackage" 
+              [class.fa-check]="feature.customer" 
+              [class.text-danger]="!feature.available || feature.discontinued"></i>
+          </td>
           <td width="25px" class="text-center edition-sep"><i class="fa fa-globe" [hidden]="!isLocalized(feature)" placement="right" [ngbTooltip]="ISOTooltip(feature)"></i></td>  
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'">
-            <app-toggler [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(value)]="feature.standard" [options]="featureTypes"></app-toggler>
+            <app-toggler 
+              [hidden]="!feature.available || feature.discontinued" 
+              [disabled]="!editMode" 
+              class="text-config" 
+              [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.standard)" 
+              [class.text-user]="clients.show && clients.current && configuration.isPlus(feature, feature.standard)" 
+              [(value)]="feature.standard" 
+              [options]="featureTypes"></app-toggler>
           </td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'">
-            <app-toggler [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(value)]="feature.professional" [options]="featureTypes"></app-toggler>
+            <app-toggler 
+              [hidden]="!feature.available || feature.discontinued" 
+              [disabled]="!editMode" 
+              class="text-config" 
+              [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.professional)" 
+              [class.text-user]="clients.show && clients.current && configuration.isPlus(feature, feature.professional)" 
+              [(value)]="feature.professional" 
+              [options]="featureTypes"></app-toggler>
           </td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'">
-            <app-toggler [hidden]="feature.unavailable || feature.discontinued" [disabled]="!editMode" class="text-config" [(value)]="feature.enterprise" [options]="featureTypes"></app-toggler>
+            <app-toggler 
+              [hidden]="!feature.available || feature.discontinued" 
+              [disabled]="!editMode" 
+              class="text-config" 
+              [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.enterprise)" 
+              [class.text-user]="clients.show && clients.current && configuration.isPlus(feature, feature.enterprise)" 
+              [(value)]="feature.enterprise" 
+              [options]="featureTypes"></app-toggler>
           </td>
       </tr>
   </table>

@@ -40,14 +40,14 @@ export class ConfigurationComponent implements OnInit {
     }
     
   ];
-  private unavailableOptions = [
+  private availableOptions = [
     {
       value: false,
-      icon: "fa-ban"
-    }, 
+      icon: "fa-sign-in"
+    },
     {
       value: true,
-      icon: "fa-sign-in"
+      icon: "fa-ban"
     }
   ];
 
@@ -58,7 +58,7 @@ export class ConfigurationComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
   private ShowConfiguration() {
     this.configuration.load(industryList[this.currIndustry]).subscribe( res => {
       this.configuration.showUsing(this.clients.current);
@@ -154,4 +154,5 @@ export class ConfigurationComponent implements OnInit {
     }
     return tooltip;
   }
+
 }

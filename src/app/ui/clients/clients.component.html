@@ -8,11 +8,11 @@
         </div>
         <div class="card-body">
             <div class="d-flex justify-content-between" *ngIf="clients.current" >
-                <span class="card-text w-50">{{clients.current["Ragione Sociale"]}}</span>
+                <span class="card-text w-50">{{clients.current.Modules ? decodeModules(clients.current.Modules) : clients.current["Ragione Sociale"]}} {{clients.current.Qty ? '(' + clients.current.Qty + ' occorrenze)' : ''}}</span>
                 <span class="card-text w-25">{{productDescri(clients.current["Descrizione prodotto"])}} - {{clients.current["Numero C.A.L."]}} CAL</span>
                 <span class="w-25 text-right">
                     <span class="card-text" [hidden]="!clients.current.package">
-                        {{packageDescription[clients.current.package] || clients.current.package}}
+                        {{modulesDescription[clients.current.package] || clients.current.package}}
                         <i class="fa fa-big fa-circle text-user"></i> 
                     </span>
                 </span>
