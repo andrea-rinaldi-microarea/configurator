@@ -143,4 +143,12 @@ export class ConfigurationService {
     });
     return $configuration;
   }
+
+  public export() {
+    this.http.post('/api/configurations/export', this.current).subscribe(res => {
+      console.log("exported");
+    });
+  }
+
+
 }

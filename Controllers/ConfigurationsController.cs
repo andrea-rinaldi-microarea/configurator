@@ -6,6 +6,7 @@ using System.Text;
 using Configurator.Models;
 using CsvHelper;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Configurator.Controllers
 {
@@ -48,6 +49,55 @@ namespace Configurator.Controllers
                 // csv.Configuration.Encoding = Encoding.UTF8;
                 csv.Configuration.Delimiter = ";";
                 csv.WriteRecords( configuration.Features );
+            }
+            return NoContent();
+        }        
+
+        private string ConvertStoreFeatureOption(string option)
+        {
+            switch (option)
+            {
+                case "X": return "always"; 
+                case "X/0": return "optional";
+                case "max": return "always"; //@@TODO capire bene come gestire
+                case "Nr-User": return "count";
+                default: return ""; 
+            }
+        }
+
+        [HttpPost("export")]
+        public IActionResult Export([FromBody] Configuration configuration)
+        {
+            using(TextWriter writer = new StreamWriter($"data\\{configuration.Name}.json", false))
+            {
+                StoreConfiguration storeConfig = new StoreConfiguration();
+                storeConfig.name = configuration.Name;
+                foreach (var feat in configuration.Features)
+                {
+                    if (!feat.Available)
+                        continue;
+
+                    StoreFeature storeFeat = new StoreFeature();
+                    if (feat.Module != "")
+                    {
+                        storeFeat.isModule = true;
+                        storeFeat.description = feat.Module.TrimStart('#') + " " + feat.Functionality;
+                    }
+                    else
+                    {
+                        storeFeat.isModule = false;
+                        storeFeat.description = feat.Functionality;
+                    }
+                    storeFeat.fragment = feat.Fragment;
+
+                    storeFeat.options.Add(new StoreFeatureOption{ edition = "STD", availability = ConvertStoreFeatureOption(feat.Standard) });
+                    storeFeat.options.Add(new StoreFeatureOption{ edition = "PRO", availability = ConvertStoreFeatureOption(feat.Professional) });
+                    storeFeat.options.Add(new StoreFeatureOption{ edition = "ENT", availability = ConvertStoreFeatureOption(feat.Enterprise) });
+
+                    storeConfig.features.Add(storeFeat);
+                }
+                string json = JsonConvert.SerializeObject(storeConfig, new JsonSerializerSettings{ Formatting = Formatting.Indented }); 
+                writer.WriteLine(json);
             }
             return NoContent();
         }        

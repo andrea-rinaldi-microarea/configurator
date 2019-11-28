@@ -13,7 +13,8 @@
     <i class="fa fa-big fa-chevron-right text-config-light"></i>
   </div>
   <div class="right-toolbar" [hidden]="currIndustry == null">
-      <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button> 
+    <button class="btn btn-outline-light" [hidden]="editMode" (click)="onExport()"><i class="fa fa-big fa-share-square-o text-config-light"></i></button> 
+    <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button> 
       <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onUpgrade()" placement="bottom" ngbTooltip="Allinea la lista delle funzionalità con quella standard"><i class="fa fa-big fa-clipboard text-config-light"></i></button> 
       <div ngbDropdown class="d-inline-block">
         <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle placement="bottom" ngbTooltip="Copia un'altra industry">

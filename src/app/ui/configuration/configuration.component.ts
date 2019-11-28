@@ -128,6 +128,10 @@ export class ConfigurationComponent implements OnInit {
     });
   }
 
+  onExport() {
+    this.configuration.export();
+  }
+
   isLinked(feature: Feature) {
     var idx = this.configuration.current.features.findIndex(feat => feature.module == feat.module && feature.functionality == feat.functionality);
     return  feature.fragment != "" &&
