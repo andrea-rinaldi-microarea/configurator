@@ -60,7 +60,7 @@ from mago4.com
 #0065B3 blue
 
 */
-.bg-config {
+/* .bg-config {
     background-color:#009152 !important;
 }
 
@@ -86,14 +86,51 @@ from mago4.com
 
 .border-user {
     border-color: #0065B3 !important;
+} */
+
+/*
+store portal
+
+#043555 blue
+#CDE9F5 azure
+#EEEBCC cream
+*/
+
+.bg-config {
+    background-color:#043555 !important;
+}
+
+.bg-config-light {
+    background-color:#CDE9F5 !important;
+}
+
+.text-config {
+    color: #043555;
+}
+
+.text-config-light {
+    /* color: #CDE9F5 !important; */
+    color: rgb(120, 202, 253);
+}
+
+.text-config-white {
+    color: #F2F2F2 !important;
+}
+
+.text-user {
+    color: #E3A202;
+}
+
+.border-user {
+    border-color: #E3A202 !important;
 }
 
 .bg-user-light {
-    background-color: aliceblue;
+    background-color: rgb(248, 246, 222);
 }
 
 .bg-user {
-    background-color: lightblue;
+    background-color: #E3A202;
 }
 
 th.edition-sep, td.edition-sep {
@@ -107,6 +144,9 @@ tr.module-sep {
 tr.group-sep {
     border-top: 2px solid black;
 }
+
+
+
 
 @media print {
     .print-only {
@@ -139,3 +179,4 @@ mago4.com from color palette generator
 #CCCBCC Light Grey
 
 */
+
