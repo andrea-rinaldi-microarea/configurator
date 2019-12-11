@@ -51,6 +51,8 @@ export class ClientsComponent implements OnInit {
   }
 
   productDescri(fullDescri: string) {
+    if (!fullDescri)
+      return "";
     return fullDescri
       .replace("All Database", "")
       .replace("Powered by MSDE", "")
@@ -66,5 +68,24 @@ export class ClientsComponent implements OnInit {
       description += modulesDescription[mod.trim()] ? modulesDescription[mod.trim()] : mod 
     });
     return description;
+  }
+
+  decodeClient() {
+    if (this.clients.current["Ragione Sociale"])
+      return this.clients.current["Ragione Sociale"];
+    
+    if (this.clients.current.CompanyName)
+      return this.clients.current.CompanyName;
+
+    if (this.clients.current.Modules)
+      return this.decodeModules(this.clients.current.Modules);
+  }
+
+  decodeCALs() {
+    if (this.clients.current["Numero C.A.L."])
+      return this.clients.current["Numero C.A.L."];
+    
+    if (this.clients.current.CALNrs)
+      return this.clients.current.CALNrs;
   }
 }

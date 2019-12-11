@@ -84,8 +84,9 @@ export class PricingComponent implements OnInit, DoCheck  {
       this.customer.license += packagePrice[this.clients.current.package].license;
       this.customer.mlu += packagePrice[this.clients.current.package].mlu;
     }
-    if (this.clients.current["Numero C.A.L."]) {
-      this.customer.cals = this.clients.current["Numero C.A.L."];
+    if (this.clients.current["Numero C.A.L."] || this.clients.current.CALNrs) {
+      this.customer.cals = this.clients.current["Numero C.A.L."] ? this.clients.current["Numero C.A.L."] : 0;
+      this.customer.cals = this.clients.current.CALNrs ? this.clients.current.CALNrs : 0;
       this.customer.calLicense = CAL_PRICE * this.customer.cals;
       this.customer.calMlu = CAL_MLU * this.customer.cals;
     }

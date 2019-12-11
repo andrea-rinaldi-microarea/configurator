@@ -56,20 +56,28 @@ export class ConfigurationService {
 
     for (var m = 0; m < moduleTags.length; m++ ) {
       var mod = moduleTags[m];
-      if (client[mod.tag] !== "X") {
-        if (!mod.alias)
-          continue;
-        var found: boolean = false;
-        for (var a = 0; a < mod.alias.length; a++) {
-          if (client[mod.alias[a]] == "X") {
-            found = true;
-            break;
+      var found: boolean = false;
+      if (
+            (client[mod.tag] !== undefined && client[mod.tag] == "X") ||
+            (client.Modules !== undefined && client.Modules.includes(mod.tag))
+         ) 
+         found = true;
+      else {
+        if (mod.alias) {
+          for (var a = 0; a < mod.alias.length; a++) {
+            if (
+                  (client[mod.alias[a]] !== undefined && client[mod.alias[a]] == "X") ||
+                  (client.Modules !== undefined && client.Modules.includes(mod.alias[a]))
+              ) {
+              found = true;
+              break;
+            }
           }
         }
-        if (!found)
-          continue;
       }
-      
+      if (!found)
+        continue;
+  
       if (mod.package) {
         client.package = mod.tag;
         this.lookForMods(mod.package, true);

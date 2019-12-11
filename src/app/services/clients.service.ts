@@ -68,6 +68,8 @@ export class ClientsService {
     if (!this.current)
       return "";
     var product: string = this.current["Descrizione prodotto"];
+    if (!product)
+      return "";
     if (product.includes("PRO"))
       return "PRO";
     else if (product.includes("ENT"))
