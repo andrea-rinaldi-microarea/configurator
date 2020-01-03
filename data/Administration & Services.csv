@@ -1,5 +1,5 @@
 Module;Functionality;Tag;Name;Discontinued;Fragment;AllowISO;DenyISO;Standard;Professional;Enterprise;Available
-Modulo Base;;SEVR;SERVER;False;Server;;;X;X;X;True
+_Modulo Base;;SEVR;SERVER;False;Server;;;X;X;X;True
 ;Descrizioni Multilingua;SEVR;LANGUAGES;False;Languages;;;X;X;X;True
 ;Multivaluta;SEVR;CURRENCIES;False;Currencies;;;;X;X;True
 ;Gestione Contatti;SEVR;CONTACTS;False;Contacts;;;;;;False
@@ -115,7 +115,7 @@ Pianificazione;Base;PRZP;MANUFPLAN;False;ManufacturingPlanning;;;;;;False
 ;Avanzata;PRPA;MRPADV;False;MRPAdvanced;;;;;;False
 ;Gestione Make or Buy;PRPA;MRPADV;False;MRPAdvanced;;;;;;False
 Attrezzi;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;;False
-DMS;Base;EATT;DMSBASE;False;;;;;X;X;True
+_DMS;Base;EATT;DMSBASE;False;;;;;X;X;True
 ;Massive Archiving Plug-In;MASS;DMSMASS;False;;;;;;X;True
 Mail Services;;MAIL;MAILSERVICES;False;;;;;X;X;True
 Reporting Personalizzati;;;CUSTOMREP;False;;;;max;max;X;True

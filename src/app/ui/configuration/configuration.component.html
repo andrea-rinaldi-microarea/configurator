@@ -62,9 +62,9 @@
           <span *ngIf="configuration.current.entDistance">+{{configuration.current.entDistance.plus}} / -{{configuration.current.entDistance.minus}}</span>
         </th>
       </tr>
-      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="!feature.available" [class.module-sep]="feature.module != ''" [class.group-sep]="feature.module.startsWith('#')">
+      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="!feature.available" [class.module-sep]="feature.module != ''" [class.group-sep]="feature.module.startsWith('_')">
           <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.available" [options]="availableOptions"></app-toggler></td>
-          <td [class.discontinued]="feature.discontinued">{{feature.module.replace('#','')}}</td>  
+          <td [class.discontinued]="feature.discontinued">{{feature.module.replace('_','')}}</td>  
           <td [class.discontinued]="feature.discontinued">{{hideFunctionalities ? "" : feature.functionality}}<i class="fa fa-link" style="float:right" [hidden]="!isLinked(feature)" placement="right" ngbTooltip="Non attivabili separatamente"></i></td> 
           <td class="text-center edition-sep" [hidden]="!clients.show">
             <i 

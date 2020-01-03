@@ -81,7 +81,7 @@ namespace Configurator.Controllers
                     if (feat.Module != "")
                     {
                         storeFeat.isModule = true;
-                        storeFeat.description = feat.Module.TrimStart('#') + " " + feat.Functionality;
+                        storeFeat.description = feat.Module.TrimStart('_') + " " + feat.Functionality;
                     }
                     else
                     {
