@@ -98,17 +98,19 @@ export class ClientsComponent implements OnInit {
   }
 
   onCopyConfig() {
-    var config = document.querySelector('#config');
+    if (!this.clients.current.Modules)
+      return;
 
-    document.getSelection().removeAllRanges();
-    var range = document.createRange();
-
-    range.selectNode(config);
-    document.getSelection().addRange(range);
-
-    document.execCommand('copy');
-
-    document.getSelection().removeAllRanges();
+    var tmp = document.createElement("textarea");
+    tmp.value = this.clients.current.Modules;
+    tmp.style.height = "0";
+    tmp.style.overflow = "hidden";
+    tmp.style.position = "fixed";
+    document.body.appendChild(tmp);
+    tmp.focus();
+    tmp.select();
+    document.execCommand("copy");
+    document.body.removeChild(tmp);    
   }
 
 }

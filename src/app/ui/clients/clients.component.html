@@ -11,7 +11,7 @@
                 <span class="card-text w-50">
                     <i class="fa fa-files-o btn btn-sm text-user" (click)="onCopyConfig()"></i>
                     {{ decodeClient() }} {{ decodeQty() }}
-                    <span id="config">{{this.clients.current.Modules}}</span>
+                    
                 </span>
                 <span class="card-text w-25">{{productDescri(clients.current["Descrizione prodotto"])}} - {{ decodeCALs() }} CAL</span>
                 <span class="w-25 text-right">
@@ -23,11 +23,13 @@
             </div>
         </div>
         <div class="card-footer bg-transparent">
-            <div [hidden]="!clients.current">
-                <i class="fa fa-chevron-left btn btn-sm text-user" (click)="onPrev()"></i>
-                <span class="text-center" style="display: inline-block;width: 30px;">{{clients.currIdx()}}</span>
-                <i class="fa fa-chevron-right btn btn-sm text-user" (click)="onNext()"></i>
-                <i class="fa fa-random btn btn-sm text-user" (click)="onRandom()"></i>
+            <div class="d-flex justify-content-between" *ngIf="clients.current" >
+                <div>
+                    <i class="fa fa-chevron-left btn btn-sm text-user" (click)="onPrev()"></i>
+                    <span class="text-center" style="display: inline-block;width: 30px;">{{clients.currIdx()}}</span>
+                    <i class="fa fa-chevron-right btn btn-sm text-user" (click)="onNext()"></i>
+                    <i class="fa fa-random btn btn-sm text-user" (click)="onRandom()"></i>
+                </div>
             </div>
         </div>
       </div>
