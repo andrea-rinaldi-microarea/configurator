@@ -1,0 +1,238 @@
+{
+    "SEVR" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "CONT" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "CPCO" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "BAPL" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "TESO" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "CSPT" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "COPR" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "XBRL" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "LIBR" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "BAII" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "BICO" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "COAN" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "CASH" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "INTR" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "SOSC" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "ORCL" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "VEDT" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "CONA" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "RAEE" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "SFMG" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "CRED" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "ORFO" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "ACQT" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "MAGA" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "INSP" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "BARC" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "LOTT" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "WMAA" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "WMAD" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "WMRF" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "WMRC" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "DIST" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "ECO" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "VARI" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "CONF" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "PRZB" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "PRZA" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "OPOR" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "MANM" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "MANC" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "PRZP" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "PRPA" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "ATTR" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "EATT" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "MASS" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "MAIL" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "SCHD" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "OSLL" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "OSLS" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "AUDT" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "MAIF" : {
+        "license": 0,
+        "mlu": 0
+    },
+    "ADPK": {
+        "license": 0,
+        "mlu": 0 
+    },
+    "COMD": {
+        "license": 0,
+        "mlu": 0 
+    },
+    "EDU0": {
+        "license": 0,
+        "mlu": 0 
+    },
+    "SBPK": {
+        "license": 0,
+        "mlu": 0 
+    },
+    "TRPK": {
+        "license": 0,
+        "mlu": 0 
+    },
+    "CFIN": {
+        "license": 0,
+        "mlu": 0 
+    },
+    "CFUL": {
+        "license": 0,
+        "mlu": 0 
+    },
+    "CAL": {
+        "license": 0,
+        "mlu": 0
+    }
+}

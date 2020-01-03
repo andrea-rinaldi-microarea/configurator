@@ -5,11 +5,10 @@ import { ClientsService } from '../../services/clients.service';
 import { Feature } from '../../../models/feature';
 
 declare var require: any;
-const modulePrice = require("./module-price.json");
+const modulePricePRO = require("./module-price-PRO.json");
+const modulePriceLITE = require("./module-price-LITE.json");
+const modulePriceNET = require("./module-price-NET.json");
 const fragmentPrice = require("./fragment-price.json");
-
-const CAL_PRICE: number = 660;
-const CAL_MLU: number = 119;
 
 @Component({
   selector: 'app-pricing',
@@ -18,7 +17,11 @@ const CAL_MLU: number = 119;
 })
 export class PricingComponent implements OnInit, DoCheck  {
 
-  private modulePrice: any = modulePrice;
+  private modulePrice: any = {
+    "PRO" : modulePricePRO,
+    "LITE": modulePriceLITE,
+    "NET": modulePriceNET
+  }
   private fragmentPrice: any = fragmentPrice;
   public customer: Pricing = new Pricing();
   public standard: Pricing = new Pricing();
@@ -27,6 +30,7 @@ export class PricingComponent implements OnInit, DoCheck  {
   private misconfigured: boolean = false;
   public nrCals: number = 1;
   public useCustomCals: boolean = false;
+  private priceSource: string = "LITE";
 
   constructor(
     private configuration: ConfigurationService,
@@ -54,17 +58,17 @@ export class PricingComponent implements OnInit, DoCheck  {
 
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
       var feat: Feature  = this.configuration.current.features[f];
-      if (!fragmentPrice[feat.name]) 
+      if (!this.fragmentPrice[feat.name]) 
         continue;
 
       if (feat.standard != "" && feat.standard != null) {
-        this.standard.license += fragmentPrice[feat.name].license;
+        this.standard.license += this.fragmentPrice[feat.name].license;
       }
       if (feat.professional != "" && feat.professional != null) {
-        this.professional.license += fragmentPrice[feat.name].license;
+        this.professional.license += this.fragmentPrice[feat.name].license;
       }
       if (feat.enterprise != "" && feat.enterprise != null) {
-        this.enterprise.license += fragmentPrice[feat.name].license;
+        this.enterprise.license += this.fragmentPrice[feat.name].license;
       }
     }
   }
@@ -78,8 +82,8 @@ export class PricingComponent implements OnInit, DoCheck  {
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
       var feat: Feature  = this.configuration.current.features[f];
       if (feat.available && feat.customer && !feat.fromPackage && !foundTags.includes(feat.tag)) {
-        this.customer.license += modulePrice[feat.tag].license;
-        this.customer.mlu += modulePrice[feat.tag].mlu;
+        this.customer.license += this.modulePrice[this.priceSource][feat.tag].license;
+        this.customer.mlu += this.modulePrice[this.priceSource][feat.tag].mlu;
         foundTags.push(feat.tag);
       }
       if (feat.customer && !feat.available && !feat.discontinued) {
@@ -87,12 +91,12 @@ export class PricingComponent implements OnInit, DoCheck  {
       }
     }
     if (this.clients.current.package) {
-      this.customer.license += modulePrice[this.clients.current.package].license;
-      this.customer.mlu += modulePrice[this.clients.current.package].mlu;
+      this.customer.license += this.modulePrice[this.priceSource][this.clients.current.package].license;
+      this.customer.mlu += this.modulePrice[this.priceSource][this.clients.current.package].mlu;
     }
 
-    this.customer.calLicense = modulePrice["CAL"].license * this.nrCals;
-    this.customer.calMlu = modulePrice["CAL"].mlu * this.nrCals;
+    this.customer.calLicense = this.modulePrice[this.priceSource]["CAL"].license * this.nrCals;
+    this.customer.calMlu = this.modulePrice[this.priceSource]["CAL"].mlu * this.nrCals;
 
     this.customer.total5Years = this.customer.license + this.customer.calLicense + (this.customer.mlu + this.customer.calMlu) * 5;
     this.customer.perUserMonth = Math.floor(this.customer.total5Years / ((this.nrCals || 1) * 60));

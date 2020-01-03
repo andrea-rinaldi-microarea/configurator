@@ -6,7 +6,16 @@
     <table class="table table-sm table-compact table-borderless mb-0">
         <tr>
             <th class="text-right"><i [hidden]="!misconfigured" class="fa fa-bell fa-big text-danger" ngbTooltip="La configurazione in uso è più ampia di quella su cui è stato fatto il calcolo"></i></th>
-            <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
+            <th class="text-center edition-sep" [hidden]="!clients.show">
+              <div ngbDropdown>
+                <div ngbDropdownToggle>Pricing: {{priceSource}}</div>
+                <div ngbDropdownMenu class="dropdown-menu">
+                  <div class="dropdown-item" ngbDropdownItem (click)="priceSource='LITE'">LITE</div>
+                  <div class="dropdown-item" ngbDropdownItem (click)="priceSource='PRO'">PRO</div>
+                  <div class="dropdown-item" ngbDropdownItem (click)="priceSource='NET'">NET</div>
+                </div>                
+              </div>  
+            </th>
             <th class="text-center edition-sep" >
               <app-edition-header>Standard</app-edition-header> 
             </th>
@@ -19,7 +28,7 @@
         </tr> 
         <tr>
           <td class="text-right">licenza</td>
-          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.license}}</td>
+          <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.license}}</td>
           <td class="text-center edition-sep" width="9%">{{standard.license}}</td>
           <td class="text-center edition-sep" width="9%">{{professional.license}}</td>
           <td class="text-center edition-sep" width="9%">{{enterprise.license}}</td>
@@ -35,56 +44,56 @@
               &nbsp;CAL x <input type="text" size="1" [(ngModel)]="nrCals"> 
             </span>  
           </td>
-          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.calLicense}}</td>
+          <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.calLicense}}</td>
           <td class="text-center edition-sep" width="9%"></td>
           <td class="text-center edition-sep" width="9%"></td>
           <td class="text-center edition-sep" width="9%"></td>
         </tr>
         <tr>
           <td class="text-right font-italic">totale licenze</td>
-          <td class="text-center edition-sep font-italic" width="5%" [hidden]="!clients.show">{{customer.calLicense + customer.license}}</td>
+          <td class="text-center edition-sep font-italic" width="10%" [hidden]="!clients.show">{{customer.calLicense + customer.license}}</td>
           <td class="text-center edition-sep font-italic" width="9%"></td>
           <td class="text-center edition-sep font-italic" width="9%"></td>
           <td class="text-center edition-sep font-italic" width="9%"></td>
         </tr>
         <tr>
           <td class="text-right row-sep">MLU</td>
-          <td class="text-center edition-sep row-sep" width="5%" [hidden]="!clients.show">{{customer.mlu}}</td>
+          <td class="text-center edition-sep row-sep" width="10%" [hidden]="!clients.show">{{customer.mlu}}</td>
           <td class="text-center edition-sep row-sep" width="9%"></td>
           <td class="text-center edition-sep row-sep" width="9%"></td>
           <td class="text-center edition-sep row-sep" width="9%"></td>
         </tr>
         <tr>
           <td class="text-right">MLU su CAL x {{nrCals}}</td>
-          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.calMlu}}</td>
+          <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.calMlu}}</td>
           <td class="text-center edition-sep" width="9%"></td>
           <td class="text-center edition-sep" width="9%"></td>
           <td class="text-center edition-sep" width="9%"></td>
         </tr>
         <tr>
           <td class="text-right font-italic">canone annuale attuale</td>
-          <td class="text-center edition-sep font-italic" width="5%" [hidden]="!clients.show">{{customer.calMlu + customer.mlu}}</td>
+          <td class="text-center edition-sep font-italic" width="10%" [hidden]="!clients.show">{{customer.calMlu + customer.mlu}}</td>
           <td class="text-center edition-sep font-italic" width="9%"></td>
           <td class="text-center edition-sep font-italic" width="9%"></td>
           <td class="text-center edition-sep font-italic" width="9%"></td>
         </tr>
         <tr>
           <td class="text-right row-sep">Totale su 5 anni</td>
-          <td class="text-center edition-sep row-sep" width="5%" [hidden]="!clients.show">{{customer.total5Years}}</td>
+          <td class="text-center edition-sep row-sep" width="10%" [hidden]="!clients.show">{{customer.total5Years}}</td>
           <td class="text-center edition-sep row-sep" width="9%"></td>
           <td class="text-center edition-sep row-sep" width="9%"></td>
           <td class="text-center edition-sep row-sep" width="9%"></td>
         </tr>
         <tr>
           <td class="text-right">utente/mese</td>
-          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.perUserMonth | number:'1.0-0'}}</td>
+          <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.perUserMonth | number:'1.0-0'}}</td>
           <td class="text-center edition-sep" width="9%"></td>
           <td class="text-center edition-sep" width="9%"></td>
           <td class="text-center edition-sep" width="9%"></td>
         </tr>
         <tr>
           <td class="text-right">canone equivalente annuo</td>
-          <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.perUserMonth * nrCals * 12}}</td>
+          <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.perUserMonth * nrCals * 12}}</td>
           <td class="text-center edition-sep" width="9%"></td>
           <td class="text-center edition-sep" width="9%"></td>
           <td class="text-center edition-sep" width="9%"></td>
