@@ -5,7 +5,6 @@ import { ClientsService } from '../../services/clients.service';
 import { Feature } from '../../../models/feature';
 
 declare var require: any;
-const packagePrice = require("./package-price.json");
 const modulePrice = require("./module-price.json");
 const fragmentPrice = require("./fragment-price.json");
 
@@ -19,7 +18,6 @@ const CAL_MLU: number = 119;
 })
 export class PricingComponent implements OnInit, DoCheck  {
 
-  private packagePrice: any = packagePrice;
   private modulePrice: any = modulePrice;
   private fragmentPrice: any = fragmentPrice;
   public customer: Pricing = new Pricing();
@@ -89,12 +87,12 @@ export class PricingComponent implements OnInit, DoCheck  {
       }
     }
     if (this.clients.current.package) {
-      this.customer.license += packagePrice[this.clients.current.package].license;
-      this.customer.mlu += packagePrice[this.clients.current.package].mlu;
+      this.customer.license += modulePrice[this.clients.current.package].license;
+      this.customer.mlu += modulePrice[this.clients.current.package].mlu;
     }
 
-    this.customer.calLicense = CAL_PRICE * this.nrCals;
-    this.customer.calMlu = CAL_MLU * this.nrCals;
+    this.customer.calLicense = modulePrice["CAL"].license * this.nrCals;
+    this.customer.calMlu = modulePrice["CAL"].mlu * this.nrCals;
 
     this.customer.total5Years = this.customer.license + this.customer.calLicense + (this.customer.mlu + this.customer.calMlu) * 5;
     this.customer.perUserMonth = Math.floor(this.customer.total5Years / ((this.nrCals || 1) * 60));

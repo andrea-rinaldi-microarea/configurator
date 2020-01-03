@@ -202,6 +202,37 @@
     "MAIF" : {
         "license": 550.00,
         "mlu": 99.00
+    },
+    "ADPK": {
+        "license": 1705,
+        "mlu": 307 
+    },
+    "COMD": {
+        "license": 968,
+        "mlu": 174 
+    },
+    "EDU1": {
+        "license": 0,
+        "mlu": 0 
+    },
+    "SBPK": {
+        "license": 1375,
+        "mlu": 248 
+    },
+    "TRPK": {
+        "license": 3245,
+        "mlu": 584 
+    },
+    "CFIN": {
+        "license": 2000,
+        "mlu": 360 
+    },
+    "CFUL": {
+        "license": 3000,
+        "mlu": 540 
+    },
+    "CAL": {
+        "license": 660,
+        "mlu": 119
     }
-
 }
