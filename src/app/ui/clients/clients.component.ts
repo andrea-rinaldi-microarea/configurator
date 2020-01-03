@@ -97,4 +97,18 @@ export class ClientsComponent implements OnInit {
       return '(' + this.clients.current.NrUsers + ' occorrenze)';
   }
 
+  onCopyConfig() {
+    var config = document.querySelector('#config');
+
+    document.getSelection().removeAllRanges();
+    var range = document.createRange();
+
+    range.selectNode(config);
+    document.getSelection().addRange(range);
+
+    document.execCommand('copy');
+
+    document.getSelection().removeAllRanges();
+  }
+
 }
