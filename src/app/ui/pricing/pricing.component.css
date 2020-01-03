@@ -7,3 +7,16 @@
 .panel {
     margin-top: 10px;
 }
+
+.row-sep {
+    border-top: 1pt #A8A7A9 solid;
+}
+.table-compact th, .table-compact td {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.btn-mini {
+    padding: 0;
+    line-height: 0;
+}

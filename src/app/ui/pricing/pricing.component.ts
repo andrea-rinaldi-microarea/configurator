@@ -94,7 +94,7 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.customer.calMlu = CAL_MLU * this.nrCals;
 
     this.customer.total5Years = this.customer.license + this.customer.calLicense + (this.customer.mlu + this.customer.calMlu) * 5;
-    this.customer.perUserMonth = this.customer.total5Years / ((this.nrCals || 1) * 60);
+    this.customer.perUserMonth = Math.floor(this.customer.total5Years / ((this.nrCals || 1) * 60));
   }
 
   getCalculationCals() : number {
