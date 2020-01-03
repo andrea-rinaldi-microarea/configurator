@@ -1,0 +1,190 @@
+{
+    "SERVER" : {
+        "license": 495.00,
+        "weight": 1.00
+    },
+    "FINANCIALS" : {
+        "license": 660.00,
+        "weight": 1.00
+    },
+    "ACCPURELEINV" : {
+        "license": 150.00,
+        "weight": 1.00
+    },
+    "BANKPLUS" : {
+        "license": 330.00,
+        "weight": 1.00
+    },
+    "TREASURERY" : {
+        "license": 1200.00,
+        "weight": 1.00
+    },
+    "FIXASSETS" : {
+        "license": 605.00,
+        "weight": 1.00
+    },
+    "FOREACC" : {
+        "license": 275.00,
+        "weight": 1.00
+    },
+    "XBRL" : {
+        "license": 550.00,
+        "weight": 1.00
+    },
+    "ACCBOOKS" : {
+        "license": 440.00,
+        "weight": 1.00
+    },
+    "BASELII" : {
+        "license": 330.00,
+        "weight": 1.00
+    },
+    "MULTICOMPBAL" : {
+        "license": 605.00,
+        "weight": 1.00
+    },
+    "COSTACC" : {
+        "license": 748.00,
+        "weight": 1.00
+    },
+    "CASH" : {
+        "license": 110.00,
+        "weight": 1.00
+    },
+    "INTRASTAT" : {
+        "license": 165.00,
+        "weight": 1.00
+    },
+    "SALORDERS" : {
+        "license": 385.00,
+        "weight": 1.00
+    },
+    "SALES" : {
+        "license": 440.00,
+        "weight": 1.00
+    },
+    "CONAI" : {
+        "license": 165.00,
+        "weight": 1.00
+    },
+    "RAEE" : {
+        "license": 275.00,
+        "weight": 1.00
+    },
+    "SALESFORCE" : {
+        "license": 275.00,
+        "weight": 1.00
+    },
+    "CREDLIMIT" : {
+        "license": 275.00,
+        "weight": 1.00
+    },
+    "PURCHORD" : {
+        "license": 385.00,
+        "weight": 1.00
+    },
+    "PURCHASES" : {
+        "license": 605.00,
+        "weight": 1.00
+    },
+    "INVENTORY" : {
+        "license": 440.00,
+        "weight": 1.00
+    },
+    "QUALINSP" : {
+        "license": 550.00,
+        "weight": 1.00
+    },
+    "BARCODE" : {
+        "license": 330.00,
+        "weight": 1.00
+    },
+    "LOTSSERIALS" : {
+        "license": 165.00,
+        "weight": 1.00
+    },
+    "WMSBASIC" : {
+        "license": 1650.00,
+        "weight": 1.00
+    },
+    "WMSADV" : {
+        "license": 2860.00,
+        "weight": 1.00
+    },
+    "WMSMOB" : {
+        "license": 1100.00,
+        "weight": 1.00
+    },
+    "WMSMOBAPP" : {
+        "license": 330.00,
+        "weight": 1.00
+    },
+    "BILLOFMAT" : {
+        "license": 748.00,
+        "weight": 1.00
+    },
+    "VARIANTS" : {
+        "license": 605.00,
+        "weight": 1.00
+    },
+    "CONFIGUR" : {
+        "license": 748.00,
+        "weight": 1.00
+    },
+    "MANUFBASIC" : {
+        "license": 748.00,
+        "weight": 1.00
+    },
+    "MANUFADV" : {
+        "license": 2860.00,
+        "weight": 1.00
+    },
+    "OPENORDERS" : {
+        "license": 880.00,
+        "weight": 1.00
+    },
+    "MANUFMOB" : {
+        "license": 1320.00,
+        "weight": 1.00
+    },
+    "MANUFMOBAPP" : {
+        "license": 330.00,
+        "weight": 1.00
+    },
+    "MANUFPLAN" : {
+        "license": 3300.00,
+        "weight": 1.00
+    },
+    "MRPADV" : {
+        "license": 2200.00,
+        "weight": 1.00
+    },
+    "TOOLMANAG" : {
+        "license": 880.00,
+        "weight": 1.00
+    },
+    "DMSBASE" : {
+        "license": 1650.00,
+        "weight": 1.00
+    },
+    "DMSMASS" : {
+        "license": 300.00,
+        "weight": 1.00
+    },
+    "JOBSCHEDUL" : {
+        "license": 660.00,
+        "weight": 1.00
+    },
+    "SECURITY" : {
+        "license": 660.00,
+        "weight": 1.00
+    },
+    "SECURITYADV" : {
+        "license": 3000.00,
+        "weight": 1.00
+    },
+    "AUDITING" : {
+        "license": 308.00,
+        "weight": 1.00
+    }
+}

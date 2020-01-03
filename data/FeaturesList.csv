@@ -1,126 +1,126 @@
-Module;Functionality;Tag;Discontinued;Fragment;AllowISO;DenyISO;License;MLU
-#Modulo Base;;SEVR;FALSE;Server;;;495.00;89.00
-;Descrizioni Multilingua;SEVR;FALSE;Languages;;;0;0
-;Multivaluta;SEVR;FALSE;Currencies;;;0;0
-;Gestione Contatti;SEVR;FALSE;Contacts;;;0;0
-;Budget (Cli/For);SEVR;FALSE;Budget;;;0;0
-Contabilità Generale;;CONT;FALSE;Financials;;;660.00;119.00
-;Registri IVA vendite;CONT;FALSE;MultiTaxJournals;;;0;0
-;Registri IVA acquisti;CONT;FALSE;MultiTaxJournals;;;0;0
-;Registri IVA di altro tipo;CONT;FALSE;MultiTaxJournals;;;0;0
-;Modelli contabili personalizzabili;CONT;FALSE;CustomizedAccountingTemplates;;;0;0
-;Import contabile Fatturazione Elettronica Passiva;CPCO;FALSE;PurchaseElectronicInvoicing;IT;;150.00;27.00
-;Gestione Pro-rata;CONT;FALSE;ProRata;IT,RO,RS,HR,ES;;0;0
-;IVA Agenzie di Viaggio;CONT;FALSE;TravelAgencyVAT;IT;;0;0
-;Gestione Plafond;CONT;FALSE;Plafond;IT,HU;;0;0
-;Presentazioni effetti parametrizzabili;CONT;FALSE;AP_AR_Plus;;;0;0
-;Gestione reversali di incasso;CONT;FALSE;AP_AR_Plus;;;0;0
-;Gestione Factoring;CONT;FALSE;AP_AR_Plus;;;0;0
-;Gestione automatica insoluti;CONT;FALSE;AP_AR_Plus;;;0;0
-;Solleciti di pagamento;CONT;FALSE;Dunnings;;;0;0
-;Analisi Scadenzari e Cash Flow;CONT;FALSE;AP_AR_Analysis;;;0;0
-;Ratei e risconti automatici;CONT;FALSE;AccrualsDeferrals;;;0;0
-;Analisi e riclassificazioni bilancio;CONT;FALSE;BalanceAnalysis;;;0;0
-;Gestione parcelle professionisti e ritenute d'acconto;CONT;FALSE;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;0;0
-;CADI (liquidazione e dati documenti IVA);CONT;FALSE;CADI;;;0;0
-Gestione Banche Avanzato;SEPA XML;BAPL;FALSE;Banks_Plus;IT;;330.00;59.00
-;Bonifici esteri / mandati SDD;BAPL;FALSE;Banks_Plus;IT;;0;0
-;Riconciliazioni bancarie;BAPL;FALSE;Banks_Plus;IT;;0;0
-Tesoreria;;TESO;FALSE;;IT;;1200.00;300.00
-Cespiti;;CSPT;FALSE;FixedAssets;;;605.00;109.00
-Contabilità Previsionale;;COPR;FALSE;ForecastAccounting;;;275.00;50.00
-XBRL Bilancio;;XBRL;FALSE;XBRL;IT;;550.00;99.00
-Libro Inventari e Allegati;;LIBR;FALSE;AccountingBooks;;;440.00;79.00
-Analisi di Bilancio (Basilea II);;BAII;FALSE;Basel_II;IT;;330.00;59.00
-Bilancio Consolidato;;BICO;FALSE;MultiCompanyBalances;;;605.00;109.00
-Contabilità Analitica;;COAN;FALSE;CostAccounting;;;748.00;135.00
-;Linee di Prodotto;COAN;FALSE;ProductLines;;;0;0
-;Ribaltamenti;COAN;FALSE;CostAccountingTransfer;;;0;0
-Gestione cassa;;CASH;FALSE;Cash;;IT,CH,BR;110.00;20.00
-Intrastat;;INTR;FALSE;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;165.00;30.00
-Zucchetti Cross-Applications;Connettore SOS;SOSC;FALSE;;IT;;0;0
-;Connettore AGO;CONT;FALSE;AGOConnector;IT;;0;0
-;Connettore B&O / Maestro;CONT;FALSE;BEOConnector;IT;;0;0
-;Connettore Magix Fisco Azienda;CONT;FALSE;FiscoAziendaConnector;IT;;0;0
-;Connettore OMNIA;CONT;FALSE;OMNIAConnector;IT;;0;0
-;Connettore Paghe Web;CONT;FALSE;PayrollImport;IT;;0;0
-;Connettore TESAN;VEDT;FALSE;TESANConnector;IT;;0;0
-Vendite/Acquisti;;VEDT;FALSE;Sales;;;0;0
-;Copia documenti;VEDT;FALSE;DocumentCopy;;;0;0
-;Import/Export file articoli e note;VEDT;FALSE;DocumentDetailImportExport;;;0;0
-;Politiche prezzi;VEDT;FALSE;PricePolicies;;;0;0
-;Multilistino;VEDT;FALSE;PricePolicies;;;0;0
-;Codice parlante;VEDT;FALSE;SmartCode;;;0;0
-;Multiple Unità di Misura dell'Articolo;VEDT;FALSE;AdvancedUoMs;;;0;0
-;Quantità accessorie;VEDT;FALSE;AdditionalQty;;;0;0
-;Codice a barre d'acquisto e di vendita;VEDT;FALSE;PurhcaseBarCode;;;0;0
-;Articoli equivalenti;VEDT;FALSE;SubstituteItems;;;0;0
-;Produttori/Categorie prodotti;VEDT;FALSE;ProductCategories;;;0;0
-Politiche Spese;;VEDT;FALSE;ChargePolicies;;BR;0;0
-Ordini da clienti;;ORCL;FALSE;SaleOrders;;;385.00;69.00
-;Offerte a clienti;ORCL;FALSE;CustomerQuotations;;;0;0
-Fatturazione/Bollettazione;;VEDT;FALSE;;;;440.00;79.00
-;Fatturazione Elettronica Attiva;;FALSE;ElectronicInvoicing;IT,HU,BR;;0;0
-;Gestione di più bollettari;VEDT;FALSE;MultiStubBooks;;;0;0
-;Picking List;VEDT;FALSE;PickingList;;;0;0
-e-commerce;;;FALSE;;;;0;0
-Store Management;;;FALSE;;;;0;0
-;Varianti / Taglie e Colori;;FALSE;;;;0;0
-;Ricette per Ristorazione;;FALSE;;;;0;0
-;In-store App Mobile;;FALSE;;;;0;0
-CRM;Infinity Connector;MAIF;FALSE;;;;0;0
-Conai;;CONA;FALSE;Conai;IT,RO,BG,HU,ES;;165.00;30.00
-RAEE;;RAEE;FALSE;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;275.00;50.00
-Sales Force Management;;SFMG;FALSE;SalesPeople;;;275.00;50.00
-Gestione Fidi;;CRED;FALSE;CreditLimit;;;275.00;50.00
-Oneri accessori;;;FALSE;AdditionalCharges;;BR;0;0
-Ordini fornitori;;ORFO;FALSE;PurchaseOrders;;;385.00;69.00
-;Gestione offerte da fornitore;ORFO;FALSE;SupplierQuotations;;;0;0
-Acquisti;;ACQT;FALSE;Purchases;;;605.00;109.00
-;Fatturazione Elettronica Import. Ciclo Passivo;;FALSE;;;;0;0
-Magazzino;;MAGA;FALSE;Inventory;;;440.00;79.00
-;Multi deposito;MAGA;FALSE;MultiStorage;;;0;0
-;LIFO/FIFO a scatti continui;MAGA;FALSE;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;0;0
-;Movimenti di magazzino di rettifica inventariale;MAGA;FALSE;InventoryAdjustment;;;0;0
-Controllo qualità;;INSP;FALSE;QualityInspection;;;550.00;99.00
-;Note Tecniche;CFIN;FALSE;QualityInspection;;;0;0
-Barcode Manager;;BARC;FALSE;Barcode;;;330.00;59.00
-Lotti e Matricole;;LOTT;FALSE;LotsSerials;;;165.00;30.00
-WMS;Base;WMAA;FALSE;WMSBasic;;;1650.00;297.00
-;Avanzato;WMAD;FALSE;WMSAdvanced;;;2860.00;515.00
-;Shipping;;FALSE;WMSShipping;;;0;0
-;Mobile - backend;WMRF;FALSE;WMSMobile;;;1100.00;198.00
-;Mobile - app;WMRC;FALSE;WMSMobile;;;330.00;59.00
-Resources Management;;;FALSE;;;;0;0
-Calendario Aziendale;;;FALSE;;;;0;0
-Distinta Base;;DIST;FALSE;BillOfMaterials;;;748.00;135.00
-;Calendario Associato ai CdL;DIST;FALSE;BillOfMaterials;;;0;0
-;Famiglie di CdL;DIST;FALSE;BillOfMaterials;;;0;0
-;E.C.O.;ECO;FALSE;ECO;;;0;0
-Varianti;;VARI;FALSE;Variants;;;605.00;109.00
-Configuratore;;CONF;FALSE;Configurator;;;748.00;135.00
-Produzione Base;;PRZB;FALSE;ManufacturingBasic;;;748.00;135.00
-Produzione Avanzata;;PRZA;FALSE;ManufacturingAdvanced;;;2860.00;515.00
-;Dettaglio delle Consuntivazioni OdP;PRZA;FALSE;ManufacturingAdvanced;;;0;0
-;Confronto tra OdP e Distinta;PRZA;FALSE;ManufacturingAdvanced;;;0;0
-;Analisi materiali in produzione;PRZA;FALSE;ManufacturingAdvanced;;;0;0
-;Gestione Disegni;PRZA;FALSE;BillOfMaterials;;;0;0
-;Storico disegni e indici di revisione;PRZA;FALSE;BillOfMaterialsPlus;;;0;0
-;Pannello di Controllo;PRZA;FALSE;ManufacturingPlus;;;0;0
-;Kanban;PRZA;FALSE;Kanban;;;0;0
-Ordini Aperti;;OPOR;FALSE;OpenOrders;;;880.00;158.00
-Manufacturing Mobile;backend;MANM;FALSE;ManufacturingMobile;;;1320.00;238.00
-;app;MANC;FALSE;ManufacturingMobile;;;330.00;59.00
-Pianificazione;Base;PRZP;FALSE;ManufacturingPlanning;;;3300.00;594.00
-;Avanzata;PRPA;FALSE;MRPAdvanced;;;2200.00;396.00
-;Gestione Make or Buy;PRPA;FALSE;MRPAdvanced;;;0;0
-Attrezzi;;ATTR;FALSE;ToolsManagement;;;880.00;158.00
-#DMS;Base;EATT;FALSE;;;;1650.00;297.00
-;Massive Archiving Plug-In;MASS;FALSE;;;;300.00;54.00
-Mail Services;;MAIL;FALSE;;;;0;0
-Reporting Personalizzati;;;FALSE;;;;0;0
-Job Scheduler;;SCHD;FALSE;JobScheduler;;;660.00;119.00
-Security;;OSLL;FALSE;Security;;;660.00;119.00
-;Access profiles;OSLS;FALSE;Security;;;3000.00;540.00
-;Auditing;AUDT;FALSE;Auditing;;;308.00;55.00
-;Visibility;;FALSE;;;;0;0
+Module;Functionality;Tag;Name;Discontinued;Fragment;AllowISO;DenyISO
+Modulo Base;;SEVR;SERVER;FALSE;Server;;
+;Descrizioni Multilingua;SEVR;LANGUAGES;FALSE;Languages;;
+;Multivaluta;SEVR;CURRENCIES;FALSE;Currencies;;
+;Gestione Contatti;SEVR;CONTACTS;FALSE;Contacts;;
+;Budget (Cli/For);SEVR;BUDGET;FALSE;Budget;;
+Contabilità Generale;;CONT;FINANCIALS;FALSE;Financials;;
+;Registri IVA vendite;CONT;MULTITAXJ;FALSE;MultiTaxJournals;;
+;Registri IVA acquisti;CONT;MULTITAXJ;FALSE;MultiTaxJournals;;
+;Registri IVA di altro tipo;CONT;MULTITAXJ;FALSE;MultiTaxJournals;;
+;Modelli contabili personalizzabili;CONT;CUSTACCTPL;FALSE;CustomizedAccountingTemplates;;
+;Import contabile Fatturazione Elettronica Passiva;CPCO;ACCPURELEINV;FALSE;PurchaseElectronicInvoicing;IT;
+;Gestione Pro-rata;CONT;PRORATA;FALSE;ProRata;IT,RO,RS,HR,ES;
+;IVA Agenzie di Viaggio;CONT;TRAVAGVAT;FALSE;TravelAgencyVAT;IT;
+;Gestione Plafond;CONT;PLAFOND;FALSE;Plafond;IT,HU;
+;Presentazioni effetti parametrizzabili;CONT;APARPLUS;FALSE;AP_AR_Plus;;
+;Gestione reversali di incasso;CONT;APARPLUS;FALSE;AP_AR_Plus;;
+;Gestione Factoring;CONT;APARPLUS;FALSE;AP_AR_Plus;;
+;Gestione automatica insoluti;CONT;APARPLUS;FALSE;AP_AR_Plus;;
+;Solleciti di pagamento;CONT;DUNNINGS;FALSE;Dunnings;;
+;Analisi Scadenzari e Cash Flow;CONT;APARANALSYS;FALSE;AP_AR_Analysis;;
+;Ratei e risconti automatici;CONT;ACCRDEFERR;FALSE;AccrualsDeferrals;;
+;Analisi e riclassificazioni bilancio;CONT;BALANALYSYS;FALSE;BalanceAnalysis;;
+;Gestione parcelle professionisti e ritenute d'acconto;CONT;PAYEES;FALSE;Payees;IT,RS,HR,CL,RO,NL,TN,ES;
+;CADI (liquidazione e dati documenti IVA);CONT;CADI;FALSE;CADI;;
+Gestione Banche Avanzato;SEPA XML;BAPL;BANKPLUS;FALSE;Banks_Plus;IT;
+;Bonifici esteri / mandati SDD;BAPL;BANKPLUS;FALSE;Banks_Plus;IT;
+;Riconciliazioni bancarie;BAPL;BANKPLUS;FALSE;Banks_Plus;IT;
+Tesoreria;;TESO;TREASURERY;FALSE;;IT;
+Cespiti;;CSPT;FIXASSETS;FALSE;FixedAssets;;
+Contabilità Previsionale;;COPR;FOREACC;FALSE;ForecastAccounting;;
+XBRL Bilancio;;XBRL;XBRL;FALSE;XBRL;IT;
+Libro Inventari e Allegati;;LIBR;ACCBOOKS;FALSE;AccountingBooks;;
+Analisi di Bilancio (Basilea II);;BAII;BASELII;FALSE;Basel_II;IT;
+Bilancio Consolidato;;BICO;MULTICOMPBAL;FALSE;MultiCompanyBalances;;
+Contabilità Analitica;;COAN;COSTACC;FALSE;CostAccounting;;
+;Linee di Prodotto;COAN;PRODLINES;FALSE;ProductLines;;
+;Ribaltamenti;COAN;COSTACCTRAN;FALSE;CostAccountingTransfer;;
+Gestione cassa;;CASH;CASH;FALSE;Cash;;IT,CH,BR
+Intrastat;;INTR;INTRASTAT;FALSE;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;
+Zucchetti Cross-Applications;Connettore SOS;SOSC;SOSCONN;FALSE;;IT;
+;Connettore AGO;CONT;AGOCONN;FALSE;AGOConnector;IT;
+;Connettore B&O / Maestro;CONT;BEOCONN;FALSE;BEOConnector;IT;
+;Connettore Magix Fisco Azienda;CONT;FISAZCONN;FALSE;FiscoAziendaConnector;IT;
+;Connettore OMNIA;CONT;OMNIACONN;FALSE;OMNIAConnector;IT;
+;Connettore Paghe Web;CONT;PAYROLLIMP;FALSE;PayrollImport;IT;
+;Connettore TESAN;VEDT;TESANCONN;FALSE;TESANConnector;IT;
+Vendite/Acquisti;;VEDT;SALES;FALSE;Sales;;
+;Copia documenti;VEDT;DOCCOPY;FALSE;DocumentCopy;;
+;Import/Export file articoli e note;VEDT;DOCDETIMPEXP;FALSE;DocumentDetailImportExport;;
+;Politiche prezzi;VEDT;PRICEPOL;FALSE;PricePolicies;;
+;Multilistino;VEDT;PRICEPOL;FALSE;PricePolicies;;
+;Codice parlante;VEDT;SMARTCODE;FALSE;SmartCode;;
+;Multiple Unità di Misura dell'Articolo;VEDT;ADVUOM;FALSE;AdvancedUoMs;;
+;Quantità accessorie;VEDT;ADDQTY;FALSE;AdditionalQty;;
+;Codice a barre d'acquisto e di vendita;VEDT;PURCHBARC;FALSE;PurhcaseBarCode;;
+;Articoli equivalenti;VEDT;SUBSTITEM;FALSE;SubstituteItems;;
+;Produttori/Categorie prodotti;VEDT;PRODCAT;FALSE;ProductCategories;;
+Politiche Spese;;VEDT;CHARGEPOL;FALSE;ChargePolicies;;BR
+Ordini da clienti;;ORCL;SALORDERS;FALSE;SaleOrders;;
+;Offerte a clienti;ORCL;CUSTQUOTA;FALSE;CustomerQuotations;;
+Fatturazione/Bollettazione;;VEDT;SALES;FALSE;;;
+;Fatturazione Elettronica Attiva;;ELECTINV;FALSE;ElectronicInvoicing;IT,HU,BR;
+;Gestione di più bollettari;VEDT;MULTISTUB;FALSE;MultiStubBooks;;
+;Picking List;VEDT;PICKLIST;FALSE;PickingList;;
+e-commerce;;;ECOMM;FALSE;;;
+Store Management;;;STOREMAN;FALSE;;;
+;Varianti / Taglie e Colori;;STVARIANTS;FALSE;;;
+;Ricette per Ristorazione;;RECIPES;FALSE;;;
+;In-store App Mobile;;INSTOREAPP;FALSE;;;
+CRM;Infinity Connector;MAIF;INFCONN;FALSE;;;
+Conai;;CONA;CONAI;FALSE;Conai;IT,RO,BG,HU,ES;
+RAEE;;RAEE;RAEE;FALSE;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;
+Sales Force Management;;SFMG;SALESFORCE;FALSE;SalesPeople;;
+Gestione Fidi;;CRED;CREDLIMIT;FALSE;CreditLimit;;
+Oneri accessori;;;ADDCHARGES;FALSE;AdditionalCharges;;BR
+Ordini fornitori;;ORFO;PURCHORD;FALSE;PurchaseOrders;;
+;Gestione offerte da fornitore;ORFO;SUPPQUOT;FALSE;SupplierQuotations;;
+Acquisti;;ACQT;PURCHASES;FALSE;Purchases;;
+;Fatturazione Elettronica Import. Ciclo Passivo;;PURCHELEINV;FALSE;;;
+Magazzino;;MAGA;INVENTORY;FALSE;Inventory;;
+;Multi deposito;MAGA;MULTISTORAGE;FALSE;MultiStorage;;
+;LIFO/FIFO a scatti continui;MAGA;SINGSTEPLF;FALSE;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;
+;Movimenti di magazzino di rettifica inventariale;MAGA;INVADJUST;FALSE;InventoryAdjustment;;
+Controllo qualità;;INSP;QUALINSP;FALSE;QualityInspection;;
+;Note Tecniche;CFIN;QUALINSP;FALSE;QualityInspection;;
+Barcode Manager;;BARC;BARCODE;FALSE;Barcode;;
+Lotti e Matricole;;LOTT;LOTSSERIALS;FALSE;LotsSerials;;
+WMS;Base;WMAA;WMSBASIC;FALSE;WMSBasic;;
+;Avanzato;WMAD;WMSADV;FALSE;WMSAdvanced;;
+;Shipping;;WMSSHIP;FALSE;WMSShipping;;
+;Mobile - backend;WMRF;WMSMOB;FALSE;WMSMobile;;
+;Mobile - app;WMRC;WMSMOBAPP;FALSE;WMSMobile;;
+Resources Management;;;SERVER;FALSE;;;
+Calendario Aziendale;;;SERVER;FALSE;;;
+Distinta Base;;DIST;BILLOFMAT;FALSE;BillOfMaterials;;
+;Calendario Associato ai CdL;DIST;BILLOFMAT;FALSE;BillOfMaterials;;
+;Famiglie di CdL;DIST;BILLOFMAT;FALSE;BillOfMaterials;;
+;E.C.O.;ECO;ECO;FALSE;ECO;;
+Varianti;;VARI;VARIANTS;FALSE;Variants;;
+Configuratore;;CONF;CONFIGUR;FALSE;Configurator;;
+Produzione Base;;PRZB;MANUFBASIC;FALSE;ManufacturingBasic;;
+Produzione Avanzata;;PRZA;MANUFADV;FALSE;ManufacturingAdvanced;;
+;Dettaglio delle Consuntivazioni OdP;PRZA;MANUFADV;FALSE;ManufacturingAdvanced;;
+;Confronto tra OdP e Distinta;PRZA;MANUFADV;FALSE;ManufacturingAdvanced;;
+;Analisi materiali in produzione;PRZA;MANUFADV;FALSE;ManufacturingAdvanced;;
+;Gestione Disegni;PRZA;BILLOFMAT;FALSE;BillOfMaterials;;
+;Storico disegni e indici di revisione;PRZA;BILLOFMATPLUS;FALSE;BillOfMaterialsPlus;;
+;Pannello di Controllo;PRZA;MANUFPLUS;FALSE;ManufacturingPlus;;
+;Kanban;PRZA;KANBAN;FALSE;Kanban;;
+Ordini Aperti;;OPOR;OPENORDERS;FALSE;OpenOrders;;
+Manufacturing Mobile;backend;MANM;MANUFMOB;FALSE;ManufacturingMobile;;
+;app;MANC;MANUFMOBAPP;FALSE;ManufacturingMobile;;
+Pianificazione;Base;PRZP;MANUFPLAN;FALSE;ManufacturingPlanning;;
+;Avanzata;PRPA;MRPADV;FALSE;MRPAdvanced;;
+;Gestione Make or Buy;PRPA;MRPADV;FALSE;MRPAdvanced;;
+Attrezzi;;ATTR;TOOLMANAG;FALSE;ToolsManagement;;
+DMS;Base;EATT;DMSBASE;FALSE;;;
+;Massive Archiving Plug-In;MASS;DMSMASS;FALSE;;;
+Mail Services;;MAIL;MAILSERVICES;FALSE;;;
+Reporting Personalizzati;;;CUSTOMREP;FALSE;;;
+Job Scheduler;;SCHD;JOBSCHEDUL;FALSE;JobScheduler;;
+Security;;OSLL;SECURITY;FALSE;Security;;
+;Access profiles;OSLS;SECURITYADV;FALSE;Security;;
+;Auditing;AUDT;AUDITING;FALSE;Auditing;;
+;Visibility;;VISIBILITY;FALSE;;;

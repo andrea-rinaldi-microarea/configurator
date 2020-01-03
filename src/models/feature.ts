@@ -4,6 +4,7 @@ export class Feature {
         public module: string,
         public functionality: string,
         public tag: string,
+        public name: string,
         public discontinued: boolean,
         public fragment: string,
         public available: boolean,
@@ -13,8 +14,6 @@ export class Feature {
         public enterprise: string,
         public customer: boolean,
         public allowISO: string,
-        public denyISO: string,
-        public license: number,
-        public mlu: number
+        public denyISO: string
     ) {}
 }

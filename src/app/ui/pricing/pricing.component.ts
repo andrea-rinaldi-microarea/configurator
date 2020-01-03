@@ -7,6 +7,7 @@ import { Feature } from '../../../models/feature';
 declare var require: any;
 const packagePrice = require("./package-price.json");
 const modulePrice = require("./module-price.json");
+const fragmentPrice = require("./fragment-price.json");
 
 const CAL_PRICE: number = 660;
 const CAL_MLU: number = 119;
@@ -20,6 +21,7 @@ export class PricingComponent implements OnInit, DoCheck  {
 
   private packagePrice: any = packagePrice;
   private modulePrice: any = modulePrice;
+  private fragmentPrice: any = fragmentPrice;
   public customer: Pricing = new Pricing();
   public standard: Pricing = new Pricing();
   public professional: Pricing = new Pricing();
@@ -54,17 +56,17 @@ export class PricingComponent implements OnInit, DoCheck  {
 
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
       var feat: Feature  = this.configuration.current.features[f];
+      if (!fragmentPrice[feat.name]) 
+        continue;
+
       if (feat.standard != "" && feat.standard != null) {
-        this.standard.license += feat.license;
-        this.standard.mlu += feat.mlu;
+        this.standard.license += fragmentPrice[feat.name].license;
       }
       if (feat.professional != "" && feat.professional != null) {
-        this.professional.license += feat.license;
-        this.professional.mlu += feat.mlu;
+        this.professional.license += fragmentPrice[feat.name].license;
       }
       if (feat.enterprise != "" && feat.enterprise != null) {
-        this.enterprise.license += feat.license;
-        this.enterprise.mlu += feat.mlu;
+        this.enterprise.license += fragmentPrice[feat.name].license;
       }
     }
   }
