@@ -80,6 +80,7 @@ export class PricingComponent implements OnInit, DoCheck  {
       if (feat.available && feat.customer && !feat.fromPackage && !foundTags.includes(feat.tag)) {
         this.customer.license += modulePrice[feat.tag].license;
         this.customer.mlu += modulePrice[feat.tag].mlu;
+        foundTags.push(feat.tag);
       }
       if (feat.customer && !feat.available && !feat.discontinued) {
         this.misconfigured = true;

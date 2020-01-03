@@ -1,23 +1,7 @@
 {
-    "ADKF": {
-        "license": 1705,
-        "mlu": 307 
-    },
     "ADPK": {
         "license": 1705,
         "mlu": 307 
-    },
-    "ADPD": {
-        "license": 1705,
-        "mlu": 307 
-    },
-    "COMF": {
-        "license": 968,
-        "mlu": 174 
-    },
-    "COMM": {
-        "license": 968,
-        "mlu": 174 
     },
     "COMD": {
         "license": 968,
@@ -27,27 +11,11 @@
         "license": 0,
         "mlu": 0 
     },
-    "PACK": {
+    "SBPK": {
         "license": 1375,
         "mlu": 248 
-    },
-    "PCKF": {
-        "license": 1375,
-        "mlu": 248 
-    },
-    "SBPD": {
-        "license": 1375,
-        "mlu": 248 
-    },
-    "TRKF": {
-        "license": 3245,
-        "mlu": 584 
     },
     "TRPK": {
-        "license": 3245,
-        "mlu": 584 
-    },
-    "TRPD": {
         "license": 3245,
         "mlu": 584 
     },
@@ -55,15 +23,7 @@
         "license": 2000,
         "mlu": 360 
     },
-    "FIND": {
-        "license": 2000,
-        "mlu": 360 
-    },
     "CFUL": {
-        "license": 3000,
-        "mlu": 540 
-    },
-    "FULD": {
         "license": 3000,
         "mlu": 540 
     }
