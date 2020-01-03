@@ -88,4 +88,13 @@ export class ClientsComponent implements OnInit {
     if (this.clients.current.CALNrs)
       return this.clients.current.CALNrs;
   }
+
+  decodeQty() {
+    if (this.clients.current.Qty)
+      return '(' + this.clients.current.Qty + ' occorrenze)';
+
+    if (this.clients.current.NrUsers)
+      return '(' + this.clients.current.NrUsers + ' occorrenze)';
+  }
+
 }

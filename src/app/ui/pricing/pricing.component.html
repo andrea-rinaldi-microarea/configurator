@@ -25,7 +25,11 @@
           <td class="text-center edition-sep" width="9%">{{enterprise.license}}</td>
         </tr>
         <tr>
-          <td class="text-right">CAL x {{customer.cals}}</td>
+          <td class="text-right">
+            <button class="btn btn-light" (click)="useCustomCals=!useCustomCals"><i class="fa fa-pencil"></i></button>
+            <span [hidden]="useCustomCals">CAL x {{nrCals}} </span> 
+            <span [hidden]="!useCustomCals">CAL x <input type="text" size="1" [(ngModel)]="nrCals"> </span>  
+          </td>
           <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.calLicense}}</td>
           <td class="text-center edition-sep" width="9%"></td>
           <td class="text-center edition-sep" width="9%"></td>
@@ -39,7 +43,7 @@
           <td class="text-center edition-sep" width="9%"></td>
         </tr>
         <tr>
-          <td class="text-right">MLU su CAL x {{customer.cals}}</td>
+          <td class="text-right">MLU su CAL x {{nrCals}}</td>
           <td class="text-center edition-sep" width="5%" [hidden]="!clients.show">{{customer.calMlu}}</td>
           <td class="text-center edition-sep" width="9%"></td>
           <td class="text-center edition-sep" width="9%"></td>

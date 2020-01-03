@@ -8,7 +8,7 @@
         </div>
         <div class="card-body">
             <div class="d-flex justify-content-between" *ngIf="clients.current" >
-                <span class="card-text w-50">{{ decodeClient() }} {{clients.current.Qty ? '(' + clients.current.Qty + ' occorrenze)' : ''}}</span>
+                <span class="card-text w-50">{{ decodeClient() }} {{ decodeQty() }}</span>
                 <span class="card-text w-25">{{productDescri(clients.current["Descrizione prodotto"])}} - {{ decodeCALs() }} CAL</span>
                 <span class="w-25 text-right">
                     <span class="card-text" [hidden]="!clients.current.package">

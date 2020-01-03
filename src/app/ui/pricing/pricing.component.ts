@@ -25,6 +25,8 @@ export class PricingComponent implements OnInit, DoCheck  {
   public professional: Pricing = new Pricing();
   public enterprise: Pricing = new Pricing();
   private misconfigured: boolean = false;
+  public nrCals: number = 1;
+  public useCustomCals: boolean = false;
 
   constructor(
     private configuration: ConfigurationService,
@@ -35,6 +37,9 @@ export class PricingComponent implements OnInit, DoCheck  {
   }
   
   ngDoCheck() {
+    if (!this.useCustomCals) {
+      this.nrCals = this.getCalculationCals();
+    }
     // @@@TODO fare solo se la change detection riguarda i dati coinvolti nei calcoli
     this.calculateCustomerPrice();
     this.calculateIndustryPrices();
@@ -84,15 +89,27 @@ export class PricingComponent implements OnInit, DoCheck  {
       this.customer.license += packagePrice[this.clients.current.package].license;
       this.customer.mlu += packagePrice[this.clients.current.package].mlu;
     }
-    if (this.clients.current["Numero C.A.L."] || this.clients.current.CALNrs) {
-      this.customer.cals = this.clients.current["Numero C.A.L."] ? this.clients.current["Numero C.A.L."] : 0;
-      this.customer.cals = this.clients.current.CALNrs ? this.clients.current.CALNrs : 0;
-      this.customer.calLicense = CAL_PRICE * this.customer.cals;
-      this.customer.calMlu = CAL_MLU * this.customer.cals;
-    }
+
+    this.customer.calLicense = CAL_PRICE * this.nrCals;
+    this.customer.calMlu = CAL_MLU * this.nrCals;
 
     this.customer.total5Years = this.customer.license + this.customer.calLicense + (this.customer.mlu + this.customer.calMlu) * 5;
-    this.customer.perUserMonth = this.customer.total5Years / (this.customer.cals * 60);
+    this.customer.perUserMonth = this.customer.total5Years / ((this.nrCals || 1) * 60);
   }
 
+  getCalculationCals() : number {
+    if (!this.configuration.current || !this.clients.current) {
+      return 1;
+    }
+
+    if (this.clients.current["Numero C.A.L."]) {
+      return this.clients.current["Numero C.A.L."];
+    }
+
+    if (this.clients.current.CALNrs) {
+      return this.clients.current.CALNrs;
+    }
+
+    return 1;
+  }
 }

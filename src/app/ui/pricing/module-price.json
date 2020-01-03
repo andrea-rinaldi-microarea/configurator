@@ -1,47 +1,47 @@
 {
     "SEVR" : {
-        "license": 495,
-        "mlu": 89
+        "license": 495.00,
+        "mlu": 89.00
     },
     "CONT" : {
-        "license": 660,
-        "mlu": 119
+        "license": 660.00,
+        "mlu": 119.00
     },
     "CPCO" : {
-        "license": 150,
-        "mlu": 27
+        "license": 150.00,
+        "mlu": 27.00
     },
     "BAPL" : {
-        "license": 330,
-        "mlu": 59
+        "license": 330.00,
+        "mlu": 59.00
     },
     "TESO" : {
-        "license": 1200,
-        "mlu": 300
+        "license": 1200.00,
+        "mlu": 300.00
     },
     "CSPT" : {
-        "license": 605,
-        "mlu": 109
+        "license": 605.00,
+        "mlu": 109.00
     },
     "COPR" : {
-        "license": 275,
-        "mlu": 50
+        "license": 275.00,
+        "mlu": 50.00
     },
     "XBRL" : {
-        "license": 550,
-        "mlu": 99
+        "license": 550.00,
+        "mlu": 99.00
     },
     "LIBR" : {
-        "license": 440,
-        "mlu": 79
+        "license": 440.00,
+        "mlu": 79.00
     },
     "BAII" : {
-        "license": 330,
-        "mlu": 59
+        "license": 330.00,
+        "mlu": 59.00
     },
     "BICO" : {
-        "license": 605,
-        "mlu": 109
+        "license": 605.00,
+        "mlu": 109.00
     },
     "COAN" : {
         "license": 748.00,
@@ -56,8 +56,8 @@
         "mlu": 30.00
     },
     "SOSC" : {
-        "license": 0,
-        "mlu": 0
+        "license": 0.00,
+        "mlu": 0.00
     },
     "ORCL" : {
         "license": 385.00,
@@ -128,8 +128,8 @@
         "mlu": 135.00
     },
     "ECO" : {
-        "license": 0,
-        "mlu": 0
+        "license": 0.00,
+        "mlu": 0.00
     },
     "VARI" : {
         "license": 605.00,
@@ -156,8 +156,8 @@
         "mlu": 238.00
     },
     "MANC" : {
-        "license": 330,
-        "mlu": 59
+        "license": 330.00,
+        "mlu": 59.00
     },
     "PRZP" : {
         "license": 3300.00,
@@ -172,16 +172,16 @@
         "mlu": 158.00
     },
     "EATT" : {
-        "license": 1650,
-        "mlu": 297
+        "license": 1650.00,
+        "mlu": 297.00
     },
     "MASS" : {
         "license": 300.00,
         "mlu": 54.00
     },
     "MAIL" : {
-        "license": 0,
-        "mlu": 0
+        "license": 0.00,
+        "mlu": 0.00
     },
     "SCHD" : {
         "license": 660.00,
