@@ -113,4 +113,26 @@ export class ClientsComponent implements OnInit {
     document.body.removeChild(tmp);    
   }
 
+  onFirst() {
+    if (this.clients.first()) {
+      this.configuration.showUsing(this.clients.current);
+    }
+  }
+
+  onLast() {
+    if (this.clients.last()) {
+      this.configuration.showUsing(this.clients.current);
+    }
+  }
+
+  onSearch(searchString: string) {
+    if (searchString == "")
+      return;
+    if (!this.clients.current["Ragione Sociale"] && !this.clients.current.CompanyName)
+      return;
+
+    if (this.clients.searchForward(searchString)) {
+      this.configuration.showUsing(this.clients.current);
+    }
+  }
 }

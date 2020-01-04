@@ -9,3 +9,8 @@
 .card-body {
     padding: 0.25rem 0.75rem 0 0.75rem;
 }
+
+.input-sm {
+    font-size: smaller;
+    background: transparent;
+}

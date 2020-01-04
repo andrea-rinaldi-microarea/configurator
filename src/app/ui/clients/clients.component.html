@@ -25,10 +25,16 @@
         <div class="card-footer bg-transparent">
             <div class="d-flex justify-content-between" *ngIf="clients.current" >
                 <div>
-                    <i class="fa fa-chevron-left btn btn-sm text-user" (click)="onPrev()"></i>
-                    <span class="text-center" style="display: inline-block;width: 30px;">{{clients.currIdx()}}</span>
-                    <i class="fa fa-chevron-right btn btn-sm text-user" (click)="onNext()"></i>
+                    <i class="fa fa-angle-double-left btn btn-sm text-user" (click)="onFirst()"></i>
+                    <i class="fa fa-angle-left btn btn-sm text-user" (click)="onPrev()"></i>
+                    <span class="text-center" style="display: inline-block;width: 50px;">{{clients.currIdx()}}</span>
+                    <i class="fa fa-angle-right btn btn-sm text-user" (click)="onNext()"></i>
+                    <i class="fa fa-angle-double-right btn btn-sm text-user" (click)="onLast()"></i>
                     <i class="fa fa-random btn btn-sm text-user" (click)="onRandom()"></i>
+                    <span [hidden]="!clients.current['Ragione Sociale'] && !clients.current.CompanyName">
+                        <input type="text" class="input-sm" size="10" [(ngModel)]="searchString">
+                        <i class="fa fa-search btn btn-sm text-user pl-0" (click)="onSearch(searchString)"></i>
+                    </span>
                 </div>
             </div>
         </div>

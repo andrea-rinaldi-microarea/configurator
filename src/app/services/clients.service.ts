@@ -55,6 +55,39 @@ export class ClientsService {
     return true;
   }
 
+  first(): boolean {
+    this.index = 0;
+    this.current = this.list[this.index];
+    return true;
+  }
+
+  last(): boolean {
+    this.index = this.list.length - 1;
+    this.current = this.list[this.index];
+    return true;
+  }
+
+  searchForward(searchString: string): boolean {
+    if (this.index >= this.list.length - 1) {
+      return false;
+    }
+
+    for (var loc = this.index + 1; loc < this.list.length; loc++) {
+      var field = this.list[loc]["Ragione Sociale"] || this.list[loc].CompanyName;
+      if (!field)
+        return false;
+      
+      if (field.toUpperCase().includes(searchString.toUpperCase())) {
+        this.index = loc;
+        this.current = this.list[this.index];
+        return true;
+      }
+      
+    }
+
+    return false;
+  }
+
   random() {
     if (!this.list) {
       return;
