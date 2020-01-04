@@ -1,131 +1,131 @@
 {
     "SEVR" : {
-        "license": 0,
-        "mlu": 0
+        "license":  330,
+        "mlu":  59.00 
     },
     "CONT" : {
-        "license": 0,
-        "mlu": 0
+        "license":  440.00,
+        "mlu": 79
     },
     "CPCO" : {
-        "license": 0,
-        "mlu": 0
+        "license":  250.00,
+        "mlu": 45
     },
     "BAPL" : {
-        "license": 0,
-        "mlu": 0
+        "license": 220,
+        "mlu": 40
     },
     "TESO" : {
-        "license": 0,
-        "mlu": 0
+        "license": 1200,
+        "mlu": 300
     },
     "CSPT" : {
-        "license": 0,
-        "mlu": 0
+        "license": 506,
+        "mlu": 91
     },
     "COPR" : {
-        "license": 0,
-        "mlu": 0
+        "license": 220,
+        "mlu": 40
     },
     "XBRL" : {
-        "license": 0,
-        "mlu": 0
+        "license": 495,
+        "mlu": 89
     },
     "LIBR" : {
-        "license": 0,
-        "mlu": 0
+        "license": 330,
+        "mlu": 59
     },
     "BAII" : {
-        "license": 0,
-        "mlu": 0
+        "license": 220,
+        "mlu": 40
     },
     "BICO" : {
-        "license": 0,
-        "mlu": 0
+        "license": 506,
+        "mlu": 91
     },
     "COAN" : {
-        "license": 0,
-        "mlu": 0
+        "license": 649,
+        "mlu": 117
     },
     "CASH" : {
-        "license": 0,
-        "mlu": 0
+        "license": 83,
+        "mlu": 15
     },
     "INTR" : {
-        "license": 0,
-        "mlu": 0
+        "license": 110,
+        "mlu": 20
     },
     "SOSC" : {
         "license": 0,
         "mlu": 0
     },
     "ORCL" : {
-        "license": 0,
-        "mlu": 0
+        "license": 275,
+        "mlu": 50
     },
     "VEDT" : {
-        "license": 0,
-        "mlu": 0
+        "license": 330,
+        "mlu": 59
     },
     "CONA" : {
-        "license": 0,
-        "mlu": 0
+        "license": 110,
+        "mlu": 20
     },
     "RAEE" : {
-        "license": 0,
-        "mlu": 0
+        "license": 220,
+        "mlu": 40
     },
     "SFMG" : {
-        "license": 0,
-        "mlu": 0
+        "license": 220,
+        "mlu": 40
     },
     "CRED" : {
-        "license": 0,
-        "mlu": 0
+        "license": 220,
+        "mlu": 40
     },
     "ORFO" : {
-        "license": 0,
-        "mlu": 0
+        "license": 275,
+        "mlu": 50
     },
     "ACQT" : {
-        "license": 0,
-        "mlu": 0
+        "license": 506,
+        "mlu": 91
     },
     "MAGA" : {
-        "license": 0,
-        "mlu": 0
+        "license": 330,
+        "mlu": 59
     },
     "INSP" : {
         "license": 0,
         "mlu": 0
     },
     "BARC" : {
-        "license": 0,
-        "mlu": 0
+        "license": 220,
+        "mlu": 40
     },
     "LOTT" : {
-        "license": 0,
-        "mlu": 0
+        "license": 110,
+        "mlu": 20
     },
     "WMAA" : {
-        "license": 0,
-        "mlu": 0
+        "license": 1320,
+        "mlu": 238
     },
     "WMAD" : {
         "license": 0,
         "mlu": 0
     },
     "WMRF" : {
-        "license": 0,
-        "mlu": 0
+        "license": 825,
+        "mlu": 149
     },
     "WMRC" : {
-        "license": 0,
-        "mlu": 0
+        "license": 330,
+        "mlu": 59
     },
     "DIST" : {
-        "license": 0,
-        "mlu": 0
+        "license": 649,
+        "mlu": 117
     },
     "ECO" : {
         "license": 0,
@@ -172,56 +172,56 @@
         "mlu": 0
     },
     "EATT" : {
-        "license": 0,
-        "mlu": 0
+        "license": 1650,
+        "mlu": 297
     },
     "MASS" : {
-        "license": 0,
-        "mlu": 0
+        "license": 300,
+        "mlu": 54
     },
     "MAIL" : {
         "license": 0,
         "mlu": 0
     },
     "SCHD" : {
-        "license": 0,
-        "mlu": 0
+        "license": 660,
+        "mlu": 119
     },
     "OSLL" : {
-        "license": 0,
-        "mlu": 0
+        "license": 660,
+        "mlu": 119
     },
     "OSLS" : {
-        "license": 0,
-        "mlu": 0
+        "license": 3000,
+        "mlu": 540
     },
     "AUDT" : {
-        "license": 0,
-        "mlu": 0
+        "license": 308,
+        "mlu": 55
     },
     "MAIF" : {
-        "license": 0,
-        "mlu": 0
+        "license": 550,
+        "mlu": 99
     },
     "ADPK": {
-        "license": 0,
-        "mlu": 0 
+        "license": 1265,
+        "mlu": 228 
     },
     "COMD": {
-        "license": 0,
-        "mlu": 0 
+        "license": 693,
+        "mlu": 125 
     },
     "EDU0": {
         "license": 0,
         "mlu": 0 
     },
     "SBPK": {
-        "license": 0,
-        "mlu": 0 
+        "license": 990,
+        "mlu": 178 
     },
     "TRPK": {
-        "license": 0,
-        "mlu": 0 
+        "license": 2530,
+        "mlu": 455 
     },
     "CFIN": {
         "license": 0,
@@ -232,7 +232,7 @@
         "mlu": 0 
     },
     "CAL": {
-        "license": 0,
-        "mlu": 0
+        "license": 550,
+        "mlu": 99
     }
 }

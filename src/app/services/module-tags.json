@@ -42,6 +42,7 @@
         "tag": "EATT", 
         "alias": ["DMSL"] 
     },
+    { "tag": "MASS" },
     { "tag": "MAIL" },
     { "tag": "SCHD" },
     { "tag": "OSLS" },
