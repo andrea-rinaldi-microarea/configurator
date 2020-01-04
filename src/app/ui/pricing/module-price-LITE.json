@@ -95,10 +95,6 @@
         "license": 330,
         "mlu": 59
     },
-    "INSP" : {
-        "license": 0,
-        "mlu": 0
-    },
     "BARC" : {
         "license": 220,
         "mlu": 40
@@ -111,10 +107,6 @@
         "license": 1320,
         "mlu": 238
     },
-    "WMAD" : {
-        "license": 0,
-        "mlu": 0
-    },
     "WMRF" : {
         "license": 825,
         "mlu": 149
@@ -126,50 +118,6 @@
     "DIST" : {
         "license": 649,
         "mlu": 117
-    },
-    "ECO" : {
-        "license": 0,
-        "mlu": 0
-    },
-    "VARI" : {
-        "license": 0,
-        "mlu": 0
-    },
-    "CONF" : {
-        "license": 0,
-        "mlu": 0
-    },
-    "PRZB" : {
-        "license": 0,
-        "mlu": 0
-    },
-    "PRZA" : {
-        "license": 0,
-        "mlu": 0
-    },
-    "OPOR" : {
-        "license": 0,
-        "mlu": 0
-    },
-    "MANM" : {
-        "license": 0,
-        "mlu": 0
-    },
-    "MANC" : {
-        "license": 0,
-        "mlu": 0
-    },
-    "PRZP" : {
-        "license": 0,
-        "mlu": 0
-    },
-    "PRPA" : {
-        "license": 0,
-        "mlu": 0
-    },
-    "ATTR" : {
-        "license": 0,
-        "mlu": 0
     },
     "EATT" : {
         "license": 1650,

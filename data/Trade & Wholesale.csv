@@ -34,8 +34,8 @@ Libro Inventari e Allegati;;LIBR;ACCBOOKS;False;AccountingBooks;;;;;X;True
 Analisi di Bilancio (Basilea II);;BAII;BASELII;False;Basel_II;IT;;;;X;True
 Bilancio Consolidato;;BICO;MULTICOMPBAL;False;MultiCompanyBalances;;;;;X;True
 Contabilità Analitica;;COAN;COSTACC;False;CostAccounting;;;;X;X;True
-;Linee di Prodotto;COAN;PRODLINES;False;ProductLines;;;;;X;True
-;Ribaltamenti;COAN;COSTACCTRAN;False;CostAccountingTransfer;;;;;X;True
+;Linee di Prodotto;CFIN;PRODLINES;False;ProductLines;;;;;X;True
+;Ribaltamenti;CFIN;COSTACCTRAN;False;CostAccountingTransfer;;;;;X;True
 Gestione cassa;;CASH;CASH;False;Cash;;IT,CH,BR;;;X;True
 Intrastat;;INTR;INTRASTAT;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;;X;X;True
 Zucchetti Cross-Applications;Connettore SOS;SOSC;SOSCONN;False;;IT;;X;X;X;True
@@ -60,7 +60,7 @@ Politiche Spese;;VEDT;CHARGEPOL;False;ChargePolicies;;BR;;;X;True
 Ordini da clienti;;ORCL;SALORDERS;False;SaleOrders;;;X;X;X;True
 ;Offerte a clienti;ORCL;CUSTQUOTA;False;CustomerQuotations;;;;X;X;True
 Fatturazione/Bollettazione;;VEDT;SALES;False;;;;X;X;X;True
-;Fatturazione Elettronica Attiva;;ELECTINV;False;ElectronicInvoicing;IT,HU,BR;;X;X;X;True
+;Fatturazione Elettronica Attiva;VEDT;ELECTINV;False;ElectronicInvoicing;IT,HU,BR;;X;X;X;True
 ;Gestione di più bollettari;VEDT;MULTISTUB;False;MultiStubBooks;;;;X;X;True
 ;Picking List;VEDT;PICKLIST;False;PickingList;;;;X;X;True
 e-commerce;;;ECOMM;False;;;;;;;False

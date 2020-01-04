@@ -28,3 +28,8 @@
 .dropdown-toggle {
     cursor: pointer;
 }
+
+th {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}

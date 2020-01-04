@@ -14,6 +14,7 @@
     { "tag": "INTR" },
     { "tag": "BAPL" },
     { "tag": "LIBR" },
+    { "tag": "TESO" },
     { "tag": "ORCL" },
     { "tag": "VEDT" },
     { "tag": "CONA" },
@@ -38,6 +39,7 @@
     { "tag": "MANM" },
     { "tag": "PRZP" },
     { "tag": "PRPA" },
+    { "tag": "ATTR" },
     { 
         "tag": "EATT", 
         "alias": ["DMSL"] 
@@ -60,9 +62,8 @@
     { "tag": "XGAT" },
     { "tag": "CPCO" },
     { 
-        "tag": "ADPK",
-        "alias": ["ADKF", "ADPD"], 
-        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"]  
+        "tag": "EDU1",
+        "package": ["SEVR"] 
     },
     { 
         "tag": "COMD",
@@ -70,13 +71,14 @@
         "package": ["SEVR", "SOSC", "XGAT", "CASH", "VEDT", "ACQT", "MAGA"] 
     },
     { 
-        "tag": "EDU1",
-        "package": ["SEVR"] 
-    },
-    { 
         "tag": "SBPK",
         "alias": ["PCKF", "SBPD", "PACK"], 
         "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA"]
+    },
+    { 
+        "tag": "ADPK",
+        "alias": ["ADKF", "ADPD"], 
+        "package": ["SEVR", "SOSC", "XGAT", "CONT", "VEDT", "MAGA", "COPR", "SFMG", "LOTT", "CONA", "INTR"]  
     },
     { 
         "tag": "TRPK",

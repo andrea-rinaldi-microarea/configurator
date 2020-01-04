@@ -2,7 +2,7 @@
     <div class="card border-user bg-user-light w-100">
         <div class="card-header bg-user">
             <div class="d-flex justify-content-between">
-                <input class="w-75" type="file" (change)="openClients($event)" placeholder="Apri elenco clienti" accept=".csv">
+                <input class="w-75" type="file" onclick="this.value = null" (change)="openClients($event)" placeholder="Apri elenco clienti" accept=".csv">
                 <span [hidden]="!clients.available()">({{clients.count()}} utenti)</span>
             </div>
         </div>

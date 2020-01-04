@@ -31,6 +31,7 @@ export class PricingComponent implements OnInit, DoCheck  {
   public nrCals: number = 1;
   public useCustomCals: boolean = false;
   private priceSource: string = "LITE";
+  private mispriced: boolean = false;
 
   constructor(
     private configuration: ConfigurationService,
@@ -76,14 +77,19 @@ export class PricingComponent implements OnInit, DoCheck  {
   calculateCustomerPrice(): void {
     this.customer = new Pricing();
     this.misconfigured = false;
+    this.mispriced = false;
     if (!this.configuration.current || !this.clients.current)
       return;
     var foundTags: string[] = [];
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
       var feat: Feature  = this.configuration.current.features[f];
       if (feat.available && feat.customer && !feat.fromPackage && !foundTags.includes(feat.tag)) {
-        this.customer.license += this.modulePrice[this.priceSource][feat.tag].license;
-        this.customer.mlu += this.modulePrice[this.priceSource][feat.tag].mlu;
+        if (this.modulePrice[this.priceSource][feat.tag]) {
+          this.customer.license += this.modulePrice[this.priceSource][feat.tag].license;
+          this.customer.mlu += this.modulePrice[this.priceSource][feat.tag].mlu;
+        } else {
+          this.mispriced = true;
+        }
         foundTags.push(feat.tag);
       }
       if (feat.customer && !feat.available && !feat.discontinued) {
@@ -91,8 +97,12 @@ export class PricingComponent implements OnInit, DoCheck  {
       }
     }
     if (this.clients.current.package) {
-      this.customer.license += this.modulePrice[this.priceSource][this.clients.current.package].license;
-      this.customer.mlu += this.modulePrice[this.priceSource][this.clients.current.package].mlu;
+      if (this.modulePrice[this.priceSource][this.clients.current.package]) {
+        this.customer.license += this.modulePrice[this.priceSource][this.clients.current.package].license;
+        this.customer.mlu += this.modulePrice[this.priceSource][this.clients.current.package].mlu;
+      } else {
+        this.mispriced = true;
+      }
     }
 
     this.customer.calLicense = this.modulePrice[this.priceSource]["CAL"].license * this.nrCals;
