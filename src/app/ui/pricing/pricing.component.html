@@ -8,7 +8,7 @@
             <th class="text-right"><i [hidden]="!misconfigured" class="fa fa-bell fa-big text-danger" ngbTooltip="La configurazione in uso è più ampia di quella su cui è stato fatto il calcolo"></i></th>
             <th class="text-center edition-sep" [hidden]="!clients.show">
               <div ngbDropdown>
-                <div ngbDropdownToggle>Pricing: {{priceSource}}</div>
+                <div ngbDropdownToggle class="dropdown-toggle">Pricing: {{priceSource}}</div>
                 <div ngbDropdownMenu class="dropdown-menu">
                   <div class="dropdown-item" ngbDropdownItem (click)="priceSource='LITE'">LITE</div>
                   <div class="dropdown-item" ngbDropdownItem (click)="priceSource='PRO'">PRO</div>

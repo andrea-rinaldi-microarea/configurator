@@ -24,3 +24,7 @@
 .dropdown-item {
     cursor: pointer;
 }
+
+.dropdown-toggle {
+    cursor: pointer;
+}

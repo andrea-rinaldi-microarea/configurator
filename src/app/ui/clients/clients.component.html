@@ -8,13 +8,13 @@
         </div>
         <div class="card-body">
             <div class="d-flex justify-content-between" *ngIf="clients.current" >
-                <span class="card-text w-50">
+                <span class="card-text w-70">
                     <i class="fa fa-files-o btn btn-sm text-user" (click)="onCopyConfig()"></i>
                     {{ decodeClient() }} {{ decodeQty() }}
                     
                 </span>
-                <span class="card-text w-25">{{productDescri(clients.current["Descrizione prodotto"])}} - {{ decodeCALs() }} CAL</span>
-                <span class="w-25 text-right">
+                <span class="card-text w-15">{{productDescri(clients.current["Descrizione prodotto"])}} - {{ decodeCALs() }} CAL</span>
+                <span class="w-15 text-right">
                     <span class="card-text" [hidden]="!clients.current.package">
                         {{modulesDescription[clients.current.package] || clients.current.package}}
                         <i class="fa fa-big fa-circle text-user"></i> 
