@@ -28,10 +28,12 @@ export class PricingComponent implements OnInit, DoCheck  {
   public professional: Pricing = new Pricing();
   public enterprise: Pricing = new Pricing();
   private misconfigured: boolean = false;
+  private misconfiguredInfo: string = "";
   public nrCals: number = 1;
   public useCustomCals: boolean = false;
   private priceSource: string = "LITE";
   private mispriced: boolean = false;
+  private mispricedInfo: string = "";
 
   constructor(
     private configuration: ConfigurationService,
@@ -77,7 +79,9 @@ export class PricingComponent implements OnInit, DoCheck  {
   calculateCustomerPrice(): void {
     this.customer = new Pricing();
     this.misconfigured = false;
+    this.misconfiguredInfo = "";
     this.mispriced = false;
+    this.mispricedInfo = "";
     if (!this.configuration.current || !this.clients.current)
       return;
     var foundTags: string[] = [];
@@ -89,11 +93,13 @@ export class PricingComponent implements OnInit, DoCheck  {
           this.customer.mlu += this.modulePrice[this.priceSource][feat.tag].mlu;
         } else {
           this.mispriced = true;
+          this.mispricedInfo += feat.module + " " + feat.functionality + " ";
         }
         foundTags.push(feat.tag);
       }
       if (feat.customer && !feat.available && !feat.discontinued) {
         this.misconfigured = true;
+        this.misconfiguredInfo += feat.module + " " + feat.functionality + " ";
       }
     }
     if (this.clients.current.package) {
