@@ -46,6 +46,8 @@ export class ConfigurationService {
   }
 
   public moduleDescription(mod: string) {
+    if (!mod)
+      return null;
     return modulesDescription[mod.trim()] ? modulesDescription[mod.trim()] : mod; 
   }
 

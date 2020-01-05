@@ -11,6 +11,8 @@ declare var require: any;
 })
 export class ClientsComponent implements OnInit {
 
+  public successSearch: boolean = true;
+
   constructor(
     private clients: ClientsService,
     private configuration: ConfigurationService
@@ -57,16 +59,6 @@ export class ClientsComponent implements OnInit {
       .trim();
   }
 
-  decodeModules(modString: string) {
-    var modules = modString.split(";");
-    var description: string;
-    modules.forEach(mod => {
-      description = description ? description + " + ": ""; 
-      description += this.configuration.moduleDescription(mod);
-    });
-    return description;
-  }
-
   decodeClient() {
     if (this.clients.current["Ragione Sociale"])
       return this.clients.current["Ragione Sociale"];
@@ -75,7 +67,7 @@ export class ClientsComponent implements OnInit {
       return this.clients.current.CompanyName;
 
     if (this.clients.current.Modules)
-      return this.decodeModules(this.clients.current.Modules);
+      return this.clients.decodeModules(this.clients.current.Modules);
   }
 
   decodeCALs() {
@@ -123,13 +115,14 @@ export class ClientsComponent implements OnInit {
   }
 
   onSearch(searchString: string) {
+    this.successSearch = true;
     if (searchString == "")
-      return;
-    if (!this.clients.current["Ragione Sociale"] && !this.clients.current.CompanyName)
       return;
 
     if (this.clients.searchForward(searchString)) {
       this.configuration.showUsing(this.clients.current);
+    } else {
+      this.successSearch = false;
     }
   }
 }

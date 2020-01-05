@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
+import { ConfigurationService } from './configuration.service';
 
 @Injectable()
 export class ClientsService {
@@ -11,7 +12,8 @@ export class ClientsService {
   private list: any[] = null;
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private configuration: ConfigurationService
   ) { }
 
   open(file): Observable<any> {
@@ -67,6 +69,16 @@ export class ClientsService {
     return true;
   }
 
+  decodeModules(modString: string) {
+    var modules = modString.split(";");
+    var description: string;
+    modules.forEach(mod => {
+      description = description ? description + " + ": ""; 
+      description += this.configuration.moduleDescription(mod);
+    });
+    return description;
+  }
+
   searchForward(searchString: string): boolean {
     if (this.index >= this.list.length - 1) {
       return false;
@@ -74,6 +86,8 @@ export class ClientsService {
 
     for (var loc = this.index + 1; loc < this.list.length; loc++) {
       var field = this.list[loc]["Ragione Sociale"] || this.list[loc].CompanyName;
+      if (!field)
+        field = this.decodeModules(this.list[loc].Modules);
       if (!field)
         return false;
       
