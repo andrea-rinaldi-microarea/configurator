@@ -6,6 +6,7 @@ import { Feature } from '../../models/feature';
 
 declare var require: any;
 const moduleTags = require("./module-tags.json");
+const modulesDescription = require("./modules-description.json");
 
 @Injectable()
 export class ConfigurationService {
@@ -42,6 +43,10 @@ export class ConfigurationService {
     if (this.isPlus(feat, edition)) {
       dist.plus++;
     }
+  }
+
+  public moduleDescription(mod: string) {
+    return modulesDescription[mod.trim()] ? modulesDescription[mod.trim()] : mod; 
   }
 
   public showUsing(client: any) {

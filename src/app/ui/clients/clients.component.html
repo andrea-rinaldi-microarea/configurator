@@ -16,7 +16,7 @@
                 <span class="card-text w-15">{{productDescri(clients.current["Descrizione prodotto"])}} - {{ decodeCALs() }} CAL</span>
                 <span class="w-15 text-right">
                     <span class="card-text" [hidden]="!clients.current.package">
-                        {{modulesDescription[clients.current.package] || clients.current.package}}
+                        {{configuration.moduleDescription(clients.current.package) || clients.current.package}}
                         <i class="fa fa-big fa-circle text-user"></i> 
                     </span>
                 </span>

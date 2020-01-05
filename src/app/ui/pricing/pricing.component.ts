@@ -93,13 +93,13 @@ export class PricingComponent implements OnInit, DoCheck  {
           this.customer.mlu += this.modulePrice[this.priceSource][feat.tag].mlu;
         } else {
           this.mispriced = true;
-          this.mispricedInfo += feat.module + " " + feat.functionality + " ";
+          this.mispricedInfo += this.getFeatureInfo(feat, this.mispricedInfo.length == 0);
         }
         foundTags.push(feat.tag);
       }
       if (feat.customer && !feat.available && !feat.discontinued) {
         this.misconfigured = true;
-        this.misconfiguredInfo += feat.module + " " + feat.functionality + " ";
+        this.misconfiguredInfo += this.getFeatureInfo(feat, this.misconfiguredInfo.length == 0);;
       }
     }
     if (this.clients.current.package) {
@@ -116,6 +116,20 @@ export class PricingComponent implements OnInit, DoCheck  {
 
     this.customer.total5Years = this.customer.license + this.customer.calLicense + (this.customer.mlu + this.customer.calMlu) * 5;
     this.customer.perUserMonth = Math.floor(this.customer.total5Years / ((this.nrCals || 1) * 60));
+  }
+
+  getFeatureInfo(feat: Feature, first: boolean): string {
+    var info: string = first ? "" : ", ";
+    if (feat.module) {
+      info += feat.module;
+    } else {
+      info += this.configuration.moduleDescription(feat.tag);
+    }
+    if (feat.functionality) {
+      info += " - " + feat.functionality;
+    }
+
+    return info;
   }
 
   getCalculationCals() : number {

@@ -5,10 +5,10 @@
   <div class="panel" *ngIf="showPrices">
     <table class="table table-sm table-compact table-borderless mb-0">
         <tr>
-            <th class="text-right"><i [hidden]="!misconfigured" class="fa fa-stack-overflow fa-big text-danger" ngbTooltip="La configurazione in uso è più ampia di quella su cui è stato fatto il calcolo: {{misconfiguredInfo}}"></i></th>
+            <th class="text-right"><i [hidden]="!misconfigured" class="fa fa-stack-overflow fa-big text-danger" ngbTooltip="La configurazione utente mostrata per confronto è più ampia di quella corrente. Mancano: {{misconfiguredInfo}}"></i></th>
             <th class="text-center edition-sep" [hidden]="!clients.show">
               <div>
-                  <i [hidden]="!mispriced" class="fa fa-eur fa-big text-danger" ngbTooltip="La base su cui è stato calcolato il prezzo non è completa di tutti i moduli: {{mispricedInfo}}"></i>
+                  <i [hidden]="!mispriced" class="fa fa-eur fa-big text-danger" ngbTooltip="La base su cui è stato calcolato il prezzo non è completa di tutti i moduli. Mancano: {{mispricedInfo}}"></i>
                   <div ngbDropdown style="display: inline-block;">
                     <div ngbDropdownToggle class="dropdown-toggle">Pricing: {{priceSource}}</div>
                     <div ngbDropdownMenu class="dropdown-menu">

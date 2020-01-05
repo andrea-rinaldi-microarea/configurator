@@ -3,7 +3,6 @@ import { ClientsService } from './../../services/clients.service';
 import { Component, OnInit } from '@angular/core';
 
 declare var require: any;
-const modulesDescription = require("./modules-description.json");
 
 @Component({
   selector: 'app-clients',
@@ -11,8 +10,6 @@ const modulesDescription = require("./modules-description.json");
   styleUrls: ['./clients.component.css']
 })
 export class ClientsComponent implements OnInit {
-
-  private modulesDescription: any = modulesDescription;
 
   constructor(
     private clients: ClientsService,
@@ -65,7 +62,7 @@ export class ClientsComponent implements OnInit {
     var description: string;
     modules.forEach(mod => {
       description = description ? description + " + ": ""; 
-      description += modulesDescription[mod.trim()] ? modulesDescription[mod.trim()] : mod 
+      description += this.configuration.moduleDescription(mod);
     });
     return description;
   }
