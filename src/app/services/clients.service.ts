@@ -83,6 +83,8 @@ export class ClientsService {
     if (this.index >= this.list.length - 1) {
       return false;
     }
+    if (!searchString)
+      return false;
 
     for (var loc = this.index + 1; loc < this.list.length; loc++) {
       var field = this.list[loc]["Ragione Sociale"] || this.list[loc].CompanyName;

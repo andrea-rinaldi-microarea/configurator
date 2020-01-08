@@ -20,3 +20,9 @@
     font-style: italic;
     color: red;
 }
+
+.card-text {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

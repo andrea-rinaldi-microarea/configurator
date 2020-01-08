@@ -1,6 +1,6 @@
 import { ConfigurationService } from './../../services/configuration.service';
 import { ClientsService } from './../../services/clients.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 declare var require: any;
 
@@ -66,6 +66,11 @@ export class ClientsComponent implements OnInit {
     if (this.clients.current.CompanyName)
       return this.clients.current.CompanyName;
 
+    if (this.clients.current.Modules)
+      return this.clients.decodeModules(this.clients.current.Modules);
+  }
+
+  decodeModules() {
     if (this.clients.current.Modules)
       return this.clients.decodeModules(this.clients.current.Modules);
   }
