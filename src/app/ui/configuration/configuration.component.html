@@ -36,6 +36,7 @@
           <th>Funzionalità<app-toggler class="ml-0 mr-0 p-0 text-config-light" [(value)]="hideFunctionalities"></app-toggler></th>
           <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
           <th class="text-center edition-sep" ></th>
+          <th class="text-center edition-sep" ></th>
           <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'" (click)="editMode && selectAll('standard')">
             <app-edition-header [disabled]="!editMode">Standard</app-edition-header> 
           </th>
@@ -50,6 +51,7 @@
         <th class="subheader"></th>
         <th class="subheader"></th>
         <th class="subheader"></th>
+        <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">
@@ -74,6 +76,7 @@
               [class.text-danger]="!feature.available || feature.discontinued"></i>
           </td>
           <td width="25px" class="text-center edition-sep"><i class="fa fa-globe" [hidden]="!isLocalized(feature)" placement="right" [ngbTooltip]="ISOTooltip(feature)"></i></td>  
+          <td width="30px" class="text-right edition-sep">{{getWeight(feature)}}</td>  
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'">
             <app-toggler 
               [hidden]="!feature.available || feature.discontinued" 

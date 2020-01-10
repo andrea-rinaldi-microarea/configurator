@@ -5,6 +5,7 @@ import { Feature } from '../../../models/feature';
 
 declare var require: any;
 const industryList = require("./industry-list.json");
+const featureWeights = require("./feature-weights.json");
 
 @Component({
   selector: 'app-configuration',
@@ -157,6 +158,12 @@ export class ConfigurationComponent implements OnInit {
       tooltip = "Non disponibile in: " +  feature.denyISO;
     }
     return tooltip;
+  }
+
+  getWeight(feature: Feature) {
+    if (feature.available && featureWeights[feature.name]) {
+      return featureWeights[feature.name].weight;
+    }
   }
 
 }

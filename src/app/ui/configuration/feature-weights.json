@@ -1,0 +1,261 @@
+{
+    "SERVER" : {
+        "weight": 165
+    },
+    "LANGUAGES" : {
+        "weight": 90
+    },
+    "CURRENCIES" : {
+        "weight": 90
+    },
+    "CONTACTS" : {
+        "weight": 90
+    },
+    "BUDGET" : {
+        "weight": 60
+    },
+    "FINANCIALS" : {
+        "weight": 330
+    },
+    "MULTITAXJ" : {
+        "weight": 30
+    },
+    "CUSTACCTPL" : {
+        "weight": 30
+    },
+    "PRORATA" : {
+        "weight": 20
+    },
+    "TRAVAGVAT" : {
+        "weight": 20
+    },
+    "PLAFOND" : {
+        "weight": 20
+    },
+    "APARPLUS" : {
+        "weight": 30
+    },
+    "DUNNINGS" : {
+        "weight": 30
+    },
+    "APARANALSYS" : {
+        "weight": 30
+    },
+    "ACCRDEFERR" : {
+        "weight": 20
+    },
+    "BALANALYSYS" : {
+        "weight": 50
+    },
+    "PAYEES" : {
+        "weight": 30
+    },
+    "CADI" : {
+        "weight": 20
+    },
+
+    "ACCPURELEINV" : {
+        "weight": 150
+    },
+    "BANKPLUS" : {
+        "weight": 330
+    },
+    "TREASURERY" : {
+        "weight": 1200
+    },
+    "FIXASSETS" : {
+        "weight": 605
+    },
+    "FOREACC" : {
+        "weight": 275
+    },
+    "XBRL" : {
+        "weight": 550
+    },
+    "ACCBOOKS" : {
+        "weight": 440
+    },
+    "BASELII" : {
+        "weight": 330
+    },
+    "MULTICOMPBAL" : {
+        "weight": 605
+    },
+    "COSTACC" : {
+        "weight": 374
+    },
+    "PRODLINES" : {
+        "weight": 187
+    },
+    "COSTACCTRAN" : {
+        "weight": 187
+    },
+    "CASH" : {
+        "weight": 110
+    },
+    "INTRASTAT" : {
+        "weight": 165
+    },
+    "SALORDERS" : {
+        "weight": 290
+    },
+    "CUSTQUOTA" : {
+        "weight": 95
+    },
+    "SALES" : {
+        "weight": 330
+    },
+    "DOCCOPY" : {
+        "weight": 3
+    },
+    "DOCDETIMPEXP" : {
+        "weight": 3
+    },
+    "PRICEPOL" : {
+        "weight": 30
+    },
+    "SMARTCODE" : {
+        "weight": 20
+    },
+    "ADVUOM" : {
+        "weight": 20
+    },
+    "ADDQTY" : {
+        "weight": 3
+    },
+    "PURCHBARC" : {
+        "weight": 3
+    },
+    "SUBSTITEM" : {
+        "weight": 3
+    },
+    "PRODCAT" : {
+        "weight": 3
+    },
+    "CHARGEPOL" : {
+        "weight": 5
+    },
+    "ELECTINV" : {
+        "weight": 10
+    },
+    "MULTISTUB" : {
+        "weight": 5
+    },
+    "PICKLIST" : {
+        "weight": 5
+    },
+    "CONAI" : {
+        "weight": 165
+    },
+    "RAEE" : {
+        "weight": 275
+    },
+    "SALESFORCE" : {
+        "weight": 275
+    },
+    "CREDLIMIT" : {
+        "weight": 275
+    },
+    "PURCHORD" : {
+        "weight": 290
+    },
+    "SUPPQUOT" : {
+        "weight": 95
+    },
+    "PURCHASES" : {
+        "weight": 605
+    },
+    "INVENTORY" : {
+        "weight": 440
+    },
+    "MULTISTORAGE" : {
+        "weight": 60
+    },
+    "SINGSTEPLF" : {
+        "weight": 35
+    },
+    "INVADJUST" : {
+        "weight": 15
+    },
+    "QUALINSP" : {
+        "weight": 550
+    },
+    "BARCODE" : {
+        "weight": 330
+    },
+    "LOTSSERIALS" : {
+        "weight": 165
+    },
+    "WMSBASIC" : {
+        "weight": 1650
+    },
+    "WMSADV" : {
+        "weight": 2860
+    },
+    "WMSMOB" : {
+        "weight": 1100
+    },
+    "WMSMOBAPP" : {
+        "weight": 330
+    },
+    "BILLOFMAT" : {
+        "weight": 748
+    },
+    "VARIANTS" : {
+        "weight": 605
+    },
+    "CONFIGUR" : {
+        "weight": 748
+    },
+    "MANUFBASIC" : {
+        "weight": 748
+    },
+    "MANUFADV" : {
+        "weight": 2500
+    },
+    "BILLOFMATPLUS" : {
+        "weight": 50
+    },
+    "MANUFPLUS" : {
+        "weight": 110
+    },
+    "KANBAN" : {
+        "weight": 200
+    },
+    "OPENORDERS" : {
+        "weight": 880
+    },
+    "MANUFMOB" : {
+        "weight": 1320
+    },
+    "MANUFMOBAPP" : {
+        "weight": 330
+    },
+    "MANUFPLAN" : {
+        "weight": 3300
+    },
+    "MRPADV" : {
+        "weight": 2200
+    },
+    "TOOLMANAG" : {
+        "weight": 880
+    },
+    "DMSBASE" : {
+        "weight": 1650
+    },
+    "DMSMASS" : {
+        "weight": 300
+    },
+    "JOBSCHEDUL" : {
+        "weight": 660
+    },
+    "SECURITY" : {
+        "weight": 660
+    },
+    "SECURITYADV" : {
+        "weight": 3000
+    },
+    "AUDITING" : {
+        "weight": 308
+    }
+}

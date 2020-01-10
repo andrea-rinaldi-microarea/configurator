@@ -92,7 +92,7 @@ WMS;Base;WMAA;WMSBASIC;False;WMSBasic;;;;;X/0;False
 ;Mobile - backend;WMRF;WMSMOB;False;WMSMobile;;;;X/0;X/0;False
 ;Mobile - app;WMRC;WMSMOBAPP;False;WMSMobile;;;;Nr-User;Nr-User;False
 Resources Management;;;SERVER;False;;;;;X;X;True
-Calendario Aziendale;;;SERVER;False;;;;;X;X;True
+Calendario Aziendale;;;SERVER;False;;;;;;;False
 Distinta Base;;DIST;BILLOFMAT;False;BillOfMaterials;;;X;X;X;True
 ;Calendario Associato ai CdL;DIST;BILLOFMAT;False;BillOfMaterials;;;;;X;True
 ;Famiglie di CdL;DIST;BILLOFMAT;False;BillOfMaterials;;;;;X;True
