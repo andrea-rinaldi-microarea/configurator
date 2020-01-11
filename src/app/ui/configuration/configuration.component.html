@@ -15,25 +15,26 @@
   <div class="right-toolbar" [hidden]="currIndustry == null">
     <button class="btn btn-outline-light" [hidden]="editMode" (click)="onExport()"><i class="fa fa-big fa-share-square-o text-config-light"></i></button> 
     <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button> 
-      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onUpgrade()" placement="bottom" ngbTooltip="Allinea la lista delle funzionalità con quella standard"><i class="fa fa-big fa-clipboard text-config-light"></i></button> 
-      <div ngbDropdown class="d-inline-block">
-        <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle placement="bottom" ngbTooltip="Copia un'altra industry">
-            <i class="fa fa-big fa-files-o text-config-light"></i>
-        </button>
-        <div ngbDropdownMenu style="margin-left:-75px">
-          <button class="dropdown-item" ngbDropdownItem *ngFor="let industry of industryList | OtherIndustries:currIndustry" (click)="onCopy(industry)">{{industry}}</button>
-        </div>
+    <!-- <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onTranslate()"><i class="fa fa-big fa-globe text-config-light"></i></button>  -->
+    <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onUpgrade()" placement="bottom" ngbTooltip="Allinea la lista delle funzionalità con quella standard"><i class="fa fa-big fa-clipboard text-config-light"></i></button> 
+    <div ngbDropdown class="d-inline-block">
+      <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle placement="bottom" ngbTooltip="Copia un'altra industry">
+          <i class="fa fa-big fa-files-o text-config-light"></i>
+      </button>
+      <div ngbDropdownMenu style="margin-left:-75px">
+        <button class="dropdown-item" ngbDropdownItem *ngFor="let industry of industryList | OtherIndustries:currIndustry" (click)="onCopy(industry)">{{industry}}</button>
       </div>
-      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onSave(); editMode=false"><i class="fa fa-big fa-floppy-o text-config-light"></i></button> 
-      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button> 
+    </div>
+    <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onSave(); editMode=false"><i class="fa fa-big fa-floppy-o text-config-light"></i></button> 
+    <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button> 
   </div>
 </div>
 <div class="row mt-2" *ngIf="configuration.current"> 
   <table class="table table-sm table-borderless">
       <tr>
           <th><app-toggler class="text-config-light" [(value)]="hideExcluded"></app-toggler></th>
-          <th>Modulo</th>
-          <th>Funzionalità<app-toggler class="ml-0 mr-0 p-0 text-config-light" [(value)]="hideFunctionalities"></app-toggler></th>
+          <th>{{"Module" | translate}}</th>
+          <th>{{"Functionality" | translate}}<app-toggler class="ml-0 mr-0 p-0 text-config-light" [(value)]="hideFunctionalities"></app-toggler></th>
           <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
           <th class="text-center edition-sep" ></th>
           <th class="text-center edition-sep" ></th>
@@ -66,8 +67,8 @@
       </tr>
       <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="!feature.available" [class.module-sep]="feature.module != ''" [class.group-sep]="feature.module.startsWith('_')">
           <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.available" [options]="availableOptions"></app-toggler></td>
-          <td [class.discontinued]="feature.discontinued">{{feature.module.replace('_','')}}</td>  
-          <td [class.discontinued]="feature.discontinued">{{hideFunctionalities ? "" : feature.functionality}}<i class="fa fa-link" style="float:right" [hidden]="!isLinked(feature)" placement="right" ngbTooltip="Non attivabili separatamente"></i></td> 
+          <td [class.discontinued]="feature.discontinued">{{feature.module.replace('_','') | translate}} </td>  
+          <td [class.discontinued]="feature.discontinued">{{hideFunctionalities ? "" : feature.functionality | translate}} <i class="fa fa-link" style="float:right" [hidden]="!isLinked(feature)" placement="right" ngbTooltip="Non attivabili separatamente"></i></td> 
           <td class="text-center edition-sep" [hidden]="!clients.show">
             <i 
               class="fa in-use text-user" 
@@ -112,11 +113,11 @@
 </div>
 <div *ngIf="configuration.current">
   <hr>
-  Legenda <br>
-  <i class="fa fa-star-o text-config"></i> non incluso &nbsp;
-  <i class="fa fa-star text-config"></i> incluso &nbsp;
-  <i class="fa fa-check-square-o text-config"></i> opzionale &nbsp;
-  <i class="fa fa-user-plus text-config"></i> per numero utenti &nbsp;
-  <i class="fa fa-star-half-o text-config"></i> funzionalità limitata &nbsp;
+  {{"Legend" | translate}} <br>
+  <i class="fa fa-star-o text-config"></i> {{"not included" | translate}} &nbsp;
+  <i class="fa fa-star text-config"></i> {{"included" | translate}} &nbsp;
+  <i class="fa fa-check-square-o text-config"></i> {{"optional" | translate}} &nbsp;
+  <i class="fa fa-user-plus text-config"></i> {{"per number of users" | translate}} &nbsp;
+  <i class="fa fa-star-half-o text-config"></i> {{"limited functionality" | translate}} &nbsp;
 </div>
 

@@ -3,6 +3,7 @@ import { Configuration, Distance } from '../../models/configuration';
 import { Observable } from 'rxjs/Observable';
 import { HttpClient } from '@angular/common/http';
 import { Feature } from '../../models/feature';
+import { TranslateService } from '@ngx-translate/core';
 
 declare var require: any;
 const moduleTags = require("./module-tags.json");
@@ -14,7 +15,8 @@ export class ConfigurationService {
   public current: Configuration;
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private translate: TranslateService
   ) { }
 
   private lookForMods(mods: string[], fromPackage: boolean) {
@@ -138,11 +140,40 @@ export class ConfigurationService {
     return $configuration;
   }
 
+  // public translateFeatures(): Observable<any> {
+  //   var $configuration = new Observable<any>(observer => {
+  //     this.http.get('/api/configurations/' + 'FeaturesList').subscribe((data:Feature[]) => {
+  //       for (var f = 0; f < data.length; f++) {
+  //         if (data[f].module)
+  //           this.translate.get(data[f].module.replace('_','')).subscribe(res => {
+  //             this.current.features[f].module = res;
+  //           });
+  //         if (data[f].functionality)
+  //           this.translate.get(data[f].functionality).subscribe(res => {
+  //             this.current.features[f].functionality = res;
+  //           });
+  //       }
+  //       observer.next();
+  //       observer.complete();
+  //     });
+  //   });
+  //   return $configuration;
+  // }
+
   public upgrade(): Observable<any> {
     var $configuration = new Observable<any>(observer => {
       this.http.get('/api/configurations/' + 'FeaturesList').subscribe((data:Feature[]) => {
         for (var f = 0; f < data.length; f++) {
           var curr = this.current.features.find(feat => data[f].module == feat.module && data[f].functionality == feat.functionality);
+
+          if (curr == null) {
+            var transModule = data[f].module ? this.translate.instant(data[f].module.replace('_','')) : "";
+            var transFunctionality = data[f].functionality ? this.translate.instant(data[f].functionality) : "";
+            curr = this.current.features.find((feat) => {
+              return transModule == feat.module && transFunctionality == feat.functionality;
+            });
+          }
+
           if (curr != null)
           {
             data[f].available = curr.available;
@@ -159,8 +190,8 @@ export class ConfigurationService {
     return $configuration;
   }
 
-  public export() {
-    this.http.post('/api/configurations/export', this.current).subscribe(res => {
+  public export(configuration: Configuration) {
+    this.http.post('/api/configurations/export', configuration).subscribe(res => {
       console.log("exported");
     });
   }

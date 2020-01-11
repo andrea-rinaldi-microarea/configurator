@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ConfigurationService } from '../../services/configuration.service';
 import { ClientsService } from '../../services/clients.service';
 import { Feature } from '../../../models/feature';
+import { TranslateService } from '@ngx-translate/core';
 
 declare var require: any;
 const industryList = require("./industry-list.json");
@@ -54,8 +55,10 @@ export class ConfigurationComponent implements OnInit {
 
   constructor(
     private configuration: ConfigurationService,
-    private clients: ClientsService
-  ) { }
+    private clients: ClientsService,
+    private translate: TranslateService
+  ) { 
+  }
 
   ngOnInit() {
   }
@@ -123,6 +126,12 @@ export class ConfigurationComponent implements OnInit {
     });
   }
 
+  // onTranslate() {
+  //   this.configuration.translateFeatures().subscribe( res => {
+  
+  //   });
+  // }
+
   onUpgrade() {
     this.configuration.upgrade().subscribe( res => {
       this.configuration.showUsing(this.clients.current);
@@ -130,7 +139,16 @@ export class ConfigurationComponent implements OnInit {
   }
 
   onExport() {
-    this.configuration.export();
+    var translated = this.configuration.current;
+    for (var f = 0; f < this.configuration.current.features.length; f++) {
+      if (this.configuration.current.features[f].module) {
+        translated.features[f].module = this.translate.instant(this.configuration.current.features[f].module);
+      }
+      if (this.configuration.current.features[f].functionality) {
+        translated.features[f].functionality = this.translate.instant(this.configuration.current.features[f].functionality);
+      }
+    }
+    this.configuration.export(translated);
   }
 
   isLinked(feature: Feature) {

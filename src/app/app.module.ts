@@ -2,7 +2,7 @@ import { ClientsService } from './services/clients.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { FunctionalityPipe } from './ui/configuration/functionality-pipe';
 import { ClientsComponent } from './ui/clients/clients.component';
@@ -15,6 +15,12 @@ import { TogglerComponent } from './ui/toggler/toggler.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { OtherIndustries } from './ui/configuration/other-industries-pipe';
 import { PricingComponent } from './ui/pricing/pricing.component';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -33,7 +39,14 @@ import { PricingComponent } from './ui/pricing/pricing.component';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [ClientsService, ConfigurationService],
   bootstrap: [AppComponent]
