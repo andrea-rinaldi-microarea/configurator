@@ -1,3 +1,4 @@
+import { CSVExport } from './../../models/CSVExport';
 import { Injectable } from '@angular/core';
 import { Configuration, Distance } from '../../models/configuration';
 import { Observable } from 'rxjs/Observable';
@@ -196,5 +197,21 @@ export class ConfigurationService {
     });
   }
 
+  public isIncluded(tag: string, pkg: string): boolean {
+    var pack = moduleTags.find(e => {
+      return e.tag == pkg;
+    });
+    if (pack) {
+      return pack.package.includes(tag);
+    } else {
+      return false;
+    }
+  }
+
+  public CSVExport(csvExp: CSVExport) {
+    this.http.post('/api/configurations/csv-export', csvExp).subscribe(res => {
+      console.log("exported to CSV");
+    });
+  }
 
 }

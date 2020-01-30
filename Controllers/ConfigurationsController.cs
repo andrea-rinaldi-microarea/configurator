@@ -100,6 +100,20 @@ namespace Configurator.Controllers
                 writer.WriteLine(json);
             }
             return NoContent();
+        }
+
+        [HttpPost("csv-export")]
+        public IActionResult CSVExport([FromBody] CSVExport csvExp)
+        {
+            using(TextWriter writer = new StreamWriter($"output\\{csvExp.Name}.csv", false, Encoding.UTF8))
+            {
+                var csv = new CsvWriter( writer );
+                csv.Configuration.Delimiter = ";";
+                csv.WriteRecords( csvExp.Features );
+            }
+            return NoContent();
         }        
+
+
     }
 }

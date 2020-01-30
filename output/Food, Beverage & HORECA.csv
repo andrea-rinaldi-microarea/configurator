@@ -1,0 +1,79 @@
+﻿Module;Functionality;Tag;Sbpk;Adpk;Trpk;Fragment;Base;Professional;Enterprise
+Modulo Base;;SEVR;SBPK;ADPK;TRPK;SERVER;X;X;X
+;Descrizioni Multilingua;SEVR;SBPK;ADPK;TRPK;LANGUAGES;X;X;X
+;Multivaluta;SEVR;SBPK;ADPK;TRPK;CURRENCIES;;X;X
+Contabilità Generale;;CONT;SBPK;ADPK;TRPK;FINANCIALS;X;X;X
+;Registri IVA vendite;CONT;SBPK;ADPK;TRPK;MULTITAXJ;max;max;X
+;Registri IVA acquisti;CONT;SBPK;ADPK;TRPK;MULTITAXJ;max;max;X
+;Registri IVA di altro tipo;CONT;SBPK;ADPK;TRPK;MULTITAXJ;max;max;X
+;Modelli contabili personalizzabili;CONT;SBPK;ADPK;TRPK;CUSTACCTPL;;X;X
+;Import contabile Fatturazione Elettronica Passiva;CPCO;;;;ACCPURELEINV;;X;X
+;Gestione Pro-rata;CONT;SBPK;ADPK;TRPK;PRORATA;X;X;X
+;IVA Agenzie di Viaggio;CONT;SBPK;ADPK;TRPK;TRAVAGVAT;X;X;X
+;Gestione Plafond;CONT;SBPK;ADPK;TRPK;PLAFOND;;X;X
+;Presentazioni effetti parametrizzabili;CONT;SBPK;ADPK;TRPK;APARPLUS;;X;X
+;Gestione reversali di incasso;CONT;SBPK;ADPK;TRPK;APARPLUS;;X;X
+;Gestione Factoring;CONT;SBPK;ADPK;TRPK;APARPLUS;;;X
+;Unpaid payment automatic management;CONT;SBPK;ADPK;TRPK;APARPLUS;;;X
+;Solleciti di pagamento;CONT;SBPK;ADPK;TRPK;DUNNINGS;;X;X
+;Analisi Scadenzari e Cash Flow;CONT;SBPK;ADPK;TRPK;APARANALSYS;;;X
+;Ratei e risconti automatici;CONT;SBPK;ADPK;TRPK;ACCRDEFERR;;X;X
+;Analisi e riclassificazioni bilancio;CONT;SBPK;ADPK;TRPK;BALANALYSYS;;X;X
+;Gestione parcelle professionisti e ritenute d'acconto;CONT;SBPK;ADPK;TRPK;PAYEES;;X;X
+;CADI (liquidazione e dati documenti IVA);CONT;SBPK;ADPK;TRPK;CADI;;X;X
+Gestione Banche Avanzato;SEPA XML;BAPL;;;;BANKPLUS;X;X;X
+;Bonifici esteri / mandati SDD;BAPL;;;;BANKPLUS;;X;X
+;Riconciliazioni bancarie;BAPL;;;;BANKPLUS;;;X
+Tesoreria;;TESO;;;;TREASURERY;;X;X
+Cespiti;;CSPT;;;TRPK;FIXASSETS;;X;X
+Contabilità Previsionale;;COPR;;ADPK;TRPK;FOREACC;;;X
+XBRL Bilancio;;XBRL;;;;XBRL;;;X
+Libro Inventari e Allegati;;LIBR;;;;ACCBOOKS;;;X
+Analisi di Bilancio (Basilea II);;BAII;;;;BASELII;;;X
+Bilancio Consolidato;;BICO;;;;MULTICOMPBAL;;;X
+Contabilità Analitica;;COAN;;;;COSTACC;;X;X
+;Linee di Prodotto;CFIN;;;;PRODLINES;;;X
+;Ribaltamenti;CFIN;;;;COSTACCTRAN;;;X
+Gestione cassa;;CASH;;;;CASH;;;X
+Intrastat;;INTR;;ADPK;TRPK;INTRASTAT;;X;X
+Zucchetti Cross-Applications;Connettore SOS;SOSC;SBPK;ADPK;TRPK;SOSCONN;X;X;X
+;Connettore AGO;CONT;SBPK;ADPK;TRPK;AGOCONN;X;X;X
+;Connettore B&O / Maestro;CONT;SBPK;ADPK;TRPK;BEOCONN;X;X;X
+;Connettore Magix Fisco Azienda;CONT;SBPK;ADPK;TRPK;FISAZCONN;X;X;X
+;Connettore OMNIA;CONT;SBPK;ADPK;TRPK;OMNIACONN;X;X;X
+;Connettore Paghe Web;CONT;SBPK;ADPK;TRPK;PAYROLLIMP;X;X;X
+Vendite / Acquisti;;VEDT;SBPK;ADPK;TRPK;SALES;X;X;X
+;Copia documenti;VEDT;SBPK;ADPK;TRPK;DOCCOPY;X;X;X
+;Import / Export file articoli e note;VEDT;SBPK;ADPK;TRPK;DOCDETIMPEXP;X;X;X
+;Codice parlante;VEDT;SBPK;ADPK;TRPK;SMARTCODE;;X;X
+;Multiple Unità di Misura dell'Articolo;VEDT;SBPK;ADPK;TRPK;ADVUOM;;X;X
+;Quantità accessorie;VEDT;SBPK;ADPK;TRPK;ADDQTY;;X;X
+;Codice a barre d'acquisto e di vendita;VEDT;SBPK;ADPK;TRPK;PURCHBARC;;X;X
+;Articoli equivalenti;VEDT;SBPK;ADPK;TRPK;SUBSTITEM;;X;X
+;Produttori e Categorie prodotti;VEDT;SBPK;ADPK;TRPK;PRODCAT;;X;X
+Fatturazione / Bollettazione;;VEDT;SBPK;ADPK;TRPK;SALES;X;X;X
+;Fatturazione Elettronica Attiva;VEDT;SBPK;ADPK;TRPK;ELECTINV;X;X;X
+Store Management;;;;;;STOREMAN;X;X;X
+;Ricette per Ristorazione;;;;;RECIPES;;X/0;X
+;In-store App Mobile;;;;;INSTOREAPP;;Nr-User;Nr-User
+Ordini fornitori;;ORFO;;;TRPK;PURCHORD;X;X;X
+Acquisti;;ACQT;;;TRPK;PURCHASES;;X;X
+;Fatturazione Elettronica Import. Ciclo Passivo;;;;;PURCHELEINV;;X;X
+Magazzino;;MAGA;SBPK;ADPK;TRPK;INVENTORY;X;X;X
+;Multi deposito;MAGA;SBPK;ADPK;TRPK;MULTISTORAGE;;X;X
+;LIFO/FIFO a scatti continui;MAGA;SBPK;ADPK;TRPK;SINGSTEPLF;;;X
+;Movimenti di magazzino di rettifica inventariale;MAGA;SBPK;ADPK;TRPK;INVADJUST;;;X
+Controllo qualità;;INSP;;;;QUALINSP;;;X
+;Note Tecniche;CFIN;;;;QUALINSP;;;X
+Barcode Manager;;BARC;;;;BARCODE;X;X;X
+Lotti e Matricole;;LOTT;;ADPK;TRPK;LOTSSERIALS;;X;X
+Resources Management;;;;;;SERVER;;X;X
+DMS;Base;EATT;;;;DMSBASE;;X;X
+;Massive Archiving Plug-In;MASS;;;;DMSMASS;;;X
+Mail Services;;MAIL;;;;MAILSERVICES;;X;X
+Reporting Personalizzato;;;;;;CUSTOMREP;max;max;X
+Job Scheduler;;SCHD;;;;JOBSCHEDUL;;;X
+Security;;OSLL;;;;SECURITY;;X;X
+;Access profiles;OSLS;;;;SECURITYADV;;X;X
+;Auditing;AUDT;;;;AUDITING;;X/0;X
+;Visibility;;;;;VISIBILITY;;X/0;X

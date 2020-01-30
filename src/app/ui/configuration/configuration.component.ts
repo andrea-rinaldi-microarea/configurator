@@ -1,3 +1,4 @@
+import { CSVExport, CSVFeature } from './../../../models/CSVExport';
 import { Component, OnInit } from '@angular/core';
 import { ConfigurationService } from '../../services/configuration.service';
 import { ClientsService } from '../../services/clients.service';
@@ -149,6 +150,29 @@ export class ConfigurationComponent implements OnInit {
       }
     }
     this.configuration.export(translated);
+  }
+
+  onCSVExport() {
+    var csvExp = new CSVExport(this.configuration.current.name);
+    for (var f = 0; f < this.configuration.current.features.length; f++) {
+      var feat = this.configuration.current.features[f];
+      if (!feat.available)
+        continue;
+      
+      csvExp.features.push(new CSVFeature(
+        feat.module && this.translate.instant(feat.module),
+        feat.functionality && this.translate.instant(feat.functionality),
+        feat.tag,
+        this.configuration.isIncluded(feat.tag, "SBPK") ? "SBPK" : "",
+        this.configuration.isIncluded(feat.tag, "ADPK") ? "ADPK" : "",
+        this.configuration.isIncluded(feat.tag, "TRPK") ? "TRPK" : "",
+        feat.name,
+        feat.standard,
+        feat.professional,
+        feat.enterprise
+      ));
+    }
+    this.configuration.CSVExport(csvExp);
   }
 
   isLinked(feature: Feature) {
