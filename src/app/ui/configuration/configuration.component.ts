@@ -1,3 +1,4 @@
+import { Weight } from './../../../models/configuration';
 import { CSVExport, CSVFeature } from './../../../models/CSVExport';
 import { Component, OnInit } from '@angular/core';
 import { ConfigurationService } from '../../services/configuration.service';
@@ -203,6 +204,14 @@ export class ConfigurationComponent implements OnInit {
 
   getWeight(feature: Feature) {
       return this.configuration.getWeight(feature);
+  }
+
+  configurationWeight(weight: Weight) {
+    if (weight.min == weight.max) {
+      return weight.min;
+    } else {
+      return weight.min + " " + String.fromCharCode(247) + " " + weight.max;
+    }
   }
 
 }
