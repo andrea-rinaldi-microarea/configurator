@@ -146,14 +146,16 @@ export class ConfigurationService {
         this.current.proWeight = new Weight();
         this.current.entWeight = new Weight();
 
+        var foundNames: string[] = [];
         for (var f = 0; f < this.current.features.length; f++) {
           var feat = this.current.features[f];
-          if (!feat.available)
+          if (!feat.available || foundNames.includes(feat.name))
             continue;
 
           this.calculateWeight(feat, feat.standard, this.current.stdWeight);
           this.calculateWeight(feat, feat.professional, this.current.proWeight);
           this.calculateWeight(feat, feat.enterprise, this.current.entWeight);
+          foundNames.push(feat.name);
         }
         observer.next();
         observer.complete();
