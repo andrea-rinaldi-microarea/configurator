@@ -7,7 +7,6 @@ import { TranslateService } from '@ngx-translate/core';
 
 declare var require: any;
 const industryList = require("./industry-list.json");
-const featureWeights = require("./feature-weights.json");
 
 @Component({
   selector: 'app-configuration',
@@ -203,9 +202,7 @@ export class ConfigurationComponent implements OnInit {
   }
 
   getWeight(feature: Feature) {
-    if (feature.available && featureWeights[feature.name]) {
-      return featureWeights[feature.name].weight;
-    }
+      return this.configuration.getWeight(feature);
   }
 
 }

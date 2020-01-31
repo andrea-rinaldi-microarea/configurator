@@ -49,6 +49,23 @@
             <app-edition-header [disabled]="!editMode">Enterprise</app-edition-header>
           </th>
       </tr> 
+      <tr>
+        <th class="subheader"></th>
+        <th class="subheader"></th>
+        <th class="subheader"></th>
+        <th class="edition-sep subheader" [hidden]="!clients.show"></th>
+        <th class="edition-sep subheader"></th>
+        <th class="edition-sep subheader"></th>
+        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">
+          <span *ngIf="configuration.current.stdWeight">{{configuration.current.stdWeight.min}} &#247; {{configuration.current.stdWeight.max}}</span>
+        </th>
+        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRO'">
+          <span *ngIf="configuration.current.proWeight">{{configuration.current.proWeight.min}} &#247; {{configuration.current.proWeight.max}}</span>
+        </th>
+        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='ENT'">
+          <span *ngIf="configuration.current.entWeight">{{configuration.current.entWeight.min}} &#247; {{configuration.current.entWeight.max}}</span>
+        </th>
+      </tr>
       <tr *ngIf="clients.show">
         <th class="subheader"></th>
         <th class="subheader"></th>

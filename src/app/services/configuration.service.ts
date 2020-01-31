@@ -1,6 +1,6 @@
 import { CSVExport } from './../../models/CSVExport';
 import { Injectable } from '@angular/core';
-import { Configuration, Distance } from '../../models/configuration';
+import { Configuration, Distance, Weight } from '../../models/configuration';
 import { Observable } from 'rxjs/Observable';
 import { HttpClient } from '@angular/common/http';
 import { Feature } from '../../models/feature';
@@ -9,6 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 declare var require: any;
 const moduleTags = require("./module-tags.json");
 const modulesDescription = require("./modules-description.json");
+const featureWeights = require("./feature-weights.json");
 
 @Injectable()
 export class ConfigurationService {
@@ -112,11 +113,48 @@ export class ConfigurationService {
       }
     }
 
-  public load(industry: string): Observable<any> {
+    public getWeight(feature: Feature) {
+      if (feature.available && featureWeights[feature.name]) {
+        return featureWeights[feature.name].weight;
+      }
+      return 0;
+    }
+
+    private calculateWeight(feat: Feature, edition: string, weight: Weight) {
+      var value = this.getWeight(feat);
+      if (edition == "") return;
+      if (edition == "X") {
+        weight.min += value;
+        weight.max += value;
+        return;
+      } 
+      if (edition == "max") {
+        weight.min += Math.floor(value / 2);
+        weight.max += Math.floor(value / 2);
+        return;
+      } 
+      weight.max += value;
+    }
+  
+    public load(industry: string): Observable<any> {
     var $configuration = new Observable<any>(observer => {
       this.http.get('/api/configurations/' + industry).subscribe((data:Feature[]) => {
         this.current = new Configuration(industry);
         this.current.features = data;
+
+        this.current.stdWeight = new Weight();
+        this.current.proWeight = new Weight();
+        this.current.entWeight = new Weight();
+
+        for (var f = 0; f < this.current.features.length; f++) {
+          var feat = this.current.features[f];
+          if (!feat.available)
+            continue;
+
+          this.calculateWeight(feat, feat.standard, this.current.stdWeight);
+          this.calculateWeight(feat, feat.professional, this.current.proWeight);
+          this.calculateWeight(feat, feat.enterprise, this.current.entWeight);
+        }
         observer.next();
         observer.complete();
       });

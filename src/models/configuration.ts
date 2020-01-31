@@ -7,11 +7,21 @@ export class Distance {
     ) {}
 }
 
+export class Weight {
+    constructor(
+        public min: number = 0,
+        public max: number = 0
+    ) {}
+}
+
 export class Configuration {
     constructor(
         public name: string
     ) {}
     public features: Feature[] = [];
+    public stdWeight: Weight;
+    public proWeight: Weight;
+    public entWeight: Weight;
     public stdDistance: Distance;
     public proDistance: Distance;
     public entDistance: Distance;
