@@ -53,7 +53,9 @@
         <th class="subheader"></th>
         <th class="subheader"></th>
         <th class="subheader"></th>
-        <th class="edition-sep subheader" [hidden]="!clients.show"></th>
+        <th class="text-center edition-sep subheader" [hidden]="!clients.show">
+          <span *ngIf="configuration.current.clientWeight">{{configuration.current.clientWeight}}</span>
+        </th>
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">

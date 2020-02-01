@@ -22,6 +22,7 @@ export class Configuration {
     public stdWeight: Weight;
     public proWeight: Weight;
     public entWeight: Weight;
+    public clientWeight: number;
     public stdDistance: Distance;
     public proDistance: Distance;
     public entDistance: Distance;

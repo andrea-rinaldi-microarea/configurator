@@ -203,7 +203,9 @@ export class ConfigurationComponent implements OnInit {
   }
 
   getWeight(feature: Feature) {
+    if (feature.available) {
       return this.configuration.getWeight(feature);
+    }
   }
 
   configurationWeight(weight: Weight) {
