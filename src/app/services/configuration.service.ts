@@ -101,11 +101,13 @@ export class ConfigurationService {
     this.current.proDistance = new Distance();
     this.current.entDistance = new Distance();
     this.current.clientWeight = 0;
+    var foundNames: string[] = [];
     for (var f = 0; f < this.current.features.length; f++) {
         var feat = this.current.features[f];
 
         // old discontinued features and new features that have no correspondance to existing ones are not counted as distance
-        if (feat.discontinued || feat.tag == "" || feat.tag == null)
+        // count features once
+        if (feat.discontinued || feat.tag == "" || feat.tag == null || foundNames.includes(feat.name))
           continue; 
         
         if (feat.customer) {
@@ -115,6 +117,7 @@ export class ConfigurationService {
         this.calculateDistance(feat, feat.standard, this.current.stdDistance);
         this.calculateDistance(feat, feat.professional, this.current.proDistance);
         this.calculateDistance(feat, feat.enterprise, this.current.entDistance);
+        foundNames.push(feat.name);
       }
     }
 

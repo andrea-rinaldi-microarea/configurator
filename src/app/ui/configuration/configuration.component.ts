@@ -185,6 +185,15 @@ export class ConfigurationComponent implements OnInit {
             );
   }
 
+  sameNameOnPrevious(feature: Feature) {
+    var idx = this.configuration.current.features.findIndex(feat => feature.module == feat.module && feature.functionality == feat.functionality);
+    return  feature.name != "" &&
+            feature.name != null &&
+            (
+              (idx > 0 && feature.name == this.configuration.current.features[idx - 1].name) 
+            );
+  }
+
   isLocalized(feature: Feature) {
     return  (feature.allowISO != "" && feature.allowISO != null) ||
             (feature.denyISO != "" && feature.denyISO != null)
@@ -203,7 +212,7 @@ export class ConfigurationComponent implements OnInit {
   }
 
   getWeight(feature: Feature) {
-    if (feature.available) {
+    if (feature.available && !this.sameNameOnPrevious(feature)) {
       return this.configuration.getWeight(feature);
     }
   }
