@@ -49,9 +49,15 @@ export class ClientsComponent implements OnInit {
     })
   }
 
-  productDescri(fullDescri: string) {
-    if (!fullDescri)
+  productDescri() {
+    var fullDescri: string = "";
+    if (this.clients.current["Descrizione prodotto"]) {
+      fullDescri = this.clients.current["Descrizione prodotto"];
+    } else if (this.clients.current.Description) {
+      fullDescri = this.clients.current.Description;
+    } else {
       return "";
+    }
     return fullDescri
       .replace("All Database", "")
       .replace("Powered by MSDE", "")

@@ -15,7 +15,7 @@
                 <span class="card-text w-5">
                     {{ decodeQty() }}
                 </span>
-                <span class="card-text w-15">{{productDescri(clients.current["Descrizione prodotto"])}} - {{ decodeCALs() }} CAL</span>
+                <span class="card-text w-15">{{productDescri()}} - {{ decodeCALs() }} CAL</span>
                 <span class="w-10 text-right">
                     <span class="card-text" [hidden]="!clients.current.package">
                         {{configuration.moduleDescription(clients.current.package) || clients.current.package}}

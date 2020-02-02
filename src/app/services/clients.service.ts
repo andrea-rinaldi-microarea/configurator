@@ -116,7 +116,7 @@ export class ClientsService {
   getEdition(): string {
     if (!this.current)
       return "";
-    var product: string = this.current["Descrizione prodotto"];
+    var product: string = this.current["Descrizione prodotto"] || this.current.Description;
     if (!product)
       return "";
     if (product.includes("PRO"))
