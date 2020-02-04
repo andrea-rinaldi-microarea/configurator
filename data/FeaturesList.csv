@@ -12,7 +12,6 @@ Financials;;CONT;FINANCIALS;FALSE;Financials;;
 ;Travel Agency VAT;CONT;TRAVAGVAT;FALSE;TravelAgencyVAT;IT;
 ;Plafond Management;CONT;PLAFOND;FALSE;Plafond;IT,HU;
 ;Advanced AP/AR Management;CONT;APARPLUS;FALSE;AP_AR_Plus;;
-;Factoring Management;CONT;APARPLUS;FALSE;AP_AR_Plus;;
 ;Dunning letters;CONT;DUNNINGS;FALSE;Dunnings;;
 ;Payment Schedule Analysis and Cash Flow;CONT;APARANALSYS;FALSE;AP_AR_Analysis;;
 ;Automatic Accrual and Deferrals;CONT;ACCRDEFERR;FALSE;AccrualsDeferrals;;

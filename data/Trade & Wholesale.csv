@@ -12,7 +12,6 @@ Financials;;CONT;FINANCIALS;False;Financials;;;X;X;X;True
 ;Travel Agency VAT;CONT;TRAVAGVAT;False;TravelAgencyVAT;IT;;X;X;X;True
 ;Plafond Management;CONT;PLAFOND;False;Plafond;IT,HU;;;X;X;True
 ;Advanced AP/AR Management;CONT;APARPLUS;False;AP_AR_Plus;;;;X;X;True
-;Factoring Management;CONT;APARPLUS;False;AP_AR_Plus;;;;;X;True
 ;Dunning letters;CONT;DUNNINGS;False;Dunnings;;;;X;X;True
 ;Payment Schedule Analysis and Cash Flow;CONT;APARANALSYS;False;AP_AR_Analysis;;;;;X;True
 ;Automatic Accrual and Deferrals;CONT;ACCRDEFERR;False;AccrualsDeferrals;;;;X;X;True
@@ -83,7 +82,7 @@ Open Orders;;OPOR;OPENORDERS;False;OpenOrders;;;;;;False
 Manufacturing Mobile;backend;MANM;MANUFMOB;False;ManufacturingMobile;;;;;;False
 ;app;MANC;MANUFMOBAPP;False;ManufacturingMobile;;;;;;False
 Planning;Basic;PRZP;MANUFPLAN;False;ManufacturingPlanning;;;;;;False
-;Advanced;PRPA;MRPADV;False;MRPAdvanced;;;;;X;False
+;Advanced;PRPA;MRPADV;False;MRPAdvanced;;;;;X;True
 Tools Management;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;;False
 _DMS;Basic;EATT;DMSBASE;False;;;;;X;X;True
 ;Massive Archiving Plug-In;MASS;DMSMASS;False;;;;;;X;True
