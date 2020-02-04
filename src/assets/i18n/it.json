@@ -105,5 +105,10 @@
     "Basic": "Base",
     "Make or Buy Management": "Gestione Make or Buy",
     "Tools Management": "Attrezzi",
-    "Customized Reporting": "Reporting Personalizzato"
+    "Customized Reporting": "Reporting Personalizzato",
+    "Customizable Tax Journals": "Registri IVA personalizzabili",
+    "Advanced AP/AR Management":"Scadenzario Avanzato",
+    "Advanced Items Management": "Gestione avanzata articoli",
+    "MO Advanced Management": "Gestione avanzata OdP",
+    "Drawings Management, History and Versioning": "Gestione Disegni, storico e indici di revisione"
 }

@@ -9,7 +9,7 @@
 }
 
 .main {
-    max-height: 720px;
+    /* max-height: 720px; */
     overflow-y: auto;
     max-width: inherit;
 }

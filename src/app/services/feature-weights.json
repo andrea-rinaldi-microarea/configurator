@@ -103,34 +103,10 @@
         "weight": 95
     },
     "SALES" : {
-        "weight": 330
+        "weight": 367
     },
-    "DOCCOPY" : {
-        "weight": 3
-    },
-    "DOCDETIMPEXP" : {
-        "weight": 3
-    },
-    "PRICEPOL" : {
-        "weight": 30
-    },
-    "SMARTCODE" : {
-        "weight": 20
-    },
-    "ADVUOM" : {
-        "weight": 20
-    },
-    "ADDQTY" : {
-        "weight": 3
-    },
-    "PURCHBARC" : {
-        "weight": 3
-    },
-    "SUBSTITEM" : {
-        "weight": 3
-    },
-    "PRODCAT" : {
-        "weight": 3
+    "ITEMADV" : {
+        "weight": 78
     },
     "CHARGEPOL" : {
         "weight": 5
@@ -144,8 +120,14 @@
     "PICKLIST" : {
         "weight": 5
     },
+    "INSTOREAPP": {
+        "weight": 330
+    },
     "CONAI" : {
         "weight": 165
+    },
+    "INFCONN" : {
+        "weight": 550
     },
     "RAEE" : {
         "weight": 275
@@ -180,6 +162,9 @@
     "QUALINSP" : {
         "weight": 550
     },
+    "QUALINSPNOTE" : {
+        "weight": 100
+    },
     "BARCODE" : {
         "weight": 330
     },
@@ -198,8 +183,14 @@
     "WMSMOBAPP" : {
         "weight": 330
     },
+    "RESMAN" : {
+        "weight": 100
+    },
     "BILLOFMAT" : {
         "weight": 748
+    },
+    "BILLOFMATADV" : {
+        "weight": 200
     },
     "VARIANTS" : {
         "weight": 605
@@ -213,8 +204,11 @@
     "MANUFADV" : {
         "weight": 2500
     },
+    "MANUFADVODP" : {
+        "weight": 450
+    },
     "BILLOFMATPLUS" : {
-        "weight": 50
+        "weight": 150
     },
     "MANUFPLUS" : {
         "weight": 110

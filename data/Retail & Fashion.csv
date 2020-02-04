@@ -1,32 +1,25 @@
 Module;Functionality;Tag;Name;Discontinued;Fragment;AllowISO;DenyISO;Standard;Professional;Enterprise;Available
-Base Module;;SEVR;SERVER;False;Server;;;X;X;X;True
+_Base Module;;SEVR;SERVER;False;Server;;;X;X;X;True
 ;Multilanguage descriptions;SEVR;LANGUAGES;False;Languages;;;X;X;X;True
 ;Multicurrency;SEVR;CURRENCIES;False;Currencies;;;;X;X;True
 ;Contacts Management;SEVR;CONTACTS;False;Contacts;;;;;;False
 ;Budget (Cust/Supp);SEVR;BUDGET;False;Budget;;;;;;False
 Financials;;CONT;FINANCIALS;False;Financials;;;X;X;X;True
-;Sale Tax Journals;CONT;MULTITAXJ;False;MultiTaxJournals;;;max;max;X;True
-;Purchase Tax Journals;CONT;MULTITAXJ;False;MultiTaxJournals;;;max;max;X;True
-;Other Tax Journals;CONT;MULTITAXJ;False;MultiTaxJournals;;;max;max;X;True
+;Customizable Tax Journals;CONT;MULTITAXJ;False;MultiTaxJournals;;;;X;X;True
 ;Customizable Accounting Templates;CONT;CUSTACCTPL;False;CustomizedAccountingTemplates;;;;X;X;True
 ;Purchase Electronic Invoice Accounting Import;CPCO;ACCPURELEINV;False;PurchaseElectronicInvoicing;IT;;;X;X;True
 ;Pro-rata Management;CONT;PRORATA;False;ProRata;IT,RO,RS,HR,ES;;X;X;X;True
 ;Travel Agency VAT;CONT;TRAVAGVAT;False;TravelAgencyVAT;IT;;X;X;X;True
 ;Plafond Management;CONT;PLAFOND;False;Plafond;IT,HU;;;X;X;True
-;Customizabile Bills Management;CONT;APARPLUS;False;AP_AR_Plus;;;;X;X;True
-;Recessed Reversals;CONT;APARPLUS;False;AP_AR_Plus;;;;X;X;True
+;Advanced AP/AR Management;CONT;APARPLUS;False;AP_AR_Plus;;;;X;X;True
 ;Factoring Management;CONT;APARPLUS;False;AP_AR_Plus;;;;;X;True
-;Unpaid payment automatic management;CONT;APARPLUS;False;AP_AR_Plus;;;;;X;True
 ;Dunning letters;CONT;DUNNINGS;False;Dunnings;;;;X;X;True
 ;Payment Schedule Analysis and Cash Flow;CONT;APARANALSYS;False;AP_AR_Analysis;;;;;X;True
 ;Automatic Accrual and Deferrals;CONT;ACCRDEFERR;False;AccrualsDeferrals;;;;X;X;True
 ;Balance Analysis and Reclassifications;CONT;BALANALYSYS;False;BalanceAnalysis;;;;X;X;True
 ;Professionals Fees and Withholding Tax;CONT;PAYEES;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;True
 ;CADI (VAT settlement and documents data communication);CONT;CADI;False;CADI;;;;X;X;True
-Advanced Banks Management;SEPA XML;BAPL;BANKPLUS;False;Banks_Plus;IT;;X;X;X;True
-;Foreign Bank Transfers / SDD Mandates;BAPL;BANKPLUS;False;Banks_Plus;IT;;;X;X;True
-;Bank Reconciliations;BAPL;BANKPLUS;False;Banks_Plus;IT;;;;X;True
-Tresaury;;TESO;TREASURERY;False;;IT;;;X;X;True
+Advanced Banks Management;;BAPL;BANKPLUS;False;Banks_Plus;IT;;X;X;X;True
 Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;X;X;True
 Forecast Accounting;;COPR;FOREACC;False;ForecastAccounting;;;;;X;True
 XBRL Balance;;XBRL;XBRL;False;XBRL;IT;;;;X;True
@@ -38,25 +31,8 @@ Cost Accounting;;COAN;COSTACC;False;CostAccounting;;;;X;X;True
 ;Transfers;CFIN;COSTACCTRAN;False;CostAccountingTransfer;;;;;X;True
 Cash Management;;CASH;CASH;False;Cash;;IT,CH,BR;;;X;True
 Intrastat;;INTR;INTRASTAT;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;;X;X;True
-Zucchetti Cross-Applications;Connettore SOS;SOSC;SOSCONN;False;;IT;;X;X;X;True
-;AGO Connector;CONT;AGOCONN;False;AGOConnector;IT;;X;X;X;True
-;B&O / Maestro Connector;CONT;BEOCONN;False;BEOConnector;IT;;X;X;X;True
-;Magix Fisco Azienda Connector;CONT;FISAZCONN;False;FiscoAziendaConnector;IT;;X;X;X;True
-;OMNIA Connector;CONT;OMNIACONN;False;OMNIAConnector;IT;;X;X;X;True
-;Payroll Import Connector;CONT;PAYROLLIMP;False;PayrollImport;IT;;X;X;X;True
-;TESAN Connector;VEDT;TESANCONN;False;TESANConnector;IT;;;;;False
-Sales / Purchases;;VEDT;SALES;False;Sales;;;X;X;X;True
-;Document Copy;VEDT;DOCCOPY;False;DocumentCopy;;;X;X;X;True
-;Items and Notes Import / Export;VEDT;DOCDETIMPEXP;False;DocumentDetailImportExport;;;X;X;X;True
-;Price Policies;VEDT;PRICEPOL;False;PricePolicies;;;;;;False
-;Multiple Price Lists;VEDT;PRICEPOL;False;PricePolicies;;;;;;False
-;Smart Codes;VEDT;SMARTCODE;False;SmartCode;;;;X;X;True
-;Items Multiple Unit of Measure;VEDT;ADVUOM;False;AdvancedUoMs;;;;X;X;True
-;Additional Quantities;VEDT;ADDQTY;False;AdditionalQty;;;;X;X;True
-;Multiple Purchase and Sale Barcodes;VEDT;PURCHBARC;False;PurhcaseBarCode;;;;X;X;True
-;Substitute Items;VEDT;SUBSTITEM;False;SubstituteItems;;;;X;X;True
-;Producers and Product Categories;VEDT;PRODCAT;False;ProductCategories;;;;X;X;True
-Charge Policies;;VEDT;CHARGEPOL;False;ChargePolicies;;BR;;;;False
+Sales / Purchases;;VEDT;SALES;False;Sales,DocumentCopy,DocumentDetailImportExport,PurhcaseBarCode,ProductCategories;;;X;X;X;True
+;Advanced Items Management;VEDT;ITEMADV;False;PricePolicies,ChargePolicies,SubstituteItems,SmartCode,AdvancedUoMs;;;;X;X;True
 Sale Orders;;ORCL;SALORDERS;False;SaleOrders;;;;;;False
 ;Customer Quotations;ORCL;CUSTQUOTA;False;CustomerQuotations;;;;;;False
 Sale Invoices / Delivery Notes;;VEDT;SALES;False;;;;X;X;X;True
@@ -64,7 +40,7 @@ Sale Invoices / Delivery Notes;;VEDT;SALES;False;;;;X;X;X;True
 ;Multiple Stub Books;VEDT;MULTISTUB;False;MultiStubBooks;;;;;;False
 ;Picking List;VEDT;PICKLIST;False;PickingList;;;;;;False
 e-commerce;;;ECOMM;False;;;;;Nr-User;Nr-User;True
-Store Management;;;STOREMAN;False;;;;X;X;X;True
+Store Management;Backend;;STOREMAN;False;;;;;;;False
 ;Variants / Size and Colors;;STVARIANTS;False;;;;;X/0;X;True
 ;Restaurant Recipes;;RECIPES;False;;;;;;;False
 ;In-store App Mobile;;INSTOREAPP;False;;;;;Nr-User;Nr-User;True
@@ -83,7 +59,7 @@ Inventory;;MAGA;INVENTORY;False;Inventory;;;X;X;X;True
 ;LIFO/FIFO Continuous Rises;MAGA;SINGSTEPLF;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;;;X;True
 ;Inventory Adjustments Entries;MAGA;INVADJUST;False;InventoryAdjustment;;;;;X;True
 Quality Inspections;;INSP;QUALINSP;False;QualityInspection;;;;;X;True
-;Technical Notes;CFIN;QUALINSP;False;QualityInspection;;;;;X;True
+;Technical Notes;CFIN;QUALINSPNOTE;False;;;;;;X;True
 Barcode Manager;;BARC;BARCODE;False;Barcode;;;X;X;X;True
 Lots and Serial Numbers;;LOTT;LOTSSERIALS;False;LotsSerials;;;;;;False
 WMS;Basic;WMAA;WMSBASIC;False;WMSBasic;;;;X/0;X;True
@@ -91,33 +67,26 @@ WMS;Basic;WMAA;WMSBASIC;False;WMSBasic;;;;X/0;X;True
 ;Shipping;;WMSSHIP;False;WMSShipping;;;;X/0;X;True
 ;Mobile - backend;WMRF;WMSMOB;False;WMSMobile;;;;X/0;X;True
 ;Mobile - app;WMRC;WMSMOBAPP;False;WMSMobile;;;;Nr-User;Nr-User;True
-Resources Management;;;SERVER;False;;;;;X;X;True
-Company Calendar;;;SERVER;False;;;;;;;False
+Resources Management;;;RESMAN;False;;;;;X;X;True
 Bill of Materials;;DIST;BILLOFMAT;False;BillOfMaterials;;;;;;False
-;Work Centers Calendar;DIST;BILLOFMAT;False;BillOfMaterials;;;;;;False
-;Work Centers Families;DIST;BILLOFMAT;False;BillOfMaterials;;;;;;False
-;E.C.O.;ECO;ECO;False;ECO;;;;;;False
+;Work Centers Calendar and Families;DIST;BILLOFMATADV;False;;;;;;;False
+;Engineering Changing Order;ECO;ECO;False;ECO;;;;;;False
 Variants;;VARI;VARIANTS;False;Variants;;;;;;False
 Configurator;;CONF;CONFIGUR;False;Configurator;;;;;;False
 Basic Manufacturing;;PRZB;MANUFBASIC;False;ManufacturingBasic;;;;;;False
 Advanced Manufacturing;;PRZA;MANUFADV;False;ManufacturingAdvanced;;;;;;False
-;MO Confirmation Details;PRZA;MANUFADV;False;ManufacturingAdvanced;;;;;;False
-;Bill of Materials / MO Comparision;PRZA;MANUFADV;False;ManufacturingAdvanced;;;;;;False
-;Analysis of Materials in Production;PRZA;MANUFADV;False;ManufacturingAdvanced;;;;;;False
-;Drawings Management;PRZA;BILLOFMAT;False;BillOfMaterials;;;;;;False
-;Drawings History and Versioning;PRZA;BILLOFMATPLUS;False;BillOfMaterialsPlus;;;;;;False
+;MO Advanced Management;PRZA;MANUFADVODP;False;;;;;;;False
+;Drawings Management, History and Versioning;PRZA;BILLOFMATPLUS;False;BillOfMaterialsPlus;;;;;;False
 ;Control Panel;PRZA;MANUFPLUS;False;ManufacturingPlus;;;;;;False
 ;Kanban;PRZA;KANBAN;False;Kanban;;;;;;False
 Open Orders;;OPOR;OPENORDERS;False;OpenOrders;;;;;;False
 Manufacturing Mobile;backend;MANM;MANUFMOB;False;ManufacturingMobile;;;;;;False
 ;app;MANC;MANUFMOBAPP;False;ManufacturingMobile;;;;;;False
 Planning;Basic;PRZP;MANUFPLAN;False;ManufacturingPlanning;;;;;;False
-;Advanced;PRPA;MRPADV;False;MRPAdvanced;;;;;;False
-;Make or Buy Management;PRPA;MRPADV;False;MRPAdvanced;;;;;;False
+;Advanced;PRPA;MRPADV;False;MRPAdvanced;;;;;X;False
 Tools Management;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;;False
-DMS;Basic;EATT;DMSBASE;False;;;;;X;X;True
+_DMS;Basic;EATT;DMSBASE;False;;;;;X;X;True
 ;Massive Archiving Plug-In;MASS;DMSMASS;False;;;;;;X;True
-Mail Services;;MAIL;MAILSERVICES;False;;;;;X;X;True
 Customized Reporting;;;CUSTOMREP;False;;;;max;max;X;True
 Job Scheduler;;SCHD;JOBSCHEDUL;False;JobScheduler;;;;;X;True
 Security;;OSLL;SECURITY;False;Security;;;;X;X;True
