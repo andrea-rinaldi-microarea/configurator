@@ -86,7 +86,6 @@ Planning;Basic;PRZP;MANUFPLAN;FALSE;ManufacturingPlanning;;
 Tools Management;;ATTR;TOOLMANAG;FALSE;ToolsManagement;;
 _DMS;Basic;EATT;DMSBASE;FALSE;;;
 ;Massive Archiving Plug-In;MASS;DMSMASS;FALSE;;;
-Customized Reporting;;;CUSTOMREP;FALSE;;;
 Job Scheduler;;SCHD;JOBSCHEDUL;FALSE;JobScheduler;;
 Security;;OSLL;SECURITY;FALSE;Security;;
 ;Access profiles;OSLS;SECURITYADV;FALSE;Security;;

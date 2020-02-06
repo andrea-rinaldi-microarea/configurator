@@ -82,11 +82,10 @@ Open Orders;;OPOR;OPENORDERS;False;OpenOrders;;;;;;False
 Manufacturing Mobile;backend;MANM;MANUFMOB;False;ManufacturingMobile;;;;;;False
 ;app;MANC;MANUFMOBAPP;False;ManufacturingMobile;;;;;;False
 Planning;Basic;PRZP;MANUFPLAN;False;ManufacturingPlanning;;;;;;False
-;Advanced;PRPA;MRPADV;False;MRPAdvanced;;;;;X;True
+;Advanced;PRPA;MRPADV;False;MRPAdvanced;;;;;X;False
 Tools Management;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;;False
 _DMS;Basic;EATT;DMSBASE;False;;;;;X;X;True
 ;Massive Archiving Plug-In;MASS;DMSMASS;False;;;;;;X;True
-Customized Reporting;;;CUSTOMREP;False;;;;max;max;X;True
 Job Scheduler;;SCHD;JOBSCHEDUL;False;JobScheduler;;;;;X;True
 Security;;OSLL;SECURITY;False;Security;;;;X;X;True
 ;Access profiles;OSLS;SECURITYADV;False;Security;;;;X;X;True

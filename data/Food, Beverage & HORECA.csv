@@ -16,7 +16,7 @@ Financials;;CONT;FINANCIALS;False;Financials;;;X;X;X;True
 ;Payment Schedule Analysis and Cash Flow;CONT;APARANALSYS;False;AP_AR_Analysis;;;;;X;True
 ;Automatic Accrual and Deferrals;CONT;ACCRDEFERR;False;AccrualsDeferrals;;;;X;X;True
 ;Balance Analysis and Reclassifications;CONT;BALANALYSYS;False;BalanceAnalysis;;;;X;X;True
-;Professionals Fees and Withholding Tax;CONT;PAYEES;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;True
+;Professionals Fees and Withholding Tax;CONT;PAYEES;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X/0;True
 ;CADI (VAT settlement and documents data communication);CONT;CADI;False;CADI;;;;X;X;True
 Advanced Banks Management;;BAPL;BANKPLUS;False;Banks_Plus;IT;;X;X;X;True
 Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;X;X;True
@@ -39,7 +39,7 @@ Sale Invoices / Delivery Notes;;VEDT;SALES;False;;;;X;X;X;True
 ;Multiple Stub Books;VEDT;MULTISTUB;False;MultiStubBooks;;;;;;False
 ;Picking List;VEDT;PICKLIST;False;PickingList;;;;;;False
 e-commerce;;;ECOMM;False;;;;;Nr-User;Nr-User;False
-Store Management;Backend;;STOREMAN;False;;;;;;;False
+Store Management;Backend;;STOREMAN;False;;;;X;X;X;True
 ;Variants / Size and Colors;;STVARIANTS;False;;;;;X/0;X;False
 ;Restaurant Recipes;;RECIPES;False;;;;;X/0;X;True
 ;In-store App Mobile;;INSTOREAPP;False;;;;;Nr-User;Nr-User;True
@@ -86,7 +86,6 @@ Planning;Basic;PRZP;MANUFPLAN;False;ManufacturingPlanning;;;;;;False
 Tools Management;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;;False
 _DMS;Basic;EATT;DMSBASE;False;;;;;X;X;True
 ;Massive Archiving Plug-In;MASS;DMSMASS;False;;;;;;X;True
-Customized Reporting;;;CUSTOMREP;False;;;;max;max;X;True
 Job Scheduler;;SCHD;JOBSCHEDUL;False;JobScheduler;;;;;X;True
 Security;;OSLL;SECURITY;False;Security;;;;X;X;True
 ;Access profiles;OSLS;SECURITYADV;False;Security;;;;X;X;True
