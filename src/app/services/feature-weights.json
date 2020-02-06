@@ -103,10 +103,10 @@
         "weight": 95
     },
     "SALES" : {
-        "weight": 367
+        "weight": 347
     },
     "ITEMADV" : {
-        "weight": 78
+        "weight": 73
     },
     "CHARGEPOL" : {
         "weight": 5
@@ -120,8 +120,17 @@
     "PICKLIST" : {
         "weight": 5
     },
+    "STOREMAN": {
+        "weight": 1000
+    },
     "INSTOREAPP": {
         "weight": 330
+    },
+    "STVARIANTS": {
+        "weight": 400
+    },
+    "RECIPES": {
+        "weight": 400
     },
     "CONAI" : {
         "weight": 165
@@ -138,6 +147,9 @@
     "CREDLIMIT" : {
         "weight": 275
     },
+    "ADDCHARGES" : {
+        "weight": 150
+    },
     "PURCHORD" : {
         "weight": 290
     },
@@ -146,6 +158,9 @@
     },
     "PURCHASES" : {
         "weight": 605
+    },
+    "PURCHELEINV" : {
+        "weight": 500
     },
     "INVENTORY" : {
         "weight": 440
@@ -176,6 +191,9 @@
     },
     "WMSADV" : {
         "weight": 2860
+    },
+    "WMSSHIP" : {
+        "weight": 300
     },
     "WMSMOB" : {
         "weight": 1100
@@ -209,6 +227,9 @@
     },
     "BILLOFMATPLUS" : {
         "weight": 150
+    },
+    "ECO" : {
+        "weight": 300
     },
     "MANUFPLUS" : {
         "weight": 110
@@ -247,6 +268,9 @@
         "weight": 660
     },
     "SECURITYADV" : {
+        "weight": 3000
+    },
+    "VISIBILITY" : {
         "weight": 3000
     },
     "AUDITING" : {
