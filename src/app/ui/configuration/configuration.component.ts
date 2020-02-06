@@ -1,6 +1,6 @@
 import { Weight } from './../../../models/configuration';
 import { CSVExport, CSVFeature } from './../../../models/CSVExport';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, DoCheck } from '@angular/core';
 import { ConfigurationService } from '../../services/configuration.service';
 import { ClientsService } from '../../services/clients.service';
 import { Feature } from '../../../models/feature';
@@ -14,7 +14,7 @@ const industryList = require("./industry-list.json");
   templateUrl: './configuration.component.html',
   styleUrls: ['./configuration.component.css']
 })
-export class ConfigurationComponent implements OnInit {
+export class ConfigurationComponent implements OnInit, DoCheck {
 
   private currIndustry:  number = null;
   private industryList: string[] = industryList;
@@ -63,9 +63,15 @@ export class ConfigurationComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  ngDoCheck() {
+    // @@@TODO fare solo se la change detection riguarda i dati coinvolti nei calcoli
+    this.configuration.calculateWeights();
+  }
   
   private ShowConfiguration() {
     this.configuration.load(industryList[this.currIndustry]).subscribe( res => {
+      this.configuration.calculateWeights();
       this.configuration.showUsing(this.clients.current);
       this.editMode = false; 
     });
