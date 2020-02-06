@@ -10,6 +10,7 @@
 
 .main {
     /* max-height: 720px; */
+    max-height: calc(100vh - 60px);
     overflow-y: auto;
     max-width: inherit;
 }
