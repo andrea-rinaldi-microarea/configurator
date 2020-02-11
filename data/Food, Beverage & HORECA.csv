@@ -16,7 +16,7 @@ Financials;;CONT;FINANCIALS;False;Financials;;;X;X;X;True
 ;Payment Schedule Analysis and Cash Flow;CONT;APARANALSYS;False;AP_AR_Analysis;;;;;X;True
 ;Automatic Accrual and Deferrals;CONT;ACCRDEFERR;False;AccrualsDeferrals;;;;X;X;True
 ;Balance Analysis and Reclassifications;CONT;BALANALYSYS;False;BalanceAnalysis;;;;X;X;True
-;Professionals Fees and Withholding Tax;CONT;PAYEES;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X/0;True
+;Professionals Fees and Withholding Tax;CONT;PAYEES;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;True
 ;CADI (VAT settlement and documents data communication);CONT;CADI;False;CADI;;;;X;X;True
 Advanced Banks Management;;BAPL;BANKPLUS;False;Banks_Plus;IT;;X;X;X;True
 Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;X;X;True
