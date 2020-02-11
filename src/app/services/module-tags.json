@@ -94,6 +94,14 @@
         "tag": "CFUL",
         "alias": ["FULD"], 
         "package": ["SEVR", "CONT", "COPR", "XBRL", "BAII", "BICO", "COAN", "CSPT", "CASH", "INTR", "BAPL", "LIBR", "ORCL", "VEDT", "CONA", "RAEE", "SFMG", "CRED", "ORFO", "ACQT", "INSP", "MAGA", "LOTT", "WMAA", "WMAD", "BARC", "DIST", "VARI", "PRZB", "CONF", "PRZA", "OPOR", "PRZP", "PRPA", "EATT", "MAIL", "SCHD", "OSLS", "AUDT", "ELSR", "FISC", "MDOC", "OSLL", "SOSC", "XGAT"] 
-    }
+    },
+
+    { "tag": "STMN" },
+    { "tag": "STRE" },
+    { "tag": "STVA" },
+    { "tag": "CPAC" },
+    { "tag": "WMSH" },
+    { "tag": "VISI" }
+
 ]
 

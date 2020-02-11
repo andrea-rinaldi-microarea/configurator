@@ -128,8 +128,8 @@
         "mlu": 135.00
     },
     "ECO" : {
-        "license": 0.00,
-        "mlu": 0.00
+        "license": 300.00,
+        "mlu": 54.00
     },
     "VARI" : {
         "license": 605.00,
@@ -234,5 +234,31 @@
     "CAL": {
         "license": 660,
         "mlu": 119
+    },
+
+
+    "STMN": {
+        "license": 1000,
+        "mlu": 180 
+    },
+    "STRE": {
+        "license": 400,
+        "mlu": 72.00 
+    },
+    "STVA": {
+        "license": 400,
+        "mlu": 72.00 
+    },
+    "CPAC": {
+        "license": 500,
+        "mlu": 90.00 
+    },
+    "WMSH": {
+        "license": 300,
+        "mlu": 54.00 
+    },
+    "VISI": {
+        "license": 3000,
+        "mlu": 540.00 
     }
 }

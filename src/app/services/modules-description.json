@@ -74,5 +74,13 @@
     "MIGR": "Migration Kit",
     "SOSC": "SOSConnector",
     "UBIC": "Ubicazioni",
-    "XGAT": "XGate"
+    "XGAT": "XGate",
+
+    "STMN": "Store Management",
+    "STRE": "Restaurant Recipes",
+    "STVA": "Variants / Size and Colors",
+    "CPAC": "Electronic Invoices Import in Purchase Documents",
+    "WMSH": "Shipping",
+    "ECO": "Engineering Changing Order",
+    "VISI": "Visibility"
 }

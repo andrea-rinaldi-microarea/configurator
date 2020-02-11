@@ -39,9 +39,9 @@ Sale Invoices / Delivery Notes;;VEDT;SALES;False;;;;X;X;X;True
 ;Multiple Stub Books;VEDT;MULTISTUB;False;MultiStubBooks;;;;;;False
 ;Picking List;VEDT;PICKLIST;False;PickingList;;;;;;False
 e-commerce;;;ECOMM;False;;;;;Nr-User;Nr-User;True
-Store Management;Backend;;STOREMAN;False;;;;X;X;X;True
-;Variants / Size and Colors;;STVARIANTS;False;;;;;X/0;X;True
-;Restaurant Recipes;;RECIPES;False;;;;;;;False
+Store Management;Backend;STMN;STOREMAN;False;;;;X;X;X;True
+;Variants / Size and Colors;STVA;STVARIANTS;False;;;;;X/0;X;True
+;Restaurant Recipes;STRE;RECIPES;False;;;;;;;False
 ;In-store App Mobile;;INSTOREAPP;False;;;;;Nr-User;Nr-User;True
 CRM;Infinity Connector;MAIF;INFCONN;False;;;;;X;X;False
 Conai;;CONA;CONAI;False;Conai;IT,RO,BG,HU,ES;;;;;False
@@ -52,7 +52,7 @@ Additional Charges;;;ADDCHARGES;False;AdditionalCharges;;BR;;;;False
 Purchase Orders;;ORFO;PURCHORD;False;PurchaseOrders;;;X;X;X;True
 ;Supplier Quotations;ORFO;SUPPQUOT;False;SupplierQuotations;;;;;;False
 Purchases;;ACQT;PURCHASES;False;Purchases;;;;X;X;True
-;Electronic Invoices Import in Purchase Documents;;PURCHELEINV;False;;;;;X;X;True
+;Electronic Invoices Import in Purchase Documents;CPAC;PURCHELEINV;False;;;;;X;X;True
 Inventory;;MAGA;INVENTORY;False;Inventory;;;X;X;X;True
 ;Multistorage;MAGA;MULTISTORAGE;False;MultiStorage;;;;X;X;True
 ;LIFO/FIFO Continuous Rises;MAGA;SINGSTEPLF;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;;;X;True
@@ -63,7 +63,7 @@ Barcode Manager;;BARC;BARCODE;False;Barcode;;;X;X;X;True
 Lots and Serial Numbers;;LOTT;LOTSSERIALS;False;LotsSerials;;;;;;False
 WMS;Basic;WMAA;WMSBASIC;False;WMSBasic;;;;X/0;X;True
 ;Advanced;WMAD;WMSADV;False;WMSAdvanced;;;;;X;True
-;Shipping;;WMSSHIP;False;WMSShipping;;;;X/0;X;True
+;Shipping;WMSH;WMSSHIP;False;WMSShipping;;;;X/0;X;True
 ;Mobile - backend;WMRF;WMSMOB;False;WMSMobile;;;;X/0;X;True
 ;Mobile - app;WMRC;WMSMOBAPP;False;WMSMobile;;;;Nr-User;Nr-User;True
 Resources Management;;;RESMAN;False;;;;;X;X;True
@@ -90,4 +90,4 @@ Job Scheduler;;SCHD;JOBSCHEDUL;False;JobScheduler;;;;;X;True
 Security;;OSLL;SECURITY;False;Security;;;;X;X;True
 ;Access profiles;OSLS;SECURITYADV;False;Security;;;;X;X;True
 ;Auditing;AUDT;AUDITING;False;Auditing;;;;X/0;X;True
-;Visibility;;VISIBILITY;False;;;;;X/0;X;True
+;Visibility;VISI;VISIBILITY;False;;;;;X/0;X;True
