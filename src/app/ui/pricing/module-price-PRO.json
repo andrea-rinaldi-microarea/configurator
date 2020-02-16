@@ -249,6 +249,10 @@
         "license": 400,
         "mlu": 72.00 
     },
+    "STMO": {
+        "license": 330,
+        "mlu": 59.00 
+    },
     "CPAC": {
         "license": 500,
         "mlu": 90.00 

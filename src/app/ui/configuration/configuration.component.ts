@@ -218,7 +218,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
   }
 
   getWeight(feature: Feature) {
-    if (feature.available && !this.sameNameOnPrevious(feature)) {
+    if (!this.sameNameOnPrevious(feature)) {
       return this.configuration.getWeight(feature);
     }
   }

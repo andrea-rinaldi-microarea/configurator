@@ -42,13 +42,13 @@ e-commerce;;;ECOMM;False;;;;;;;False
 Store Management;Backend;STMN;STOREMAN;False;;;;;;;False
 ;Variants / Size and Colors;STVA;STVARIANTS;False;;;;;;;False
 ;Restaurant Recipes;STRE;RECIPES;False;;;;;;;False
-;In-store App Mobile;;INSTOREAPP;False;;;;;;;False
+;In-store App Mobile;STMO;INSTOREAPP;False;;;;;;;False
 CRM;Infinity Connector;MAIF;INFCONN;False;;;;;X;X;True
 Conai;;CONA;CONAI;False;Conai;IT,RO,BG,HU,ES;;;X;X;True
 WEEE;;RAEE;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;;X;X;True
 Sales Force Management;;SFMG;SALESFORCE;False;SalesPeople;;;;X;X;True
 Credit Limit Management;;CRED;CREDLIMIT;False;CreditLimit;;;;X;X;True
-Additional Charges;;;ADDCHARGES;False;AdditionalCharges;;BR;;X;X;True
+Additional Charges;;SEVR;ADDCHARGES;False;AdditionalCharges;;BR;;X;X;True
 Purchase Orders;;ORFO;PURCHORD;False;PurchaseOrders;;;X;X;X;True
 ;Supplier Quotations;ORFO;SUPPQUOT;False;SupplierQuotations;;;;X;X;True
 Purchases;;ACQT;PURCHASES;False;Purchases;;;;X;X;True
@@ -66,7 +66,7 @@ WMS;Basic;WMAA;WMSBASIC;False;WMSBasic;;;;;X/0;False
 ;Shipping;WMSH;WMSSHIP;False;WMSShipping;;;;X/0;X/0;False
 ;Mobile - backend;WMRF;WMSMOB;False;WMSMobile;;;;X/0;X/0;False
 ;Mobile - app;WMRC;WMSMOBAPP;False;WMSMobile;;;;Nr-User;Nr-User;False
-Resources Management;;;RESMAN;False;;;;;X;X;True
+Resources Management;;SEVR;RESMAN;False;;;;;X;X;True
 Bill of Materials;;DIST;BILLOFMAT;False;BillOfMaterials;;;X;X;X;True
 ;Work Centers Calendar and Families;DIST;BILLOFMATADV;False;;;;;;X;True
 ;Engineering Changing Order;ECO;ECO;False;ECO;;;;;X;True
@@ -82,7 +82,7 @@ Open Orders;;OPOR;OPENORDERS;False;OpenOrders;;;;X/0;X;False
 Manufacturing Mobile;backend;MANM;MANUFMOB;False;ManufacturingMobile;;;;X/0;X;False
 ;app;MANC;MANUFMOBAPP;False;ManufacturingMobile;;;;Nr-User;Nr-User;False
 Planning;Basic;PRZP;MANUFPLAN;False;ManufacturingPlanning;;;;X;X;False
-;Advanced;PRPA;MRPADV;False;MRPAdvanced;;;;;X/0;False
+;Advanced Planning;PRPA;MRPADV;False;MRPAdvanced;;;;;X/0;False
 Tools Management;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;X;False
 _DMS;Basic;EATT;DMSBASE;False;;;;;X;X;True
 ;Massive Archiving Plug-In;MASS;DMSMASS;False;;;;;;X;True

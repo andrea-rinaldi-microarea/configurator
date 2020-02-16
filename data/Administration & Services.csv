@@ -42,13 +42,13 @@ e-commerce;;;ECOMM;False;;;;;;;False
 Store Management;Backend;STMN;STOREMAN;False;;;;;;;False
 ;Variants / Size and Colors;STVA;STVARIANTS;False;;;;;;;False
 ;Restaurant Recipes;STRE;RECIPES;False;;;;;;;False
-;In-store App Mobile;;INSTOREAPP;False;;;;;;;False
+;In-store App Mobile;STMO;INSTOREAPP;False;;;;;;;False
 CRM;Infinity Connector;MAIF;INFCONN;False;;;;;X;X;True
 Conai;;CONA;CONAI;False;Conai;IT,RO,BG,HU,ES;;;;;False
 WEEE;;RAEE;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;;;;False
 Sales Force Management;;SFMG;SALESFORCE;False;SalesPeople;;;;;;False
 Credit Limit Management;;CRED;CREDLIMIT;False;CreditLimit;;;;X;X;False
-Additional Charges;;;ADDCHARGES;False;AdditionalCharges;;BR;;;;False
+Additional Charges;;SEVR;ADDCHARGES;False;AdditionalCharges;;BR;;;;False
 Purchase Orders;;ORFO;PURCHORD;False;PurchaseOrders;;;;;;False
 ;Supplier Quotations;ORFO;SUPPQUOT;False;SupplierQuotations;;;;;;False
 Purchases;;ACQT;PURCHASES;False;Purchases;;;;;;False
@@ -66,7 +66,7 @@ WMS;Basic;WMAA;WMSBASIC;False;WMSBasic;;;;;;False
 ;Shipping;WMSH;WMSSHIP;False;WMSShipping;;;;;;False
 ;Mobile - backend;WMRF;WMSMOB;False;WMSMobile;;;;;;False
 ;Mobile - app;WMRC;WMSMOBAPP;False;WMSMobile;;;;;;False
-Resources Management;;;RESMAN;False;;;;;;;False
+Resources Management;;SEVR;RESMAN;False;;;;;;;False
 Bill of Materials;;DIST;BILLOFMAT;False;BillOfMaterials;;;;;;False
 ;Work Centers Calendar and Families;DIST;BILLOFMATADV;False;;;;;;;False
 ;Engineering Changing Order;ECO;ECO;False;ECO;;;;;;False
@@ -82,7 +82,7 @@ Open Orders;;OPOR;OPENORDERS;False;OpenOrders;;;;;;False
 Manufacturing Mobile;backend;MANM;MANUFMOB;False;ManufacturingMobile;;;;;;False
 ;app;MANC;MANUFMOBAPP;False;ManufacturingMobile;;;;;;False
 Planning;Basic;PRZP;MANUFPLAN;False;ManufacturingPlanning;;;;;;False
-;Advanced;PRPA;MRPADV;False;MRPAdvanced;;;;;;False
+;Advanced Planning;PRPA;MRPADV;False;MRPAdvanced;;;;;;False
 Tools Management;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;;False
 _DMS;Basic;EATT;DMSBASE;False;;;;;X;X;True
 ;Massive Archiving Plug-In;MASS;DMSMASS;False;;;;;;X;True
