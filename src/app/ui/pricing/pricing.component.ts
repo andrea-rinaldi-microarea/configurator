@@ -8,7 +8,6 @@ declare var require: any;
 const modulePricePRO = require("./module-price-PRO.json");
 const modulePriceLITE = require("./module-price-LITE.json");
 const modulePriceNET = require("./module-price-NET.json");
-const fragmentPrice = require("./fragment-price.json");
 
 @Component({
   selector: 'app-pricing',
@@ -22,7 +21,6 @@ export class PricingComponent implements OnInit, DoCheck  {
     "LITE": modulePriceLITE,
     "NET": modulePriceNET
   }
-  private fragmentPrice: any = fragmentPrice;
   public customer: Pricing = new Pricing();
   public standard: Pricing = new Pricing();
   public professional: Pricing = new Pricing();
@@ -59,21 +57,6 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.professional = new Pricing();
     this.enterprise = new Pricing();
 
-    for (var f = 0; f < this.configuration.current.features.length; f++ ) {
-      var feat: Feature  = this.configuration.current.features[f];
-      if (!this.fragmentPrice[feat.name]) 
-        continue;
-
-      if (feat.standard != "" && feat.standard != null) {
-        this.standard.license += this.fragmentPrice[feat.name].license;
-      }
-      if (feat.professional != "" && feat.professional != null) {
-        this.professional.license += this.fragmentPrice[feat.name].license;
-      }
-      if (feat.enterprise != "" && feat.enterprise != null) {
-        this.enterprise.license += this.fragmentPrice[feat.name].license;
-      }
-    }
   }
 
   calculateCustomerPrice(): void {
