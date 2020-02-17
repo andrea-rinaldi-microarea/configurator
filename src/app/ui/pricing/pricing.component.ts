@@ -1,3 +1,4 @@
+import { Weight } from './../../../models/configuration';
 import { Pricing } from './../../../models/pricing';
 import { Component, OnInit, DoCheck } from '@angular/core';
 import { ConfigurationService } from '../../services/configuration.service';
@@ -8,6 +9,7 @@ declare var require: any;
 const modulePricePRO = require("./module-price-PRO.json");
 const modulePriceLITE = require("./module-price-LITE.json");
 const modulePriceNET = require("./module-price-NET.json");
+const MLU_RATE: number = 0.18;
 
 @Component({
   selector: 'app-pricing',
@@ -50,12 +52,25 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.calculateIndustryPrices();
   }
 
+  calculateEditionPrice(weight: Weight, edition: Pricing) {
+    edition.license = weight.min;
+    edition.mlu = Math.round(edition.license * MLU_RATE);
+    edition.calLicense = this.modulePrice["PRO"]["CAL"].license * this.nrCals;
+    edition.calMlu = Math.round(edition.calLicense * MLU_RATE);
+    edition.total5Years = edition.license + edition.calLicense + (edition.mlu + edition.calMlu) * 5;
+    edition.perUserMonth = Math.round(edition.total5Years / ((this.nrCals || 1) * 60));
+  }
+
   calculateIndustryPrices(): void {
     if (!this.configuration.current)
       return;
     this.standard = new Pricing();
     this.professional = new Pricing();
     this.enterprise = new Pricing();
+
+    this.calculateEditionPrice(this.configuration.current.stdWeight, this.standard);
+    this.calculateEditionPrice(this.configuration.current.proWeight, this.professional);
+    this.calculateEditionPrice(this.configuration.current.entWeight, this.enterprise);
 
   }
 

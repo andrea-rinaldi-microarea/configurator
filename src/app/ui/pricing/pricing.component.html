@@ -31,10 +31,10 @@
         </tr> 
         <tr>
           <td class="text-right">licenza</td>
-          <td class="text-center edition-sep" width="12%" [hidden]="!clients.show">{{customer.license | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="9%"></td>
-          <td class="text-center edition-sep" width="9%"></td>
-          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.license | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{standard.license | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{professional.license | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{enterprise.license | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right">
@@ -47,59 +47,59 @@
               &nbsp;CAL x <input type="text" size="1" [(ngModel)]="nrCals"> 
             </span>  
           </td>
-          <td class="text-center edition-sep" width="12%" [hidden]="!clients.show">{{customer.calLicense | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="9%"></td>
-          <td class="text-center edition-sep" width="9%"></td>
-          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.calLicense | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{standard.calLicense | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{professional.calLicense | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{enterprise.calLicense | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right font-italic">totale licenze</td>
-          <td class="text-center edition-sep font-italic" width="12%" [hidden]="!clients.show">{{customer.calLicense + customer.license | currency : "EUR"}}</td>
-          <td class="text-center edition-sep font-italic" width="9%"></td>
-          <td class="text-center edition-sep font-italic" width="9%"></td>
-          <td class="text-center edition-sep font-italic" width="9%"></td>
+          <td class="text-center edition-sep font-italic" width="10%" [hidden]="!clients.show">{{customer.calLicense + customer.license | currency : "EUR"}}</td>
+          <td class="text-center edition-sep font-italic" width="10%">{{standard.calLicense + standard.license | currency : "EUR"}}</td>
+          <td class="text-center edition-sep font-italic" width="10%">{{professional.calLicense + professional.license | currency : "EUR"}}</td>
+          <td class="text-center edition-sep font-italic" width="10%">{{enterprise.calLicense + enterprise.license | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right row-sep">MLU</td>
-          <td class="text-center edition-sep row-sep" width="12%" [hidden]="!clients.show">{{customer.mlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep row-sep" width="9%"></td>
-          <td class="text-center edition-sep row-sep" width="9%"></td>
-          <td class="text-center edition-sep row-sep" width="9%"></td>
+          <td class="text-center edition-sep row-sep" width="10%" [hidden]="!clients.show">{{customer.mlu | currency : "EUR"}}</td>
+          <td class="text-center edition-sep row-sep" width="10%">{{standard.mlu | currency : "EUR"}}</td>
+          <td class="text-center edition-sep row-sep" width="10%">{{professional.mlu | currency : "EUR"}}</td>
+          <td class="text-center edition-sep row-sep" width="10%">{{enterprise.mlu | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right">MLU su CAL x {{nrCals}}</td>
-          <td class="text-center edition-sep" width="12%" [hidden]="!clients.show">{{customer.calMlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="9%"></td>
-          <td class="text-center edition-sep" width="9%"></td>
-          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.calMlu | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{standard.calMlu | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{professional.calMlu | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{enterprise.calMlu | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right font-italic">canone annuale attuale</td>
-          <td class="text-center edition-sep font-italic" width="12%" [hidden]="!clients.show">{{customer.calMlu + customer.mlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep font-italic" width="9%"></td>
-          <td class="text-center edition-sep font-italic" width="9%"></td>
-          <td class="text-center edition-sep font-italic" width="9%"></td>
+          <td class="text-center edition-sep font-italic" width="10%" [hidden]="!clients.show">{{customer.calMlu + customer.mlu | currency : "EUR"}}</td>
+          <td class="text-center edition-sep font-italic" width="10%"></td>
+          <td class="text-center edition-sep font-italic" width="10%"></td>
+          <td class="text-center edition-sep font-italic" width="10%"></td>
         </tr>
         <tr>
           <td class="text-right row-sep">Totale su 5 anni</td>
-          <td class="text-center edition-sep row-sep" width="12%" [hidden]="!clients.show">{{customer.total5Years | currency : "EUR"}}</td>
-          <td class="text-center edition-sep row-sep" width="9%"></td>
-          <td class="text-center edition-sep row-sep" width="9%"></td>
-          <td class="text-center edition-sep row-sep" width="9%"></td>
+          <td class="text-center edition-sep row-sep" width="10%" [hidden]="!clients.show">{{customer.total5Years | currency : "EUR"}}</td>
+          <td class="text-center edition-sep row-sep" width="10%">{{standard.total5Years | currency : "EUR"}}</td>
+          <td class="text-center edition-sep row-sep" width="10%">{{professional.total5Years | currency : "EUR"}}</td>
+          <td class="text-center edition-sep row-sep" width="10%">{{enterprise.total5Years | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right">utente/mese</td>
-          <td class="text-center edition-sep" width="12%" [hidden]="!clients.show">{{customer.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="9%"></td>
-          <td class="text-center edition-sep" width="9%"></td>
-          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{standard.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{professional.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{enterprise.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right">canone equivalente annuo</td>
-          <td class="text-center edition-sep" width="12%" [hidden]="!clients.show">{{customer.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="9%"></td>
-          <td class="text-center edition-sep" width="9%"></td>
-          <td class="text-center edition-sep" width="9%"></td>
+          <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{standard.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{professional.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%">{{enterprise.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
         </tr>
       </table>
   </div>
