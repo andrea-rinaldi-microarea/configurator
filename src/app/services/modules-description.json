@@ -61,6 +61,7 @@
     "EATT": "DMS",
     "DMSL": "DMS",
     "MAIL": "Mail Connector",
+    "MASS": "Massive Archiving Plug-In",
     "SCHD": "Job Scheduler",
     "OSLL": "Security (Lite)",
     "OSLS": "Access Profiles (Standard)",
