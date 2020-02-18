@@ -33,3 +33,8 @@ th {
     padding-left: 0.1rem;
     padding-right: 0.1rem;
 }
+
+.bg-pricing-selected {
+    background-color: rgb(230, 230, 230);
+}
+

@@ -34,6 +34,9 @@ export class PricingComponent implements OnInit, DoCheck  {
   private priceSource: string = "LITE";
   private mispriced: boolean = false;
   private mispricedInfo: string = "";
+  private stdFullOptions: boolean = false;
+  private proFullOptions: boolean = false;
+  private entFullOptions: boolean = false;
 
   constructor(
     private configuration: ConfigurationService,
@@ -52,8 +55,8 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.calculateIndustryPrices();
   }
 
-  calculateEditionPrice(weight: Weight, edition: Pricing) {
-    edition.license = weight.min;
+  calculateEditionPrice(weight: Weight, fullOptions: boolean, edition: Pricing) {
+    edition.license = fullOptions ? weight.max : weight.min;
     edition.mlu = Math.round(edition.license * MLU_RATE);
     edition.calLicense = this.modulePrice["PRO"]["CAL"].license * this.nrCals;
     edition.calMlu = Math.round(edition.calLicense * MLU_RATE);
@@ -68,9 +71,9 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.professional = new Pricing();
     this.enterprise = new Pricing();
 
-    this.calculateEditionPrice(this.configuration.current.stdWeight, this.standard);
-    this.calculateEditionPrice(this.configuration.current.proWeight, this.professional);
-    this.calculateEditionPrice(this.configuration.current.entWeight, this.enterprise);
+    this.calculateEditionPrice(this.configuration.current.stdWeight, this.stdFullOptions, this.standard);
+    this.calculateEditionPrice(this.configuration.current.proWeight, this.proFullOptions, this.professional);
+    this.calculateEditionPrice(this.configuration.current.entWeight, this.entFullOptions, this.enterprise);
 
   }
 
