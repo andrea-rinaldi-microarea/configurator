@@ -7,7 +7,7 @@ export class CSVFeature {
         public adpk: string,
         public trpk: string,
         public fragment: string,
-        public base: string,
+        public standard: string,
         public professional: string,
         public enterprise: string
     ) {}

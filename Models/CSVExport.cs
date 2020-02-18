@@ -9,7 +9,7 @@
         public string Adpk {get; set;}
         public string Trpk {get; set;}
         public string Fragment {get; set;}
-        public string Base {get; set;}
+        public string Standard {get; set;}
         public string Professional {get; set;}
         public string Enterprise {get; set;}
     }
