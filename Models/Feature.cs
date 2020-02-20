@@ -11,6 +11,7 @@
         public string AllowISO {get; set;}
         public string DenyISO {get; set;}
         public string Standard {get; set;}
+        public string Premium {get; set;}
         public string Professional {get; set;}
         public string Enterprise {get; set;}
         public bool Available {get; set;}

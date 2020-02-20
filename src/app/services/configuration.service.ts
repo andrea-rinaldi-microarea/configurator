@@ -99,6 +99,7 @@ export class ConfigurationService {
 
     this.current.stdDistance = new Distance();
     this.current.proDistance = new Distance();
+    this.current.prmDistance = new Distance();
     this.current.entDistance = new Distance();
     this.current.clientWeight = 0;
     var foundNames: string[] = [];
@@ -116,6 +117,7 @@ export class ConfigurationService {
 
         this.calculateDistance(feat, feat.standard, this.current.stdDistance);
         this.calculateDistance(feat, feat.professional, this.current.proDistance);
+        this.calculateDistance(feat, feat.premium, this.current.prmDistance);
         this.calculateDistance(feat, feat.enterprise, this.current.entDistance);
         foundNames.push(feat.name);
       }
@@ -149,6 +151,7 @@ export class ConfigurationService {
       if (!this.current) return;
       
       this.current.stdWeight = new Weight();
+      this.current.prmWeight = new Weight();
       this.current.proWeight = new Weight();
       this.current.entWeight = new Weight();
 
@@ -159,6 +162,7 @@ export class ConfigurationService {
           continue;
 
         this.calculateWeight(feat, feat.standard, this.current.stdWeight);
+        this.calculateWeight(feat, feat.premium, this.current.prmWeight);
         this.calculateWeight(feat, feat.professional, this.current.proWeight);
         this.calculateWeight(feat, feat.enterprise, this.current.entWeight);
         foundNames.push(feat.name);
@@ -233,6 +237,7 @@ export class ConfigurationService {
           {
             data[f].available = curr.available;
             data[f].standard = curr.standard;
+            data[f].premium = curr.premium;
             data[f].professional = curr.professional;
             data[f].enterprise = curr.enterprise;
           }

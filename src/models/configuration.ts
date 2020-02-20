@@ -21,9 +21,11 @@ export class Configuration {
     public features: Feature[] = [];
     public stdWeight: Weight;
     public proWeight: Weight;
+    public prmWeight: Weight;
     public entWeight: Weight;
     public clientWeight: number;
     public stdDistance: Distance;
     public proDistance: Distance;
+    public prmDistance: Distance;
     public entDistance: Distance;
 }

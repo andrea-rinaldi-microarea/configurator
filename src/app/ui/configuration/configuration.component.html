@@ -42,6 +42,9 @@
           <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'" (click)="editMode && selectAll('standard')">
             <app-edition-header [disabled]="!editMode">Standard</app-edition-header> 
           </th>
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRM'" (click)="editMode && selectAll('premium')">
+            <app-edition-header [disabled]="!editMode">Premium</app-edition-header>
+          </th>
           <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'" (click)="editMode && selectAll('professional')">
             <app-edition-header [disabled]="!editMode">Professional</app-edition-header>
           </th>
@@ -61,6 +64,9 @@
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">
           <span *ngIf="configuration.current.stdWeight">{{configurationWeight(configuration.current.stdWeight)}}</span>
         </th>
+        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRM'">
+          <span *ngIf="configuration.current.prmWeight">{{configurationWeight(configuration.current.prmWeight)}}</span>
+        </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRO'">
           <span *ngIf="configuration.current.proWeight">{{configurationWeight(configuration.current.proWeight)}}</span>
         </th>
@@ -77,6 +83,9 @@
         <th class="edition-sep subheader"></th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">
           <span *ngIf="configuration.current.stdDistance">+{{configuration.current.stdDistance.plus}} / -{{configuration.current.stdDistance.minus}}</span>
+        </th>
+        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRM'">
+          <span *ngIf="configuration.current.prmDistance">+{{configuration.current.prmDistance.plus}} / -{{configuration.current.prmDistance.minus}}</span>
         </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRO'">
           <span *ngIf="configuration.current.proDistance">+{{configuration.current.proDistance.plus}} / -{{configuration.current.proDistance.minus}}</span>
@@ -106,6 +115,16 @@
               [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.standard)" 
               [class.text-user]="clients.show && clients.current && configuration.isPlus(feature, feature.standard)" 
               [(value)]="feature.standard" 
+              [options]="featureTypes"></app-toggler>
+          </td>
+          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRM'">
+            <app-toggler 
+              [hidden]="!feature.available || feature.discontinued" 
+              [disabled]="!editMode" 
+              class="text-config" 
+              [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.premium)" 
+              [class.text-user]="clients.show && clients.current && configuration.isPlus(feature, feature.premium)" 
+              [(value)]="feature.premium" 
               [options]="featureTypes"></app-toggler>
           </td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'">

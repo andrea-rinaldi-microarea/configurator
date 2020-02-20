@@ -10,8 +10,8 @@
         public string Trpk {get; set;}
         public string Fragment {get; set;}
         public string Standard {get; set;}
-        public string Professional {get; set;}
-        public string Enterprise {get; set;}
+        public string Premium {get; set;}
+        public string Professional {get; set;}        public string Enterprise {get; set;}
     }
 
     public class CSVExport

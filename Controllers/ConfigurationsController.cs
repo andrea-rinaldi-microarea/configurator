@@ -91,6 +91,7 @@ namespace Configurator.Controllers
                     storeFeat.fragment = feat.Fragment;
 
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "STD", availability = ConvertStoreFeatureOption(feat.Standard) });
+                    storeFeat.options.Add(new StoreFeatureOption{ edition = "PRM", availability = ConvertStoreFeatureOption(feat.Premium) });
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "PRO", availability = ConvertStoreFeatureOption(feat.Professional) });
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "ENT", availability = ConvertStoreFeatureOption(feat.Enterprise) });
 

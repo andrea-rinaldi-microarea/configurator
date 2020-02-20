@@ -11,6 +11,7 @@ export class Feature {
         public fromPackage: boolean,
         public standard: string,
         public professional: string,
+        public premium: string,
         public enterprise: string,
         public customer: boolean,
         public allowISO: string,

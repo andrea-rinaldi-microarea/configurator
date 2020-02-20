@@ -174,6 +174,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
         this.configuration.isIncluded(feat.tag, "TRPK") ? "TRPK" : "",
         feat.name,
         feat.standard,
+        feat.premium,
         feat.professional,
         feat.enterprise
       ));

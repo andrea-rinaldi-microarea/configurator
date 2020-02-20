@@ -25,6 +25,7 @@ export class PricingComponent implements OnInit, DoCheck  {
   }
   public customer: Pricing = new Pricing();
   public standard: Pricing = new Pricing();
+  public premium: Pricing = new Pricing();
   public professional: Pricing = new Pricing();
   public enterprise: Pricing = new Pricing();
   private misconfigured: boolean = false;
@@ -35,6 +36,7 @@ export class PricingComponent implements OnInit, DoCheck  {
   private mispriced: boolean = false;
   private mispricedInfo: string = "";
   private stdFullOptions: boolean = false;
+  private prmFullOptions: boolean = false;
   private proFullOptions: boolean = false;
   private entFullOptions: boolean = false;
 
@@ -68,10 +70,12 @@ export class PricingComponent implements OnInit, DoCheck  {
     if (!this.configuration.current)
       return;
     this.standard = new Pricing();
+    this.premium = new Pricing();
     this.professional = new Pricing();
     this.enterprise = new Pricing();
 
     this.calculateEditionPrice(this.configuration.current.stdWeight, this.stdFullOptions, this.standard);
+    this.calculateEditionPrice(this.configuration.current.prmWeight, this.prmFullOptions, this.premium);
     this.calculateEditionPrice(this.configuration.current.proWeight, this.proFullOptions, this.professional);
     this.calculateEditionPrice(this.configuration.current.entWeight, this.entFullOptions, this.enterprise);
 

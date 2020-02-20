@@ -23,6 +23,10 @@
               Standard 
               <i class="fa fa-big" [class.fa-check-square-o]="stdFullOptions" [class.fa-square-o]="!stdFullOptions" (click)="stdFullOptions=!stdFullOptions"></i>
             </th>
+            <th class="text-center edition-sep" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">
+              Premium
+              <i class="fa fa-big" [class.fa-check-square-o]="prmFullOptions" [class.fa-square-o]="!prmFullOptions" (click)="prmFullOptions=!prmFullOptions"></i>
+            </th>
             <th class="text-center edition-sep" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">
               Professional
               <i class="fa fa-big" [class.fa-check-square-o]="proFullOptions" [class.fa-square-o]="!proFullOptions" (click)="proFullOptions=!proFullOptions"></i>
@@ -36,6 +40,7 @@
           <td class="text-right">licenza</td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.license | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{standard.license | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{premium.license | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{professional.license | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{enterprise.license | currency : "EUR"}}</td>
         </tr>
@@ -52,6 +57,7 @@
           </td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.calLicense | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{standard.calLicense | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{premium.calLicense | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{professional.calLicense | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{enterprise.calLicense | currency : "EUR"}}</td>
         </tr>
@@ -59,6 +65,7 @@
           <td class="text-right font-italic">totale licenze</td>
           <td class="text-center edition-sep font-italic" width="10%" [hidden]="!clients.show">{{customer.calLicense + customer.license | currency : "EUR"}}</td>
           <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{standard.calLicense + standard.license | currency : "EUR"}}</td>
+          <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{premium.calLicense + premium.license | currency : "EUR"}}</td>
           <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{professional.calLicense + professional.license | currency : "EUR"}}</td>
           <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{enterprise.calLicense + enterprise.license | currency : "EUR"}}</td>
         </tr>
@@ -66,6 +73,7 @@
           <td class="text-right row-sep">MLU</td>
           <td class="text-center edition-sep row-sep" width="10%" [hidden]="!clients.show">{{customer.mlu | currency : "EUR"}}</td>
           <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{standard.mlu | currency : "EUR"}}</td>
+          <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{premium.mlu | currency : "EUR"}}</td>
           <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{professional.mlu | currency : "EUR"}}</td>
           <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{enterprise.mlu | currency : "EUR"}}</td>
         </tr>
@@ -73,6 +81,7 @@
           <td class="text-right">MLU su CAL x {{nrCals}}</td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.calMlu | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{standard.calMlu | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{premium.calMlu | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{professional.calMlu | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{enterprise.calMlu | currency : "EUR"}}</td>
         </tr>
@@ -80,6 +89,7 @@
           <td class="text-right font-italic">canone annuale attuale</td>
           <td class="text-center edition-sep font-italic" width="10%" [hidden]="!clients.show">{{customer.calMlu + customer.mlu | currency : "EUR"}}</td>
           <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'"></td>
+          <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'"></td>
           <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'"></td>
           <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'"></td>
         </tr>
@@ -87,6 +97,7 @@
           <td class="text-right row-sep">Totale su 5 anni</td>
           <td class="text-center edition-sep row-sep" width="10%" [hidden]="!clients.show">{{customer.total5Years | currency : "EUR"}}</td>
           <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{standard.total5Years | currency : "EUR"}}</td>
+          <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{premium.total5Years | currency : "EUR"}}</td>
           <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{professional.total5Years | currency : "EUR"}}</td>
           <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{enterprise.total5Years | currency : "EUR"}}</td>
         </tr>
@@ -94,6 +105,7 @@
           <td class="text-right">utente/mese</td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{standard.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{premium.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{professional.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{enterprise.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
         </tr>
@@ -101,6 +113,7 @@
           <td class="text-right">canone equivalente annuo</td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{standard.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{premium.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{professional.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
           <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{enterprise.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
         </tr>

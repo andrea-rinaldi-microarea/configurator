@@ -8,6 +8,7 @@ export class CSVFeature {
         public trpk: string,
         public fragment: string,
         public standard: string,
+        public premium: string,
         public professional: string,
         public enterprise: string
     ) {}
