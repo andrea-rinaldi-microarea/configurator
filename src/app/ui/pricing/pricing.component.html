@@ -104,10 +104,10 @@
         <tr>
           <td class="text-right">utente/mese</td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{standard.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{premium.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{professional.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{enterprise.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{standard.perUserMonth  | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{premium.perUserMonth  | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{professional.perUserMonth  | currency : "EUR"}}</td>
+          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{enterprise.perUserMonth  | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right">canone equivalente annuo</td>
