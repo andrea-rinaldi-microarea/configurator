@@ -1,4 +1,4 @@
-Module;Functionality;Tag;Name;Discontinued;Fragment;AllowISO;DenyISO
+Module;Functionality;Tag;Name;Discontinued;Fragments;AllowISO;DenyISO
 _Base Module;;SEVR;SERVER;FALSE;Server;;
 ;Multilanguage descriptions;SEVR;LANGUAGES;FALSE;Languages;;
 ;Multicurrency;SEVR;CURRENCIES;FALSE;Currencies;;
@@ -30,7 +30,7 @@ Cost Accounting;;COAN;COSTACC;FALSE;CostAccounting;;
 ;Transfers;CFIN;COSTACCTRAN;FALSE;CostAccountingTransfer;;
 Cash Management;;CASH;CASH;FALSE;Cash;;IT,CH,BR
 Intrastat;;INTR;INTRASTAT;FALSE;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;
-Sales / Purchases;;VEDT;SALES;FALSE;Sales,DocumentCopy,DocumentDetailImportExport,PurhcaseBarCode,ProductCategories;;
+Sales / Purchases;;VEDT;SALES;FALSE;Sales,DocumentCopy,DocumentDetailImportExport,PurchaseBarCode,ProductCategories;;
 ;Advanced Items Management;VEDT;ITEMADV;FALSE;PricePolicies,ChargePolicies,SubstituteItems,SmartCode,AdvancedUoMs;;
 Sale Orders;;ORCL;SALORDERS;FALSE;SaleOrders;;
 ;Customer Quotations;ORCL;CUSTQUOTA;FALSE;CustomerQuotations;;

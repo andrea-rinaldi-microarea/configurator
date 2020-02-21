@@ -88,7 +88,8 @@ namespace Configurator.Controllers
                         storeFeat.isModule = false;
                         storeFeat.description = feat.Functionality;
                     }
-                    storeFeat.fragment = feat.Fragment;
+                    storeFeat.fragments = new List<string>();
+                    storeFeat.fragments.AddRange(feat.Fragments.Split(","));
 
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "STD", availability = ConvertStoreFeatureOption(feat.Standard) });
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "PRM", availability = ConvertStoreFeatureOption(feat.Premium) });

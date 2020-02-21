@@ -1,4 +1,4 @@
-Module;Functionality;Tag;Name;Discontinued;Fragment;AllowISO;DenyISO;Standard;Premium;Professional;Enterprise;Available
+Module;Functionality;Tag;Name;Discontinued;Fragments;AllowISO;DenyISO;Standard;Premium;Professional;Enterprise;Available
 _Base Module;;SEVR;SERVER;False;Server;;;X;X;X;X;True
 ;Multilanguage descriptions;SEVR;LANGUAGES;False;Languages;;;;X;X;X;True
 ;Multicurrency;SEVR;CURRENCIES;False;Currencies;;;;X;X;X;True
@@ -30,7 +30,7 @@ Cost Accounting;;COAN;COSTACC;False;CostAccounting;;;;;X;X;True
 ;Transfers;CFIN;COSTACCTRAN;False;CostAccountingTransfer;;;;;;X;True
 Cash Management;;CASH;CASH;False;Cash;;IT,CH,BR;;;;X;True
 Intrastat;;INTR;INTRASTAT;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;;X;X;X;True
-Sales / Purchases;;VEDT;SALES;False;Sales,DocumentCopy,DocumentDetailImportExport,PurhcaseBarCode,ProductCategories;;;X;X;X;X;True
+Sales / Purchases;;VEDT;SALES;False;Sales,DocumentCopy,DocumentDetailImportExport,PurchaseBarCode,ProductCategories;;;X;X;X;X;True
 ;Advanced Items Management;VEDT;ITEMADV;False;PricePolicies,ChargePolicies,SubstituteItems,SmartCode,AdvancedUoMs;;;;X;X;X;True
 Sale Orders;;ORCL;SALORDERS;False;SaleOrders;;;X;X;X;X;True
 ;Customer Quotations;ORCL;CUSTQUOTA;False;CustomerQuotations;;;;;X;X;True
