@@ -17,6 +17,7 @@ import { OtherIndustries } from './ui/configuration/other-industries-pipe';
 import { PricingComponent } from './ui/pricing/pricing.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { DetailedInfoComponent } from './ui/detailed-info/detailed-info.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -33,7 +34,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ToolbarComponent,
     EditionHeaderComponent,
     TogglerComponent,
-    PricingComponent
+    PricingComponent,
+    DetailedInfoComponent
   ],
   imports: [
     BrowserModule,
