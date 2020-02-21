@@ -66,21 +66,21 @@ WMS;Basic;WMAA;WMSBASIC;False;WMSBasic;;;;X/0;X/0;X/0;True
 ;Shipping;WMSH;WMSSHIP;False;WMSShipping;;;;;X/0;X/0;True
 ;Mobile - backend;WMRF;WMSMOB;False;WMSMobile;;;;X/0;X/0;X/0;True
 ;Mobile - app;WMRC;WMSMOBAPP;False;WMSMobile;;;;Nr-User;Nr-User;Nr-User;True
-Resources Management;;SEVR;RESMAN;False;;;;;;X;X;True
-Bill of Materials;;DIST;BILLOFMAT;False;BillOfMaterials;;;X;;X;X;True
+Resources Management;;SEVR;RESMAN;False;;;;;X;X;X;True
+Bill of Materials;;DIST;BILLOFMAT;False;BillOfMaterials;;;X;X;X;X;True
 ;Work Centers Calendar and Families;DIST;BILLOFMATADV;False;;;;;;;X;True
 ;Engineering Changing Order;ECO;ECO;False;ECO;;;;;;X;True
-Variants;;VARI;VARIANTS;False;Variants;;;;;X;X;True
+Variants;;VARI;VARIANTS;False;Variants;;;;X;X;X;True
 Configurator;;CONF;CONFIGUR;False;Configurator;;;;;X;X;True
-Basic Manufacturing;;PRZB;MANUFBASIC;False;ManufacturingBasic;;;X;;X;X;True
+Basic Manufacturing;;PRZB;MANUFBASIC;False;ManufacturingBasic;;;X;X;X;X;True
 Advanced Manufacturing;;PRZA;MANUFADV;False;ManufacturingAdvanced;;;;;X;X;True
 ;MO Advanced Management;PRZA;MANUFADVODP;False;;;;;;X;X;True
 ;Drawings Management, History and Versioning;PRZA;BILLOFMATPLUS;False;BillOfMaterialsPlus;;;;;;X;True
 ;Control Panel;PRZA;MANUFPLUS;False;ManufacturingPlus;;;;;X;X;True
 ;Kanban;PRZA;KANBAN;False;Kanban;;;;;;X;True
 Open Orders;;OPOR;OPENORDERS;False;OpenOrders;;;;;X/0;X;True
-Manufacturing Mobile;backend;MANM;MANUFMOB;False;ManufacturingMobile;;;;;X/0;X;True
-;app;MANC;MANUFMOBAPP;False;ManufacturingMobile;;;;;Nr-User;Nr-User;True
+Manufacturing Mobile;backend;MANM;MANUFMOB;False;ManufacturingMobile;;;;X/0;X/0;X;True
+;app;MANC;MANUFMOBAPP;False;ManufacturingMobile;;;;Nr-User;Nr-User;Nr-User;True
 Planning;Basic;PRZP;MANUFPLAN;False;ManufacturingPlanning;;;;;X;X;True
 ;Advanced Planning;PRPA;MRPADV;False;MRPAdvanced;;;;;;X/0;True
 Tools Management;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;;X;True
