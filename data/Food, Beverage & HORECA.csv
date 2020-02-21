@@ -17,9 +17,9 @@ Financials;;CONT;FINANCIALS;False;Financials;;;X;X;X;X;True
 ;Automatic Accrual and Deferrals;CONT;ACCRDEFERR;False;AccrualsDeferrals;;;;X;X;X;True
 ;Balance Analysis and Reclassifications;CONT;BALANALYSYS;False;BalanceAnalysis;;;;;X;X;True
 ;Professionals Fees and Withholding Tax;CONT;PAYEES;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;X;True
-;CADI (VAT settlement and documents data communication);CONT;CADI;False;CADI;;;;X;X;X;True
+;CADI (VAT settlement and documents data communication);CONT;CADI;False;CADI;;;X;X;X;X;True
 Advanced Banks Management;;BAPL;BANKPLUS;False;Banks_Plus;IT;;X;X;X;X;True
-Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;;X;X;True
+Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;X;X;X;True
 Forecast Accounting;;COPR;FOREACC;False;ForecastAccounting;;;;;;X;True
 XBRL Balance;;XBRL;XBRL;False;XBRL;IT;;;;;X;True
 Accounting Books and Balance Attachments;;LIBR;ACCBOOKS;False;AccountingBooks;;;;;;X;True
@@ -87,7 +87,7 @@ Tools Management;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;;;False
 _DMS;Basic;EATT;DMSBASE;False;;;;;;X;X;True
 ;Massive Archiving Plug-In;MASS;DMSMASS;False;;;;;;;X;True
 Job Scheduler;;SCHD;JOBSCHEDUL;False;JobScheduler;;;;;;X;True
-Security;;OSLL;SECURITY;False;Security;;;;X;X;X;True
+Security;;OSLL;SECURITY;False;Security;;;;;X;X;True
 ;Access profiles;OSLS;SECURITYADV;False;Security;;;;;X;X;True
 ;Auditing;AUDT;AUDITING;False;Auditing;;;;;X/0;X;True
 ;Visibility;VISI;VISIBILITY;False;;;;;;X/0;X;True

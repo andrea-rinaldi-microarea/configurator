@@ -11,6 +11,10 @@
           "availability": "always"
         },
         {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -27,6 +31,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
           "availability": "always"
         },
         {
@@ -49,6 +57,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -68,22 +80,7 @@
           "availability": "always"
         },
         {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Sale Tax Journals",
-      "fragment": "MultiTaxJournals",
-      "options": [
-        {
-          "edition": "STD",
+          "edition": "PRM",
           "availability": "always"
         },
         {
@@ -98,30 +95,15 @@
     },
     {
       "isModule": false,
-      "description": "Purchase Tax Journals",
+      "description": "Customizable Tax Journals",
       "fragment": "MultiTaxJournals",
       "options": [
         {
           "edition": "STD",
-          "availability": "always"
+          "availability": ""
         },
         {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Other Tax Journals",
-      "fragment": "MultiTaxJournals",
-      "options": [
-        {
-          "edition": "STD",
+          "edition": "PRM",
           "availability": "always"
         },
         {
@@ -144,6 +126,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -163,6 +149,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -179,6 +169,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
           "availability": "always"
         },
         {
@@ -201,6 +195,10 @@
           "availability": "always"
         },
         {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -220,22 +218,7 @@
           "availability": ""
         },
         {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Customizabile Bills Management",
-      "fragment": "AP_AR_Plus",
-      "options": [
-        {
-          "edition": "STD",
+          "edition": "PRM",
           "availability": ""
         },
         {
@@ -250,7 +233,7 @@
     },
     {
       "isModule": false,
-      "description": "Recessed Reversals",
+      "description": "Advanced AP/AR Management",
       "fragment": "AP_AR_Plus",
       "options": [
         {
@@ -258,46 +241,12 @@
           "availability": ""
         },
         {
-          "edition": "PRO",
+          "edition": "PRM",
           "availability": "always"
         },
         {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Factoring Management",
-      "fragment": "AP_AR_Plus",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
           "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
           "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Unpaid payment automatic management",
-      "fragment": "AP_AR_Plus",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
         },
         {
           "edition": "ENT",
@@ -313,6 +262,10 @@
         {
           "edition": "STD",
           "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
         },
         {
           "edition": "PRO",
@@ -331,6 +284,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
           "availability": ""
         },
         {
@@ -353,6 +310,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -369,6 +330,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
           "availability": ""
         },
         {
@@ -391,6 +356,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -407,7 +376,11 @@
       "options": [
         {
           "edition": "STD",
-          "availability": ""
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
         },
         {
           "edition": "PRO",
@@ -421,7 +394,7 @@
     },
     {
       "isModule": true,
-      "description": "Advanced Banks Management SEPA XML",
+      "description": "Advanced Banks Management ",
       "fragment": "Banks_Plus",
       "options": [
         {
@@ -429,61 +402,8 @@
           "availability": "always"
         },
         {
-          "edition": "PRO",
+          "edition": "PRM",
           "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Foreign Bank Transfers / SDD Mandates",
-      "fragment": "Banks_Plus",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Bank Reconciliations",
-      "fragment": "Banks_Plus",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": true,
-      "description": "Tresaury ",
-      "fragment": "",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
         },
         {
           "edition": "PRO",
@@ -505,6 +425,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -521,6 +445,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
           "availability": ""
         },
         {
@@ -543,6 +471,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
           "edition": "PRO",
           "availability": ""
         },
@@ -559,6 +491,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
           "availability": ""
         },
         {
@@ -581,6 +517,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
           "edition": "PRO",
           "availability": ""
         },
@@ -597,6 +537,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
           "availability": ""
         },
         {
@@ -619,6 +563,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -635,6 +583,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
           "availability": ""
         },
         {
@@ -657,6 +609,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
           "edition": "PRO",
           "availability": ""
         },
@@ -676,6 +632,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
           "edition": "PRO",
           "availability": ""
         },
@@ -688,124 +648,14 @@
     {
       "isModule": true,
       "description": "Intrastat ",
-      "fragment": "Intrastat",
+      "fragments": ["Intrastat"],
       "options": [
         {
           "edition": "STD",
           "availability": ""
         },
         {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": true,
-      "description": "Zucchetti Cross-Applications Connettore SOS",
-      "fragment": "",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "AGO Connector",
-      "fragment": "AGOConnector",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "B&O / Maestro Connector",
-      "fragment": "BEOConnector",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Magix Fisco Azienda Connector",
-      "fragment": "FiscoAziendaConnector",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "OMNIA Connector",
-      "fragment": "OMNIAConnector",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Payroll Import Connector",
-      "fragment": "PayrollImport",
-      "options": [
-        {
-          "edition": "STD",
+          "edition": "PRM",
           "availability": "always"
         },
         {
@@ -821,10 +671,14 @@
     {
       "isModule": true,
       "description": "Sales / Purchases ",
-      "fragment": "Sales",
+      "fragments": [ "Sales", "DocumentCopy","DocumentDetailImportExport","PurhcaseBarCode","ProductCategories"],
       "options": [
         {
           "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
           "availability": "always"
         },
         {
@@ -839,69 +693,16 @@
     },
     {
       "isModule": false,
-      "description": "Document Copy",
-      "fragment": "DocumentCopy",
+      "description": "Advanced Items Management",
+      "fragment": "PricePolicies,ChargePolicies,SubstituteItems,SmartCode,AdvancedUoMs",
       "options": [
         {
           "edition": "STD",
           "availability": ""
         },
         {
-          "edition": "PRO",
+          "edition": "PRM",
           "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Items and Notes Import / Export",
-      "fragment": "DocumentDetailImportExport",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Price Policies",
-      "fragment": "PricePolicies",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Multiple Price Lists",
-      "fragment": "PricePolicies",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
         },
         {
           "edition": "PRO",
@@ -923,6 +724,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
           "edition": "PRO",
           "availability": "optional"
         },
@@ -939,6 +744,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
           "availability": "always"
         },
         {
@@ -961,6 +770,10 @@
           "availability": "always"
         },
         {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -977,6 +790,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
           "availability": ""
         },
         {
@@ -999,6 +816,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -1018,46 +839,12 @@
           "availability": ""
         },
         {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": true,
-      "description": "Mail Services ",
-      "fragment": "",
-      "options": [
-        {
-          "edition": "STD",
+          "edition": "PRM",
           "availability": ""
         },
         {
           "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": true,
-      "description": "Customized Reporting ",
-      "fragment": "",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
+          "availability": ""
         },
         {
           "edition": "ENT",
@@ -1072,6 +859,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
           "availability": ""
         },
         {
@@ -1094,6 +885,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
           "edition": "PRO",
           "availability": "always"
         },
@@ -1110,6 +905,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
           "availability": ""
         },
         {
@@ -1132,6 +931,10 @@
           "availability": ""
         },
         {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
           "edition": "PRO",
           "availability": "optional"
         },
@@ -1148,6 +951,10 @@
       "options": [
         {
           "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
           "availability": ""
         },
         {
