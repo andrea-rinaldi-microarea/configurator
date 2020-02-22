@@ -1,5 +1,4 @@
-import { Distance } from './../../../models/configuration';
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
 
 declare var require: any;
 const detailedInfos = require("./detailed-info.json");
@@ -7,9 +6,9 @@ const detailedInfos = require("./detailed-info.json");
 @Component({
   selector: 'app-detailed-info',
   template: `
-  <div>
+  <div #content>
     <ng-content></ng-content>
-    <i class="fa fa-info-circle text-muted clickable" [hidden]="!enabled" (click)="show=!show"></i>
+    <i *ngIf="enabled" class="fa fa-info-circle text-muted clickable" (click)="show=!show"></i>
   </div>
   <div [hidden]="!show" class="small font-weight-lighter font-italic">
   {{detailedInfo | translate}}
@@ -26,22 +25,29 @@ const detailedInfos = require("./detailed-info.json");
 })
 export class DetailedInfoComponent implements OnInit {
   @Input() name: string = "";
-  private detailedInfo: string;
+  @ViewChild('content') content: ElementRef;
+  private detailedInfo: string = "";
   private enabled: boolean = false;
   private show: boolean = false;
 
   constructor() { }
 
   ngOnInit() {
-    this.show = false;
-    if (this.name) {
-      this.detailedInfo = detailedInfos[this.name];
-      this.enabled = (this.detailedInfo !== undefined && this.detailedInfo != "");
-    }
-    else {
-      this.detailedInfo = "";
-      this.enabled = false;
-    }
+    this.detailedInfo = detailedInfos[this.name];
+    this.enabled = (this.detailedInfo !== undefined && this.detailedInfo != "");
+  }
+
+  ngAfterViewInit() {
+    if (!this.enabled)
+      return;
+    // Prevents ExpressionChangedAfterItHasBeenCheckedError
+    // The innert text of the ng-content is not available before this, but the view expressions have been already checked
+    // Angular raises the above error if expressions are changed again in the current update cycle, so this postpone it a bit
+    Promise.resolve(null).then(() => {
+      if (this.content.nativeElement.innerText == "") {
+        this.enabled = false;
+      }
+    });
   }
 
 }
