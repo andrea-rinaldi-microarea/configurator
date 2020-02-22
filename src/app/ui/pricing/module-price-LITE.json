@@ -147,6 +147,10 @@
         "license": 308,
         "mlu": 55
     },
+    "XGAT" : {
+        "license": 330.00,
+        "mlu": 59.00
+    },
     "MAIF" : {
         "license": 550,
         "mlu": 99

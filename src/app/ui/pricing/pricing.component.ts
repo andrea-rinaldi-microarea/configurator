@@ -92,8 +92,8 @@ export class PricingComponent implements OnInit, DoCheck  {
     var foundTags: string[] = [];
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
       var feat: Feature  = this.configuration.current.features[f];
-      if (feat.available && feat.customer && !feat.fromPackage && !foundTags.includes(feat.tag)) {
-        if (this.modulePrice[this.priceSource][feat.tag]) {
+        if (feat.customer && !feat.fromPackage && !foundTags.includes(feat.tag)) {
+          if (this.modulePrice[this.priceSource][feat.tag]) {
           this.customer.license += this.modulePrice[this.priceSource][feat.tag].license;
           this.customer.mlu += this.modulePrice[this.priceSource][feat.tag].mlu;
         } else {

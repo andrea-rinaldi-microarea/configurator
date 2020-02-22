@@ -86,3 +86,4 @@ Security;;OSLL;SECURITY;FALSE;Security;;
 ;Access profiles;OSLS;SECURITYADV;FALSE;Security;;
 ;Auditing;AUDT;AUDITING;FALSE;Auditing;;
 ;Visibility;VISI;VISIBILITY;FALSE;;;
+_Xgate;;XGAT;;TRUE;;;
