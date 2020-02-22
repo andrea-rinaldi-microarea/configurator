@@ -15,19 +15,13 @@
         "weight": 60
     },
     "FINANCIALS" : {
-        "weight": 330
+        "weight": 390
     },
     "MULTITAXJ" : {
         "weight": 30
     },
     "CUSTACCTPL" : {
         "weight": 30
-    },
-    "PRORATA" : {
-        "weight": 20
-    },
-    "TRAVAGVAT" : {
-        "weight": 20
     },
     "PLAFOND" : {
         "weight": 20
@@ -50,10 +44,6 @@
     "PAYEES" : {
         "weight": 30
     },
-    "CADI" : {
-        "weight": 20
-    },
-
     "ACCPURELEINV" : {
         "weight": 150
     },
@@ -103,16 +93,13 @@
         "weight": 95
     },
     "SALES" : {
-        "weight": 347
+        "weight": 357
     },
     "ITEMADV" : {
         "weight": 73
     },
     "CHARGEPOL" : {
         "weight": 5
-    },
-    "ELECTINV" : {
-        "weight": 10
     },
     "MULTISTUB" : {
         "weight": 5

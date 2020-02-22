@@ -1,5 +1,6 @@
 {
     "APARPLUS": "Includes: Customizabile Bills Management, Recessed Reversals, Factoring Management and Unpaid payment automatic management",
     "ITEMADV" : "Includes: Price Policies, Charge Policies, Substitute Items, Smart Codes and Advanced UoMs",
-    "MANUFADVODP": "Includes: MO Confirmation Details, Bill / MO Comparision and Analysis of Materials in Production"
+    "MANUFADVODP": "Includes: MO Confirmation Details, Bill / MO Comparision and Analysis of Materials in Production",
+    "SALES": "Includes: Sale Electronic Invoices"
 }

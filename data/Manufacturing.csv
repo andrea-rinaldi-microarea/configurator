@@ -4,12 +4,10 @@ _Base Module;;SEVR;SERVER;False;Server;;;X;X;X;X;True
 ;Multicurrency;SEVR;CURRENCIES;False;Currencies;;;;X;X;X;True
 ;Contacts Management;SEVR;CONTACTS;False;Contacts;;;;;X;X;True
 ;Budget (Cust/Supp);SEVR;BUDGET;False;Budget;;;;;X;X;True
-Financials;;CONT;FINANCIALS;False;Financials,AGOConnector,BEOConnector,FiscoAziendaConnector,OMNIAConnector,PayrollImport;;;X;X;X;X;True
+Financials;;CONT;FINANCIALS;False;Financials,AGOConnector,BEOConnector,FiscoAziendaConnector,OMNIAConnector,PayrollImport,ProRata,TravelAgencyVAT,CADI;;;X;X;X;X;True
 ;Customizable Tax Journals;CONT;MULTITAXJ;False;MultiTaxJournals;;;;X;X;X;True
 ;Customizable Accounting Templates;CONT;CUSTACCTPL;False;CustomizedAccountingTemplates;;;;X;X;X;True
 ;Purchase Electronic Invoice Accounting Import;CPCO;ACCPURELEINV;False;PurchaseElectronicInvoicing;IT;;;X;X;X;True
-;Pro-rata Management;CONT;PRORATA;False;ProRata;IT,RO,RS,HR,ES;;X;X;X;X;True
-;Travel Agency VAT;CONT;TRAVAGVAT;False;TravelAgencyVAT;IT;;X;X;X;X;True
 ;Plafond Management;CONT;PLAFOND;False;Plafond;IT,HU;;;X;X;X;True
 ;Advanced AP/AR Management;CONT;APARPLUS;False;AP_AR_Plus;;;;X;X;X;True
 ;Dunning letters;CONT;DUNNINGS;False;Dunnings;;;;X;X;X;True
@@ -17,7 +15,6 @@ Financials;;CONT;FINANCIALS;False;Financials,AGOConnector,BEOConnector,FiscoAzie
 ;Automatic Accrual and Deferrals;CONT;ACCRDEFERR;False;AccrualsDeferrals;;;;X;X;X;True
 ;Balance Analysis and Reclassifications;CONT;BALANALYSYS;False;BalanceAnalysis;;;;;X;X;True
 ;Professionals Fees and Withholding Tax;CONT;PAYEES;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;X;True
-;CADI (VAT settlement and documents data communication);CONT;CADI;False;CADI;;;X;X;X;X;True
 Advanced Banks Management;;BAPL;BANKPLUS;False;Banks_Plus;IT;;X;X;X;X;True
 Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;X;X;X;True
 Forecast Accounting;;COPR;FOREACC;False;ForecastAccounting;;;;;;X;True
@@ -34,8 +31,7 @@ Sales / Purchases;;VEDT;SALES;False;DocumentCopy,DocumentDetailImportExport,Purc
 ;Advanced Items Management;VEDT;ITEMADV;False;PricePolicies,ChargePolicies,SubstituteItems,SmartCode,AdvancedUoMs,AdditionalQty;;;;X;X;X;True
 Sale Orders;;ORCL;SALORDERS;False;SaleOrders;;;X;X;X;X;True
 ;Customer Quotations;ORCL;CUSTQUOTA;False;CustomerQuotations;;;;;X;X;True
-Sale Invoices / Delivery Notes;;VEDT;SALES;False;Sales;;;X;X;X;X;True
-;Sale Electronic Invoices;VEDT;ELECTINV;False;ElectronicInvoicing;IT,HU,BR;;X;X;X;X;True
+Sale Invoices / Delivery Notes;;VEDT;SALES;False;Sales,ElectronicInvoicing;;;X;X;X;X;True
 ;Multiple Stub Books;VEDT;MULTISTUB;False;MultiStubBooks;;;;X;X;X;True
 ;Picking List;VEDT;PICKLIST;False;PickingList;;;;;X;X;True
 e-commerce;;;ECOMM;False;;;;;;;;False
