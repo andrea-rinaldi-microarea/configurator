@@ -9,7 +9,6 @@
         <div class="card-body">
             <div class="d-flex justify-content-between" *ngIf="clients.current" >
                 <span class="card-text w-60">
-                    <i class="fa fa-files-o btn btn-sm text-user" (click)="onCopyConfig()"></i>
                     {{ decodeClient() }}
                 </span>
                 <span class="card-text w-5">
@@ -38,6 +37,7 @@
                     <span class="alert" [hidden]="successSearch">no more found</span>
                 </div>
                 <div class="mr-3 w-50 small card-text text-right text-user" >
+                    <i class="fa fa-files-o btn btn-sm text-user" (click)="onCopyConfig()" ngbTooltip="{{'Copy modules configuration in the clipboard' | translate}}"></i>
                     <i class="fa fa-stack-overflow mr-1" placement="bottom" ngbTooltip="{{decodeModules()}}"></i>
                     {{decodeModules()}}
                 </div>

@@ -118,5 +118,6 @@
     "Includes: Customizabile Bills Management, Recessed Reversals, Factoring Management and Unpaid payment automatic management": "Include: Presentazioni effetti parametrizzabili, Reversali di incasso, Factoring e Gestione automatica insoluti",
     "Missing fragment for this feature": "Manca il fragment di definizione della feature",
     "Includes: MO Confirmation Details, Bill / MO Comparision and Analysis of Materials in Production": "Include: Dettaglio Consuntivazioni OdP, Confronto OdP / Distinta e Analisi materiali in produzione",
-    "Includes: Sale Electronic Invoices": "Include: Fatturazione Elettronica Attiva"
+    "Includes: Sale Electronic Invoices": "Include: Fatturazione Elettronica Attiva",
+    "Copy modules configuration in the clipboard": "Copia la configurazione dei moduli nella clipboard"
 }
