@@ -30,11 +30,11 @@ Cost Accounting;;COAN;COSTACC;False;CostAccounting;;;;;X;X;True
 ;Transfers;CFIN;COSTACCTRAN;False;CostAccountingTransfer;;;;;;X;True
 Cash Management;;CASH;CASH;False;Cash;;IT,CH,BR;;;;X;True
 Intrastat;;INTR;INTRASTAT;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;;X;X;X;True
-Sales / Purchases;;VEDT;SALES;False;Sales,DocumentCopy,DocumentDetailImportExport,PurchaseBarCode,ProductCategories,TESANConnector;;;X;X;X;X;True
+Sales / Purchases;;VEDT;SALES;False;DocumentCopy,DocumentDetailImportExport,PurchaseBarCode,ProductCategories,TESANConnector;;;X;X;X;X;True
 ;Advanced Items Management;VEDT;ITEMADV;False;PricePolicies,ChargePolicies,SubstituteItems,SmartCode,AdvancedUoMs,AdditionalQty;;;;X;X;X;True
 Sale Orders;;ORCL;SALORDERS;False;SaleOrders;;;X;X;X;X;True
 ;Customer Quotations;ORCL;CUSTQUOTA;False;CustomerQuotations;;;;;X;X;True
-Sale Invoices / Delivery Notes;;VEDT;SALES;False;;;;X;X;X;X;True
+Sale Invoices / Delivery Notes;;VEDT;SALES;False;Sales;;;X;X;X;X;True
 ;Sale Electronic Invoices;VEDT;ELECTINV;False;ElectronicInvoicing;IT,HU,BR;;X;X;X;X;True
 ;Multiple Stub Books;VEDT;MULTISTUB;False;MultiStubBooks;;;;X;X;X;True
 ;Picking List;VEDT;PICKLIST;False;PickingList;;;;;X;X;True
@@ -58,7 +58,6 @@ Inventory;;MAGA;INVENTORY;False;Inventory;;;X;X;X;X;True
 ;LIFO/FIFO Continuous Rises;MAGA;SINGSTEPLF;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;;;;X;True
 ;Inventory Adjustments Entries;MAGA;INVADJUST;False;InventoryAdjustment;;;;;;X;True
 Quality Inspections;;INSP;QUALINSP;False;QualityInspection;;;;;;X;True
-;Technical Notes;CFIN;QUALINSPNOTE;False;;;;;;;X;True
 Barcode Manager;;BARC;BARCODE;False;Barcode;;;X;X;X;X;True
 Lots and Serial Numbers;;LOTT;LOTSSERIALS;False;LotsSerials;;;;;X;X;True
 WMS;Basic;WMAA;WMSBASIC;False;WMSBasic;;;;;X/0;X;True
