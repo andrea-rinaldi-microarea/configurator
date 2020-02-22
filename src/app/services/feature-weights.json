@@ -175,10 +175,7 @@
         "weight": 15
     },
     "QUALINSP" : {
-        "weight": 550
-    },
-    "QUALINSPNOTE" : {
-        "weight": 100
+        "weight": 650
     },
     "BARCODE" : {
         "weight": 330
