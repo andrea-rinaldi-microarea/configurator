@@ -4,7 +4,7 @@ _Base Module;;SEVR;SERVER;False;Server;;;X;X;X;X;True
 ;Multicurrency;SEVR;CURRENCIES;False;Currencies;;;;X;X;X;True
 ;Contacts Management;SEVR;CONTACTS;False;Contacts;;;;;;;False
 ;Budget (Cust/Supp);SEVR;BUDGET;False;Budget;;;;;;;False
-Financials;;CONT;FINANCIALS;False;Financials;;;X;X;X;X;True
+Financials;;CONT;FINANCIALS;False;Financials,AGOConnector,BEOConnector,FiscoAziendaConnector,OMNIAConnector,PayrollImport;;;X;X;X;X;True
 ;Customizable Tax Journals;CONT;MULTITAXJ;False;MultiTaxJournals;;;;X;X;X;True
 ;Customizable Accounting Templates;CONT;CUSTACCTPL;False;CustomizedAccountingTemplates;;;;X;X;X;True
 ;Purchase Electronic Invoice Accounting Import;CPCO;ACCPURELEINV;False;PurchaseElectronicInvoicing;IT;;;X;X;X;True
@@ -30,8 +30,8 @@ Cost Accounting;;COAN;COSTACC;False;CostAccounting;;;;;X;X;True
 ;Transfers;CFIN;COSTACCTRAN;False;CostAccountingTransfer;;;;;;X;True
 Cash Management;;CASH;CASH;False;Cash;;IT,CH,BR;;;;X;True
 Intrastat;;INTR;INTRASTAT;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;;X;X;X;True
-Sales / Purchases;;VEDT;SALES;False;Sales,DocumentCopy,DocumentDetailImportExport,PurchaseBarCode,ProductCategories;;;X;X;X;X;True
-;Advanced Items Management;VEDT;ITEMADV;False;PricePolicies,ChargePolicies,SubstituteItems,SmartCode,AdvancedUoMs;;;;X;X;X;True
+Sales / Purchases;;VEDT;SALES;False;Sales,DocumentCopy,DocumentDetailImportExport,PurchaseBarCode,ProductCategories,TESANConnector;;;X;X;X;X;True
+;Advanced Items Management;VEDT;ITEMADV;False;PricePolicies,ChargePolicies,SubstituteItems,SmartCode,AdvancedUoMs,AdditionalQty;;;;X;X;X;True
 Sale Orders;;ORCL;SALORDERS;False;SaleOrders;;;;X/0;X/0;X/0;True
 ;Customer Quotations;ORCL;CUSTQUOTA;False;CustomerQuotations;;;;;;;False
 Sale Invoices / Delivery Notes;;VEDT;SALES;False;;;;X;X;X;X;True
