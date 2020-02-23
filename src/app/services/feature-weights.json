@@ -15,7 +15,7 @@
         "weight": 60
     },
     "FINANCIALS" : {
-        "weight": 390
+        "weight": 720
     },
     "MULTITAXJ" : {
         "weight": 30
@@ -46,9 +46,6 @@
     },
     "ACCPURELEINV" : {
         "weight": 150
-    },
-    "BANKPLUS" : {
-        "weight": 330
     },
     "TREASURERY" : {
         "weight": 1200
@@ -150,7 +147,7 @@
         "weight": 500
     },
     "INVENTORY" : {
-        "weight": 440
+        "weight": 770
     },
     "MULTISTORAGE" : {
         "weight": 60
@@ -163,9 +160,6 @@
     },
     "QUALINSP" : {
         "weight": 650
-    },
-    "BARCODE" : {
-        "weight": 330
     },
     "LOTSSERIALS" : {
         "weight": 165

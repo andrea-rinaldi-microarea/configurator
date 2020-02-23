@@ -15,7 +15,7 @@ Financials;;CONT;FINANCIALS;FALSE;Financials,AGOConnector,BEOConnector,FiscoAzie
 ;Automatic Accrual and Deferrals;CONT;ACCRDEFERR;FALSE;AccrualsDeferrals;;
 ;Balance Analysis and Reclassifications;CONT;BALANALYSYS;FALSE;BalanceAnalysis;;
 ;Professionals Fees and Withholding Tax;CONT;PAYEES;FALSE;Payees;IT,RS,HR,CL,RO,NL,TN,ES;
-Advanced Banks Management;;BAPL;BANKPLUS;FALSE;Banks_Plus;IT;
+Advanced Banks Management;;BAPL;;TRUE;;IT;
 Fixed Assets;;CSPT;FIXASSETS;FALSE;FixedAssets;;
 Forecast Accounting;;COPR;FOREACC;FALSE;ForecastAccounting;;
 XBRL Balance;;XBRL;XBRL;FALSE;XBRL;IT;
@@ -54,7 +54,7 @@ Inventory;;MAGA;INVENTORY;FALSE;Inventory;;
 ;LIFO/FIFO Continuous Rises;MAGA;SINGSTEPLF;FALSE;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;
 ;Inventory Adjustments Entries;MAGA;INVADJUST;FALSE;InventoryAdjustment;;
 Quality Inspections;;INSP;QUALINSP;FALSE;QualityInspection;;
-Barcode Manager;;BARC;BARCODE;FALSE;Barcode;;
+Barcode Manager;;BARC;;TRUE;;;
 Lots and Serial Numbers;;LOTT;LOTSSERIALS;FALSE;LotsSerials;;
 WMS;Basic;WMAA;WMSBASIC;FALSE;WMSBasic;;
 ;Advanced;WMAD;WMSADV;FALSE;WMSAdvanced;;
