@@ -87,3 +87,4 @@ Security;;OSLL;SECURITY;FALSE;Security;;
 ;Auditing;AUDT;AUDITING;FALSE;Auditing;;
 ;Visibility;VISI;VISIBILITY;FALSE;;;
 _Xgate;;XGAT;;TRUE;;;
+IMS Custom Flows;;ISCF;;TRUE;;;

@@ -155,6 +155,10 @@
         "license": 550,
         "mlu": 99
     },
+    "ISCF" : {
+        "license": 500,
+        "mlu": 90
+    },
     "ADPK": {
         "license": 1265,
         "mlu": 228 

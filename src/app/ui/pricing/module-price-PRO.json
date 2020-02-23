@@ -204,8 +204,12 @@
         "mlu": 69.00
     },
     "MAIF" : {
-        "license": 550.00,
-        "mlu": 99.00
+        "license": 660.00,
+        "mlu": 119.00
+    },
+    "ISCF" : {
+        "license": 600,
+        "mlu": 108
     },
     "ADPK": {
         "license": 1705,
