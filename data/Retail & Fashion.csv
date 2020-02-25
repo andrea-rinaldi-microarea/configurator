@@ -4,7 +4,7 @@ _Base Module;;SEVR;SERVER;False;Server;;;X;X;X;X;True
 ;Multicurrency;SEVR;CURRENCIES;False;Currencies;;;;X;X;X;True
 ;Contacts Management;SEVR;CONTACTS;False;Contacts;;;;;;;False
 ;Budget (Cust/Supp);SEVR;BUDGET;False;Budget;;;;;;;False
-Financials;;CONT;FINANCIALS;False;Financials,AGOConnector,BEOConnector,FiscoAziendaConnector,OMNIAConnector,PayrollImport,ProRata,TravelAgencyVAT,CADI;;;X;X;X;X;True
+Financials;;CONT;FINANCIALS;False;Financials,AGOConnector,BEOConnector,FiscoAziendaConnector,OMNIAConnector,PayrollImport,ProRata,TravelAgencyVAT,CADI,Banks_Plus;;;X;X;X;X;True
 ;Customizable Tax Journals;CONT;MULTITAXJ;False;MultiTaxJournals;;;;X;X;X;True
 ;Customizable Accounting Templates;CONT;CUSTACCTPL;False;CustomizedAccountingTemplates;;;;X;X;X;True
 ;Purchase Electronic Invoice Accounting Import;CPCO;ACCPURELEINV;False;PurchaseElectronicInvoicing;IT;;;X;X;X;True
@@ -49,7 +49,7 @@ Purchase Orders;;ORFO;PURCHORD;False;PurchaseOrders;;;X;X;X;X;True
 ;Supplier Quotations;ORFO;SUPPQUOT;False;SupplierQuotations;;;;;;;False
 Purchases;;ACQT;PURCHASES;False;Purchases;;;;X;X;X;True
 ;Electronic Invoices Import in Purchase Documents;CPAC;PURCHELEINV;False;;;;;;X;X;True
-Inventory;;MAGA;INVENTORY;False;Inventory;;;X;X;X;X;True
+Inventory;;MAGA;INVENTORY;False;Inventory,Barcode;;;X;X;X;X;True
 ;Multistorage;MAGA;MULTISTORAGE;False;MultiStorage;;;;X;X;X;True
 ;LIFO/FIFO Continuous Rises;MAGA;SINGSTEPLF;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;;;;X;True
 ;Inventory Adjustments Entries;MAGA;INVADJUST;False;InventoryAdjustment;;;;;;X;True
