@@ -1,0 +1,24 @@
+﻿<Application container="Applications" name="MDC">
+  <Module name="Core" />
+  <Module name="Core_IT">
+    <Allow iso="IT" />
+  </Module>
+  <Module name="ElectronicInvoicing">
+    <Allow iso="IT,HU,BR" />
+  </Module>
+  <Module name="ElectronicInvoicing_IT">
+    <Allow iso="IT" />
+  </Module>
+  <Module name="ElectronicInvoicing_HU">
+    <Allow iso="HU" />
+  </Module>
+  <Module name="ElectronicInvoicing_BR">
+    <Allow iso="BR" />
+  </Module>
+  <Module name="FATEL">
+    <Allow iso="IT" />
+  </Module>
+  <Functionality name="EICoding">
+    <Allow iso="IT,ES" />
+  </Functionality>
+</Application>

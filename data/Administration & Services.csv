@@ -15,7 +15,7 @@ Financials;;CONT;FINANCIALS;False;Financials,AGOConnector,BEOConnector,FiscoAzie
 ;Automatic Accrual and Deferrals;CONT;ACCRDEFERR;False;AccrualsDeferrals;;;;X;X;X;True
 ;Balance Analysis and Reclassifications;CONT;BALANALYSYS;False;BalanceAnalysis;;;;;X;X;True
 ;Professionals Fees and Withholding Tax;CONT;PAYEES;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;X;True
-Advanced Banks Management;;BAPL;;True;;IT;;;;;;True
+Advanced Banks Management;;BAPL;;True;;IT;;;;;;False
 Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;X;X;X;True
 Forecast Accounting;;COPR;FOREACC;False;ForecastAccounting;;;;;;X;True
 XBRL Balance;;XBRL;XBRL;False;XBRL;IT;;;;;X;True

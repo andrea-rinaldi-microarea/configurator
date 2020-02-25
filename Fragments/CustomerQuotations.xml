@@ -1,0 +1,3 @@
+﻿  <Application container="Applications" name="ERP">
+    <Module name="CustomerQuotations" />
+  </Application>

@@ -1,0 +1,10 @@
+﻿<Application container="Applications" name="ERP">
+  <Module name="CostAccounting" />
+  <Module name="ChartOfAccounts" />
+  <Functionality name="ChartOfAccounts_CH">
+    <Allow iso="CH" />
+  </Functionality>
+  <Module name="ProductLines">
+    <Allow iso="DE" />
+  </Module>
+</Application>

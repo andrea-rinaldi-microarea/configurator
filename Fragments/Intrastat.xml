@@ -1,0 +1,29 @@
+﻿  <Application container="Applications" name="ERP">
+    <Module name="Intrastat">
+      <Allow iso="AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES" />
+    </Module>
+    <Functionality name="Intrastat_GR">
+      <Allow iso="GR" />
+    </Functionality>
+    <Functionality name="Intrastat_BG">
+      <Allow iso="BG" />
+    </Functionality>
+    <Functionality name="Intrastat_RO">
+      <Allow iso="RO" />
+    </Functionality>
+	<Functionality name="Intrastat_HU">
+	  <Allow iso="HU" />
+	</Functionality>
+    <Functionality name="Intrastat_PL">
+      <Allow iso="PL" />
+    </Functionality>
+    <Functionality name="Intrastat_ES">
+      <Allow iso="ES" />
+    </Functionality>
+    <Functionality name="Intra_Services_Disabled">
+      <Allow iso="ES" />
+    </Functionality>
+    <Functionality name="Intrastat_NO_IT">
+      <Allow iso="AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES" />
+    </Functionality>
+  </Application>

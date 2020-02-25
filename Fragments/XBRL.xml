@@ -1,0 +1,5 @@
+<Application container="Applications" name="ERP">
+  <Module name="XBRL">
+    <Allow iso="IT" />
+  </Module>
+</Application>

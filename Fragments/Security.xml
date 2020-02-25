@@ -1,0 +1,4 @@
+﻿  <Application container="TaskBuilder" name="Extensions">
+    <Module name="TbSecurity" />
+    <Functionality name="SecurityStandard" />
+  </Application>

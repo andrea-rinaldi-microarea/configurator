@@ -1,0 +1,5 @@
+﻿<Application container="Applications" name="ERP">
+  <Functionality name="Plafond">
+    <Allow iso="IT,HU" />
+  </Functionality>
+</Application>

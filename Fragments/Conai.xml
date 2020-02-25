@@ -1,0 +1,5 @@
+  <Application container="Applications" name="ERP">
+    <Module name="Conai">
+		<Allow iso="IT,RO,BG,HU,ES" />
+    </Module>
+  </Application>

@@ -1,0 +1,9 @@
+<Application container="Applications" name="ERP">
+  <Functionality name="DocumentCopy" />
+  <Functionality name="DocumentDetailImportExport" />
+  <Functionality name="ProductCategories" />
+  <Functionality name="PurchaseBarCode" />
+  <Module name="TESANConnector">
+    <Allow iso="IT" />
+  </Module>
+</Application>

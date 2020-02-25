@@ -15,7 +15,7 @@ Financials;;CONT;FINANCIALS;False;Financials,AGOConnector,BEOConnector,FiscoAzie
 ;Automatic Accrual and Deferrals;CONT;ACCRDEFERR;False;AccrualsDeferrals;;;;X;X;X;True
 ;Balance Analysis and Reclassifications;CONT;BALANALYSYS;False;BalanceAnalysis;;;;;X;X;True
 ;Professionals Fees and Withholding Tax;CONT;PAYEES;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;X;True
-Advanced Banks Management;;BAPL;;True;;IT;;;;;;True
+Advanced Banks Management;;BAPL;;True;;IT;;;;;;False
 Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;X;X;X;True
 Forecast Accounting;;COPR;FOREACC;False;ForecastAccounting;;;;;;X;True
 XBRL Balance;;XBRL;XBRL;False;XBRL;IT;;;;;X;True
@@ -54,7 +54,7 @@ Inventory;;MAGA;INVENTORY;False;Inventory,Barcode;;;X;X;X;X;True
 ;LIFO/FIFO Continuous Rises;MAGA;SINGSTEPLF;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;;;;X;True
 ;Inventory Adjustments Entries;MAGA;INVADJUST;False;InventoryAdjustment;;;;;;X;True
 Quality Inspections;;INSP;QUALINSP;False;QualityInspection;;;;;;X;True
-Barcode Manager;;BARC;;True;;;;;;;;True
+Barcode Manager;;BARC;;True;;;;;;;;False
 Lots and Serial Numbers;;LOTT;LOTSSERIALS;False;LotsSerials;;;;;X;X;True
 WMS;Basic;WMAA;WMSBASIC;False;WMSBasic;;;;;X/0;X;True
 ;Advanced;WMAD;WMSADV;False;WMSAdvanced;;;;;;X;True

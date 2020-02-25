@@ -1,0 +1,111 @@
+  <Application container="TaskBuilder" name="Extensions">
+    <Functionality name="SOSConnectorFunctionality" >
+      <Allow iso="IT" />
+    </Functionality>
+  </Application>
+  <Application container="Applications" name="ERP">
+    <Module name="Core" />
+    <Module name="IBConnector" />
+    <Module name="IdsMng" />
+    <Module name="Company" />
+    <Module name="CustomersSuppliers" />
+    <Module name="Banks" />
+    <Module name="Shippings" />
+    <Module name="PaymentTerms" />
+    <Module name="Jobs" />
+    <Module name="Business_BR">
+      <Allow iso="BR" />
+    </Module>
+    <Functionality name="CustSuppForm" />
+    <Functionality name="EuropeanUnion">
+      <Allow iso="AT,BE,CY,DK,EE,FI,FR,DE,GR,IE,IT,LT,LV,LU,MT,NL,PL,PT,GB,CZ,SK,SI,ES,SE,HU,RO,BG,HR" />
+    </Functionality>
+    <Functionality name="Stamps">
+      <Allow iso="IT,TN" />
+    </Functionality>
+    <Functionality name="DeclarationOfIntent">
+      <Allow iso="IT" />
+    </Functionality>
+    <Module name="SpecialTax">
+      <Allow iso="IT" />
+    </Module>
+    <Functionality name="HideEqualToValues">
+      <Allow iso="IT,CH,BR,DE,AT,ES,FR" />
+    </Functionality>
+    <Functionality name="CompanyAdditionalData">
+      <Allow iso="IT" />
+    </Functionality>
+    <Functionality name="CIN">
+      <Allow iso="IT" />
+    </Functionality>
+    <Functionality name="SEPA">
+      <Allow iso="IT,ES,DE,CH,FR" />
+    </Functionality>
+    <Module name="ChartOfAccounts">
+      <Allow iso="BR,DE" />
+    </Module>
+    <Functionality name="ChartOfAccountsGroups">
+      <Allow iso="BR" />
+    </Functionality>
+    <Functionality name="VATCalculation">
+      <Deny iso="BR" />
+    </Functionality>
+    <Functionality name="MasterData_RO">
+      <Allow iso="RO,RS,HR" />
+    </Functionality>
+    <Functionality name="MasterData_IT">
+      <Allow iso="IT" />
+    </Functionality>
+    <Functionality name="MasterData_BG">
+      <Allow iso="BG" />
+    </Functionality>
+    <Functionality name="MasterData_BR">
+      <Allow iso="BR" />
+    </Functionality>
+    <Functionality name="MasterData_ES">
+      <Allow iso="ES" />
+    </Functionality>
+    <Functionality name="MasterData_DE">
+      <Allow iso="DE" />
+    </Functionality>
+    <Functionality name="MasterData_PL">
+      <Allow iso="PL" />
+    </Functionality>
+    <Functionality name="MasterData_CH">
+      <Allow iso="CH" />
+    </Functionality>
+    <Functionality name="MasterData_HU">
+      <Allow iso="HU" />
+    </Functionality>
+    <Functionality name="MasterData_GB">
+      <Allow iso="GB" />
+    </Functionality>
+    <Functionality name="MasterData_FR">
+      <Allow iso="FR" />
+    </Functionality>
+    <Functionality name="SplitTax">
+      <Allow iso="RO" />
+    </Functionality>
+    <Functionality name="DisableAutomaticClosing">
+      <Allow iso="RO,RS,HR" />
+    </Functionality>
+    <Functionality name="DisableLogNumberCheck">
+      <Allow iso="CH,SI,FR" />
+    </Functionality>
+    <Functionality name="AutomaticRoundingTotPayable">
+      <Allow iso="CH" />
+    </Functionality>
+    <Functionality name="TaxIdWithTaxOffice">
+      <Allow iso="TR" />
+    </Functionality>
+    <Functionality name="TAXExigibilityOnCollection">
+      <Allow iso="IT,RO,HU,ES,DE" />
+    </Functionality>
+    <Functionality name="AccountingRules">
+      <Allow iso="DE" />
+    </Functionality>
+    <Functionality name="PaymentDiscount">
+      <Allow iso="DE" />
+    </Functionality>   
+    <Module name="SOSConnector" />
+  </Application>

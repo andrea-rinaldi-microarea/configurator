@@ -1,0 +1,9 @@
+<Application container="Applications" name="ERP">
+  <Functionality name="Dunnings" />
+	  <Functionality name="DunningsPrint">
+		  <Allow iso="DE" />
+	  </Functionality>
+	  <Functionality name="DunningsCharges">
+		  <Allow iso="DE" />
+	  </Functionality>
+</Application>

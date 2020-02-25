@@ -1,0 +1,7 @@
+<Application container="Applications" name="ERP">
+  <Module name="BalanceAnalysis" />
+  <Functionality name="BalanceReports">
+    <Deny iso="IT" />
+  </Functionality>
+  <Functionality name="FinancialEconomicData" />
+</Application>

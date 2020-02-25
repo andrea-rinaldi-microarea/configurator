@@ -1,0 +1,5 @@
+<Application container="Applications" name="ERP">
+  <Module name="SingleStepLifoFifo">
+    <Allow iso="RO,RS,HR,PL,US,CN,JP,ES" />
+  </Module>
+</Application>

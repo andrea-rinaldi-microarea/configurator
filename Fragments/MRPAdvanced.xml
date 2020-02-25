@@ -1,0 +1,4 @@
+﻿
+  <Application container="Applications" name="ERP">
+    <Functionality name="MRPAdvanced"/>
+  </Application>

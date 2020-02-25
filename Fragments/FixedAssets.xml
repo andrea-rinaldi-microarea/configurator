@@ -1,0 +1,33 @@
+<Application container="Applications" name="ERP">
+<Module name="FixedAssets" />
+<Functionality name="FixedAssets_IT">
+  <Allow iso="IT" />
+</Functionality>
+<Functionality name="FixedAssets_RO">
+  <Allow iso="RO,BG,RS,HR" />
+</Functionality>
+  <Functionality name="MonthlyPostingInAccounting">
+  <Allow iso="RO,BG,RS,HR,BR" />
+</Functionality>
+<Functionality name="PeriodDepreciation">
+  <Allow iso="RO,RS,HR,HU,PL,CN,JP,BG,BR,ES" />
+</Functionality>
+<Functionality name="AcceleratedDepreciation">
+  <Allow iso="IT" />
+</Functionality>
+<Functionality name="DepreciationByLifePeriod">
+  <Allow iso="IT" />
+</Functionality>
+<Functionality name="FinancialDepreciation">
+  <Allow iso="IT" />
+</Functionality>
+<Functionality name="BalanceDepreciation">
+  <Allow iso="IT,RS,HR,HU,PL,BG,SK,ES" />
+</Functionality>
+<Functionality name="LifePeriodInMonths">
+  <Allow iso="BG,RS,HR" />
+</Functionality>
+<Functionality name="NonDepreciable">
+  <Allow iso="IT,HU,CN,JP,ES" />
+</Functionality>
+</Application>

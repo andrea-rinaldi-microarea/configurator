@@ -1,0 +1,6 @@
+<Application container="Applications" name="ERP">
+ <Module name="AP_AR_Plus" />
+  <Functionality name="VouchersReceivables">
+    <Deny iso="CN,CH,SI,RO,RS,HR,BR" />
+  </Functionality>
+</Application>

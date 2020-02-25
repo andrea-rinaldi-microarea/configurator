@@ -1,0 +1,191 @@
+﻿<Application container="Applications" name="ERP">
+  <Module name="ChartOfAccounts" />
+  <Functionality name="ChartOfAccounts_CH">
+    <Allow iso="CH" />
+  </Functionality>
+  <Module name="Accounting" />
+  <Module name="Accounting_IT">
+    <Allow iso="IT" />
+  </Module>
+<Module name="Accounting_RO">
+    <Allow iso="RO,RS,HR" />
+  </Module>
+  <Module name="Accounting_PL">
+    <Allow iso="PL" />
+  </Module>
+  <Module name="Accounting_AT">
+    <Allow iso="AT" />
+  </Module>
+  <Module name="Accounting_CH">
+    <Allow iso="CH" />
+  </Module>
+  <Module name="Accounting_CL">
+    <Allow iso="CL" />
+  </Module>
+  <Module name="Accounting_SI">
+    <Allow iso="SI" />
+  </Module>
+  <Module name="Accounting_BG">
+    <Allow iso="BG" />
+  </Module>
+  <Module name="Accounting_ES">
+    <Allow iso="ES" />
+  </Module>
+  <Module name="Accounting_FR">
+    <Allow iso="FR" />
+  </Module>
+  <Module name="Accounting_DE">
+    <Allow iso="DE" />
+  </Module>
+  <Functionality name="CorrectionInvoice">
+    <Allow iso="HU,RO,RS,PL,CN,JP" />
+  </Functionality>
+  <Functionality name="JournalSummary">
+    <Deny iso="RO,RS,HR,PL,CL,SI,DE" />
+  </Functionality>
+  <Functionality name="ContextualHeading">
+    <Deny iso="RO,RS,HR,PL,CL,SI,BG" />
+  </Functionality>
+  <Functionality name="PurchaseCredit">
+    <Deny iso="RO,RS,HR,PL,CL,SI,DE" />
+  </Functionality>
+  <Functionality name="MonthlyClosing">
+    <Allow iso="RO,RS,HR,BG" />
+  </Functionality>
+  <Module name="AP_AR" />
+  <Functionality name="PVR" >
+    <Allow iso="CH" /> 
+  </Functionality>
+  <Module name="PVRFonts" >
+    <Allow iso="CH" /> 
+  </Module>  
+  <Functionality name="Receivables" />
+<Functionality name="Payables" />
+	<Functionality name="BillsReceivables">
+		<Deny iso="RO,RS,HR,CN,SI,PL,BR" />
+	</Functionality>
+	<Functionality name="BillOfExchange">
+		<Allow iso="RO,RS,HR,BR" />
+	</Functionality>
+  <Functionality name="PaymentOrders">
+    <Deny iso="CN,BR" />
+  </Functionality>
+  <Functionality name="HCT">
+    <Allow iso="HU" />
+  </Functionality>
+  <Functionality name="CHCT">
+    <Allow iso="CH" />
+  </Functionality>
+  <Functionality name="SEPA_XML">
+    <Allow iso="ES,DE,FR" />
+  </Functionality>
+  <Functionality name="SDDMandatePrint">
+    <Allow iso="ES,DE,CH" />
+  </Functionality>
+  <Functionality name="ForeignSCT">
+    <Allow iso="IT,ES,DE,FR" />
+  </Functionality>
+  <Functionality name="JEReversal">
+    <Allow iso="BG" />
+  </Functionality>
+  <Module name="BankReconciliation">
+    <Allow iso="DE,CH,ES,FR" />
+  </Module>
+<Module name="SpecialTax" />
+  <Functionality name="SuspendedTax">
+    <Allow iso="IT,RO,RS,HR,PL,SI,HU,ES,DE" />
+  </Functionality>
+  <Functionality name="SuspendedTaxAtSettlement">
+    <Allow iso="PL,HR,SI" />
+  </Functionality>
+  <Functionality name="TaxExigibilityDelivery">
+    <Allow iso="IT" />
+  </Functionality>
+  <Functionality name="PurchaseTaxDeduction">
+    <Allow iso="IT" />
+  </Functionality>   
+  <Functionality name="MarginTAX">
+    <Allow iso="PL" />
+  </Functionality>
+  <Module name="PublishingTax">
+    <Allow iso="IT" />
+  </Module>
+  <Functionality name="UseTaxDistribution">
+    <Allow iso="IT,TR" />
+  </Functionality>
+  <Functionality name="DotMatrixPrinter">
+    <Allow iso="IT" />
+  </Functionality>
+  <Functionality name="TaxAccrualDateDelivery">
+    <Allow iso="HU" />
+  </Functionality>
+   <Functionality name="BlockAccountingPeriod">
+      <Allow iso="HU,DE" />
+    </Functionality>
+  <Functionality name="MultiTaxAccounts" >
+    <Allow iso="CH,PL,RS,HR,DE,FR,AT" />
+  </Functionality>
+  <Functionality name="RetailSalesMultiTaxAccounts" >
+    <Allow iso="PL,DE,FR" />
+  </Functionality>
+  <Functionality name="NegativeSignForCreditNote">
+    <Allow iso="SI,BG" />
+  </Functionality>
+  <Module name="AGOConnector">
+    <Allow iso="IT" />
+  </Module>  
+  <Module name="BEOConnector">
+    <Allow iso="IT" />
+  </Module>
+  <Module name="FiscoAziendaConnector">
+    <Allow iso="IT" />
+  </Module>
+  <Module name="OMNIAConnector">
+    <Allow iso="IT" />
+  </Module>
+  <Module name="PayrollImport">
+    <Allow iso="IT" />
+  </Module>
+  <Functionality name="ProRata">
+    <Allow iso="IT,RO,RS,HR,ES" />
+  </Functionality>
+  <Functionality name="TravelAgencyVAT">
+    <Allow iso="IT" />
+  </Functionality>
+  <Functionality name="SEPA_XML" >
+      <Allow iso="IT" />
+  </Functionality>
+  <Functionality name="BanksDownloader" >
+      <Allow iso="IT" />
+  </Functionality>
+  <Functionality name="SDDMandatePrint" >
+      <Allow iso="IT" />
+  </Functionality>
+  <Functionality name="ForeignSCT" >
+      <Allow iso="IT" />
+  </Functionality>
+  <Module name="BankReconciliation">
+      <Allow iso="IT" />
+  </Module>
+</Application>
+<Application container="Applications" name="MDC">
+  <Module name="Core" />
+  <Module name="Core_IT">
+    <Allow iso="IT" />
+  </Module>
+  <Module name="ElectronicInvoicing">
+    <Allow iso="IT,HU,BR" />
+  </Module>
+  <Module name="FATEL">
+    <Allow iso="IT" />
+  </Module>
+  <Functionality name="EICoding">
+    <Allow iso="IT,ES" />
+  </Functionality>
+  <Module name="TaxSettlement_IT">
+    <Allow iso="IT" />
+  </Module>
+  <Module name="TaxDocuments_IT">
+    <Allow iso="IT" />
+  </Module>
+</Application>
