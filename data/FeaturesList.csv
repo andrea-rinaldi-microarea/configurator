@@ -31,7 +31,7 @@ Sales / Purchases;;VEDT;SALES;FALSE;SalePurchaseDocuments;;
 ;Advanced Items Management;VEDT;ITEMADV;FALSE;AdvancedItemsManagement;;
 Sale Orders;;ORCL;SALORDERS;FALSE;SaleOrders;;
 ;Customer Quotations;ORCL;CUSTQUOTA;FALSE;CustomerQuotations;;
-Sale Invoices / Delivery Notes;;VEDT;SALES;FALSE;Sales,ElectronicInvoicing;;
+Sale Invoices / Delivery Notes;;VEDT;SALES;FALSE;Sales;;
 ;Multiple Stub Books;VEDT;MULTISTUB;FALSE;MultiStubBooks;;
 ;Picking List;VEDT;PICKLIST;FALSE;PickingList;;
 e-commerce;;;ECOMM;FALSE;;;

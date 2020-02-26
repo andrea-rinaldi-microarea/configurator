@@ -4,7 +4,7 @@ _Base Module;;SEVR;SERVER;False;Server;;;X;X;X;X;True
 ;Multicurrency;SEVR;CURRENCIES;False;Currencies;;;;X;X;X;True
 ;Contacts Management;SEVR;CONTACTS;False;Contacts;;;;;;;False
 ;Budget (Cust/Supp);SEVR;BUDGET;False;Budget;;;;;;;False
-Financials;;CONT;FINANCIALS;False;Financials,AGOConnector,BEOConnector,FiscoAziendaConnector,OMNIAConnector,PayrollImport,ProRata,TravelAgencyVAT,CADI,Banks_Plus;;;X;X;X;X;True
+Financials;;CONT;FINANCIALS;False;Financials;;;X;X;X;X;True
 ;Customizable Tax Journals;CONT;MULTITAXJ;False;MultiTaxJournals;;;;X;X;X;True
 ;Customizable Accounting Templates;CONT;CUSTACCTPL;False;CustomizedAccountingTemplates;;;;X;X;X;True
 ;Purchase Electronic Invoice Accounting Import;CPCO;ACCPURELEINV;False;PurchaseElectronicInvoicing;IT;;;X;X;X;True
@@ -20,18 +20,18 @@ Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;X;X;X;True
 Forecast Accounting;;COPR;FOREACC;False;ForecastAccounting;;;;;;X;True
 XBRL Balance;;XBRL;XBRL;False;XBRL;IT;;;;;X;True
 Accounting Books and Balance Attachments;;LIBR;ACCBOOKS;False;AccountingBooks;;;;;;X;True
-Balance Analysis (Basel II);;BAII;BASELII;False;Basel_II;IT;;;;;X;True
+Balance Analysis (Basel II);;BAII;BASELII;False;;IT;;;;;X;True
 Consolidated Balance;;BICO;MULTICOMPBAL;False;MultiCompanyBalances;;;;;;X;True
 Cost Accounting;;COAN;COSTACC;False;CostAccounting;;;;;X;X;True
 ;Product Lines;CFIN;PRODLINES;False;ProductLines;;;;;;X;True
 ;Transfers;CFIN;COSTACCTRAN;False;CostAccountingTransfer;;;;;;X;True
 Cash Management;;CASH;CASH;False;Cash;;IT,CH,BR;;;;X;True
 Intrastat;;INTR;INTRASTAT;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;;X;X;X;True
-Sales / Purchases;;VEDT;SALES;False;DocumentCopy,DocumentDetailImportExport,PurchaseBarCode,ProductCategories,TESANConnector;;;X;X;X;X;True
-;Advanced Items Management;VEDT;ITEMADV;False;PricePolicies,ChargePolicies,SubstituteItems,SmartCode,AdvancedUoMs,AdditionalQty;;;;X;X;X;True
+Sales / Purchases;;VEDT;SALES;False;SalePurchaseDocuments;;;X;X;X;X;True
+;Advanced Items Management;VEDT;ITEMADV;False;AdvancedItemsManagement;;;;X;X;X;True
 Sale Orders;;ORCL;SALORDERS;False;SaleOrders;;;;X/0;X/0;X/0;True
 ;Customer Quotations;ORCL;CUSTQUOTA;False;CustomerQuotations;;;;;;;False
-Sale Invoices / Delivery Notes;;VEDT;SALES;False;Sales,ElectronicInvoicing;;;X;X;X;X;True
+Sale Invoices / Delivery Notes;;VEDT;SALES;False;Sales;;;X;X;X;X;True
 ;Multiple Stub Books;VEDT;MULTISTUB;False;MultiStubBooks;;;;;;;False
 ;Picking List;VEDT;PICKLIST;False;PickingList;;;;;;;False
 e-commerce;;;ECOMM;False;;;;;;;;False
@@ -49,7 +49,7 @@ Purchase Orders;;ORFO;PURCHORD;False;PurchaseOrders;;;;;;;False
 ;Supplier Quotations;ORFO;SUPPQUOT;False;SupplierQuotations;;;;;;;False
 Purchases;;ACQT;PURCHASES;False;Purchases;;;;;;;False
 ;Electronic Invoices Import in Purchase Documents;CPAC;PURCHELEINV;False;;;;;;;;False
-Inventory;;MAGA;INVENTORY;False;Inventory,Barcode;;;;;;;False
+Inventory;;MAGA;INVENTORY;False;Inventory;;;;;;;False
 ;Multistorage;MAGA;MULTISTORAGE;False;MultiStorage;;;;;;;False
 ;LIFO/FIFO Continuous Rises;MAGA;SINGSTEPLF;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;;;;;False
 ;Inventory Adjustments Entries;MAGA;INVADJUST;False;InventoryAdjustment;;;;;;;False
