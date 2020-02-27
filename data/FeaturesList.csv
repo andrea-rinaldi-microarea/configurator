@@ -1,4 +1,4 @@
-Module;Functionality;Tag;Name;Discontinued;Fragments;AllowISO;DenyISO
+Module;Functionality;Tag;Name;Discontinued;Fragment;AllowISO;DenyISO
 _Base Module;;SEVR;SERVER;FALSE;Server;;
 ;Multilanguage descriptions;SEVR;LANGUAGES;FALSE;Languages;;
 ;Multicurrency;SEVR;CURRENCIES;FALSE;Currencies;;

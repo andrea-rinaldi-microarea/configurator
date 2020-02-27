@@ -4,9 +4,7 @@
     {
       "isModule": true,
       "description": "Base Module ",
-      "fragments": [
-        "Server"
-      ],
+      "fragment": "Server",
       "options": [
         {
           "edition": "STD",
@@ -29,13 +27,11 @@
     {
       "isModule": false,
       "description": "Multilanguage descriptions",
-      "fragments": [
-        "Languages"
-      ],
+      "fragment": "Languages",
       "options": [
         {
           "edition": "STD",
-          "availability": "always"
+          "availability": ""
         },
         {
           "edition": "PRM",
@@ -54,9 +50,7 @@
     {
       "isModule": false,
       "description": "Multicurrency",
-      "fragments": [
-        "Currencies"
-      ],
+      "fragment": "Currencies",
       "options": [
         {
           "edition": "STD",
@@ -79,9 +73,7 @@
     {
       "isModule": true,
       "description": "Financials ",
-      "fragments": [
-        "Financials"
-      ],
+      "fragment": "Financials",
       "options": [
         {
           "edition": "STD",
@@ -104,9 +96,7 @@
     {
       "isModule": false,
       "description": "Customizable Tax Journals",
-      "fragments": [
-        "MultiTaxJournals"
-      ],
+      "fragment": "MultiTaxJournals",
       "options": [
         {
           "edition": "STD",
@@ -129,9 +119,7 @@
     {
       "isModule": false,
       "description": "Customizable Accounting Templates",
-      "fragments": [
-        "CustomizedAccountingTemplates"
-      ],
+      "fragment": "CustomizedAccountingTemplates",
       "options": [
         {
           "edition": "STD",
@@ -154,9 +142,7 @@
     {
       "isModule": false,
       "description": "Purchase Electronic Invoice Accounting Import",
-      "fragments": [
-        "PurchaseElectronicInvoicing"
-      ],
+      "fragment": "PurchaseElectronicInvoicing",
       "options": [
         {
           "edition": "STD",
@@ -178,60 +164,8 @@
     },
     {
       "isModule": false,
-      "description": "Pro-rata Management",
-      "fragments": [
-        "ProRata"
-      ],
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Travel Agency VAT",
-      "fragments": [
-        "TravelAgencyVAT"
-      ],
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
       "description": "Plafond Management",
-      "fragments": [
-        "Plafond"
-      ],
+      "fragment": "Plafond",
       "options": [
         {
           "edition": "STD",
@@ -254,9 +188,7 @@
     {
       "isModule": false,
       "description": "Advanced AP/AR Management",
-      "fragments": [
-        "AP_AR_Plus"
-      ],
+      "fragment": "AP_AR_Plus",
       "options": [
         {
           "edition": "STD",
@@ -279,9 +211,7 @@
     {
       "isModule": false,
       "description": "Dunning letters",
-      "fragments": [
-        "Dunnings"
-      ],
+      "fragment": "Dunnings",
       "options": [
         {
           "edition": "STD",
@@ -304,9 +234,7 @@
     {
       "isModule": false,
       "description": "Payment Schedule Analysis and Cash Flow",
-      "fragments": [
-        "AP_AR_Analysis"
-      ],
+      "fragment": "AP_AR_Analysis",
       "options": [
         {
           "edition": "STD",
@@ -329,9 +257,7 @@
     {
       "isModule": false,
       "description": "Automatic Accrual and Deferrals",
-      "fragments": [
-        "AccrualsDeferrals"
-      ],
+      "fragment": "AccrualsDeferrals",
       "options": [
         {
           "edition": "STD",
@@ -354,9 +280,7 @@
     {
       "isModule": false,
       "description": "Balance Analysis and Reclassifications",
-      "fragments": [
-        "BalanceAnalysis"
-      ],
+      "fragment": "BalanceAnalysis",
       "options": [
         {
           "edition": "STD",
@@ -379,9 +303,7 @@
     {
       "isModule": false,
       "description": "Professionals Fees and Withholding Tax",
-      "fragments": [
-        "Payees"
-      ],
+      "fragment": "Payees",
       "options": [
         {
           "edition": "STD",
@@ -402,61 +324,9 @@
       ]
     },
     {
-      "isModule": false,
-      "description": "CADI (VAT settlement and documents data communication)",
-      "fragments": [
-        "CADI"
-      ],
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": true,
-      "description": "Advanced Banks Management ",
-      "fragments": [
-        "Banks_Plus"
-      ],
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
       "isModule": true,
       "description": "Fixed Assets ",
-      "fragments": [
-        "FixedAssets"
-      ],
+      "fragment": "FixedAssets",
       "options": [
         {
           "edition": "STD",
@@ -479,9 +349,7 @@
     {
       "isModule": true,
       "description": "Forecast Accounting ",
-      "fragments": [
-        "ForecastAccounting"
-      ],
+      "fragment": "ForecastAccounting",
       "options": [
         {
           "edition": "STD",
@@ -504,9 +372,7 @@
     {
       "isModule": true,
       "description": "XBRL Balance ",
-      "fragments": [
-        "XBRL"
-      ],
+      "fragment": "XBRL",
       "options": [
         {
           "edition": "STD",
@@ -529,9 +395,7 @@
     {
       "isModule": true,
       "description": "Accounting Books and Balance Attachments ",
-      "fragments": [
-        "AccountingBooks"
-      ],
+      "fragment": "AccountingBooks",
       "options": [
         {
           "edition": "STD",
@@ -554,9 +418,7 @@
     {
       "isModule": true,
       "description": "Balance Analysis (Basel II) ",
-      "fragments": [
-        "Basel_II"
-      ],
+      "fragment": "",
       "options": [
         {
           "edition": "STD",
@@ -579,9 +441,7 @@
     {
       "isModule": true,
       "description": "Consolidated Balance ",
-      "fragments": [
-        "MultiCompanyBalances"
-      ],
+      "fragment": "MultiCompanyBalances",
       "options": [
         {
           "edition": "STD",
@@ -604,9 +464,7 @@
     {
       "isModule": true,
       "description": "Cost Accounting ",
-      "fragments": [
-        "CostAccounting"
-      ],
+      "fragment": "CostAccounting",
       "options": [
         {
           "edition": "STD",
@@ -629,9 +487,7 @@
     {
       "isModule": false,
       "description": "Product Lines",
-      "fragments": [
-        "ProductLines"
-      ],
+      "fragment": "ProductLines",
       "options": [
         {
           "edition": "STD",
@@ -654,9 +510,7 @@
     {
       "isModule": false,
       "description": "Transfers",
-      "fragments": [
-        "CostAccountingTransfer"
-      ],
+      "fragment": "CostAccountingTransfer",
       "options": [
         {
           "edition": "STD",
@@ -679,9 +533,7 @@
     {
       "isModule": true,
       "description": "Cash Management ",
-      "fragments": [
-        "Cash"
-      ],
+      "fragment": "Cash",
       "options": [
         {
           "edition": "STD",
@@ -704,9 +556,7 @@
     {
       "isModule": true,
       "description": "Intrastat ",
-      "fragments": [
-        "Intrastat"
-      ],
+      "fragment": "Intrastat",
       "options": [
         {
           "edition": "STD",
@@ -729,13 +579,7 @@
     {
       "isModule": true,
       "description": "Sales / Purchases ",
-      "fragments": [
-        "Sales",
-        "DocumentCopy",
-        "DocumentDetailImportExport",
-        "PurhcaseBarCode",
-        "ProductCategories"
-      ],
+      "fragment": "SalePurchaseDocuments",
       "options": [
         {
           "edition": "STD",
@@ -758,13 +602,7 @@
     {
       "isModule": false,
       "description": "Advanced Items Management",
-      "fragments": [
-        "PricePolicies",
-        "ChargePolicies",
-        "SubstituteItems",
-        "SmartCode",
-        "AdvancedUoMs"
-      ],
+      "fragment": "AdvancedItemsManagement",
       "options": [
         {
           "edition": "STD",
@@ -787,9 +625,7 @@
     {
       "isModule": true,
       "description": "Sale Orders ",
-      "fragments": [
-        "SaleOrders"
-      ],
+      "fragment": "SaleOrders",
       "options": [
         {
           "edition": "STD",
@@ -812,34 +648,7 @@
     {
       "isModule": true,
       "description": "Sale Invoices / Delivery Notes ",
-      "fragments": [
-        ""
-      ],
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "description": "Sale Electronic Invoices",
-      "fragments": [
-        "ElectronicInvoicing"
-      ],
+      "fragment": "Sales",
       "options": [
         {
           "edition": "STD",
@@ -862,9 +671,7 @@
     {
       "isModule": true,
       "description": "CRM Infinity Connector",
-      "fragments": [
-        ""
-      ],
+      "fragment": "",
       "options": [
         {
           "edition": "STD",
@@ -887,9 +694,7 @@
     {
       "isModule": true,
       "description": "DMS Basic",
-      "fragments": [
-        ""
-      ],
+      "fragment": "",
       "options": [
         {
           "edition": "STD",
@@ -912,9 +717,7 @@
     {
       "isModule": false,
       "description": "Massive Archiving Plug-In",
-      "fragments": [
-        ""
-      ],
+      "fragment": "",
       "options": [
         {
           "edition": "STD",
@@ -937,9 +740,7 @@
     {
       "isModule": true,
       "description": "Job Scheduler ",
-      "fragments": [
-        "JobScheduler"
-      ],
+      "fragment": "JobScheduler",
       "options": [
         {
           "edition": "STD",
@@ -962,9 +763,7 @@
     {
       "isModule": true,
       "description": "Security ",
-      "fragments": [
-        "Security"
-      ],
+      "fragment": "Security",
       "options": [
         {
           "edition": "STD",
@@ -987,9 +786,7 @@
     {
       "isModule": false,
       "description": "Access profiles",
-      "fragments": [
-        "Security"
-      ],
+      "fragment": "Security",
       "options": [
         {
           "edition": "STD",
@@ -1012,9 +809,7 @@
     {
       "isModule": false,
       "description": "Auditing",
-      "fragments": [
-        "Auditing"
-      ],
+      "fragment": "Auditing",
       "options": [
         {
           "edition": "STD",
@@ -1037,9 +832,7 @@
     {
       "isModule": false,
       "description": "Visibility",
-      "fragments": [
-        ""
-      ],
+      "fragment": "",
       "options": [
         {
           "edition": "STD",

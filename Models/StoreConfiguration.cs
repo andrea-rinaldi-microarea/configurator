@@ -12,7 +12,7 @@ namespace Configurator.Models
     {
         public bool isModule {get; set;}
         public string description {get;set;}
-        public List<string> fragments {get;set;}
+        public string fragment {get;set;}
         public List<StoreFeatureOption> options {get;set;} = new List<StoreFeatureOption>();
     }
 

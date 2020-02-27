@@ -1,4 +1,4 @@
-Module;Functionality;Tag;Name;Discontinued;Fragments;AllowISO;DenyISO;Standard;Premium;Professional;Enterprise;Available
+Module;Functionality;Tag;Name;Discontinued;;AllowISO;DenyISO;Standard;Premium;Professional;Enterprise;Available
 _Base Module;;SEVR;SERVER;False;Server;;;X;X;X;X;True
 ;Multilanguage descriptions;SEVR;LANGUAGES;False;Languages;;;;X;X;X;True
 ;Multicurrency;SEVR;CURRENCIES;False;Currencies;;;;X;X;X;True
