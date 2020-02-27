@@ -7,6 +7,9 @@
 /out-tsc
 /wwwroot
 
+# generated output
+/output
+
 # dependencies
 /node_modules
 
