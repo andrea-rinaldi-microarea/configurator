@@ -184,11 +184,11 @@ export class ConfigurationComponent implements OnInit, DoCheck {
 
   isLinked(feature: Feature) {
     var idx = this.configuration.current.features.findIndex(feat => feature.module == feat.module && feature.functionality == feat.functionality);
-    return  feature.fragments != "" &&
-            feature.fragments != null &&
+    return  feature.fragment != "" &&
+            feature.fragment != null &&
             (
-              (idx > 0 && feature.fragments == this.configuration.current.features[idx - 1].fragments) ||
-              (idx < this.configuration.current.features.length - 1  && feature.fragments == this.configuration.current.features[idx + 1].fragments)
+              (idx > 0 && feature.fragment == this.configuration.current.features[idx - 1].fragment) ||
+              (idx < this.configuration.current.features.length - 1  && feature.fragment == this.configuration.current.features[idx + 1].fragment)
             );
   }
 
