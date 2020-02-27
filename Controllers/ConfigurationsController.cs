@@ -68,6 +68,7 @@ namespace Configurator.Controllers
         [HttpPost("export")]
         public IActionResult Export([FromBody] Configuration configuration)
         {
+            System.IO.Directory.CreateDirectory("output");
             using(TextWriter writer = new StreamWriter($"output\\{configuration.Name}.json", false))
             {
                 StoreConfiguration storeConfig = new StoreConfiguration();
