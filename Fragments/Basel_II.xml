@@ -1,0 +1,8 @@
+<Application container="Applications" name="ERP">
+    <Module name="Basel_II">
+      <Allow iso="IT" />
+    </Module>
+	<Functionality name="Basel_II_Excel">
+	  <Allow iso="IT" />
+	</Functionality>	
+  </Application>

@@ -1,4 +1,4 @@
-Module;Functionality;Tag;Name;Discontinued;;AllowISO;DenyISO;Standard;Premium;Professional;Enterprise;Available
+Module;Functionality;Tag;Name;Discontinued;Fragment;AllowISO;DenyISO;Standard;Premium;Professional;Enterprise;Available
 _Base Module;;SEVR;SERVER;False;Server;;;X;X;X;X;True
 ;Multilanguage descriptions;SEVR;LANGUAGES;False;Languages;;;;X;X;X;True
 ;Multicurrency;SEVR;CURRENCIES;False;Currencies;;;;X;X;X;True
@@ -20,7 +20,7 @@ Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;X;X;X;True
 Forecast Accounting;;COPR;FOREACC;False;ForecastAccounting;;;;;;X;True
 XBRL Balance;;XBRL;XBRL;False;XBRL;IT;;;;;X;True
 Accounting Books and Balance Attachments;;LIBR;ACCBOOKS;False;AccountingBooks;;;;;;X;True
-Balance Analysis (Basel II);;BAII;BASELII;False;;IT;;;;;X;True
+Balance Analysis (Basel II);;BAII;BASELII;False;Basel_II;IT;;;;;X;True
 Consolidated Balance;;BICO;MULTICOMPBAL;False;MultiCompanyBalances;;;;;;X;True
 Cost Accounting;;COAN;COSTACC;False;CostAccounting;;;;;X;X;True
 ;Product Lines;CFIN;PRODLINES;False;ProductLines;;;;;;X;True
@@ -35,9 +35,9 @@ Sale Invoices / Delivery Notes;;VEDT;SALES;False;Sales;;;X;X;X;X;True
 ;Multiple Stub Books;VEDT;MULTISTUB;False;MultiStubBooks;;;;X;X;X;True
 ;Picking List;VEDT;PICKLIST;False;PickingList;;;;;X;X;True
 e-commerce;;;ECOMM;False;;;;;;;;False
-Store Management;Backend;STMN;STOREMAN;False;;;;;;;;False
-;Variants / Size and Colors;STVA;STVARIANTS;False;;;;;;;;False
-;Restaurant Recipes;STRE;RECIPES;False;;;;;;;;False
+Store Management;Backend;STMN;STOREMAN;False;StoreManagement;;;;;;;False
+;Variants / Size and Colors;STVA;STVARIANTS;False;StoreVariants;;;;;;;False
+;Food Recipes;STRE;RECIPES;False;FoodRecipe;;;;;;;False
 ;In-store App Mobile;STMO;INSTOREAPP;False;;;;;;;;False
 CRM;Infinity Connector;MAIF;INFCONN;False;;;;;;X;X;True
 Conai;;CONA;CONAI;False;Conai;IT,RO,BG,HU,ES;;;;X;X;True

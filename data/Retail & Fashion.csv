@@ -20,7 +20,7 @@ Fixed Assets;;CSPT;FIXASSETS;False;FixedAssets;;;;X;X;X;True
 Forecast Accounting;;COPR;FOREACC;False;ForecastAccounting;;;;;;X;True
 XBRL Balance;;XBRL;XBRL;False;XBRL;IT;;;;;X;True
 Accounting Books and Balance Attachments;;LIBR;ACCBOOKS;False;AccountingBooks;;;;;;X;True
-Balance Analysis (Basel II);;BAII;BASELII;False;;IT;;;;;X;True
+Balance Analysis (Basel II);;BAII;BASELII;False;Basel_II;IT;;;;;X;True
 Consolidated Balance;;BICO;MULTICOMPBAL;False;MultiCompanyBalances;;;;;;X;True
 Cost Accounting;;COAN;COSTACC;False;CostAccounting;;;;;X;X;True
 ;Product Lines;CFIN;PRODLINES;False;ProductLines;;;;;;X;True
@@ -35,9 +35,9 @@ Sale Invoices / Delivery Notes;;VEDT;SALES;False;Sales;;;X;X;X;X;True
 ;Multiple Stub Books;VEDT;MULTISTUB;False;MultiStubBooks;;;;;;;False
 ;Picking List;VEDT;PICKLIST;False;PickingList;;;;;;;False
 e-commerce;;;ECOMM;False;;;;;Nr-User;Nr-User;Nr-User;True
-Store Management;Backend;STMN;STOREMAN;False;;;;X;X;X;X;True
-;Variants / Size and Colors;STVA;STVARIANTS;False;;;;;X/0;X/0;X;True
-;Restaurant Recipes;STRE;RECIPES;False;;;;;;;;False
+Store Management;Backend;STMN;STOREMAN;False;StoreManagement;;;X;X;X;X;True
+;Variants / Size and Colors;STVA;STVARIANTS;False;StoreVariants;;;;X/0;X/0;X;True
+;Food Recipes;STRE;RECIPES;False;FoodRecipe;;;;;;;False
 ;In-store App Mobile;STMO;INSTOREAPP;False;;;;;;Nr-User;Nr-User;True
 CRM;Infinity Connector;MAIF;INFCONN;False;;;;;;X;X;False
 Conai;;CONA;CONAI;False;Conai;IT,RO,BG,HU,ES;;;;;;False
