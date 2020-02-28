@@ -60,7 +60,7 @@ WMS;Basic;WMAA;WMSBASIC;False;WMSBasic;;;;X/0;X/0;X/0;True
 ;Advanced;WMAD;WMSADV;False;WMSAdvanced;;;;;;X/0;True
 ;Shipping;WMSH;WMSSHIP;False;WMSShipping;;;;;X/0;X/0;True
 ;Mobile - backend;WMRF;WMSMOB;False;WMSMobile;;;;X/0;X/0;X/0;True
-;Mobile - app;WMRC;WMSMOBAPP;False;WMSMobile;;;;Nr-User;Nr-User;Nr-User;True
+;Mobile - app;WMRC;WMSMOBAPP;False;;;;;Nr-User;Nr-User;Nr-User;True
 Resources Management;;SEVR;RESMAN;False;;;;;X;X;X;True
 Bill of Materials;;DIST;BILLOFMAT;False;BillOfMaterials;;;X;X;X;X;True
 ;Work Centers Calendar and Families;DIST;BILLOFMATADV;False;;;;;;;X;True
@@ -75,7 +75,7 @@ Advanced Manufacturing;;PRZA;MANUFADV;False;ManufacturingAdvanced;;;;;X;X;True
 ;Kanban;PRZA;KANBAN;False;Kanban;;;;;;X;True
 Open Orders;;OPOR;OPENORDERS;False;OpenOrders;;;;;X/0;X;True
 Manufacturing Mobile;backend;MANM;MANUFMOB;False;ManufacturingMobile;;;;X/0;X/0;X;True
-;app;MANC;MANUFMOBAPP;False;ManufacturingMobile;;;;Nr-User;Nr-User;Nr-User;True
+;app;MANC;MANUFMOBAPP;False;;;;;Nr-User;Nr-User;Nr-User;True
 Planning;Basic;PRZP;MANUFPLAN;False;ManufacturingPlanning;;;;;X;X;True
 ;Advanced Planning;PRPA;MRPADV;False;MRPAdvanced;;;;;;X/0;True
 Tools Management;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;;X;True
@@ -83,7 +83,7 @@ _DMS;Basic;EATT;DMSBASE;False;;;;;;X;X;True
 ;Massive Archiving Plug-In;MASS;DMSMASS;False;;;;;;;X;True
 Job Scheduler;;SCHD;JOBSCHEDUL;False;JobScheduler;;;;;;X;True
 Security;;OSLL;SECURITY;False;Security;;;;;X;X;True
-;Access profiles;OSLS;SECURITYADV;False;Security;;;;;X;X;True
+;Access profiles;OSLS;SECURITYADV;False;;;;;;X;X;True
 ;Auditing;AUDT;AUDITING;False;Auditing;;;;;X/0;X;True
 ;Visibility;VISI;VISIBILITY;False;;;;;;X/0;X;True
 _Xgate;;XGAT;;True;;;;;;;;False

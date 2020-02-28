@@ -1,179 +1,179 @@
 {
-    "SERVER" : {
+    "Server" : {
         "weight": 165
     },
-    "LANGUAGES" : {
+    "Languages" : {
         "weight": 90
     },
-    "CURRENCIES" : {
+    "Currencies" : {
         "weight": 90
     },
-    "CONTACTS" : {
+    "Contacts" : {
         "weight": 90
     },
-    "BUDGET" : {
+    "Budget" : {
         "weight": 60
     },
-    "FINANCIALS" : {
+    "Financials" : {
         "weight": 720
     },
-    "MULTITAXJ" : {
+    "MultiTaxJournals" : {
         "weight": 30
     },
-    "CUSTACCTPL" : {
+    "CustomizedAccountingTemplates" : {
         "weight": 30
     },
-    "PLAFOND" : {
+    "Plafond" : {
         "weight": 20
     },
-    "APARPLUS" : {
+    "AP_AR_Plus" : {
         "weight": 30
     },
-    "DUNNINGS" : {
+    "Dunnings" : {
         "weight": 30
     },
-    "APARANALSYS" : {
+    "AP_AR_Analysis" : {
         "weight": 30
     },
-    "ACCRDEFERR" : {
+    "AccrualsDeferrals" : {
         "weight": 20
     },
-    "BALANALYSYS" : {
+    "BalanceAnalysis" : {
         "weight": 50
     },
-    "PAYEES" : {
+    "Payees" : {
         "weight": 30
     },
-    "ACCPURELEINV" : {
+    "PurchaseElectronicInvoicing" : {
         "weight": 150
     },
-    "TREASURERY" : {
-        "weight": 1200
-    },
-    "FIXASSETS" : {
+    "FixedAssets" : {
         "weight": 605
     },
-    "FOREACC" : {
+    "ForecastAccounting" : {
         "weight": 275
     },
     "XBRL" : {
         "weight": 550
     },
-    "ACCBOOKS" : {
+    "AccountingBooks" : {
         "weight": 440
     },
-    "BASELII" : {
+    "Basel_II" : {
         "weight": 330
     },
-    "MULTICOMPBAL" : {
+    "MultiCompanyBalances" : {
         "weight": 605
     },
-    "COSTACC" : {
+    "CostAccounting" : {
         "weight": 374
     },
-    "PRODLINES" : {
+    "ProductLines" : {
         "weight": 187
     },
-    "COSTACCTRAN" : {
+    "CostAccountingTransfer" : {
         "weight": 187
     },
-    "CASH" : {
+    "Cash" : {
         "weight": 110
     },
-    "INTRASTAT" : {
+    "Intrastat" : {
         "weight": 165
     },
-    "SALORDERS" : {
+    "SaleOrders" : {
         "weight": 290
     },
-    "CUSTQUOTA" : {
+    "CustomerQuotations" : {
         "weight": 95
     },
-    "SALES" : {
+    "SalePurchaseDocuments" : {
         "weight": 357
     },
-    "ITEMADV" : {
+    "Sales" : {
+        "weight": 0
+    },
+    "AdvancedItemsManagement" : {
         "weight": 73
     },
-    "CHARGEPOL" : {
+    "MultiStubBooks" : {
         "weight": 5
     },
-    "MULTISTUB" : {
+    "PickingList" : {
         "weight": 5
     },
-    "PICKLIST" : {
-        "weight": 5
+    "eCommerce" : {
+        "weight": 0
     },
-    "STOREMAN": {
+    "StoreManagement": {
         "weight": 1000
     },
     "INSTOREAPP": {
         "weight": 330
     },
-    "STVARIANTS": {
+    "StoreVariants": {
         "weight": 400
     },
-    "RECIPES": {
+    "FoodRecipe": {
         "weight": 400
     },
-    "CONAI" : {
+    "Conai" : {
         "weight": 165
     },
     "INFCONN" : {
         "weight": 550
     },
-    "RAEE" : {
+    "WEEE" : {
         "weight": 275
     },
-    "SALESFORCE" : {
+    "SalesPeople" : {
         "weight": 275
     },
-    "CREDLIMIT" : {
+    "CreditLimit" : {
         "weight": 275
     },
-    "ADDCHARGES" : {
+    "AdditionalCharges" : {
         "weight": 150
     },
-    "PURCHORD" : {
+    "PurchaseOrders" : {
         "weight": 290
     },
-    "SUPPQUOT" : {
+    "SupplierQuotations" : {
         "weight": 95
     },
-    "PURCHASES" : {
+    "Purchases" : {
         "weight": 605
     },
-    "PURCHELEINV" : {
+    "PurchaseElectronicInvoicingAdv" : {
         "weight": 500
     },
-    "INVENTORY" : {
+    "Inventory" : {
         "weight": 770
     },
-    "MULTISTORAGE" : {
+    "MultiStorage" : {
         "weight": 60
     },
-    "SINGSTEPLF" : {
+    "SingleStepLifoFifo" : {
         "weight": 35
     },
-    "INVADJUST" : {
+    "InventoryAdjustment" : {
         "weight": 15
     },
-    "QUALINSP" : {
+    "QualityInspection" : {
         "weight": 650
     },
-    "LOTSSERIALS" : {
+    "LotsSerials" : {
         "weight": 165
     },
-    "WMSBASIC" : {
+    "WMSBasic" : {
         "weight": 1650
     },
-    "WMSADV" : {
+    "WMSAdvanced" : {
         "weight": 2860
     },
-    "WMSSHIP" : {
+    "WMSShipping" : {
         "weight": 300
     },
-    "WMSMOB" : {
+    "WMSMobile" : {
         "weight": 1100
     },
     "WMSMOBAPP" : {
@@ -182,55 +182,55 @@
     "RESMAN" : {
         "weight": 100
     },
-    "BILLOFMAT" : {
+    "BillOfMaterials" : {
         "weight": 748
     },
     "BILLOFMATADV" : {
         "weight": 200
     },
-    "VARIANTS" : {
+    "Variants" : {
         "weight": 605
     },
-    "CONFIGUR" : {
+    "Configurator" : {
         "weight": 748
     },
-    "MANUFBASIC" : {
+    "ManufacturingBasic" : {
         "weight": 748
     },
-    "MANUFADV" : {
+    "ManufacturingAdvanced" : {
         "weight": 2500
     },
     "MANUFADVODP" : {
         "weight": 450
     },
-    "BILLOFMATPLUS" : {
+    "BillOfMaterialsPlus" : {
         "weight": 150
     },
     "ECO" : {
         "weight": 300
     },
-    "MANUFPLUS" : {
+    "ManufacturingPlus" : {
         "weight": 110
     },
-    "KANBAN" : {
+    "Kanban" : {
         "weight": 200
     },
-    "OPENORDERS" : {
+    "OpenOrders" : {
         "weight": 880
     },
-    "MANUFMOB" : {
+    "ManufacturingMobile" : {
         "weight": 1320
     },
     "MANUFMOBAPP" : {
         "weight": 330
     },
-    "MANUFPLAN" : {
+    "ManufacturingPlanning" : {
         "weight": 3300
     },
-    "MRPADV" : {
+    "MRPAdvanced" : {
         "weight": 2200
     },
-    "TOOLMANAG" : {
+    "ToolsManagement" : {
         "weight": 880
     },
     "DMSBASE" : {
@@ -239,10 +239,10 @@
     "DMSMASS" : {
         "weight": 300
     },
-    "JOBSCHEDUL" : {
+    "JobScheduler" : {
         "weight": 660
     },
-    "SECURITY" : {
+    "Security" : {
         "weight": 660
     },
     "SECURITYADV" : {
@@ -251,7 +251,7 @@
     "VISIBILITY" : {
         "weight": 3000
     },
-    "AUDITING" : {
+    "Auditing" : {
         "weight": 308
     }
 }

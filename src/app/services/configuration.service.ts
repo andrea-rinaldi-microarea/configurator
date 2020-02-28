@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 declare var require: any;
 const moduleTags = require("./module-tags.json");
 const modulesDescription = require("./modules-description.json");
-const featureWeights = require("./feature-weights.json");
+const fragmentWeights = require("./fragment-weights.json");
 
 @Injectable()
 export class ConfigurationService {
@@ -124,8 +124,10 @@ export class ConfigurationService {
     }
 
     public getWeight(feature: Feature): number {
-      if (featureWeights[feature.name]) {
-        return featureWeights[feature.name].weight;
+      if (fragmentWeights[feature.fragment]) {
+        return fragmentWeights[feature.fragment].weight;
+      } else if (fragmentWeights[feature.name]) {
+        return fragmentWeights[feature.name].weight;
       }
       return 0;
     }

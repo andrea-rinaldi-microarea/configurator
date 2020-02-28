@@ -60,7 +60,7 @@ WMS;Basic;WMAA;WMSBASIC;False;WMSBasic;;;;;;;False
 ;Advanced;WMAD;WMSADV;False;WMSAdvanced;;;;;;;False
 ;Shipping;WMSH;WMSSHIP;False;WMSShipping;;;;;;;False
 ;Mobile - backend;WMRF;WMSMOB;False;WMSMobile;;;;;;;False
-;Mobile - app;WMRC;WMSMOBAPP;False;WMSMobile;;;;;;;False
+;Mobile - app;WMRC;WMSMOBAPP;False;;;;;;;;False
 Resources Management;;SEVR;RESMAN;False;;;;;;;;False
 Bill of Materials;;DIST;BILLOFMAT;False;BillOfMaterials;;;;;;;False
 ;Work Centers Calendar and Families;DIST;BILLOFMATADV;False;;;;;;;;False
@@ -75,7 +75,7 @@ Advanced Manufacturing;;PRZA;MANUFADV;False;ManufacturingAdvanced;;;;;;;False
 ;Kanban;PRZA;KANBAN;False;Kanban;;;;;;;False
 Open Orders;;OPOR;OPENORDERS;False;OpenOrders;;;;;;;False
 Manufacturing Mobile;backend;MANM;MANUFMOB;False;ManufacturingMobile;;;;;;;False
-;app;MANC;MANUFMOBAPP;False;ManufacturingMobile;;;;;;;False
+;app;MANC;MANUFMOBAPP;False;;;;;;;;False
 Planning;Basic;PRZP;MANUFPLAN;False;ManufacturingPlanning;;;;;;;False
 ;Advanced Planning;PRPA;MRPADV;False;MRPAdvanced;;;;;;;False
 Tools Management;;ATTR;TOOLMANAG;False;ToolsManagement;;;;;;;False
@@ -83,7 +83,7 @@ _DMS;Basic;EATT;DMSBASE;False;;;;;;X;X;True
 ;Massive Archiving Plug-In;MASS;DMSMASS;False;;;;;;;X;True
 Job Scheduler;;SCHD;JOBSCHEDUL;False;JobScheduler;;;;;;X;True
 Security;;OSLL;SECURITY;False;Security;;;;;X;X;True
-;Access profiles;OSLS;SECURITYADV;False;Security;;;;;X;X;True
+;Access profiles;OSLS;SECURITYADV;False;;;;;;X;X;True
 ;Auditing;AUDT;AUDITING;False;Auditing;;;;;X/0;X;True
 ;Visibility;VISI;VISIBILITY;False;;;;;;X/0;X;True
 _Xgate;;XGAT;;True;;;;;;;;False
