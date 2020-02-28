@@ -34,7 +34,7 @@ Sale Orders;;ORCL;SALORDERS;FALSE;SaleOrders;;
 Sale Invoices / Delivery Notes;;VEDT;SALES;FALSE;Sales;;
 ;Multiple Stub Books;VEDT;MULTISTUB;FALSE;MultiStubBooks;;
 ;Picking List;VEDT;PICKLIST;FALSE;PickingList;;
-e-commerce;;;ECOMM;FALSE;;;
+e-commerce;;ECOM;ECOMM;FALSE;eCommerce;;
 Store Management;Backend;STMN;STOREMAN;FALSE;StoreManagement;;
 ;Variants / Size and Colors;STVA;STVARIANTS;FALSE;StoreVariants;;
 ;Food Recipes;STRE;RECIPES;FALSE;FoodRecipe;;
@@ -48,7 +48,7 @@ Additional Charges;;SEVR;ADDCHARGES;FALSE;AdditionalCharges;;BR
 Purchase Orders;;ORFO;PURCHORD;FALSE;PurchaseOrders;;
 ;Supplier Quotations;ORFO;SUPPQUOT;FALSE;SupplierQuotations;;
 Purchases;;ACQT;PURCHASES;FALSE;Purchases;;
-;Electronic Invoices Import in Purchase Documents;CPAC;PURCHELEINV;FALSE;;;
+;Electronic Invoices Import in Purchase Documents;CPAC;PURCHELEINV;FALSE;PurchaseElectronicInvoicingAdv;;
 Inventory;;MAGA;INVENTORY;FALSE;Inventory;;
 ;Multistorage;MAGA;MULTISTORAGE;FALSE;MultiStorage;;
 ;LIFO/FIFO Continuous Rises;MAGA;SINGSTEPLF;FALSE;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;
