@@ -1,3 +1,0 @@
-<Application container="Applications" name="ERP">
- <Module name="Languages" />
-</Application>

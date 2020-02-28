@@ -1,7 +1,0 @@
-  <Application container="Applications" name="ERP">
-    <Module name="WMS" />
-	<Functionality name="ContinuousInventory" >
-	  <Allow iso="RO" />
-	</Functionality>
-	<Module name="Barcode" />
-	</Application>

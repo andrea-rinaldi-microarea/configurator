@@ -1,5 +1,0 @@
-﻿  <Application container="Applications" name="ERP">
-    <Module name="WEEE">
-      <Allow iso="AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK" />
-    </Module>
-  </Application>

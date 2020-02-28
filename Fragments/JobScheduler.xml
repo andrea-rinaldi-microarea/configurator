@@ -1,3 +1,0 @@
-﻿  <Application container="TaskBuilder" name="MicroareaConsole">
-    <Module name="TaskScheduler" />
-  </Application>

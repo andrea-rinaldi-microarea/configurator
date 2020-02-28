@@ -1,6 +1,0 @@
-﻿ <Application container="TaskBuilder" name="Extensions">
-    <Module name="TbAuditing" />
-  </Application>
-  <Application container="TaskBuilder" name="MicroareaConsole">
-    <Module name="AuditingAdmin" />
-  </Application>

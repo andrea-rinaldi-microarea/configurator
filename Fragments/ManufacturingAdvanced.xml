@@ -1,7 +1,0 @@
-﻿
-  <Application container="Applications" name="ERP">
-    <Functionality name="MultiStepRouting" />
-    <Functionality name="FactoryStorages">
-      <Allow iso="RO" />
-    </Functionality>
-  </Application>

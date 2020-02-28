@@ -1,4 +1,0 @@
-<Application container="Applications" name="ERP">
- <Module name="QualityInspection" />
- <Functionality name="TechnicalNotes" />
-</Application>
