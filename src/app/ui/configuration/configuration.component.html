@@ -97,10 +97,10 @@
       <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="!feature.available" [class.module-sep]="feature.module != ''" [class.group-sep]="feature.module.startsWith('_')">
           <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.available" [options]="availableOptions"></app-toggler></td>
           <td [class.discontinued]="feature.discontinued">
-            <app-detailed-info [name]="feature.name||feature.tag">{{feature.module.replace('_','') | translate}}</app-detailed-info>
+            <app-detailed-info [name]="feature.fragment||feature.tag">{{feature.module.replace('_','') | translate}}</app-detailed-info>
           </td>  
           <td [class.discontinued]="feature.discontinued">
-            <app-detailed-info [name]="feature.name||feature.tag">{{hideFunctionalities ? "" : feature.functionality | translate}}</app-detailed-info>  
+            <app-detailed-info [name]="feature.fragment||feature.tag">{{hideFunctionalities ? "" : feature.functionality | translate}}</app-detailed-info>  
             <i class="fa fa-link" style="float:right" [hidden]="!isLinked(feature)" placement="right" ngbTooltip="Non attivabili separatamente"></i> 
             <i class="fa fa-exclamation-triangle text-danger" style="float:right" [hidden]="!missingFragment(feature)" placement="right" ngbTooltip="{{'Missing fragment for this feature' | translate }}"></i>
           </td> 
