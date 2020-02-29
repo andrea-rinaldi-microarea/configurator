@@ -126,8 +126,6 @@ export class ConfigurationService {
     public getWeight(feature: Feature): number {
       if (fragmentWeights[feature.fragment]) {
         return fragmentWeights[feature.fragment].weight;
-      } else if (fragmentWeights[feature.name]) {
-        return fragmentWeights[feature.name].weight;
       }
       return 0;
     }

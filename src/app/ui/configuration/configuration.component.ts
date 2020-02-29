@@ -232,4 +232,8 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     }
   }
 
+  missingFragment(feature: Feature) {
+    return (feature.fragment == "" || feature.fragment.startsWith("_"))  && !feature.discontinued;
+  }
+
 }
