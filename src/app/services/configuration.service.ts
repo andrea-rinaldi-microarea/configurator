@@ -108,7 +108,7 @@ export class ConfigurationService {
 
         // old discontinued features and new features that have no correspondance to existing ones are not counted as distance
         // count features once
-        if (feat.discontinued || feat.tag == "" || feat.tag == null || foundNames.includes(feat.name))
+        if (feat.discontinued || feat.tag == "" || feat.tag == null || foundNames.includes(feat.fragment))
           continue; 
         
         if (feat.customer) {
@@ -119,7 +119,7 @@ export class ConfigurationService {
         this.calculateDistance(feat, feat.professional, this.current.proDistance);
         this.calculateDistance(feat, feat.premium, this.current.prmDistance);
         this.calculateDistance(feat, feat.enterprise, this.current.entDistance);
-        foundNames.push(feat.name);
+        foundNames.push(feat.fragment);
       }
     }
 
@@ -158,14 +158,14 @@ export class ConfigurationService {
       var foundNames: string[] = [];
       for (var f = 0; f < this.current.features.length; f++) {
         var feat = this.current.features[f];
-        if (!feat.available || foundNames.includes(feat.name))
+        if (!feat.available || foundNames.includes(feat.fragment))
           continue;
 
         this.calculateWeight(feat, feat.standard, this.current.stdWeight);
         this.calculateWeight(feat, feat.premium, this.current.prmWeight);
         this.calculateWeight(feat, feat.professional, this.current.proWeight);
         this.calculateWeight(feat, feat.enterprise, this.current.entWeight);
-        foundNames.push(feat.name);
+        foundNames.push(feat.fragment);
       }
     }
   

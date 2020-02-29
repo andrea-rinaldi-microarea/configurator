@@ -4,7 +4,6 @@ export class Feature {
         public module: string,
         public functionality: string,
         public tag: string,
-        public name: string,
         public discontinued: boolean,
         public fragment: string,
         public available: boolean,

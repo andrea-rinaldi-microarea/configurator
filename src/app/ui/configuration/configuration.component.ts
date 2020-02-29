@@ -172,7 +172,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
         this.configuration.isIncluded(feat.tag, "SBPK") ? "SBPK" : "",
         this.configuration.isIncluded(feat.tag, "ADPK") ? "ADPK" : "",
         this.configuration.isIncluded(feat.tag, "TRPK") ? "TRPK" : "",
-        feat.name,
+        feat.fragment,
         feat.standard,
         feat.premium,
         feat.professional,
@@ -192,12 +192,12 @@ export class ConfigurationComponent implements OnInit, DoCheck {
             );
   }
 
-  sameNameOnPrevious(feature: Feature) {
+  sameFragmentOnPrevious(feature: Feature) {
     var idx = this.configuration.current.features.findIndex(feat => feature.module == feat.module && feature.functionality == feat.functionality);
-    return  feature.name != "" &&
-            feature.name != null &&
+    return  feature.fragment != "" &&
+            feature.fragment != null &&
             (
-              (idx > 0 && feature.name == this.configuration.current.features[idx - 1].name) 
+              (idx > 0 && feature.fragment == this.configuration.current.features[idx - 1].fragment) 
             );
   }
 
@@ -219,7 +219,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
   }
 
   getWeight(feature: Feature) {
-    if (!this.sameNameOnPrevious(feature)) {
+    if (!this.sameFragmentOnPrevious(feature)) {
       return this.configuration.getWeight(feature);
     }
   }
