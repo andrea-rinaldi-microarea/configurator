@@ -14,6 +14,7 @@
         public string Professional {get; set;}
         public string Enterprise {get; set;}
         public bool Included {get; set;}
+        public bool NotYetAvailable {get; set;}
     }
  }
  

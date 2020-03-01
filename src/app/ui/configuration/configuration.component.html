@@ -97,9 +97,11 @@
       <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.module != ''" [class.group-sep]="feature.module.startsWith('_')">
           <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
           <td [class.discontinued]="feature.discontinued">
+            <i class="fa fa-calendar text-warning" [hidden]="!feature.notYetAvailable || !feature.module || (feature.functionality && feature.module)" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
             <app-detailed-info [name]="feature.fragment||feature.tag">{{feature.module.replace('_','') | translate}}</app-detailed-info>
           </td>  
           <td [class.discontinued]="feature.discontinued">
+            <i class="fa fa-calendar text-warning" [hidden]="!feature.notYetAvailable || !feature.functionality" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
             <app-detailed-info [name]="feature.fragment||feature.tag">{{hideFunctionalities ? "" : feature.functionality | translate}}</app-detailed-info>  
             <i class="fa fa-link" style="float:right" [hidden]="!isLinked(feature)" placement="right" ngbTooltip="Non attivabili separatamente"></i> 
             <i class="fa fa-exclamation-triangle text-danger" style="float:right" [hidden]="!missingFragment(feature)" placement="right" ngbTooltip="{{'Missing fragment for this feature' | translate }}"></i>

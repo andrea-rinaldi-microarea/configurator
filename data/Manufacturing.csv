@@ -1,90 +1,90 @@
-Module;Functionality;Tag;Discontinued;Fragment;AllowISO;DenyISO;Standard;Premium;Professional;Enterprise;Included
-_Base Module;;SEVR;False;Server;;;X;X;X;X;True
-;Multilanguage descriptions;SEVR;False;Languages;;;;X;X;X;True
-;Multicurrency;SEVR;False;Currencies;;;;X;X;X;True
-;Contacts Management;SEVR;False;Contacts;;;;;X;X;True
-;Budget (Cust/Supp);SEVR;False;Budget;;;;;X;X;True
-Financials;;CONT;False;Financials;;;X;X;X;X;True
-;Customizable Tax Journals;CONT;False;MultiTaxJournals;;;;X;X;X;True
-;Customizable Accounting Templates;CONT;False;CustomizedAccountingTemplates;;;;X;X;X;True
-;Purchase Electronic Invoice Accounting Import;CPCO;False;PurchaseElectronicInvoicing;IT;;;X;X;X;True
-;Plafond Management;CONT;False;Plafond;IT,HU;;;X;X;X;True
-;Advanced AP/AR Management;CONT;False;AP_AR_Plus;;;;X;X;X;True
-;Dunning letters;CONT;False;Dunnings;;;;X;X;X;True
-;Payment Schedule Analysis and Cash Flow;CONT;False;AP_AR_Analysis;;;;;;X;True
-;Automatic Accrual and Deferrals;CONT;False;AccrualsDeferrals;;;;X;X;X;True
-;Balance Analysis and Reclassifications;CONT;False;BalanceAnalysis;;;;;X;X;True
-;Professionals Fees and Withholding Tax;CONT;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;X;True
-Advanced Banks Management;;BAPL;True;;IT;;;;;;False
-Fixed Assets;;CSPT;False;FixedAssets;;;;X;X;X;True
-Forecast Accounting;;COPR;False;ForecastAccounting;;;;;;X;True
-XBRL Balance;;XBRL;False;XBRL;IT;;;;;X;True
-Accounting Books and Balance Attachments;;LIBR;False;AccountingBooks;;;;;;X;True
-Balance Analysis (Basel II);;BAII;False;Basel_II;IT;;;;;X;True
-Consolidated Balance;;BICO;False;MultiCompanyBalances;;;;;;X;True
-Cost Accounting;;COAN;False;CostAccounting;;;;;X;X;True
-;Product Lines;CFIN;False;ProductLines;;;;;;X;True
-;Transfers;CFIN;False;CostAccountingTransfer;;;;;;X;True
-Cash Management;;CASH;False;Cash;;IT,CH,BR;;;;X;True
-Intrastat;;INTR;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;;X;X;X;True
-Sales / Purchases;;VEDT;False;SalePurchaseDocuments;;;X;X;X;X;True
-;Advanced Items Management;VEDT;False;AdvancedItemsManagement;;;;X;X;X;True
-Sale Orders;;ORCL;False;SaleOrders;;;X;X;X;X;True
-;Customer Quotations;ORCL;False;CustomerQuotations;;;;;X;X;True
-Sale Invoices / Delivery Notes;;VEDT;False;Sales;;;X;X;X;X;True
-;Multiple Stub Books;VEDT;False;MultiStubBooks;;;;X;X;X;True
-;Picking List;VEDT;False;PickingList;;;;;X;X;True
-e-commerce;;ECOM;False;eCommerce;;;;;;;False
-Store Management;Backend;STMN;False;StoreManagement;;;;;;;False
-;Variants / Size and Colors;STVA;False;StoreVariants;;;;;;;False
-;Food Recipes;STRE;False;FoodRecipe;;;;;;;False
-;In-store App Mobile;STMO;False;InStore_app;;;;;;;False
-CRM;Infinity Connector;MAIF;False;_INFCONN;;;;;X;X;True
-Conai;;CONA;False;Conai;IT,RO,BG,HU,ES;;;;X;X;True
-WEEE;;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;;;X;X;True
-Sales Force Management;;SFMG;False;SalesPeople;;;;;X;X;True
-Credit Limit Management;;CRED;False;CreditLimit;;;;;X;X;True
-Additional Charges;;SEVR;False;AdditionalCharges;;BR;;;X;X;True
-Purchase Orders;;ORFO;False;PurchaseOrders;;;X;X;X;X;True
-;Supplier Quotations;ORFO;False;SupplierQuotations;;;;;X;X;True
-Purchases;;ACQT;False;Purchases;;;;X;X;X;True
-;Electronic Invoices Import in Purchase Documents;CPAC;False;PurchaseElectronicInvoicingAdv;;;;;X;X;True
-Inventory;;MAGA;False;Inventory;;;X;X;X;X;True
-;Multistorage;MAGA;False;MultiStorage;;;;X;X;X;True
-;LIFO/FIFO Continuous Rises;MAGA;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;;;;X;True
-;Inventory Adjustments Entries;MAGA;False;InventoryAdjustment;;;;;;X;True
-Quality Inspections;;INSP;False;QualityInspection;;;;;;X;True
-Barcode Manager;;BARC;True;;;;;;;;False
-Lots and Serial Numbers;;LOTT;False;LotsSerials;;;;;X;X;True
-WMS;Basic;WMAA;False;WMSBasic;;;;X/0;X/0;X/0;True
-;Advanced;WMAD;False;WMSAdvanced;;;;;;X/0;True
-;Shipping;WMSH;False;WMSShipping;;;;;X/0;X/0;True
-;Mobile - backend;WMRF;False;WMSMobile;;;;X/0;X/0;X/0;True
-;Mobile - app;WMRC;False;WMSMobile_app;;;;Nr-User;Nr-User;Nr-User;True
-Resources Management;;SEVR;False;_RESMAN;;;;X;X;X;True
-Bill of Materials;;DIST;False;BillOfMaterials;;;X;X;X;X;True
-;Work Centers Calendar and Families;DIST;False;_BILLOFMATADV;;;;;;X;True
-;Engineering Changing Order;ECO;False;ECO;;;;;;X;True
-Variants;;VARI;False;Variants;;;;X;X;X;True
-Configurator;;CONF;False;Configurator;;;;;X;X;True
-Basic Manufacturing;;PRZB;False;ManufacturingBasic;;;X;X;X;X;True
-Advanced Manufacturing;;PRZA;False;ManufacturingAdvanced;;;;;X;X;True
-;MO Advanced Management;PRZA;False;_MANUFADVODP;;;;;X;X;True
-;Drawings Management, History and Versioning;PRZA;False;BillOfMaterialsPlus;;;;;;X;True
-;Control Panel;PRZA;False;ManufacturingPlus;;;;;X;X;True
-;Kanban;PRZA;False;Kanban;;;;;;X;True
-Open Orders;;OPOR;False;OpenOrders;;;;;X/0;X;True
-Manufacturing Mobile;backend;MANM;False;ManufacturingMobile;;;;X/0;X/0;X;True
-;app;MANC;False;ManufacturingMobile_app;;;;Nr-User;Nr-User;Nr-User;True
-Planning;Basic;PRZP;False;ManufacturingPlanning;;;;;X;X;True
-;Advanced Planning;PRPA;False;MRPAdvanced;;;;;;X/0;True
-Tools Management;;ATTR;False;ToolsManagement;;;;;;X;True
-_DMS;Basic;EATT;False;_DMSBASE;;;;;X;X;True
-;Massive Archiving Plug-In;MASS;False;_DMSMASS;;;;;;X;True
-Job Scheduler;;SCHD;False;JobScheduler;;;;;;X;True
-Security;;OSLL;False;Security;;;;;X;X;True
-;Access profiles;OSLS;False;_SECURITYADV;;;;;X;X;True
-;Auditing;AUDT;False;Auditing;;;;;X/0;X;True
-;Visibility;VISI;False;_VISIBILITY;;;;;X/0;X;True
-_Xgate;;XGAT;True;;;;;;;;False
-IMS Custom Flows;;ISCF;True;;;;;;;;False
+Module;Functionality;Tag;Discontinued;Fragment;AllowISO;DenyISO;Standard;Premium;Professional;Enterprise;Included;NotYetAvailable
+_Base Module;;SEVR;False;Server;;;X;X;X;X;True;False
+;Multilanguage descriptions;SEVR;False;Languages;;;;X;X;X;True;False
+;Multicurrency;SEVR;False;Currencies;;;;X;X;X;True;False
+;Contacts Management;SEVR;False;Contacts;;;;;X;X;True;False
+;Budget (Cust/Supp);SEVR;False;Budget;;;;;X;X;True;False
+Financials;;CONT;False;Financials;;;X;X;X;X;True;False
+;Customizable Tax Journals;CONT;False;MultiTaxJournals;;;;X;X;X;True;False
+;Customizable Accounting Templates;CONT;False;CustomizedAccountingTemplates;;;;X;X;X;True;False
+;Purchase Electronic Invoice Accounting Import;CPCO;False;PurchaseElectronicInvoicing;IT;;;X;X;X;True;False
+;Plafond Management;CONT;False;Plafond;IT,HU;;;X;X;X;True;False
+;Advanced AP/AR Management;CONT;False;AP_AR_Plus;;;;X;X;X;True;False
+;Dunning letters;CONT;False;Dunnings;;;;X;X;X;True;False
+;Payment Schedule Analysis and Cash Flow;CONT;False;AP_AR_Analysis;;;;;;X;True;False
+;Automatic Accrual and Deferrals;CONT;False;AccrualsDeferrals;;;;X;X;X;True;False
+;Balance Analysis and Reclassifications;CONT;False;BalanceAnalysis;;;;;X;X;True;False
+;Professionals Fees and Withholding Tax;CONT;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;X;True;False
+Advanced Banks Management;;BAPL;True;;IT;;;;;;False;False
+Fixed Assets;;CSPT;False;FixedAssets;;;;X;X;X;True;False
+Forecast Accounting;;COPR;False;ForecastAccounting;;;;;;X;True;False
+XBRL Balance;;XBRL;False;XBRL;IT;;;;;X;True;False
+Accounting Books and Balance Attachments;;LIBR;False;AccountingBooks;;;;;;X;True;False
+Balance Analysis (Basel II);;BAII;False;Basel_II;IT;;;;;X;True;True
+Consolidated Balance;;BICO;False;MultiCompanyBalances;;;;;;X;True;False
+Cost Accounting;;COAN;False;CostAccounting;;;;;X;X;True;False
+;Product Lines;CFIN;False;ProductLines;;;;;;X;True;False
+;Transfers;CFIN;False;CostAccountingTransfer;;;;;;X;True;False
+Cash Management;;CASH;False;Cash;;IT,CH,BR;;;;X;True;False
+Intrastat;;INTR;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;;X;X;X;True;False
+Sales / Purchases;;VEDT;False;SalePurchaseDocuments;;;X;X;X;X;True;False
+;Advanced Items Management;VEDT;False;AdvancedItemsManagement;;;;X;X;X;True;False
+Sale Orders;;ORCL;False;SaleOrders;;;X;X;X;X;True;False
+;Customer Quotations;ORCL;False;CustomerQuotations;;;;;X;X;True;False
+Sale Invoices / Delivery Notes;;VEDT;False;Sales;;;X;X;X;X;True;False
+;Multiple Stub Books;VEDT;False;MultiStubBooks;;;;X;X;X;True;False
+;Picking List;VEDT;False;PickingList;;;;;X;X;True;False
+e-commerce;;ECOM;False;eCommerce;;;;;;;False;True
+Store Management;Backend;STMN;False;StoreManagement;;;;;;;False;True
+;Variants / Size and Colors;STVA;False;StoreVariants;;;;;;;False;True
+;Food Recipes;STRE;False;FoodRecipe;;;;;;;False;True
+;In-store App Mobile;STMO;False;InStore_app;;;;;;;False;True
+CRM;Infinity Connector;MAIF;False;_INFCONN;;;;;X;X;True;True
+Conai;;CONA;False;Conai;IT,RO,BG,HU,ES;;;;X;X;True;False
+WEEE;;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;;;X;X;True;False
+Sales Force Management;;SFMG;False;SalesPeople;;;;;X;X;True;False
+Credit Limit Management;;CRED;False;CreditLimit;;;;;X;X;True;False
+Additional Charges;;SEVR;False;AdditionalCharges;;BR;;;X;X;True;False
+Purchase Orders;;ORFO;False;PurchaseOrders;;;X;X;X;X;True;False
+;Supplier Quotations;ORFO;False;SupplierQuotations;;;;;X;X;True;False
+Purchases;;ACQT;False;Purchases;;;;X;X;X;True;False
+;Electronic Invoices Import in Purchase Documents;CPAC;False;PurchaseElectronicInvoicingAdv;;;;;X;X;True;True
+Inventory;;MAGA;False;Inventory;;;X;X;X;X;True;False
+;Multistorage;MAGA;False;MultiStorage;;;;X;X;X;True;False
+;LIFO/FIFO Continuous Rises;MAGA;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;;;;X;True;False
+;Inventory Adjustments Entries;MAGA;False;InventoryAdjustment;;;;;;X;True;False
+Quality Inspections;;INSP;False;QualityInspection;;;;;;X;True;False
+Barcode Manager;;BARC;True;;;;;;;;False;False
+Lots and Serial Numbers;;LOTT;False;LotsSerials;;;;;X;X;True;False
+WMS;Basic;WMAA;False;WMSBasic;;;;X/0;X/0;X/0;True;False
+;Advanced;WMAD;False;WMSAdvanced;;;;;;X/0;True;False
+;Shipping;WMSH;False;WMSShipping;;;;;X/0;X/0;True;False
+;Mobile - backend;WMRF;False;WMSMobile;;;;X/0;X/0;X/0;True;False
+;Mobile - app;WMRC;False;WMSMobile_app;;;;Nr-User;Nr-User;Nr-User;True;False
+Resources Management;;SEVR;False;_RESMAN;;;;X;X;X;True;False
+Bill of Materials;;DIST;False;BillOfMaterials;;;X;X;X;X;True;False
+;Work Centers Calendar and Families;DIST;False;_BILLOFMATADV;;;;;;X;True;True
+;Engineering Changing Order;ECO;False;ECO;;;;;;X;True;False
+Variants;;VARI;False;Variants;;;;X;X;X;True;False
+Configurator;;CONF;False;Configurator;;;;;X;X;True;False
+Basic Manufacturing;;PRZB;False;ManufacturingBasic;;;X;X;X;X;True;False
+Advanced Manufacturing;;PRZA;False;ManufacturingAdvanced;;;;;X;X;True;False
+;MO Advanced Management;PRZA;False;_MANUFADVODP;;;;;X;X;True;True
+;Drawings Management, History and Versioning;PRZA;False;BillOfMaterialsPlus;;;;;;X;True;False
+;Control Panel;PRZA;False;ManufacturingPlus;;;;;X;X;True;False
+;Kanban;PRZA;False;Kanban;;;;;;X;True;False
+Open Orders;;OPOR;False;OpenOrders;;;;;X/0;X;True;True
+Manufacturing Mobile;backend;MANM;False;ManufacturingMobile;;;;X/0;X/0;X;True;False
+;app;MANC;False;ManufacturingMobile_app;;;;Nr-User;Nr-User;Nr-User;True;False
+Planning;Basic;PRZP;False;ManufacturingPlanning;;;;;X;X;True;False
+;Advanced Planning;PRPA;False;MRPAdvanced;;;;;;X/0;True;True
+Tools Management;;ATTR;False;ToolsManagement;;;;;;X;True;False
+_DMS;Basic;EATT;False;_DMSBASE;;;;;X;X;True;True
+;Massive Archiving Plug-In;MASS;False;_DMSMASS;;;;;;X;True;True
+Job Scheduler;;SCHD;False;JobScheduler;;;;;;X;True;True
+Security;;OSLL;False;Security;;;;;X;X;True;True
+;Access profiles;OSLS;False;_SECURITYADV;;;;;X;X;True;True
+;Auditing;AUDT;False;Auditing;;;;;X/0;X;True;True
+;Visibility;VISI;False;_VISIBILITY;;;;;X/0;X;True;True
+_Xgate;;XGAT;True;;;;;;;;False;False
+IMS Custom Flows;;ISCF;True;;;;;;;;False;False

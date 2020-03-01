@@ -90,6 +90,7 @@ namespace Configurator.Controllers
                         storeFeat.description = feat.Functionality;
                     }
                     storeFeat.fragment = feat.Fragment;
+                    storeFeat.isAvailable = !feat.NotYetAvailable;
 
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "STD", availability = ConvertStoreFeatureOption(feat.Standard) });
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "PRM", availability = ConvertStoreFeatureOption(feat.Premium) });
@@ -107,6 +108,7 @@ namespace Configurator.Controllers
         [HttpPost("csv-export")]
         public IActionResult CSVExport([FromBody] CSVExport csvExp)
         {
+            System.IO.Directory.CreateDirectory("output");
             using(TextWriter writer = new StreamWriter($"output\\{csvExp.Name}.csv", false, Encoding.UTF8))
             {
                 var csv = new CsvWriter( writer );
