@@ -33,11 +33,11 @@ export class ConfigurationService {
   }
 
   public isMinus(feat: Feature, edition: string): boolean {
-    return feat.customer && (edition == "" || !feat.available);
+    return feat.customer && (edition == "" || !feat.included);
   }
 
   public isPlus(feat: Feature, edition: string): boolean {
-    return !feat.customer && edition != "" && feat.available;
+    return !feat.customer && edition != "" && feat.included;
   }
 
   private calculateDistance(feat: Feature, edition: string, dist: Distance) {
@@ -158,7 +158,7 @@ export class ConfigurationService {
       var foundNames: string[] = [];
       for (var f = 0; f < this.current.features.length; f++) {
         var feat = this.current.features[f];
-        if (!feat.available || foundNames.includes(feat.fragment))
+        if (!feat.included || foundNames.includes(feat.fragment))
           continue;
 
         this.calculateWeight(feat, feat.standard, this.current.stdWeight);
@@ -235,7 +235,7 @@ export class ConfigurationService {
 
           if (curr != null)
           {
-            data[f].available = curr.available;
+            data[f].included = curr.included;
             data[f].standard = curr.standard;
             data[f].premium = curr.premium;
             data[f].professional = curr.professional;

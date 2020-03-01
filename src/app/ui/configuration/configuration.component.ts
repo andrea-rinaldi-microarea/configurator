@@ -43,7 +43,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     }
     
   ];
-  private availableOptions = [
+  private includedOptions = [
     {
       value: false,
       icon: "fa-sign-in"
@@ -162,7 +162,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     var csvExp = new CSVExport(this.configuration.current.name);
     for (var f = 0; f < this.configuration.current.features.length; f++) {
       var feat = this.configuration.current.features[f];
-      if (!feat.available)
+      if (!feat.included)
         continue;
       
       csvExp.features.push(new CSVFeature(

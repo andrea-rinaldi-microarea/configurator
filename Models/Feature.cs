@@ -13,7 +13,7 @@
         public string Premium {get; set;}
         public string Professional {get; set;}
         public string Enterprise {get; set;}
-        public bool Available {get; set;}
+        public bool Included {get; set;}
     }
  }
  

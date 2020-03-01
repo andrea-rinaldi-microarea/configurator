@@ -102,7 +102,7 @@ export class PricingComponent implements OnInit, DoCheck  {
         }
         foundTags.push(feat.tag);
       }
-      if (feat.customer && !feat.available && !feat.discontinued) {
+      if (feat.customer && !feat.included && !feat.discontinued) {
         this.misconfigured = true;
         this.misconfiguredInfo += this.getFeatureInfo(feat, this.misconfiguredInfo.length == 0);;
       }

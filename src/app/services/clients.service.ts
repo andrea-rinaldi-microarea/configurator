@@ -29,7 +29,7 @@ export class ClientsService {
     return $clients;
   }
 
-  available(): boolean {
+  some(): boolean {
     return this.list != null;
   }
 

@@ -75,7 +75,7 @@ namespace Configurator.Controllers
                 storeConfig.name = configuration.Name;
                 foreach (var feat in configuration.Features)
                 {
-                    if (!feat.Available)
+                    if (!feat.Included)
                         continue;
 
                     StoreFeature storeFeat = new StoreFeature();

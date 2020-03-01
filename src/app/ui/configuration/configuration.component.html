@@ -94,8 +94,8 @@
           <span *ngIf="configuration.current.entDistance">+{{configuration.current.entDistance.plus}} / -{{configuration.current.entDistance.minus}}</span>
         </th>
       </tr>
-      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.unavailable]="!feature.available" [class.module-sep]="feature.module != ''" [class.group-sep]="feature.module.startsWith('_')">
-          <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.available" [options]="availableOptions"></app-toggler></td>
+      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.module != ''" [class.group-sep]="feature.module.startsWith('_')">
+          <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
           <td [class.discontinued]="feature.discontinued">
             <app-detailed-info [name]="feature.fragment||feature.tag">{{feature.module.replace('_','') | translate}}</app-detailed-info>
           </td>  
@@ -109,13 +109,13 @@
               class="fa in-use text-user" 
               [class.fa-circle]="feature.fromPackage" 
               [class.fa-check]="feature.customer" 
-              [class.text-danger]="!feature.available || feature.discontinued"></i>
+              [class.text-danger]="!feature.included || feature.discontinued"></i>
           </td>
           <td width="25px" class="text-center edition-sep"><i class="fa fa-globe" [hidden]="!isLocalized(feature)" placement="right" [ngbTooltip]="ISOTooltip(feature)"></i></td>  
           <td width="30px" class="text-right edition-sep">{{getWeight(feature)}}</td>  
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'">
             <app-toggler 
-              [hidden]="!feature.available || feature.discontinued" 
+              [hidden]="!feature.included || feature.discontinued" 
               [disabled]="!editMode" 
               class="text-config" 
               [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.standard)" 
@@ -125,7 +125,7 @@
           </td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRM'">
             <app-toggler 
-              [hidden]="!feature.available || feature.discontinued" 
+              [hidden]="!feature.included || feature.discontinued" 
               [disabled]="!editMode" 
               class="text-config" 
               [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.premium)" 
@@ -135,7 +135,7 @@
           </td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'">
             <app-toggler 
-              [hidden]="!feature.available || feature.discontinued" 
+              [hidden]="!feature.included || feature.discontinued" 
               [disabled]="!editMode" 
               class="text-config" 
               [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.professional)" 
@@ -145,7 +145,7 @@
           </td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'">
             <app-toggler 
-              [hidden]="!feature.available || feature.discontinued" 
+              [hidden]="!feature.included || feature.discontinued" 
               [disabled]="!editMode" 
               class="text-config" 
               [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.enterprise)" 
