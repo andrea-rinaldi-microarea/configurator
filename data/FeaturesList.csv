@@ -51,7 +51,7 @@ Purchases;;ACQT;FALSE;Purchases;;;FALSE
 ;Electronic Invoices Import in Purchase Documents;CPAC;FALSE;PurchaseElectronicInvoicingAdv;;;TRUE
 Inventory;;MAGA;FALSE;Inventory;;;FALSE
 ;Multistorage;MAGA;FALSE;MultiStorage;;;FALSE
-;LIFO/FIFO Continuous Rises;MAGA;FALSE;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;FALSE
+;LIFO/FIFO Continuous Rises;MAGA;FALSE;SingleStepLifoFifo;HU,IT,CH,BG,DE;;FALSE
 ;Inventory Adjustments Entries;MAGA;FALSE;InventoryAdjustment;;;FALSE
 Quality Inspections;;INSP;FALSE;QualityInspection;;;FALSE
 Barcode Manager;;BARC;TRUE;;;;FALSE
