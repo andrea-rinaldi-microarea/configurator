@@ -14,6 +14,8 @@ namespace Configurator.Models
         public string description {get;set;}
         public string fragment {get;set;}
         public bool isAvailable {get;set;}
+        public string allowISO {get;set;}
+        public string denyISO {get;set;}
         public List<StoreFeatureOption> options {get;set;} = new List<StoreFeatureOption>();
     }
 

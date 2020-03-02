@@ -91,6 +91,8 @@ namespace Configurator.Controllers
                     }
                     storeFeat.fragment = feat.Fragment;
                     storeFeat.isAvailable = !feat.NotYetAvailable;
+                    storeFeat.allowISO = feat.AllowISO;
+                    storeFeat.denyISO = feat.DenyISO;
 
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "STD", availability = ConvertStoreFeatureOption(feat.Standard) });
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "PRM", availability = ConvertStoreFeatureOption(feat.Premium) });
