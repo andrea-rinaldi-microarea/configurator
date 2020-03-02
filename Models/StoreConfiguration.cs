@@ -10,7 +10,7 @@ namespace Configurator.Models
 
     public class StoreFeature
     {
-        public bool isModule {get; set;}
+        public bool isModule {get;set;}
         public string description {get;set;}
         public string fragment {get;set;}
         public bool isAvailable {get;set;}
@@ -22,6 +22,7 @@ namespace Configurator.Models
     public class StoreConfiguration
     {
         public string name {get; set;}
+        public string industryCode {get;set;}
         public List<StoreFeature> features { get; set; } = new List<StoreFeature>();
     }
  }

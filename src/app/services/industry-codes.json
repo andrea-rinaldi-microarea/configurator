@@ -1,0 +1,20 @@
+{
+    "Administration & Services" : {
+        "code": "ADSE"
+    },
+    "Food, Beverage & HORECA" : {
+        "code": "FBHO"
+    },
+    "Retail & Fashion" : {
+        "code": "REFA"
+    },
+    "Trade & Wholesale" : {
+        "code": "TRWH"
+    },
+    "Assembly & Materials" : {
+        "code": "ASMT"
+    },
+    "Manufacturing" : {
+        "code": "MANF"
+    }
+}    

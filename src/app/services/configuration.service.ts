@@ -10,6 +10,7 @@ declare var require: any;
 const moduleTags = require("./module-tags.json");
 const modulesDescription = require("./modules-description.json");
 const fragmentWeights = require("./fragment-weights.json");
+const industryCodes = require("./industry-codes.json");
 
 @Injectable()
 export class ConfigurationService {
@@ -173,6 +174,7 @@ export class ConfigurationService {
     var $configuration = new Observable<any>(observer => {
       this.http.get('/api/configurations/' + industry).subscribe((data:Feature[]) => {
         this.current = new Configuration(industry);
+        this.current.industryCode = industryCodes[industry] && industryCodes[industry].code;
         this.current.features = data;
 
         observer.next();
