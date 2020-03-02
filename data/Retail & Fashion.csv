@@ -13,13 +13,13 @@ Financials;;CONT;False;Financials;;;X;X;X;X;True;False
 ;Dunning letters;CONT;False;Dunnings;;;;X;X;X;True;False
 ;Payment Schedule Analysis and Cash Flow;CONT;False;AP_AR_Analysis;;;;;;X;True;False
 ;Automatic Accrual and Deferrals;CONT;False;AccrualsDeferrals;;;;X;X;X;True;False
-;Balance Analysis and Reclassifications;CONT;False;BalanceAnalysis;;;;;X;X;True;False
+;Balance Analysis and Reclassifications;CONT;False;BalanceAnalysis;;;;X;X;X;True;False
 ;Professionals Fees and Withholding Tax;CONT;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;X;True;False
 Advanced Banks Management;;BAPL;True;;IT;;;;;;False;False
 Fixed Assets;;CSPT;False;FixedAssets;;;;X;X;X;True;False
 Forecast Accounting;;COPR;False;ForecastAccounting;;;;;;X;True;False
 XBRL Balance;;XBRL;False;XBRL;IT;;;;;X;True;False
-Accounting Books and Balance Attachments;;LIBR;False;AccountingBooks;;;;;;X;True;False
+Accounting Books and Balance Attachments;;LIBR;False;AccountingBooks;;;;;X;X;True;False
 Balance Analysis (Basel II);;BAII;False;Basel_II;IT;;;;;X;True;True
 Consolidated Balance;;BICO;False;MultiCompanyBalances;;;;;;X;True;False
 Cost Accounting;;COAN;False;CostAccounting;;;;;X;X;True;False
@@ -51,14 +51,14 @@ Purchases;;ACQT;False;Purchases;;;;X;X;X;True;False
 ;Electronic Invoices Import in Purchase Documents;CPAC;False;PurchaseElectronicInvoicingAdv;;;;;X;X;True;True
 Inventory;;MAGA;False;Inventory;;;X;X;X;X;True;False
 ;Multistorage;MAGA;False;MultiStorage;;;;X;X;X;True;False
-;LIFO/FIFO Continuous Rises;MAGA;False;SingleStepLifoFifo;RO,RS,HR,PL,US,CN,JP,ES;;;;;X;True;False
+;Single Step LIFO/FIFO;MAGA;False;SingleStepLifoFifo;HU,IT,CH,BG,DE;;;;;X;True;False
 ;Inventory Adjustments Entries;MAGA;False;InventoryAdjustment;;;;;;X;True;False
 Quality Inspections;;INSP;False;QualityInspection;;;;;;X;True;False
 Barcode Manager;;BARC;True;;;;;;;;False;False
 Lots and Serial Numbers;;LOTT;False;LotsSerials;;;;;;;False;False
 WMS;Basic;WMAA;False;WMSBasic;;;;;X/0;X;True;False
 ;Advanced;WMAD;False;WMSAdvanced;;;;;;X;True;False
-;Shipping;WMSH;False;WMSShipping;;;;;X/0;X;True;False
+;Shipping;WMSH;True;WMSShipping;;;;;;;True;False
 ;Mobile - backend;WMRF;False;WMSMobile;;;;;X/0;X;True;False
 ;Mobile - app;WMRC;False;WMSMobile_app;;;;;Nr-User;Nr-User;True;False
 Resources Management;;SEVR;False;_RESMAN;;;;;X;X;True;False
@@ -84,7 +84,7 @@ _DMS;Basic;EATT;False;_DMSBASE;;;;;X;X;True;True
 Job Scheduler;;SCHD;False;JobScheduler;;;;;;X;True;True
 Security;;OSLL;False;Security;;;;;X;X;True;True
 ;Access profiles;OSLS;False;_SECURITYADV;;;;;X;X;True;True
-;Auditing;AUDT;False;Auditing;;;;;X/0;X;True;True
+;Auditing;AUDT;False;Auditing;;;;;X;X;True;True
 ;Visibility;VISI;False;_VISIBILITY;;;;;X/0;X;True;True
 _Xgate;;XGAT;True;;;;;;;;False;False
 IMS Custom Flows;;ISCF;True;;;;;;;;False;False

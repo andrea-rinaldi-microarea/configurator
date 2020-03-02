@@ -80,7 +80,7 @@
     "Electronic Invoices Import in Purchase Documents": "Fatturazione Elettronica Import. Ciclo Passivo",
     "Inventory": "Magazzino",
     "Multistorage": "Multi deposito",
-    "LIFO/FIFO Continuous Rises": "LIFO/FIFO a scatti continui",
+    "Single Step LIFO/FIFO": "LIFO/FIFO a scatti continui",
     "Inventory Adjustments Entries": "Movimenti di magazzino di rettifica inventariale",
     "Quality Inspections": "Controllo qualità",
     "Technical Notes": "Note Tecniche",
@@ -120,5 +120,6 @@
     "Includes: MO Confirmation Details, Bill / MO Comparision and Analysis of Materials in Production": "Include: Dettaglio Consuntivazioni OdP, Confronto OdP / Distinta e Analisi materiali in produzione",
     "Includes: Sale Electronic Invoices": "Include: Fatturazione Elettronica Attiva",
     "Copy modules configuration in the clipboard": "Copia la configurazione dei moduli nella clipboard",
-    "This feature is planned but not yet available": "La funzionalità è prevista, ma non ancora disponibile"
+    "This feature is planned but not yet available": "La funzionalità è prevista, ma non ancora disponibile",
+    "Includes: WMS Shipping": "Include: WMS Shipping"
 }

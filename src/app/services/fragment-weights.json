@@ -165,13 +165,10 @@
         "weight": 165
     },
     "WMSBasic" : {
-        "weight": 1650
+        "weight": 1950
     },
     "WMSAdvanced" : {
         "weight": 2860
-    },
-    "WMSShipping" : {
-        "weight": 300
     },
     "WMSMobile" : {
         "weight": 1100
