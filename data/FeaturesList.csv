@@ -36,7 +36,7 @@ Sale Invoices / Delivery Notes;;VEDT;FALSE;Sales;;;FALSE
 ;Picking List;VEDT;FALSE;PickingList;;;FALSE
 e-commerce;;ECOM;FALSE;eCommerce;;;TRUE
 Store Management;Backend;STMN;FALSE;StoreManagement;;;TRUE
-;Variants / Size and Colors;STVA;FALSE;StoreVariants;;;TRUE
+;Variants / Size and Colors;RMVN;FALSE;StoreVariants;;;TRUE
 ;Food Recipes;STRE;FALSE;FoodRecipe;;;TRUE
 ;In-store App Mobile;STMO;FALSE;InStore_app;;;TRUE
 CRM;Infinity Connector;MAIF;FALSE;_INFCONN;;;TRUE

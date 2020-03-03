@@ -9,7 +9,7 @@
     },
     "CPCO" : {
         "license": 250.00,
-        "mlu": 27.00
+        "mlu": 45.00
     },
     "BAPL" : {
         "license": 330.00,
@@ -253,7 +253,7 @@
         "license": 400,
         "mlu": 72.00 
     },
-    "STVA": {
+    "RMVN": {
         "license": 400,
         "mlu": 72.00 
     },
@@ -262,8 +262,8 @@
         "mlu": 59.00 
     },
     "CPAC": {
-        "license": 500,
-        "mlu": 90.00 
+        "license": 250,
+        "mlu": 45.00 
     },
     "WMSH": {
         "license": 300,
