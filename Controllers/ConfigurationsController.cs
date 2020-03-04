@@ -74,6 +74,7 @@ namespace Configurator.Controllers
                 StoreConfiguration storeConfig = new StoreConfiguration();
                 storeConfig.name = configuration.Name;
                 storeConfig.industryCode = configuration.IndustryCode;
+                storeConfig.version = configuration.Version;
                 foreach (var feat in configuration.Features)
                 {
                     if (!feat.Included)

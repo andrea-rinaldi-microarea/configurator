@@ -23,6 +23,7 @@ namespace Configurator.Models
     {
         public string name {get; set;}
         public string industryCode {get;set;}
+        public string version {get;set;}
         public List<StoreFeature> features { get; set; } = new List<StoreFeature>();
     }
  }

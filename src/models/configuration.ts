@@ -19,6 +19,7 @@ export class Configuration {
         public name: string
     ) {}
     public industryCode: string;
+    public version: string;
     public features: Feature[] = [];
     public stdWeight: Weight;
     public proWeight: Weight;
