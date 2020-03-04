@@ -158,6 +158,14 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     this.configuration.export(translated);
   }
 
+  convertFeatureOption(option: string) {
+      switch (option)
+      {
+          case "Nr-User": return "0..N";
+          default: return option; 
+      }
+  }
+
   onCSVExport() {
     var csvExp = new CSVExport(this.configuration.current.name);
     for (var f = 0; f < this.configuration.current.features.length; f++) {
@@ -166,17 +174,17 @@ export class ConfigurationComponent implements OnInit, DoCheck {
         continue;
       
       csvExp.features.push(new CSVFeature(
-        feat.module && this.translate.instant(feat.module),
-        feat.functionality && this.translate.instant(feat.functionality),
+        feat.module && (this.translate.instant(feat.module) + (feat.notYetAvailable ? " (*)" : "")),
+        feat.functionality && (this.translate.instant(feat.functionality) + (feat.notYetAvailable ? " (*)" : "")),
         feat.tag,
         this.configuration.isIncluded(feat.tag, "SBPK") ? "SBPK" : "",
         this.configuration.isIncluded(feat.tag, "ADPK") ? "ADPK" : "",
         this.configuration.isIncluded(feat.tag, "TRPK") ? "TRPK" : "",
         feat.fragment,
-        feat.standard,
-        feat.premium,
-        feat.professional,
-        feat.enterprise
+        this.convertFeatureOption(feat.standard),
+        this.convertFeatureOption(feat.premium),
+        this.convertFeatureOption(feat.professional),
+        this.convertFeatureOption(feat.enterprise)
       ));
     }
     this.configuration.CSVExport(csvExp);
