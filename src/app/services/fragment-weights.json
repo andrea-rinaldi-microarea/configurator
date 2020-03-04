@@ -122,6 +122,12 @@
     "InfinityConnector" : {
         "weight": 550
     },
+    "CRMUserSales" : {
+        "weight": 0
+    },
+    "CRMUserFull" : {
+        "weight": 0
+    },
     "WEEE" : {
         "weight": 275
     },

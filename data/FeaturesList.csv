@@ -40,6 +40,8 @@ Store Management;Backend;STMN;FALSE;StoreManagement;;;TRUE
 ;Food Recipes;STRE;FALSE;FoodRecipe;;;TRUE
 ;In-store App Mobile;STMO;FALSE;InStoreApp;;;TRUE
 CRM;Infinity Connector;MAIF;FALSE;InfinityConnector;;;TRUE
+;CRM User sales/marketing;;FALSE;CRMUserSales;;;TRUE
+;CRM User full;;FALSE;CRMUserFull;;;TRUE
 Conai;;CONA;FALSE;Conai;IT,RO,BG,HU,ES;;FALSE
 WEEE;;RAEE;FALSE;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;FALSE
 Sales Force Management;;SFMG;FALSE;SalesPeople;;;FALSE
