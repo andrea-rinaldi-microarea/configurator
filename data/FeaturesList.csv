@@ -38,8 +38,8 @@ e-commerce;;ECOM;FALSE;eCommerce;;;TRUE
 Store Management;Backend;STMN;FALSE;StoreManagement;;;TRUE
 ;Variants / Size and Colors;RMVN;FALSE;StoreVariants;;;TRUE
 ;Food Recipes;STRE;FALSE;FoodRecipe;;;TRUE
-;In-store App Mobile;STMO;FALSE;InStore_app;;;TRUE
-CRM;Infinity Connector;MAIF;FALSE;_INFCONN;;;TRUE
+;In-store App Mobile;STMO;FALSE;InStoreApp;;;TRUE
+CRM;Infinity Connector;MAIF;FALSE;InfinityConnector;;;TRUE
 Conai;;CONA;FALSE;Conai;IT,RO,BG,HU,ES;;FALSE
 WEEE;;RAEE;FALSE;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;FALSE
 Sales Force Management;;SFMG;FALSE;SalesPeople;;;FALSE
@@ -60,31 +60,28 @@ WMS;Basic;WMAA;FALSE;WMSBasic;;;FALSE
 ;Advanced;WMAD;FALSE;WMSAdvanced;;;FALSE
 ;Shipping;WMSH;TRUE;WMSShipping;;;FALSE
 ;Mobile - backend;WMRF;FALSE;WMSMobile;;;FALSE
-;Mobile - app;WMRC;FALSE;WMSMobile_app;;;FALSE
+;Mobile - app;WMRC;FALSE;WMSMobileApp;;;FALSE
 Resources Management;;SEVR;FALSE;_RESMAN;;;FALSE
 Bill of Materials;;DIST;FALSE;BillOfMaterials;;;FALSE
-;Work Centers Calendar and Families;DIST;FALSE;_BILLOFMATADV;;;TRUE
 ;Engineering Changing Order;ECO;FALSE;ECO;;;FALSE
 Variants;;VARI;FALSE;Variants;;;FALSE
 Configurator;;CONF;FALSE;Configurator;;;FALSE
 Basic Manufacturing;;PRZB;FALSE;ManufacturingBasic;;;FALSE
 Advanced Manufacturing;;PRZA;FALSE;ManufacturingAdvanced;;;FALSE
-;MO Advanced Management;PRZA;FALSE;_MANUFADVODP;;;TRUE
 ;Drawings Management, History and Versioning;PRZA;FALSE;BillOfMaterialsPlus;;;FALSE
-;Control Panel;PRZA;FALSE;ManufacturingPlus;;;FALSE
 ;Kanban;PRZA;FALSE;Kanban;;;FALSE
 Open Orders;;OPOR;FALSE;OpenOrders;;;TRUE
 Manufacturing Mobile;backend;MANM;FALSE;ManufacturingMobile;;;FALSE
-;app;MANC;FALSE;ManufacturingMobile_app;;;FALSE
+;app;MANC;FALSE;ManufacturingMobileApp;;;FALSE
 Planning;Basic;PRZP;FALSE;ManufacturingPlanning;;;FALSE
 ;Advanced Planning;PRPA;FALSE;MRPAdvanced;;;TRUE
 Tools Management;;ATTR;FALSE;ToolsManagement;;;FALSE
-_DMS;Basic;EATT;FALSE;_DMSBASE;;;TRUE
-;Massive Archiving Plug-In;MASS;FALSE;_DMSMASS;;;TRUE
+_DMS;Basic;EATT;FALSE;DMS;;;TRUE
+;Massive Archiving Plug-In;MASS;FALSE;DMSMassive;;;TRUE
 Job Scheduler;;SCHD;FALSE;JobScheduler;;;TRUE
 Security;;OSLL;FALSE;Security;;;TRUE
-;Access profiles;OSLS;FALSE;_SECURITYADV;;;TRUE
+;Access profiles;OSLS;FALSE;SecurityAdvanced;;;TRUE
 ;Auditing;AUDT;FALSE;Auditing;;;TRUE
-;Visibility;VISI;FALSE;_VISIBILITY;;;TRUE
+;Visibility;VISI;FALSE;Visibility;;;TRUE
 _Xgate;;XGAT;TRUE;;;;FALSE
 IMS Custom Flows;;ISCF;TRUE;;;;FALSE

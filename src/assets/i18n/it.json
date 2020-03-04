@@ -117,9 +117,10 @@
     "Includes: Price Policies, Charge Policies, Substitute Items, Smart Codes and Advanced UoMs": "Include: Politiche Prezzi, Politiche Spese, Articoli Equivalenti, Codici Parlanti e Unità di Misura Avanzate",
     "Includes: Customizabile Bills Management, Recessed Reversals, Factoring Management and Unpaid payment automatic management": "Include: Presentazioni effetti parametrizzabili, Reversali di incasso, Factoring e Gestione automatica insoluti",
     "Missing fragment for this feature": "Manca il fragment di definizione della feature",
-    "Includes: MO Confirmation Details, Bill / MO Comparision and Analysis of Materials in Production": "Include: Dettaglio Consuntivazioni OdP, Confronto OdP / Distinta e Analisi materiali in produzione",
+    "Includes: Control Panel, MO Confirmation Details, Bill / MO Comparision and Analysis of Materials in Production": "Include: Pannello di controllo, Dettaglio Consuntivazioni OdP, Confronto OdP / Distinta e Analisi materiali in produzione",
     "Includes: Sale Electronic Invoices": "Include: Fatturazione Elettronica Attiva",
     "Copy modules configuration in the clipboard": "Copia la configurazione dei moduli nella clipboard",
     "This feature is planned but not yet available": "La funzionalità è prevista, ma non ancora disponibile",
-    "Includes: WMS Shipping": "Include: WMS Shipping"
+    "Includes: WMS Shipping": "Include: WMS Shipping",
+    "Includes: Work Centers Calendar and Work Center Families": "Include: calendari per CdL e famiglie di CdL"
 }

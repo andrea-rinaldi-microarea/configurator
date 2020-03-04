@@ -107,7 +107,7 @@
     "StoreManagement": {
         "weight": 1000
     },
-    "InStore_app": {
+    "InStoreApp": {
         "weight": 330
     },
     "StoreVariants": {
@@ -119,7 +119,7 @@
     "Conai" : {
         "weight": 165
     },
-    "_INFCONN" : {
+    "InfinityConnector" : {
         "weight": 550
     },
     "WEEE" : {
@@ -173,7 +173,7 @@
     "WMSMobile" : {
         "weight": 1100
     },
-    "WMSMobile_app" : {
+    "WMSMobileApp" : {
         "weight": 330
     },
     "_RESMAN" : {
@@ -181,9 +181,6 @@
     },
     "BillOfMaterials" : {
         "weight": 748
-    },
-    "_BILLOFMATADV" : {
-        "weight": 200
     },
     "Variants" : {
         "weight": 605
@@ -195,19 +192,13 @@
         "weight": 748
     },
     "ManufacturingAdvanced" : {
-        "weight": 2500
-    },
-    "_MANUFADVODP" : {
-        "weight": 450
+        "weight": 3060
     },
     "BillOfMaterialsPlus" : {
         "weight": 150
     },
     "ECO" : {
         "weight": 300
-    },
-    "ManufacturingPlus" : {
-        "weight": 110
     },
     "Kanban" : {
         "weight": 200
@@ -218,22 +209,22 @@
     "ManufacturingMobile" : {
         "weight": 1320
     },
-    "ManufacturingMobile_app" : {
+    "ManufacturingMobileApp" : {
         "weight": 330
     },
     "ManufacturingPlanning" : {
         "weight": 3300
     },
     "MRPAdvanced" : {
-        "weight": 2200
+        "weight": 2400
     },
     "ToolsManagement" : {
         "weight": 880
     },
-    "_DMSBASE" : {
+    "DMS" : {
         "weight": 1650
     },
-    "_DMSMASS" : {
+    "DMSMassive" : {
         "weight": 300
     },
     "JobScheduler" : {
@@ -242,10 +233,10 @@
     "Security" : {
         "weight": 660
     },
-    "_SECURITYADV" : {
+    "SecurityAdvanced" : {
         "weight": 3000
     },
-    "_VISIBILITY" : {
+    "Visibility" : {
         "weight": 3000
     },
     "Auditing" : {

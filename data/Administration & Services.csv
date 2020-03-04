@@ -38,8 +38,8 @@ e-commerce;;ECOM;False;eCommerce;;;;;;;False;True
 Store Management;Backend;STMN;False;StoreManagement;;;;;;;False;True
 ;Variants / Size and Colors;RMVN;False;StoreVariants;;;;;;;False;True
 ;Food Recipes;STRE;False;FoodRecipe;;;;;;;False;True
-;In-store App Mobile;STMO;False;InStore_app;;;;;;;False;True
-CRM;Infinity Connector;MAIF;False;_INFCONN;;;;;X;X;True;True
+;In-store App Mobile;STMO;False;InStoreApp;;;;;;;False;True
+CRM;Infinity Connector;MAIF;False;InfinityConnector;;;;;X;X;True;True
 Conai;;CONA;False;Conai;IT,RO,BG,HU,ES;;;;;;False;False
 WEEE;;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;;;;;False;False
 Sales Force Management;;SFMG;False;SalesPeople;;;;;;;False;False
@@ -60,31 +60,28 @@ WMS;Basic;WMAA;False;WMSBasic;;;;;;;False;False
 ;Advanced;WMAD;False;WMSAdvanced;;;;;;;False;False
 ;Shipping;WMSH;True;WMSShipping;;;;;;;False;False
 ;Mobile - backend;WMRF;False;WMSMobile;;;;;;;False;False
-;Mobile - app;WMRC;False;WMSMobile_app;;;;;;;False;False
+;Mobile - app;WMRC;False;WMSMobileApp;;;;;;;False;False
 Resources Management;;SEVR;False;_RESMAN;;;;;;;False;False
 Bill of Materials;;DIST;False;BillOfMaterials;;;;;;;False;False
-;Work Centers Calendar and Families;DIST;False;_BILLOFMATADV;;;;;;;False;True
 ;Engineering Changing Order;ECO;False;ECO;;;;;;;False;False
 Variants;;VARI;False;Variants;;;;;;;False;False
 Configurator;;CONF;False;Configurator;;;;;;;False;False
 Basic Manufacturing;;PRZB;False;ManufacturingBasic;;;;;;;False;False
 Advanced Manufacturing;;PRZA;False;ManufacturingAdvanced;;;;;;;False;False
-;MO Advanced Management;PRZA;False;_MANUFADVODP;;;;;;;False;True
 ;Drawings Management, History and Versioning;PRZA;False;BillOfMaterialsPlus;;;;;;;False;False
-;Control Panel;PRZA;False;ManufacturingPlus;;;;;;;False;False
 ;Kanban;PRZA;False;Kanban;;;;;;;False;False
 Open Orders;;OPOR;False;OpenOrders;;;;;;;False;True
 Manufacturing Mobile;backend;MANM;False;ManufacturingMobile;;;;;;;False;False
-;app;MANC;False;ManufacturingMobile_app;;;;;;;False;False
+;app;MANC;False;ManufacturingMobileApp;;;;;;;False;False
 Planning;Basic;PRZP;False;ManufacturingPlanning;;;;;;;False;False
 ;Advanced Planning;PRPA;False;MRPAdvanced;;;;;;;False;True
 Tools Management;;ATTR;False;ToolsManagement;;;;;;;False;False
-_DMS;Basic;EATT;False;_DMSBASE;;;;;X;X;True;True
-;Massive Archiving Plug-In;MASS;False;_DMSMASS;;;;;;X;True;True
+_DMS;Basic;EATT;False;DMS;;;;;X;X;True;True
+;Massive Archiving Plug-In;MASS;False;DMSMassive;;;;;;X;True;True
 Job Scheduler;;SCHD;False;JobScheduler;;;;;;X;True;True
 Security;;OSLL;False;Security;;;;;X;X;True;True
-;Access profiles;OSLS;False;_SECURITYADV;;;;;X;X;True;True
+;Access profiles;OSLS;False;SecurityAdvanced;;;;;X;X;True;True
 ;Auditing;AUDT;False;Auditing;;;;;X;X;True;True
-;Visibility;VISI;False;_VISIBILITY;;;;;X/0;X;True;True
+;Visibility;VISI;False;Visibility;;;;;X/0;X;True;True
 _Xgate;;XGAT;True;;;;;;;;False;False
 IMS Custom Flows;;ISCF;True;;;;;;;;False;False
