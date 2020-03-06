@@ -176,6 +176,8 @@ export class ConfigurationService {
         this.current = new Configuration(industry);
         this.current.industryCode = industryInfo[industry] && industryInfo[industry].code;
         this.current.version = industryInfo[industry] && industryInfo[industry].version;
+        this.current.productID = industryInfo[industry] && industryInfo[industry].productID;
+        this.current.productName = industryInfo[industry] && industryInfo[industry].productName;
         this.current.features = data;
 
         observer.next();

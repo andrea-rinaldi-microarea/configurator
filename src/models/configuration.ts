@@ -20,6 +20,8 @@ export class Configuration {
     ) {}
     public industryCode: string;
     public version: string;
+    public productID: string;
+    public productName: string;
     public features: Feature[] = [];
     public stdWeight: Weight;
     public proWeight: Weight;

@@ -75,6 +75,8 @@ namespace Configurator.Controllers
                 storeConfig.name = configuration.Name;
                 storeConfig.industryCode = configuration.IndustryCode;
                 storeConfig.version = configuration.Version;
+                storeConfig.productID = configuration.ProductID;
+                storeConfig.productName = configuration.ProductName;
                 foreach (var feat in configuration.Features)
                 {
                     if (!feat.Included)
