@@ -34,10 +34,10 @@ Sale Orders;;ORCL;False;SaleOrders;;;;;;;False;False
 Sale Invoices / Delivery Notes;;VEDT;False;Sales;;;X;X;X;X;True;False
 ;Multiple Stub Books;VEDT;False;MultiStubBooks;;;;;;;False;False
 ;Picking List;VEDT;False;PickingList;;;;;;;False;False
-e-commerce;;ECOM;False;eCommerce;;;;Nr-User;Nr-User;Nr-User;True;True
-Store Management;Backend;STMN;False;StoreManagement;;;X;X;X;X;True;True
-;Variants / Size and Colors;RMVN;False;StoreVariants;;;;X/0;X/0;X;True;True
-;Food Recipes;STRE;False;FoodRecipe;;;;;;;False;True
+e-commerce;;ECOM;False;eCommerce;;;;Nr-User;Nr-User;Nr-User;True;False
+Store Management;Backend;STMN;False;StoreManagement;;;X;X;X;X;True;False
+;Variants / Size and Colors;RMVN;False;StoreVariants;;;;X/0;X/0;X;True;False
+;Food Recipes;STRE;False;FoodRecipe;;;;;;;False;False
 ;In-store App Mobile;STMO;False;InStoreApp;;;;;Nr-User;Nr-User;True;True
 CRM;Infinity Connector;MAIF;False;InfinityConnector;;;;;X;X;False;True
 ;CRM User sales/marketing;;False;CRMUserSales;;;;;;;False;True
@@ -50,7 +50,7 @@ Additional Charges;;SEVR;False;AdditionalCharges;;BR;;;;;False;False
 Purchase Orders;;ORFO;False;PurchaseOrders;;;X;X;X;X;True;False
 ;Supplier Quotations;ORFO;False;SupplierQuotations;;;;;;;False;False
 Purchases;;ACQT;False;Purchases;;;;X;X;X;True;False
-;Electronic Invoices Import in Purchase Documents;CPAC;False;PurchaseElectronicInvoicingAdv;;;;;X;X;True;True
+;Electronic Invoices Import in Purchase Documents;CPAC;False;PurchaseElectronicInvoicingAdv;;;;;X;X;True;False
 Inventory;;MAGA;False;Inventory;;;X;X;X;X;True;False
 ;Multistorage;MAGA;False;MultiStorage;;;;X;X;X;True;False
 ;Single Step LIFO/FIFO;MAGA;False;SingleStepLifoFifo;HU,IT,CH,BG,DE;;;;;X;True;False
