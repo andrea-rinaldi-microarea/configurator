@@ -34,7 +34,7 @@ Sale Orders;;ORCL;FALSE;SaleOrders;;;FALSE
 Sale Invoices / Delivery Notes;;VEDT;FALSE;Sales;;;FALSE
 ;Multiple Stub Books;VEDT;FALSE;MultiStubBooks;;;FALSE
 ;Picking List;VEDT;FALSE;PickingList;;;FALSE
-e-commerce;;ECOM;FALSE;eCommerce;;;FALSE
+e-commerce;;KKCN;FALSE;eCommerce;;;FALSE
 Store Management;Backend;STMN;FALSE;StoreManagement;;;FALSE
 ;Variants / Size and Colors;RMVN;FALSE;StoreVariants;;;FALSE
 ;Food Recipes;STRE;FALSE;FoodRecipe;;;FALSE

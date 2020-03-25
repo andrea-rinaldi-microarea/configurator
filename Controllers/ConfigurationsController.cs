@@ -69,7 +69,7 @@ namespace Configurator.Controllers
         {
             for (int e = 0; e < storeFeat.options.Count; e++)
             {
-                if (storeFeat.options[e].availability == "optional")
+                if (storeFeat.options[e].availability == "optional" || storeFeat.options[e].availability == "count")
                     return true;
             }
             return false;

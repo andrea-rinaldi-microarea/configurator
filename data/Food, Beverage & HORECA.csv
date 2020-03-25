@@ -34,7 +34,7 @@ Sale Orders;;ORCL;False;SaleOrders;;;;;;;False;False
 Sale Invoices / Delivery Notes;;VEDT;False;Sales;;;X;X;X;X;True;False
 ;Multiple Stub Books;VEDT;False;MultiStubBooks;;;;;;;False;False
 ;Picking List;VEDT;False;PickingList;;;;;;;False;False
-e-commerce;;ECOM;False;eCommerce;;;;;Nr-User;Nr-User;False;False
+e-commerce;;KKCN;False;eCommerce;;;;;Nr-User;Nr-User;False;False
 Store Management;Backend;STMN;False;StoreManagement;;;X;X;X;X;True;False
 ;Variants / Size and Colors;RMVN;False;StoreVariants;;;;;X/0;X;False;False
 ;Food Recipes;STRE;False;FoodRecipe;;;;X/0;X/0;X;True;False
