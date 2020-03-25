@@ -65,6 +65,16 @@ namespace Configurator.Controllers
             }
         }
 
+        private bool isOptional(StoreFeature storeFeat)
+        {
+            for (int e = 0; e < storeFeat.options.Count; e++)
+            {
+                if (storeFeat.options[e].availability == "optional")
+                    return true;
+            }
+            return false;
+        }
+
         [HttpPost("export")]
         public IActionResult Export([FromBody] Configuration configuration)
         {
@@ -103,6 +113,9 @@ namespace Configurator.Controllers
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "PRO", availability = ConvertStoreFeatureOption(feat.Professional) });
                     storeFeat.options.Add(new StoreFeatureOption{ edition = "ENT", availability = ConvertStoreFeatureOption(feat.Enterprise) });
 
+                    if (isOptional(storeFeat)) {
+                        storeFeat.optionID = feat.Tag;
+                    }
                     storeConfig.features.Add(storeFeat);
                 }
                 string json = JsonConvert.SerializeObject(storeConfig, new JsonSerializerSettings{ Formatting = Formatting.Indented }); 

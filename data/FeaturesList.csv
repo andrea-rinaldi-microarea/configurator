@@ -4,24 +4,24 @@ _Base Module;;SEVR;FALSE;Server;;;FALSE
 ;Multicurrency;SEVR;FALSE;Currencies;;;FALSE
 ;Contacts Management;SEVR;FALSE;Contacts;;;FALSE
 ;Budget (Cust/Supp);SEVR;FALSE;Budget;;;FALSE
-Financials;;CONT;FALSE;Financials;;;FALSE
-;Customizable Tax Journals;CONT;FALSE;MultiTaxJournals;;;FALSE
-;Customizable Accounting Templates;CONT;FALSE;CustomizedAccountingTemplates;;;FALSE
+Financials;;CONT;FALSE;Financials;;BR;FALSE
+;Customizable Tax Journals;CONT;FALSE;MultiTaxJournals;;BR;FALSE
+;Customizable Accounting Templates;CONT;FALSE;CustomizedAccountingTemplates;;BR;FALSE
 ;Purchase Electronic Invoice Accounting Import;CPCO;FALSE;PurchaseElectronicInvoicing;IT;;FALSE
 ;Plafond Management;CONT;FALSE;Plafond;IT,HU;;FALSE
 ;Advanced AP/AR Management;CONT;FALSE;AP_AR_Plus;;;FALSE
 ;Dunning letters;CONT;FALSE;Dunnings;;;FALSE
 ;Payment Schedule Analysis and Cash Flow;CONT;FALSE;AP_AR_Analysis;;;FALSE
-;Automatic Accrual and Deferrals;CONT;FALSE;AccrualsDeferrals;;;FALSE
-;Balance Analysis and Reclassifications;CONT;FALSE;BalanceAnalysis;;;FALSE
+;Automatic Accrual and Deferrals;CONT;FALSE;AccrualsDeferrals;;BR;FALSE
+;Balance Analysis and Reclassifications;CONT;FALSE;BalanceAnalysis;;BR;FALSE
 ;Professionals Fees and Withholding Tax;CONT;FALSE;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;FALSE
 Advanced Banks Management;;BAPL;TRUE;;IT;;FALSE
 Fixed Assets;;CSPT;FALSE;FixedAssets;;;FALSE
-Forecast Accounting;;COPR;FALSE;ForecastAccounting;;;FALSE
+Forecast Accounting;;COPR;FALSE;ForecastAccounting;;BR;FALSE
 XBRL Balance;;XBRL;FALSE;XBRL;IT;;FALSE
-Accounting Books and Balance Attachments;;LIBR;FALSE;AccountingBooks;;;FALSE
+Accounting Books and Balance Attachments;;LIBR;FALSE;AccountingBooks;;BR;FALSE
 Balance Analysis (Basel II);;BAII;FALSE;Basel_II;IT;;TRUE
-Consolidated Balance;;BICO;FALSE;MultiCompanyBalances;;;FALSE
+Consolidated Balance;;BICO;FALSE;MultiCompanyBalances;;BR;FALSE
 Cost Accounting;;COAN;FALSE;CostAccounting;;;FALSE
 ;Product Lines;CFIN;FALSE;ProductLines;;;FALSE
 ;Transfers;CFIN;FALSE;CostAccountingTransfer;;;FALSE
@@ -40,8 +40,8 @@ Store Management;Backend;STMN;FALSE;StoreManagement;;;FALSE
 ;Food Recipes;STRE;FALSE;FoodRecipe;;;FALSE
 ;In-store App Mobile;STMO;FALSE;InStoreApp;;;TRUE
 CRM;Infinity Connector;MAIF;FALSE;InfinityConnector;;;TRUE
-;CRM User sales/marketing;;FALSE;CRMUserSales;;;TRUE
-;CRM User full;;FALSE;CRMUserFull;;;TRUE
+;CRM User sales/marketing;CRMS;FALSE;CRMUserSales;;;TRUE
+;CRM User full;CRMF;FALSE;CRMUserFull;;;TRUE
 Conai;;CONA;FALSE;Conai;IT,RO,BG,HU,ES;;FALSE
 WEEE;;RAEE;FALSE;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;FALSE
 Sales Force Management;;SFMG;FALSE;SalesPeople;;;FALSE

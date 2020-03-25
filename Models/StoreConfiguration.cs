@@ -16,6 +16,7 @@ namespace Configurator.Models
         public bool isAvailable {get;set;}
         public string allowISO {get;set;}
         public string denyISO {get;set;}
+        public string optionID {get;set;} = "";
         public List<StoreFeatureOption> options {get;set;} = new List<StoreFeatureOption>();
     }
 

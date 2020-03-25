@@ -4,24 +4,24 @@ _Base Module;;SEVR;False;Server;;;X;X;X;X;True;False
 ;Multicurrency;SEVR;False;Currencies;;;;X;X;X;True;False
 ;Contacts Management;SEVR;False;Contacts;;;;;;;False;False
 ;Budget (Cust/Supp);SEVR;False;Budget;;;;;;;False;False
-Financials;;CONT;False;Financials;;;X;X;X;X;True;False
-;Customizable Tax Journals;CONT;False;MultiTaxJournals;;;;X;X;X;True;False
-;Customizable Accounting Templates;CONT;False;CustomizedAccountingTemplates;;;;X;X;X;True;False
+Financials;;CONT;False;Financials;;BR;X;X;X;X;True;False
+;Customizable Tax Journals;CONT;False;MultiTaxJournals;;BR;;X;X;X;True;False
+;Customizable Accounting Templates;CONT;False;CustomizedAccountingTemplates;;BR;;X;X;X;True;False
 ;Purchase Electronic Invoice Accounting Import;CPCO;False;PurchaseElectronicInvoicing;IT;;;X;X;X;True;False
 ;Plafond Management;CONT;False;Plafond;IT,HU;;;;X;X;True;False
 ;Advanced AP/AR Management;CONT;False;AP_AR_Plus;;;;X;X;X;True;False
 ;Dunning letters;CONT;False;Dunnings;;;;X;X;X;True;False
 ;Payment Schedule Analysis and Cash Flow;CONT;False;AP_AR_Analysis;;;;;;X;True;False
-;Automatic Accrual and Deferrals;CONT;False;AccrualsDeferrals;;;;X;X;X;True;False
-;Balance Analysis and Reclassifications;CONT;False;BalanceAnalysis;;;;X;X;X;True;False
+;Automatic Accrual and Deferrals;CONT;False;AccrualsDeferrals;;BR;;X;X;X;True;False
+;Balance Analysis and Reclassifications;CONT;False;BalanceAnalysis;;BR;;X;X;X;True;False
 ;Professionals Fees and Withholding Tax;CONT;False;Payees;IT,RS,HR,CL,RO,NL,TN,ES;;;X;X;X;True;False
 Advanced Banks Management;;BAPL;True;;IT;;;;;;False;False
 Fixed Assets;;CSPT;False;FixedAssets;;;;X;X;X;True;False
-Forecast Accounting;;COPR;False;ForecastAccounting;;;;;;X;True;False
+Forecast Accounting;;COPR;False;ForecastAccounting;;BR;;;;X;True;False
 XBRL Balance;;XBRL;False;XBRL;IT;;;;;X;True;False
-Accounting Books and Balance Attachments;;LIBR;False;AccountingBooks;;;;;X;X;True;False
+Accounting Books and Balance Attachments;;LIBR;False;AccountingBooks;;BR;;;X;X;True;False
 Balance Analysis (Basel II);;BAII;False;Basel_II;IT;;;;;X;True;True
-Consolidated Balance;;BICO;False;MultiCompanyBalances;;;;;;X;True;False
+Consolidated Balance;;BICO;False;MultiCompanyBalances;;BR;;;;X;True;False
 Cost Accounting;;COAN;False;CostAccounting;;;;;X;X;True;False
 ;Product Lines;CFIN;False;ProductLines;;;;;;X;True;False
 ;Transfers;CFIN;False;CostAccountingTransfer;;;;;;X;True;False
@@ -40,8 +40,8 @@ Store Management;Backend;STMN;False;StoreManagement;;;;;;;False;False
 ;Food Recipes;STRE;False;FoodRecipe;;;;;;;False;False
 ;In-store App Mobile;STMO;False;InStoreApp;;;;;;;False;True
 CRM;Infinity Connector;MAIF;False;InfinityConnector;;;;;X;X;True;True
-;CRM User sales/marketing;;False;CRMUserSales;;;;;Nr-User;Nr-User;True;True
-;CRM User full;;False;CRMUserFull;;;;;;Nr-User;True;True
+;CRM User sales/marketing;CRMS;False;CRMUserSales;;;;;Nr-User;Nr-User;True;True
+;CRM User full;CRMF;False;CRMUserFull;;;;;;Nr-User;True;True
 Conai;;CONA;False;Conai;IT,RO,BG,HU,ES;;;;;;False;False
 WEEE;;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;;;;;False;False
 Sales Force Management;;SFMG;False;SalesPeople;;;;;;;False;False
