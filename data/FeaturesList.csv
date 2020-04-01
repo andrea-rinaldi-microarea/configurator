@@ -22,7 +22,7 @@ XBRL Balance;;XBRL;FALSE;XBRL;IT;;FALSE
 Accounting Books and Balance Attachments;;LIBR;FALSE;AccountingBooks;;BR;FALSE
 Balance Analysis (Basel II);;BAII;FALSE;Basel_II;IT;;TRUE
 Multicompany Balance;;BICO;FALSE;MultiCompanyBalances;;BR;FALSE
-Cost Accounting;;COAN;FALSE;CostAccounting;;;FALSE
+Analysis & Controlling;;COAN;FALSE;CostAccounting;;;FALSE
 ;Product Lines;CFIN;FALSE;ProductLines;;;FALSE
 ;Transfers;CFIN;FALSE;CostAccountingTransfer;;;FALSE
 Cash Management;;CASH;FALSE;Cash;;IT,CH,BR;FALSE
