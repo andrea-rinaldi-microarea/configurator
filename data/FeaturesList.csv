@@ -21,7 +21,7 @@ Forecast Accounting;;COPR;FALSE;ForecastAccounting;;BR;FALSE
 XBRL Balance;;XBRL;FALSE;XBRL;IT;;FALSE
 Accounting Books and Balance Attachments;;LIBR;FALSE;AccountingBooks;;BR;FALSE
 Balance Analysis (Basel II);;BAII;FALSE;Basel_II;IT;;TRUE
-Consolidated Balance;;BICO;FALSE;MultiCompanyBalances;;BR;FALSE
+Multicompany Balance;;BICO;FALSE;MultiCompanyBalances;;BR;FALSE
 Cost Accounting;;COAN;FALSE;CostAccounting;;;FALSE
 ;Product Lines;CFIN;FALSE;ProductLines;;;FALSE
 ;Transfers;CFIN;FALSE;CostAccountingTransfer;;;FALSE
