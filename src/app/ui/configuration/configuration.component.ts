@@ -40,6 +40,10 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     {
       value: "max",
       icon: "fa-star-half-o"
+    },
+    {
+      value: "PPT",
+      icon: "fa-money"
     }
     
   ];

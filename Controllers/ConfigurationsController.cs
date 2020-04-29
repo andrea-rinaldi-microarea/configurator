@@ -61,6 +61,7 @@ namespace Configurator.Controllers
                 case "X/0": return "optional";
                 case "max": return "always"; //@@TODO capire bene come gestire
                 case "Nr-User": return "count";
+                case "PPT": return "PPT";
                 default: return ""; 
             }
         }
@@ -69,7 +70,11 @@ namespace Configurator.Controllers
         {
             for (int e = 0; e < storeFeat.options.Count; e++)
             {
-                if (storeFeat.options[e].availability == "optional" || storeFeat.options[e].availability == "count")
+                if  (
+                        storeFeat.options[e].availability == "optional" || 
+                        storeFeat.options[e].availability == "count" || 
+                        storeFeat.options[e].availability == "PPT"
+                    )
                     return true;
             }
             return false;

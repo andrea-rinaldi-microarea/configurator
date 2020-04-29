@@ -134,7 +134,7 @@ export class ConfigurationService {
     private calculateWeight(feat: Feature, edition: string, weight: Weight) {
       var value = this.getWeight(feat);
       if (edition == "") return;
-      if (edition == "Nr-User") return;
+      if (edition == "Nr-User" || edition == "PPT") return;
       if (edition == "X") {
         weight.min += value;
         weight.max += value;
