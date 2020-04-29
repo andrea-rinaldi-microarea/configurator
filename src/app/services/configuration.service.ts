@@ -228,7 +228,11 @@ export class ConfigurationService {
     var $configuration = new Observable<any>(observer => {
       this.http.get('/api/configurations/' + 'FeaturesList').subscribe((data:Feature[]) => {
         for (var f = 0; f < data.length; f++) {
-          var curr = this.current.features.find(feat => data[f].module == feat.module && data[f].functionality == feat.functionality);
+          var curr = this.current.features.find(feat => data[f].fragment != "" && data[f].fragment == feat.fragment);
+
+          if (curr == null) {
+            curr = this.current.features.find(feat => data[f].module == feat.module && data[f].functionality == feat.functionality);
+          }
 
           if (curr == null) {
             var transModule = data[f].module ? this.translate.instant(data[f].module.replace('_','')) : "";

@@ -35,7 +35,7 @@ Sale Invoices / Delivery Notes;;VEDT;FALSE;Sales;;;FALSE
 ;Multiple Stub Books;VEDT;FALSE;MultiStubBooks;;;FALSE
 ;Picking List;VEDT;FALSE;PickingList;;;FALSE
 e-commerce;;KKCN;FALSE;eCommerce;;;FALSE
-Store Management;Backend;STMN;FALSE;StoreManagement;;;FALSE
+Store Management;SM Backend;STMN;FALSE;StoreManagement;;;FALSE
 ;Variants / Size and Colors;RMVN;FALSE;StoreVariants;;;FALSE
 ;Food Recipes;STRE;FALSE;FoodRecipe;;;FALSE
 ;In-store App Mobile;STMO;FALSE;InStoreApp;;;TRUE
@@ -58,11 +58,11 @@ Inventory;;MAGA;FALSE;Inventory;;;FALSE
 Quality Inspections;;INSP;FALSE;QualityInspection;;;FALSE
 Barcode Manager;;BARC;TRUE;;;;FALSE
 Lots and Serial Numbers;;LOTT;FALSE;LotsSerials;;;FALSE
-WMS;Basic;WMAA;FALSE;WMSBasic;;;FALSE
-;Advanced;WMAD;FALSE;WMSAdvanced;;;FALSE
-;Shipping;WMSH;TRUE;WMSShipping;;;FALSE
-;Mobile - backend;WMRF;FALSE;WMSMobile;;;FALSE
-;Mobile - app;WMRC;FALSE;WMSMobileApp;;;FALSE
+WMS;WMS Basic;WMAA;FALSE;WMSBasic;;;FALSE
+;WMS Advanced;WMAD;FALSE;WMSAdvanced;;;FALSE
+;WMS Shipping;WMSH;TRUE;WMSShipping;;;FALSE
+;WMS Mobile - backend;WMRF;FALSE;WMSMobile;;;FALSE
+;WMS Mobile - app;WMRC;FALSE;WMSMobileApp;;;FALSE
 Resources Management;;SEVR;FALSE;_RESMAN;;;FALSE
 Bill of Materials;;DIST;FALSE;BillOfMaterials;;;FALSE
 ;Engineering Changing Order;ECO;FALSE;ECO;;;FALSE
@@ -73,16 +73,16 @@ Advanced Manufacturing;;PRZA;FALSE;ManufacturingAdvanced;;;FALSE
 ;Drawings Management, History and Versioning;PRZA;FALSE;BillOfMaterialsPlus;;;FALSE
 ;Kanban;PRZA;FALSE;Kanban;;;FALSE
 Open Orders;;OPOR;FALSE;OpenOrders;;;TRUE
-Manufacturing Mobile;backend;MANM;FALSE;ManufacturingMobile;;;FALSE
-;app;MANC;FALSE;ManufacturingMobileApp;;;FALSE
-Planning;Basic;PRZP;FALSE;ManufacturingPlanning;;;FALSE
+Manufacturing Mobile;Manufacturing Mobile backend;MANM;FALSE;ManufacturingMobile;;;FALSE
+;Manufacturing Mobile app;MANC;FALSE;ManufacturingMobileApp;;;FALSE
+Planning;Basic Planning;PRZP;FALSE;ManufacturingPlanning;;;FALSE
 ;Advanced Planning;PRPA;FALSE;MRPAdvanced;;;TRUE
 Tools Management;;ATTR;FALSE;ToolsManagement;;;FALSE
 _DMS;Basic;EATT;FALSE;DMS;;;TRUE
 ;Massive Archiving Plug-In;MASS;FALSE;DMSMassive;;;TRUE
 Job Scheduler;;SCHD;FALSE;JobScheduler;;;TRUE
 Security;;OSLL;FALSE;Security;;;TRUE
-;Access profiles;OSLS;FALSE;SecurityAdvanced;;;TRUE
+;Security Access profiles;OSLS;FALSE;SecurityAdvanced;;;TRUE
 ;Auditing;AUDT;FALSE;Auditing;;;TRUE
 ;Visibility;VISI;FALSE;Visibility;;;TRUE
 _Xgate;;XGAT;TRUE;;;;FALSE

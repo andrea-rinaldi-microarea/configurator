@@ -35,7 +35,7 @@ Sale Invoices / Delivery Notes;;VEDT;False;Sales;;;X;X;X;X;True;False
 ;Multiple Stub Books;VEDT;False;MultiStubBooks;;;;X;X;X;True;False
 ;Picking List;VEDT;False;PickingList;;;;;X;X;True;False
 e-commerce;;KKCN;False;eCommerce;;;;;;;False;False
-Store Management;Backend;STMN;False;StoreManagement;;;;;;;False;False
+Store Management;SM Backend;STMN;False;StoreManagement;;;;;;;False;False
 ;Variants / Size and Colors;RMVN;False;StoreVariants;;;;;;;False;False
 ;Food Recipes;STRE;False;FoodRecipe;;;;;;;False;False
 ;In-store App Mobile;STMO;False;InStoreApp;;;;;;;False;True
@@ -58,11 +58,11 @@ Inventory;;MAGA;False;Inventory;;;X;X;X;X;True;False
 Quality Inspections;;INSP;False;QualityInspection;;;;;;X;True;False
 Barcode Manager;;BARC;True;;;;;;;;False;False
 Lots and Serial Numbers;;LOTT;False;LotsSerials;;;;;X;X;True;False
-WMS;Basic;WMAA;False;WMSBasic;;;;X/0;X/0;X/0;True;False
-;Advanced;WMAD;False;WMSAdvanced;;;;;;X/0;True;False
-;Shipping;WMSH;True;WMSShipping;;;;;;;True;False
-;Mobile - backend;WMRF;False;WMSMobile;;;;X/0;X/0;X/0;True;False
-;Mobile - app;WMRC;False;WMSMobileApp;;;;Nr-User;Nr-User;Nr-User;True;False
+WMS;WMS Basic;WMAA;False;WMSBasic;;;;X/0;X/0;X/0;True;False
+;WMS Advanced;WMAD;False;WMSAdvanced;;;;;;X/0;True;False
+;WMS Shipping;WMSH;True;WMSShipping;;;;;;;True;False
+;WMS Mobile - backend;WMRF;False;WMSMobile;;;;X/0;X/0;X/0;True;False
+;WMS Mobile - app;WMRC;False;WMSMobileApp;;;;Nr-User;Nr-User;Nr-User;True;False
 Resources Management;;SEVR;False;_RESMAN;;;;X;X;X;True;False
 Bill of Materials;;DIST;False;BillOfMaterials;;;X;X;X;X;True;False
 ;Engineering Changing Order;ECO;False;ECO;;;;;;X;True;False
@@ -73,16 +73,16 @@ Advanced Manufacturing;;PRZA;False;ManufacturingAdvanced;;;;;X;X;True;False
 ;Drawings Management, History and Versioning;PRZA;False;BillOfMaterialsPlus;;;;;;X;True;False
 ;Kanban;PRZA;False;Kanban;;;;;;X;True;False
 Open Orders;;OPOR;False;OpenOrders;;;;;X/0;X;True;True
-Manufacturing Mobile;backend;MANM;False;ManufacturingMobile;;;;X/0;X/0;X;True;False
-;app;MANC;False;ManufacturingMobileApp;;;;Nr-User;Nr-User;Nr-User;True;False
-Planning;Basic;PRZP;False;ManufacturingPlanning;;;;;X;X;True;False
+Manufacturing Mobile;Manufacturing Mobile backend;MANM;False;ManufacturingMobile;;;;X/0;X/0;X;True;False
+;Manufacturing Mobile app;MANC;False;ManufacturingMobileApp;;;;Nr-User;Nr-User;Nr-User;True;False
+Planning;Basic Planning;PRZP;False;ManufacturingPlanning;;;;;X;X;True;False
 ;Advanced Planning;PRPA;False;MRPAdvanced;;;;;;X/0;True;True
 Tools Management;;ATTR;False;ToolsManagement;;;;;X;X;True;False
 _DMS;Basic;EATT;False;DMS;;;;;X;X;True;True
 ;Massive Archiving Plug-In;MASS;False;DMSMassive;;;;;;X;True;True
 Job Scheduler;;SCHD;False;JobScheduler;;;;;;X;True;True
 Security;;OSLL;False;Security;;;;;X;X;True;True
-;Access profiles;OSLS;False;SecurityAdvanced;;;;;X;X;True;True
+;Security Access profiles;OSLS;False;SecurityAdvanced;;;;;X;X;True;True
 ;Auditing;AUDT;False;Auditing;;;;;X;X;True;True
 ;Visibility;VISI;False;Visibility;;;;;X/0;X;True;True
 _Xgate;;XGAT;True;;;;;;;;False;False
