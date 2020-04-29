@@ -30,7 +30,7 @@ Intrastat;;INTR;False;Intrastat;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,
 Sales / Purchases;;VEDT;False;SalePurchaseDocuments;;;X;X;X;X;True;False
 ;Advanced Items Management;VEDT;False;AdvancedItemsManagement;;;;X;X;X;True;False
 Sale Orders;;ORCL;False;SaleOrders;;;X;X;X;X;True;False
-;Customer Quotations;ORCL;False;CustomerQuotations;;;;;X;X;True;False
+;Customer Quotations;ORCL;False;CustomerQuotations;;;;X;X;X;True;False
 Sale Invoices / Delivery Notes;;VEDT;False;Sales;;;X;X;X;X;True;False
 ;Multiple Stub Books;VEDT;False;MultiStubBooks;;;;X;X;X;True;False
 ;Picking List;VEDT;False;PickingList;;;;;X;X;True;False
