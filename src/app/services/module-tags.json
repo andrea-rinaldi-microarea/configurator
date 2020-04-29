@@ -104,6 +104,9 @@
     { "tag": "CPAC" },
     { "tag": "WMSH" },
     { "tag": "VISI" },
+    { "tag": "CRMS" },
+    { "tag": "CRMM" },
+    { "tag": "CRMF" },
     { "tag": "ECO" }
 
 ]

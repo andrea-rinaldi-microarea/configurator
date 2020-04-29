@@ -40,7 +40,8 @@ Store Management;SM Backend;STMN;False;StoreManagement;;;X;X;X;X;True;False
 ;Food Recipes;STRE;False;FoodRecipe;;;;X/0;X/0;X;True;False
 ;In-store App Mobile;STMO;False;InStoreApp;;;;Nr-User;Nr-User;Nr-User;True;True
 CRM;Infinity Connector;MAIF;False;InfinityConnector;;;;;X;X;False;True
-;CRM User sales/marketing;CRMS;False;CRMUserSales;;;;;;;False;True
+;CRM User sales;CRMS;False;CRMUserSales;;;;;;;False;True
+;CRM User marketing;CRMM;False;CRMUserMarketing;;;;;;;False;True
 ;CRM User full;CRMF;False;CRMUserFull;;;;;;;False;True
 Conai;;CONA;False;Conai;IT,RO,BG,HU,ES;;;;;;False;False
 WEEE;;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;;;;;False;False

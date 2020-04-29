@@ -84,5 +84,8 @@
     "CPAC": "Electronic Invoices Import in Purchase Documents",
     "WMSH": "Shipping",
     "ECO": "Engineering Changing Order",
-    "VISI": "Visibility"
+    "VISI": "Visibility",
+    "CRMS": "CRM User sales",
+    "CRMM": "CRM User marketing",
+    "CRMF": "CRM User full"
 }
