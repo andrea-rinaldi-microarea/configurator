@@ -108,7 +108,9 @@
     { "tag": "CRMS" },
     { "tag": "CRMM" },
     { "tag": "CRMF" },
-    { "tag": "ECO" }
+    { "tag": "ECO" },
+    { "tag": "KPIM" }
+
 
 ]
 

@@ -4,6 +4,7 @@ _Base Module;;SEVR;FALSE;Server;;;FALSE
 ;Multicurrency;SEVR;FALSE;Currencies;;;FALSE
 ;Contacts Management;SEVR;FALSE;Contacts;;;FALSE
 ;Budget (Cust/Supp);SEVR;FALSE;Budget;;;FALSE
+;KPI Dashboards mobile app;KPIM;FALSE;KPIMobileApp;;;FALSE
 Financials;;CONT;FALSE;Financials;;BR;FALSE
 ;Customizable Tax Journals;CONT;FALSE;MultiTaxJournals;;BR;FALSE
 ;Customizable Accounting Templates;CONT;FALSE;CustomizedAccountingTemplates;;BR;FALSE
