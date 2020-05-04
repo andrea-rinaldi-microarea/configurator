@@ -39,11 +39,11 @@ e-commerce;;KKCN;False;eCommerce;;;;PPT;PPT;PPT;True;False
 Store Management;SM Backend;STMN;False;StoreManagement;;;X;X;X;X;True;False
 ;Variants / Size and Colors;RMVN;False;StoreVariants;;;;X/0;X/0;X;True;False
 ;Food Recipes;STRE;False;FoodRecipe;;;;;;;False;False
-;In-store App Mobile;STMO;False;InStoreApp;;;;;Nr-User;Nr-User;True;True
-CRM;Infinity Connector;MAIF;False;InfinityConnector;;;;;X;X;False;True
-;CRM User sales;CRMS;False;CRMUserSales;;;;;;;False;True
-;CRM User marketing;CRMM;False;CRMUserMarketing;;;;;;;False;True
-;CRM User full;CRMF;False;CRMUserFull;;;;;;;False;True
+;In-store App Mobile;STMO;False;InStoreApp;;;;;Nr-User;Nr-User;True;False
+CRM;Infinity Connector;MAIF;False;InfinityConnector;;;;;X;X;False;False
+;CRM User sales;CRMS;False;CRMUserSales;;;;;;;False;False
+;CRM User marketing;CRMM;False;CRMUserMarketing;;;;;;;False;False
+;CRM User full;CRMF;False;CRMUserFull;;;;;;;False;False
 Conai;;CONA;False;Conai;IT,RO,BG,HU,ES;;;;;;False;False
 WEEE;;RAEE;False;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;;;;;False;False
 Sales Force Management;;SFMG;False;SalesPeople;;;;;;;False;False
@@ -78,7 +78,7 @@ Open Orders;;OPOR;False;OpenOrders;;;;;;;False;True
 Manufacturing Mobile;Manufacturing Mobile backend;MANM;False;ManufacturingMobile;;;;;;;False;False
 ;Manufacturing Mobile app;MANC;False;ManufacturingMobileApp;;;;;;;False;False
 Planning;Basic Planning;PRZP;False;ManufacturingPlanning;;;;;;;False;False
-;Advanced Planning;PRPA;False;MRPAdvanced;;;;;;X;False;True
+;Advanced Planning;PRPA;False;MRPAdvanced;;;;;;X;False;False
 Tools Management;;ATTR;False;ToolsManagement;;;;;;;False;False
 _DMS;Basic;EATT;False;DMS;;;;;X;X;True;True
 ;Massive Archiving Plug-In;MASS;False;DMSMassive;;;;;;X;True;True
@@ -86,6 +86,6 @@ Job Scheduler;;SCHD;False;JobScheduler;;;;;;X;True;True
 Security;;OSLL;False;Security;;;;;X;X;True;True
 ;Security Access profiles;OSLS;False;SecurityAdvanced;;;;;X;X;True;True
 ;Auditing;AUDT;False;Auditing;;;;;X;X;True;True
-;Visibility;VISI;False;Visibility;;;;;X/0;X;True;True
+;Visibility;VISI;False;Visibility;;;;;X/0;X;True;False
 _Xgate;;XGAT;True;;;;;;;;False;False
 IMS Custom Flows;;ISCF;True;;;;;;;;False;False

@@ -39,11 +39,11 @@ e-commerce;;KKCN;FALSE;eCommerce;;;FALSE
 Store Management;SM Backend;STMN;FALSE;StoreManagement;;;FALSE
 ;Variants / Size and Colors;RMVN;FALSE;StoreVariants;;;FALSE
 ;Food Recipes;STRE;FALSE;FoodRecipe;;;FALSE
-;In-store App Mobile;STMO;FALSE;InStoreApp;;;TRUE
-CRM;Infinity Connector;MAIF;FALSE;InfinityConnector;;;TRUE
-;CRM User sales;CRMS;FALSE;CRMUserSales;;;TRUE
-;CRM User marketing;CRMM;FALSE;CRMUserMarketing;;;TRUE
-;CRM User full;CRMF;FALSE;CRMUserFull;;;TRUE
+;In-store App Mobile;STMO;FALSE;InStoreApp;;;FALSE
+CRM;Infinity Connector;MAIF;FALSE;InfinityConnector;;;FALSE
+;CRM User sales;CRMS;FALSE;CRMUserSales;;;FALSE
+;CRM User marketing;CRMM;FALSE;CRMUserMarketing;;;FALSE
+;CRM User full;CRMF;FALSE;CRMUserFull;;;FALSE
 Conai;;CONA;FALSE;Conai;IT,RO,BG,HU,ES;;FALSE
 WEEE;;RAEE;FALSE;WEEE;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;FALSE
 Sales Force Management;;SFMG;FALSE;SalesPeople;;;FALSE
@@ -78,7 +78,7 @@ Open Orders;;OPOR;FALSE;OpenOrders;;;TRUE
 Manufacturing Mobile;Manufacturing Mobile backend;MANM;FALSE;ManufacturingMobile;;;FALSE
 ;Manufacturing Mobile app;MANC;FALSE;ManufacturingMobileApp;;;FALSE
 Planning;Basic Planning;PRZP;FALSE;ManufacturingPlanning;;;FALSE
-;Advanced Planning;PRPA;FALSE;MRPAdvanced;;;TRUE
+;Advanced Planning;PRPA;FALSE;MRPAdvanced;;;FALSE
 Tools Management;;ATTR;FALSE;ToolsManagement;;;FALSE
 _DMS;Basic;EATT;FALSE;DMS;;;TRUE
 ;Massive Archiving Plug-In;MASS;FALSE;DMSMassive;;;TRUE
@@ -86,6 +86,6 @@ Job Scheduler;;SCHD;FALSE;JobScheduler;;;TRUE
 Security;;OSLL;FALSE;Security;;;TRUE
 ;Security Access profiles;OSLS;FALSE;SecurityAdvanced;;;TRUE
 ;Auditing;AUDT;FALSE;Auditing;;;TRUE
-;Visibility;VISI;FALSE;Visibility;;;TRUE
+;Visibility;VISI;FALSE;Visibility;;;FALSE
 _Xgate;;XGAT;TRUE;;;;FALSE
 IMS Custom Flows;;ISCF;TRUE;;;;FALSE
