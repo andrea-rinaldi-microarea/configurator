@@ -62,7 +62,7 @@ Barcode Manager;;BARC;True;;;;;;;;False;False
 Lots and Serial Numbers;;LOTT;False;LotsSerials;;;;;X;X;True;False
 WMS;WMS Basic;WMAA;False;WMSBasic;;;;;X/0;X;True;False
 ;WMS Advanced;WMAD;False;WMSAdvanced;;;;;;X;True;False
-;WMS Shipping;WMSH;True;WMSShipping;;;;;;;True;False
+;WMS Shipping;WMSH;True;WMSShipping;;;;;;;False;False
 ;WMS Mobile - backend;WMRF;False;WMSMobile;;;;;X/0;X;True;False
 ;WMS Mobile - app;WMRC;False;WMSMobileApp;;;;;Nr-User;Nr-User;True;False
 Resources Management;;SEVR;False;_RESMAN;;;;;X;X;True;False
