@@ -19,6 +19,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { DetailedInfoComponent } from './ui/industry-edit/detailed-info/detailed-info.component';
 import { IndustryEditComponent } from './ui/industry-edit/industry-edit.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -43,6 +44,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    AppRoutingModule,
     NgbModule.forRoot(),
     TranslateModule.forRoot({
       loader: {
