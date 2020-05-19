@@ -20,6 +20,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { DetailedInfoComponent } from './ui/industry-edit/detailed-info/detailed-info.component';
 import { IndustryEditComponent } from './ui/industry-edit/industry-edit.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { FeaturesSheetComponent } from './ui/features-sheet/features-sheet.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -38,7 +39,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     TogglerComponent,
     PricingComponent,
     DetailedInfoComponent,
-    IndustryEditComponent
+    IndustryEditComponent,
+    FeaturesSheetComponent
   ],
   imports: [
     BrowserModule,
