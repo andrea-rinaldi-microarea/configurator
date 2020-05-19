@@ -1,4 +1,7 @@
 <div class="row mt-2 d-flex justify-content-center">
+  <div class="left-toolbar">
+    <button class="btn btn-outline-light" [class.not-visible]="clients.show" (click)="clients.show = !clients.show"><i class="fa fa-big fa-users text-config-light"></i></button> 
+  </div>
   <div class="col-1 text-right btn btn-sm" [class.not-visible]="currIndustry == 0" [class.disabled]="editMode" (click)="editMode || onPrev()">
       <i class="fa fa-big fa-chevron-left text-config-light"></i>
   </div>

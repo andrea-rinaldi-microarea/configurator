@@ -13,6 +13,5 @@
         <select class="form-control mr-3 bg-config text-config-white" #langSelect (change)="translate.use(langSelect.value)">
             <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
         </select>   
-        <button class="btn my-2 my-sm-0 btn-outline-light" [class.bg-config-light]="clients.show" (click)="clients.show = !clients.show"><i class="fa fa-users"></i></button>
     </div>
 </nav>
