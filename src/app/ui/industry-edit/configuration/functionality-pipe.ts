@@ -1,15 +1,15 @@
-import { Feature } from '../../../models/feature';
+import { Feature } from '../../../../models/feature';
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-    name: 'Excluded',
+    name: 'Functionality',
     pure: false
 })
-export class ExcludedPipe implements PipeTransform {
+export class FunctionalityPipe implements PipeTransform {
     transform(features: Feature[], show: boolean): any {
         if (!features || show) {
             return features;
         }
-        return features.filter(feat => !feat.discontinued && feat.included);
+        return features.filter(feat => feat.module != "");
     }
 }

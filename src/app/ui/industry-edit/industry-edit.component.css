@@ -1,0 +1,47 @@
+
+.main {
+    /* max-height: 720px; */
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    max-width: inherit;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding-right: 16px;
+    background-color: #f5f5f5;
+    padding-right: 16px;
+}
+
+
+@media print {
+    .main {
+        max-height: initial;
+    }
+    
+    .footer {
+        position: unset;
+        bottom: unset
+    }
+
+    .print-only {
+        display: unset;
+    }
+
+    .screen-only {
+        display: none;
+    }
+}
+
+@media screen {
+    .print-only {
+        display: none;
+    }
+
+    .screen-only {
+        display: unset;
+    }
+}

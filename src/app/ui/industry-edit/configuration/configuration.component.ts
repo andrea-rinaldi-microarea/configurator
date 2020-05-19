@@ -1,9 +1,9 @@
-import { Weight } from './../../../models/configuration';
-import { CSVExport, CSVFeature } from './../../../models/CSVExport';
+import { Weight } from './../../../../models/configuration';
+import { CSVExport, CSVFeature } from './../../../../models/CSVExport';
 import { Component, OnInit, DoCheck } from '@angular/core';
-import { ConfigurationService } from '../../services/configuration.service';
-import { ClientsService } from '../../services/clients.service';
-import { Feature } from '../../../models/feature';
+import { ConfigurationService } from '../../../services/configuration.service';
+import { ClientsService } from '../../../services/clients.service';
+import { Feature } from '../../../../models/feature';
 import { TranslateService } from '@ngx-translate/core';
 
 declare var require: any;

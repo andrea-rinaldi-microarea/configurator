@@ -4,20 +4,21 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AppComponent } from './app.component';
-import { FunctionalityPipe } from './ui/configuration/functionality-pipe';
-import { ClientsComponent } from './ui/clients/clients.component';
+import { FunctionalityPipe } from './ui/industry-edit/configuration/functionality-pipe';
+import { ClientsComponent } from './ui/industry-edit/clients/clients.component';
 import { ConfigurationService } from './services/configuration.service';
-import { ConfigurationComponent } from './ui/configuration/configuration.component';
+import { ConfigurationComponent } from './ui/industry-edit/configuration/configuration.component';
 import { ToolbarComponent } from './ui/toolbar/toolbar.component';
-import { ExcludedPipe } from './ui/configuration/excluded-pipe';
-import { EditionHeaderComponent } from './ui/edition-header/edition-header.component';
+import { ExcludedPipe } from './ui/industry-edit/configuration/excluded-pipe';
+import { EditionHeaderComponent } from './ui/industry-edit/edition-header/edition-header.component';
 import { TogglerComponent } from './ui/toggler/toggler.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { OtherIndustries } from './ui/configuration/other-industries-pipe';
-import { PricingComponent } from './ui/pricing/pricing.component';
+import { OtherIndustries } from './ui/industry-edit/configuration/other-industries-pipe';
+import { PricingComponent } from './ui/industry-edit/pricing/pricing.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { DetailedInfoComponent } from './ui/detailed-info/detailed-info.component';
+import { DetailedInfoComponent } from './ui/industry-edit/detailed-info/detailed-info.component';
+import { IndustryEditComponent } from './ui/industry-edit/industry-edit.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -35,7 +36,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     EditionHeaderComponent,
     TogglerComponent,
     PricingComponent,
-    DetailedInfoComponent
+    DetailedInfoComponent,
+    IndustryEditComponent
   ],
   imports: [
     BrowserModule,

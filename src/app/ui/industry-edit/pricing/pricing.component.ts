@@ -1,9 +1,9 @@
-import { Weight } from './../../../models/configuration';
-import { Pricing } from './../../../models/pricing';
+import { Weight } from './../../../../models/configuration';
+import { Pricing } from './../../../../models/pricing';
 import { Component, OnInit, DoCheck } from '@angular/core';
-import { ConfigurationService } from '../../services/configuration.service';
-import { ClientsService } from '../../services/clients.service';
-import { Feature } from '../../../models/feature';
+import { ConfigurationService } from '../../../services/configuration.service';
+import { ClientsService } from '../../../services/clients.service';
+import { Feature } from '../../../../models/feature';
 
 declare var require: any;
 const modulePricePRO = require("./module-price-PRO.json");
