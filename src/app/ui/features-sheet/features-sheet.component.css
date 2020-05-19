@@ -1,0 +1,11 @@
+.inline-flex {
+    display: inline-flex;
+}
+
+select{
+    text-align: center;
+    text-align-last:center;
+    border:0;
+    padding: 3px 15px;
+}
+

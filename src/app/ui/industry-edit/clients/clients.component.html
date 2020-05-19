@@ -3,7 +3,7 @@
         <div class="card-header bg-user">
             <div class="d-flex justify-content-between">
                 <div style="display: inline-flex;">
-                        <button class="btn btn-outline-light" (click)="clients.show = !clients.show"><i class="fa fa-big fa-users"></i></button> 
+                        <button class="btn btn-outline-light" (click)="clients.show = !clients.show"><i class="fa fa-users"></i></button> 
                         <input class="w-75 ml-3" type="file" onclick="this.value = null" (change)="openClients($event)" placeholder="Apri elenco clienti" accept=".csv">
                     </div>
                 <span [hidden]="!clients.some()">({{clients.count()}} utenti)</span>

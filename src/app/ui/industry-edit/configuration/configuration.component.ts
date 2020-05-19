@@ -7,7 +7,7 @@ import { Feature } from '../../../../models/feature';
 import { TranslateService } from '@ngx-translate/core';
 
 declare var require: any;
-const industryList = require("./industry-list.json");
+const industryList = require("../../data/industry-list.json");
 
 @Component({
   selector: 'app-configuration',

@@ -33,9 +33,6 @@ select{
     padding: 3px 15px;
 }
 
-.fa-big {
-    font-size: 28px;
-}
 
 .right-toolbar {
     position: absolute;
@@ -53,10 +50,6 @@ select{
     white-space: nowrap;
     vertical-align: middle;
     border: 1px solid transparent;
-}
-
-.not-visible {
-    visibility: hidden;
 }
 
 .subheader {

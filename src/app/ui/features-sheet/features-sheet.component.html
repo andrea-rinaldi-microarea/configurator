@@ -1,3 +1,23 @@
-<p>
-  detailed-description works!
-</p>
+<div class="row mt-2 d-flex justify-content-around">
+  <div class="inline-flex">
+    <div class="col-1 text-right btn btn-sm mr-2" [class.not-visible]="currIndustry == 0" [class.disabled]="editMode" (click)="editMode || onPrev()">
+      <i class="fa fa-big fa-chevron-left text-config-light"></i>
+    </div>
+    <div>
+      <select class="bg-config text-config-white lead" [disabled]="editMode" [(ngModel)]="currIndustry"  (change)="onIndustryChanged()">
+        <option *ngFor="let industry of industryList; let i=index"  [value]="i"> 
+        {{industry}}
+        </option>
+      </select>
+    </div>
+    <div class="col-1 text-left btn btn-sm" [class.not-visible]="currIndustry == industryList.length - 1" [class.disabled]="editMode" (click)="editMode || onNext()">
+      <i class="fa fa-big fa-chevron-right text-config-light"></i>
+    </div>
+  </div>
+</div>
+<div class="row mt-2" *ngIf="featureSheet.current"> 
+  <table class="table table-sm table-borderless">
+      <tr>
+      </tr>
+  </table>
+</div>

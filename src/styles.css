@@ -146,6 +146,14 @@ tr.group-sep {
 }
 
 
+.not-visible {
+    visibility: hidden;
+}
+
+.fa-big {
+    font-size: 28px;
+}
+
 
 
 @media print {

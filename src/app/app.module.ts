@@ -1,3 +1,4 @@
+import { FeaturesSheetService } from './services/features-sheet.service';
 import { ClientsService } from './services/clients.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -56,7 +57,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [ClientsService, ConfigurationService],
+  providers: [ClientsService, ConfigurationService, FeaturesSheetService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
