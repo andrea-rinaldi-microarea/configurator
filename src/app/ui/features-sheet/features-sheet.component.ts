@@ -125,7 +125,7 @@ export class FeaturesSheetComponent implements OnInit {
   }
 
   onSave() {
-    // this.configuration.save();
+    this.featureSheet.save();
   }
 
   onCancel() {
