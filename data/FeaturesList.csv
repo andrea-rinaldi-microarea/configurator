@@ -39,7 +39,8 @@ e-commerce;;KKCN;FALSE;eCommerce;;;FALSE
 Store Management;SM Backend;STMN;FALSE;StoreManagement;;;FALSE
 ;Variants / Size and Colors;RMVN;FALSE;StoreVariants;;;FALSE
 ;Food Recipes;STRE;FALSE;FoodRecipe;;;FALSE
-;In-store App Mobile;STMO;FALSE;InStoreApp;;;FALSE
+;In-store - Backend;STIA;FALSE;InStore;;;FALSE
+;In-store - App;STMO;FALSE;InStoreApp;;;FALSE
 CRM;Infinity Connector;MAIF;FALSE;InfinityConnector;;;FALSE
 ;CRM User sales;CRMS;FALSE;CRMUserSales;;;FALSE
 ;CRM User marketing;CRMM;FALSE;CRMUserMarketing;;;FALSE

@@ -107,6 +107,9 @@
     "StoreManagement": {
         "weight": 1000
     },
+    "InStore": {
+        "weight": 880
+    },
     "InStoreApp": {
         "weight": 330
     },

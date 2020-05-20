@@ -261,6 +261,10 @@
         "license": 330,
         "mlu": 59.00 
     },
+    "STIA": {
+        "license": 880,
+        "mlu": 158.00 
+    },
     "CPAC": {
         "license": 250,
         "mlu": 45.00 
