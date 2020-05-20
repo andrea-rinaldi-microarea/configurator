@@ -1,0 +1,88 @@
+topic;level;order;title;details;allowISO;denyISO;notYetAvailable
+MasterCommon;1;01;Masters and Common Functions;;;;FALSE
+Languages;3;01.1.1;Multilanguage descriptions;;;;FALSE
+Currencies;3;01.1.2;Multicurrency;;;;FALSE
+Contacts;3;01.1.3;Contacts Management;;;;FALSE
+Budget;3;01.1.4;Budget (Cust/Supp);;;;FALSE
+KPIMobileApp;3;01.1.5;KPI Dashboards mobile app;;;;FALSE
+Financials;1;02;Financials;;;;
+Accounting;2;02.1;Accounting;;;BR;FALSE
+CustomizableCodes;3;02.1.1;Customizable Journals and Templates;;;BR;FALSE
+PurchaseElectronicInvoicing;3;02.1.2;Electronic Invoice Import;;IT;;FALSE
+Plafond;3;02.1.3;Plafond Management;;IT,HU;;FALSE
+AccrualsDeferrals;3;02.1.4;Automatic Accrual and Deferrals;;;BR;FALSE
+Payees;3;02.1.5;Professionals Fees and Withholding Tax;;IT,RS,HR,CL,RO,NL,TN,ES;;FALSE
+Cash;3;02.1.6;Cash Management;;;IT,CH,BR;FALSE
+AP_AR;2;02.2;Payables and Receivables;;;;
+Dunnings;3;02.2.1;Dunning letters;;;;FALSE
+AP_AR_Analysis;3;02.2.2;Payment Schedule Analysis and Cash Flow;;;;FALSE
+AP_AR_Plus;3;02.2.3;Advanced AP/AR Management;;;;FALSE
+BalanceAnalysis;2;02.3;Balance Analysis and Reclassifications;;;BR;FALSE
+XBRL;3;02.3.1;XBRL Balance;;IT;;FALSE
+AccountingBooks;3;02.3.2;Accounting Books and Balance Attachments;;;BR;FALSE
+Basel_II;3;02.3.3;Balance Analysis (Basel II);;IT;;TRUE
+FixedAssets;2;02.4;Fixed Assets;;;;FALSE
+ForecastAccounting;2;02.5;Forecast Accounting;;;BR;FALSE
+MultiCompanyBalances;2;02.6;Multicompany Balance;;;BR;FALSE
+CostAccounting;2;02.7;Analysis & Controlling;;;;FALSE
+ProductLines;3;02.7.1;Product Lines;;;;FALSE
+CostAccountingTransfer;3;02.7.2;Transfers;;;;FALSE
+Intrastat;2;02.8;Intrastat;;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES;;FALSE
+Sales;1;03;Sales;;;;FALSE
+SalesAdvItemsManag;3;03.1.1;Advanced Items Management;;;;FALSE
+MultiStubBooks;3;03.1.2;Multiple Stub Books;;;;FALSE
+PickingList;3;03.1.3;Picking List;;;;FALSE
+SaleOrders;2;03.2;Sale Orders;;;;FALSE
+CustomerQuotations;3;03.2.1;Customer Quotations;;;;FALSE
+Conai;2;03.3;Conai;;IT,RO,BG,HU,ES;;FALSE
+WEEE;2;03.4;WEEE;;AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK;;FALSE
+SalesPeople;2;03.5;Sales Force Management;;;;FALSE
+CreditLimit;2;03.6;Credit Limit Management;;;;FALSE
+eCommerce;1;04;e-commerce;;;;FALSE
+StoreManagement;1;05;Store Management;;;;FALSE
+StoreVariants;3;05.1.1;Variants / Size and Colors;;;;FALSE
+FoodRecipe;3;05.1.2;Food Recipes;;;;FALSE
+InStore;3;05.1.3;In-store back-end;;;;FALSE
+InStoreApp;3;05.1.4;In-store App;;;;FALSE
+InfinityConnector;1;06;CRM;;;;FALSE
+CRMUserSales;3;06.1.1;CRM User sales;;;;FALSE
+CRMUserMarketing;3;06.1.2;CRM User marketing;;;;FALSE
+CRMUserFull;3;06.1.3;CRM User full;;;;FALSE
+Purchases;1;07;Purchases;;;;FALSE
+AdditionalCharges;3;07.1.1;Additional Charges;;;BR;FALSE
+PurchaseElectronicInvoicingAdv;3;07.1.2;Electronic Invoices Import;;;;FALSE
+PurchaseOrders;2;07.2;Purchase Orders;;;;FALSE
+SupplierQuotations;3;07.2.1;Supplier Quotations;;;;FALSE
+QualityInspection;2;07.3;Quality Inspections;;;;FALSE
+Inventory;1;08;Inventory;;;;FALSE
+InventoryAdvItemsManag;3;08.1.1;Advanced Items Management;;;;FALSE
+MultiStorage;3;08.1.2;Multistorage;;;;FALSE
+SingleStepLifoFifo;3;08.1.3;Single Step LIFO/FIFO;;HU,IT,CH,BG,DE;;FALSE
+InventoryAdjustment;3;08.1.4;Advanced Inventory Adjustments;;;;FALSE
+LotsSerials;2;08.2;Lots and Serial Numbers;;;;FALSE
+WMSBasic;1;09;WMS;;;;FALSE
+WMSAdvanced;3;09.1.1;WMS Advanced;;;;FALSE
+WMSMobile;3;09.1.2;WMS Mobile back-end;;;;FALSE
+WMSMobileApp;3;09.1.3;WMS Mobile App;;;;FALSE
+BillOfMaterials;1;10;Bill of Materials;;;;FALSE
+ECO;3;10.1.1;Engineering Changing Order;;;;FALSE
+Variants;2;10.2;Variants;;;;FALSE
+Configurator;2;10.3;Configurator;;;;FALSE
+Manufacturing;1;11;Manufacturing;;;;FALSE
+ManufacturingMobile;3;11.1.1;Manufacturing Mobile back-end;;;;FALSE
+ManufacturingMobileApp;3;11.1.2;Manufacturing Mobile App;;;;FALSE
+ManufacturingAdvanced;2;11.2;Advanced Manufacturing;;;;FALSE
+BillOfMaterialsPlus;3;11.2.1;Drawings, History and Versioning;;;;FALSE
+Kanban;3;11.2.2;Kanban;;;;FALSE
+ManufacturingPlanning;2;11.3;Planning;;;;FALSE
+MRPAdvanced;3;11.3.1;Advanced Planning;;;;FALSE
+OpenOrders;2;11.4;Open Orders;;;;TRUE
+ToolsManagement;2;11.5;Tools Management;;;;FALSE
+Framework;1;12;Framework;;;;
+DMS;2;12.1;DMS;;;;TRUE
+DMSMassive;3;12.1.1;Massive Archiving Plug-In;;;;TRUE
+JobScheduler;2;12.2;Job Scheduler;;;;TRUE
+Security;2;12.3;Security;;;;TRUE
+SecurityAdvanced;3;12.3.1;Security Access profiles;;;;TRUE
+Auditing;3;12.3.2;Auditing;;;;TRUE
+Visibility;3;12.3.3;Visibility;;;;FALSE

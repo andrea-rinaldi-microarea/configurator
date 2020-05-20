@@ -1,0 +1,626 @@
+[
+ {
+   "topic": "MasterCommon",
+   "level": 1,
+   "order": "01",
+   "title": "Masters and Common Functions",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Languages",
+   "level": 3,
+   "order": "01.1.1",
+   "title": "Multilanguage descriptions",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Currencies",
+   "level": 3,
+   "order": "01.1.2",
+   "title": "Multicurrency",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Contacts",
+   "level": 3,
+   "order": "01.1.3",
+   "title": "Contacts Management",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Budget",
+   "level": 3,
+   "order": "01.1.4",
+   "title": "Budget (Cust/Supp)",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "KPIMobileApp",
+   "level": 3,
+   "order": "01.1.5",
+   "title": "KPI Dashboards mobile app",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Financials",
+   "level": 1,
+   "order": "02",
+   "title": "Financials"
+ },
+ {
+   "topic": "Accounting",
+   "level": 2,
+   "order": "02.1",
+   "title": "Accounting",
+   "denyISO": "BR",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "CustomizableCodes",
+   "level": 3,
+   "order": "02.1.1",
+   "title": "Customizable Journals and Templates",
+   "denyISO": "BR",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "PurchaseElectronicInvoicing",
+   "level": 3,
+   "order": "02.1.2",
+   "title": "Electronic Invoice Import",
+   "allowISO": "IT",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Plafond",
+   "level": 3,
+   "order": "02.1.3",
+   "title": "Plafond Management",
+   "allowISO": "IT,HU",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "AccrualsDeferrals",
+   "level": 3,
+   "order": "02.1.4",
+   "title": "Automatic Accrual and Deferrals",
+   "denyISO": "BR",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Payees",
+   "level": 3,
+   "order": "02.1.5",
+   "title": "Professionals Fees and Withholding Tax",
+   "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Cash",
+   "level": 3,
+   "order": "02.1.6",
+   "title": "Cash Management",
+   "denyISO": "IT,CH,BR",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "AP_AR",
+   "level": 2,
+   "order": "02.2",
+   "title": "Payables and Receivables"
+ },
+ {
+   "topic": "Dunnings",
+   "level": 3,
+   "order": "02.2.1",
+   "title": "Dunning letters",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "AP_AR_Analysis",
+   "level": 3,
+   "order": "02.2.2",
+   "title": "Payment Schedule Analysis and Cash Flow",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "AP_AR_Plus",
+   "level": 3,
+   "order": "02.2.3",
+   "title": "Advanced AP/AR Management",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "BalanceAnalysis",
+   "level": 2,
+   "order": "02.3",
+   "title": "Balance Analysis and Reclassifications",
+   "denyISO": "BR",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "XBRL",
+   "level": 3,
+   "order": "02.3.1",
+   "title": "XBRL Balance",
+   "allowISO": "IT",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "AccountingBooks",
+   "level": 3,
+   "order": "02.3.2",
+   "title": "Accounting Books and Balance Attachments",
+   "denyISO": "BR",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Basel_II",
+   "level": 3,
+   "order": "02.3.3",
+   "title": "Balance Analysis (Basel II)",
+   "allowISO": "IT",
+   "notYetAvailable": true
+ },
+ {
+   "topic": "FixedAssets",
+   "level": 2,
+   "order": "02.4",
+   "title": "Fixed Assets",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "ForecastAccounting",
+   "level": 2,
+   "order": "02.5",
+   "title": "Forecast Accounting",
+   "denyISO": "BR",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "MultiCompanyBalances",
+   "level": 2,
+   "order": "02.6",
+   "title": "Multicompany Balance",
+   "denyISO": "BR",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "CostAccounting",
+   "level": 2,
+   "order": "02.7",
+   "title": "Analysis & Controlling",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "ProductLines",
+   "level": 3,
+   "order": "02.7.1",
+   "title": "Product Lines",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "CostAccountingTransfer",
+   "level": 3,
+   "order": "02.7.2",
+   "title": "Transfers",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Intrastat",
+   "level": 2,
+   "order": "02.8",
+   "title": "Intrastat",
+   "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Sales",
+   "level": 1,
+   "order": "03",
+   "title": "Sales",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "SalesAdvItemsManag",
+   "level": 3,
+   "order": "03.1.1",
+   "title": "Advanced Items Management",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "MultiStubBooks",
+   "level": 3,
+   "order": "03.1.2",
+   "title": "Multiple Stub Books",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "PickingList",
+   "level": 3,
+   "order": "03.1.3",
+   "title": "Picking List",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "SaleOrders",
+   "level": 2,
+   "order": "03.2",
+   "title": "Sale Orders",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "CustomerQuotations",
+   "level": 3,
+   "order": "03.2.1",
+   "title": "Customer Quotations",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Conai",
+   "level": 2,
+   "order": "03.3",
+   "title": "Conai",
+   "allowISO": "IT,RO,BG,HU,ES",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "WEEE",
+   "level": 2,
+   "order": "03.4",
+   "title": "WEEE",
+   "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "SalesPeople",
+   "level": 2,
+   "order": "03.5",
+   "title": "Sales Force Management",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "CreditLimit",
+   "level": 2,
+   "order": "03.6",
+   "title": "Credit Limit Management",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "eCommerce",
+   "level": 1,
+   "order": "04",
+   "title": "e-commerce",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "StoreManagement",
+   "level": 1,
+   "order": "05",
+   "title": "Store Management",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "StoreVariants",
+   "level": 3,
+   "order": "05.1.1",
+   "title": "Variants / Size and Colors",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "FoodRecipe",
+   "level": 3,
+   "order": "05.1.2",
+   "title": "Food Recipes",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "InStore",
+   "level": 3,
+   "order": "05.1.3",
+   "title": "In-store back-end",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "InStoreApp",
+   "level": 3,
+   "order": "05.1.4",
+   "title": "In-store App",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "InfinityConnector",
+   "level": 1,
+   "order": "06",
+   "title": "CRM",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "CRMUserSales",
+   "level": 3,
+   "order": "06.1.1",
+   "title": "CRM User sales",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "CRMUserMarketing",
+   "level": 3,
+   "order": "06.1.2",
+   "title": "CRM User marketing",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "CRMUserFull",
+   "level": 3,
+   "order": "06.1.3",
+   "title": "CRM User full",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Purchases",
+   "level": 1,
+   "order": "07",
+   "title": "Purchases",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "AdditionalCharges",
+   "level": 3,
+   "order": "07.1.1",
+   "title": "Additional Charges",
+   "denyISO": "BR",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "PurchaseElectronicInvoicingAdv",
+   "level": 3,
+   "order": "07.1.2",
+   "title": "Electronic Invoices Import",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "PurchaseOrders",
+   "level": 2,
+   "order": "07.2",
+   "title": "Purchase Orders",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "SupplierQuotations",
+   "level": 3,
+   "order": "07.2.1",
+   "title": "Supplier Quotations",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "QualityInspection",
+   "level": 2,
+   "order": "07.3",
+   "title": "Quality Inspections",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Inventory",
+   "level": 1,
+   "order": "08",
+   "title": "Inventory",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "InventoryAdvItemsManag",
+   "level": 3,
+   "order": "08.1.1",
+   "title": "Advanced Items Management",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "MultiStorage",
+   "level": 3,
+   "order": "08.1.2",
+   "title": "Multistorage",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "SingleStepLifoFifo",
+   "level": 3,
+   "order": "08.1.3",
+   "title": "Single Step LIFO/FIFO",
+   "allowISO": "HU,IT,CH,BG,DE",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "InventoryAdjustment",
+   "level": 3,
+   "order": "08.1.4",
+   "title": "Advanced Inventory Adjustments",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "LotsSerials",
+   "level": 2,
+   "order": "08.2",
+   "title": "Lots and Serial Numbers",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "WMSBasic",
+   "level": 1,
+   "order": "09",
+   "title": "WMS",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "WMSAdvanced",
+   "level": 3,
+   "order": "09.1.1",
+   "title": "WMS Advanced",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "WMSMobile",
+   "level": 3,
+   "order": "09.1.2",
+   "title": "WMS Mobile back-end",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "WMSMobileApp",
+   "level": 3,
+   "order": "09.1.3",
+   "title": "WMS Mobile App",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "BillOfMaterials",
+   "level": 1,
+   "order": "10",
+   "title": "Bill of Materials",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "ECO",
+   "level": 3,
+   "order": "10.1.1",
+   "title": "Engineering Changing Order",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Variants",
+   "level": 2,
+   "order": "10.2",
+   "title": "Variants",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Configurator",
+   "level": 2,
+   "order": "10.3",
+   "title": "Configurator",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Manufacturing",
+   "level": 1,
+   "order": "11",
+   "title": "Manufacturing",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "ManufacturingMobile",
+   "level": 3,
+   "order": "11.1.1",
+   "title": "Manufacturing Mobile back-end",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "ManufacturingMobileApp",
+   "level": 3,
+   "order": "11.1.2",
+   "title": "Manufacturing Mobile App",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "ManufacturingAdvanced",
+   "level": 2,
+   "order": "11.2",
+   "title": "Advanced Manufacturing",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "BillOfMaterialsPlus",
+   "level": 3,
+   "order": "11.2.1",
+   "title": "Drawings, History and Versioning",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Kanban",
+   "level": 3,
+   "order": "11.2.2",
+   "title": "Kanban",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "ManufacturingPlanning",
+   "level": 2,
+   "order": "11.3",
+   "title": "Planning",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "MRPAdvanced",
+   "level": 3,
+   "order": "11.3.1",
+   "title": "Advanced Planning",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "OpenOrders",
+   "level": 2,
+   "order": "11.4",
+   "title": "Open Orders",
+   "notYetAvailable": true
+ },
+ {
+   "topic": "ToolsManagement",
+   "level": 2,
+   "order": "11.5",
+   "title": "Tools Management",
+   "notYetAvailable": false
+ },
+ {
+   "topic": "Framework",
+   "level": 1,
+   "order": "12",
+   "title": "Framework"
+ },
+ {
+   "topic": "DMS",
+   "level": 2,
+   "order": "12.1",
+   "title": "DMS",
+   "notYetAvailable": true
+ },
+ {
+   "topic": "DMSMassive",
+   "level": 3,
+   "order": "12.1.1",
+   "title": "Massive Archiving Plug-In",
+   "notYetAvailable": true
+ },
+ {
+   "topic": "JobScheduler",
+   "level": 2,
+   "order": "12.2",
+   "title": "Job Scheduler",
+   "notYetAvailable": true
+ },
+ {
+   "topic": "Security",
+   "level": 2,
+   "order": "12.3",
+   "title": "Security",
+   "notYetAvailable": true
+ },
+ {
+   "topic": "SecurityAdvanced",
+   "level": 3,
+   "order": "12.3.1",
+   "title": "Security Access profiles",
+   "notYetAvailable": true
+ },
+ {
+   "topic": "Auditing",
+   "level": 3,
+   "order": "12.3.2",
+   "title": "Auditing",
+   "notYetAvailable": true
+ },
+ {
+   "topic": "Visibility",
+   "level": 3,
+   "order": "12.3.3",
+   "title": "Visibility",
+   "notYetAvailable": false
+ }
+]

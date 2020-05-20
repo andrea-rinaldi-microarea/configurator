@@ -9,3 +9,30 @@ select{
     padding: 3px 15px;
 }
 
+.excluded {
+    color: grey;
+    font-style: italic;
+}
+
+.level-1 {
+    font-size: large;
+    font-weight: bold;
+}
+
+.level-2 {
+    font-size: large;
+}
+
+.level-3 {
+    font-size: medium;
+}
+
+.main {
+    overflow-y: auto;
+    max-width: inherit;
+}
+
+.right {
+    position: absolute;
+    right:0;
+}

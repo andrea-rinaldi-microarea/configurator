@@ -1,23 +1,85 @@
-<div class="row mt-2 d-flex justify-content-around">
-  <div class="inline-flex">
-    <div class="col-1 text-right btn btn-sm mr-2" [class.not-visible]="currIndustry == 0" [class.disabled]="editMode" (click)="editMode || onPrev()">
-      <i class="fa fa-big fa-chevron-left text-config-light"></i>
+<div class="container main">
+  <div class="row mt-2 d-flex justify-content-around">
+    <div class="inline-flex">
+      <div class="col-1 text-right btn btn-sm mr-2" [class.not-visible]="currIndustry == 0" [class.disabled]="editMode" (click)="editMode || onPrev()">
+        <i class="fa fa-big fa-chevron-left text-config-light"></i>
+      </div>
+      <div>
+        <select class="bg-config text-config-white lead" [disabled]="editMode" [(ngModel)]="currIndustry"  (change)="onIndustryChanged()">
+          <option *ngFor="let industry of industryList; let i=index"  [value]="i"> 
+          {{industry}}
+          </option>
+        </select>
+      </div>
+      <div class="col-1 text-left btn btn-sm" [class.not-visible]="currIndustry == industryList.length - 1" [class.disabled]="editMode" (click)="editMode || onNext()">
+        <i class="fa fa-big fa-chevron-right text-config-light"></i>
+      </div>
     </div>
-    <div>
-      <select class="bg-config text-config-white lead" [disabled]="editMode" [(ngModel)]="currIndustry"  (change)="onIndustryChanged()">
-        <option *ngFor="let industry of industryList; let i=index"  [value]="i"> 
-        {{industry}}
-        </option>
-      </select>
-    </div>
-    <div class="col-1 text-left btn btn-sm" [class.not-visible]="currIndustry == industryList.length - 1" [class.disabled]="editMode" (click)="editMode || onNext()">
-      <i class="fa fa-big fa-chevron-right text-config-light"></i>
+    <div class="right" [hidden]="currIndustry == null">
+      <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button> 
+      <div ngbDropdown class="d-inline-block">
+        <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle placement="bottom" ngbTooltip="Copia un'altra industry">
+            <i class="fa fa-big fa-files-o text-config-light"></i>
+        </button>
+        <div ngbDropdownMenu style="margin-left:-75px">
+          <button class="dropdown-item" ngbDropdownItem *ngFor="let industry of industryList | OtherIndustries:currIndustry" (click)="onCopy(industry)">{{industry}}</button>
+        </div>
+      </div>
+      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onSave(); editMode=false"><i class="fa fa-big fa-floppy-o text-config-light"></i></button> 
+      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button> 
     </div>
   </div>
-</div>
-<div class="row mt-2" *ngIf="featureSheet.current"> 
-  <table class="table table-sm table-borderless">
-      <tr>
+  <div class="row mt-2" *ngIf="featureSheet.current"> 
+    <table class="table table-sm table-borderless">
+        <tr>
+          <th width="15px"><app-toggler class="text-config-light" [(value)]="hideExcluded"></app-toggler></th>
+          <th>{{"Functionality" | translate}}</th>
+          <th width="25px" class="text-center edition-sep" ></th>
+          <th class="text-center edition-sep" >Standard</th>
+          <th class="text-center edition-sep" >Premium</th>
+          <th class="text-center edition-sep" >Professional</th>
+          <th class="text-center edition-sep" >Enterprise</th>
+        </tr>
+        <tr *ngFor="let line of featureSheet.current.lines | LineExcluded:!hideExcluded" [class.excluded]="!line.included">
+          <td width="15px"><app-toggler [disabled]="!editMode" class="text-config-light" [(value)]="line.included" [options]="includedOptions"></app-toggler></td>
+          <td >
+            <i class="fa fa-calendar text-warning" [hidden]="!topicNotYetAvailable(line)" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
+            <span [className]="topicClass(line)">{{topicTitle(line) | translate}} </span>
+          </td> 
+          <td width="25px" class="text-center edition-sep"><i class="fa fa-globe" [hidden]="!isLocalized(line)" placement="right" [ngbTooltip]="ISOTooltip(line)"></i></td>  
+          <td class="text-center edition-sep">
+            <app-toggler 
+              [hidden]="!line.included" 
+              [disabled]="!editMode" 
+              class="text-config" 
+              [(value)]="line.standard" 
+              [options]="topicTypes"></app-toggler>
+          </td>
+          <td class="text-center edition-sep">
+            <app-toggler 
+              [hidden]="!line.included" 
+              [disabled]="!editMode" 
+              class="text-config" 
+              [(value)]="line.premium" 
+              [options]="topicTypes"></app-toggler>
+          </td>
+          <td class="text-center edition-sep">
+            <app-toggler 
+              [hidden]="!line.included" 
+              [disabled]="!editMode" 
+              class="text-config" 
+              [(value)]="line.professional" 
+              [options]="topicTypes"></app-toggler>
+          </td>
+          <td class="text-center edition-sep">
+            <app-toggler 
+              [hidden]="!line.included" 
+              [disabled]="!editMode" 
+              class="text-config" 
+              [(value)]="line.enterprise" 
+              [options]="topicTypes"></app-toggler>
+          </td>
       </tr>
-  </table>
+      </table>
+  </div>
 </div>
