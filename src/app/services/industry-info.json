@@ -1,38 +1,38 @@
 {
     "Administration & Services" : {
         "code": "ADSE",
-        "version": "4",
+        "version": "5",
         "productID": "MC",
         "productName": "MagoCloud"
       
     },
     "Food, Beverage & HORECA" : {
         "code": "FBHO",
-        "version": "5",
+        "version": "6",
         "productID": "MC",
         "productName": "MagoCloud"
     },
     "Retail & Fashion" : {
         "code": "REFA",
-        "version": "5",
+        "version": "6",
         "productID": "MC",
         "productName": "MagoCloud"
     },
     "Trade & Wholesale" : {
         "code": "TRWH",
-        "version": "4",
+        "version": "5",
         "productID": "MC",
         "productName": "MagoCloud"
     },
     "Assembly & Materials" : {
         "code": "ASMT",
-        "version": "4",
+        "version": "5",
         "productID": "MC",
         "productName": "MagoCloud"
     },
     "Manufacturing" : {
         "code": "MANF",
-        "version": "4",
+        "version": "5",
         "productID": "MC",
         "productName": "MagoCloud"
     }
