@@ -622,5 +622,12 @@
    "order": "12.3.3",
    "title": "Visibility",
    "notYetAvailable": false
+ },
+ {
+   "topic": "MyMagoStudio",
+   "level": 2,
+   "order": "12.4",
+   "title": "MyMago Studio",
+   "notYetAvailable": false
  }
 ]

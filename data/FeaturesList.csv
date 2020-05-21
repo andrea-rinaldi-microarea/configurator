@@ -88,6 +88,6 @@ Security;;OSLL;FALSE;Security;;;TRUE
 ;Security Access profiles;OSLS;FALSE;SecurityAdvanced;;;TRUE
 ;Auditing;AUDT;FALSE;Auditing;;;TRUE
 ;Visibility;VISI;FALSE;Visibility;;;FALSE
-MyMago Studio;;MYMS;FALSE;TBS;;;FALSE
+MyMago Studio;;MYMS;FALSE;MyMagoStudio;;;FALSE
 _Xgate;;XGAT;TRUE;;;;FALSE
 IMS Custom Flows;;ISCF;TRUE;;;;FALSE
