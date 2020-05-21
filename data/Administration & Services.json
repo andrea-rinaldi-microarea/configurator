@@ -33,7 +33,10 @@
     },
     {
       "Topic": "KPIMobileApp",
-      "Included": false
+      "Included": true,
+      "Premium": "Nr-User",
+      "Professional": "Nr-User",
+      "Enterprise": "Nr-User"
     },
     {
       "Topic": "Financials",
@@ -357,6 +360,10 @@
     },
     {
       "Topic": "Visibility",
+      "Included": false
+    },
+    {
+      "Topic": "MyMagoStudio",
       "Included": false
     }
   ]

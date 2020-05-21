@@ -39,7 +39,7 @@
    "level": 3,
    "order": "01.1.5",
    "title": "KPI Dashboards mobile app",
-   "details": "Lorem Ipsum",
+   "details": "iOS and Android mobile app for the Finance, Sales or Operations manager. Provides quick access to company data through easy-to-use KPI widgets. Several standard KPIs are provided; customized KPIs can be created with MyMago Studio.",
    "notYetAvailable": false
  },
  {
@@ -108,7 +108,8 @@
    "topic": "AP_AR",
    "level": 2,
    "order": "02.2",
-   "title": "Payables and Receivables"
+   "title": "Payables and Receivables",
+   "details": "Advanced Banks Management"
  },
  {
    "topic": "Dunnings",
@@ -129,7 +130,8 @@
    "level": 3,
    "order": "02.2.3",
    "title": "Advanced AP/AR Management",
-   "notYetAvailable": false
+   "notYetAvailable": false,
+   "details": "Customizable Bills Management, Vouchers Management, Factoring Management and Outstandings Management"
  },
  {
    "topic": "BalanceAnalysis",
@@ -220,14 +222,16 @@
    "level": 1,
    "order": "03",
    "title": "Sales",
-   "notYetAvailable": false
+   "notYetAvailable": false,
+   "details": "Sale Electronic Invoices"
  },
  {
    "topic": "SalesAdvItemsManag",
    "level": 3,
    "order": "03.1.1",
    "title": "Advanced Items Management",
-   "notYetAvailable": false
+   "notYetAvailable": false,
+   "details": "Price Policies, Charge Policies, Smart Codes and Advanced UoMs"
  },
  {
    "topic": "MultiStubBooks",
@@ -405,14 +409,16 @@
    "level": 1,
    "order": "08",
    "title": "Inventory",
-   "notYetAvailable": false
+   "notYetAvailable": false,
+   "details": "Barcode Manager"
  },
  {
    "topic": "InventoryAdvItemsManag",
    "level": 3,
    "order": "08.1.1",
    "title": "Advanced Items Management",
-   "notYetAvailable": false
+   "notYetAvailable": false,
+   "details": "Smart Codes and Advanced UoMs"
  },
  {
    "topic": "MultiStorage",
@@ -448,7 +454,8 @@
    "level": 1,
    "order": "09",
    "title": "WMS",
-   "notYetAvailable": false
+   "notYetAvailable": false,
+   "details": "WMS Shipping"
  },
  {
    "topic": "WMSAdvanced",
@@ -525,7 +532,8 @@
    "level": 2,
    "order": "11.2",
    "title": "Advanced Manufacturing",
-   "notYetAvailable": false
+   "notYetAvailable": false,
+   "details": "Control Panel, MO Confirmation Details, Bill / MO Comparision and Analysis of Materials in Production"
  },
  {
    "topic": "BillOfMaterialsPlus",
@@ -553,7 +561,8 @@
    "level": 3,
    "order": "11.3.1",
    "title": "Advanced Planning",
-   "notYetAvailable": false
+   "notYetAvailable": false,
+   "details": "Work Centers Calendar and Work Center Families"
  },
  {
    "topic": "OpenOrders",
