@@ -18,7 +18,7 @@ import { OtherIndustries } from './ui/industry-edit/configuration/other-industri
 import { PricingComponent } from './ui/industry-edit/pricing/pricing.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { DetailedInfoComponent } from './ui/industry-edit/detailed-info/detailed-info.component';
+import { DetailedInfoComponent } from './ui/detailed-info/detailed-info.component';
 import { IndustryEditComponent } from './ui/industry-edit/industry-edit.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { DataSheetComponent } from './ui/data-sheet/data-sheet.component';

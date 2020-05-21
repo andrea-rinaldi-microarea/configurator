@@ -1,17 +1,14 @@
 import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
 
-declare var require: any;
-const detailedInfos = require("./detailed-info.json");
-
 @Component({
   selector: 'app-detailed-info',
   template: `
   <div #content>
     <ng-content></ng-content>
-    <i *ngIf="enabled" class="fa fa-info-circle text-muted clickable" (click)="show=!show"></i>
+    <i *ngIf="enabled" [className]="iconClass" (click)="show=!show"></i>
   </div>
   <div [hidden]="!show" class="small font-weight-lighter font-italic">
-  {{detailedInfo | translate}}
+  {{details | translate}}
   </div>
   `,
   styles: [`
@@ -24,17 +21,18 @@ const detailedInfos = require("./detailed-info.json");
   `]
 })
 export class DetailedInfoComponent implements OnInit {
-  @Input() name: string = "";
+  @Input() details: string = "";
+  @Input() icon: string = "fa-info-circle";
   @ViewChild('content') content: ElementRef;
-  private detailedInfo: string = "";
+  public iconClass = "";
   private enabled: boolean = false;
   private show: boolean = false;
 
   constructor() { }
 
   ngOnInit() {
-    this.detailedInfo = detailedInfos[this.name];
-    this.enabled = (this.detailedInfo !== undefined && this.detailedInfo != "");
+    this.enabled = (this.details !== undefined && this.details != "");
+    this.iconClass = "fa text-muted clickable " + this.icon;
   }
 
   ngAfterViewInit() {

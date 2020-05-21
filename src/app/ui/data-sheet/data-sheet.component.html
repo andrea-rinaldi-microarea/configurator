@@ -44,7 +44,7 @@
           <td width="15px"><app-toggler [disabled]="!editMode" class="text-config-light" [(value)]="line.included" [options]="includedOptions"></app-toggler></td>
           <td >
             <i class="fa fa-calendar text-warning" [hidden]="!topicNotYetAvailable(line)" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
-            <span [className]="topicClass(line)">{{topicTitle(line) | translate}} </span>
+            <app-detailed-info [className]="topicClass(line)" [details]="topicDetails(line)" icon="fa-angle-down">{{topicTitle(line) | translate}}</app-detailed-info>
           </td> 
           <td width="25px" class="text-center edition-sep"><i class="fa fa-globe" [hidden]="!isLocalized(line)" placement="right" [ngbTooltip]="ISOTooltip(line)"></i></td>  
           <td class="text-center edition-sep">

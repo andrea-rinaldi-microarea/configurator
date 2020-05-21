@@ -8,6 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
 
 declare var require: any;
 const industryList = require("../../data/industry-list.json");
+const detailedInfos = require("./detailed-info.json");
 
 @Component({
   selector: 'app-configuration',
@@ -246,6 +247,10 @@ export class ConfigurationComponent implements OnInit, DoCheck {
 
   missingFragment(feature: Feature) {
     return (feature.fragment == "" || feature.fragment.startsWith("_"))  && !feature.discontinued;
+  }
+
+  detailedInfo(feature: Feature) {
+    return detailedInfos[feature.fragment||feature.tag];
   }
 
 }

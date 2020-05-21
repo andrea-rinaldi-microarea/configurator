@@ -124,6 +124,11 @@ export class DataSheetComponent implements OnInit {
     return tooltip;
   }
 
+  topicDetails(line: DataSheetLine) {
+    var topic = this.dataSheet.topic(line.topic);
+    if (topic != null) return topic.details;
+  }
+
   onSave() {
     this.dataSheet.save();
   }
