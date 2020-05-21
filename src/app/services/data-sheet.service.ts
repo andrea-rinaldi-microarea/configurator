@@ -44,4 +44,17 @@ export class DataSheetService {
     });
   }
 
+  public copy(sourceIndustry: string): Observable<any> {
+    var savedName = this.current.name;
+    var $dataSheet = new Observable<any>(observer => {
+      this.load(sourceIndustry).subscribe(res => {
+        this.current.name = savedName;
+        observer.next();
+        observer.complete();
+      });
+    });
+    return $dataSheet;
+  }
+
+
 }

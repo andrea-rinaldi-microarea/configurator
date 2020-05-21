@@ -133,9 +133,7 @@ export class DataSheetComponent implements OnInit {
   }
 
   onCopy(sourceIndustry) {
-    // this.configuration.copy(sourceIndustry).subscribe( res => {
-    //   this.configuration.showUsing(this.clients.current);
-    // });
+    this.dataSheet.copy(sourceIndustry).subscribe();
   }
 
 }
