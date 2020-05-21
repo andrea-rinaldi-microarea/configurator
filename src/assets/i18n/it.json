@@ -13,7 +13,7 @@
     "Multicurrency":"Multivaluta",
     "Contacts Management":"Gestione Contatti",
     "Budget (Cust/Supp)":"Budget (Cli/For)",
-    "Financials":"Contabilità Generale",
+    "Financials":"Amministrazione e Contabilità",
     "Sale Tax Journals": "Registri IVA vendite",
     "Purchase Tax Journals": "Registri IVA acquisti",
     "Other Tax Journals": "Registri IVA di altro tipo",
@@ -127,5 +127,15 @@
     "CRM User marketing": "Utente CRM marketing",
     "CRM User full": "Utente CRM completo",
     "Industry Edit": "Editor Industry",
-    "Features Sheet": "Dettaglio Funzioni"
+    "Data Sheet": "Dettaglio Funzioni",
+    "Masters and Common Functions": "Anagrafiche e Funzioni Comuni",
+    "Accounting": "Contabilità Generale",
+    "Customizable Journals and Templates": "Registri e modelli Personalizzabili",
+    "Electronic Invoice Import": "Import Fatture Elettroniche",
+    "Payables and Receivables": "Scadenzario e Partite Aperte",
+    "Sales": "Vendite",
+    "Store Management": "Punto Vendita",
+    "Advanced Inventory Adjustments": "Rettifiche inventariali avanzate",
+    "WMS Advanced": "WMS Avanzato",
+    "Drawings, History and Versioning": "Disegni, storico e indici di revisione"
 }
