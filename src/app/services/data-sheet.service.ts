@@ -1,27 +1,27 @@
 import { HttpClient } from '@angular/common/http';
-import { Topic } from './../../models/features-sheet';
+import { Topic } from '../../models/data-sheet';
 import { Injectable } from '@angular/core';
-import { FeaturesSheet, FeaturesSheetLine } from '../../models/features-sheet';
+import { DataSheet, DataSheetLine } from '../../models/data-sheet';
 import { Observable } from 'rxjs/Observable';
 
 declare var require: any;
 const topics = require("./topics.json");
 
 @Injectable()
-export class FeaturesSheetService {
+export class DataSheetService {
 
-  public current: FeaturesSheet;
+  public current: DataSheet;
 
   constructor(
     private http: HttpClient
   ) { }
 
   public load(industry: string): Observable<any> {
-    var $featuresSheet = new Observable<any>( observer => {
-      this.http.get('/api/featuresSheet/' + industry).subscribe((actualData:FeaturesSheet) => {
-        this.current = new FeaturesSheet(industry);
+    var $dataSheet = new Observable<any>( observer => {
+      this.http.get('/api/dataSheet/' + industry).subscribe((actualData:DataSheet) => {
+        this.current = new DataSheet(industry);
         topics.forEach(topic => {
-          this.current.lines.push(new FeaturesSheetLine(topic.topic));
+          this.current.lines.push(new DataSheetLine(topic.topic));
           var actualLine = actualData.lines ? actualData.lines.find(l => l.topic == topic.topic) : null;
           if (actualLine != null) {
             this.current.lines[this.current.lines.length - 1] = actualLine;
@@ -31,7 +31,7 @@ export class FeaturesSheetService {
         observer.complete();
       });
     });
-    return $featuresSheet;
+    return $dataSheet;
   }
 
   public topic(topic: string): Topic {
@@ -39,7 +39,7 @@ export class FeaturesSheetService {
   }
 
   public save() {
-    this.http.post('/api/featuresSheet/save', this.current).subscribe(res => {
+    this.http.post('/api/dataSheet/save', this.current).subscribe(res => {
       console.log("saved");
     });
   }

@@ -1,4 +1,4 @@
-import { FeaturesSheetService } from './services/features-sheet.service';
+import { DataSheetService } from './services/data-sheet.service';
 import { ClientsService } from './services/clients.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -21,8 +21,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { DetailedInfoComponent } from './ui/industry-edit/detailed-info/detailed-info.component';
 import { IndustryEditComponent } from './ui/industry-edit/industry-edit.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
-import { FeaturesSheetComponent } from './ui/features-sheet/features-sheet.component';
-import { LineExcludedPipe } from './ui/features-sheet/line-excluded-pipe';
+import { DataSheetComponent } from './ui/data-sheet/data-sheet.component';
+import { LineExcludedPipe } from './ui/data-sheet/line-excluded-pipe';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -43,7 +43,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     PricingComponent,
     DetailedInfoComponent,
     IndustryEditComponent,
-    FeaturesSheetComponent
+    DataSheetComponent
   ],
   imports: [
     BrowserModule,
@@ -59,7 +59,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [ClientsService, ConfigurationService, FeaturesSheetService],
+  providers: [ClientsService, ConfigurationService, DataSheetService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

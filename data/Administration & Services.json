@@ -19,14 +19,12 @@
     {
       "Topic": "Currencies",
       "Included": true,
-      "Premium": "X/0",
       "Professional": "X",
       "Enterprise": "X"
     },
     {
       "Topic": "Contacts",
       "Included": true,
-      "Professional": "X",
       "Enterprise": "X"
     },
     {

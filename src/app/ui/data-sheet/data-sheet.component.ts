@@ -1,16 +1,16 @@
-import { FeaturesSheetLine } from './../../../models/features-sheet';
-import { FeaturesSheetService } from './../../services/features-sheet.service';
+import { DataSheetLine } from '../../../models/data-sheet';
+import { DataSheetService } from '../../services/data-sheet.service';
 import { Component, OnInit } from '@angular/core';
 
 declare var require: any;
 const industryList = require("../data/industry-list.json");
 
 @Component({
-  selector: 'app-features-sheet',
-  templateUrl: './features-sheet.component.html',
-  styleUrls: ['./features-sheet.component.css']
+  selector: 'app-data-sheet',
+  templateUrl: './data-sheet.component.html',
+  styleUrls: ['./data-sheet.component.css']
 })
-export class FeaturesSheetComponent implements OnInit {
+export class DataSheetComponent implements OnInit {
 
   private currIndustry:  number = null;
   private industryList: string[] = industryList;
@@ -51,14 +51,14 @@ export class FeaturesSheetComponent implements OnInit {
   ];
 
   constructor(
-    private featureSheet: FeaturesSheetService
+    private dataSheet: DataSheetService
   ) { }
 
   ngOnInit() {
   }
 
-  private ShowFeaturesSheet() {
-    this.featureSheet.load(industryList[this.currIndustry]).subscribe( res => {
+  private ShowDataSheet() {
+    this.dataSheet.load(industryList[this.currIndustry]).subscribe( res => {
       this.editMode = false; 
     });
   }
@@ -69,7 +69,7 @@ export class FeaturesSheetComponent implements OnInit {
     }
     if (this.currIndustry < this.industryList.length - 1) {
       this.currIndustry++;
-      this.ShowFeaturesSheet();
+      this.ShowDataSheet();
     }
   }
 
@@ -79,39 +79,39 @@ export class FeaturesSheetComponent implements OnInit {
     }
     if (this.currIndustry > 0) {
       this.currIndustry--;
-      this.ShowFeaturesSheet();
+      this.ShowDataSheet();
     }
   }
 
   onIndustryChanged() {
-    this.ShowFeaturesSheet();
+    this.ShowDataSheet();
   }
 
-  topicTitle(line: FeaturesSheetLine) {
-    var topic = this.featureSheet.topic(line.topic);
+  topicTitle(line: DataSheetLine) {
+    var topic = this.dataSheet.topic(line.topic);
     if (topic != null) return topic.title;
   }
 
-  topicClass(line: FeaturesSheetLine) {
-    var topic = this.featureSheet.topic(line.topic);
+  topicClass(line: DataSheetLine) {
+    var topic = this.dataSheet.topic(line.topic);
     if (topic != null) return "level-" + topic.level;
   }
 
-  topicNotYetAvailable(line: FeaturesSheetLine): boolean {
-    var topic = this.featureSheet.topic(line.topic);
+  topicNotYetAvailable(line: DataSheetLine): boolean {
+    var topic = this.dataSheet.topic(line.topic);
     if (topic != null) return topic.notYetAvailable;
     return false;
   }
 
-  isLocalized(line: FeaturesSheetLine): boolean {
-    var topic = this.featureSheet.topic(line.topic);
+  isLocalized(line: DataSheetLine): boolean {
+    var topic = this.dataSheet.topic(line.topic);
     if (topic == null) return false;
     return  (typeof topic.allowISO != "undefined" && topic.allowISO != "" ) ||
             (typeof topic.denyISO != "undefined" && topic.denyISO != "")
   }
 
-  ISOTooltip(line: FeaturesSheetLine) {
-    var topic = this.featureSheet.topic(line.topic);
+  ISOTooltip(line: DataSheetLine) {
+    var topic = this.dataSheet.topic(line.topic);
     if (topic == null) return "";
     var tooltip: string;
     if (topic.allowISO != "") {
@@ -125,11 +125,11 @@ export class FeaturesSheetComponent implements OnInit {
   }
 
   onSave() {
-    this.featureSheet.save();
+    this.dataSheet.save();
   }
 
   onCancel() {
-    this.ShowFeaturesSheet();
+    this.ShowDataSheet();
   }
 
   onCopy(sourceIndustry) {

@@ -1,6 +1,6 @@
  namespace Configurator.Models
  {
-    public class FeaturesSheetLine
+    public class DataSheetLine
     {
         public string Topic { get; set; }
         public bool Included {get; set;}
@@ -10,9 +10,9 @@
         public string Enterprise {get; set;}
     }
 
-    public class FeaturesSheet
+    public class DataSheet
     {
         public string Name { get; set; }
-        public FeaturesSheetLine[] Lines { get; set; }
+        public DataSheetLine[] Lines { get; set; }
     }
  }

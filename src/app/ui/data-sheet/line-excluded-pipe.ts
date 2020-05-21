@@ -1,4 +1,4 @@
-import { FeaturesSheetLine } from '../../../models/features-sheet';
+import { DataSheetLine } from '../../../models/data-sheet';
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
     pure: false
 })
 export class LineExcludedPipe implements PipeTransform {
-    transform(lines: FeaturesSheetLine[], show: boolean): any {
+    transform(lines: DataSheetLine[], show: boolean): any {
         if (!lines || show) {
             return lines;
         }

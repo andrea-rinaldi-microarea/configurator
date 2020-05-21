@@ -7,23 +7,23 @@ namespace Configurator.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FeaturesSheetController : ControllerBase
+    public class DataSheetController : ControllerBase
     {
         [HttpGet("{name}")]
-        public ActionResult<FeaturesSheet> Get(string name)
+        public ActionResult<DataSheet> Get(string name)
         {
             if (!System.IO.File.Exists($"data\\{name}.json"))
             {
-                return new FeaturesSheet();
+                return new DataSheet();
             }
             using(TextReader reader = new StreamReader($"data\\{name}.json")) {
-                var featureSheet = JsonConvert.DeserializeObject<FeaturesSheet>(reader.ReadToEnd());
+                var featureSheet = JsonConvert.DeserializeObject<DataSheet>(reader.ReadToEnd());
                 return featureSheet;
             }
         }
 
         [HttpPost("save")]
-        public IActionResult Save([FromBody] FeaturesSheet featureSheet)
+        public IActionResult Save([FromBody] DataSheet featureSheet)
         {
             using(TextWriter writer = new StreamWriter($"data\\{featureSheet.Name}.json", false))
             {

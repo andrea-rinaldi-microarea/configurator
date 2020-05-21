@@ -12,7 +12,7 @@ export class Topic {
     ) {}
 }
 
-export class FeaturesSheetLine {
+export class DataSheetLine {
     constructor(
         public topic: string
     ) {}
@@ -23,9 +23,9 @@ export class FeaturesSheetLine {
     public enterprise: string;
 }
 
-export class FeaturesSheet {
+export class DataSheet {
     constructor(
         public name: string
     ) {}
-    public lines: FeaturesSheetLine[] = [];
+    public lines: DataSheetLine[] = [];
 }

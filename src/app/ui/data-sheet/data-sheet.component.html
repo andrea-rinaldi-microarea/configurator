@@ -29,7 +29,7 @@
       <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button> 
     </div>
   </div>
-  <div class="row mt-2" *ngIf="featureSheet.current"> 
+  <div class="row mt-2" *ngIf="dataSheet.current"> 
     <table class="table table-sm table-borderless">
         <tr>
           <th width="15px"><app-toggler class="text-config-light" [(value)]="hideExcluded"></app-toggler></th>
@@ -40,7 +40,7 @@
           <th class="text-center edition-sep" >Professional</th>
           <th class="text-center edition-sep" >Enterprise</th>
         </tr>
-        <tr *ngFor="let line of featureSheet.current.lines | LineExcluded:!hideExcluded" [class.excluded]="!line.included">
+        <tr *ngFor="let line of dataSheet.current.lines | LineExcluded:!hideExcluded" [class.excluded]="!line.included">
           <td width="15px"><app-toggler [disabled]="!editMode" class="text-config-light" [(value)]="line.included" [options]="includedOptions"></app-toggler></td>
           <td >
             <i class="fa fa-calendar text-warning" [hidden]="!topicNotYetAvailable(line)" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
