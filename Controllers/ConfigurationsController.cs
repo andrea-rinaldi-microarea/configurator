@@ -16,13 +16,13 @@ namespace Configurator.Controllers
     {
         // GET api/configurations/Production
         [HttpGet("{name}")]
-        public ActionResult<List<Feature>> Get(string name)
+        public ActionResult<List<ConfigurationFeature>> Get(string name)
         {
             if (!System.IO.File.Exists($"data\\{name}.csv"))
             {
                 name = "FeaturesList";
             }
-            List<Feature> features;
+            List<ConfigurationFeature> features;
             using (TextReader reader = new StreamReader($"data\\{name}.csv")) {
                 var csv = new CsvReader(reader);
                 csv.Configuration.Encoding = Encoding.UTF8;
@@ -35,7 +35,7 @@ namespace Configurator.Controllers
                 {
                     Console.WriteLine( $"Bad data found on row '{context.RawRow}'" );
                 };
-                features = new List<Feature>(csv.GetRecords<Feature>());
+                features = new List<ConfigurationFeature>(csv.GetRecords<ConfigurationFeature>());
             }
             return features;
         }
@@ -66,14 +66,14 @@ namespace Configurator.Controllers
             }
         }
 
-        private bool isOptional(StoreFeature storeFeat)
+        private bool isOptional(Feature feature)
         {
-            for (int e = 0; e < storeFeat.options.Count; e++)
+            for (int e = 0; e < feature.options.Count; e++)
             {
                 if  (
-                        storeFeat.options[e].availability == "optional" || 
-                        storeFeat.options[e].availability == "count" || 
-                        storeFeat.options[e].availability == "PPT"
+                        feature.options[e].availability == "optional" || 
+                        feature.options[e].availability == "count" || 
+                        feature.options[e].availability == "PPT"
                     )
                     return true;
             }
@@ -86,44 +86,44 @@ namespace Configurator.Controllers
             System.IO.Directory.CreateDirectory("output");
             using(TextWriter writer = new StreamWriter($"output\\{configuration.Name}.json", false))
             {
-                StoreConfiguration storeConfig = new StoreConfiguration();
-                storeConfig.name = configuration.Name;
-                storeConfig.industryCode = configuration.IndustryCode;
-                storeConfig.version = configuration.Version;
-                storeConfig.productID = configuration.ProductID;
-                storeConfig.productName = configuration.ProductName;
+                Industry industry = new Industry();
+                industry.name = configuration.Name;
+                industry.industryCode = configuration.IndustryCode;
+                industry.version = configuration.Version;
+                industry.productID = configuration.ProductID;
+                industry.productName = configuration.ProductName;
                 foreach (var feat in configuration.Features)
                 {
                     if (!feat.Included)
                         continue;
 
-                    StoreFeature storeFeat = new StoreFeature();
+                    Feature feature = new Feature();
                     if (feat.Module != "")
                     {
-                        storeFeat.isModule = true;
-                        storeFeat.description = feat.Module.TrimStart('_') + " " + feat.Functionality;
+                        feature.isModule = true;
+                        feature.description = feat.Module.TrimStart('_') + " " + feat.Functionality;
                     }
                     else
                     {
-                        storeFeat.isModule = false;
-                        storeFeat.description = feat.Functionality;
+                        feature.isModule = false;
+                        feature.description = feat.Functionality;
                     }
-                    storeFeat.fragment = feat.Fragment;
-                    storeFeat.isAvailable = !feat.NotYetAvailable;
-                    storeFeat.allowISO = feat.AllowISO;
-                    storeFeat.denyISO = feat.DenyISO;
+                    feature.fragment = feat.Fragment;
+                    feature.isAvailable = !feat.NotYetAvailable;
+                    feature.allowISO = feat.AllowISO;
+                    feature.denyISO = feat.DenyISO;
 
-                    storeFeat.options.Add(new StoreFeatureOption{ edition = "STD", availability = ConvertStoreFeatureOption(feat.Standard) });
-                    storeFeat.options.Add(new StoreFeatureOption{ edition = "PRM", availability = ConvertStoreFeatureOption(feat.Premium) });
-                    storeFeat.options.Add(new StoreFeatureOption{ edition = "PRO", availability = ConvertStoreFeatureOption(feat.Professional) });
-                    storeFeat.options.Add(new StoreFeatureOption{ edition = "ENT", availability = ConvertStoreFeatureOption(feat.Enterprise) });
+                    feature.options.Add(new FeatureOption{ edition = "STD", availability = ConvertStoreFeatureOption(feat.Standard) });
+                    feature.options.Add(new FeatureOption{ edition = "PRM", availability = ConvertStoreFeatureOption(feat.Premium) });
+                    feature.options.Add(new FeatureOption{ edition = "PRO", availability = ConvertStoreFeatureOption(feat.Professional) });
+                    feature.options.Add(new FeatureOption{ edition = "ENT", availability = ConvertStoreFeatureOption(feat.Enterprise) });
 
-                    if (isOptional(storeFeat)) {
-                        storeFeat.optionID = feat.Tag;
+                    if (isOptional(feature)) {
+                        feature.optionID = feat.Tag;
                     }
-                    storeConfig.features.Add(storeFeat);
+                    industry.features.Add(feature);
                 }
-                string json = JsonConvert.SerializeObject(storeConfig, new JsonSerializerSettings{ Formatting = Formatting.Indented }); 
+                string json = JsonConvert.SerializeObject(industry, new JsonSerializerSettings{ Formatting = Formatting.Indented }); 
                 writer.WriteLine(json);
             }
             return NoContent();
