@@ -81,7 +81,7 @@
     "Inventory": "Magazzino",
     "Multistorage": "Multi deposito",
     "Single Step LIFO/FIFO": "LIFO/FIFO a scatti continui",
-    "Inventory Adjustments Entries": "Movimenti di magazzino di rettifica inventariale",
+    "Advanced Inventory Counts": "Funzioni avanzate di inventario",
     "Quality Inspections": "Controllo qualità",
     "Technical Notes": "Note Tecniche",
     "Lots and Serial Numbers": "Lotti e Matricole",
@@ -135,7 +135,6 @@
     "Payables and Receivables": "Scadenzario e Partite Aperte",
     "Sales": "Vendite",
     "Store Management": "Punto Vendita",
-    "Advanced Inventory Adjustments": "Rettifiche inventariali avanzate",
     "WMS Advanced": "WMS Avanzato",
     "Drawings, History and Versioning": "Disegni, storico e indici di revisione"
 }

@@ -57,7 +57,7 @@ Purchases;;ACQT;False;Purchases;;;;X;X;X;True;False
 Inventory;;MAGA;False;Inventory;;;X;X;X;X;True;False
 ;Multistorage;MAGA;False;MultiStorage;;;;X;X;X;True;False
 ;Single Step LIFO/FIFO;MAGA;False;SingleStepLifoFifo;HU,IT,CH,BG,DE;;;;;X;True;False
-;Inventory Adjustments Entries;MAGA;False;InventoryAdjustment;;;;;;X;True;False
+;Advanced Inventory Counts;MAGA;False;InventoryAdjustment;;;;;;X;True;False
 Quality Inspections;;INSP;False;QualityInspection;;;;;;X;False;False
 Barcode Manager;;BARC;True;;;;;;;;False;False
 Lots and Serial Numbers;;LOTT;False;LotsSerials;;;;;X;X;True;False
