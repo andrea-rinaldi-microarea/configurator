@@ -12,24 +12,24 @@ namespace Configurator.Controllers
         [HttpGet("{name}")]
         public ActionResult<DataSheet> Get(string name)
         {
-            if (!System.IO.File.Exists($"data\\{name}.json"))
+            if (!System.IO.File.Exists($"data\\{name}-DataSheet.json"))
             {
                 return new DataSheet();
             }
-            using(TextReader reader = new StreamReader($"data\\{name}.json")) {
+            using(TextReader reader = new StreamReader($"data\\{name}-DataSheet.json")) {
                 var featureSheet = JsonConvert.DeserializeObject<DataSheet>(reader.ReadToEnd());
                 return featureSheet;
             }
         }
 
         [HttpPost("save")]
-        public IActionResult Save([FromBody] DataSheet featureSheet)
+        public IActionResult Save([FromBody] DataSheet dataSheet)
         {
-            using(TextWriter writer = new StreamWriter($"data\\{featureSheet.Name}.json", false))
+            using(TextWriter writer = new StreamWriter($"data\\{dataSheet.Name}.json", false))
             {
                 writer.Write(
                     JsonConvert.SerializeObject(
-                        featureSheet, 
+                        dataSheet, 
                         Formatting.Indented,
                         new JsonSerializerSettings {
                             NullValueHandling = NullValueHandling.Ignore
