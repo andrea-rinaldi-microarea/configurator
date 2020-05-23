@@ -1,4 +1,4 @@
-import { Feature } from "./feature";
+import { _Feature } from "./feature";
 
 export class Distance {
     constructor(
@@ -22,7 +22,7 @@ export class Configuration {
     public version: string;
     public productID: string;
     public productName: string;
-    public features: Feature[] = [];
+    public features: _Feature[] = [];
     public stdWeight: Weight;
     public proWeight: Weight;
     public prmWeight: Weight;

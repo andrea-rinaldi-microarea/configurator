@@ -3,7 +3,7 @@ import { CSVExport, CSVFeature } from './../../../../models/CSVExport';
 import { Component, OnInit, DoCheck } from '@angular/core';
 import { ConfigurationService } from '../../../services/configuration.service';
 import { ClientsService } from '../../../services/clients.service';
-import { Feature } from '../../../../models/feature';
+import { _Feature } from '../../../../models/feature';
 import { TranslateService } from '@ngx-translate/core';
 
 declare var require: any;
@@ -195,7 +195,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     this.configuration.CSVExport(csvExp);
   }
 
-  isLinked(feature: Feature) {
+  isLinked(feature: _Feature) {
     var idx = this.configuration.current.features.findIndex(feat => feature.module == feat.module && feature.functionality == feat.functionality);
     return  feature.fragment != "" &&
             feature.fragment != null &&
@@ -205,7 +205,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
             );
   }
 
-  sameFragmentOnPrevious(feature: Feature) {
+  sameFragmentOnPrevious(feature: _Feature) {
     var idx = this.configuration.current.features.findIndex(feat => feature.module == feat.module && feature.functionality == feat.functionality);
     return  feature.fragment != "" &&
             feature.fragment != null &&
@@ -214,12 +214,12 @@ export class ConfigurationComponent implements OnInit, DoCheck {
             );
   }
 
-  isLocalized(feature: Feature) {
+  isLocalized(feature: _Feature) {
     return  (feature.allowISO != "" && feature.allowISO != null) ||
             (feature.denyISO != "" && feature.denyISO != null)
   }
 
-  ISOTooltip(feature: Feature) {
+  ISOTooltip(feature: _Feature) {
     var tooltip: string;
     if (feature.allowISO != "") {
       tooltip = "Disponibile in: " +  feature.allowISO;
@@ -231,7 +231,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     return tooltip;
   }
 
-  getWeight(feature: Feature) {
+  getWeight(feature: _Feature) {
     if (!this.sameFragmentOnPrevious(feature)) {
       return this.configuration.getWeight(feature);
     }
@@ -245,11 +245,11 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     }
   }
 
-  missingFragment(feature: Feature) {
+  missingFragment(feature: _Feature) {
     return (feature.fragment == "" || feature.fragment.startsWith("_"))  && !feature.discontinued;
   }
 
-  detailedInfo(feature: Feature) {
+  detailedInfo(feature: _Feature) {
     return detailedInfos[feature.fragment||feature.tag];
   }
 

@@ -3,7 +3,7 @@ import { Pricing } from './../../../../models/pricing';
 import { Component, OnInit, DoCheck } from '@angular/core';
 import { ConfigurationService } from '../../../services/configuration.service';
 import { ClientsService } from '../../../services/clients.service';
-import { Feature } from '../../../../models/feature';
+import { _Feature } from '../../../../models/feature';
 
 declare var require: any;
 const modulePricePRO = require("./module-price-PRO.json");
@@ -91,7 +91,7 @@ export class PricingComponent implements OnInit, DoCheck  {
       return;
     var foundTags: string[] = [];
     for (var f = 0; f < this.configuration.current.features.length; f++ ) {
-      var feat: Feature  = this.configuration.current.features[f];
+      var feat: _Feature  = this.configuration.current.features[f];
         if (feat.customer && !feat.fromPackage && !foundTags.includes(feat.tag)) {
           if (this.modulePrice[this.priceSource][feat.tag]) {
           this.customer.license += this.modulePrice[this.priceSource][feat.tag].license;
@@ -123,7 +123,7 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.customer.perUserMonth = Math.floor(this.customer.total5Years / ((this.nrCals || 1) * 60));
   }
 
-  getFeatureInfo(feat: Feature, first: boolean): string {
+  getFeatureInfo(feat: _Feature, first: boolean): string {
     var info: string = first ? "" : ", ";
     if (feat.module) {
       info += feat.module;

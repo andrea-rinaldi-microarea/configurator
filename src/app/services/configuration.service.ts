@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Configuration, Distance, Weight } from '../../models/configuration';
 import { Observable } from 'rxjs/Observable';
 import { HttpClient } from '@angular/common/http';
-import { Feature } from '../../models/feature';
+import { _Feature } from '../../models/feature';
 import { TranslateService } from '@ngx-translate/core';
 
 declare var require: any;
@@ -33,15 +33,15 @@ export class ConfigurationService {
     });
   }
 
-  public isMinus(feat: Feature, edition: string): boolean {
+  public isMinus(feat: _Feature, edition: string): boolean {
     return feat.customer && (edition == "" || !feat.included);
   }
 
-  public isPlus(feat: Feature, edition: string): boolean {
+  public isPlus(feat: _Feature, edition: string): boolean {
     return !feat.customer && edition != "" && feat.included;
   }
 
-  private calculateDistance(feat: Feature, edition: string, dist: Distance) {
+  private calculateDistance(feat: _Feature, edition: string, dist: Distance) {
     if (this.isMinus(feat, edition)) {
       dist.minus += this.getWeight(feat);
     }
@@ -124,14 +124,14 @@ export class ConfigurationService {
       }
     }
 
-    public getWeight(feature: Feature): number {
+    public getWeight(feature: _Feature): number {
       if (fragmentWeights[feature.fragment]) {
         return fragmentWeights[feature.fragment].weight;
       }
       return 0;
     }
 
-    private calculateWeight(feat: Feature, edition: string, weight: Weight) {
+    private calculateWeight(feat: _Feature, edition: string, weight: Weight) {
       var value = this.getWeight(feat);
       if (edition == "") return;
       if (edition == "Nr-User" || edition == "PPT") return;
@@ -172,7 +172,7 @@ export class ConfigurationService {
   
     public load(industry: string): Observable<any> {
     var $configuration = new Observable<any>(observer => {
-      this.http.get('/api/configurations/' + industry).subscribe((data:Feature[]) => {
+      this.http.get('/api/configurations/' + industry).subscribe((data:_Feature[]) => {
         this.current = new Configuration(industry);
         this.current.industryCode = industryInfo[industry] && industryInfo[industry].code;
         this.current.version = industryInfo[industry] && industryInfo[industry].version;
@@ -195,7 +195,7 @@ export class ConfigurationService {
 
   public copy(sourceIndustry: string): Observable<any> {
     var $configuration = new Observable<any>(observer => {
-      this.http.get('/api/configurations/' + sourceIndustry).subscribe((data:Feature[]) => {
+      this.http.get('/api/configurations/' + sourceIndustry).subscribe((data:_Feature[]) => {
         this.current.features = data;
         observer.next();
         observer.complete();
@@ -206,7 +206,7 @@ export class ConfigurationService {
 
   // public translateFeatures(): Observable<any> {
   //   var $configuration = new Observable<any>(observer => {
-  //     this.http.get('/api/configurations/' + 'FeaturesList').subscribe((data:Feature[]) => {
+  //     this.http.get('/api/configurations/' + 'FeaturesList').subscribe((data:_Feature[]) => {
   //       for (var f = 0; f < data.length; f++) {
   //         if (data[f].module)
   //           this.translate.get(data[f].module.replace('_','')).subscribe(res => {
@@ -226,7 +226,7 @@ export class ConfigurationService {
 
   public upgrade(): Observable<any> {
     var $configuration = new Observable<any>(observer => {
-      this.http.get('/api/configurations/' + 'FeaturesList').subscribe((data:Feature[]) => {
+      this.http.get('/api/configurations/' + 'FeaturesList').subscribe((data:_Feature[]) => {
         for (var f = 0; f < data.length; f++) {
           var curr = this.current.features.find(feat => data[f].fragment != "" && data[f].fragment == feat.fragment);
 

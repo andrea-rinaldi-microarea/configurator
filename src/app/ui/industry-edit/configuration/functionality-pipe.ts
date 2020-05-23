@@ -1,4 +1,4 @@
-import { Feature } from '../../../../models/feature';
+import { _Feature } from '../../../../models/feature';
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
     pure: false
 })
 export class FunctionalityPipe implements PipeTransform {
-    transform(features: Feature[], show: boolean): any {
+    transform(features: _Feature[], show: boolean): any {
         if (!features || show) {
             return features;
         }

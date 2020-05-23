@@ -1,5 +1,5 @@
 
-export class Feature {
+export class _Feature {
     constructor(
         public module: string,
         public functionality: string,

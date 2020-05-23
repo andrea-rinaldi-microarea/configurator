@@ -23,6 +23,7 @@ import { IndustryEditComponent } from './ui/industry-edit/industry-edit.componen
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { DataSheetComponent } from './ui/data-sheet/data-sheet.component';
 import { LineExcludedPipe } from './ui/data-sheet/line-excluded-pipe';
+import { IndustryService } from './services/industry.service';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -59,7 +60,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [ClientsService, ConfigurationService, DataSheetService],
+  providers: [ClientsService, ConfigurationService, DataSheetService, IndustryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

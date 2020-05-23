@@ -17,15 +17,15 @@ namespace Configurator.Controllers
                 return new DataSheet();
             }
             using(TextReader reader = new StreamReader($"data\\{name}-DataSheet.json")) {
-                var featureSheet = JsonConvert.DeserializeObject<DataSheet>(reader.ReadToEnd());
-                return featureSheet;
+                var dataSheet = JsonConvert.DeserializeObject<DataSheet>(reader.ReadToEnd());
+                return dataSheet;
             }
         }
 
         [HttpPost("save")]
         public IActionResult Save([FromBody] DataSheet dataSheet)
         {
-            using(TextWriter writer = new StreamWriter($"data\\{dataSheet.Name}.json", false))
+            using(TextWriter writer = new StreamWriter($"data\\{dataSheet.Name}-DataSheet.json", false))
             {
                 writer.Write(
                     JsonConvert.SerializeObject(
