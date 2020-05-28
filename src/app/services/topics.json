@@ -341,26 +341,26 @@
    "notYetAvailable": false
  },
  {
-   "topic": "CRMUserSales",
-   "level": 3,
-   "order": "06.1.1",
-   "title": "CRM User sales",
-   "notYetAvailable": false
- },
- {
-   "topic": "CRMUserMarketing",
-   "level": 3,
-   "order": "06.1.2",
-   "title": "CRM User marketing",
-   "notYetAvailable": false
- },
- {
-   "topic": "CRMUserFull",
-   "level": 3,
-   "order": "06.1.3",
-   "title": "CRM User full",
-   "notYetAvailable": false
- },
+    "topic": "CRMUserSales",
+    "level": 3,
+    "order": "06.1.1",
+    "title": "Sales CRM User",
+    "notYetAvailable": false
+  },
+  {
+    "topic": "CRMUserMarketing",
+    "level": 3,
+    "order": "06.1.2",
+    "title": "Marketing CRM User",
+    "notYetAvailable": false
+  },
+  {
+    "topic": "CRMUserFull",
+    "level": 3,
+    "order": "06.1.3",
+    "title": "Full CRM User",
+    "notYetAvailable": false
+  },
  {
    "topic": "Purchases",
    "level": 1,
