@@ -25,7 +25,7 @@ namespace Configurator.Controllers
         [HttpPost("save")]
         public IActionResult Save([FromBody] DataSheet dataSheet)
         {
-            using(TextWriter writer = new StreamWriter($"data\\{dataSheet.Name}.json", false))
+            using(TextWriter writer = new StreamWriter($"data\\{dataSheet.Name}-DataSheet.json", false))
             {
                 writer.Write(
                     JsonConvert.SerializeObject(

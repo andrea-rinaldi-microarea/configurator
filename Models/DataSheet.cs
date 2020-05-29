@@ -3,7 +3,6 @@
     public class DataSheetLine
     {
         public string Topic { get; set; }
-        public bool Included {get; set;}
         public string Standard {get; set;}
         public string Premium {get; set;}
         public string Professional {get; set;}
