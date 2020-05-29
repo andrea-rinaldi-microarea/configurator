@@ -9,6 +9,8 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class ToolbarComponent implements OnInit {
 
+  public activeRoute: string = "industry-edit";
+
   constructor(
     private clients: ClientsService,
     public translate: TranslateService

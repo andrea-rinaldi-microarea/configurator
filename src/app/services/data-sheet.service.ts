@@ -25,6 +25,7 @@ export class DataSheetService {
           var actualLine = actualData.lines ? actualData.lines.find(l => l.topic == topic.topic) : null;
           if (actualLine != null) {
             this.current.lines[this.current.lines.length - 1] = actualLine;
+            this.current.lines[this.current.lines.length - 1].included = true;
           }
         });
         observer.next();
@@ -39,7 +40,15 @@ export class DataSheetService {
   }
 
   public save() {
-    this.http.post('/api/dataSheet/save', this.current).subscribe(res => {
+    var dataSheet = new DataSheet(this.current.name);
+    this.current.lines.forEach( line => {
+      if (!line.included)
+        return;
+      dataSheet.lines.push(new DataSheetLine(line.topic));
+      dataSheet.lines[dataSheet.lines.length - 1] = line;
+    }); 
+
+    this.http.post('/api/dataSheet/save', dataSheet).subscribe(res => {
       console.log("saved");
     });
   }
