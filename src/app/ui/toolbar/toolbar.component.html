@@ -6,8 +6,8 @@
         <span class="navbar-brand text-config-white">{{"Configurator" | translate }}</span>
     </div>
     <div style="width:50%" class="navbar-nav flex-row text-config-white">
-        <a class="text-config-white" [routerLink]="['industry-edit']">{{"Industry Edit" | translate}}</a>
-        <a class="ml-5 text-config-white" [routerLink]="['data-sheet']">{{"Data Sheet" | translate}}</a>
+        <a class="text-config-white" [routerLink]="['industry-edit']" (click)="activeRoute = 'industry-edit'" [class.active-route]="activeRoute == 'industry-edit'">{{"Industry Edit" | translate}}</a>
+        <a class="ml-5 text-config-white" [routerLink]="['data-sheet']" (click)="activeRoute = 'data-sheet'" [class.active-route]="activeRoute == 'data-sheet'">{{"Data Sheet" | translate}}</a>
     </div>
     <div class="navbar-nav flex-row">
         <select class="form-control mr-3 bg-config text-config-white" #langSelect (change)="translate.use(langSelect.value)">
