@@ -5,6 +5,7 @@ import { ConfigurationService } from '../../../services/configuration.service';
 import { ClientsService } from '../../../services/clients.service';
 import { _Feature } from '../../../../models/feature';
 import { TranslateService } from '@ngx-translate/core';
+import { IndustryService } from '../../../services/industry.service';
 
 declare var require: any;
 const industryList = require("../../data/industry-list.json");
@@ -61,6 +62,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
 
   constructor(
     private configuration: ConfigurationService,
+    private industry: IndustryService,
     private clients: ClientsService,
     private translate: TranslateService
   ) { 
@@ -79,6 +81,8 @@ export class ConfigurationComponent implements OnInit, DoCheck {
       this.configuration.calculateWeights();
       this.configuration.showUsing(this.clients.current);
       this.editMode = false; 
+    });
+    this.industry.load(industryList[this.currIndustry]).subscribe( res => {
     });
   }
 

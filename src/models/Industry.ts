@@ -8,21 +8,23 @@ export class FeatureOption {
 
 export class Feature {
     constructor(
-        public isModule: boolean,
-        public description: string,
-        public fragment: string,
-        public isAvailable: boolean,
-        public allowISO: string,
-        public denyISO: string,
-        public optionID: string,
-        public options: FeatureOption[] = [],
+        feature: Feature
+    ) { Object.assign(this, feature);}
+    
+    public fragment: string
+    public isModule: boolean;
+    public description: string;
+    public isAvailable: boolean;
+    public allowISO: string;
+    public denyISO: string;
+    public optionID: string;
+    public options: FeatureOption[] = [];
 
-        public customer: boolean,
-        public tag: string,
-        public discontinued: boolean,
-        public included: boolean,
-        public fromPackage: boolean
-    ) {}
+    public customer: boolean;
+    public tag: string;
+    public discontinued: boolean;
+    public included: boolean;
+    public fromPackage: boolean
 }
 
 export class Industry {

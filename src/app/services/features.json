@@ -1,0 +1,922 @@
+[
+ {
+   "isModule": true,
+   "description": "Base Module",
+   "fragment": "Server",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "SEVR",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Multilanguage descriptions",
+   "fragment": "Languages",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "SEVR",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Multicurrency",
+   "fragment": "Currencies",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "SEVR",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Contacts Management",
+   "fragment": "Contacts",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "SEVR",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Budget (Cust/Supp)",
+   "fragment": "Budget",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "SEVR",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "KPI Dashboards mobile app",
+   "fragment": "KPIMobileApp",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "KPIM",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Financials",
+   "fragment": "Financials",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Customizable Tax Journals",
+   "fragment": "MultiTaxJournals",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Customizable Accounting Templates",
+   "fragment": "CustomizedAccountingTemplates",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Purchase Electronic Invoice Accounting Import",
+   "fragment": "PurchaseElectronicInvoicing",
+   "isAvailable": true,
+   "allowISO": "IT",
+   "denyISO": "",
+   "tag": "CPCO",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Plafond Management",
+   "fragment": "Plafond",
+   "isAvailable": true,
+   "allowISO": "IT,HU",
+   "denyISO": "",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Advanced AP/AR Management",
+   "fragment": "AP_AR_Plus",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Dunning letters",
+   "fragment": "Dunnings",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Payment Schedule Analysis and Cash Flow",
+   "fragment": "AP_AR_Analysis",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Automatic Accrual and Deferrals",
+   "fragment": "AccrualsDeferrals",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Balance Analysis and Reclassifications",
+   "fragment": "BalanceAnalysis",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Professionals Fees and Withholding Tax",
+   "fragment": "Payees",
+   "isAvailable": true,
+   "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
+   "denyISO": "",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Advanced Banks Management",
+   "fragment": "",
+   "isAvailable": true,
+   "allowISO": "IT",
+   "denyISO": "",
+   "tag": "BAPL",
+   "discontinued": true
+ },
+ {
+   "isModule": true,
+   "description": "Fixed Assets",
+   "fragment": "FixedAssets",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CSPT",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Forecast Accounting",
+   "fragment": "ForecastAccounting",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "tag": "COPR",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "XBRL Balance",
+   "fragment": "XBRL",
+   "isAvailable": true,
+   "allowISO": "IT",
+   "denyISO": "",
+   "tag": "XBRL",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Accounting Books and Balance Attachments",
+   "fragment": "AccountingBooks",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "tag": "LIBR",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Balance Analysis (Basel II)",
+   "fragment": "Basel_II",
+   "isAvailable": false,
+   "allowISO": "IT",
+   "denyISO": "",
+   "tag": "BAII",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Multicompany Balance",
+   "fragment": "MultiCompanyBalances",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "tag": "BICO",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Analysis & Controlling",
+   "fragment": "CostAccounting",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "COAN",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Product Lines",
+   "fragment": "ProductLines",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CFIN",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Transfers",
+   "fragment": "CostAccountingTransfer",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CFIN",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Cash Management",
+   "fragment": "Cash",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "IT,CH,BR",
+   "tag": "CASH",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Intrastat",
+   "fragment": "Intrastat",
+   "isAvailable": true,
+   "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
+   "denyISO": "",
+   "tag": "INTR",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Sales / Purchases",
+   "fragment": "SalePurchaseDocuments",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "VEDT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Advanced Items Management",
+   "fragment": "AdvancedItemsManagement",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "VEDT",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Sale Orders",
+   "fragment": "SaleOrders",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "ORCL",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Customer Quotations",
+   "fragment": "CustomerQuotations",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "ORCL",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Sale Invoices / Delivery Notes",
+   "fragment": "Sales",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "VEDT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Multiple Stub Books",
+   "fragment": "MultiStubBooks",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "VEDT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Picking List",
+   "fragment": "PickingList",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "VEDT",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "e-commerce",
+   "fragment": "eCommerce",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "KKCN",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Store Management (backend)",
+   "fragment": "StoreManagement",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "STMN",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Variants / Size and Colors",
+   "fragment": "StoreVariants",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "RMVN",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Food Recipes",
+   "fragment": "FoodRecipe",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "STRE",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "In-store - Backend",
+   "fragment": "InStore",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "STIA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "In-store - App",
+   "fragment": "InStoreApp",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "STIC",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "CRM - Infinity Connector",
+   "fragment": "InfinityConnector",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "MAIF",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "CRM User sales",
+   "fragment": "CRMUserSales",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CRMS",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "CRM User marketing",
+   "fragment": "CRMUserMarketing",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CRMM",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "CRM User full",
+   "fragment": "CRMUserFull",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CRMF",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Conai",
+   "fragment": "Conai",
+   "isAvailable": true,
+   "allowISO": "IT,RO,BG,HU,ES",
+   "denyISO": "",
+   "tag": "CONA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "WEEE",
+   "fragment": "WEEE",
+   "isAvailable": true,
+   "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK",
+   "denyISO": "",
+   "tag": "RAEE",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Sales Force Management",
+   "fragment": "SalesPeople",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "SFMG",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Credit Limit Management",
+   "fragment": "CreditLimit",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CRED",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Additional Charges",
+   "fragment": "AdditionalCharges",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "tag": "SEVR",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Purchase Orders",
+   "fragment": "PurchaseOrders",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "ORFO",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Supplier Quotations",
+   "fragment": "SupplierQuotations",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "ORFO",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Purchases",
+   "fragment": "Purchases",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "ACQT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Electronic Invoices Import in Purchase Documents",
+   "fragment": "PurchaseElectronicInvoicingAdv",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CPAC",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Inventory",
+   "fragment": "Inventory",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "MAGA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Multistorage",
+   "fragment": "MultiStorage",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "MAGA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Single Step LIFO/FIFO",
+   "fragment": "SingleStepLifoFifo",
+   "isAvailable": true,
+   "allowISO": "HU,IT,CH,BG,DE",
+   "denyISO": "",
+   "tag": "MAGA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Advanced Inventory Counts",
+   "fragment": "InventoryAdjustment",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "MAGA",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Quality Inspections",
+   "fragment": "QualityInspection",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "INSP",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Barcode Manager",
+   "fragment": "",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "BARC",
+   "discontinued": true
+ },
+ {
+   "isModule": true,
+   "description": "Lots and Serial Numbers",
+   "fragment": "LotsSerials",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "LOTT",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "WMS Basic",
+   "fragment": "WMSBasic",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "WMAA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "WMS Advanced",
+   "fragment": "WMSAdvanced",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "WMAD",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "WMS Shipping",
+   "fragment": "WMSShipping",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "WMSH",
+   "discontinued": true
+ },
+ {
+   "isModule": false,
+   "description": "WMS Mobile - backend",
+   "fragment": "WMSMobile",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "WMRF",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "WMS Mobile - app",
+   "fragment": "WMSMobileApp",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "WMRC",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Resources Management",
+   "fragment": "_RESMAN",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "SEVR",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Bill of Materials",
+   "fragment": "BillOfMaterials",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "DIST",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Engineering Changing Order",
+   "fragment": "ECO",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "ECO",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Variants",
+   "fragment": "Variants",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "VARI",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Configurator",
+   "fragment": "Configurator",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "CONF",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Basic Manufacturing",
+   "fragment": "ManufacturingBasic",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "PRZB",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Advanced Manufacturing",
+   "fragment": "ManufacturingAdvanced",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "PRZA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Drawings Management, History and Versioning",
+   "fragment": "BillOfMaterialsPlus",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "PRZA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Kanban",
+   "fragment": "Kanban",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "PRZA",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Open Orders",
+   "fragment": "OpenOrders",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "OPOR",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Manufacturing Mobile - backend",
+   "fragment": "ManufacturingMobile",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "MANM",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Manufacturing Mobile - app",
+   "fragment": "ManufacturingMobileApp",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "MANC",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Planning",
+   "fragment": "ManufacturingPlanning",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "PRZP",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Advanced Planning",
+   "fragment": "MRPAdvanced",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "PRPA",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Tools Management",
+   "fragment": "ToolsManagement",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "ATTR",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "DMS",
+   "fragment": "DMS",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "EATT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Massive Archiving Plug-In",
+   "fragment": "DMSMassive",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "MASS",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Job Scheduler",
+   "fragment": "JobScheduler",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "SCHD",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Security",
+   "fragment": "Security",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "OSLL",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Security Access profiles",
+   "fragment": "SecurityAdvanced",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "OSLS",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Auditing",
+   "fragment": "Auditing",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "AUDT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Visibility",
+   "fragment": "Visibility",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "VISI",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "MyMago Studio",
+   "fragment": "MyMagoStudio",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "MYMS",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Xgate",
+   "fragment": "",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "XGAT",
+   "discontinued": true
+ },
+ {
+   "isModule": true,
+   "description": "IMS Custom Flows",
+   "fragment": "",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "tag": "ISCF",
+   "discontinued": true
+ }
+]

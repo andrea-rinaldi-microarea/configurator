@@ -25,14 +25,6 @@ namespace Configurator.Controllers
         [HttpPost("save")]
         public IActionResult Save([FromBody] Industry industry)
         {
-            int f = 0;
-            while (f < industry.features.Count)
-            {
-                if(!industry.features[f].isAvailable)
-                    industry.features.RemoveAt(f);
-                else   
-                    f++;
-            }
             using(TextWriter writer = new StreamWriter($"data\\{industry.name}.json", false))
             {
                 writer.Write(
