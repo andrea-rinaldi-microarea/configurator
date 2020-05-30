@@ -1,13 +1,13 @@
 import { _Feature } from "./feature";
 
-export class Distance {
+export class _Distance {
     constructor(
         public plus: number = 0,
         public minus: number = 0
     ) {}
 }
 
-export class Weight {
+export class _Weight {
     constructor(
         public min: number = 0,
         public max: number = 0
@@ -23,13 +23,13 @@ export class Configuration {
     public productID: string;
     public productName: string;
     public features: _Feature[] = [];
-    public stdWeight: Weight;
-    public proWeight: Weight;
-    public prmWeight: Weight;
-    public entWeight: Weight;
+    public stdWeight: _Weight;
+    public proWeight: _Weight;
+    public prmWeight: _Weight;
+    public entWeight: _Weight;
     public clientWeight: number;
-    public stdDistance: Distance;
-    public proDistance: Distance;
-    public prmDistance: Distance;
-    public entDistance: Distance;
+    public stdDistance: _Distance;
+    public proDistance: _Distance;
+    public prmDistance: _Distance;
+    public entDistance: _Distance;
 }

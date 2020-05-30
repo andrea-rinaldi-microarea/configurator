@@ -1,4 +1,4 @@
-import { Weight } from './../../../../models/configuration';
+import { _Weight } from './../../../../models/configuration';
 import { Pricing } from './../../../../models/pricing';
 import { Component, OnInit, DoCheck } from '@angular/core';
 import { ConfigurationService } from '../../../services/configuration.service';
@@ -57,7 +57,7 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.calculateIndustryPrices();
   }
 
-  calculateEditionPrice(weight: Weight, fullOptions: boolean, edition: Pricing) {
+  calculateEditionPrice(weight: _Weight, fullOptions: boolean, edition: Pricing) {
     edition.license = fullOptions ? weight.max : weight.min;
     edition.mlu = Math.round(edition.license * MLU_RATE);
     edition.calLicense = this.modulePrice["PRO"]["CAL"].license * this.nrCals;

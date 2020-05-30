@@ -1,6 +1,6 @@
 import { CSVExport } from './../../models/CSVExport';
 import { Injectable } from '@angular/core';
-import { Configuration, Distance, Weight } from '../../models/configuration';
+import { Configuration, _Distance, _Weight } from '../../models/configuration';
 import { Observable } from 'rxjs/Observable';
 import { HttpClient } from '@angular/common/http';
 import { _Feature } from '../../models/feature';
@@ -41,7 +41,7 @@ export class ConfigurationService {
     return !feat.customer && edition != "" && feat.included;
   }
 
-  private calculateDistance(feat: _Feature, edition: string, dist: Distance) {
+  private calculateDistance(feat: _Feature, edition: string, dist: _Distance) {
     if (this.isMinus(feat, edition)) {
       dist.minus += this.getWeight(feat);
     }
@@ -98,10 +98,10 @@ export class ConfigurationService {
       }
     }
 
-    this.current.stdDistance = new Distance();
-    this.current.proDistance = new Distance();
-    this.current.prmDistance = new Distance();
-    this.current.entDistance = new Distance();
+    this.current.stdDistance = new _Distance();
+    this.current.proDistance = new _Distance();
+    this.current.prmDistance = new _Distance();
+    this.current.entDistance = new _Distance();
     this.current.clientWeight = 0;
     var foundNames: string[] = [];
     for (var f = 0; f < this.current.features.length; f++) {
@@ -131,7 +131,7 @@ export class ConfigurationService {
       return 0;
     }
 
-    private calculateWeight(feat: _Feature, edition: string, weight: Weight) {
+    private calculateWeight(feat: _Feature, edition: string, weight: _Weight) {
       var value = this.getWeight(feat);
       if (edition == "") return;
       if (edition == "Nr-User" || edition == "PPT") return;
@@ -151,10 +151,10 @@ export class ConfigurationService {
     public calculateWeights() {
       if (!this.current) return;
       
-      this.current.stdWeight = new Weight();
-      this.current.prmWeight = new Weight();
-      this.current.proWeight = new Weight();
-      this.current.entWeight = new Weight();
+      this.current.stdWeight = new _Weight();
+      this.current.prmWeight = new _Weight();
+      this.current.proWeight = new _Weight();
+      this.current.entWeight = new _Weight();
 
       var foundNames: string[] = [];
       for (var f = 0; f < this.current.features.length; f++) {

@@ -1,4 +1,4 @@
-import { Weight } from './../../../../models/configuration';
+import { _Weight } from './../../../../models/configuration';
 import { CSVExport, CSVFeature } from './../../../../models/CSVExport';
 import { Component, OnInit, DoCheck } from '@angular/core';
 import { ConfigurationService } from '../../../services/configuration.service';
@@ -83,6 +83,9 @@ export class ConfigurationComponent implements OnInit, DoCheck {
       this.editMode = false; 
     });
     this.industry.load(industryList[this.currIndustry]).subscribe( res => {
+      this.industry.calculateWeights();
+      this.configuration.showUsing(this.clients.current);
+      this.industry.calculateDistances();
     });
   }
 
@@ -241,7 +244,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     }
   }
 
-  configurationWeight(weight: Weight) {
+  configurationWeight(weight: _Weight) {
     if (weight.min == weight.max) {
       return weight.min;
     } else {

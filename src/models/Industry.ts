@@ -10,7 +10,7 @@ export class Feature {
     constructor(
         feature: Feature
     ) { Object.assign(this, feature);}
-    
+
     public fragment: string
     public isModule: boolean;
     public description: string;
@@ -27,6 +27,22 @@ export class Feature {
     public fromPackage: boolean
 }
 
+export class Distance {
+    constructor(
+        public edition: string,
+        public plus: number = 0,
+        public minus: number = 0
+    ) {}
+}
+
+export class Weight {
+    constructor(
+        public edition: string,
+        public min: number = 0,
+        public max: number = 0
+    ) {}
+}
+
 export class Industry {
     constructor(
         public name: string
@@ -36,4 +52,8 @@ export class Industry {
     public productID: string;
     public productName: string;
     public features: Feature[] = [];
+
+    public weights: Weight[] = [];
+    public clientWeight: number;
+    public distances: Distance[] = [];
 }
