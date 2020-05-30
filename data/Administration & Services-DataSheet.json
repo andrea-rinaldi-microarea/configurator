@@ -3,7 +3,6 @@
   "Lines": [
     {
       "Topic": "MasterCommon",
-      "Included": true,
       "Standard": "X",
       "Premium": "X",
       "Professional": "X",
@@ -11,32 +10,27 @@
     },
     {
       "Topic": "Languages",
-      "Included": true,
       "Premium": "X",
       "Professional": "X",
       "Enterprise": "X"
     },
     {
       "Topic": "Currencies",
-      "Included": true,
       "Professional": "X",
       "Enterprise": "X"
     },
     {
       "Topic": "Contacts",
-      "Included": true,
       "Enterprise": "X"
     },
     {
       "Topic": "KPIMobileApp",
-      "Included": true,
       "Premium": "Nr-User",
       "Professional": "Nr-User",
       "Enterprise": "Nr-User"
     },
     {
       "Topic": "Financials",
-      "Included": true,
       "Standard": "X",
       "Premium": "X",
       "Professional": "X",
@@ -44,7 +38,7 @@
     },
     {
       "Topic": "Accounting",
-      "Included": true
+      "Enterprise": "X"
     }
   ]
 }
