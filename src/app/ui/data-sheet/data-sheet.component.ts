@@ -1,6 +1,7 @@
 import { DataSheetLine } from '../../../models/data-sheet';
 import { DataSheetService } from '../../services/data-sheet.service';
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 declare var require: any;
 const industryList = require("../data/industry-list.json");
@@ -51,7 +52,8 @@ export class DataSheetComponent implements OnInit {
   ];
 
   constructor(
-    private dataSheet: DataSheetService
+    private dataSheet: DataSheetService,
+    public translate: TranslateService
   ) { }
 
   ngOnInit() {
@@ -88,8 +90,14 @@ export class DataSheetComponent implements OnInit {
   }
 
   topicTitle(line: DataSheetLine) {
+    var lang = this.translate.currentLang;
+    if (typeof lang == "undefined") lang = "en";
     var topic = this.dataSheet.topic(line.topic);
-    if (topic != null) return topic.title;
+    if (topic != null) {
+      var localized = topic.title.find(t => t.language == lang);
+      if (localized != null)
+        return localized.value;
+    }
   }
 
   topicClass(line: DataSheetLine) {
@@ -125,8 +133,14 @@ export class DataSheetComponent implements OnInit {
   }
 
   topicDetails(line: DataSheetLine) {
+    var lang = this.translate.currentLang;
+    if (typeof lang == "undefined") lang = "en";
     var topic = this.dataSheet.topic(line.topic);
-    if (topic != null) return topic.details;
+    if (topic != null && topic.details != null) {
+      var localized = topic.details.find(t => t.language == lang);
+      if (localized != null)
+      return localized.value;
+    }
   }
 
   onSave() {

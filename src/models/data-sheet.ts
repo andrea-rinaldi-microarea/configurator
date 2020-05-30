@@ -1,11 +1,18 @@
 
+export class Localized {
+    constructor(
+        public language: string,
+        public value: string
+    ) {}
+}
+
 export class Topic {
     constructor(
         public topic: string,
         public order: number,
         public level: number,
-        public title: string,
-        public details: string,
+        public title: Localized[] = [],
+        public details: Localized[] = [],
         public notYetAvailable: boolean,
         public allowISO: string,
         public denyISO: string
