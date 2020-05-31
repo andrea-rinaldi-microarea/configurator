@@ -1,9 +1,10 @@
 
 export class FeatureOption {
     constructor(
-        public edition: string,
-        public availability: string
+        public edition: string
     ) {}
+
+    public availability: string
 }
 
 export class Feature {

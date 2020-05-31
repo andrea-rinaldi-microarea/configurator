@@ -51,6 +51,19 @@ export class IndustryService {
     });
   }
 
+  public copy(sourceIndustry: string): Observable<any> {
+    var saved: Industry = Object.assign(null, this.current);
+    var $industry = new Observable<any>(observer => {
+      this.load(sourceIndustry).subscribe(res => {
+        saved.features = this.current.features;
+        this.current = saved;
+        observer.next();
+        observer.complete();
+      });
+    });
+    return $industry;
+  }
+
   public getWeight(feature: Feature): number {
     if (fragmentWeights[feature.fragment]) {
       return fragmentWeights[feature.fragment].weight;
@@ -176,6 +189,7 @@ export class IndustryService {
         }
 
         editions.forEach( (e, idx) => {
+          if (!feat.included) return;
           this.calculateDistance(feat, feat.options[idx].availability, this.current.distances[idx]);
         });
       }

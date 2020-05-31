@@ -1,11 +1,9 @@
-import { _Weight } from './../../../../models/configuration';
-import { CSVExport, CSVFeature } from './../../../../models/CSVExport';
+import { Distance, Feature, FeatureOption } from './../../../../models/Industry';
 import { Component, OnInit, DoCheck } from '@angular/core';
-import { ConfigurationService } from '../../../services/configuration.service';
 import { ClientsService } from '../../../services/clients.service';
-import { _Feature } from '../../../../models/feature';
 import { TranslateService } from '@ngx-translate/core';
 import { IndustryService } from '../../../services/industry.service';
+import { Weight } from '../../../../models/Industry';
 
 declare var require: any;
 const industryList = require("../../data/industry-list.json");
@@ -28,20 +26,16 @@ export class ConfigurationComponent implements OnInit, DoCheck {
       icon: "fa-star-o"
     },
     {
-      value: "X",
+      value: "always",
       icon: "fa-star"
     },
     {
-      value: "X/0",
+      value: "optional",
       icon: "fa-check-square-o"
     },
     {
-      value: "Nr-User",
+      value: "count",
       icon: "fa-user-plus"
-    },
-    {
-      value: "max",
-      icon: "fa-star-half-o"
     },
     {
       value: "PPT",
@@ -61,7 +55,6 @@ export class ConfigurationComponent implements OnInit, DoCheck {
   ];
 
   constructor(
-    private configuration: ConfigurationService,
     private industry: IndustryService,
     private clients: ClientsService,
     private translate: TranslateService
@@ -73,18 +66,13 @@ export class ConfigurationComponent implements OnInit, DoCheck {
 
   ngDoCheck() {
     // @@@TODO fare solo se la change detection riguarda i dati coinvolti nei calcoli
-    this.configuration.calculateWeights();
+    this.industry.calculateWeights();
   }
   
   private ShowConfiguration() {
-    this.configuration.load(industryList[this.currIndustry]).subscribe( res => {
-      this.configuration.calculateWeights();
-      this.configuration.showUsing(this.clients.current);
-      this.editMode = false; 
-    });
     this.industry.load(industryList[this.currIndustry]).subscribe( res => {
       this.industry.calculateWeights();
-      this.configuration.showUsing(this.clients.current);
+      this.industry.showUsing(this.clients.current);
       this.industry.calculateDistances();
     });
   }
@@ -94,7 +82,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
   }
 
   onSave() {
-    this.configuration.save();
+    this.industry.save();
   }
 
   onCancel() {
@@ -122,111 +110,27 @@ export class ConfigurationComponent implements OnInit, DoCheck {
   }
 
   selectAll(edition: string) {
-    var newValue;
-    if  (
-          typeof this.configuration.current.features[0][edition] === "undefined" || 
-          this.configuration.current.features[0][edition] == null
-    ) {
-      newValue = this.featureTypes[1].value;
-    } else {
-      newValue = this.configuration.current.features[0][edition] === this.featureTypes[0].value ? 
-                      this.featureTypes[1].value : 
-                      this.featureTypes[0].value;
-    }
+    var newValue = this.option(this.industry.current.features[0], edition).availability == this.featureTypes[0].value ?
+                    this.featureTypes[1].value : 
+                    this.featureTypes[0].value;
 
-    for (var f = 0; f < this.configuration.current.features.length; f++ ) {
-      this.configuration.current.features[f][edition] = newValue;
-    }
+    this.industry.current.features.forEach( feat => {
+      this.option(feat, edition).availability = newValue;
+    });
   }
 
   onCopy(sourceIndustry) {
-    this.configuration.copy(sourceIndustry).subscribe( res => {
-      this.configuration.showUsing(this.clients.current);
+    this.industry.copy(sourceIndustry).subscribe( res => {
+      this.industry.showUsing(this.clients.current);
     });
   }
 
-  // onTranslate() {
-  //   this.configuration.translateFeatures().subscribe( res => {
-  
-  //   });
-  // }
-
-  onUpgrade() {
-    this.configuration.upgrade().subscribe( res => {
-      this.configuration.showUsing(this.clients.current);
-    });
-  }
-
-  onExport() {
-    var translated = this.configuration.current;
-    for (var f = 0; f < this.configuration.current.features.length; f++) {
-      if (this.configuration.current.features[f].module) {
-        translated.features[f].module = this.translate.instant(this.configuration.current.features[f].module);
-      }
-      if (this.configuration.current.features[f].functionality) {
-        translated.features[f].functionality = this.translate.instant(this.configuration.current.features[f].functionality);
-      }
-    }
-    this.configuration.export(translated);
-  }
-
-  convertFeatureOption(option: string) {
-      switch (option)
-      {
-          case "Nr-User": return "0..N";
-          default: return option; 
-      }
-  }
-
-  onCSVExport() {
-    var csvExp = new CSVExport(this.configuration.current.name);
-    for (var f = 0; f < this.configuration.current.features.length; f++) {
-      var feat = this.configuration.current.features[f];
-      if (!feat.included)
-        continue;
-      
-      csvExp.features.push(new CSVFeature(
-        feat.module && (this.translate.instant(feat.module) + (feat.notYetAvailable ? " (*)" : "")),
-        feat.functionality && (this.translate.instant(feat.functionality) + (feat.notYetAvailable ? " (*)" : "")),
-        feat.tag,
-        this.configuration.isIncluded(feat.tag, "SBPK") ? "SBPK" : "",
-        this.configuration.isIncluded(feat.tag, "ADPK") ? "ADPK" : "",
-        this.configuration.isIncluded(feat.tag, "TRPK") ? "TRPK" : "",
-        feat.fragment,
-        this.convertFeatureOption(feat.standard),
-        this.convertFeatureOption(feat.premium),
-        this.convertFeatureOption(feat.professional),
-        this.convertFeatureOption(feat.enterprise)
-      ));
-    }
-    this.configuration.CSVExport(csvExp);
-  }
-
-  isLinked(feature: _Feature) {
-    var idx = this.configuration.current.features.findIndex(feat => feature.module == feat.module && feature.functionality == feat.functionality);
-    return  feature.fragment != "" &&
-            feature.fragment != null &&
-            (
-              (idx > 0 && feature.fragment == this.configuration.current.features[idx - 1].fragment) ||
-              (idx < this.configuration.current.features.length - 1  && feature.fragment == this.configuration.current.features[idx + 1].fragment)
-            );
-  }
-
-  sameFragmentOnPrevious(feature: _Feature) {
-    var idx = this.configuration.current.features.findIndex(feat => feature.module == feat.module && feature.functionality == feat.functionality);
-    return  feature.fragment != "" &&
-            feature.fragment != null &&
-            (
-              (idx > 0 && feature.fragment == this.configuration.current.features[idx - 1].fragment) 
-            );
-  }
-
-  isLocalized(feature: _Feature) {
+  isLocalized(feature: Feature) {
     return  (feature.allowISO != "" && feature.allowISO != null) ||
             (feature.denyISO != "" && feature.denyISO != null)
   }
 
-  ISOTooltip(feature: _Feature) {
+  ISOTooltip(feature: Feature) {
     var tooltip: string;
     if (feature.allowISO != "") {
       tooltip = "Disponibile in: " +  feature.allowISO;
@@ -238,25 +142,46 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     return tooltip;
   }
 
-  getWeight(feature: _Feature) {
-    if (!this.sameFragmentOnPrevious(feature)) {
-      return this.configuration.getWeight(feature);
-    }
+  getWeight(feature: Feature) {
+      return this.industry.getWeight(feature);
   }
 
-  configurationWeight(weight: _Weight) {
+  configurationWeight(weights: Weight[], edition: string) {
+    if (!weights) return;
+    var weight = weights.find(w => w.edition == edition);
+    if (!weight) return;
+
     if (weight.min == weight.max) {
       return weight.min;
     } else {
       return weight.min + " " + String.fromCharCode(247) + " " + weight.max;
     }
   }
+  
+  configurationDistance(distances: Distance[], edition: string): Distance {
+    if (!distances) return new Distance(edition);
+    var distance = distances.find(d => d.edition == edition);
+    return distance || new Distance(edition);
+  }
 
-  missingFragment(feature: _Feature) {
+  isMinus(feature: Feature, edition: string): boolean  {
+    return this.industry.isMinus(feature, this.option(feature, edition).availability);
+  }
+
+  isPlus(feature: Feature, edition: string): boolean  {
+    return this.industry.isPlus(feature, this.option(feature, edition).availability);
+  }
+
+  option(feature: Feature, edition: string): FeatureOption {
+    var option : FeatureOption = feature.options.find(o => o.edition == edition);
+    return option || new FeatureOption(edition);
+  }
+
+  missingFragment(feature: Feature) {
     return (feature.fragment == "" || feature.fragment.startsWith("_"))  && !feature.discontinued;
   }
 
-  detailedInfo(feature: _Feature) {
+  detailedInfo(feature: Feature) {
     return detailedInfos[feature.fragment||feature.tag];
   }
 

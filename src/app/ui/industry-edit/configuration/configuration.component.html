@@ -16,11 +16,7 @@
     <i class="fa fa-big fa-chevron-right text-config-light"></i>
   </div>
   <div class="right-toolbar" [hidden]="currIndustry == null">
-    <button class="btn btn-outline-light" [hidden]="editMode" (click)="onCSVExport()"><i class="fa fa-big fa-file-excel-o text-config-light"></i></button> 
-    <button class="btn btn-outline-light" [hidden]="editMode" (click)="onExport()"><i class="fa fa-big fa-share-square-o text-config-light"></i></button> 
     <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button> 
-    <!-- <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onTranslate()"><i class="fa fa-big fa-globe text-config-light"></i></button>  -->
-    <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onUpgrade()" placement="bottom" ngbTooltip="Allinea la lista delle funzionalità con quella standard"><i class="fa fa-big fa-clipboard text-config-light"></i></button> 
     <div ngbDropdown class="d-inline-block">
       <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle placement="bottom" ngbTooltip="Copia un'altra industry">
           <i class="fa fa-big fa-files-o text-config-light"></i>
@@ -33,80 +29,72 @@
     <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button> 
   </div>
 </div>
-<div class="row mt-2" *ngIf="configuration.current"> 
+<div class="row mt-2" *ngIf="industry.current"> 
   <table class="table table-sm table-borderless">
       <tr>
           <th><app-toggler class="text-config-light" [(value)]="hideExcluded"></app-toggler></th>
-          <th>{{"Module" | translate}}</th>
-          <th>{{"Functionality" | translate}}<app-toggler class="ml-0 mr-0 p-0 text-config-light" [(value)]="hideFunctionalities"></app-toggler></th>
+          <th>{{"Feature" | translate}}</th>
           <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
           <th class="text-center edition-sep" ></th>
           <th class="text-center edition-sep" ></th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'" (click)="editMode && selectAll('standard')">
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'" (click)="editMode && selectAll('STD')">
             <app-edition-header [disabled]="!editMode">Standard</app-edition-header> 
           </th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRM'" (click)="editMode && selectAll('premium')">
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRM'" (click)="editMode && selectAll('PRM')">
             <app-edition-header [disabled]="!editMode">Premium</app-edition-header>
           </th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'" (click)="editMode && selectAll('professional')">
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'" (click)="editMode && selectAll('PRO')">
             <app-edition-header [disabled]="!editMode">Professional</app-edition-header>
           </th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'" (click)="editMode && selectAll('enterprise')">
+          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'" (click)="editMode && selectAll('ENT')">
             <app-edition-header [disabled]="!editMode">Enterprise</app-edition-header>
           </th>
       </tr> 
       <tr>
         <th class="subheader"></th>
         <th class="subheader"></th>
-        <th class="subheader"></th>
         <th class="text-center edition-sep subheader" [hidden]="!clients.show">
-          <span *ngIf="configuration.current.clientWeight">{{configuration.current.clientWeight}}</span>
+          <span *ngIf="industry.current.clientWeight">{{industry.current.clientWeight}}</span>
         </th>
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">
-          <span *ngIf="configuration.current.stdWeight">{{configurationWeight(configuration.current.stdWeight)}}</span>
+          <span *ngIf="industry.current.weights">{{configurationWeight(industry.current.weights, 'STD')}}</span>
         </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRM'">
-          <span *ngIf="configuration.current.prmWeight">{{configurationWeight(configuration.current.prmWeight)}}</span>
+          <span *ngIf="industry.current.weights">{{configurationWeight(industry.current.weights, 'PRM')}}</span>
         </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRO'">
-          <span *ngIf="configuration.current.proWeight">{{configurationWeight(configuration.current.proWeight)}}</span>
+          <span *ngIf="industry.current.weights">{{configurationWeight(industry.current.weights, 'PRO')}}</span>
         </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='ENT'">
-          <span *ngIf="configuration.current.entWeight">{{configurationWeight(configuration.current.entWeight)}}</span>
+          <span *ngIf="industry.current.weights">{{configurationWeight(industry.current.weights, 'ENT')}}</span>
         </th>
       </tr>
       <tr *ngIf="clients.show">
         <th class="subheader"></th>
         <th class="subheader"></th>
-        <th class="subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">
-          <span *ngIf="configuration.current.stdDistance">+{{configuration.current.stdDistance.plus}} / -{{configuration.current.stdDistance.minus}}</span>
+          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.stdDistance, 'STD').plus}} / -{{configurationDistance(industry.current.stdDistance, 'STD').minus}}</span>
         </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRM'">
-          <span *ngIf="configuration.current.prmDistance">+{{configuration.current.prmDistance.plus}} / -{{configuration.current.prmDistance.minus}}</span>
+          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.stdDistance, 'PRM').plus}} / -{{configurationDistance(industry.current.stdDistance, 'PRM').minus}}</span>
         </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRO'">
-          <span *ngIf="configuration.current.proDistance">+{{configuration.current.proDistance.plus}} / -{{configuration.current.proDistance.minus}}</span>
+          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.stdDistance, 'PRO').plus}} / -{{configurationDistance(industry.current.stdDistance, 'PRO').minus}}</span>
         </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='ENT'">
-          <span *ngIf="configuration.current.entDistance">+{{configuration.current.entDistance.plus}} / -{{configuration.current.entDistance.minus}}</span>
+          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.stdDistance, 'ENT').plus}} / -{{configurationDistance(industry.current.stdDistance, 'ENT').minus}}</span>
         </th>
       </tr>
-      <tr *ngFor="let feature of configuration.current.features | Functionality:!hideFunctionalities | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.module != ''" [class.group-sep]="feature.module.startsWith('_')">
+      <tr *ngFor="let feature of industry.current.features | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.module">
           <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
           <td [class.discontinued]="feature.discontinued">
-            <i class="fa fa-calendar text-warning" [hidden]="!feature.notYetAvailable || !feature.module || (feature.functionality && feature.module)" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
-            <app-detailed-info [details]="detailedInfo(feature)">{{feature.module.replace('_','') | translate}}</app-detailed-info>
-          </td>  
-          <td [class.discontinued]="feature.discontinued">
-            <i class="fa fa-calendar text-warning" [hidden]="!feature.notYetAvailable || !feature.functionality" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
-            <app-detailed-info [details]="detailedInfo(feature)">{{hideFunctionalities ? "" : feature.functionality | translate}}</app-detailed-info>  
-            <i class="fa fa-link" style="float:right" [hidden]="!isLinked(feature)" placement="right" ngbTooltip="Non attivabili separatamente"></i> 
+            <i class="fa fa-calendar text-warning" [hidden]="feature.isAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
+            <app-detailed-info [details]="detailedInfo(feature)">{{feature.description | translate}}</app-detailed-info>  
             <i class="fa fa-exclamation-triangle text-danger" style="float:right" [hidden]="!missingFragment(feature)" placement="right" ngbTooltip="{{'Missing fragment for this feature' | translate }}"></i>
           </td> 
           <td class="text-center edition-sep" [hidden]="!clients.show">
@@ -123,9 +111,9 @@
               [hidden]="!feature.included || feature.discontinued" 
               [disabled]="!editMode" 
               class="text-config" 
-              [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.standard)" 
-              [class.text-user]="clients.show && clients.current && configuration.isPlus(feature, feature.standard)" 
-              [(value)]="feature.standard" 
+              [class.text-danger]="clients.show && clients.current && isMinus(feature, 'STD')" 
+              [class.text-user]="clients.show && clients.current && isPlus(feature, 'STD')" 
+              [(value)]="option(feature, 'STD').availability" 
               [options]="featureTypes"></app-toggler>
           </td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRM'">
@@ -133,9 +121,9 @@
               [hidden]="!feature.included || feature.discontinued" 
               [disabled]="!editMode" 
               class="text-config" 
-              [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.premium)" 
-              [class.text-user]="clients.show && clients.current && configuration.isPlus(feature, feature.premium)" 
-              [(value)]="feature.premium" 
+              [class.text-danger]="clients.show && clients.current && isMinus(feature, 'PRM')" 
+              [class.text-user]="clients.show && clients.current && isPlus(feature, 'PRM')" 
+              [(value)]="option(feature, 'PRM').availability" 
               [options]="featureTypes"></app-toggler>
           </td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'">
@@ -143,9 +131,9 @@
               [hidden]="!feature.included || feature.discontinued" 
               [disabled]="!editMode" 
               class="text-config" 
-              [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.professional)" 
-              [class.text-user]="clients.show && clients.current && configuration.isPlus(feature, feature.professional)" 
-              [(value)]="feature.professional" 
+              [class.text-danger]="clients.show && clients.current && isMinus(feature, 'PRO')" 
+              [class.text-user]="clients.show && clients.current && isPlus(feature, 'PRO')" 
+              [(value)]="option(feature, 'PRO').availability" 
               [options]="featureTypes"></app-toggler>
           </td>
           <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'">
@@ -153,15 +141,15 @@
               [hidden]="!feature.included || feature.discontinued" 
               [disabled]="!editMode" 
               class="text-config" 
-              [class.text-danger]="clients.show && clients.current && configuration.isMinus(feature, feature.enterprise)" 
-              [class.text-user]="clients.show && clients.current && configuration.isPlus(feature, feature.enterprise)" 
-              [(value)]="feature.enterprise" 
+              [class.text-danger]="clients.show && clients.current && isMinus(feature, 'ENT')" 
+              [class.text-user]="clients.show && clients.current && isPlus(feature, 'ENT')" 
+              [(value)]="option(feature, 'ENT').availability" 
               [options]="featureTypes"></app-toggler>
           </td>
       </tr>
   </table>
 </div>
-<div *ngIf="configuration.current" class="legend">
+<div *ngIf="industry.current" class="legend">
   <hr>
   {{"Legend" | translate}} <br>
   <i class="fa fa-star-o text-config"></i> {{"not included" | translate}} &nbsp;
