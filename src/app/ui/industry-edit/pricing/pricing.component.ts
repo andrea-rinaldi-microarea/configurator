@@ -1,9 +1,8 @@
-import { _Weight } from './../../../../models/configuration';
 import { Pricing } from './../../../../models/pricing';
 import { Component, OnInit, DoCheck } from '@angular/core';
-import { ConfigurationService } from '../../../services/configuration.service';
 import { ClientsService } from '../../../services/clients.service';
-import { _Feature } from '../../../../models/feature';
+import { IndustryService, editions, STD, PRM, PRO, ENT } from '../../../services/industry.service';
+import { Weight, Feature } from '../../../../models/Industry';
 
 declare var require: any;
 const modulePricePRO = require("./module-price-PRO.json");
@@ -24,10 +23,7 @@ export class PricingComponent implements OnInit, DoCheck  {
     "NET": modulePriceNET
   }
   public customer: Pricing = new Pricing();
-  public standard: Pricing = new Pricing();
-  public premium: Pricing = new Pricing();
-  public professional: Pricing = new Pricing();
-  public enterprise: Pricing = new Pricing();
+  public pricings: Pricing[] = [];
   private misconfigured: boolean = false;
   private misconfiguredInfo: string = "";
   public nrCals: number = 1;
@@ -35,13 +31,15 @@ export class PricingComponent implements OnInit, DoCheck  {
   private priceSource: string = "LITE";
   private mispriced: boolean = false;
   private mispricedInfo: string = "";
-  private stdFullOptions: boolean = false;
-  private prmFullOptions: boolean = false;
-  private proFullOptions: boolean = false;
-  private entFullOptions: boolean = false;
+  private fullOptions: boolean[] = [false, false, false, false];
+
+  public STD = STD;
+  public PRM = PRM;
+  public PRO = PRO;
+  public ENT = ENT;
 
   constructor(
-    private configuration: ConfigurationService,
+    private industry: IndustryService,
     private clients: ClientsService
   ) { }
 
@@ -57,7 +55,7 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.calculateIndustryPrices();
   }
 
-  calculateEditionPrice(weight: _Weight, fullOptions: boolean, edition: Pricing) {
+  calculateEditionPrice(weight: Weight, fullOptions: boolean, edition: Pricing) {
     edition.license = fullOptions ? weight.max : weight.min;
     edition.mlu = Math.round(edition.license * MLU_RATE);
     edition.calLicense = this.modulePrice["PRO"]["CAL"].license * this.nrCals;
@@ -67,17 +65,15 @@ export class PricingComponent implements OnInit, DoCheck  {
   }
 
   calculateIndustryPrices(): void {
-    if (!this.configuration.current)
+    if (!this.industry.current)
       return;
-    this.standard = new Pricing();
-    this.premium = new Pricing();
-    this.professional = new Pricing();
-    this.enterprise = new Pricing();
-
-    this.calculateEditionPrice(this.configuration.current.stdWeight, this.stdFullOptions, this.standard);
-    this.calculateEditionPrice(this.configuration.current.prmWeight, this.prmFullOptions, this.premium);
-    this.calculateEditionPrice(this.configuration.current.proWeight, this.proFullOptions, this.professional);
-    this.calculateEditionPrice(this.configuration.current.entWeight, this.entFullOptions, this.enterprise);
+    
+    this.pricings = [];
+    editions.forEach((e, idx) => {
+      var pricing = new Pricing();
+      this.calculateEditionPrice(this.industry.current.weights[idx], this.fullOptions[idx], pricing);
+      this.pricings.push(pricing);
+    });
 
   }
 
@@ -87,11 +83,11 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.misconfiguredInfo = "";
     this.mispriced = false;
     this.mispricedInfo = "";
-    if (!this.configuration.current || !this.clients.current)
+    if (!this.industry.current || !this.clients.current)
       return;
     var foundTags: string[] = [];
-    for (var f = 0; f < this.configuration.current.features.length; f++ ) {
-      var feat: _Feature  = this.configuration.current.features[f];
+    for (var f = 0; f < this.industry.current.features.length; f++ ) {
+      var feat: Feature  = this.industry.current.features[f];
         if (feat.customer && !feat.fromPackage && !foundTags.includes(feat.tag)) {
           if (this.modulePrice[this.priceSource][feat.tag]) {
           this.customer.license += this.modulePrice[this.priceSource][feat.tag].license;
@@ -123,22 +119,18 @@ export class PricingComponent implements OnInit, DoCheck  {
     this.customer.perUserMonth = Math.floor(this.customer.total5Years / ((this.nrCals || 1) * 60));
   }
 
-  getFeatureInfo(feat: _Feature, first: boolean): string {
+  getFeatureInfo(feat: Feature, first: boolean): string {
     var info: string = first ? "" : ", ";
-    if (feat.module) {
-      info += feat.module;
-    } else {
-      info += this.configuration.moduleDescription(feat.tag);
-    }
-    if (feat.functionality) {
-      info += " - " + feat.functionality;
+    info += this.industry.moduleDescription(feat.tag);
+    if (feat.description) {
+      info += " - " + feat.description;
     }
 
     return info;
   }
 
   getCalculationCals() : number {
-    if (!this.configuration.current || !this.clients.current) {
+    if (!this.industry.current || !this.clients.current) {
       return 1;
     }
 

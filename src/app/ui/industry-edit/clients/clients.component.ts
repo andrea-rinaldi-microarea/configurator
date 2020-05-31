@@ -1,4 +1,4 @@
-import { ConfigurationService } from './../../../services/configuration.service';
+import { IndustryService } from './../../../services/industry.service';
 import { ClientsService } from './../../../services/clients.service';
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
@@ -15,7 +15,7 @@ export class ClientsComponent implements OnInit {
 
   constructor(
     private clients: ClientsService,
-    private configuration: ConfigurationService
+    private industry: IndustryService
   ) { }
 
   ngOnInit() {
@@ -23,19 +23,22 @@ export class ClientsComponent implements OnInit {
 
   onPrev() {
     if (this.clients.prev()) {
-      this.configuration.showUsing(this.clients.current);
+      this.industry.showUsing(this.clients.current);
+      this.industry.calculateDistances();
     }
   }
 
   onNext() {
     if (this.clients.next()) {
-      this.configuration.showUsing(this.clients.current);
+      this.industry.showUsing(this.clients.current);
+      this.industry.calculateDistances();
     }
   }
 
   onRandom() {
     this.clients.random();
-    this.configuration.showUsing(this.clients.current);
+    this.industry.showUsing(this.clients.current);
+    this.industry.calculateDistances();
   }
 
   openClients(event) {
@@ -45,7 +48,8 @@ export class ClientsComponent implements OnInit {
     }
     let file: File = fileList[0];
     this.clients.open(file).subscribe(res => {
-      this.configuration.showUsing(this.clients.current);
+      this.industry.showUsing(this.clients.current);
+      this.industry.calculateDistances();
     })
   }
 
@@ -115,13 +119,15 @@ export class ClientsComponent implements OnInit {
 
   onFirst() {
     if (this.clients.first()) {
-      this.configuration.showUsing(this.clients.current);
+      this.industry.showUsing(this.clients.current);
+      this.industry.calculateDistances();
     }
   }
 
   onLast() {
     if (this.clients.last()) {
-      this.configuration.showUsing(this.clients.current);
+      this.industry.showUsing(this.clients.current);
+      this.industry.calculateDistances();
     }
   }
 
@@ -131,7 +137,8 @@ export class ClientsComponent implements OnInit {
       return;
 
     if (this.clients.searchForward(searchString)) {
-      this.configuration.showUsing(this.clients.current);
+      this.industry.showUsing(this.clients.current);
+      this.industry.calculateDistances();
     } else {
       this.successSearch = false;
     }

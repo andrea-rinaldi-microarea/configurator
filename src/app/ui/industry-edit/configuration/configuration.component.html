@@ -78,23 +78,23 @@
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">
-          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.stdDistance, 'STD').plus}} / -{{configurationDistance(industry.current.stdDistance, 'STD').minus}}</span>
+          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, 'STD').plus}} / -{{configurationDistance(industry.current.distances, 'STD').minus}}</span>
         </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRM'">
-          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.stdDistance, 'PRM').plus}} / -{{configurationDistance(industry.current.stdDistance, 'PRM').minus}}</span>
+          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, 'PRM').plus}} / -{{configurationDistance(industry.current.distances, 'PRM').minus}}</span>
         </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRO'">
-          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.stdDistance, 'PRO').plus}} / -{{configurationDistance(industry.current.stdDistance, 'PRO').minus}}</span>
+          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, 'PRO').plus}} / -{{configurationDistance(industry.current.distances, 'PRO').minus}}</span>
         </th>
         <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='ENT'">
-          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.stdDistance, 'ENT').plus}} / -{{configurationDistance(industry.current.stdDistance, 'ENT').minus}}</span>
+          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, 'ENT').plus}} / -{{configurationDistance(industry.current.distances, 'ENT').minus}}</span>
         </th>
       </tr>
-      <tr *ngFor="let feature of industry.current.features | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.module">
+      <tr *ngFor="let feature of industry.current.features | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.isModule">
           <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
           <td [class.discontinued]="feature.discontinued">
             <i class="fa fa-calendar text-warning" [hidden]="feature.isAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
-            <app-detailed-info [details]="detailedInfo(feature)">{{feature.description | translate}}</app-detailed-info>  
+            <app-detailed-info [details]="detailedInfo(feature)" [class.module-title]="feature.isModule">{{feature.description | translate}}</app-detailed-info>  
             <i class="fa fa-exclamation-triangle text-danger" style="float:right" [hidden]="!missingFragment(feature)" placement="right" ngbTooltip="{{'Missing fragment for this feature' | translate }}"></i>
           </td> 
           <td class="text-center edition-sep" [hidden]="!clients.show">
@@ -156,6 +156,5 @@
   <i class="fa fa-star text-config"></i> {{"included" | translate}} &nbsp;
   <i class="fa fa-check-square-o text-config"></i> {{"optional" | translate}} &nbsp;
   <i class="fa fa-user-plus text-config"></i> {{"per number of users" | translate}} &nbsp;
-  <i class="fa fa-star-half-o text-config"></i> {{"limited functionality" | translate}} &nbsp;
 </div>
 

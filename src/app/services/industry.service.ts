@@ -7,8 +7,13 @@ declare var require: any;
 const features = require("./features.json");
 const fragmentWeights = require("./fragment-weights.json");
 const moduleTags = require("./module-tags.json");
+const modulesDescription = require("./modules-description.json");
 
-const editions = [ "STD", "PRM", "PRO", "ENT" ];
+export const editions = [ "STD", "PRM", "PRO", "ENT" ];
+export const STD = 0;
+export const PRM = 1;
+export const PRO = 2;
+export const ENT = 3;
 
 @Injectable()
 export class IndustryService {
@@ -173,7 +178,7 @@ export class IndustryService {
     this.current.distances = [];
     editions.forEach( e => {
       this.current.distances.push(new Distance(e));
-    })
+    });
 
     this.current.clientWeight = 0;
 
@@ -192,6 +197,15 @@ export class IndustryService {
           if (!feat.included) return;
           this.calculateDistance(feat, feat.options[idx].availability, this.current.distances[idx]);
         });
-      }
     }
+  }
+
+  public moduleDescription(mod: string) {
+    if (!mod)
+      return null;
+    return modulesDescription[mod.trim()] ? modulesDescription[mod.trim()] : mod; 
+  }
 }
+
+
+

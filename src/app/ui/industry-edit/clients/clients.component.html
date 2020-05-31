@@ -20,8 +20,8 @@
                 <span class="card-text w-15">{{productDescri()}} - {{ decodeCALs() }} CAL</span>
                 <span class="w-10 text-right">
                     <span class="card-text" [hidden]="!clients.current.package">
-                        {{configuration.moduleDescription(clients.current.package) || clients.current.package}}
-                        <i class="fa fa-big fa-circle text-user"></i> 
+                        {{industry.moduleDescription(clients.current.package) || clients.current.package}}
+                        <i class="fa fa-circle text-user"></i> 
                     </span>
                 </span>
             </div>
