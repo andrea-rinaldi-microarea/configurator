@@ -1,57 +1,15 @@
-{
-    "topic": "AP_AR_Plus",
-    "level": 3,
-    "order": "02.2.3",
-    "notYetAvailable": false,
-    "allowISO": "IT, HU",
-    "denyISO": "BR",
-    "title": [
-      { "language" : "en", "value" : "Advanced AP/AR Management"},
-      { "language" : "it-IT", "value" : "Funzioni avanzate di scadenzario"}
-    ],
-    "details": [
-     { "language" : "en", "value" : "Customizable Bills Management, Vouchers Management, Factoring Management and Outstandings Management."},
-     { "language" : "it-IT", "value" : "Presentazioni effetti parametrizzabili, Reversali di incasso, Factoring e Gestione automatica insoluti."}
-    ]
-}
-
-{
-    "topic": "AP_AR_Plus",
-    "level": 3,
-    "order": "02.2.3",
-    "notYetAvailable": false,
-    "allowISO": "IT, HU",
-    "denyISO": "BR",
-    "literals": [
-        { 
-            "language" : "en", 
-            "title" : "Advanced AP/AR Management",
-            "details" : "Presentazioni effetti parametrizzabili, Reversali di incasso, Factoring e Gestione automatica insoluti.",
-        },
-        { 
-            "language" : "it-IT", 
-            "title" : "Funzioni avanzate di scadenzario",
-            "details" :"Customizable Bills Management, Vouchers Management, Factoring Management and Outstandings Management."
-        }
-    ]
-},
-
-
-   {
-    "Name": "Administration & Services",
-    "Lines": [
-      {
-        "Topic": "MasterCommon",
-        "Standard": "X",
-        "Premium": "X",
-        "Professional": "X",
-        "Enterprise": "X"
-      },
-      {
-        "Topic": "Contacts",
-        "Enterprise": "X"
-      },
-      {
-        "Topic": "Budget",
-        "Included": false
-      },
+ {
+  "Name": "Administration & Services",
+  "Lines": [
+    {
+      "Topic": "MasterCommon",
+      "Order": "01",
+      "Level": 1,
+      "Title": "MasterCommon_title",
+      "Details": "MasterCommon_details",
+      "NotYetAvailable": false,
+      "Standard": "X",
+      "Premium": "X",
+      "Professional": "X",
+      "Enterprise": "X"
+    },

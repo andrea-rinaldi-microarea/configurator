@@ -89,58 +89,25 @@ export class DataSheetComponent implements OnInit {
     this.ShowDataSheet();
   }
 
-  topicTitle(line: DataSheetLine) {
-    var lang = this.translate.currentLang;
-    if (typeof lang == "undefined") lang = "en";
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic != null) {
-      var localized = topic.title.find(t => t.language == lang);
-      if (localized != null)
-        return localized.value;
-    }
-  }
-
   topicClass(line: DataSheetLine) {
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic != null) return "level-" + topic.level;
-  }
-
-  topicNotYetAvailable(line: DataSheetLine): boolean {
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic != null) return topic.notYetAvailable;
-    return false;
+    return "level-" + line.level;
   }
 
   isLocalized(line: DataSheetLine): boolean {
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic == null) return false;
-    return  (typeof topic.allowISO != "undefined" && topic.allowISO != "" ) ||
-            (typeof topic.denyISO != "undefined" && topic.denyISO != "")
+    return  (typeof line.allowISO != "undefined" && line.allowISO != "" ) ||
+            (typeof line.denyISO != "undefined" && line.denyISO != "")
   }
 
   ISOTooltip(line: DataSheetLine) {
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic == null) return "";
     var tooltip: string;
-    if (topic.allowISO != "") {
-      tooltip = "Disponibile in: " +  topic.allowISO;
+    if (line.allowISO != "") {
+      tooltip = "Disponibile in: " +  line.allowISO;
     }
-    if (typeof topic.denyISO !== "undefined" && topic.denyISO != "") {
+    if (typeof line.denyISO !== "undefined" && line.denyISO != "") {
       if (tooltip != null) tooltip += "\n";
-      tooltip = "Non disponibile in: " +  topic.denyISO;
+      tooltip = "Non disponibile in: " +  line.denyISO;
     }
     return tooltip;
-  }
-
-  topicDetails(line: DataSheetLine) {
-    var lang = this.translate.currentLang;
-    if (typeof lang == "undefined") lang = "en";
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic != null && topic.details != null) {
-      var localized = topic.details.find(t => t.language == lang);
-      if (localized != null)
-      return localized.value;
-    }
   }
 
   onSave() {

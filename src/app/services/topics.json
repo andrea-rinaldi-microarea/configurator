@@ -3,83 +3,62 @@
   "topic": "MasterCommon",
   "level": 1,
   "order": "01",
-  "title": [
-      { "language" : "en", "value" : "Masters and Common Functions"},
-      { "language" : "it", "value" : "Anagrafiche e Funzioni Comuni"}
-    ],
+  "title": "MasterCommon_title",
+  "details": "MasterCommon_details",
   "notYetAvailable": false
  },
  {
   "topic": "Languages",
   "level": 3,
   "order": "01.1.1",
-  "title":  [
-    { "language" : "en", "value" : "Multilanguage descriptions"},
-    { "language" : "it", "value" : "Descrizioni Multilingua"}
-  ],
+  "title": "Languages_title",
+  "details": "Languages_details",
   "notYetAvailable": false
  },
  {
    "topic": "Currencies",
    "level": 3,
    "order": "01.1.2",
-   "title": [
-			{ "language" : "en", "value" : "Multicurrency"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title": "Currencies_title",
+   "details": "Currencies_details",
    "notYetAvailable": false
  },
  {
    "topic": "Contacts",
    "level": 3,
    "order": "01.1.3",
-   "title": [
-			{ "language" : "en", "value" : "Contacts Management"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title": "Contacts_title",
+   "details": "Contacts_details",
    "notYetAvailable": false
  },
  {
    "topic": "Budget",
    "level": 3,
    "order": "01.1.4",
-   "title": [
-			{ "language" : "en", "value" : "Budget (Cust/Supp)"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title": "Budget_title",
+   "details": "Budget_details",
    "notYetAvailable": false
  },
  {
    "topic": "KPIMobileApp",
    "level": 3,
    "order": "01.1.5",
-   "title": [
-			{ "language" : "en", "value" : "KPI Dashboards mobile app"},
-			{ "language" : "it", "value" : ""}
-		],
-   "details": [
-     { "language" : "en", "value" : "iOS and Android mobile app for the Finance, Sales or Operations manager. Provides quick access to company data through easy-to-use KPI widgets. Several standard KPIs are provided; customized KPIs can be created with MyMago Studio."},
-     { "language" : "it", "value" : ""}
-    ],
-     "notYetAvailable": false
+   "title": "KPIMobileApp_title",
+   "details": "KPIMobileApp_details",
+   "notYetAvailable": false
  },
  {
    "topic": "Financials",
    "level": 1,
    "order": "02",
-   "title": [
-      { "language" : "en", "value" : "Financials"},
-      { "language" : "it", "value" : ""}
-  ]
+   "title": "Financials_title"
  },
  {
    "topic": "Accounting",
    "level": 2,
    "order": "02.1",
-   "title": [
-			{ "language" : "en", "value" : "Accounting"},
-      { "language" : "it", "value" : ""}
-  ],
+   "title":  "Accounting_title",
+   "details": "Accounting_details",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -87,10 +66,7 @@
    "topic": "CustomizableCodes",
    "level": 3,
    "order": "02.1.1",
-   "title": [
-			{ "language" : "en", "value" : "Customizable Journals and Templates"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "CustomizableCodes_title",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -98,10 +74,7 @@
    "topic": "PurchaseElectronicInvoicing",
    "level": 3,
    "order": "02.1.2",
-   "title": [
-			{ "language" : "en", "value" : "Electronic Invoice Import"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "PurchaseElectronicInvoicing_title",
    "allowISO": "IT",
    "notYetAvailable": false
  },
@@ -109,10 +82,7 @@
    "topic": "Plafond",
    "level": 3,
    "order": "02.1.3",
-   "title": [
-			{ "language" : "en", "value" : "Plafond Management"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Plafond_title",
    "allowISO": "IT,HU",
    "notYetAvailable": false
  },
@@ -120,10 +90,7 @@
    "topic": "AccrualsDeferrals",
    "level": 3,
    "order": "02.1.4",
-   "title": [
-			{ "language" : "en", "value" : "Automatic Accrual and Deferrals"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "AccrualsDeferrals_title",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -131,10 +98,7 @@
    "topic": "Payees",
    "level": 3,
    "order": "02.1.5",
-   "title": [
-			{ "language" : "en", "value" : "Professionals Fees and Withholding Tax"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Payees_title",
    "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
    "notYetAvailable": false
  },
@@ -142,10 +106,7 @@
    "topic": "Cash",
    "level": 3,
    "order": "02.1.6",
-   "title": [
-			{ "language" : "en", "value" : "Cash Management"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Cash_title",
    "denyISO": "IT,CH,BR",
    "notYetAvailable": false
  },
@@ -153,57 +114,36 @@
    "topic": "AP_AR",
    "level": 2,
    "order": "02.2",
-   "title": [
-			{ "language" : "en", "value" : "Payables and Receivables"},
-			{ "language" : "it", "value" : ""}
-		],
-    "details": [
-      { "language" : "en", "value" : "Advanced Banks Management"},
-        { "language" : "it", "value" : ""}
-      ]
+   "title":  "AP_AR_title",
+   "details": "AP_AR_details"
   },
  {
    "topic": "Dunnings",
    "level": 3,
    "order": "02.2.1",
-   "title": [
-			{ "language" : "en", "value" : "Dunning letters"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Dunnings_title",
    "notYetAvailable": false
  },
  {
    "topic": "AP_AR_Analysis",
    "level": 3,
    "order": "02.2.2",
-   "title": [
-			{ "language" : "en", "value" : "Payment Schedule Analysis and Cash Flow"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "AP_AR_Analysis_title",
    "notYetAvailable": false
  },
  {
    "topic": "AP_AR_Plus",
    "level": 3,
    "order": "02.2.3",
-   "title": [
-			{ "language" : "en", "value" : "Advanced AP/AR Management"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "AP_AR_Plus_title",
    "notYetAvailable": false,
-   "details": [
-    { "language" : "en", "value" : "Customizable Bills Management, Vouchers Management, Factoring Management and Outstandings Management"},
-      { "language" : "it", "value" : ""}
-    ]
+   "details": "AP_AR_Plus_details"
 },
  {
    "topic": "BalanceAnalysis",
    "level": 2,
    "order": "02.3",
-   "title": [
-			{ "language" : "en", "value" : "Balance Analysis and Reclassifications"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "BalanceAnalysis_title",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -211,10 +151,7 @@
    "topic": "XBRL",
    "level": 3,
    "order": "02.3.1",
-   "title": [
-			{ "language" : "en", "value" : "XBRL Balance"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "XBRL_title",
    "allowISO": "IT",
    "notYetAvailable": false
  },
@@ -222,10 +159,7 @@
    "topic": "AccountingBooks",
    "level": 3,
    "order": "02.3.2",
-   "title": [
-			{ "language" : "en", "value" : "Accounting Books and Balance Attachments"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "AccountingBooks_title",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -233,10 +167,7 @@
    "topic": "Basel_II",
    "level": 3,
    "order": "02.3.3",
-   "title": [
-			{ "language" : "en", "value" : "Balance Analysis (Basel II)"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Basel_II_title",
    "allowISO": "IT",
    "notYetAvailable": true
  },
@@ -244,20 +175,14 @@
    "topic": "FixedAssets",
    "level": 2,
    "order": "02.4",
-   "title": [
-			{ "language" : "en", "value" : "Fixed Assets"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "FixedAssets_title",
    "notYetAvailable": false
  },
  {
    "topic": "ForecastAccounting",
    "level": 2,
    "order": "02.5",
-   "title": [
-			{ "language" : "en", "value" : "Forecast Accounting"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "ForecastAccounting_title",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -265,10 +190,7 @@
    "topic": "MultiCompanyBalances",
    "level": 2,
    "order": "02.6",
-   "title": [
-			{ "language" : "en", "value" : "Multicompany Balance"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "MultiCompanyBalances_title",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -276,40 +198,28 @@
    "topic": "CostAccounting",
    "level": 2,
    "order": "02.7",
-   "title": [
-			{ "language" : "en", "value" : "Analysis & Controlling"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "CostAccounting_title",
    "notYetAvailable": false
  },
  {
    "topic": "ProductLines",
    "level": 3,
    "order": "02.7.1",
-   "title": [
-			{ "language" : "en", "value" : "Product Lines"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "ProductLines_title",
    "notYetAvailable": false
  },
  {
    "topic": "CostAccountingTransfer",
    "level": 3,
    "order": "02.7.2",
-   "title": [
-			{ "language" : "en", "value" : "Transfers"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "CostAccountingTransfer_title",
    "notYetAvailable": false
  },
  {
    "topic": "Intrastat",
    "level": 2,
    "order": "02.8",
-   "title": [
-			{ "language" : "en", "value" : "Intrastat"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Intrastat_title",
    "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
    "notYetAvailable": false
  },
@@ -317,78 +227,51 @@
    "topic": "Sales",
    "level": 1,
    "order": "03",
-   "title": [
-			{ "language" : "en", "value" : "Sales"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Sales_title",
    "notYetAvailable": false,
-   "details": [
-    { "language" : "en", "value" : "Sale Electronic Invoices"},
-      { "language" : "it", "value" : ""}
-    ]
+   "details": "Sales_details"
  },
  {
    "topic": "SalesAdvItemsManag",
    "level": 3,
    "order": "03.1.1",
-   "title": [
-			{ "language" : "en", "value" : "Advanced Items Management"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "SalesAdvItemsManag_title",
    "notYetAvailable": false,
-   "details": [
-    { "language" : "en", "value" : "Price Policies, Charge Policies, Smart Codes and Advanced UoMs"},
-      { "language" : "it", "value" : ""}
-    ]
+   "details": "SalesAdvItemsManag_details"
 },
  {
    "topic": "MultiStubBooks",
    "level": 3,
    "order": "03.1.2",
-   "title": [
-			{ "language" : "en", "value" : "Multiple Stub Books"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "MultiStubBooks_title",
    "notYetAvailable": false
  },
  {
    "topic": "PickingList",
    "level": 3,
    "order": "03.1.3",
-   "title": [
-			{ "language" : "en", "value" : "Picking List"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title": "PickingList_title",
    "notYetAvailable": false
  },
  {
    "topic": "SaleOrders",
    "level": 2,
    "order": "03.2",
-   "title": [
-			{ "language" : "en", "value" : "Sale Orders"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "SaleOrders_title",
    "notYetAvailable": false
  },
  {
    "topic": "CustomerQuotations",
    "level": 3,
    "order": "03.2.1",
-   "title": [
-			{ "language" : "en", "value" : "Customer Quotations"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "CustomerQuotations_title",
    "notYetAvailable": false
  },
  {
    "topic": "Conai",
    "level": 2,
    "order": "03.3",
-   "title": [
-			{ "language" : "en", "value" : "Conai"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Conai_title",
    "allowISO": "IT,RO,BG,HU,ES",
    "notYetAvailable": false
  },
@@ -396,10 +279,7 @@
    "topic": "WEEE",
    "level": 2,
    "order": "03.4",
-   "title": [
-			{ "language" : "en", "value" : "WEEE"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "WEEE_title",
    "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK",
    "notYetAvailable": false
  },
@@ -407,140 +287,98 @@
    "topic": "SalesPeople",
    "level": 2,
    "order": "03.5",
-   "title": [
-			{ "language" : "en", "value" : "Sales Force Management"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "SalesPeople_title",
    "notYetAvailable": false
  },
  {
    "topic": "CreditLimit",
    "level": 2,
    "order": "03.6",
-   "title": [
-			{ "language" : "en", "value" : "Credit Limit Management"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "CreditLimit_title",
    "notYetAvailable": false
  },
  {
    "topic": "eCommerce",
    "level": 1,
    "order": "04",
-   "title": [
-			{ "language" : "en", "value" : "e-commerce"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "eCommerce_title",
    "notYetAvailable": false
  },
  {
    "topic": "StoreManagement",
    "level": 1,
    "order": "05",
-   "title": [
-			{ "language" : "en", "value" : "Store Management"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "StoreManagement_title",
    "notYetAvailable": false
  },
  {
    "topic": "StoreVariants",
    "level": 3,
    "order": "05.1.1",
-   "title": [
-			{ "language" : "en", "value" : "Variants / Size and Colors"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "StoreVariants_title",
    "notYetAvailable": false
  },
  {
    "topic": "FoodRecipe",
    "level": 3,
    "order": "05.1.2",
-   "title": [
-			{ "language" : "en", "value" : "Food Recipes"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "FoodRecipe_title",
    "notYetAvailable": false
  },
  {
    "topic": "InStore",
    "level": 3,
    "order": "05.1.3",
-   "title": [
-			{ "language" : "en", "value" : "In-store back-end"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "InStore_title",
    "notYetAvailable": false
  },
  {
    "topic": "InStoreApp",
    "level": 3,
    "order": "05.1.4",
-   "title": [
-			{ "language" : "en", "value" : "In-store App"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "InStoreApp_title",
    "notYetAvailable": false
  },
  {
    "topic": "InfinityConnector",
    "level": 1,
    "order": "06",
-   "title": [
-			{ "language" : "en", "value" : "CRM"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "InfinityConnector_title",
    "notYetAvailable": false
  },
  {
     "topic": "CRMUserSales",
     "level": 3,
     "order": "06.1.1",
-    "title": [
-			{ "language" : "en", "value" : "Sales CRM User"},
-			{ "language" : "it", "value" : ""}
-		],
+    "title":  "CRMUserSales_title",
     "notYetAvailable": false
   },
   {
     "topic": "CRMUserMarketing",
     "level": 3,
     "order": "06.1.2",
-    "title": [
-			{ "language" : "en", "value" : "Marketing CRM User"},
-			{ "language" : "it", "value" : ""}
-		],
+    "title":  "CRMUserMarketing_title",
     "notYetAvailable": false
   },
   {
     "topic": "CRMUserFull",
     "level": 3,
     "order": "06.1.3",
-    "title": [
-			{ "language" : "en", "value" : "Full CRM User"},
-			{ "language" : "it", "value" : ""}
-		],
+    "title":  "CRMUserFull_title",
     "notYetAvailable": false
   },
  {
    "topic": "Purchases",
    "level": 1,
    "order": "07",
-   "title": [
-			{ "language" : "en", "value" : "Purchases"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Purchases_title",
    "notYetAvailable": false
  },
  {
    "topic": "AdditionalCharges",
    "level": 3,
    "order": "07.1.1",
-   "title": [
-			{ "language" : "en", "value" : "Additional Charges"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "AdditionalCharges_title",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -548,88 +386,58 @@
    "topic": "PurchaseElectronicInvoicingAdv",
    "level": 3,
    "order": "07.1.2",
-   "title": [
-			{ "language" : "en", "value" : "Electronic Invoices Import"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "PurchaseElectronicInvoicingAdv_title",
    "notYetAvailable": false
  },
  {
    "topic": "PurchaseOrders",
    "level": 2,
    "order": "07.2",
-   "title": [
-			{ "language" : "en", "value" : "Purchase Orders"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "PurchaseOrders_title",
    "notYetAvailable": false
  },
  {
    "topic": "SupplierQuotations",
    "level": 3,
    "order": "07.2.1",
-   "title": [
-			{ "language" : "en", "value" : "Supplier Quotations"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "SupplierQuotations_title",
    "notYetAvailable": false
  },
  {
    "topic": "QualityInspection",
    "level": 2,
    "order": "07.3",
-   "title": [
-			{ "language" : "en", "value" : "Quality Inspections"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "QualityInspection_title",
    "notYetAvailable": false
  },
  {
    "topic": "Inventory",
    "level": 1,
    "order": "08",
-   "title": [
-			{ "language" : "en", "value" : "Inventory"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Inventory_title",
    "notYetAvailable": false,
-   "details": [
-    { "language" : "en", "value" : "Barcode Manager"},
-      { "language" : "it", "value" : ""}
-    ]
+   "details": "Inventory_details"
  },
  {
    "topic": "InventoryAdvItemsManag",
    "level": 3,
    "order": "08.1.1",
-   "title": [
-			{ "language" : "en", "value" : "Advanced Items Management"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "InventoryAdvItemsManag_title",
    "notYetAvailable": false,
-   "details": [
-    { "language" : "en", "value" : "Smart Codes and Advanced UoMs"},
-      { "language" : "it", "value" : ""}
-    ]
+   "details": "InventoryAdvItemsManag_details"
 },
  {
    "topic": "MultiStorage",
    "level": 3,
    "order": "08.1.2",
-   "title": [
-			{ "language" : "en", "value" : "Multistorage"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "MultiStorage_title",
    "notYetAvailable": false
  },
  {
    "topic": "SingleStepLifoFifo",
    "level": 3,
    "order": "08.1.3",
-   "title": [
-			{ "language" : "en", "value" : "Single Step LIFO/FIFO"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "SingleStepLifoFifo_title",
    "allowISO": "HU,IT,CH,BG,DE",
    "notYetAvailable": false
  },
@@ -637,299 +445,205 @@
    "topic": "InventoryAdjustment",
    "level": 3,
    "order": "08.1.4",
-   "title": [
-			{ "language" : "en", "value" : "Advanced Inventory Counts"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "InventoryAdjustment_title",
    "notYetAvailable": false
  },
  {
    "topic": "LotsSerials",
    "level": 2,
    "order": "08.2",
-   "title": [
-			{ "language" : "en", "value" : "Lots and Serial Numbers"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "LotsSerials_title",
    "notYetAvailable": false
  },
  {
    "topic": "WMSBasic",
    "level": 1,
    "order": "09",
-   "title": [
-			{ "language" : "en", "value" : "WMS"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "WMSBasic_title",
    "notYetAvailable": false,
-   "details": [
-    { "language" : "en", "value" : "WMS Shipping"},
-      { "language" : "it", "value" : ""}
-    ]
+   "details": "WMSBasic_details"
 },
  {
    "topic": "WMSAdvanced",
    "level": 3,
    "order": "09.1.1",
-   "title": [
-			{ "language" : "en", "value" : "WMS Advanced"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "WMSAdvanced_title",
    "notYetAvailable": false
  },
  {
    "topic": "WMSMobile",
    "level": 3,
    "order": "09.1.2",
-   "title": [
-			{ "language" : "en", "value" : "WMS Mobile back-end"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "WMSMobile_title",
    "notYetAvailable": false
  },
  {
    "topic": "WMSMobileApp",
    "level": 3,
    "order": "09.1.3",
-   "title": [
-			{ "language" : "en", "value" : "WMS Mobile App"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "WMSMobileApp_title",
    "notYetAvailable": false
  },
  {
    "topic": "BillOfMaterials",
    "level": 1,
    "order": "10",
-   "title": [
-			{ "language" : "en", "value" : "Bill of Materials"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "BillOfMaterials_title",
    "notYetAvailable": false
  },
  {
    "topic": "ECO",
    "level": 3,
    "order": "10.1.1",
-   "title": [
-			{ "language" : "en", "value" : "Engineering Changing Order"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "ECO_title",
    "notYetAvailable": false
  },
  {
    "topic": "Variants",
    "level": 2,
    "order": "10.2",
-   "title": [
-			{ "language" : "en", "value" : "Variants"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Variants_title",
    "notYetAvailable": false
  },
  {
    "topic": "Configurator",
    "level": 2,
    "order": "10.3",
-   "title": [
-			{ "language" : "en", "value" : "Configurator"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Configurator_title",
    "notYetAvailable": false
  },
  {
    "topic": "Manufacturing",
    "level": 1,
    "order": "11",
-   "title": [
-			{ "language" : "en", "value" : "Manufacturing"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Manufacturing_title",
    "notYetAvailable": false
  },
  {
    "topic": "ManufacturingMobile",
    "level": 3,
    "order": "11.1.1",
-   "title": [
-			{ "language" : "en", "value" : "Manufacturing Mobile back-end"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "ManufacturingMobile_title",
    "notYetAvailable": false
  },
  {
    "topic": "ManufacturingMobileApp",
    "level": 3,
    "order": "11.1.2",
-   "title": [
-			{ "language" : "en", "value" : "Manufacturing Mobile App"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "ManufacturingMobileApp_title",
    "notYetAvailable": false
  },
  {
    "topic": "ManufacturingAdvanced",
    "level": 2,
    "order": "11.2",
-   "title": [
-			{ "language" : "en", "value" : "Advanced Manufacturing"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "ManufacturingAdvanced_title",
    "notYetAvailable": false,
-   "details": [
-    { "language" : "en", "value" : "Control Panel, MO Confirmation Details, Bill / MO Comparision and Analysis of Materials in Production"},
-    { "language" : "it", "value" : ""}
-  ]
+   "details": "ManufacturingAdvanced_details"
 },
  {
    "topic": "BillOfMaterialsPlus",
    "level": 3,
    "order": "11.2.1",
-   "title": [
-			{ "language" : "en", "value" : "Drawings, History and Versioning"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "BillOfMaterialsPlus_title",
    "notYetAvailable": false
  },
  {
    "topic": "Kanban",
    "level": 3,
    "order": "11.2.2",
-   "title": [
-			{ "language" : "en", "value" : "Kanban"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Kanban_title",
    "notYetAvailable": false
  },
  {
    "topic": "ManufacturingPlanning",
    "level": 2,
    "order": "11.3",
-   "title": [
-			{ "language" : "en", "value" : "Planning"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "ManufacturingPlanning_title",
    "notYetAvailable": false
  },
  {
    "topic": "MRPAdvanced",
    "level": 3,
    "order": "11.3.1",
-   "title": [
-			{ "language" : "en", "value" : "Advanced Planning"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "MRPAdvanced_title",
    "notYetAvailable": false,
-   "details": [
-    { "language" : "en", "value" : "Work Centers Calendar and Work Center Families"},
-      { "language" : "it", "value" : ""}
-    ]
+   "details": "MRPAdvanced_details"
 },
  {
    "topic": "OpenOrders",
    "level": 2,
    "order": "11.4",
-   "title": [
-			{ "language" : "en", "value" : "Open Orders"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "OpenOrders_title",
    "notYetAvailable": true
  },
  {
    "topic": "ToolsManagement",
    "level": 2,
    "order": "11.5",
-   "title": [
-			{ "language" : "en", "value" : "Tools Management"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "ToolsManagement_title",
    "notYetAvailable": false
  },
  {
    "topic": "Framework",
    "level": 1,
    "order": "12",
-   "title": [
-			{ "language" : "en", "value" : "Framework"}]
+   "title":  "Framework_title"
  },
  {
    "topic": "DMS",
    "level": 2,
    "order": "12.1",
-   "title": [
-			{ "language" : "en", "value" : "DMS"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "DMS_title",
    "notYetAvailable": true
  },
  {
    "topic": "DMSMassive",
    "level": 3,
    "order": "12.1.1",
-   "title": [
-			{ "language" : "en", "value" : "Massive Archiving Plug-In"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "DMSMassive_title",
    "notYetAvailable": true
  },
  {
    "topic": "JobScheduler",
    "level": 2,
    "order": "12.2",
-   "title": [
-			{ "language" : "en", "value" : "Job Scheduler"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "JobScheduler_title",
    "notYetAvailable": true
  },
  {
    "topic": "Security",
    "level": 2,
    "order": "12.3",
-   "title": [
-			{ "language" : "en", "value" : "Security"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Security_title",
    "notYetAvailable": true
  },
  {
    "topic": "SecurityAdvanced",
    "level": 3,
    "order": "12.3.1",
-   "title": [
-			{ "language" : "en", "value" : "Security Access profiles"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "SecurityAdvanced_title",
    "notYetAvailable": true
  },
  {
    "topic": "Auditing",
    "level": 3,
    "order": "12.3.2",
-   "title": [
-			{ "language" : "en", "value" : "Auditing"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Auditing_title",
    "notYetAvailable": true
  },
  {
    "topic": "Visibility",
    "level": 3,
    "order": "12.3.3",
-   "title": [
-			{ "language" : "en", "value" : "Visibility"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "Visibility_title",
    "notYetAvailable": false
  },
  {
    "topic": "MyMagoStudio",
    "level": 2,
    "order": "12.4",
-   "title": [
-			{ "language" : "en", "value" : "MyMago Studio"},
-			{ "language" : "it", "value" : ""}
-		],
+   "title":  "MyMagoStudio_title",
    "notYetAvailable": false
  }
 ]
