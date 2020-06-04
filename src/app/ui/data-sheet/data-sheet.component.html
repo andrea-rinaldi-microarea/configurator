@@ -52,7 +52,7 @@
               [hidden]="!line.included" 
               [disabled]="!editMode" 
               class="text-config" 
-              [(value)]="line.standard" 
+              [(value)]="option(line, 'STD').availability" 
               [options]="topicTypes"></app-toggler>
           </td>
           <td class="text-center edition-sep">
@@ -60,7 +60,7 @@
               [hidden]="!line.included" 
               [disabled]="!editMode" 
               class="text-config" 
-              [(value)]="line.premium" 
+              [(value)]="option(line, 'PRM').availability" 
               [options]="topicTypes"></app-toggler>
           </td>
           <td class="text-center edition-sep">
@@ -68,7 +68,7 @@
               [hidden]="!line.included" 
               [disabled]="!editMode" 
               class="text-config" 
-              [(value)]="line.professional" 
+              [(value)]="option(line, 'PRO').availability" 
               [options]="topicTypes"></app-toggler>
           </td>
           <td class="text-center edition-sep">
@@ -76,7 +76,7 @@
               [hidden]="!line.included" 
               [disabled]="!editMode" 
               class="text-config" 
-              [(value)]="line.enterprise" 
+              [(value)]="option(line, 'ENT').availability" 
               [options]="topicTypes"></app-toggler>
           </td>
       </tr>

@@ -12,6 +12,14 @@ export class Topic {
     ) {}
 }
 
+export class DataSheetLineOption {
+    constructor(
+        public edition: string
+    ) {}
+
+    public availability: string = "";
+}
+
 export class DataSheetLine {
     constructor(
         line: DataSheetLine
@@ -25,10 +33,7 @@ export class DataSheetLine {
     public notYetAvailable: boolean;
     public allowISO: string;
     public denyISO: string;
-    public standard: string;
-    public premium: string;
-    public professional: string;
-    public enterprise: string;
+    public options: DataSheetLineOption[] = [];
 
     public included: boolean;
 }

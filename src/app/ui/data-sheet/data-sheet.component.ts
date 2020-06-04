@@ -1,4 +1,4 @@
-import { DataSheetLine } from '../../../models/data-sheet';
+import { DataSheetLine, DataSheetLineOption } from '../../../models/data-sheet';
 import { DataSheetService } from '../../services/data-sheet.service';
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
@@ -23,20 +23,20 @@ export class DataSheetComponent implements OnInit {
       icon: "fa-circle-o"
     },
     {
-      value: "X",
+      value: "always",
       icon: "fa-circle"
     },
     {
-      value: "X/0",
+      value: "optional",
       icon: "fa-check-square-o"
     },
     {
-      value: "Nr-User",
+      value: "count",
       icon: "fa-user-plus"
     },
     {
       value: "PPT",
-      icon: "fa-eur"
+      icon: "fa-money"
     }
   ];
   
@@ -108,6 +108,15 @@ export class DataSheetComponent implements OnInit {
       tooltip = "Non disponibile in: " +  line.denyISO;
     }
     return tooltip;
+  }
+  
+  option(line: DataSheetLine, edition: string): DataSheetLineOption {
+    var option : DataSheetLineOption = line.options.find(o => o.edition == edition);
+    if (!option) {
+      option = new DataSheetLineOption(edition);
+      line.options.push(option);
+    }
+    return option;
   }
 
   onSave() {

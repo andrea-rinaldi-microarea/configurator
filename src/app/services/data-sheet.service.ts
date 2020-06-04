@@ -24,10 +24,7 @@ export class DataSheetService {
           var l = new DataSheetLine(line);
           var actualLine = actualData.lines ? actualData.lines.find(al => al.topic == line.topic) : null;
           if (actualLine != null) {
-            l.standard      = actualLine.standard;
-            l.premium       = actualLine.premium;
-            l.professional  = actualLine.professional;
-            l.enterprise    = actualLine.enterprise;
+            l.options = actualLine.options;
             l.included = true;
           }
           this.current.lines.push(l);
