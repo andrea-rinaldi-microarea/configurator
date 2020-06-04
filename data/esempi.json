@@ -8,8 +8,22 @@
       "Title": "MasterCommon_title",
       "Details": "MasterCommon_details",
       "NotYetAvailable": false,
-      "Standard": "X",
-      "Premium": "X",
-      "Professional": "X",
-      "Enterprise": "X"
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
     },

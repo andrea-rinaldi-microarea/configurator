@@ -1,0 +1,83 @@
+{
+  "Name": "Administration & Services",
+  "Lines": [
+    {
+      "Topic": "MasterCommon",
+      "Order": "01",
+      "Level": 1,
+      "Title": "MasterCommon_title",
+      "Details": "MasterCommon_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Languages",
+      "Order": "01.1.1",
+      "Level": 3,
+      "Title": "Languages_title",
+      "Details": "Languages_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Currencies",
+      "Order": "01.1.2",
+      "Level": 3,
+      "Title": "Currencies_title",
+      "Details": "Currencies_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "PPT"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    }
+  ]
+}
