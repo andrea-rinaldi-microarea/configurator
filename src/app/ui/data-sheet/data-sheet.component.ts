@@ -16,6 +16,7 @@ export class DataSheetComponent implements OnInit {
   private currIndustry:  number = null;
   private industryList: string[] = industryList;
   private editMode: boolean;
+  private showDetails: boolean = false;
 
   private topicTypes = [
     {

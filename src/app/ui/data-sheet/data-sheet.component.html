@@ -42,19 +42,19 @@
   <div class="row mt-2" *ngIf="dataSheet.current"> 
     <table class="table table-sm table-borderless">
         <tr>
-          <th width="15px"><app-toggler class="text-config-light screen-only" [(value)]="hideExcluded"></app-toggler></th>
-          <th>{{"Functionality" | translate}}</th>
-          <th width="25px" class="text-center edition-sep" ></th>
-          <th class="text-center edition-sep" >Standard</th>
-          <th class="text-center edition-sep" >Premium</th>
-          <th class="text-center edition-sep" >Professional</th>
-          <th class="text-center edition-sep" >Enterprise</th>
+          <th width="15px"><app-toggler class="text-config-light screen-only title-sep" [(value)]="hideExcluded"></app-toggler></th>
+          <th class="title-sep">{{"Feature" | translate}} <i class="ml-2 text-config-light fa fa-list screen-only" ngbTooltip="{{'Show/hide features details' | translate }}" (click)="showDetails=!showDetails"></i></th>
+          <th width="25px" class="text-center edition-sep title-sep" ></th>
+          <th class="text-center edition-sep title-sep" >Standard</th>
+          <th class="text-center edition-sep title-sep" >Premium</th>
+          <th class="text-center edition-sep title-sep" >Professional</th>
+          <th class="text-center edition-sep title-sep" >Enterprise</th>
         </tr>
         <tr *ngFor="let line of dataSheet.current.lines | LineExcluded:!hideExcluded" [class.excluded]="!line.included">
           <td width="15px"><app-toggler [disabled]="!editMode" class="text-config-light screen-only" [(value)]="line.included" [options]="includedOptions"></app-toggler></td>
           <td >
-            <i class="fa fa-calendar text-warning" [hidden]="!line.notYetAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
-            <app-detailed-info [className]="topicClass(line)" [details]="line.details | translate" icon="fa-angle-down">{{line.title | translate}}</app-detailed-info>
+            <app-detailed-info [className]="topicClass(line)" [details]="line.details | translate" icon="fa-angle-down" [forceShow]="showDetails">{{line.title | translate}}</app-detailed-info>
+            <i class="fa fa-calendar ml-2" [hidden]="!line.notYetAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
           </td> 
           <td width="25px" class="text-center edition-sep"><i class="fa fa-globe" [hidden]="!isLocalized(line)" placement="right" [ngbTooltip]="ISOTooltip(line)"></i></td>  
           <td class="text-center edition-sep">
@@ -99,6 +99,8 @@
       <i class="fa fa-circle text-config"></i> {{"included" | translate}} &nbsp;
       <i class="fa fa-check-square-o text-config"></i> {{"optional" | translate}} &nbsp;
       <i class="fa fa-user-plus text-config"></i> {{"per number of users" | translate}} &nbsp;
-      <i class="fa fa-money text-config"></i> {{"Pay Per Transactions" | translate}} &nbsp;
+      <i class="fa fa-money text-config"></i> {{"Pay Per Transactions" | translate}}<br>
+      <i class="fa fa-globe text-config"></i> {{"Available in some countries only" | translate}}<br>
+      <i class="fa fa-calendar text-config"></i> {{"This feature is planned but not yet available" | translate}}<br>
     </div>
   </div>

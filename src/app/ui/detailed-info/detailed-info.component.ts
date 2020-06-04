@@ -5,9 +5,9 @@ import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
   template: `
   <div #content>
     <ng-content></ng-content>
-    <i *ngIf="enabled" [className]="iconClass" (click)="show=!show"></i>
+    <i *ngIf="enabled" [className]="iconClass" (click)="show=!show" [hidden]="forceShow"></i>
   </div>
-  <div [hidden]="!show" class="small font-weight-lighter font-italic">
+  <div [hidden]="!(show || forceShow)" class="small font-weight-lighter font-italic">
   {{details | translate}}
   </div>
   `,
@@ -23,6 +23,7 @@ import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
 export class DetailedInfoComponent implements OnInit {
   @Input() details: string = "";
   @Input() icon: string = "fa-info-circle";
+  @Input() forceShow: boolean = false;
   @ViewChild('content') content: ElementRef;
   public iconClass = "";
   private enabled: boolean = false;

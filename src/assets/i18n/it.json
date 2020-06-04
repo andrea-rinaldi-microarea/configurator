@@ -226,5 +226,8 @@
     "Store Management": "Punto Vendita",
     "WMS Advanced": "WMS Avanzato",
     "Drawings, History and Versioning": "Disegni, storico e indici di revisione",
-    "Pay Per Transactions": "Prezzo calcolato sulla base delle transazioni"
+    "Pay Per Transactions": "Prezzo calcolato sulla base delle transazioni",
+    "Show/hide features details": "Mostra/nasconde i dettagli delle funzionalità",
+    "Feature": "Funzionalità",
+    "Available in some countries only": "Disponibile solo in alcuni Paesi"
 }
