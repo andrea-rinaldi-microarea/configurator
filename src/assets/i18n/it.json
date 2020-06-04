@@ -225,5 +225,6 @@
     "Sales": "Vendite",
     "Store Management": "Punto Vendita",
     "WMS Advanced": "WMS Avanzato",
-    "Drawings, History and Versioning": "Disegni, storico e indici di revisione"
+    "Drawings, History and Versioning": "Disegni, storico e indici di revisione",
+    "Pay Per Transactions": "Prezzo calcolato sulla base delle transazioni"
 }

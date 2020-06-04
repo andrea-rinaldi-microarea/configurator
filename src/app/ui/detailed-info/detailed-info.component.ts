@@ -32,7 +32,7 @@ export class DetailedInfoComponent implements OnInit {
 
   ngOnInit() {
     this.enabled = (this.details !== undefined && this.details != "");
-    this.iconClass = "fa text-muted clickable " + this.icon;
+    this.iconClass = "fa text-muted clickable screen-only " + this.icon;
   }
 
   ngAfterViewInit() {

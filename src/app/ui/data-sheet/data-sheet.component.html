@@ -1,21 +1,31 @@
 <div class="container main">
+  <div class="row justify-content-center">
+    <div class="print-only">
+      <img src="/assets/M4CloudBigLogo.png" alt="">
+    </div>
+  </div>
   <div class="row mt-2 d-flex justify-content-around">
-    <div class="inline-flex">
-      <div class="col-1 text-right btn btn-sm mr-2" [class.not-visible]="currIndustry == 0" [class.disabled]="editMode" (click)="editMode || onPrev()">
-        <i class="fa fa-big fa-chevron-left text-config-light"></i>
-      </div>
-      <div>
-        <select class="bg-config text-config-white lead" [disabled]="editMode" [(ngModel)]="currIndustry"  (change)="onIndustryChanged()">
-          <option *ngFor="let industry of industryList; let i=index"  [value]="i"> 
-          {{industry}}
-          </option>
-        </select>
-      </div>
-      <div class="col-1 text-left btn btn-sm" [class.not-visible]="currIndustry == industryList.length - 1" [class.disabled]="editMode" (click)="editMode || onNext()">
-        <i class="fa fa-big fa-chevron-right text-config-light"></i>
+    <div class="screen-only">
+      <div class="inline-flex">
+        <div class="col-1 text-right btn btn-sm mr-2" [class.not-visible]="currIndustry == 0" [class.disabled]="editMode" (click)="editMode || onPrev()">
+          <i class="fa fa-big fa-chevron-left text-config-light"></i>
+        </div>
+        <div>
+          <select class="bg-config text-config-white lead" [disabled]="editMode" [(ngModel)]="currIndustry"  (change)="onIndustryChanged()">
+            <option *ngFor="let industry of industryList; let i=index"  [value]="i"> 
+            {{industry}}
+            </option>
+          </select>
+        </div>
+        <div class="col-1 text-left btn btn-sm" [class.not-visible]="currIndustry == industryList.length - 1" [class.disabled]="editMode" (click)="editMode || onNext()">
+          <i class="fa fa-big fa-chevron-right text-config-light"></i>
+        </div>
       </div>
     </div>
-    <div class="right" [hidden]="currIndustry == null">
+    <div class="text-config title-config mb-4 print-only">
+      {{industryList[currIndustry]}}
+    </div>
+    <div class="right screen-only" [hidden]="currIndustry == null">
       <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button> 
       <div ngbDropdown class="d-inline-block">
         <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle placement="bottom" ngbTooltip="Copia un'altra industry">
@@ -32,7 +42,7 @@
   <div class="row mt-2" *ngIf="dataSheet.current"> 
     <table class="table table-sm table-borderless">
         <tr>
-          <th width="15px"><app-toggler class="text-config-light" [(value)]="hideExcluded"></app-toggler></th>
+          <th width="15px"><app-toggler class="text-config-light screen-only" [(value)]="hideExcluded"></app-toggler></th>
           <th>{{"Functionality" | translate}}</th>
           <th width="25px" class="text-center edition-sep" ></th>
           <th class="text-center edition-sep" >Standard</th>
@@ -41,7 +51,7 @@
           <th class="text-center edition-sep" >Enterprise</th>
         </tr>
         <tr *ngFor="let line of dataSheet.current.lines | LineExcluded:!hideExcluded" [class.excluded]="!line.included">
-          <td width="15px"><app-toggler [disabled]="!editMode" class="text-config-light" [(value)]="line.included" [options]="includedOptions"></app-toggler></td>
+          <td width="15px"><app-toggler [disabled]="!editMode" class="text-config-light screen-only" [(value)]="line.included" [options]="includedOptions"></app-toggler></td>
           <td >
             <i class="fa fa-calendar text-warning" [hidden]="!line.notYetAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
             <app-detailed-info [className]="topicClass(line)" [details]="line.details | translate" icon="fa-angle-down">{{line.title | translate}}</app-detailed-info>
@@ -82,4 +92,13 @@
       </tr>
       </table>
   </div>
-</div>
+    <div *ngIf="dataSheet.current" class="legend print-only">
+      <hr>
+      {{"Legend" | translate}} <br>
+      <i class="fa fa-circle-o text-config"></i> {{"not included" | translate}} &nbsp;
+      <i class="fa fa-circle text-config"></i> {{"included" | translate}} &nbsp;
+      <i class="fa fa-check-square-o text-config"></i> {{"optional" | translate}} &nbsp;
+      <i class="fa fa-user-plus text-config"></i> {{"per number of users" | translate}} &nbsp;
+      <i class="fa fa-money text-config"></i> {{"Pay Per Transactions" | translate}} &nbsp;
+    </div>
+  </div>

@@ -154,7 +154,10 @@ tr.group-sep {
     font-size: 28px;
 }
 
-
+.title-config {
+    font-weight: 600;
+    font-size: xx-large;
+}
 
 @media print {
     .print-only {
