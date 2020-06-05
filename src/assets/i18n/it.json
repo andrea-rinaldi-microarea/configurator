@@ -6,7 +6,7 @@
     "Languages_details": "Descrizioni in molteplici lingue per Articoli, Piano dei Conti, Condizioni di Pagamento e molte altre anagrafiche. Utilizzabili nella compilazione dei documenti e nelle stampe.",
 
     "Currencies_title": "Multi valuta",
-    "Currencies_details": "Foreign currency managed in any document: general ledger, sales, purchases, etc. Automatic conversion of price lists or price lists in foreign currency. Payables and Receivables in foreign currency with automatic exchange rate profit/loss calculation. Chart of Account with foreign currency balances. Exchange rates manually managed or automatically downloaded from European Central Bank or other local central banks.",
+    "Currencies_details": "Gestione in divisa estera di tutti i documenti contabili, ciclo vendite ed acquisti. Conversione automatica listini, o gestione listini in valuta. Partitario in divisa con calcolo automatico differenze cambi. Conti contabili con saldo in divisa estera. Caricamento tassi di cambio manuale o automatico da Banca Centrale Europea o altre banche centrali locali.",
 
     "Contacts_title": "Gestione Contatti e Fornitori Potenziali",
     "Contacts_details": "Anagrafica contatti cliente e fornitori potenziali, passaggio a Cliente/Fornitore definitivo manuale o automatico in sede di trasformazione offerta in ordine.",

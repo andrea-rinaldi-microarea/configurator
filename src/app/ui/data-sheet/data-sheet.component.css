@@ -16,15 +16,17 @@ select{
 
 .level-1 {
     font-size: large;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .level-2 {
     font-size: large;
+    font-weight: 600;
 }
 
 .level-3 {
     font-size: medium;
+    font-weight: 600;
 }
 
 .main {
