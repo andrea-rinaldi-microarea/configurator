@@ -51,7 +51,8 @@
    "topic": "Financials",
    "level": 1,
    "order": "02",
-   "title": "Financials_title"
+   "title": "Financials_title",
+   "details": "Financials_details"
  },
  {
    "topic": "Accounting",
@@ -67,6 +68,7 @@
    "level": 3,
    "order": "02.1.1",
    "title":  "CustomizableCodes_title",
+   "details":  "CustomizableCodes_details",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -75,6 +77,7 @@
    "level": 3,
    "order": "02.1.2",
    "title":  "PurchaseElectronicInvoicing_title",
+   "details":  "PurchaseElectronicInvoicing_details",
    "allowISO": "IT",
    "notYetAvailable": false
  },
@@ -83,6 +86,7 @@
    "level": 3,
    "order": "02.1.3",
    "title":  "Plafond_title",
+   "details":  "Plafond_details",
    "allowISO": "IT,HU",
    "notYetAvailable": false
  },
@@ -91,6 +95,7 @@
    "level": 3,
    "order": "02.1.4",
    "title":  "AccrualsDeferrals_title",
+   "details":  "AccrualsDeferrals_details",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -99,6 +104,7 @@
    "level": 3,
    "order": "02.1.5",
    "title":  "Payees_title",
+   "details":  "Payees_details",
    "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
    "notYetAvailable": false
  },
@@ -107,6 +113,7 @@
    "level": 3,
    "order": "02.1.6",
    "title":  "Cash_title",
+   "details":  "Cash_details",
    "denyISO": "IT,CH,BR",
    "notYetAvailable": false
  },
@@ -122,6 +129,7 @@
    "level": 3,
    "order": "02.2.1",
    "title":  "Dunnings_title",
+   "details":  "Dunnings_details",
    "notYetAvailable": false
  },
  {
@@ -129,6 +137,7 @@
    "level": 3,
    "order": "02.2.2",
    "title":  "AP_AR_Analysis_title",
+   "details":  "AP_AR_Analysis_details",
    "notYetAvailable": false
  },
  {
@@ -144,6 +153,7 @@
    "level": 2,
    "order": "02.3",
    "title":  "BalanceAnalysis_title",
+   "details":  "BalanceAnalysis_details",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -152,6 +162,7 @@
    "level": 3,
    "order": "02.3.1",
    "title":  "XBRL_title",
+   "details":  "XBRL_details",
    "allowISO": "IT",
    "notYetAvailable": false
  },
@@ -160,6 +171,7 @@
    "level": 3,
    "order": "02.3.2",
    "title":  "AccountingBooks_title",
+   "details":  "AccountingBooks_details",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -168,6 +180,7 @@
    "level": 3,
    "order": "02.3.3",
    "title":  "Basel_II_title",
+   "details":  "Basel_II_details",
    "allowISO": "IT",
    "notYetAvailable": true
  },
@@ -176,6 +189,7 @@
    "level": 2,
    "order": "02.4",
    "title":  "FixedAssets_title",
+   "details":  "FixedAssets_details",
    "notYetAvailable": false
  },
  {
@@ -183,6 +197,7 @@
    "level": 2,
    "order": "02.5",
    "title":  "ForecastAccounting_title",
+   "details":  "ForecastAccounting_details",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -191,6 +206,7 @@
    "level": 2,
    "order": "02.6",
    "title":  "MultiCompanyBalances_title",
+   "details":  "MultiCompanyBalances_details",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -199,6 +215,7 @@
    "level": 2,
    "order": "02.7",
    "title":  "CostAccounting_title",
+   "details":  "CostAccounting_details",
    "notYetAvailable": false
  },
  {
@@ -206,6 +223,7 @@
    "level": 3,
    "order": "02.7.1",
    "title":  "ProductLines_title",
+   "details":  "ProductLines_details",
    "notYetAvailable": false
  },
  {
@@ -213,6 +231,7 @@
    "level": 3,
    "order": "02.7.2",
    "title":  "CostAccountingTransfer_title",
+   "details":  "CostAccountingTransfer_details",
    "notYetAvailable": false
  },
  {
@@ -220,6 +239,7 @@
    "level": 2,
    "order": "02.8",
    "title":  "Intrastat_title",
+   "details":  "Intrastat_details",
    "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
    "notYetAvailable": false
  },
@@ -244,6 +264,7 @@
    "level": 3,
    "order": "03.1.2",
    "title":  "MultiStubBooks_title",
+   "details":  "MultiStubBooks_details",
    "notYetAvailable": false
  },
  {
@@ -251,6 +272,7 @@
    "level": 3,
    "order": "03.1.3",
    "title": "PickingList_title",
+   "details": "PickingList_details",
    "notYetAvailable": false
  },
  {
@@ -258,6 +280,7 @@
    "level": 2,
    "order": "03.2",
    "title":  "SaleOrders_title",
+   "details":  "SaleOrders_details",
    "notYetAvailable": false
  },
  {
@@ -265,6 +288,7 @@
    "level": 3,
    "order": "03.2.1",
    "title":  "CustomerQuotations_title",
+   "details":  "CustomerQuotations_details",
    "notYetAvailable": false
  },
  {
@@ -272,6 +296,7 @@
    "level": 2,
    "order": "03.3",
    "title":  "Conai_title",
+   "details":  "Conai_details",
    "allowISO": "IT,RO,BG,HU,ES",
    "notYetAvailable": false
  },
@@ -280,6 +305,7 @@
    "level": 2,
    "order": "03.4",
    "title":  "WEEE_title",
+   "details":  "WEEE_details",
    "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK",
    "notYetAvailable": false
  },
@@ -288,6 +314,7 @@
    "level": 2,
    "order": "03.5",
    "title":  "SalesPeople_title",
+   "details":  "SalesPeople_details",
    "notYetAvailable": false
  },
  {
@@ -295,6 +322,7 @@
    "level": 2,
    "order": "03.6",
    "title":  "CreditLimit_title",
+   "details":  "CreditLimit_details",
    "notYetAvailable": false
  },
  {
@@ -302,6 +330,7 @@
    "level": 1,
    "order": "04",
    "title":  "eCommerce_title",
+   "details":  "eCommerce_details",
    "notYetAvailable": false
  },
  {
@@ -309,6 +338,7 @@
    "level": 1,
    "order": "05",
    "title":  "StoreManagement_title",
+   "details":  "StoreManagement_details",
    "notYetAvailable": false
  },
  {
@@ -316,6 +346,7 @@
    "level": 3,
    "order": "05.1.1",
    "title":  "StoreVariants_title",
+   "details":  "StoreVariants_details",
    "notYetAvailable": false
  },
  {
@@ -323,6 +354,7 @@
    "level": 3,
    "order": "05.1.2",
    "title":  "FoodRecipe_title",
+   "details":  "FoodRecipe_details",
    "notYetAvailable": false
  },
  {
@@ -330,6 +362,7 @@
    "level": 3,
    "order": "05.1.3",
    "title":  "InStore_title",
+   "details":  "InStore_details",
    "notYetAvailable": false
  },
  {
@@ -337,6 +370,7 @@
    "level": 3,
    "order": "05.1.4",
    "title":  "InStoreApp_title",
+   "details":  "InStoreApp_details",
    "notYetAvailable": false
  },
  {
@@ -344,6 +378,7 @@
    "level": 1,
    "order": "06",
    "title":  "InfinityConnector_title",
+   "details":  "InfinityConnector_details",
    "notYetAvailable": false
  },
  {
@@ -351,6 +386,7 @@
     "level": 3,
     "order": "06.1.1",
     "title":  "CRMUserSales_title",
+    "details":  "CRMUserSales_details",
     "notYetAvailable": false
   },
   {
@@ -358,6 +394,7 @@
     "level": 3,
     "order": "06.1.2",
     "title":  "CRMUserMarketing_title",
+    "details":  "CRMUserMarketing_details",
     "notYetAvailable": false
   },
   {
@@ -365,6 +402,7 @@
     "level": 3,
     "order": "06.1.3",
     "title":  "CRMUserFull_title",
+    "details":  "CRMUserFull_details",
     "notYetAvailable": false
   },
  {
@@ -372,6 +410,7 @@
    "level": 1,
    "order": "07",
    "title":  "Purchases_title",
+   "details":  "Purchases_details",
    "notYetAvailable": false
  },
  {
@@ -379,6 +418,7 @@
    "level": 3,
    "order": "07.1.1",
    "title":  "AdditionalCharges_title",
+   "details":  "AdditionalCharges_details",
    "denyISO": "BR",
    "notYetAvailable": false
  },
@@ -387,6 +427,7 @@
    "level": 3,
    "order": "07.1.2",
    "title":  "PurchaseElectronicInvoicingAdv_title",
+   "details":  "PurchaseElectronicInvoicingAdv_details",
    "notYetAvailable": false
  },
  {
@@ -394,6 +435,7 @@
    "level": 2,
    "order": "07.2",
    "title":  "PurchaseOrders_title",
+   "details":  "PurchaseOrders_details",
    "notYetAvailable": false
  },
  {
@@ -401,6 +443,7 @@
    "level": 3,
    "order": "07.2.1",
    "title":  "SupplierQuotations_title",
+   "details":  "SupplierQuotations_details",
    "notYetAvailable": false
  },
  {
@@ -408,6 +451,7 @@
    "level": 2,
    "order": "07.3",
    "title":  "QualityInspection_title",
+   "details":  "QualityInspection_details",
    "notYetAvailable": false
  },
  {
@@ -431,6 +475,7 @@
    "level": 3,
    "order": "08.1.2",
    "title":  "MultiStorage_title",
+   "details":  "MultiStorage_details",
    "notYetAvailable": false
  },
  {
@@ -438,6 +483,7 @@
    "level": 3,
    "order": "08.1.3",
    "title":  "SingleStepLifoFifo_title",
+   "details":  "SingleStepLifoFifo_details",
    "allowISO": "HU,IT,CH,BG,DE",
    "notYetAvailable": false
  },
@@ -446,6 +492,7 @@
    "level": 3,
    "order": "08.1.4",
    "title":  "InventoryAdjustment_title",
+   "details":  "InventoryAdjustment_details",
    "notYetAvailable": false
  },
  {
@@ -453,6 +500,7 @@
    "level": 2,
    "order": "08.2",
    "title":  "LotsSerials_title",
+   "details":  "LotsSerials_details",
    "notYetAvailable": false
  },
  {
@@ -468,6 +516,7 @@
    "level": 3,
    "order": "09.1.1",
    "title":  "WMSAdvanced_title",
+   "details":  "WMSAdvanced_details",
    "notYetAvailable": false
  },
  {
@@ -475,6 +524,7 @@
    "level": 3,
    "order": "09.1.2",
    "title":  "WMSMobile_title",
+   "details":  "WMSMobile_details",
    "notYetAvailable": false
  },
  {
@@ -482,6 +532,7 @@
    "level": 3,
    "order": "09.1.3",
    "title":  "WMSMobileApp_title",
+   "details":  "WMSMobileApp_details",
    "notYetAvailable": false
  },
  {
@@ -489,6 +540,7 @@
    "level": 1,
    "order": "10",
    "title":  "BillOfMaterials_title",
+   "details":  "BillOfMaterials_details",
    "notYetAvailable": false
  },
  {
@@ -496,6 +548,7 @@
    "level": 3,
    "order": "10.1.1",
    "title":  "ECO_title",
+   "details":  "ECO_details",
    "notYetAvailable": false
  },
  {
@@ -503,6 +556,7 @@
    "level": 2,
    "order": "10.2",
    "title":  "Variants_title",
+   "details":  "Variants_details",
    "notYetAvailable": false
  },
  {
@@ -510,6 +564,7 @@
    "level": 2,
    "order": "10.3",
    "title":  "Configurator_title",
+   "details":  "Configurator_details",
    "notYetAvailable": false
  },
  {
@@ -517,6 +572,7 @@
    "level": 1,
    "order": "11",
    "title":  "Manufacturing_title",
+   "details":  "Manufacturing_details",
    "notYetAvailable": false
  },
  {
@@ -524,6 +580,7 @@
    "level": 3,
    "order": "11.1.1",
    "title":  "ManufacturingMobile_title",
+   "details":  "ManufacturingMobile_details",
    "notYetAvailable": false
  },
  {
@@ -531,6 +588,7 @@
    "level": 3,
    "order": "11.1.2",
    "title":  "ManufacturingMobileApp_title",
+   "details":  "ManufacturingMobileApp_details",
    "notYetAvailable": false
  },
  {
@@ -546,6 +604,7 @@
    "level": 3,
    "order": "11.2.1",
    "title":  "BillOfMaterialsPlus_title",
+   "details":  "BillOfMaterialsPlus_details",
    "notYetAvailable": false
  },
  {
@@ -553,6 +612,7 @@
    "level": 3,
    "order": "11.2.2",
    "title":  "Kanban_title",
+   "details":  "Kanban_details",
    "notYetAvailable": false
  },
  {
@@ -560,6 +620,7 @@
    "level": 2,
    "order": "11.3",
    "title":  "ManufacturingPlanning_title",
+   "details":  "ManufacturingPlanning_details",
    "notYetAvailable": false
  },
  {
@@ -575,6 +636,7 @@
    "level": 2,
    "order": "11.4",
    "title":  "OpenOrders_title",
+   "details":  "OpenOrders_details",
    "notYetAvailable": true
  },
  {
@@ -582,19 +644,22 @@
    "level": 2,
    "order": "11.5",
    "title":  "ToolsManagement_title",
+   "details":  "ToolsManagement_details",
    "notYetAvailable": false
  },
  {
    "topic": "Framework",
    "level": 1,
    "order": "12",
-   "title":  "Framework_title"
+   "title":  "Framework_title",
+   "details":  "Framework_details"
  },
  {
    "topic": "DMS",
    "level": 2,
    "order": "12.1",
    "title":  "DMS_title",
+   "details":  "DMS_details",
    "notYetAvailable": true
  },
  {
@@ -602,6 +667,7 @@
    "level": 3,
    "order": "12.1.1",
    "title":  "DMSMassive_title",
+   "details":  "DMSMassive_details",
    "notYetAvailable": true
  },
  {
@@ -609,6 +675,7 @@
    "level": 2,
    "order": "12.2",
    "title":  "JobScheduler_title",
+   "details":  "JobScheduler_details",
    "notYetAvailable": true
  },
  {
@@ -616,6 +683,7 @@
    "level": 2,
    "order": "12.3",
    "title":  "Security_title",
+   "details":  "Security_details",
    "notYetAvailable": true
  },
  {
@@ -623,6 +691,7 @@
    "level": 3,
    "order": "12.3.1",
    "title":  "SecurityAdvanced_title",
+   "details":  "SecurityAdvanced_details",
    "notYetAvailable": true
  },
  {
@@ -630,6 +699,7 @@
    "level": 3,
    "order": "12.3.2",
    "title":  "Auditing_title",
+   "details":  "Auditing_details",
    "notYetAvailable": true
  },
  {
@@ -637,6 +707,7 @@
    "level": 3,
    "order": "12.3.3",
    "title":  "Visibility_title",
+   "details":  "Visibility_details",
    "notYetAvailable": false
  },
  {
@@ -644,6 +715,7 @@
    "level": 2,
    "order": "12.4",
    "title":  "MyMagoStudio_title",
+   "details":  "MyMagoStudio_details",
    "notYetAvailable": false
  }
 ]
