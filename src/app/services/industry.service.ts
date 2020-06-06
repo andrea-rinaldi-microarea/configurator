@@ -43,12 +43,29 @@ export class IndustryService {
     return $industry;
   }
 
+  private isOptional(feat: Feature): boolean {
+    for (var e = 0; e < feat.options.length; e++) {
+      if (
+            feat.options[e].availability == "optional" ||
+            feat.options[e].availability == "count" ||
+            feat.options[e].availability == "PPT"
+         )
+         return true;
+    }
+    return false;
+  }
+
   public save() {
     var industry = new Industry(this.current.name);
-    this.current.features.forEach( feat => {
-      if (!feat.included)
+    this.current.features.forEach( f => {
+      if (!f.included)
         return;
-        industry.features.push(new Feature(feat));
+      var feat = new Feature(f);
+      feat.optionID = null;
+      if (this.isOptional(feat)) {
+        feat.optionID = feat.tag;
+      }  
+      industry.features.push(feat);
     }); 
 
     this.http.post('/api/industry/save', industry).subscribe(res => {

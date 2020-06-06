@@ -1,18 +1,13 @@
 {
   "name": "Retail & Fashion",
-  "industryCode": "REFA",
-  "version": "6",
-  "productID": "MC",
-  "productName": "MagoCloud",
   "features": [
     {
       "isModule": true,
-      "description": "Base Module ",
+      "description": "Base Module",
       "fragment": "Server",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -39,7 +34,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -66,7 +60,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -115,12 +108,11 @@
     },
     {
       "isModule": true,
-      "description": "Financials ",
+      "description": "Financials",
       "fragment": "Financials",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -147,7 +139,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -174,7 +165,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -201,7 +191,6 @@
       "isAvailable": true,
       "allowISO": "IT",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -228,7 +217,6 @@
       "isAvailable": true,
       "allowISO": "IT,HU",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -255,7 +243,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -282,7 +269,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -309,7 +295,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -336,7 +321,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -363,7 +347,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -390,7 +373,6 @@
       "isAvailable": true,
       "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -412,12 +394,11 @@
     },
     {
       "isModule": true,
-      "description": "Fixed Assets ",
+      "description": "Fixed Assets",
       "fragment": "FixedAssets",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -439,12 +420,11 @@
     },
     {
       "isModule": true,
-      "description": "Forecast Accounting ",
+      "description": "Forecast Accounting",
       "fragment": "ForecastAccounting",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -466,12 +446,11 @@
     },
     {
       "isModule": true,
-      "description": "XBRL Balance ",
+      "description": "XBRL Balance",
       "fragment": "XBRL",
       "isAvailable": true,
       "allowISO": "IT",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -493,12 +472,11 @@
     },
     {
       "isModule": true,
-      "description": "Accounting Books and Balance Attachments ",
+      "description": "Accounting Books and Balance Attachments",
       "fragment": "AccountingBooks",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -520,12 +498,11 @@
     },
     {
       "isModule": true,
-      "description": "Balance Analysis (Basel II) ",
+      "description": "Balance Analysis (Basel II)",
       "fragment": "Basel_II",
       "isAvailable": false,
       "allowISO": "IT",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -547,12 +524,11 @@
     },
     {
       "isModule": true,
-      "description": "Multicompany Balance ",
+      "description": "Multicompany Balance",
       "fragment": "MultiCompanyBalances",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -574,12 +550,11 @@
     },
     {
       "isModule": true,
-      "description": "Analysis & Controlling ",
+      "description": "Analysis & Controlling",
       "fragment": "CostAccounting",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -606,7 +581,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -633,7 +607,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -655,12 +628,11 @@
     },
     {
       "isModule": true,
-      "description": "Cash Management ",
+      "description": "Cash Management",
       "fragment": "Cash",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "IT,CH,BR",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -682,12 +654,11 @@
     },
     {
       "isModule": true,
-      "description": "Intrastat ",
+      "description": "Intrastat",
       "fragment": "Intrastat",
       "isAvailable": true,
       "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -709,12 +680,11 @@
     },
     {
       "isModule": true,
-      "description": "Sales / Purchases ",
+      "description": "Sales / Purchases",
       "fragment": "SalePurchaseDocuments",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -741,7 +711,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -763,12 +732,11 @@
     },
     {
       "isModule": true,
-      "description": "Sale Orders ",
+      "description": "Sale Orders",
       "fragment": "SaleOrders",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -790,12 +758,11 @@
     },
     {
       "isModule": true,
-      "description": "Sale Invoices / Delivery Notes ",
+      "description": "Sale Invoices / Delivery Notes",
       "fragment": "Sales",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -817,7 +784,7 @@
     },
     {
       "isModule": true,
-      "description": "e-commerce ",
+      "description": "e-commerce",
       "fragment": "eCommerce",
       "isAvailable": true,
       "allowISO": "",
@@ -844,12 +811,11 @@
     },
     {
       "isModule": true,
-      "description": "Store Management SM Backend",
+      "description": "Store Management (backend)",
       "fragment": "StoreManagement",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -951,13 +917,12 @@
       ]
     },
     {
-      "isModule": true,
-      "description": "Purchase Orders ",
+      "isModule": false,
+      "description": "Purchase Orders",
       "fragment": "PurchaseOrders",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -979,12 +944,11 @@
     },
     {
       "isModule": true,
-      "description": "Purchases ",
+      "description": "Purchases",
       "fragment": "Purchases",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1011,7 +975,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1033,12 +996,11 @@
     },
     {
       "isModule": true,
-      "description": "Inventory ",
+      "description": "Inventory",
       "fragment": "Inventory",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1065,7 +1027,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1092,7 +1053,6 @@
       "isAvailable": true,
       "allowISO": "HU,IT,CH,BG,DE",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1119,7 +1079,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1141,12 +1100,11 @@
     },
     {
       "isModule": true,
-      "description": "Quality Inspections ",
+      "description": "Quality Inspections",
       "fragment": "QualityInspection",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1168,7 +1126,7 @@
     },
     {
       "isModule": true,
-      "description": "WMS WMS Basic",
+      "description": "WMS Basic",
       "fragment": "WMSBasic",
       "isAvailable": true,
       "allowISO": "",
@@ -1200,7 +1158,6 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1276,12 +1233,11 @@
     },
     {
       "isModule": true,
-      "description": "Resources Management ",
+      "description": "Resources Management",
       "fragment": "_RESMAN",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1303,12 +1259,11 @@
     },
     {
       "isModule": true,
-      "description": "DMS Basic",
+      "description": "DMS",
       "fragment": "DMS",
       "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1335,7 +1290,6 @@
       "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1357,12 +1311,11 @@
     },
     {
       "isModule": true,
-      "description": "Job Scheduler ",
+      "description": "Job Scheduler",
       "fragment": "JobScheduler",
       "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1384,12 +1337,11 @@
     },
     {
       "isModule": true,
-      "description": "Security ",
+      "description": "Security",
       "fragment": "Security",
       "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1416,7 +1368,6 @@
       "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1443,7 +1394,6 @@
       "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "",
       "options": [
         {
           "edition": "STD",
@@ -1492,7 +1442,7 @@
     },
     {
       "isModule": true,
-      "description": "MyMago Studio ",
+      "description": "MyMago Studio",
       "fragment": "MyMagoStudio",
       "isAvailable": true,
       "allowISO": "",
