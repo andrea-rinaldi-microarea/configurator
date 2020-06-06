@@ -17,6 +17,7 @@ export class ToolbarComponent implements OnInit {
   ) { 
     translate.addLangs(['en', 'it']);
     translate.setDefaultLang('en');
+    translate.currentLang = 'en';
   }
 
   ngOnInit() {

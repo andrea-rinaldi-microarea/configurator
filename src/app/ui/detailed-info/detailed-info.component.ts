@@ -5,10 +5,9 @@ import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
   template: `
   <div #content>
     <ng-content></ng-content>
-    <i *ngIf="enabled" [className]="iconClass" (click)="show=!show"></i>
+    <i *ngIf="enabled" [className]="iconClass" (click)="show=!show" [hidden]="forceShow"></i>
   </div>
-  <div [hidden]="!show" class="small font-weight-lighter font-italic">
-  {{details | translate}}
+  <div [hidden]="!(show || forceShow)" class="details font-weight-lighter font-italic" [innerHTML]="details">
   </div>
   `,
   styles: [`
@@ -18,11 +17,16 @@ import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
     .clickable {
       cursor: pointer;
     }
+    .details {
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
   `]
 })
 export class DetailedInfoComponent implements OnInit {
   @Input() details: string = "";
   @Input() icon: string = "fa-info-circle";
+  @Input() forceShow: boolean = false;
   @ViewChild('content') content: ElementRef;
   public iconClass = "";
   private enabled: boolean = false;
@@ -32,7 +36,7 @@ export class DetailedInfoComponent implements OnInit {
 
   ngOnInit() {
     this.enabled = (this.details !== undefined && this.details != "");
-    this.iconClass = "fa text-muted clickable " + this.icon;
+    this.iconClass = "fa text-muted clickable screen-only " + this.icon;
   }
 
   ngAfterViewInit() {

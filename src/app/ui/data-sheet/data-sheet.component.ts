@@ -1,7 +1,8 @@
-import { DataSheetLine } from '../../../models/data-sheet';
+import { DataSheetLine, DataSheetLineOption } from '../../../models/data-sheet';
 import { DataSheetService } from '../../services/data-sheet.service';
 import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { Title } from '@angular/platform-browser';
 
 declare var require: any;
 const industryList = require("../data/industry-list.json");
@@ -16,6 +17,7 @@ export class DataSheetComponent implements OnInit {
   private currIndustry:  number = null;
   private industryList: string[] = industryList;
   private editMode: boolean;
+  private showDetails: boolean = false;
 
   private topicTypes = [
     {
@@ -23,20 +25,20 @@ export class DataSheetComponent implements OnInit {
       icon: "fa-circle-o"
     },
     {
-      value: "X",
+      value: "always",
       icon: "fa-circle"
     },
     {
-      value: "X/0",
+      value: "optional",
       icon: "fa-check-square-o"
     },
     {
-      value: "Nr-User",
+      value: "count",
       icon: "fa-user-plus"
     },
     {
       value: "PPT",
-      icon: "fa-eur"
+      icon: "fa-money"
     }
   ];
   
@@ -53,15 +55,24 @@ export class DataSheetComponent implements OnInit {
 
   constructor(
     private dataSheet: DataSheetService,
-    public translate: TranslateService
+    public translate: TranslateService,
+    public titleService: Title
   ) { }
 
+  private setTitle() {
+    this.titleService.setTitle(industryList[this.currIndustry] + " - Data Sheet (" + this.translate.currentLang + ")");
+  }
+
   ngOnInit() {
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.setTitle();
+    });
   }
 
   private ShowDataSheet() {
     this.dataSheet.load(industryList[this.currIndustry]).subscribe( res => {
       this.editMode = false; 
+      this.setTitle();
     });
   }
 
@@ -89,58 +100,41 @@ export class DataSheetComponent implements OnInit {
     this.ShowDataSheet();
   }
 
-  topicTitle(line: DataSheetLine) {
-    var lang = this.translate.currentLang;
-    if (typeof lang == "undefined") lang = "en";
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic != null) {
-      var localized = topic.title.find(t => t.language == lang);
-      if (localized != null)
-        return localized.value;
-    }
-  }
-
   topicClass(line: DataSheetLine) {
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic != null) return "level-" + topic.level;
-  }
-
-  topicNotYetAvailable(line: DataSheetLine): boolean {
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic != null) return topic.notYetAvailable;
-    return false;
+    return "level-" + line.level;
   }
 
   isLocalized(line: DataSheetLine): boolean {
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic == null) return false;
-    return  (typeof topic.allowISO != "undefined" && topic.allowISO != "" ) ||
-            (typeof topic.denyISO != "undefined" && topic.denyISO != "")
+    return  (typeof line.allowISO != "undefined" && line.allowISO != "" ) ||
+            (typeof line.denyISO != "undefined" && line.denyISO != "")
   }
 
   ISOTooltip(line: DataSheetLine) {
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic == null) return "";
     var tooltip: string;
-    if (topic.allowISO != "") {
-      tooltip = "Disponibile in: " +  topic.allowISO;
+    if (line.allowISO != "") {
+      tooltip = this.translate.instant("Available in") + ": " + line.allowISO;
     }
-    if (typeof topic.denyISO !== "undefined" && topic.denyISO != "") {
+    if (typeof line.denyISO !== "undefined" && line.denyISO != "") {
       if (tooltip != null) tooltip += "\n";
-      tooltip = "Non disponibile in: " +  topic.denyISO;
+      tooltip = this.translate.instant("Not available in")  + ": " + line.denyISO;
     }
     return tooltip;
   }
 
-  topicDetails(line: DataSheetLine) {
-    var lang = this.translate.currentLang;
-    if (typeof lang == "undefined") lang = "en";
-    var topic = this.dataSheet.topic(line.topic);
-    if (topic != null && topic.details != null) {
-      var localized = topic.details.find(t => t.language == lang);
-      if (localized != null)
-      return localized.value;
+  ISODetails(line: DataSheetLine) {
+    if (!this.isLocalized(line))
+      return "";
+
+    return "<br/>(" + this.ISOTooltip(line) + ")";
+  }
+  
+  option(line: DataSheetLine, edition: string): DataSheetLineOption {
+    var option : DataSheetLineOption = line.options.find(o => o.edition == edition);
+    if (!option) {
+      option = new DataSheetLineOption(edition);
+      line.options.push(option);
     }
+    return option;
   }
 
   onSave() {
@@ -155,4 +149,7 @@ export class DataSheetComponent implements OnInit {
     this.dataSheet.copy(sourceIndustry).subscribe();
   }
 
+  onPrint() {
+    window.print();
+  }
 }

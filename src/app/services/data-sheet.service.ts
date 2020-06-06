@@ -20,13 +20,14 @@ export class DataSheetService {
     var $dataSheet = new Observable<any>( observer => {
       this.http.get('/api/dataSheet/' + industry).subscribe((actualData:DataSheet) => {
         this.current = new DataSheet(industry);
-        topics.forEach(topic => {
-          this.current.lines.push(new DataSheetLine(topic.topic));
-          var actualLine = actualData.lines ? actualData.lines.find(l => l.topic == topic.topic) : null;
+        topics.forEach((line: DataSheetLine)  => {
+          var l = new DataSheetLine(line);
+          var actualLine = actualData.lines ? actualData.lines.find(al => al.topic == line.topic) : null;
           if (actualLine != null) {
-            this.current.lines[this.current.lines.length - 1] = actualLine;
-            this.current.lines[this.current.lines.length - 1].included = true;
+            l.options = actualLine.options;
+            l.included = true;
           }
+          this.current.lines.push(l);
         });
         observer.next();
         observer.complete();
@@ -35,17 +36,12 @@ export class DataSheetService {
     return $dataSheet;
   }
 
-  public topic(topic: string): Topic {
-    return topics.find(t => t.topic == topic);
-  }
-
   public save() {
     var dataSheet = new DataSheet(this.current.name);
     this.current.lines.forEach( line => {
       if (!line.included)
         return;
-      dataSheet.lines.push(new DataSheetLine(line.topic));
-      dataSheet.lines[dataSheet.lines.length - 1] = line;
+      dataSheet.lines.push(new DataSheetLine(line));
     }); 
 
     this.http.post('/api/dataSheet/save', dataSheet).subscribe(res => {

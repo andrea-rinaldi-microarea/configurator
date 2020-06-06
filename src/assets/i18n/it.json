@@ -1,4 +1,268 @@
 {
+    "MasterCommon_title":"Anagrafiche e Funzioni Comuni",
+    "MasterCommon_details":"Anagrafiche di base quali Clienti, Fornitori, Condizioni di Pagamento, Banche. Definizione azienda, dati IVA ed esercizi fiscali. Configurazione parametri e servizi di base comuni a tutto il prodotto.",
+
+    "Languages_title": "Descrizioni Multilingua",
+    "Languages_details": "Descrizioni in molteplici lingue per Articoli, Piano dei Conti, Condizioni di Pagamento e molte altre anagrafiche. Utilizzabili nella compilazione dei documenti e nelle stampe.",
+
+    "Currencies_title": "Multi valuta",
+    "Currencies_details": "Gestione in divisa estera di tutti i documenti contabili, ciclo vendite ed acquisti. Conversione automatica listini, o gestione listini in valuta. Partitario in divisa con calcolo automatico differenze cambi. Conti contabili con saldo in divisa estera. Caricamento tassi di cambio manuale o automatico da Banca Centrale Europea o altre banche centrali locali.",
+
+    "Contacts_title": "Gestione Contatti e Fornitori Potenziali",
+    "Contacts_details": "Anagrafica contatti cliente e fornitori potenziali, passaggio a Cliente/Fornitore definitivo manuale o automatico in sede di trasformazione offerta in ordine.",
+
+    "Budget_title": "Gestione Budget Clienti/Fornitori",
+    "Budget_details": "Inserimento budget mensili per Clienti e Fornitori, acquisizione automatica dei consuntivi dai documenti. Stampe di confronto budget / consuntivo, dati utilizzabili per export o stampe personalizzate.",
+
+    "KPIMobileApp_title": "KPI Dashboards mobile app",
+    "KPIMobileApp_details":"App mobile iOS ed Android pensata per il responsabile aziendale, in area finance, sales ed operations, per tenere sotto controllo i fatti aziendali tramite degli indicatori immediati di facile consultazione. La app è già fornita di numerosi KPI predefiniti e se ne possono creare di personalizzati tramite MyMago Studio.",
+
+    "Financials_title": "Amministrazione e Contabilità",
+    "Financials_details": "",
+
+    "Accounting_title" : "Contabilità Generale",
+    "Accounting_details": "Contabilità generale, prima nota, bilanci, pro-rata, IVA Agenzie di Viaggio. Piano dei Conti predefinito a norme UE o personalizzabile su 8 livelli.",
+
+    "CustomizableCodes_title" : "Registri e modelli Personalizzabili",
+    "CustomizableCodes_details": "Definizione modelli contabili personalizzati aggiuntivi agli standard, creazione di modelli da registrazioni contabili compresi opzionalmente importi per scritture ricorrenti. Definizione registri sezionali IVA aggiuntivi a quelli predefiniti, per personalizzare criteri di numerazione e stampa dei registri fiscali.",
+
+    "PurchaseElectronicInvoicing_title" : "Import Fatture Elettroniche",
+    "PurchaseElectronicInvoicing_details": "Gestione della fatturazione elettronica nei Documenti Ricevuti. Con la procedura si importano nel programma le fatture elettroniche ricevute sul Digital Hub Zucchetti: l'utente può visualizzare la fattura e registrarla subito, oppure successivamente, nei Documenti Ricevuti in contabilità.",
+
+    "Plafond_title" : "Gestione Plafond",
+    "Plafond_details": "Calcolo del Plafond disponibile secondo il metodo del Plafond fisso. Appositi report consentono di controllare l’importo utilizzato nel periodo, è possibile dettagliare i valori per documento, nonché l’importo utilizzato per cliente/fornitore, con calcolo dell’importo residuo disponibile in base alle dichiarazioni di intento registrate. Gestione delle Dichiarazioni di Intento emesse e ricevute, con procedure di stampa lettere e revoche e generazione del file per la Comunicazione Dichiarazioni di Intento Emesse per l’Agenzia delle Entrate.",
+
+    "AccrualsDeferrals_title" : "Ratei e risconti automatici",
+    "AccrualsDeferrals_details": "Calcolo delle quote di competenza di ciascun esercizio contestualmente all’inserimento dei documenti contabili. Rilevazione contabile delle scritture di assestamento e dei giroconti iniziali. Gestione dei risconti pluriennali. Gestione dei ratei e risconti mensili attraverso la registrazione in Contabilità Previsionale.",
+
+    "Payees_title" : "Professionisti e ritenute d'acconto",
+    "Payees_details": "Inserimento di parcelle dai documenti contabili ricevuti e generazione della partita al netto delle ritenute. Inserimento di parcelle pro-forma da collegare successivamente al rispettivo documento contabile. Registrazione automatica delle ritenute in fase di pagamento partite. Generazione e stampa Certificazione Unica. Gestione della ritenuta Enasarco.",
+
+    "Cash_title" : "Gestione cassa",
+    "Cash_details": "Funzione dedicata alla gestione completa di tutti i movimenti di entrata e uscita di cassa. Sessioni di cassa per singolo operatore. Collegamento con il partitario e la prima nota. Gestione di casse in valuta.",
+
+    "AP_AR_title" : "Scadenzario e Partite Aperte",
+    "AP_AR_details" : "Partite aperte, scadenzari, effetti attivi, mandati di pagamento. Condizioni di pagamento personalizzabili. Gestione stampa contestuale dei Mandati SEPA Direct Debit, loro invio via e-mail ai clienti per la sottoscrizione. Stampa su file XML SEPA Direct Debit (SDD), stampa su file XML Bonifici SEPA Credit Transfer (SCT).  Importazione file XML SEPA secondo i tracciati Camt052 e Camt053 relativi alle rendicontazioni giornaliere dei conti bancari. Procedura di riconciliazione bancaria tra gli estratti conto importati e le registrazioni contabili, con possibilità sia di generare un nuovo movimento contabile dal singolo movimento bancario, con contestuale aggiornamento delle partite in caso di incassi o pagamenti, sia di collegare un movimento bancario ad una registrazione contabile già presente. Controlli di quadratura tra estratti conto bancari e contabilità.",
+
+    "Dunnings_title" : "Solleciti di Pagamento",
+    "Dunnings_details": "Gestione di più livelli di sollecito, con un testo specifico per ciascun livello. Una procedura consente di stampare e inviare via mail le lettere di sollecito delle partite scadute nella lingua preferenziale del cliente, aggiornando contestualmente l’anagrafica cliente con i dati dell’ultimo sollecito inviato. Il testo della lettera di sollecito e della mail è liberamente personalizzabile dall’utente.",
+
+    "AP_AR_Analysis_title" : "Analisi scadenzari e cash flow",
+    "AP_AR_Analysis_details": "Numerosi report consentono di analizzare gli importi scaduti e a scadere dei crediti e dei debiti sulla base di periodi di analisi personalizzabili dall’utente. La gestione del Cash Flow consente di analizzare l’andamento di cassa sulla base degli incassi e pagamenti registrati e da registrare.",
+
+    "AP_AR_Plus_title" : "Funzioni avanzate di scadenzario",
+    "AP_AR_Plus_details" : "Presentazioni effetti parametrizzabili, Reversali di incasso, Factoring e Gestione automatica insoluti.",
+
+    "BalanceAnalysis_title" : "Analisi e riclassificazioni bilancio",
+    "BalanceAnalysis_details": "Schemi di riclassificazione predefiniti e personalizzabili, numerose funzioni di aggregazione per i saldi contabili, confronto di più esercizi. Riclassificazione di saldi contabili, previsionali ed analitici.",
+
+    "XBRL_title" : "Bilancio XBRL",
+    "XBRL_details": "Consente la creazione del bilancio in forma elettronica elaborabile utilizzando lo standard XBRL e prevede l’aggiornamento automatico tassonomie via Internet.",
+
+    "AccountingBooks_title" : "Libro Inventari e Allegati",
+    "AccountingBooks_details": "Stampa completa dei vari prospetti che compongono il Libro Inventari e Allegati, funzionalità avanzate di gestione degli Schemi di Riclassificazione e Analisi di Bilancio, Gestione dei Documenti da Emettere / Ricevere.",
+
+    "Basel_II_title" : "Analisi di Bilancio con Basilea II",
+    "Basel_II_details": "Modulo sviluppato su Excel che sulla base dei dati di bilancio dell’Azienda e mediante l’analisi per indici e per flussi, è in grado di elaborare rapidamente una valutazione completa della situazione finanziaria, patrimoniale ed economica dell’Azienda. Il modulo inoltre consente di elaborare bilanci riclassificati personalizzati utilizzando funzioni di calcolo avanzate disponibili negli schemi di riclassificazione.",
+
+    "FixedAssets_title" : "Cespiti",
+    "FixedAssets_details": "Gestione dei beni ammortizzabili, movimenti di variazione, fino a tre regimi di ammortamento paralleli e indipendenti. Simulazioni ammortamento del singolo bene e del registro dei beni ammortizzabili. Voci Immobilizzazioni in Inventario e nella Nota integrativa di bilancio. Collegamento diretto con la prima nota.",
+
+    "ForecastAccounting_title" : "Contabilità Previsionale",
+    "ForecastAccounting_details": "Gestione movimenti previsionali in contabilità generale ed analitica, trasformazione in effettivi, analisi di bilancio previsionali.",
+
+    "MultiCompanyBalances_title" : "Bilancio Consolidato",
+    "MultiCompanyBalances_details": "Gestione modelli di consolidamento, scambio dati contabili fra aziende e capogruppo, bilancio consolidato anche riclassificato.",
+
+    "CostAccounting_title" : "Contabilità Analitica",
+    "CostAccounting_details": "Ripartizione dei costi e dei ricavi per centri di costo e commesse. Imputazione separata valori di preventivo e consuntivo. Completamente integrata a consuntivo con i moduli Contabilità Generale, Magazzino, Vendite, Acquisti e Ammortamenti. Analisi mensili e di esercizio, scostamenti tra preventivo e consuntivo a valore e percentuali.",
+
+    "ProductLines_title" : "Linee di Prodotto",
+    "ProductLines_details": "Aggiunge un criterio di destinazione ed aggregazione (Linea di Prodotto) alle analisi di Contabilità Analitica, disponibile nei documenti, nella movimentazione e in tutte le stampe.",
+
+    "CostAccountingTransfer_title" : "Ribaltamenti",
+    "CostAccountingTransfer_details": "Ribaltamenti automatici da centri di costo verso centri di costo e/o commesse e/o linee di prodotto, pilotate da modelli parametrizzabili.",
+
+    "Intrastat_title" : "Intrastat",
+    "Intrastat_details": "Gestione annotazioni intrastat, rilevamento automatico da documenti di vendita ed acquisto, attribuzione nomencature combinate ai prodotti, produzione registri cartacei ed elettronici.",
+
+    "Sales_title" : "Vendite",
+    "Sales_details" : "Gestione fatture immediate ed accompagnatorie, DDT, note di credito e ricevute fiscali. Fatture di acconto, Fatture proforma e resi. Fatturazione e bollettazione immediata e differita, generazione dati per scheda di trasporto, gestione anagrafica articoli, statistiche legate a vendite. Codice a barre d’acquisto e di vendita, Articoli equivalenti, Produttori/Categorie prodotti, Copia documenti, Import/Export file articoli e note. Fatturazione Elettronica attiva, invio tramite DigitalHub Zucchetti.",
+
+    "SalesAdvItemsManag_title" : "Funzioni Avanzate Articoli",
+    "SalesAdvItemsManag_details" : "Politiche Prezzi, Politiche Spese, Codici Parlanti, Unità di misura derivate dall’articolo, Quantità accessorie.",
+
+    "MultiStubBooks_title" : "Multibollettario",
+    "MultiStubBooks_details": "Definizione bollettari aggiuntivi a quelli predefiniti, per personalizzare criteri di numerazione e stampa dei documenti di trasporto.",
+
+    "PickingList_title" : "Picking List",
+    "PickingList_details": "Preparazione spedizione da uno o più ordini, anche parziale. Generazione automatica dei DDT secondo vari criteri (cliente, deposito, ecc.).",
+
+    "SaleOrders_title" : "Ordini da Clienti",
+    "SaleOrders_details": "Gestione ordini da clienti, scadenzari, statistiche di acquisto e fatturato, offerte a cliente, gestione anagrafica articoli, statistiche.",
+
+    "CustomerQuotations_title" : "Offerte a Clienti",
+    "CustomerQuotations_details": "Documento offerta a cliente, con tutti i dati propedeutici all’ordine e all’evasione. Intestabile ad un Contatto o ad un Cliente. Trasformazione offerta in ordine, anche parziale. Stampe e statistiche sulle offerte.",
+
+    "Conai_title" : "Conai",
+    "Conai_details": "Gestione contributo CONAI per produttori ed importatori di imballaggi, calcolo contributo in fattura, associazione automatica a prodotti, dichiarazioni. Gestione delle  Esenzioni Clienti/Materiali",
+
+    "WEEE_title" : "RAEE",
+    "WEEE_details": "Gestione contributo RAEE con imputazione per categoria e articolo, calcolo automatico in fattura, liste di controllo.",
+
+    "SalesPeople_title" : "Sales Force Management",
+    "SalesPeople_details": "Gestione agenti e capoarea, politiche provvigionali, calcoli provvigionali, movimenti provvigionali, maturazioni, liquidazioni, storni provvigionali su insoluti, statistiche legate ad agenti.",
+
+    "CreditLimit_title" : "Gestione Fidi",
+    "CreditLimit_details": "Gestione Fidi clienti, blocco/avvertimento per superamento fido, parametrizzazione fido per cliente, applicazione delle politiche di fido a tutti i documenti del ciclo attivo (a partire dagli ordini).",
+
+    "eCommerce_title" : "e-commerce",
+    "eCommerce_details": "Organizza il punto vendita on-line gestito con il motore di e-commerce Konakart di Zucchetti. Definizione prodotto con descrizioni brevi ed estese, anche in HTML, fotogallery, categorizzazione anche gerarchica, assortimento, prezzi e disponibilità specifici per la vendita on-line.",
+
+    "StoreManagement_title" : "Punto Vendita",
+    "StoreManagement_details": "Gestione del punto vendita al dettaglio grazie all’integrazione con il sistema POS di TCPOS. Gestione centralizzata dei dati direttamente da Mago in qualità di back-end. Gli scontrini e i documenti di vendita generati dalle casse sono ricevuti direttamente in Mago e possono essere registrati in magazzino e in contabilità.",
+
+    "StoreVariants_title" : "Varianti / Taglie e Colori",
+    "StoreVariants_details": "Grazie alle Varianti di Retail e alla gestione Padre/Figlio è possibile gestire non solo il mondo delle taglie e colori ma anche molte altre varianti dell’articolo.",
+
+    "FoodRecipe_title" : "Ricette Alimentari",
+    "FoodRecipe_details": "Gestione completa ricetta alimentare, lista ingredienti e dettaglio preparazione. Ingredienti in quantità fissa o proporzionale, scarico ingredienti da magazzino su composizione piatto finito. Attributi nutrizionali ed allergeni stampabili sulle confezioni o da esporre nel punto vendita.",
+
+    "InStore_title" : "In-store back-end",
+    "InStore_details": "Permette la gestione di controllo stock, inventario periodico, ricezione merce, riordino e richieste di trasferimento per il punto vendita mediante dispositivi portatili Wi-Fi Rfid (terminalini), tramite la apposita app da installarsi sui dispositivi.",
+
+    "InStoreApp_title" : "In-store App",
+    "InStoreApp_details": "Applicazione Android dedicata all’addetto del punto vendita con la quale effettuare in mobilità tutte le operazioni di gestione dei prodotti: controllo stock, riordini, richieste di trasferimento, ecc. Si collega a MagoCloud tramite connessione internet.",
+
+    "InfinityConnector_title" : "CRM",
+    "InfinityConnector_details": "Accesso alle funzionalità di Infinity CRM collegato a MagoCloud. Gli utenti abilitati al CRM hanno accesso a tutte le funzioni comuni di collaboration: calendario, posta, agenda",
+
+    "CRMUserSales_title" : "Utente CRM sales",
+    "CRMUserSales_details": "In aggiunta alle funzionalità comuni, accesso a: Opportunità, Trattative, Offerte e Ordini CRM.",
+
+    "CRMUserMarketing_title" : "Utente CRM marketing",
+    "CRMUserMarketing_details": "In aggiunta alle funzionalità comuni, accesso a: Nominativi, Campagne commerciali, Questionari, Azioni di marketing (telemarketing, promozioni, giri visite, ecc.)",
+
+    "CRMUserFull_title" : "Utente CRM completo",
+    "CRMUserFull_details": "Combina le possibilità offerte da Utente CRM Sales e Utente CRM Marketing.",
+
+    "Purchases_title" : "Acquisti",
+    "Purchases_details": "Gestione carico materiali a magazzino, controllo consegne fornitori, registrazione a magazzino, dettaglio acquisto, Fatture di acquisto, Note credito e Note Debito Ricevute, gestione anagrafica articoli, statistiche legate ad acquisto. Creazione automatica documenti di Reso a Fornitore da Bolle di Carico.",
+
+    "AdditionalCharges_title" : "Oneri accessori",
+    "AdditionalCharges_details": "Modelli di ripartizione oneri (dazi doganali, spese trasporto, ecc.), associazione articoli e categorie manuale od automatica, documento oneri accessori, rettifiche valorizzazioni di magazzino per attribuzione oneri.",
+
+    "PurchaseElectronicInvoicingAdv_title" : "Import Fatture Elettroniche",
+    "PurchaseElectronicInvoicingAdv_details": "Consente l'importazione dei documenti elettronici passivi registrandoli in Mago4 come documenti del modulo Acquisti, permettendo anche la riconciliazione con le Bolle di Carico o gli Ordini di Acquisto presenti sul gestionale.",
+
+    "PurchaseOrders_title" : "Ordini fornitori",
+    "PurchaseOrders_details": "Gestione ordini a fornitori, scadenzari e solleciti, statistiche su acquistato, gestione anagrafica articoli, statistiche legate a ordini fornitori.",
+
+    "SupplierQuotations_title" : "Offerte da fornitore",
+    "SupplierQuotations_details": "Documento richiesta di offerta a fornitore, con tutti i dati propedeutici all’ordine e al ricevimento merce. Intestabile ad un Fornitore Potenziale o ad un Fornitore già acquisito. Trasformazione richiesta di offerta in ordine, anche parziale. Stampe e statistiche sulle richieste di offerta. Scadenziari e stampe per solleciti a fornitori.",
+
+    "QualityInspection_title" : "Controllo qualità",
+    "QualityInspection_details": "Gestione del controllo qualità tramite la registrazione dei carichi di merce in un deposito di collaudo, attraverso la generazione degli ordini di collaudo. Rilevazione delle non conformità mediante la registrazione delle bolle di collaudo e relativa movimentazione. Generazione automatica dei resi a fornitore.",
+
+    "Inventory_title" : "Magazzino",
+    "Inventory_details" : "Gestione anagrafica articoli e movimentazione magazzino, valorizzazione fiscale, LIFO e FIFO a scatti annuali, ABC, multibollettario, note tecniche. Statistiche legate a magazzino. Operazioni di carico e scarico velocizzate, tramite identificazione degli articoli e delle eventuali informazioni correlate, attraverso la lettura delle diverse tipologie di codici a barre, in apposita finestra semplificata e adattabile ai diversi documenti di vendita acquisto e movimenti di magazzino. Produzione e lettura di codici a barre strutturati su più segmenti e pertanto in grado di identificare con una sola scansione più informazioni, interpretazione dei codici di tipo GTIN (GS1-128). Possibilità di generazione file per l'invio dei dati alla stampante fiscale.",
+
+    "InventoryAdvItemsManag_title" : "Funzioni Avanzate Articoli",
+    "InventoryAdvItemsManag_details" : "Codici Parlanti, Unità di misura derivate dall’articolo, Quantità accessorie.",
+
+    "MultiStorage_title" : "Multi deposito",
+    "MultiStorage_details": "Gestione illimitati depositi, con dettaglio disponibilità, giacenza, entrate, uscite, ecc.. Movimentazione tra depositi, valorizzazione per deposito.",
+
+    "SingleStepLifoFifo_title" : "LIFO/FIFO a scatti continui",
+    "SingleStepLifoFifo_details": "Tracciatura dei valori di magazzino per singolo lotto di acquisto, e scarico a valore secondo logica LIFO o FIFO. Correzioni sempre consentite, con ricostruzioni delle valorizzazioni o movimenti di rettifica a valore.",
+
+    "InventoryAdjustment_title" : "Funzioni Avanzate di Inventario",
+    "InventoryAdjustment_details": "Processo di inventario strutturato, gestione più conte, documento di inventario persistente, import inventario da mobile.",
+
+    "LotsSerials_title" : "Lotti e Matricole",
+    "LotsSerials_details": "Gestione lotti articoli, autonumerazione lotti, proposizioni automatiche in fase di scarico, movimentazione lotti anche per deposito, autonumerazione matricole, esplosione matricole in fase di scarico.",
+
+    "WMSBasic_title" : "WMS",
+    "WMSBasic_details" : "Gestione del layout di magazzino, lettori barcode, preparazione spedizione / picking, definizione percorso ottimo, inventari periodici. Gestione avanzata delle spedizioni che utilizzino fornitori di logistica esterna o sistemi logistici di terze parti, anche con integrazione tramite sistemi EDI. Unica struttura ubicazioni fino a 4 livelli di coordinate.",
+
+    "WMSAdvanced_title" : "WMS Avanzato",
+    "WMSAdvanced_details": "Gestione unità di magazzino, pesi e capacità, strategie ottime di stoccaggio e prelievo, identificazione automatica e RFID, controllo qualità in entrata (solo se presente Controllo qualità), replenishment guidato con analisi scorte, inventari continui e a rotazione. Multiple strutture ubicazioni, con più di 4 livelli di coordinate.",
+
+    "WMSMobile_title" : "WMS Mobile back-end",
+    "WMSMobile_details": "Permette la gestione di scarico, carico, posizionamento, prelievo, inventario mediante dispositivi portatili Wi-Fi (terminalini), tramite la apposita app da installarsi sui dispositivi.",
+
+    "WMSMobileApp_title" : "WMS Mobile App",
+    "WMSMobileApp_details": "Applicazione Android dedicata all’addetto di magazzino, con la quale effettuare in mobilità tutte le comuni operazioni di gestione: visualizzazione merce a magazzino e rettifica qta a distanza e in tempo reale, carico e scarico delle merci, trasferimento delle scorte, inventario, imballaggio e disimballaggio della merce, gestione del Ricevimento merci con posizionamento automatico, conferma missioni di prelievo e posizionamento, stampa delle etichette. Si collega a MagoCloud tramite connessione internet, parziale operatività consentita anche off-line. (Alcune funzionalità disponibili solo se presente il WMS Avanzato).",
+
+    "BillOfMaterials_title" : "Distinta Base",
+    "BillOfMaterials_details": "Gestione della composizione del prodotto e dei costi associati. Sviluppo su numero illimitato di livelli. Gestione di movimentazione di magazzino delle materie prime e dei prodotti finiti. Esplosione ed implosione distinta.",
+
+    "ECO_title" : "Engineering Changing Order",
+    "ECO_details": "Processo di variazione delle caratteristiche tecniche di prodotto (Distinta Base), documento proposta di variazione, conferma variazioni con indice di revisione.",
+
+    "Variants_title" : "Varianti",
+    "Variants_details": "Gestione varianti di prodotto, con possibilità di definire nuovi prodotti applicando variazioni alla Distinta Base e ai Cicli di Lavorazione di prodotti esistenti.",
+
+    "Configurator_title" : "Configuratore",
+    "Configurator_details": "Gestione configuratore commerciale di prodotto, con la possibilità tramite la gestione Varianti, di comporre interattivamente la configurazione del prodotto richiesta dal cliente.",
+
+    "Manufacturing_title" : "Produzione",
+    "Manufacturing_details": "Gestione dei documenti di produzione e loro sviluppo operativo. Gestione avanzamento, prelievo materiali, consuntivazione. Generazione automatica documenti, gestione dei terzisti, deposito conto lavorazione.",
+
+    "ManufacturingMobile_title" : "Manufacturing Mobile back-end",
+    "ManufacturingMobile_details": "Gestione delle procedure di produzione mediante dispositivi portatili Wi-Fi Rfid: versamento a produzione da lavorazione interna, riordino a produzione articoli da mobile per Kanban, ecc.. Ogni dispositivo opera tramite la apposita app da installarsi su di esso.",
+
+    "ManufacturingMobileApp_title" : "Manufacturing Mobile App",
+    "ManufacturingMobileApp_details": "Applicazione Android dedicata all’addetto di produzione con la quale effettuare in mobilità tutte le comuni operazioni di gestione: versamenti a produzione, riordini per Kanban, ecc. Si collega a MagoCloud tramite connessione internet, parziale operatività consentita anche off-line.",
+
+    "ManufacturingAdvanced_title" : "Produzione Avanzata",
+    "ManufacturingAdvanced_details" : "Gestione cicli e risorse produttive (cdl e famiglie di cdl), più fasi di lavorazione per ordine, alternative. Avanzamenti anche parziali, analisi costi e redditività commesse. Pannello di controllo, Dettaglio Consuntivazioni OdP, Confronto OdP / Distinta e Analisi materiali in produzione.",
+    
+    "BillOfMaterialsPlus_title" : "Disegni, storico e indici di revisione",
+    "BillOfMaterialsPlus_details": "Gestione anagrafica disegni tecnici per ogni articolo e distinta. Codice specifica tecnica e versioning con revisione, mantenimento di uno storico consultabile in modo diretto.",
+
+    "Kanban_title" : "Kanban",
+    "Kanban_details": "Gestione processi produttivi a Kanban, che semplifica e riduce le operazioni di avanzamento della produzione. Semplificazione del riordino del prodotto che diventa diretto a vista, per gestire un processo comunque integrato, ma più snello.",
+
+    "ManufacturingPlanning_title" : "Pianificazione",
+    "ManufacturingPlanning_details": "Gestione della pianificazione delle attività produttive tramite MRP II e CRP a capacità infinite. Analisi Ordini di produzione tramite diagrammi di GANTT. Istogrammi per analisi profilo di carico.",
+
+    "MRPAdvanced_title" : "Pianificazione Avanzata",
+    "MRPAdvanced_details" : "Aggiunta di funzionalità per una migliore e più raffinata gestione della pianificazione. Infinite simulazioni e molteplicità di sorgenti d’analisi per MRP, gestione multi-calendario, famiglie di macchine, previsioni di vendita. Gestione del Make or Buy. Calendari per CdL e famiglie di CdL",
+
+    "OpenOrders_title" : "Ordini Aperti",
+    "OpenOrders_details": "Gestione della pianificazione attraverso l’utilizzo di Contratti, Piani di consegna ed Ordini Clienti, con diversi livelli di certezza sulla base della distanza nel tempo. Tali informazioni sono integrabili con l’algoritmo MRP (necessita della Pianificazione Avanzata) che è in grado di suggerire gli approvvigionamenti anche sulla base degli Ordini Aperti.",
+
+    "ToolsManagement_title" : "Attrezzi",
+    "ToolsManagement_details": "Gestione degli strumenti e utensili utilizzati in produzione ed eventuale raggruppamento in famiglie di attrezzi. Piena integrazione con il processo produttivo, con monitoraggio dell'impegno e controllo e aggiornamento automatico delle quantità o del tempo di utilizzo effettivo. Generazione, sostituzione e dismissione automatica degli attrezzi e gestione dei processi di revisione e manutenzione degli stessi attraverso specifiche procedure.",
+
+    "Framework_title" : "Framework",
+    "Framework_details": "",
+
+    "DMS_title" : "DMS",
+    "DMS_details": "Modulo per la gestione degli allegati in forma elettronica per qualsiasi documento gestionale (documentale).",
+
+    "DMSMassive_title" : "Archiviazione documentale massiva",
+    "DMSMassive_details": "Plug-in in grado di attivare la funzione di archiviazione documentale massiva.",
+
+    "JobScheduler_title" : "Job Scheduler",
+    "JobScheduler_details": "Esecuzione automatizzata di procedure, interne o esterne a MagoCloud, ad una data ed ora prefissata. Possibilità di definire sequenze di task articolate, composte anche da singoli task schedulabili, elencati secondo un ordine di esecuzione prestabilito.",
+
+    "Security_title" : "Security",
+    "Security_details": "Gestione dei diritti d’accesso per singoli utenti alle funzionalità applicative. ",
+
+    "SecurityAdvanced_title" : "Security Access profiles",
+    "SecurityAdvanced_details": "Gestione dei livelli di accesso alle funzionalità applicative attribuibili a ruoli o ad utenti specifici, con dettaglio delle parti visibili ed accessibili di ciascuna funzione.",
+
+    "Auditing_title" : "Auditing",
+    "Auditing_details": "Monitoraggio delle modifiche eseguite dagli utenti sui dati aziendali.",
+
+    "Visibility_title" : "Visibility",
+    "Visibility_details": "Gestione dei livelli di accesso ai dati aziendali attribuibili a ruoli o ad utenti specifici. Comprende il servizio di sicurezza basato sulla Semantica.",
+
+    "MyMagoStudio_title" : "MyMago Studio",
+    "MyMagoStudio_details": "Personalizzazione form standard, creazione nuove form, personalizzazione menu, personalizzazione report esistenti e creazione nuovi report.",
+
     "Configurator": "Configuratore",
     "Module": "Modulo",
     "Functionality": "Funzionalità",
@@ -136,5 +400,11 @@
     "Sales": "Vendite",
     "Store Management": "Punto Vendita",
     "WMS Advanced": "WMS Avanzato",
-    "Drawings, History and Versioning": "Disegni, storico e indici di revisione"
+    "Drawings, History and Versioning": "Disegni, storico e indici di revisione",
+    "Pay Per Transactions": "Prezzo calcolato sulla base delle transazioni",
+    "Show/hide features details": "Mostra/nasconde i dettagli delle funzionalità",
+    "Feature": "Funzionalità",
+    "Available in some countries only": "Disponibile solo in alcuni Paesi",
+    "Available in": "Disponibile in",
+    "Not available in": "Non disponibile in"
 }

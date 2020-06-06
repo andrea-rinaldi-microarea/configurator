@@ -94,7 +94,7 @@
           <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
           <td [class.discontinued]="feature.discontinued">
             <i class="fa fa-calendar text-warning" [hidden]="feature.isAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
-            <app-detailed-info [details]="detailedInfo(feature)" [class.module-title]="feature.isModule">{{feature.description | translate}}</app-detailed-info>  
+            <app-detailed-info [details]="detailedInfo(feature) | translate" [class.module-title]="feature.isModule">{{feature.description | translate}}</app-detailed-info>  
             <i class="fa fa-exclamation-triangle text-danger" style="float:right" [hidden]="!missingFragment(feature)" placement="right" ngbTooltip="{{'Missing fragment for this feature' | translate }}"></i>
           </td> 
           <td class="text-center edition-sep" [hidden]="!clients.show">

@@ -1,5 +1,5 @@
 {
-  "Name": "Food, Beverage & HORECA",
+  "Name": "Trade & Wholesale",
   "Lines": [
     {
       "Topic": "MasterCommon",
@@ -68,6 +68,58 @@
         {
           "edition": "PRM",
           "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Contacts",
+      "Order": "01.1.3",
+      "Level": 3,
+      "Title": "Contacts_title",
+      "Details": "Contacts_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Budget",
+      "Order": "01.1.4",
+      "Level": 3,
+      "Title": "Budget_title",
+      "Details": "Budget_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
         },
         {
           "edition": "PRO",
@@ -756,37 +808,219 @@
       ]
     },
     {
-      "Topic": "StoreManagement",
-      "Order": "05",
+      "Topic": "MultiStubBooks",
+      "Order": "03.1.2",
+      "Level": 3,
+      "Title": "MultiStubBooks_title",
+      "Details": "MultiStubBooks_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "PickingList",
+      "Order": "03.1.3",
+      "Level": 3,
+      "Title": "PickingList_title",
+      "Details": "PickingList_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "SaleOrders",
+      "Order": "03.2",
+      "Level": 2,
+      "Title": "SaleOrders_title",
+      "Details": "SaleOrders_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "CustomerQuotations",
+      "Order": "03.2.1",
+      "Level": 3,
+      "Title": "CustomerQuotations_title",
+      "Details": "CustomerQuotations_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Conai",
+      "Order": "03.3",
+      "Level": 2,
+      "Title": "Conai_title",
+      "Details": "Conai_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "WEEE",
+      "Order": "03.4",
+      "Level": 2,
+      "Title": "WEEE_title",
+      "Details": "WEEE_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "SalesPeople",
+      "Order": "03.5",
+      "Level": 2,
+      "Title": "SalesPeople_title",
+      "Details": "SalesPeople_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "CreditLimit",
+      "Order": "03.6",
+      "Level": 2,
+      "Title": "CreditLimit_title",
+      "Details": "CreditLimit_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "eCommerce",
+      "Order": "04",
       "Level": 1,
-      "Title": "StoreManagement_title",
-      "Details": "StoreManagement_details",
-      "NotYetAvailable": false,
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "Topic": "StoreVariants",
-      "Order": "05.1.1",
-      "Level": 3,
-      "Title": "StoreVariants_title",
-      "Details": "StoreVariants_details",
+      "Title": "eCommerce_title",
+      "Details": "eCommerce_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -795,24 +1029,24 @@
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "PPT"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "PPT"
         },
         {
           "edition": "ENT",
-          "availability": "always"
+          "availability": "PPT"
         }
       ]
     },
     {
-      "Topic": "FoodRecipe",
-      "Order": "05.1.2",
-      "Level": 3,
-      "Title": "FoodRecipe_title",
-      "Details": "FoodRecipe_details",
+      "Topic": "InfinityConnector",
+      "Order": "06",
+      "Level": 1,
+      "Title": "InfinityConnector_title",
+      "Details": "InfinityConnector_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -821,11 +1055,11 @@
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
@@ -834,11 +1068,11 @@
       ]
     },
     {
-      "Topic": "InStore",
-      "Order": "05.1.3",
+      "Topic": "CRMUserSales",
+      "Order": "06.1.1",
       "Level": 3,
-      "Title": "InStore_title",
-      "Details": "InStore_details",
+      "Title": "CRMUserSales_title",
+      "Details": "CRMUserSales_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -847,24 +1081,50 @@
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "count"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "count"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "count"
         }
       ]
     },
     {
-      "Topic": "InStoreApp",
-      "Order": "05.1.4",
+      "Topic": "CRMUserMarketing",
+      "Order": "06.1.2",
       "Level": 3,
-      "Title": "InStoreApp_title",
-      "Details": "InStoreApp_details",
+      "Title": "CRMUserMarketing_title",
+      "Details": "CRMUserMarketing_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "Topic": "CRMUserFull",
+      "Order": "06.1.3",
+      "Level": 3,
+      "Title": "CRMUserFull_title",
+      "Details": "CRMUserFull_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -900,6 +1160,32 @@
         {
           "edition": "PRM",
           "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "AdditionalCharges",
+      "Order": "07.1.1",
+      "Level": 3,
+      "Title": "AdditionalCharges_title",
+      "Details": "AdditionalCharges_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
         },
         {
           "edition": "PRO",
@@ -952,6 +1238,32 @@
         {
           "edition": "PRM",
           "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "SupplierQuotations",
+      "Order": "07.2.1",
+      "Level": 3,
+      "Title": "SupplierQuotations_title",
+      "Details": "SupplierQuotations_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
         },
         {
           "edition": "PRO",
@@ -1133,7 +1445,7 @@
         },
         {
           "edition": "PRM",
-          "availability": "always"
+          "availability": ""
         },
         {
           "edition": "PRO",
@@ -1142,6 +1454,136 @@
         {
           "edition": "ENT",
           "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "WMSBasic",
+      "Order": "09",
+      "Level": 1,
+      "Title": "WMSBasic_title",
+      "Details": "WMSBasic_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "WMSAdvanced",
+      "Order": "09.1.1",
+      "Level": 3,
+      "Title": "WMSAdvanced_title",
+      "Details": "WMSAdvanced_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "WMSMobile",
+      "Order": "09.1.2",
+      "Level": 3,
+      "Title": "WMSMobile_title",
+      "Details": "WMSMobile_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "WMSMobileApp",
+      "Order": "09.1.3",
+      "Level": 3,
+      "Title": "WMSMobileApp_title",
+      "Details": "WMSMobileApp_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "Topic": "BillOfMaterials",
+      "Order": "10",
+      "Level": 1,
+      "Title": "BillOfMaterials_title",
+      "Details": "BillOfMaterials_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional"
         }
       ]
     },
