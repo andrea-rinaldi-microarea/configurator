@@ -1,0 +1,1825 @@
+{
+  "Name": "Trade & Wholesale",
+  "Lines": [
+    {
+      "Topic": "MasterCommon",
+      "Order": "01",
+      "Level": 1,
+      "Title": "MasterCommon_title",
+      "Details": "MasterCommon_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Languages",
+      "Order": "01.1.1",
+      "Level": 3,
+      "Title": "Languages_title",
+      "Details": "Languages_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Currencies",
+      "Order": "01.1.2",
+      "Level": 3,
+      "Title": "Currencies_title",
+      "Details": "Currencies_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Contacts",
+      "Order": "01.1.3",
+      "Level": 3,
+      "Title": "Contacts_title",
+      "Details": "Contacts_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Budget",
+      "Order": "01.1.4",
+      "Level": 3,
+      "Title": "Budget_title",
+      "Details": "Budget_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "KPIMobileApp",
+      "Order": "01.1.5",
+      "Level": 3,
+      "Title": "KPIMobileApp_title",
+      "Details": "KPIMobileApp_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "Topic": "Financials",
+      "Order": "02",
+      "Level": 1,
+      "Title": "Financials_title",
+      "Details": "Financials_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Accounting",
+      "Order": "02.1",
+      "Level": 2,
+      "Title": "Accounting_title",
+      "Details": "Accounting_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "CustomizableCodes",
+      "Order": "02.1.1",
+      "Level": 3,
+      "Title": "CustomizableCodes_title",
+      "Details": "CustomizableCodes_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "PurchaseElectronicInvoicing",
+      "Order": "02.1.2",
+      "Level": 3,
+      "Title": "PurchaseElectronicInvoicing_title",
+      "Details": "PurchaseElectronicInvoicing_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Plafond",
+      "Order": "02.1.3",
+      "Level": 3,
+      "Title": "Plafond_title",
+      "Details": "Plafond_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "AccrualsDeferrals",
+      "Order": "02.1.4",
+      "Level": 3,
+      "Title": "AccrualsDeferrals_title",
+      "Details": "AccrualsDeferrals_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Payees",
+      "Order": "02.1.5",
+      "Level": 3,
+      "Title": "Payees_title",
+      "Details": "Payees_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Cash",
+      "Order": "02.1.6",
+      "Level": 3,
+      "Title": "Cash_title",
+      "Details": "Cash_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "AP_AR",
+      "Order": "02.2",
+      "Level": 2,
+      "Title": "AP_AR_title",
+      "Details": "AP_AR_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Dunnings",
+      "Order": "02.2.1",
+      "Level": 3,
+      "Title": "Dunnings_title",
+      "Details": "Dunnings_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "AP_AR_Analysis",
+      "Order": "02.2.2",
+      "Level": 3,
+      "Title": "AP_AR_Analysis_title",
+      "Details": "AP_AR_Analysis_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "AP_AR_Plus",
+      "Order": "02.2.3",
+      "Level": 3,
+      "Title": "AP_AR_Plus_title",
+      "Details": "AP_AR_Plus_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "BalanceAnalysis",
+      "Order": "02.3",
+      "Level": 2,
+      "Title": "BalanceAnalysis_title",
+      "Details": "BalanceAnalysis_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "XBRL",
+      "Order": "02.3.1",
+      "Level": 3,
+      "Title": "XBRL_title",
+      "Details": "XBRL_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "AccountingBooks",
+      "Order": "02.3.2",
+      "Level": 3,
+      "Title": "AccountingBooks_title",
+      "Details": "AccountingBooks_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Basel_II",
+      "Order": "02.3.3",
+      "Level": 3,
+      "Title": "Basel_II_title",
+      "Details": "Basel_II_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "FixedAssets",
+      "Order": "02.4",
+      "Level": 2,
+      "Title": "FixedAssets_title",
+      "Details": "FixedAssets_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "ForecastAccounting",
+      "Order": "02.5",
+      "Level": 2,
+      "Title": "ForecastAccounting_title",
+      "Details": "ForecastAccounting_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "MultiCompanyBalances",
+      "Order": "02.6",
+      "Level": 2,
+      "Title": "MultiCompanyBalances_title",
+      "Details": "MultiCompanyBalances_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "CostAccounting",
+      "Order": "02.7",
+      "Level": 2,
+      "Title": "CostAccounting_title",
+      "Details": "CostAccounting_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "ProductLines",
+      "Order": "02.7.1",
+      "Level": 3,
+      "Title": "ProductLines_title",
+      "Details": "ProductLines_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "CostAccountingTransfer",
+      "Order": "02.7.2",
+      "Level": 3,
+      "Title": "CostAccountingTransfer_title",
+      "Details": "CostAccountingTransfer_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Intrastat",
+      "Order": "02.8",
+      "Level": 2,
+      "Title": "Intrastat_title",
+      "Details": "Intrastat_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Sales",
+      "Order": "03",
+      "Level": 1,
+      "Title": "Sales_title",
+      "Details": "Sales_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "SalesAdvItemsManag",
+      "Order": "03.1.1",
+      "Level": 3,
+      "Title": "SalesAdvItemsManag_title",
+      "Details": "SalesAdvItemsManag_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "MultiStubBooks",
+      "Order": "03.1.2",
+      "Level": 3,
+      "Title": "MultiStubBooks_title",
+      "Details": "MultiStubBooks_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "PickingList",
+      "Order": "03.1.3",
+      "Level": 3,
+      "Title": "PickingList_title",
+      "Details": "PickingList_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "SaleOrders",
+      "Order": "03.2",
+      "Level": 2,
+      "Title": "SaleOrders_title",
+      "Details": "SaleOrders_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "CustomerQuotations",
+      "Order": "03.2.1",
+      "Level": 3,
+      "Title": "CustomerQuotations_title",
+      "Details": "CustomerQuotations_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Conai",
+      "Order": "03.3",
+      "Level": 2,
+      "Title": "Conai_title",
+      "Details": "Conai_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "WEEE",
+      "Order": "03.4",
+      "Level": 2,
+      "Title": "WEEE_title",
+      "Details": "WEEE_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "SalesPeople",
+      "Order": "03.5",
+      "Level": 2,
+      "Title": "SalesPeople_title",
+      "Details": "SalesPeople_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "CreditLimit",
+      "Order": "03.6",
+      "Level": 2,
+      "Title": "CreditLimit_title",
+      "Details": "CreditLimit_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "eCommerce",
+      "Order": "04",
+      "Level": 1,
+      "Title": "eCommerce_title",
+      "Details": "eCommerce_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "PPT"
+        },
+        {
+          "edition": "PRO",
+          "availability": "PPT"
+        },
+        {
+          "edition": "ENT",
+          "availability": "PPT"
+        }
+      ]
+    },
+    {
+      "Topic": "InfinityConnector",
+      "Order": "06",
+      "Level": 1,
+      "Title": "InfinityConnector_title",
+      "Details": "InfinityConnector_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "CRMUserSales",
+      "Order": "06.1.1",
+      "Level": 3,
+      "Title": "CRMUserSales_title",
+      "Details": "CRMUserSales_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "Topic": "CRMUserMarketing",
+      "Order": "06.1.2",
+      "Level": 3,
+      "Title": "CRMUserMarketing_title",
+      "Details": "CRMUserMarketing_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "Topic": "CRMUserFull",
+      "Order": "06.1.3",
+      "Level": 3,
+      "Title": "CRMUserFull_title",
+      "Details": "CRMUserFull_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "Topic": "Purchases",
+      "Order": "07",
+      "Level": 1,
+      "Title": "Purchases_title",
+      "Details": "Purchases_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "AdditionalCharges",
+      "Order": "07.1.1",
+      "Level": 3,
+      "Title": "AdditionalCharges_title",
+      "Details": "AdditionalCharges_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "PurchaseElectronicInvoicingAdv",
+      "Order": "07.1.2",
+      "Level": 3,
+      "Title": "PurchaseElectronicInvoicingAdv_title",
+      "Details": "PurchaseElectronicInvoicingAdv_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "PurchaseOrders",
+      "Order": "07.2",
+      "Level": 2,
+      "Title": "PurchaseOrders_title",
+      "Details": "PurchaseOrders_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "SupplierQuotations",
+      "Order": "07.2.1",
+      "Level": 3,
+      "Title": "SupplierQuotations_title",
+      "Details": "SupplierQuotations_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "QualityInspection",
+      "Order": "07.3",
+      "Level": 2,
+      "Title": "QualityInspection_title",
+      "Details": "QualityInspection_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Inventory",
+      "Order": "08",
+      "Level": 1,
+      "Title": "Inventory_title",
+      "Details": "Inventory_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "InventoryAdvItemsManag",
+      "Order": "08.1.1",
+      "Level": 3,
+      "Title": "InventoryAdvItemsManag_title",
+      "Details": "InventoryAdvItemsManag_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "MultiStorage",
+      "Order": "08.1.2",
+      "Level": 3,
+      "Title": "MultiStorage_title",
+      "Details": "MultiStorage_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "SingleStepLifoFifo",
+      "Order": "08.1.3",
+      "Level": 3,
+      "Title": "SingleStepLifoFifo_title",
+      "Details": "SingleStepLifoFifo_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "InventoryAdjustment",
+      "Order": "08.1.4",
+      "Level": 3,
+      "Title": "InventoryAdjustment_title",
+      "Details": "InventoryAdjustment_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "LotsSerials",
+      "Order": "08.2",
+      "Level": 2,
+      "Title": "LotsSerials_title",
+      "Details": "LotsSerials_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "WMSBasic",
+      "Order": "09",
+      "Level": 1,
+      "Title": "WMSBasic_title",
+      "Details": "WMSBasic_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "WMSAdvanced",
+      "Order": "09.1.1",
+      "Level": 3,
+      "Title": "WMSAdvanced_title",
+      "Details": "WMSAdvanced_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "WMSMobile",
+      "Order": "09.1.2",
+      "Level": 3,
+      "Title": "WMSMobile_title",
+      "Details": "WMSMobile_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "WMSMobileApp",
+      "Order": "09.1.3",
+      "Level": 3,
+      "Title": "WMSMobileApp_title",
+      "Details": "WMSMobileApp_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "Topic": "BillOfMaterials",
+      "Order": "10",
+      "Level": 1,
+      "Title": "BillOfMaterials_title",
+      "Details": "BillOfMaterials_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional"
+        }
+      ]
+    },
+    {
+      "Topic": "Framework",
+      "Order": "12",
+      "Level": 1,
+      "Title": "Framework_title",
+      "Details": "Framework_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "DMS",
+      "Order": "12.1",
+      "Level": 2,
+      "Title": "DMS_title",
+      "Details": "DMS_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "DMSMassive",
+      "Order": "12.1.1",
+      "Level": 3,
+      "Title": "DMSMassive_title",
+      "Details": "DMSMassive_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "JobScheduler",
+      "Order": "12.2",
+      "Level": 2,
+      "Title": "JobScheduler_title",
+      "Details": "JobScheduler_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Security",
+      "Order": "12.3",
+      "Level": 2,
+      "Title": "Security_title",
+      "Details": "Security_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "SecurityAdvanced",
+      "Order": "12.3.1",
+      "Level": 3,
+      "Title": "SecurityAdvanced_title",
+      "Details": "SecurityAdvanced_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Auditing",
+      "Order": "12.3.2",
+      "Level": 3,
+      "Title": "Auditing_title",
+      "Details": "Auditing_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Visibility",
+      "Order": "12.3.3",
+      "Level": 3,
+      "Title": "Visibility_title",
+      "Details": "Visibility_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "MyMagoStudio",
+      "Order": "12.4",
+      "Level": 2,
+      "Title": "MyMagoStudio_title",
+      "Details": "MyMagoStudio_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional"
+        }
+      ]
+    }
+  ]
+}
