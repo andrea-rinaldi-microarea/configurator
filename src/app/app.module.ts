@@ -1,6 +1,6 @@
 import { DataSheetService } from './services/data-sheet.service';
 import { ClientsService } from './services/clients.service';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
@@ -59,7 +59,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [ClientsService, ConfigurationService, DataSheetService],
+  providers: [ClientsService, ConfigurationService, DataSheetService, Title],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

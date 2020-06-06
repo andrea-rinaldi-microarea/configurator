@@ -1,7 +1,8 @@
 import { DataSheetLine, DataSheetLineOption } from '../../../models/data-sheet';
 import { DataSheetService } from '../../services/data-sheet.service';
 import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { Title } from '@angular/platform-browser';
 
 declare var require: any;
 const industryList = require("../data/industry-list.json");
@@ -54,15 +55,24 @@ export class DataSheetComponent implements OnInit {
 
   constructor(
     private dataSheet: DataSheetService,
-    public translate: TranslateService
+    public translate: TranslateService,
+    public titleService: Title
   ) { }
 
+  private setTitle() {
+    this.titleService.setTitle(industryList[this.currIndustry] + " - Data Sheet (" + this.translate.currentLang + ")");
+  }
+
   ngOnInit() {
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.setTitle();
+    });
   }
 
   private ShowDataSheet() {
     this.dataSheet.load(industryList[this.currIndustry]).subscribe( res => {
       this.editMode = false; 
+      this.setTitle();
     });
   }
 
@@ -139,4 +149,7 @@ export class DataSheetComponent implements OnInit {
     this.dataSheet.copy(sourceIndustry).subscribe();
   }
 
+  onPrint() {
+    window.print();
+  }
 }
