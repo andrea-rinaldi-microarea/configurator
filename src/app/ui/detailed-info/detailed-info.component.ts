@@ -1,4 +1,3 @@
-import { Weight } from './../../../models/Industry';
 import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
@@ -8,8 +7,7 @@ import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
     <ng-content></ng-content>
     <i *ngIf="enabled" [className]="iconClass" (click)="show=!show" [hidden]="forceShow"></i>
   </div>
-  <div [hidden]="!(show || forceShow)" class="details font-weight-lighter font-italic">
-  {{details | translate}}
+  <div [hidden]="!(show || forceShow)" class="details font-weight-lighter font-italic" [innerHTML]="details">
   </div>
   `,
   styles: [`

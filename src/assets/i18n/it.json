@@ -404,5 +404,7 @@
     "Pay Per Transactions": "Prezzo calcolato sulla base delle transazioni",
     "Show/hide features details": "Mostra/nasconde i dettagli delle funzionalità",
     "Feature": "Funzionalità",
-    "Available in some countries only": "Disponibile solo in alcuni Paesi"
+    "Available in some countries only": "Disponibile solo in alcuni Paesi",
+    "Available in": "Disponibile in",
+    "Not available in": "Non disponibile in"
 }

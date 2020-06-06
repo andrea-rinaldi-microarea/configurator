@@ -102,13 +102,20 @@ export class DataSheetComponent implements OnInit {
   ISOTooltip(line: DataSheetLine) {
     var tooltip: string;
     if (line.allowISO != "") {
-      tooltip = "Disponibile in: " +  line.allowISO;
+      tooltip = this.translate.instant("Available in") + ": " + line.allowISO;
     }
     if (typeof line.denyISO !== "undefined" && line.denyISO != "") {
       if (tooltip != null) tooltip += "\n";
-      tooltip = "Non disponibile in: " +  line.denyISO;
+      tooltip = this.translate.instant("Not available in")  + ": " + line.denyISO;
     }
     return tooltip;
+  }
+
+  ISODetails(line: DataSheetLine) {
+    if (!this.isLocalized(line))
+      return "";
+
+    return "<br/>(" + this.ISOTooltip(line) + ")";
   }
   
   option(line: DataSheetLine, edition: string): DataSheetLineOption {

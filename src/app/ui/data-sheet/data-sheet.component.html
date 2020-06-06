@@ -53,7 +53,7 @@
         <tr *ngFor="let line of dataSheet.current.lines | LineExcluded:!hideExcluded" [class.excluded]="!line.included">
           <td width="15px"><app-toggler [disabled]="!editMode" class="text-config-light screen-only" [(value)]="line.included" [options]="includedOptions"></app-toggler></td>
           <td >
-            <app-detailed-info [className]="topicClass(line)" [details]="(line.details | translate)" icon="fa-angle-down" [forceShow]="showDetails">
+            <app-detailed-info [className]="topicClass(line)" [details]="(line.details | translate)+ISODetails(line)" icon="fa-angle-down" [forceShow]="showDetails">
               {{line.title | translate}}
               <i class="fa fa-calendar ml-2" [hidden]="!line.notYetAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
             </app-detailed-info>
