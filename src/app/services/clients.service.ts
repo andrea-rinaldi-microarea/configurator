@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
-import { ConfigurationService } from './configuration.service';
+import { IndustryService } from './industry.service';
 
 @Injectable()
 export class ClientsService {
@@ -13,7 +13,7 @@ export class ClientsService {
 
   constructor(
     private http: HttpClient,
-    private configuration: ConfigurationService
+    private industry: IndustryService
   ) { }
 
   open(file): Observable<any> {
@@ -74,7 +74,7 @@ export class ClientsService {
     var description: string;
     modules.forEach(mod => {
       description = description ? description + " + ": ""; 
-      description += this.configuration.moduleDescription(mod);
+      description += this.industry.moduleDescription(mod);
     });
     return description;
   }

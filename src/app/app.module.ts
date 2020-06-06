@@ -7,7 +7,6 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { FunctionalityPipe } from './ui/industry-edit/configuration/functionality-pipe';
 import { ClientsComponent } from './ui/industry-edit/clients/clients.component';
-import { ConfigurationService } from './services/configuration.service';
 import { ConfigurationComponent } from './ui/industry-edit/configuration/configuration.component';
 import { ToolbarComponent } from './ui/toolbar/toolbar.component';
 import { ExcludedPipe } from './ui/industry-edit/configuration/excluded-pipe';
@@ -60,7 +59,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [ClientsService, ConfigurationService, DataSheetService, Title, IndustryService],
+  providers: [ClientsService, DataSheetService, Title, IndustryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
