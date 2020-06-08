@@ -138,6 +138,7 @@
       "Title": "Accounting_title",
       "Details": "Accounting_details",
       "NotYetAvailable": false,
+      "denyISO": "BR",
       "options": [
         {
           "edition": "STD",
@@ -164,6 +165,7 @@
       "Title": "CustomizableCodes_title",
       "Details": "CustomizableCodes_details",
       "NotYetAvailable": false,
+      "denyISO": "BR",
       "options": [
         {
           "edition": "STD",
@@ -190,6 +192,7 @@
       "Title": "PurchaseElectronicInvoicing_title",
       "Details": "PurchaseElectronicInvoicing_details",
       "NotYetAvailable": false,
+      "allowISO": "IT",
       "options": [
         {
           "edition": "STD",
@@ -216,6 +219,7 @@
       "Title": "Plafond_title",
       "Details": "Plafond_details",
       "NotYetAvailable": false,
+      "allowISO": "IT,HU",
       "options": [
         {
           "edition": "STD",
@@ -242,6 +246,7 @@
       "Title": "AccrualsDeferrals_title",
       "Details": "AccrualsDeferrals_details",
       "NotYetAvailable": false,
+      "denyISO": "BR",
       "options": [
         {
           "edition": "STD",
@@ -268,6 +273,7 @@
       "Title": "Payees_title",
       "Details": "Payees_details",
       "NotYetAvailable": false,
+      "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
       "options": [
         {
           "edition": "STD",
@@ -294,6 +300,7 @@
       "Title": "Cash_title",
       "Details": "Cash_details",
       "NotYetAvailable": false,
+      "denyISO": "IT,CH,BR",
       "options": [
         {
           "edition": "STD",
@@ -424,6 +431,7 @@
       "Title": "BalanceAnalysis_title",
       "Details": "BalanceAnalysis_details",
       "NotYetAvailable": false,
+      "denyISO": "BR",
       "options": [
         {
           "edition": "STD",
@@ -450,6 +458,7 @@
       "Title": "XBRL_title",
       "Details": "XBRL_details",
       "NotYetAvailable": false,
+      "allowISO": "IT",
       "options": [
         {
           "edition": "STD",
@@ -476,6 +485,7 @@
       "Title": "AccountingBooks_title",
       "Details": "AccountingBooks_details",
       "NotYetAvailable": false,
+      "denyISO": "BR",
       "options": [
         {
           "edition": "STD",
@@ -502,6 +512,7 @@
       "Title": "Basel_II_title",
       "Details": "Basel_II_details",
       "NotYetAvailable": true,
+      "allowISO": "IT",
       "options": [
         {
           "edition": "STD",
@@ -554,6 +565,7 @@
       "Title": "ForecastAccounting_title",
       "Details": "ForecastAccounting_details",
       "NotYetAvailable": false,
+      "denyISO": "BR",
       "options": [
         {
           "edition": "STD",
@@ -580,6 +592,7 @@
       "Title": "MultiCompanyBalances_title",
       "Details": "MultiCompanyBalances_details",
       "NotYetAvailable": false,
+      "denyISO": "BR",
       "options": [
         {
           "edition": "STD",
@@ -684,6 +697,7 @@
       "Title": "Intrastat_title",
       "Details": "Intrastat_details",
       "NotYetAvailable": false,
+      "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
       "options": [
         {
           "edition": "STD",

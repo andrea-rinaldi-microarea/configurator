@@ -16,6 +16,8 @@ namespace Configurator.Models
         public string Title { get; set; }
         public string Details { get; set; }
         public bool NotYetAvailable { get; set; }
+        public string allowISO {get;set;}
+        public string denyISO {get;set;}
         public List<DataSheetLineOption> options {get;set;} = new List<DataSheetLineOption>();
     }
 
