@@ -279,7 +279,7 @@
         },
         {
           "edition": "PRM",
-          "availability": ""
+          "availability": "always"
         },
         {
           "edition": "PRO",
@@ -1827,15 +1827,15 @@
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "count"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "count"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "count"
         }
       ]
     }
