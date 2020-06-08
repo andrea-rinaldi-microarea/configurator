@@ -1348,15 +1348,15 @@
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "count"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "count"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "count"
         }
       ]
     }
