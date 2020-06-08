@@ -1250,32 +1250,6 @@
       ]
     },
     {
-      "Topic": "QualityInspection",
-      "Order": "07.3",
-      "Level": 2,
-      "Title": "QualityInspection_title",
-      "Details": "QualityInspection_details",
-      "NotYetAvailable": false,
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
       "Topic": "Inventory",
       "Order": "08",
       "Level": 1,
