@@ -1,5 +1,9 @@
 {
   "name": "Retail & Fashion",
+  "code": "REFA",
+  "version": "6",
+  "productID": "MC",
+  "productName": "MagoCloud",
   "features": [
     {
       "isModule": true,

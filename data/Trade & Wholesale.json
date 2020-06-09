@@ -1,5 +1,9 @@
 {
   "name": "Trade & Wholesale",
+  "code": "TRWH",
+  "version": "5",
+  "productID": "MC",
+  "productName": "MagoCloud",
   "features": [
     {
       "isModule": true,

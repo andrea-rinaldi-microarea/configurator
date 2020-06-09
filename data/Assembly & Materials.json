@@ -1,5 +1,9 @@
 {
   "name": "Assembly & Materials",
+  "code": "ASMT",
+  "version": "5",
+  "productID": "MC",
+  "productName": "MagoCloud",
   "features": [
     {
       "isModule": true,

@@ -1,5 +1,9 @@
 {
   "name": "Manufacturing",
+  "code": "MANF",
+  "version": "5",
+  "productID": "MC",
+  "productName": "MagoCloud",
   "features": [
     {
       "isModule": true,
