@@ -147,7 +147,7 @@
     "CRMUserFull_details": "Combina le possibilità offerte da Utente CRM Sales e Utente CRM Marketing.",
 
     "Purchases_title" : "Acquisti",
-    "Purchases_details": "Gestione carico materiali a magazzino, controllo consegne fornitori, registrazione a magazzino, dettaglio acquisto, Fatture di acquisto, Note credito e Note Debito Ricevute, gestione anagrafica articoli, statistiche legate ad acquisto. Creazione automatica documenti di Reso a Fornitore da Bolle di Carico.",
+    "Purchases_details": "Gestione carico materiali a magazzino, controllo consegne fornitori, registrazione a magazzino, dettaglio acquisto, Fatture di acquisto, Note credito e Note Debito Ricevute, gestione anagrafica articoli, statistiche legate ad acquisto. Articoli equivalenti, Produttori/Categorie prodotti, Copia documenti, Import/Export file articoli e note. Creazione automatica documenti di Reso a Fornitore da Bolle di Carico.",
 
     "AdditionalCharges_title" : "Oneri accessori",
     "AdditionalCharges_details": "Modelli di ripartizione oneri (dazi doganali, spese trasporto, ecc.), associazione articoli e categorie manuale od automatica, documento oneri accessori, rettifiche valorizzazioni di magazzino per attribuzione oneri.",

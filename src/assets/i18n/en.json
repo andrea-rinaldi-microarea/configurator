@@ -147,7 +147,7 @@
     "CRMUserFull_details": "Combination of the possibilities granted by the Sales CRM User and the Marketing CRM User.",
 
     "Purchases_title" : "Purchases",
-    "Purchases_details": "Inventory materials load management, suppliers deliveries check, inventory entries, purchase detail, purchase invoices, credit notes and debit notes, items master data, purchase statistics. Automatic creation of Return to Suppliers from Bills of Lading.",
+    "Purchases_details": "Inventory materials load management, suppliers deliveries check, inventory entries, purchase detail, purchase invoices, credit notes and debit notes, items master data, purchase statistics. Equivalent Items, Manufacturer / Product Categories, Document Copy, Import / Export Items and Notes. Automatic creation of Return to Suppliers from Bills of Lading.",
 
     "AdditionalCharges_title" : "Additional Charges",
     "AdditionalCharges_details": "Spreading templates for Additional Charges (custom fees, transportation costs, etc.), manual or automatic item and categories association to templates, Additional Charges document, inventory valuation adjustment entries for additional charges.",
