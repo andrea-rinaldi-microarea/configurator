@@ -263,6 +263,39 @@
     "MyMagoStudio_title" : "MyMago Studio",
     "MyMagoStudio_details": "Personalizzazione form standard, creazione nuove form, personalizzazione menu, personalizzazione report esistenti e creazione nuovi report.",
 
+    "ExportAndConnectors_title": "Esportazioni e collegamenti",
+
+    "DatevConnector_title": "Connettore DATEV",
+    "DatevConnector_details": "Nella versione localizzata per la Germania è disponibile il connettore DATEV, il software per commercialisti più diffuso in Germania. Il connettore trasmette i dati dei documenti del ciclo attivo e passivo, e nel caso di modulo Contabilità anche dalle registrazioni contabili. L'esportazione genera un file csv nel formato previsto da DATEV.",
+
+    "SIIConnector_title": "Trasmissione dati SII ed altre dichiarazioni fiscali",
+    "SIIConnector_details": "Nella versione localizzata per la Spagna sono disponibili la trasmissione dei dati ai fini SII ed altri adempimenti fiscali Spagnoli tramite il connettore al modulo TRM (Tax Reporting Module) di Solmicro (società del Gruppo Zucchetti). Il modulo, sulla base dei documenti di vendita e di acquisto inviati da MagoCloud, produce i principali dichiarativi fiscali tra cui la Dichiarazione SII.",
+
+    "FECGenerator_title": "Generazione file FEC",
+    "FECGenerator_details": "Nella versione localizzata per la Francia è disponibile la generazione del file FEC, contenente i dati di tutte le registrazioni contabili di un determinato periodo. Può essere richiesto in caso di controlli fiscali.",
+
+    "ZucchettiConnectors_title": "Connettori con prodotti Zucchetti",
+    "ZucchettiConnectors_details": "Da MagoCloud è possibile scambiare dati contabili e gestionali con svariati prodotti software Zucchetti.",
+
+    "Magix_title": "Magix Fisco Azienda",
+    "Magix_details": "Generazione di file di testo con i saldi contabili da importarsi in Magix Fisco Azienda. Ciò consente di svolgere automaticamente una serie di adempimenti fiscali, quali la redazione delle dichiarazioni UNICO e IRAP, del Bilancio UE e della Nota integrativa.",
+			
+    "Ago_title": "AGO",
+    "Ago_details": "Attraverso il tracciato MOVAGO è possibile scambiare dati contabili tra MagoCloud e AGO, in particolare si possono trasmettere ad AGO tutti i tipi di prima nota, incluso le anagrafiche clienti/fornitori utilizzate nei movimenti contabili, escluso le informazioni del partitario, mentre da AGO si possono ricevere solo tabelle (clienti/fornitori, sottoconti, codici IVA, codici Norma, codici CEE e causali contabili) e movimenti contabili puri (non IVA).",
+
+    "Omnia_title": "OMNIA",
+    "Omnia_details": "Attraverso il tracciato LEMCO di OMNIA è possibile scambiare dati contabili tra MagoCloud e OMNIA, in particolare si possono trasmettere ad OMNIA tutti i tipi di prima nota, incluse le anagrafiche clienti/fornitori utilizzate nei movimenti contabili e le informazioni relative alla partite chiuse, mentre da OMNIA si possono ricevere solo tabelle (clienti/fornitori, sottoconti e causali contabili) e movimenti contabili puri (non IVA).",
+
+    "OmniaPaghe_title": "OMNIA Paghe / Paghe Web",
+    "OmniaPaghe_details": "Il modulo “Connettore Paghe” consente di importare file creati con la procedura “Contabilizzazione paghe” di OMNIA e generare in MagoCloud, grazie all’utilizzo di opportuni parametri e modelli, le scritture contabili relative alla gestione del personale in contabilità ordinaria.",
+
+    "Maestro_title": "Maestro",
+    "Maestro_details": "Il connettore con il software Maestro rende possibile l’esportazione dei saldi contabili di MagoCloud tramite un file Excel da importare in Maestro. Il file viene generato da una procedura sulla base di uno schema di riclassificazione dedicato che mappa le voci di Maestro con i conti di MagoCloud.",
+    
+    "Tesan_title": "TESAN",
+    "Tesan_details": "Grazie al connettore TESAN è possibile esportare in un file di testo i dati relativi ai documenti nei quali sono presenti articoli attivati alla gestione TEssera SANitaria. Importando in seguito il file ottenuto in OMNIA, sarà possibile inviare la comunicazione di legge al Sistema Tessera Sanitaria.",
+
+
     "Configurator": "Configuratore",
     "Module": "Modulo",
     "Functionality": "Funzionalità",

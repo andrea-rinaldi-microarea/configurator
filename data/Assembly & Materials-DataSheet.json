@@ -770,6 +770,112 @@
       ]
     },
     {
+      "Topic": "ExportAndConnectors",
+      "Order": "02.9",
+      "Level": 2,
+      "Title": "ExportAndConnectors_title",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "DatevConnector",
+      "Order": "02.9.1",
+      "Level": 3,
+      "Title": "DatevConnector_title",
+      "Details": "DatevConnector_details",
+      "NotYetAvailable": false,
+      "allowISO": "DE",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "SIIConnector",
+      "Order": "02.9.2",
+      "Level": 3,
+      "Title": "SIIConnector_title",
+      "Details": "SIIConnector_details",
+      "NotYetAvailable": false,
+      "allowISO": "ES",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "FECGenerator",
+      "Order": "02.9.3",
+      "Level": 3,
+      "Title": "FECGenerator_title",
+      "Details": "FECGenerator_details",
+      "NotYetAvailable": false,
+      "allowISO": "FR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
       "Topic": "Sales",
       "Order": "03",
       "Level": 1,
@@ -1502,8 +1608,196 @@
       ]
     },
     {
-      "Topic": "Framework",
+      "Topic": "ZucchettiConnectors",
       "Order": "12",
+      "Level": 1,
+      "Title": "ZucchettiConnectors_title",
+      "Details": "ZucchettiConnectors_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Magix",
+      "Order": "12.1.1",
+      "Level": 3,
+      "Title": "Magix_title",
+      "Details": "Magix_details",
+      "NotYetAvailable": false,
+      "allowISO": "IT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Ago",
+      "Order": "12.1.2",
+      "Level": 3,
+      "Title": "Ago_title",
+      "Details": "Ago_details",
+      "NotYetAvailable": false,
+      "allowISO": "IT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Omnia",
+      "Order": "12.1.3",
+      "Level": 3,
+      "Title": "Omnia_title",
+      "Details": "Omnia_details",
+      "NotYetAvailable": false,
+      "allowISO": "IT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "OmniaPaghe",
+      "Order": "12.1.4",
+      "Level": 3,
+      "Title": "OmniaPaghe_title",
+      "Details": "OmniaPaghe_details",
+      "NotYetAvailable": false,
+      "allowISO": "IT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Maestro",
+      "Order": "12.1.5",
+      "Level": 3,
+      "Title": "Maestro_title",
+      "Details": "Maestro_details",
+      "NotYetAvailable": false,
+      "allowISO": "IT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Tesan",
+      "Order": "12.1.6",
+      "Level": 3,
+      "Title": "Tesan_title",
+      "Details": "Tesan_details",
+      "NotYetAvailable": false,
+      "allowISO": "IT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "Framework",
+      "Order": "13",
       "Level": 1,
       "Title": "Framework_title",
       "Details": "Framework_details",
@@ -1529,7 +1823,7 @@
     },
     {
       "Topic": "DMS",
-      "Order": "12.1",
+      "Order": "13.1",
       "Level": 2,
       "Title": "DMS_title",
       "Details": "DMS_details",
@@ -1555,7 +1849,7 @@
     },
     {
       "Topic": "DMSMassive",
-      "Order": "12.1.1",
+      "Order": "13.1.1",
       "Level": 3,
       "Title": "DMSMassive_title",
       "Details": "DMSMassive_details",
@@ -1581,7 +1875,7 @@
     },
     {
       "Topic": "JobScheduler",
-      "Order": "12.2",
+      "Order": "13.2",
       "Level": 2,
       "Title": "JobScheduler_title",
       "Details": "JobScheduler_details",
@@ -1607,7 +1901,7 @@
     },
     {
       "Topic": "Security",
-      "Order": "12.3",
+      "Order": "13.3",
       "Level": 2,
       "Title": "Security_title",
       "Details": "Security_details",
@@ -1633,7 +1927,7 @@
     },
     {
       "Topic": "SecurityAdvanced",
-      "Order": "12.3.1",
+      "Order": "13.3.1",
       "Level": 3,
       "Title": "SecurityAdvanced_title",
       "Details": "SecurityAdvanced_details",
@@ -1659,7 +1953,7 @@
     },
     {
       "Topic": "Auditing",
-      "Order": "12.3.2",
+      "Order": "13.3.2",
       "Level": 3,
       "Title": "Auditing_title",
       "Details": "Auditing_details",
@@ -1685,7 +1979,7 @@
     },
     {
       "Topic": "Visibility",
-      "Order": "12.3.3",
+      "Order": "13.3.3",
       "Level": 3,
       "Title": "Visibility_title",
       "Details": "Visibility_details",
@@ -1711,7 +2005,7 @@
     },
     {
       "Topic": "MyMagoStudio",
-      "Order": "12.4",
+      "Order": "13.4",
       "Level": 2,
       "Title": "MyMagoStudio_title",
       "Details": "MyMagoStudio_details",
