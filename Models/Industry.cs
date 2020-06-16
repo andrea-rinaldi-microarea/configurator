@@ -23,7 +23,7 @@ namespace Configurator.Models
     public class Industry
     {
         public string name {get; set;}
-        public string industryCode {get;set;}
+        public string code {get;set;}
         public string version {get;set;}
         public string productID {get;set;}
         public string productName {get;set;}

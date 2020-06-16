@@ -85,7 +85,7 @@
       "Level": 3,
       "Title": "KPIMobileApp_title",
       "Details": "KPIMobileApp_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -959,7 +959,7 @@
       "Level": 3,
       "Title": "InStore_title",
       "Details": "InStore_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -985,7 +985,7 @@
       "Level": 3,
       "Title": "InStoreApp_title",
       "Details": "InStoreApp_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1642,7 +1642,7 @@
       "Level": 3,
       "Title": "Visibility_title",
       "Details": "Visibility_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1668,7 +1668,7 @@
       "Level": 2,
       "Title": "MyMagoStudio_title",
       "Details": "MyMagoStudio_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",

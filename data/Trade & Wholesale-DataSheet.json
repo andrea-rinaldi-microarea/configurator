@@ -137,7 +137,7 @@
       "Level": 3,
       "Title": "KPIMobileApp_title",
       "Details": "KPIMobileApp_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1169,7 +1169,7 @@
       "Level": 1,
       "Title": "InfinityConnector_title",
       "Details": "InfinityConnector_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1195,7 +1195,7 @@
       "Level": 3,
       "Title": "CRMUserSales_title",
       "Details": "CRMUserSales_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1221,7 +1221,7 @@
       "Level": 3,
       "Title": "CRMUserMarketing_title",
       "Details": "CRMUserMarketing_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1247,7 +1247,7 @@
       "Level": 3,
       "Title": "CRMUserFull_title",
       "Details": "CRMUserFull_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1639,7 +1639,7 @@
       "Level": 3,
       "Title": "WMSMobile_title",
       "Details": "WMSMobile_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1665,7 +1665,7 @@
       "Level": 3,
       "Title": "WMSMobileApp_title",
       "Details": "WMSMobileApp_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -2087,7 +2087,7 @@
       "Level": 3,
       "Title": "Visibility_title",
       "Details": "Visibility_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -2113,7 +2113,7 @@
       "Level": 2,
       "Title": "MyMagoStudio_title",
       "Details": "MyMagoStudio_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",

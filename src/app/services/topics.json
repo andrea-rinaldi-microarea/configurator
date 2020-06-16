@@ -45,7 +45,7 @@
    "order": "01.1.5",
    "title": "KPIMobileApp_title",
    "details": "KPIMobileApp_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  },
  {
    "topic": "Financials",
@@ -397,7 +397,7 @@
    "order": "05.1.3",
    "title":  "InStore_title",
    "details":  "InStore_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  },
  {
    "topic": "InStoreApp",
@@ -405,7 +405,7 @@
    "order": "05.1.4",
    "title":  "InStoreApp_title",
    "details":  "InStoreApp_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  },
  {
    "topic": "InfinityConnector",
@@ -413,7 +413,7 @@
    "order": "06",
    "title":  "InfinityConnector_title",
    "details":  "InfinityConnector_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  },
  {
     "topic": "CRMUserSales",
@@ -421,7 +421,7 @@
     "order": "06.1.1",
     "title":  "CRMUserSales_title",
     "details":  "CRMUserSales_details",
-    "notYetAvailable": false
+    "notYetAvailable": true
   },
   {
     "topic": "CRMUserMarketing",
@@ -429,7 +429,7 @@
     "order": "06.1.2",
     "title":  "CRMUserMarketing_title",
     "details":  "CRMUserMarketing_details",
-    "notYetAvailable": false
+    "notYetAvailable": true
   },
   {
     "topic": "CRMUserFull",
@@ -437,7 +437,7 @@
     "order": "06.1.3",
     "title":  "CRMUserFull_title",
     "details":  "CRMUserFull_details",
-    "notYetAvailable": false
+    "notYetAvailable": true
   },
  {
    "topic": "Purchases",
@@ -559,7 +559,7 @@
    "order": "09.1.2",
    "title":  "WMSMobile_title",
    "details":  "WMSMobile_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  },
  {
    "topic": "WMSMobileApp",
@@ -567,7 +567,7 @@
    "order": "09.1.3",
    "title":  "WMSMobileApp_title",
    "details":  "WMSMobileApp_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  },
  {
    "topic": "BillOfMaterials",
@@ -615,7 +615,7 @@
    "order": "11.1.1",
    "title":  "ManufacturingMobile_title",
    "details":  "ManufacturingMobile_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  },
  {
    "topic": "ManufacturingMobileApp",
@@ -623,7 +623,7 @@
    "order": "11.1.2",
    "title":  "ManufacturingMobileApp_title",
    "details":  "ManufacturingMobileApp_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  },
  {
    "topic": "ManufacturingAdvanced",
@@ -797,7 +797,7 @@
    "order": "13.3.3",
    "title":  "Visibility_title",
    "details":  "Visibility_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  },
  {
    "topic": "MyMagoStudio",
@@ -805,6 +805,6 @@
    "order": "13.4",
    "title":  "MyMagoStudio_title",
    "details":  "MyMagoStudio_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  }
 ]

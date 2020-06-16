@@ -26,6 +26,8 @@ export class IndustryService {
     var $industry = new Observable<any>( observer => {
       this.http.get('/api/industry/' + industry).subscribe((actualData:Industry) => {
         this.current = new Industry(industry);
+        Object.assign(this.current, actualData);
+        this.current.features = [];
         features.forEach(f => {
           var feature = new Feature(f);
           var actualFeat = actualData.features ? actualData.features.find(f => f.fragment == feature.fragment) : null;
@@ -57,6 +59,8 @@ export class IndustryService {
 
   public save() {
     var industry = new Industry(this.current.name);
+    Object.assign(industry, this.current);
+    industry.features = [];
     this.current.features.forEach( f => {
       if (!f.included)
         return;
