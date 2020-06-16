@@ -1,6 +1,6 @@
 {
   "name": "Manufacturing",
-  "code": "MANF",
+  "industryCode": "MANF",
   "version": "6",
   "productID": "MC",
   "productName": "MagoCloud",

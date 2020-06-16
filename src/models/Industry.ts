@@ -48,7 +48,7 @@ export class Industry {
     constructor(
         public name: string
     ) {}
-    public code: string;
+    public industryCode: string;
     public version: string;
     public productID: string;
     public productName: string;
