@@ -542,7 +542,7 @@
    "level": 1,
    "order": "09",
    "title":  "WMSBasic_title",
-   "notYetAvailable": false,
+   "notYetAvailable": true,
    "details": "WMSBasic_details"
 },
  {
@@ -551,7 +551,7 @@
    "order": "09.1.1",
    "title":  "WMSAdvanced_title",
    "details":  "WMSAdvanced_details",
-   "notYetAvailable": false
+   "notYetAvailable": true
  },
  {
    "topic": "WMSMobile",
