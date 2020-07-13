@@ -397,7 +397,7 @@
    "order": "05.1.3",
    "title":  "InStore_title",
    "details":  "InStore_details",
-   "notYetAvailable": true
+   "notYetAvailable": false
  },
  {
    "topic": "InStoreApp",
@@ -405,7 +405,7 @@
    "order": "05.1.4",
    "title":  "InStoreApp_title",
    "details":  "InStoreApp_details",
-   "notYetAvailable": true
+   "notYetAvailable": false
  },
  {
    "topic": "InfinityConnector",
