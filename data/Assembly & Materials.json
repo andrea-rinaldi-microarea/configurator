@@ -1193,7 +1193,7 @@
         },
         {
           "edition": "PRM",
-          "availability": ""
+          "availability": "always"
         },
         {
           "edition": "PRO",
