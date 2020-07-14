@@ -542,7 +542,7 @@
    "level": 1,
    "order": "09",
    "title":  "WMSBasic_title",
-   "notYetAvailable": true,
+   "notYetAvailable": false,
    "details": "WMSBasic_details"
 },
  {
@@ -551,7 +551,7 @@
    "order": "09.1.1",
    "title":  "WMSAdvanced_title",
    "details":  "WMSAdvanced_details",
-   "notYetAvailable": true
+   "notYetAvailable": false
  },
  {
    "topic": "WMSMobile",
@@ -559,7 +559,7 @@
    "order": "09.1.2",
    "title":  "WMSMobile_title",
    "details":  "WMSMobile_details",
-   "notYetAvailable": true
+   "notYetAvailable": false
  },
  {
    "topic": "WMSMobileApp",
@@ -567,7 +567,7 @@
    "order": "09.1.3",
    "title":  "WMSMobileApp_title",
    "details":  "WMSMobileApp_details",
-   "notYetAvailable": true
+   "notYetAvailable": false
  },
  {
    "topic": "BillOfMaterials",
