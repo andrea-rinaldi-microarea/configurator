@@ -1639,7 +1639,7 @@
       "Level": 3,
       "Title": "WMSMobile_title",
       "Details": "WMSMobile_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
@@ -1665,7 +1665,7 @@
       "Level": 3,
       "Title": "WMSMobileApp_title",
       "Details": "WMSMobileApp_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
