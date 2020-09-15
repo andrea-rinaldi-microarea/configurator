@@ -44,7 +44,7 @@ namespace Configurator
                 spa.Options.SourcePath = "wwwroot";
                 if (env.IsDevelopment())
                 {
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
+                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4300");
                 }
             });
 }

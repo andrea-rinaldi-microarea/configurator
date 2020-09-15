@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Industry, Feature, Weight, Distance } from '../../models/Industry';
+import { Industry, Feature, Weight, Distance, FeatureOption } from '../../models/Industry';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 
@@ -35,6 +35,11 @@ export class IndustryService {
             feature.options = actualFeat.options;
             feature.optionID = actualFeat.optionID;
             feature.included = true;
+          } else {
+            feature.options = [];
+            editions.forEach(e => {
+              feature.options.push(new FeatureOption(e));
+            });
           }
           this.current.features.push(feature);
         });

@@ -119,6 +119,9 @@
     "FoodRecipe": {
         "weight": 400
     },
+    "Vouchers": {
+        "weight": 400
+    },
     "Conai" : {
         "weight": 165
     },

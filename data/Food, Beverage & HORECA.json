@@ -842,9 +842,35 @@
     },
     {
       "isModule": false,
+      "description": "Vouchers",
+      "fragment": "Vouchers",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "STVO",
+      "options": [
+        {
+          "edition": "STD"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": false,
       "description": "In-store - Backend",
       "fragment": "InStore",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "STIA",
@@ -871,7 +897,7 @@
       "isModule": false,
       "description": "In-store - App",
       "fragment": "InStoreApp",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "STIC",

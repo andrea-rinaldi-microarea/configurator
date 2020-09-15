@@ -392,9 +392,16 @@
    "notYetAvailable": false
  },
  {
+  "topic": "Vouchers",
+  "level": 3,
+  "order": "05.1.3",
+  "title":  "Vouchers_title",
+  "details":  "Vouchers_details",
+  "notYetAvailable": false
+},{
    "topic": "InStore",
    "level": 3,
-   "order": "05.1.3",
+   "order": "05.1.4",
    "title":  "InStore_title",
    "details":  "InStore_details",
    "notYetAvailable": false
@@ -402,7 +409,7 @@
  {
    "topic": "InStoreApp",
    "level": 3,
-   "order": "05.1.4",
+   "order": "05.1.5",
    "title":  "InStoreApp_title",
    "details":  "InStoreApp_details",
    "notYetAvailable": false

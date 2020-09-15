@@ -400,6 +400,16 @@
    "discontinued": false
  },
  {
+  "isModule": false,
+  "description": "Vouchers",
+  "fragment": "Vouchers",
+  "isAvailable": true,
+  "allowISO": "",
+  "denyISO": "",
+  "tag": "STVO",
+  "discontinued": false
+},
+{
    "isModule": false,
    "description": "In-store - Backend",
    "fragment": "InStore",
