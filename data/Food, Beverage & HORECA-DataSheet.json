@@ -954,12 +954,38 @@
       ]
     },
     {
-      "Topic": "InStore",
+      "Topic": "Vouchers",
       "Order": "05.1.3",
+      "Level": 3,
+      "Title": "Vouchers_title",
+      "Details": "Vouchers_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "InStore",
+      "Order": "05.1.4",
       "Level": 3,
       "Title": "InStore_title",
       "Details": "InStore_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
@@ -981,11 +1007,11 @@
     },
     {
       "Topic": "InStoreApp",
-      "Order": "05.1.4",
+      "Order": "05.1.5",
       "Level": 3,
       "Title": "InStoreApp_title",
       "Details": "InStoreApp_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
