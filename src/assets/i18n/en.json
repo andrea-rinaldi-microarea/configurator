@@ -129,7 +129,7 @@
     "FoodRecipe_details": "Complete management of food recipes, ingredient list and preparation details. Fixed or proportional ingredient quantities, unloading from the inventory of ingredients used to compose the finished dish, Allergens and nutritional facts to be printed out on labels for the packages or to display in the store.",
 
     "Vouchers_title" : "Vouchers",
-    "Vouchers_details": "Complete management of vouchers, such as prepaid cards, meal vouchers or gift cards.",
+    "Vouchers_details": "Complete management of vouchers, such as prepaid cards, meal vouchers or gift cards (not available for Italy at the moment).",
 
     "InStore_title" : "In-store back-end",
     "InStore_details": "Management of the stock control, inventory, goods receipt, reorder and transfer request for the store throughout Wi-Fi Rfid handheld devices, using a specific app installed on them.",

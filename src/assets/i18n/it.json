@@ -129,7 +129,7 @@
     "FoodRecipe_details": "Gestione completa ricetta alimentare, lista ingredienti e dettaglio preparazione. Ingredienti in quantità fissa o proporzionale, scarico ingredienti da magazzino su composizione piatto finito. Attributi nutrizionali ed allergeni stampabili sulle confezioni o da esporre nel punto vendita.",
 
     "Vouchers_title" : "Vouchers",
-    "Vouchers_details": "Gestione completa del pagamento tramite vouchers, quali buoni pasto, convenzioni aziendali o gift cards.",
+    "Vouchers_details": "Gestione completa del pagamento tramite vouchers, quali buoni pasto, convenzioni aziendali o gift cards (non gestite in country Italia al momento).",
 
     "InStore_title" : "In-store back-end",
     "InStore_details": "Permette la gestione di controllo stock, inventario periodico, ricezione merce, riordino e richieste di trasferimento per il punto vendita mediante dispositivi portatili Wi-Fi Rfid (terminalini), tramite la apposita app da installarsi sui dispositivi.",

@@ -1,6 +1,6 @@
 import { DataSheetLine, DataSheetLineOption } from '../../../models/data-sheet';
 import { DataSheetService } from '../../services/data-sheet.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 import { Title } from '@angular/platform-browser';
 
@@ -18,6 +18,7 @@ export class DataSheetComponent implements OnInit {
   private industryList: string[] = industryList;
   private editMode: boolean;
   private showDetails: boolean = false;
+  private hideExcluded: boolean = false;
 
   private topicTypes = [
     {
@@ -56,7 +57,8 @@ export class DataSheetComponent implements OnInit {
   constructor(
     private dataSheet: DataSheetService,
     public translate: TranslateService,
-    public titleService: Title
+    public titleService: Title,
+    private ref: ChangeDetectorRef
   ) { }
 
   private setTitle() {
@@ -150,6 +152,9 @@ export class DataSheetComponent implements OnInit {
   }
 
   onPrint() {
+    this.hideExcluded = true;
+    this.showDetails = true;
+    this.ref.detectChanges();
     window.print();
   }
 }
