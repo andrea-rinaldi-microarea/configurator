@@ -710,7 +710,7 @@
       ]
     },
     {
-      "isModule": false,
+      "isModule": true,
       "description": "WEEE",
       "fragment": "WEEE",
       "isAvailable": true,
@@ -725,7 +725,7 @@
       ]
     },
     {
-      "isModule": false,
+      "isModule": true,
       "description": "Sales Force Management",
       "fragment": "SalesPeople",
       "isAvailable": true,
@@ -740,7 +740,7 @@
       ]
     },
     {
-      "isModule": false,
+      "isModule": true,
       "description": "Credit Limit Management",
       "fragment": "CreditLimit",
       "isAvailable": true,
@@ -755,7 +755,7 @@
       ]
     },
     {
-      "isModule": false,
+      "isModule": true,
       "description": "Additional Charges",
       "fragment": "AdditionalCharges",
       "isAvailable": true,
@@ -770,7 +770,7 @@
       ]
     },
     {
-      "isModule": false,
+      "isModule": true,
       "description": "Purchase Orders",
       "fragment": "PurchaseOrders",
       "isAvailable": true,
