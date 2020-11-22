@@ -6,6 +6,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "SEVR",
    "tag": "SEVR",
    "discontinued": false
  },
@@ -16,6 +17,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "MLNG",
    "tag": "SEVR",
    "discontinued": false
  },
@@ -26,6 +28,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "MCUR",
    "tag": "SEVR",
    "discontinued": false
  },
@@ -36,6 +39,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CNTS",
    "tag": "SEVR",
    "discontinued": false
  },
@@ -46,6 +50,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "BUDG",
    "tag": "SEVR",
    "discontinued": false
  },
@@ -56,6 +61,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "KPIM",
    "tag": "KPIM",
    "discontinued": false
  },
@@ -66,6 +72,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "BR",
+   "optionID": "CONT",
    "tag": "CONT",
    "discontinued": false
  },
@@ -76,6 +83,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "BR",
+   "optionID": "CTAX",
    "tag": "CONT",
    "discontinued": false
  },
@@ -86,6 +94,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "BR",
+   "optionID": "CTEM",
    "tag": "CONT",
    "discontinued": false
  },
@@ -96,6 +105,7 @@
    "isAvailable": true,
    "allowISO": "IT",
    "denyISO": "",
+   "optionID": "CPCO",
    "tag": "CPCO",
    "discontinued": false
  },
@@ -106,6 +116,7 @@
    "isAvailable": true,
    "allowISO": "IT,HU",
    "denyISO": "",
+   "optionID": "PLAF",
    "tag": "CONT",
    "discontinued": false
  },
@@ -116,6 +127,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "ADAP",
    "tag": "CONT",
    "discontinued": false
  },
@@ -126,6 +138,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "DUNN",
    "tag": "CONT",
    "discontinued": false
  },
@@ -136,6 +149,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "PSAC",
    "tag": "CONT",
    "discontinued": false
  },
@@ -146,6 +160,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "BR",
+   "optionID": "AADE",
    "tag": "CONT",
    "discontinued": false
  },
@@ -156,6 +171,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "BR",
+   "optionID": "BARE",
    "tag": "CONT",
    "discontinued": false
  },
@@ -166,6 +182,7 @@
    "isAvailable": true,
    "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
    "denyISO": "",
+   "optionID": "PFWT",
    "tag": "CONT",
    "discontinued": false
  },
@@ -176,6 +193,7 @@
    "isAvailable": true,
    "allowISO": "IT",
    "denyISO": "",
+   "optionID": "BAPL",
    "tag": "BAPL",
    "discontinued": true
  },
@@ -186,6 +204,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CSPT",
    "tag": "CSPT",
    "discontinued": false
  },
@@ -196,6 +215,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "BR",
+   "optionID": "COPR",
    "tag": "COPR",
    "discontinued": false
  },
@@ -206,6 +226,7 @@
    "isAvailable": true,
    "allowISO": "IT",
    "denyISO": "",
+   "optionID": "XBRL",
    "tag": "XBRL",
    "discontinued": false
  },
@@ -216,6 +237,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "BR",
+   "optionID": "LIBR",
    "tag": "LIBR",
    "discontinued": false
  },
@@ -226,6 +248,7 @@
    "isAvailable": false,
    "allowISO": "IT",
    "denyISO": "",
+   "optionID": "BAII",
    "tag": "BAII",
    "discontinued": false
  },
@@ -236,6 +259,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "BR",
+   "optionID": "BICO",
    "tag": "BICO",
    "discontinued": false
  },
@@ -246,6 +270,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "COAN",
    "tag": "COAN",
    "discontinued": false
  },
@@ -256,6 +281,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CFIN",
    "tag": "CFIN",
    "discontinued": false
  },
@@ -266,6 +292,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CATR",
    "tag": "CFIN",
    "discontinued": false
  },
@@ -276,6 +303,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "IT,CH,BR",
+   "optionID": "CASH",
    "tag": "CASH",
    "discontinued": false
  },
@@ -286,6 +314,7 @@
    "isAvailable": true,
    "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
    "denyISO": "",
+   "optionID": "INTR",
    "tag": "INTR",
    "discontinued": false
  },
@@ -296,6 +325,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "VEDT",
    "tag": "VEDT",
    "discontinued": false
  },
@@ -306,6 +336,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "ADIM",
    "tag": "VEDT",
    "discontinued": false
  },
@@ -316,6 +347,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "ORCL",
    "tag": "ORCL",
    "discontinued": false
  },
@@ -326,6 +358,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CQUO",
    "tag": "ORCL",
    "discontinued": false
  },
@@ -336,6 +369,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "SIDN",
    "tag": "VEDT",
    "discontinued": false
  },
@@ -346,6 +380,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "MSBO",
    "tag": "VEDT",
    "discontinued": false
  },
@@ -356,6 +391,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "PLIS",
    "tag": "VEDT",
    "discontinued": false
  },
@@ -366,6 +402,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "KKCN",
    "tag": "KKCN",
    "discontinued": false
  },
@@ -376,6 +413,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "STMN",
    "tag": "STMN",
    "discontinued": false
  },
@@ -386,6 +424,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "RMVN",
    "tag": "RMVN",
    "discontinued": false
  },
@@ -396,6 +435,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "STRE",
    "tag": "STRE",
    "discontinued": false
  },
@@ -406,6 +446,7 @@
   "isAvailable": true,
   "allowISO": "",
   "denyISO": "",
+  "optionID": "STVO",
   "tag": "STVO",
   "discontinued": false
 },
@@ -416,6 +457,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "STIA",
    "tag": "STIA",
    "discontinued": false
  },
@@ -426,6 +468,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "STIC",
    "tag": "STIC",
    "discontinued": false
  },
@@ -436,6 +479,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "MAIF",
    "tag": "MAIF",
    "discontinued": false
  },
@@ -446,6 +490,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CRMS",
    "tag": "CRMS",
    "discontinued": false
  },
@@ -456,6 +501,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CRMM",
    "tag": "CRMM",
    "discontinued": false
  },
@@ -466,6 +512,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CRMF",
    "tag": "CRMF",
    "discontinued": false
  },
@@ -476,6 +523,7 @@
    "isAvailable": true,
    "allowISO": "IT,RO,BG,HU,ES",
    "denyISO": "",
+   "optionID": "CONA",
    "tag": "CONA",
    "discontinued": false
  },
@@ -486,6 +534,7 @@
    "isAvailable": true,
    "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK",
    "denyISO": "",
+   "optionID": "RAEE",
    "tag": "RAEE",
    "discontinued": false
  },
@@ -496,6 +545,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "SFMG",
    "tag": "SFMG",
    "discontinued": false
  },
@@ -506,6 +556,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CRED",
    "tag": "CRED",
    "discontinued": false
  },
@@ -516,6 +567,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "BR",
+   "optionID": "ADCH",
    "tag": "SEVR",
    "discontinued": false
  },
@@ -526,6 +578,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "ORFO",
    "tag": "ORFO",
    "discontinued": false
  },
@@ -536,6 +589,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "SQUO",
    "tag": "ORFO",
    "discontinued": false
  },
@@ -546,6 +600,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "ACQT",
    "tag": "ACQT",
    "discontinued": false
  },
@@ -556,6 +611,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CPAC",
    "tag": "CPAC",
    "discontinued": false
  },
@@ -566,6 +622,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "MAGA",
    "tag": "MAGA",
    "discontinued": false
  },
@@ -576,6 +633,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "MSTO",
    "tag": "MAGA",
    "discontinued": false
  },
@@ -586,6 +644,7 @@
    "isAvailable": true,
    "allowISO": "HU,IT,CH,BG,DE",
    "denyISO": "",
+   "optionID": "SSLF",
    "tag": "MAGA",
    "discontinued": false
  },
@@ -596,6 +655,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "ADIC",
    "tag": "MAGA",
    "discontinued": false
  },
@@ -606,6 +666,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "INSP",
    "tag": "INSP",
    "discontinued": false
  },
@@ -616,6 +677,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "BARC",
    "tag": "BARC",
    "discontinued": true
  },
@@ -626,6 +688,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "LOTT",
    "tag": "LOTT",
    "discontinued": false
  },
@@ -636,6 +699,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "WMAA",
    "tag": "WMAA",
    "discontinued": false
  },
@@ -646,6 +710,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "WMAD",
    "tag": "WMAD",
    "discontinued": false
  },
@@ -656,6 +721,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "WMSH",
    "tag": "WMSH",
    "discontinued": true
  },
@@ -666,6 +732,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "WMRF",
    "tag": "WMRF",
    "discontinued": false
  },
@@ -676,6 +743,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "WMRC",
    "tag": "WMRC",
    "discontinued": false
  },
@@ -686,6 +754,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "RESM",
    "tag": "SEVR",
    "discontinued": false
  },
@@ -696,6 +765,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "DIST",
    "tag": "DIST",
    "discontinued": false
  },
@@ -706,6 +776,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "ECO",
    "tag": "ECO",
    "discontinued": false
  },
@@ -716,6 +787,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "VARI",
    "tag": "VARI",
    "discontinued": false
  },
@@ -726,6 +798,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "CONF",
    "tag": "CONF",
    "discontinued": false
  },
@@ -736,6 +809,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "PRZB",
    "tag": "PRZB",
    "discontinued": false
  },
@@ -746,6 +820,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "PRZA",
    "tag": "PRZA",
    "discontinued": false
  },
@@ -756,6 +831,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "DMHV",
    "tag": "PRZA",
    "discontinued": false
  },
@@ -766,6 +842,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "KANB",
    "tag": "PRZA",
    "discontinued": false
  },
@@ -776,6 +853,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "OPOR",
    "tag": "OPOR",
    "discontinued": false
  },
@@ -786,6 +864,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "MANM",
    "tag": "MANM",
    "discontinued": false
  },
@@ -796,6 +875,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "MANC",
    "tag": "MANC",
    "discontinued": false
  },
@@ -806,6 +886,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "PRZP",
    "tag": "PRZP",
    "discontinued": false
  },
@@ -816,6 +897,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "PRPA",
    "tag": "PRPA",
    "discontinued": false
  },
@@ -826,6 +908,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "ATTR",
    "tag": "ATTR",
    "discontinued": false
  },
@@ -836,6 +919,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "EATT",
    "tag": "EATT",
    "discontinued": false
  },
@@ -846,6 +930,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "MASS",
    "tag": "MASS",
    "discontinued": false
  },
@@ -856,6 +941,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "SCHD",
    "tag": "SCHD",
    "discontinued": false
  },
@@ -866,6 +952,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "OSLL",
    "tag": "OSLL",
    "discontinued": false
  },
@@ -876,6 +963,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "OSLS",
    "tag": "OSLS",
    "discontinued": false
  },
@@ -886,6 +974,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "AUDT",
    "tag": "AUDT",
    "discontinued": false
  },
@@ -896,6 +985,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "VISI",
    "tag": "VISI",
    "discontinued": false
  },
@@ -906,6 +996,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "MYMS",
    "tag": "MYMS",
    "discontinued": false
  },
@@ -916,6 +1007,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "XGAT",
    "tag": "XGAT",
    "discontinued": true
  },
@@ -926,6 +1018,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
+   "optionID": "ISCF",
    "tag": "ISCF",
    "discontinued": true
  }

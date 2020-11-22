@@ -14,20 +14,8 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -38,23 +26,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "SEVR",
+      "optionID": "MLNG",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -65,23 +41,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "SEVR",
+      "optionID": "MCUR",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -92,23 +56,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "SEVR",
+      "optionID": "CNTS",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -119,23 +71,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "SEVR",
+      "optionID": "BUDG",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -149,20 +89,8 @@
       "optionID": "KPIM",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "count"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -176,20 +104,8 @@
       "optionID": "CONT",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -200,23 +116,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "CONT",
+      "optionID": "CTAX",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -227,23 +131,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "CONT",
+      "optionID": "CTEM",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -257,20 +149,8 @@
       "optionID": "CPCO",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -281,23 +161,11 @@
       "isAvailable": true,
       "allowISO": "IT,HU",
       "denyISO": "",
-      "optionID": "CONT",
+      "optionID": "PLAF",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -308,23 +176,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "CONT",
+      "optionID": "ADAP",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -335,23 +191,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "CONT",
+      "optionID": "DUNN",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -362,23 +206,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "CONT",
+      "optionID": "PSAC",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -389,23 +221,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "CONT",
+      "optionID": "AADE",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -416,23 +236,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "CONT",
+      "optionID": "BARE",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -443,23 +251,11 @@
       "isAvailable": true,
       "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
       "denyISO": "",
-      "optionID": "CONT",
+      "optionID": "PFWT",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -473,20 +269,8 @@
       "optionID": "CSPT",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -500,20 +284,8 @@
       "optionID": "COPR",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -527,20 +299,8 @@
       "optionID": "XBRL",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -554,20 +314,8 @@
       "optionID": "LIBR",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -581,20 +329,8 @@
       "optionID": "BAII",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -608,20 +344,8 @@
       "optionID": "BICO",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -635,20 +359,8 @@
       "optionID": "COAN",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -662,20 +374,8 @@
       "optionID": "CFIN",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -686,23 +386,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "CFIN",
+      "optionID": "CATR",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -716,20 +404,8 @@
       "optionID": "CASH",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -743,20 +419,8 @@
       "optionID": "INTR",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -770,20 +434,8 @@
       "optionID": "VEDT",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -794,23 +446,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "VEDT",
+      "optionID": "ADIM",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -824,20 +464,8 @@
       "optionID": "ORCL",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -848,23 +476,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "ORCL",
+      "optionID": "CQUO",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -875,23 +491,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "VEDT",
+      "optionID": "SIDN",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -902,23 +506,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "VEDT",
+      "optionID": "MSBO",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -929,23 +521,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "VEDT",
+      "optionID": "PLIS",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -959,20 +539,8 @@
       "optionID": "KKCN",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "PPT"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -986,20 +554,8 @@
       "optionID": "STMN",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1013,20 +569,8 @@
       "optionID": "RMVN",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1040,20 +584,8 @@
       "optionID": "STRE",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1067,20 +599,8 @@
       "optionID": "STVO",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1094,20 +614,8 @@
       "optionID": "STIA",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1121,20 +629,8 @@
       "optionID": "STIC",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "count"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1148,20 +644,8 @@
       "optionID": "MAIF",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1175,20 +659,8 @@
       "optionID": "CRMS",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "count"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1202,20 +674,8 @@
       "optionID": "CRMM",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "count"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1229,20 +689,8 @@
       "optionID": "CRMF",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "count"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1256,20 +704,8 @@
       "optionID": "CONA",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1283,20 +719,8 @@
       "optionID": "RAEE",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1310,20 +734,8 @@
       "optionID": "SFMG",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1337,20 +749,8 @@
       "optionID": "CRED",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1361,23 +761,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "BR",
-      "optionID": "SEVR",
+      "optionID": "ADCH",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1391,20 +779,8 @@
       "optionID": "ORFO",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1415,23 +791,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "ORFO",
+      "optionID": "SQUO",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1445,20 +809,8 @@
       "optionID": "ACQT",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1472,20 +824,8 @@
       "optionID": "CPAC",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1499,20 +839,8 @@
       "optionID": "MAGA",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1523,23 +851,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "MAGA",
+      "optionID": "MSTO",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1550,23 +866,11 @@
       "isAvailable": true,
       "allowISO": "HU,IT,CH,BG,DE",
       "denyISO": "",
-      "optionID": "MAGA",
+      "optionID": "SSLF",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1577,23 +881,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "MAGA",
+      "optionID": "ADIC",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1607,20 +899,8 @@
       "optionID": "INSP",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1634,20 +914,8 @@
       "optionID": "LOTT",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1661,20 +929,8 @@
       "optionID": "WMAA",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1688,20 +944,8 @@
       "optionID": "WMAD",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1715,20 +959,8 @@
       "optionID": "WMRF",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1742,46 +974,8 @@
       "optionID": "WMRC",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "count"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
-        }
-      ]
-    },
-    {
-      "isModule": true,
-      "description": "Resources Management",
-      "fragment": "_RESMAN",
-      "isAvailable": true,
-      "allowISO": "",
-      "denyISO": "",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1795,20 +989,8 @@
       "optionID": "DIST",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1822,20 +1004,8 @@
       "optionID": "ECO",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1849,20 +1019,8 @@
       "optionID": "VARI",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1876,20 +1034,8 @@
       "optionID": "CONF",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1903,20 +1049,8 @@
       "optionID": "PRZB",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1930,20 +1064,8 @@
       "optionID": "PRZA",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1954,23 +1076,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "PRZA",
+      "optionID": "DMHV",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -1981,23 +1091,11 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "PRZA",
+      "optionID": "KANB",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2011,20 +1109,8 @@
       "optionID": "OPOR",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2038,20 +1124,8 @@
       "optionID": "MANM",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2065,20 +1139,8 @@
       "optionID": "MANC",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "count"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2092,20 +1154,8 @@
       "optionID": "PRZP",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2119,20 +1169,8 @@
       "optionID": "PRPA",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2146,20 +1184,8 @@
       "optionID": "ATTR",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2173,20 +1199,8 @@
       "optionID": "EATT",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2200,20 +1214,8 @@
       "optionID": "MASS",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2227,20 +1229,8 @@
       "optionID": "SCHD",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2254,20 +1244,8 @@
       "optionID": "OSLL",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2281,20 +1259,8 @@
       "optionID": "OSLS",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2308,20 +1274,8 @@
       "optionID": "AUDT",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2335,20 +1289,8 @@
       "optionID": "VISI",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "optional"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -2362,20 +1304,8 @@
       "optionID": "MYMS",
       "options": [
         {
-          "edition": "STD",
+          "edition": "CRT",
           "availability": "count"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     }
