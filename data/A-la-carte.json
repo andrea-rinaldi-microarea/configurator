@@ -431,7 +431,7 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "VEDT",
+      "optionID": "SPDO",
       "options": [
         {
           "edition": "CRT",
@@ -491,7 +491,7 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "SIDN",
+      "optionID": "VEDT",
       "options": [
         {
           "edition": "CRT",

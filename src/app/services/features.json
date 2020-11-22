@@ -325,7 +325,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
-   "optionID": "VEDT",
+   "optionID": "SPDO",
    "tag": "VEDT",
    "discontinued": false
  },
@@ -369,7 +369,7 @@
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
-   "optionID": "SIDN",
+   "optionID": "VEDT",
    "tag": "VEDT",
    "discontinued": false
  },
