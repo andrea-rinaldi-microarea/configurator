@@ -1,3 +1,4 @@
+import { CSVDataSheet, CSVDataSheetLine } from './../../../models/data-sheet';
 import { DataSheetLine, DataSheetLineOption } from '../../../models/data-sheet';
 import { DataSheetService } from '../../services/data-sheet.service';
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
@@ -157,4 +158,17 @@ export class DataSheetComponent implements OnInit {
     this.ref.detectChanges();
     window.print();
   }
+
+  onCSVExport() {
+    var csv = new CSVDataSheet(this.dataSheet.current.name);
+    this.dataSheet.current.lines.forEach( line => {
+      if (!line.included) return;
+      csv.lines.push(new CSVDataSheetLine({
+        level: line.level,
+        title: this.translate.instant(line.title),
+        details: line.details ? this.translate.instant(line.details) : ''
+      }))
+    });
+    this.dataSheet.CSVExport(csv);
+  }  
 }

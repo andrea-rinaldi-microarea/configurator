@@ -26,4 +26,17 @@ namespace Configurator.Models
         public string Name { get; set; }
         public DataSheetLine[] Lines { get; set; }
     }
+
+    public class CSVDataSheetLine
+    {
+        public int Level { get; set; }
+        public string Title { get; set; }
+        public string Details { get; set; }
+    }
+
+    public class CSVDataSheet
+    {
+        public string Name { get; set; }
+        public CSVDataSheetLine[] Lines { get; set; }
+    }
  }

@@ -44,3 +44,20 @@ export class DataSheet {
     ) {}
     public lines: DataSheetLine[] = [];
 }
+
+export class CSVDataSheetLine {
+    constructor(
+        line: CSVDataSheetLine
+    ) { Object.assign(this, line);}
+
+    public level: number;
+    public title: string;
+    public details: string;
+}
+
+export class CSVDataSheet {
+    constructor(
+        public name: string
+    ) {}
+    public lines: CSVDataSheetLine[] = [];
+}

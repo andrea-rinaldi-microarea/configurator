@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Topic } from '../../models/data-sheet';
+import { CSVDataSheet, Topic } from '../../models/data-sheet';
 import { Injectable } from '@angular/core';
 import { DataSheet, DataSheetLine } from '../../models/data-sheet';
 import { Observable } from 'rxjs/Observable';
@@ -61,5 +61,10 @@ export class DataSheetService {
     return $dataSheet;
   }
 
+  public CSVExport(csv: CSVDataSheet) {
+    this.http.post('/api/dataSheet/csv-export', csv).subscribe(res => {
+      console.log("exported to CSV");
+    });
+  }
 
 }

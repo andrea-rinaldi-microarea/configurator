@@ -1,5 +1,7 @@
 using System.IO;
+using System.Text;
 using Configurator.Models;
+using CsvHelper;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -39,5 +41,18 @@ namespace Configurator.Controllers
             }
             return NoContent();
         }
+
+        [HttpPost("csv-export")]
+        public IActionResult CSVExport([FromBody] CSVDataSheet csvExp)
+        {
+            System.IO.Directory.CreateDirectory("output");
+            using(TextWriter writer = new StreamWriter($"output\\{csvExp.Name}.csv", false, Encoding.UTF8))
+            {
+                var csv = new CsvWriter( writer );
+                csv.Configuration.Delimiter = ";";
+                csv.WriteRecords( csvExp.Lines );
+            }
+            return NoContent();
+        }             
     }
 }
