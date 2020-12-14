@@ -90,7 +90,7 @@
           <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, 'ENT').plus}} / -{{configurationDistance(industry.current.distances, 'ENT').minus}}</span>
         </th>
       </tr>
-      <tr *ngFor="let feature of industry.current.features | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.isModule">
+      <tr *ngFor="let feature of industry.current.features | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.level == 1">
           <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
           <td [class.discontinued]="feature.discontinued">
             <i class="fa fa-calendar text-warning" [hidden]="feature.isAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
