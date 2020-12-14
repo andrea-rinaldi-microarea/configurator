@@ -87,10 +87,10 @@
         "weight": 95
     },
     "SalePurchaseDocuments" : {
-        "weight": 357
+        "weight": 0
     },
     "Sales" : {
-        "weight": 0
+        "weight": 357
     },
     "AdvancedItemsManagement" : {
         "weight": 73
