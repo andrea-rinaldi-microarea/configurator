@@ -65,3 +65,25 @@ select{
 .legend {
     margin-bottom: 60px;
 }
+
+.level-1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.level-2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.level-3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 0.5em;
+}
+
+.no-level {
+    font-size: 1rem;
+    color: darkorange;
+}
+

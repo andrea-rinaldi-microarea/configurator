@@ -14,6 +14,7 @@ export class Feature {
 
     public fragment: string
     public isModule: boolean;
+    public level: number;
     public description: string;
     public isAvailable: boolean;
     public allowISO: string;

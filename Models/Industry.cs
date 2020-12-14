@@ -11,6 +11,7 @@ namespace Configurator.Models
     public class Feature
     {
         public bool isModule {get;set;}
+        public int level {get;set;}
         public string description {get;set;}
         public string fragment {get;set;}
         public bool isAvailable {get;set;}

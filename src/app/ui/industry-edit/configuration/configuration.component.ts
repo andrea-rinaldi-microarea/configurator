@@ -109,6 +109,15 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     }
   }
 
+  featureClass(feature: Feature) {
+    if (feature.level) {
+      return "level-" + feature.level;
+    }
+    else {
+      return "no-level";
+    }
+  }
+
   selectAll(edition: string) {
     var newValue = this.option(this.industry.current.features[0], edition).availability == this.featureTypes[0].value ?
                     this.featureTypes[1].value : 

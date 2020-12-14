@@ -2,6 +2,7 @@
  {
    "isModule": true,
    "description": "Base Module",
+   "level": 1,
    "fragment": "Server",
    "isAvailable": true,
    "allowISO": "",
@@ -13,6 +14,7 @@
  {
    "isModule": false,
    "description": "Multilanguage descriptions",
+   "level": 3,
    "fragment": "Languages",
    "isAvailable": true,
    "allowISO": "",
@@ -24,6 +26,7 @@
  {
    "isModule": false,
    "description": "Multicurrency",
+   "level": 3,
    "fragment": "Currencies",
    "isAvailable": true,
    "allowISO": "",
@@ -35,6 +38,7 @@
  {
    "isModule": false,
    "description": "Contacts Management",
+   "level": 3,
    "fragment": "Contacts",
    "isAvailable": true,
    "allowISO": "",
@@ -46,6 +50,7 @@
  {
    "isModule": false,
    "description": "Budget (Cust/Supp)",
+   "level": 3,
    "fragment": "Budget",
    "isAvailable": true,
    "allowISO": "",
@@ -57,6 +62,7 @@
  {
    "isModule": false,
    "description": "KPI Dashboards mobile app",
+   "level": 3,
    "fragment": "KPIMobileApp",
    "isAvailable": false,
    "allowISO": "",
@@ -68,6 +74,7 @@
  {
    "isModule": true,
    "description": "Financials",
+   "level": 1,
    "fragment": "Financials",
    "isAvailable": true,
    "allowISO": "",
@@ -79,6 +86,7 @@
  {
    "isModule": false,
    "description": "Customizable Tax Journals",
+   "level": 3,
    "fragment": "MultiTaxJournals",
    "isAvailable": true,
    "allowISO": "",
@@ -90,6 +98,7 @@
  {
    "isModule": false,
    "description": "Customizable Accounting Templates",
+   "level": 3,
    "fragment": "CustomizedAccountingTemplates",
    "isAvailable": true,
    "allowISO": "",
@@ -101,6 +110,7 @@
  {
    "isModule": false,
    "description": "Purchase Electronic Invoice Accounting Import",
+   "level": 3,
    "fragment": "PurchaseElectronicInvoicing",
    "isAvailable": true,
    "allowISO": "IT",
@@ -112,6 +122,7 @@
  {
    "isModule": false,
    "description": "Plafond Management",
+   "level": 3,
    "fragment": "Plafond",
    "isAvailable": true,
    "allowISO": "IT,HU",
@@ -122,18 +133,44 @@
  },
  {
    "isModule": false,
-   "description": "Advanced AP/AR Management",
-   "fragment": "AP_AR_Plus",
+   "description": "Automatic Accrual and Deferrals",
+   "fragment": "AccrualsDeferrals",
+   "level": 3,
    "isAvailable": true,
    "allowISO": "",
-   "denyISO": "",
-   "optionID": "ADAP",
+   "denyISO": "BR",
+   "optionID": "AADE",
    "tag": "CONT",
    "discontinued": false
  },
  {
    "isModule": false,
+   "description": "Professionals Fees and Withholding Tax",
+   "level": 3,
+   "fragment": "Payees",
+   "isAvailable": true,
+   "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
+   "denyISO": "",
+   "optionID": "PFWT",
+   "tag": "CONT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Cash Management",
+   "level": 3,
+   "fragment": "Cash",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "IT,CH,BR",
+   "optionID": "CASH",
+   "tag": "CASH",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
    "description": "Dunning letters",
+   "level": 3,
    "fragment": "Dunnings",
    "isAvailable": true,
    "allowISO": "",
@@ -145,6 +182,7 @@
  {
    "isModule": false,
    "description": "Payment Schedule Analysis and Cash Flow",
+   "level": 3,
    "fragment": "AP_AR_Analysis",
    "isAvailable": true,
    "allowISO": "",
@@ -155,18 +193,20 @@
  },
  {
    "isModule": false,
-   "description": "Automatic Accrual and Deferrals",
-   "fragment": "AccrualsDeferrals",
+   "description": "Advanced AP/AR Management",
+   "level": 3,
+   "fragment": "AP_AR_Plus",
    "isAvailable": true,
    "allowISO": "",
-   "denyISO": "BR",
-   "optionID": "AADE",
+   "denyISO": "",
+   "optionID": "ADAP",
    "tag": "CONT",
    "discontinued": false
  },
  {
    "isModule": false,
    "description": "Balance Analysis and Reclassifications",
+   "level": 2,
    "fragment": "BalanceAnalysis",
    "isAvailable": true,
    "allowISO": "",
@@ -177,17 +217,78 @@
  },
  {
    "isModule": false,
-   "description": "Professionals Fees and Withholding Tax",
-   "fragment": "Payees",
+   "description": "XBRL Balance",
+   "level": 3,
+   "fragment": "XBRL",
    "isAvailable": true,
-   "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
+   "allowISO": "IT",
    "denyISO": "",
-   "optionID": "PFWT",
-   "tag": "CONT",
+   "optionID": "XBRL",
+   "tag": "XBRL",
    "discontinued": false
  },
  {
-   "isModule": true,
+   "isModule": false,
+   "description": "Accounting Books and Balance Attachments",
+   "level": 3,
+   "fragment": "AccountingBooks",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "optionID": "LIBR",
+   "tag": "LIBR",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Balance Analysis (Basel II)",
+   "level": 3,
+   "fragment": "Basel_II",
+   "isAvailable": false,
+   "allowISO": "IT",
+   "denyISO": "",
+   "optionID": "BAII",
+   "tag": "BAII",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Fixed Assets",
+   "level": 2,
+   "fragment": "FixedAssets",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "CSPT",
+   "tag": "CSPT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Forecast Accounting",
+   "level": 2,
+   "fragment": "ForecastAccounting",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "optionID": "COPR",
+   "tag": "COPR",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Multicompany Balance",
+   "level": 2,
+   "fragment": "MultiCompanyBalances",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "BR",
+   "optionID": "BICO",
+   "tag": "BICO",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
    "description": "Advanced Banks Management",
    "fragment": "",
    "isAvailable": true,
@@ -198,74 +299,9 @@
    "discontinued": true
  },
  {
-   "isModule": true,
-   "description": "Fixed Assets",
-   "fragment": "FixedAssets",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "CSPT",
-   "tag": "CSPT",
-   "discontinued": false
- },
- {
-   "isModule": true,
-   "description": "Forecast Accounting",
-   "fragment": "ForecastAccounting",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "BR",
-   "optionID": "COPR",
-   "tag": "COPR",
-   "discontinued": false
- },
- {
-   "isModule": true,
-   "description": "XBRL Balance",
-   "fragment": "XBRL",
-   "isAvailable": true,
-   "allowISO": "IT",
-   "denyISO": "",
-   "optionID": "XBRL",
-   "tag": "XBRL",
-   "discontinued": false
- },
- {
-   "isModule": true,
-   "description": "Accounting Books and Balance Attachments",
-   "fragment": "AccountingBooks",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "BR",
-   "optionID": "LIBR",
-   "tag": "LIBR",
-   "discontinued": false
- },
- {
-   "isModule": true,
-   "description": "Balance Analysis (Basel II)",
-   "fragment": "Basel_II",
-   "isAvailable": false,
-   "allowISO": "IT",
-   "denyISO": "",
-   "optionID": "BAII",
-   "tag": "BAII",
-   "discontinued": false
- },
- {
-   "isModule": true,
-   "description": "Multicompany Balance",
-   "fragment": "MultiCompanyBalances",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "BR",
-   "optionID": "BICO",
-   "tag": "BICO",
-   "discontinued": false
- },
- {
-   "isModule": true,
+   "isModule": false,
    "description": "Analysis & Controlling",
+   "level": 2,
    "fragment": "CostAccounting",
    "isAvailable": true,
    "allowISO": "",
@@ -277,6 +313,7 @@
  {
    "isModule": false,
    "description": "Product Lines",
+   "level": 3,
    "fragment": "ProductLines",
    "isAvailable": true,
    "allowISO": "",
@@ -288,6 +325,7 @@
  {
    "isModule": false,
    "description": "Transfers",
+   "level": 3,
    "fragment": "CostAccountingTransfer",
    "isAvailable": true,
    "allowISO": "",
@@ -297,19 +335,9 @@
    "discontinued": false
  },
  {
-   "isModule": true,
-   "description": "Cash Management",
-   "fragment": "Cash",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "IT,CH,BR",
-   "optionID": "CASH",
-   "tag": "CASH",
-   "discontinued": false
- },
- {
-   "isModule": true,
+   "isModule": false,
    "description": "Intrastat",
+   "level": 2,
    "fragment": "Intrastat",
    "isAvailable": true,
    "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
@@ -321,6 +349,7 @@
  {
    "isModule": true,
    "description": "Sales / Purchases",
+   "level": 1,
    "fragment": "SalePurchaseDocuments",
    "isAvailable": true,
    "allowISO": "",
@@ -330,41 +359,9 @@
    "discontinued": false
  },
  {
-   "isModule": false,
-   "description": "Advanced Items Management",
-   "fragment": "AdvancedItemsManagement",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "ADIM",
-   "tag": "VEDT",
-   "discontinued": false
- },
- {
-   "isModule": true,
-   "description": "Sale Orders",
-   "fragment": "SaleOrders",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "ORCL",
-   "tag": "ORCL",
-   "discontinued": false
- },
- {
-   "isModule": false,
-   "description": "Customer Quotations",
-   "fragment": "CustomerQuotations",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "CQUO",
-   "tag": "ORCL",
-   "discontinued": false
- },
- {
    "isModule": true,
    "description": "Sale Invoices / Delivery Notes",
+   "level": 1,
    "fragment": "Sales",
    "isAvailable": true,
    "allowISO": "",
@@ -375,7 +372,20 @@
  },
  {
    "isModule": false,
+   "description": "Advanced Items Management",
+   "level": 3,
+   "fragment": "AdvancedItemsManagement",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "ADIM",
+   "tag": "VEDT",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
    "description": "Multiple Stub Books",
+   "level": 3,
    "fragment": "MultiStubBooks",
    "isAvailable": true,
    "allowISO": "",
@@ -387,6 +397,7 @@
  {
    "isModule": false,
    "description": "Picking List",
+   "level": 3,
    "fragment": "PickingList",
    "isAvailable": true,
    "allowISO": "",
@@ -396,129 +407,33 @@
    "discontinued": false
  },
  {
-   "isModule": true,
-   "description": "e-commerce",
-   "fragment": "eCommerce",
+   "isModule": false,
+   "description": "Sale Orders",
+   "level": 2,
+   "fragment": "SaleOrders",
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
-   "optionID": "KKCN",
-   "tag": "KKCN",
+   "optionID": "ORCL",
+   "tag": "ORCL",
    "discontinued": false
  },
  {
-   "isModule": true,
-   "description": "Store Management (backend)",
-   "fragment": "StoreManagement",
+   "isModule": false,
+   "description": "Customer Quotations",
+   "level": 3,
+   "fragment": "CustomerQuotations",
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
-   "optionID": "STMN",
-   "tag": "STMN",
+   "optionID": "CQUO",
+   "tag": "ORCL",
    "discontinued": false
  },
  {
    "isModule": false,
-   "description": "Variants / Size and Colors",
-   "fragment": "StoreVariants",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "RMVN",
-   "tag": "RMVN",
-   "discontinued": false
- },
- {
-   "isModule": false,
-   "description": "Food Recipes",
-   "fragment": "FoodRecipe",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "STRE",
-   "tag": "STRE",
-   "discontinued": false
- },
- {
-  "isModule": false,
-  "description": "Vouchers",
-  "fragment": "Vouchers",
-  "isAvailable": true,
-  "allowISO": "",
-  "denyISO": "",
-  "optionID": "STVO",
-  "tag": "STVO",
-  "discontinued": false
-},
-{
-   "isModule": false,
-   "description": "In-store - Backend",
-   "fragment": "InStore",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "STIA",
-   "tag": "STIA",
-   "discontinued": false
- },
- {
-   "isModule": false,
-   "description": "In-store - App",
-   "fragment": "InStoreApp",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "STIC",
-   "tag": "STIC",
-   "discontinued": false
- },
- {
-   "isModule": true,
-   "description": "CRM - Infinity Connector",
-   "fragment": "InfinityConnector",
-   "isAvailable": false,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "MAIF",
-   "tag": "MAIF",
-   "discontinued": false
- },
- {
-   "isModule": false,
-   "description": "CRM User sales",
-   "fragment": "CRMUserSales",
-   "isAvailable": false,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "CRMS",
-   "tag": "CRMS",
-   "discontinued": false
- },
- {
-   "isModule": false,
-   "description": "CRM User marketing",
-   "fragment": "CRMUserMarketing",
-   "isAvailable": false,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "CRMM",
-   "tag": "CRMM",
-   "discontinued": false
- },
- {
-   "isModule": false,
-   "description": "CRM User full",
-   "fragment": "CRMUserFull",
-   "isAvailable": false,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "CRMF",
-   "tag": "CRMF",
-   "discontinued": false
- },
- {
-   "isModule": true,
    "description": "Conai",
+   "level": 2,
    "fragment": "Conai",
    "isAvailable": true,
    "allowISO": "IT,RO,BG,HU,ES",
@@ -530,6 +445,7 @@
  {
    "isModule": false,
    "description": "WEEE",
+   "level": 2,
    "fragment": "WEEE",
    "isAvailable": true,
    "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK",
@@ -541,6 +457,7 @@
  {
    "isModule": false,
    "description": "Sales Force Management",
+   "level": 2,
    "fragment": "SalesPeople",
    "isAvailable": true,
    "allowISO": "",
@@ -552,6 +469,7 @@
  {
    "isModule": false,
    "description": "Credit Limit Management",
+   "level": 2,
    "fragment": "CreditLimit",
    "isAvailable": true,
    "allowISO": "",
@@ -561,8 +479,153 @@
    "discontinued": false
  },
  {
+   "isModule": true,
+   "description": "e-commerce",
+   "level": 1,
+   "fragment": "eCommerce",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "KKCN",
+   "tag": "KKCN",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Store Management (backend)",
+   "level": 1,
+   "fragment": "StoreManagement",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "STMN",
+   "tag": "STMN",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Variants / Size and Colors",
+   "level": 3,
+   "fragment": "StoreVariants",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "RMVN",
+   "tag": "RMVN",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Food Recipes",
+   "level": 3,
+   "fragment": "FoodRecipe",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "STRE",
+   "tag": "STRE",
+   "discontinued": false
+ },
+ {
+  "isModule": false,
+  "description": "Vouchers",
+  "level": 3,
+  "fragment": "Vouchers",
+  "isAvailable": true,
+  "allowISO": "",
+  "denyISO": "",
+  "optionID": "STVO",
+  "tag": "STVO",
+  "discontinued": false
+},
+{
+   "isModule": false,
+   "description": "In-store - Backend",
+   "level": 3,
+   "fragment": "InStore",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "STIA",
+   "tag": "STIA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "In-store - App",
+   "level": 3,
+   "fragment": "InStoreApp",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "STIC",
+   "tag": "STIC",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "CRM - Infinity Connector",
+   "level": 1,
+   "fragment": "InfinityConnector",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "MAIF",
+   "tag": "MAIF",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "CRM User sales",
+   "level": 3,
+   "fragment": "CRMUserSales",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "CRMS",
+   "tag": "CRMS",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "CRM User marketing",
+   "level": 3,
+   "fragment": "CRMUserMarketing",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "CRMM",
+   "tag": "CRMM",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "CRM User full",
+   "level": 3,
+   "fragment": "CRMUserFull",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "CRMF",
+   "tag": "CRMF",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Purchases",
+   "level": 1,
+   "fragment": "Purchases",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "ACQT",
+   "tag": "ACQT",
+   "discontinued": false
+ },
+ {
    "isModule": false,
    "description": "Additional Charges",
+   "level": 3,
    "fragment": "AdditionalCharges",
    "isAvailable": true,
    "allowISO": "",
@@ -573,7 +636,20 @@
  },
  {
    "isModule": false,
+   "description": "Electronic Invoices Import in Purchase Documents",
+   "level": 3,
+   "fragment": "PurchaseElectronicInvoicingAdv",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "CPAC",
+   "tag": "CPAC",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
    "description": "Purchase Orders",
+   "level": 2,
    "fragment": "PurchaseOrders",
    "isAvailable": true,
    "allowISO": "",
@@ -585,6 +661,7 @@
  {
    "isModule": false,
    "description": "Supplier Quotations",
+   "level": 3,
    "fragment": "SupplierQuotations",
    "isAvailable": true,
    "allowISO": "",
@@ -594,30 +671,21 @@
    "discontinued": false
  },
  {
-   "isModule": true,
-   "description": "Purchases",
-   "fragment": "Purchases",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "ACQT",
-   "tag": "ACQT",
-   "discontinued": false
- },
- {
    "isModule": false,
-   "description": "Electronic Invoices Import in Purchase Documents",
-   "fragment": "PurchaseElectronicInvoicingAdv",
+   "description": "Quality Inspections",
+   "level": 2,
+   "fragment": "QualityInspection",
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
-   "optionID": "CPAC",
-   "tag": "CPAC",
+   "optionID": "INSP",
+   "tag": "INSP",
    "discontinued": false
  },
  {
    "isModule": true,
    "description": "Inventory",
+   "level": 1,
    "fragment": "Inventory",
    "isAvailable": true,
    "allowISO": "",
@@ -629,6 +697,7 @@
  {
    "isModule": false,
    "description": "Multistorage",
+   "level": 3,
    "fragment": "MultiStorage",
    "isAvailable": true,
    "allowISO": "",
@@ -640,6 +709,7 @@
  {
    "isModule": false,
    "description": "Single Step LIFO/FIFO",
+   "level": 3,
    "fragment": "SingleStepLifoFifo",
    "isAvailable": true,
    "allowISO": "HU,IT,CH,BG,DE",
@@ -651,6 +721,7 @@
  {
    "isModule": false,
    "description": "Advanced Inventory Counts",
+   "level": 3,
    "fragment": "InventoryAdjustment",
    "isAvailable": true,
    "allowISO": "",
@@ -660,18 +731,7 @@
    "discontinued": false
  },
  {
-   "isModule": true,
-   "description": "Quality Inspections",
-   "fragment": "QualityInspection",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "INSP",
-   "tag": "INSP",
-   "discontinued": false
- },
- {
-   "isModule": true,
+   "isModule": false,
    "description": "Barcode Manager",
    "fragment": "",
    "isAvailable": true,
@@ -682,8 +742,9 @@
    "discontinued": true
  },
  {
-   "isModule": true,
+   "isModule": false,
    "description": "Lots and Serial Numbers",
+   "level": 2,
    "fragment": "LotsSerials",
    "isAvailable": true,
    "allowISO": "",
@@ -695,6 +756,7 @@
  {
    "isModule": true,
    "description": "WMS Basic",
+   "level": 1,
    "fragment": "WMSBasic",
    "isAvailable": true,
    "allowISO": "",
@@ -706,6 +768,7 @@
  {
    "isModule": false,
    "description": "WMS Advanced",
+   "level": 3,
    "fragment": "WMSAdvanced",
    "isAvailable": true,
    "allowISO": "",
@@ -728,6 +791,7 @@
  {
    "isModule": false,
    "description": "WMS Mobile - backend",
+   "level": 3,
    "fragment": "WMSMobile",
    "isAvailable": true,
    "allowISO": "",
@@ -739,6 +803,7 @@
  {
    "isModule": false,
    "description": "WMS Mobile - app",
+   "level": 3,
    "fragment": "WMSMobileApp",
    "isAvailable": true,
    "allowISO": "",
@@ -761,6 +826,7 @@
  {
    "isModule": true,
    "description": "Bill of Materials",
+   "level": 1,
    "fragment": "BillOfMaterials",
    "isAvailable": true,
    "allowISO": "",
@@ -772,6 +838,7 @@
  {
    "isModule": false,
    "description": "Engineering Changing Order",
+   "level": 3,
    "fragment": "ECO",
    "isAvailable": true,
    "allowISO": "",
@@ -781,8 +848,9 @@
    "discontinued": false
  },
  {
-   "isModule": true,
+   "isModule": false,
    "description": "Variants",
+   "level": 2,
    "fragment": "Variants",
    "isAvailable": true,
    "allowISO": "",
@@ -792,8 +860,9 @@
    "discontinued": false
  },
  {
-   "isModule": true,
+   "isModule": false,
    "description": "Configurator",
+   "level": 2,
    "fragment": "Configurator",
    "isAvailable": true,
    "allowISO": "",
@@ -805,6 +874,7 @@
  {
    "isModule": true,
    "description": "Basic Manufacturing",
+   "level": 1,
    "fragment": "ManufacturingBasic",
    "isAvailable": true,
    "allowISO": "",
@@ -814,52 +884,9 @@
    "discontinued": false
  },
  {
-   "isModule": true,
-   "description": "Advanced Manufacturing",
-   "fragment": "ManufacturingAdvanced",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "PRZA",
-   "tag": "PRZA",
-   "discontinued": false
- },
- {
    "isModule": false,
-   "description": "Drawings Management, History and Versioning",
-   "fragment": "BillOfMaterialsPlus",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "DMHV",
-   "tag": "PRZA",
-   "discontinued": false
- },
- {
-   "isModule": false,
-   "description": "Kanban",
-   "fragment": "Kanban",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "KANB",
-   "tag": "PRZA",
-   "discontinued": false
- },
- {
-   "isModule": true,
-   "description": "Open Orders",
-   "fragment": "OpenOrders",
-   "isAvailable": false,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "OPOR",
-   "tag": "OPOR",
-   "discontinued": false
- },
- {
-   "isModule": true,
    "description": "Manufacturing Mobile - backend",
+   "level": 3,
    "fragment": "ManufacturingMobile",
    "isAvailable": false,
    "allowISO": "",
@@ -871,6 +898,7 @@
  {
    "isModule": false,
    "description": "Manufacturing Mobile - app",
+   "level": 3,
    "fragment": "ManufacturingMobileApp",
    "isAvailable": false,
    "allowISO": "",
@@ -880,8 +908,45 @@
    "discontinued": false
  },
  {
-   "isModule": true,
+   "isModule": false,
+   "description": "Advanced Manufacturing",
+   "level": 2,
+   "fragment": "ManufacturingAdvanced",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "PRZA",
+   "tag": "PRZA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Drawings Management, History and Versioning",
+   "level": 3,
+   "fragment": "BillOfMaterialsPlus",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "DMHV",
+   "tag": "PRZA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
+   "description": "Kanban",
+   "level": 3,
+   "fragment": "Kanban",
+   "isAvailable": true,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "KANB",
+   "tag": "PRZA",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
    "description": "Planning",
+   "level": 2,
    "fragment": "ManufacturingPlanning",
    "isAvailable": true,
    "allowISO": "",
@@ -893,6 +958,7 @@
  {
    "isModule": false,
    "description": "Advanced Planning",
+   "level": 3,
    "fragment": "MRPAdvanced",
    "isAvailable": true,
    "allowISO": "",
@@ -902,8 +968,21 @@
    "discontinued": false
  },
  {
-   "isModule": true,
+   "isModule": false,
+   "description": "Open Orders",
+   "level": 2,
+   "fragment": "OpenOrders",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "OPOR",
+   "tag": "OPOR",
+   "discontinued": false
+ },
+ {
+   "isModule": false,
    "description": "Tools Management",
+   "level": 2,
    "fragment": "ToolsManagement",
    "isAvailable": true,
    "allowISO": "",
@@ -915,6 +994,7 @@
  {
    "isModule": true,
    "description": "DMS",
+   "level": 1,
    "fragment": "DMS",
    "isAvailable": false,
    "allowISO": "",
@@ -926,6 +1006,7 @@
  {
    "isModule": false,
    "description": "Massive Archiving Plug-In",
+   "level": 3,
    "fragment": "DMSMassive",
    "isAvailable": false,
    "allowISO": "",
@@ -937,6 +1018,7 @@
  {
    "isModule": true,
    "description": "Job Scheduler",
+   "level": 1,
    "fragment": "JobScheduler",
    "isAvailable": false,
    "allowISO": "",
@@ -948,6 +1030,7 @@
  {
    "isModule": true,
    "description": "Security",
+   "level": 1,
    "fragment": "Security",
    "isAvailable": false,
    "allowISO": "",
@@ -959,6 +1042,7 @@
  {
    "isModule": false,
    "description": "Security Access profiles",
+   "level": 3,
    "fragment": "SecurityAdvanced",
    "isAvailable": false,
    "allowISO": "",
@@ -970,6 +1054,7 @@
  {
    "isModule": false,
    "description": "Auditing",
+   "level": 3,
    "fragment": "Auditing",
    "isAvailable": false,
    "allowISO": "",
@@ -981,6 +1066,7 @@
  {
    "isModule": false,
    "description": "Visibility",
+   "level": 3,
    "fragment": "Visibility",
    "isAvailable": false,
    "allowISO": "",
@@ -992,6 +1078,7 @@
  {
    "isModule": true,
    "description": "MyMago Studio",
+   "level": 1,
    "fragment": "MyMagoStudio",
    "isAvailable": false,
    "allowISO": "",
