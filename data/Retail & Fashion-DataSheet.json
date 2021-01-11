@@ -1298,7 +1298,7 @@
       "Level": 1,
       "Title": "WMSBasic_title",
       "Details": "WMSBasic_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1324,7 +1324,7 @@
       "Level": 3,
       "Title": "WMSAdvanced_title",
       "Details": "WMSAdvanced_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1350,7 +1350,7 @@
       "Level": 3,
       "Title": "WMSMobile_title",
       "Details": "WMSMobile_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",
@@ -1376,7 +1376,7 @@
       "Level": 3,
       "Title": "WMSMobileApp_title",
       "Details": "WMSMobileApp_details",
-      "NotYetAvailable": false,
+      "NotYetAvailable": true,
       "options": [
         {
           "edition": "STD",

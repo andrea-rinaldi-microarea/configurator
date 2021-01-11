@@ -39,6 +39,8 @@ export class DataSheetService {
               l.options = actualLine.options;
             }
             l.included = true;
+            // allow forcing notYetAvailable on some specific industries
+            l.notYetAvailable = actualLine.notYetAvailable;
           }
           this.current.lines.push(l);
         });

@@ -173,6 +173,12 @@ tr.group-sep {
     }
 }
 
+@media print {
+    .no-print {
+        display: none; 
+    }
+}
+
 @media screen {
     .print-only {
         display: none;
