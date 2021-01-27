@@ -996,23 +996,11 @@
    "description": "DMS",
    "level": 1,
    "fragment": "DMS",
-   "isAvailable": false,
+   "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
    "optionID": "EATT",
    "tag": "EATT",
-   "discontinued": false
- },
- {
-   "isModule": false,
-   "description": "Massive Archiving Plug-In",
-   "level": 3,
-   "fragment": "DMSMassive",
-   "isAvailable": false,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "MASS",
-   "tag": "MASS",
    "discontinued": false
  },
  {
@@ -1080,7 +1068,7 @@
    "description": "MyMago Studio",
    "level": 1,
    "fragment": "MyMagoStudio",
-   "isAvailable": false,
+   "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
    "optionID": "MYMS",

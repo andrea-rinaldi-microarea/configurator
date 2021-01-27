@@ -1993,7 +1993,7 @@
       "level": 1,
       "description": "DMS",
       "fragment": "DMS",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "options": [
@@ -2008,33 +2008,6 @@
         {
           "edition": "PRO",
           "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "level": 3,
-      "description": "Massive Archiving Plug-In",
-      "fragment": "DMSMassive",
-      "isAvailable": false,
-      "allowISO": "",
-      "denyISO": "",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
         },
         {
           "edition": "ENT",
@@ -2183,7 +2156,7 @@
       "level": 1,
       "description": "MyMago Studio",
       "fragment": "MyMagoStudio",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "MYMS",
