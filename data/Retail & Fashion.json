@@ -877,7 +877,7 @@
       "description": "Variants / Size and Colors",
       "fragment": "StoreVariants",
       "isAvailable": true,
-      "allowISO": "",
+      "allowISO": "IT, DE, BG",
       "denyISO": "",
       "optionID": "RMVN",
       "options": [

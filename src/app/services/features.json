@@ -508,7 +508,7 @@
    "level": 3,
    "fragment": "StoreVariants",
    "isAvailable": true,
-   "allowISO": "",
+   "allowISO": "IT, DE, BG",
    "denyISO": "",
    "optionID": "RMVN",
    "tag": "RMVN",
