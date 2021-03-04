@@ -464,7 +464,7 @@
       "options": [
         {
           "edition": "CRT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
