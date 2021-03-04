@@ -1253,33 +1253,6 @@
       ]
     },
     {
-      "isModule": false,
-      "level": 3,
-      "description": "Massive Archiving Plug-In",
-      "fragment": "DMSMassive",
-      "isAvailable": false,
-      "allowISO": "",
-      "denyISO": "",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
       "isModule": true,
       "level": 1,
       "description": "Job Scheduler",
@@ -1420,7 +1393,7 @@
       "level": 1,
       "description": "MyMago Studio",
       "fragment": "MyMagoStudio",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "MYMS",
