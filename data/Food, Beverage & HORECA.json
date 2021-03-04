@@ -1230,7 +1230,7 @@
       "level": 1,
       "description": "DMS",
       "fragment": "DMS",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "options": [

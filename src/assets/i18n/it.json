@@ -243,7 +243,7 @@
     "Framework_details": "",
 
     "DMS_title" : "DMS",
-    "DMS_details": "Modulo per la gestione degli allegati in forma elettronica per qualsiasi documento gestionale (documentale).",
+    "DMS_details": "Modulo per la gestione degli allegati in forma elettronica per qualsiasi documento gestionale (documentale). Un allegato può essere facilmente ricercato applicando filtri specifici oltre ad essere subito fruibile aprendo il documento gestionale. È possibile inoltre allegare i report generati da MagoCloud.",
 
     "DMSMassive_title" : "Archiviazione documentale massiva",
     "DMSMassive_details": "Plug-in in grado di attivare la funzione di archiviazione documentale massiva.",
