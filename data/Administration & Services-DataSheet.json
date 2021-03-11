@@ -697,7 +697,7 @@
       "Title": "Intrastat_title",
       "Details": "Intrastat_details",
       "NotYetAvailable": false,
-      "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
+      "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
       "options": [
         {
           "edition": "STD",
