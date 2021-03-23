@@ -503,6 +503,18 @@
    "discontinued": false
  },
  {
+  "isModule": false,
+  "description": "TCPOS Connector",
+  "level": 3,
+  "fragment": "TCPOSConnector",
+  "isAvailable": true,
+  "allowISO": "",
+  "denyISO": "",
+  "optionID": "TCCN",
+  "tag": "TCCN",
+  "discontinued": false
+},
+{
    "isModule": false,
    "description": "Variants / Size and Colors",
    "level": 3,

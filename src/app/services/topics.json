@@ -376,9 +376,17 @@
    "notYetAvailable": false
  },
  {
+  "topic": "TCPOSConnector",
+  "level": 3,
+  "order": "05.1.1",
+  "title":  "TCPOSConnector_title",
+  "details":  "TCPOSConnector_details",
+  "notYetAvailable": false
+},
+{
    "topic": "StoreVariants",
    "level": 3,
-   "order": "05.1.1",
+   "order": "05.1.2",
    "title":  "StoreVariants_title",
    "details":  "StoreVariants_details",
    "notYetAvailable": false
@@ -386,7 +394,7 @@
  {
    "topic": "FoodRecipe",
    "level": 3,
-   "order": "05.1.2",
+   "order": "05.1.3",
    "title":  "FoodRecipe_title",
    "details":  "FoodRecipe_details",
    "notYetAvailable": false
@@ -394,14 +402,14 @@
  {
   "topic": "Vouchers",
   "level": 3,
-  "order": "05.1.3",
+  "order": "05.1.4",
   "title":  "Vouchers_title",
   "details":  "Vouchers_details",
   "notYetAvailable": false
 },{
    "topic": "InStore",
    "level": 3,
-   "order": "05.1.4",
+   "order": "05.1.5",
    "title":  "InStore_title",
    "details":  "InStore_details",
    "notYetAvailable": false
@@ -409,7 +417,7 @@
  {
    "topic": "InStoreApp",
    "level": 3,
-   "order": "05.1.5",
+   "order": "05.1.6",
    "title":  "InStoreApp_title",
    "details":  "InStoreApp_details",
    "notYetAvailable": false

@@ -298,6 +298,9 @@
     "Tesan_title": "TESAN",
     "Tesan_details": "Grazie al connettore TESAN è possibile esportare in un file di testo i dati relativi ai documenti nei quali sono presenti articoli attivati alla gestione TEssera SANitaria. Importando in seguito il file ottenuto in OMNIA, sarà possibile inviare la comunicazione di legge al Sistema Tessera Sanitaria.",
 
+    "TCPOSConnector_title": "Connettore TCPOS",
+    "TCPOSConnector_details": "Il connettore TCPOS gestisce i flussi dati tra Mago e il front-end di cassa TCPOS tills e viceversa, consentendo un completo controllo dell'organizzazione del negozio, gestendo prezzi, assortimenti e così via.",
+
 
     "Configurator": "Configuratore",
     "Module": "Modulo",
