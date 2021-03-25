@@ -8,7 +8,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Base Module",
+      "description": "Masters and Common Functions",
       "fragment": "Server",
       "isAvailable": true,
       "allowISO": "",
@@ -117,7 +117,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Financials",
+      "description": "Accounting, Payables and Receivables",
       "fragment": "Financials",
       "isAvailable": true,
       "allowISO": "",
@@ -711,7 +711,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Sales / Purchases",
+      "description": "Documents common functions",
       "fragment": "SalePurchaseDocuments",
       "isAvailable": true,
       "allowISO": "",
@@ -738,7 +738,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Sale Invoices / Delivery Notes",
+      "description": "Sales",
       "fragment": "Sales",
       "isAvailable": true,
       "allowISO": "",
@@ -820,7 +820,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "CRM - Infinity Connector",
+      "description": "CRM",
       "fragment": "InfinityConnector",
       "isAvailable": false,
       "allowISO": "",

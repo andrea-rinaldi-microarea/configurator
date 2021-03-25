@@ -8,7 +8,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Base Module",
+      "description": "Masters and Common Functions",
       "fragment": "Server",
       "isAvailable": true,
       "allowISO": "",
@@ -116,7 +116,7 @@
     {
       "isModule": false,
       "level": 3,
-      "description": "Budget (Cust/Supp)",
+      "description": "Budget Customers/Suppliers",
       "fragment": "Budget",
       "isAvailable": true,
       "allowISO": "",
@@ -171,7 +171,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Financials",
+      "description": "Accounting, Payables and Receivables",
       "fragment": "Financials",
       "isAvailable": true,
       "allowISO": "",
@@ -765,7 +765,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Sales / Purchases",
+      "description": "Documents common functions",
       "fragment": "SalePurchaseDocuments",
       "isAvailable": true,
       "allowISO": "",
@@ -792,7 +792,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Sale Invoices / Delivery Notes",
+      "description": "Sales",
       "fragment": "Sales",
       "isAvailable": true,
       "allowISO": "",
@@ -1062,7 +1062,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "CRM - Infinity Connector",
+      "description": "CRM",
       "fragment": "InfinityConnector",
       "isAvailable": false,
       "allowISO": "",
@@ -1470,7 +1470,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "WMS Basic",
+      "description": "WMS",
       "fragment": "WMSBasic",
       "isAvailable": true,
       "allowISO": "",
@@ -1576,33 +1576,6 @@
         {
           "edition": "ENT",
           "availability": "count"
-        }
-      ]
-    },
-    {
-      "isModule": true,
-      "level": 0,
-      "description": "Resources Management",
-      "fragment": "_RESMAN",
-      "isAvailable": true,
-      "allowISO": "",
-      "denyISO": "",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
         }
       ]
     },
@@ -1717,7 +1690,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Basic Manufacturing",
+      "description": "Manufacturing",
       "fragment": "ManufacturingBasic",
       "isAvailable": true,
       "allowISO": "",

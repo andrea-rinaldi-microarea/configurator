@@ -8,7 +8,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Base Module",
+      "description": "Masters and Common Functions",
       "fragment": "Server",
       "isAvailable": true,
       "allowISO": "",
@@ -71,7 +71,7 @@
     {
       "isModule": false,
       "level": 3,
-      "description": "Budget (Cust/Supp)",
+      "description": "Budget Customers/Suppliers",
       "fragment": "Budget",
       "isAvailable": true,
       "allowISO": "",
@@ -103,7 +103,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Financials",
+      "description": "Accounting, Payables and Receivables",
       "fragment": "Financials",
       "isAvailable": true,
       "allowISO": "",
@@ -455,7 +455,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Sales / Purchases",
+      "description": "Documents common functions",
       "fragment": "SalePurchaseDocuments",
       "isAvailable": true,
       "allowISO": "",
@@ -471,7 +471,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Sale Invoices / Delivery Notes",
+      "description": "Sales",
       "fragment": "Sales",
       "isAvailable": true,
       "allowISO": "",
@@ -647,7 +647,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Store Management (backend)",
+      "description": "Store Management",
       "fragment": "StoreManagement",
       "isAvailable": true,
       "allowISO": "",
@@ -759,7 +759,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "CRM - Infinity Connector",
+      "description": "CRM",
       "fragment": "InfinityConnector",
       "isAvailable": false,
       "allowISO": "",
@@ -999,7 +999,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "WMS Basic",
+      "description": "WMS",
       "fragment": "WMSBasic",
       "isAvailable": true,
       "allowISO": "",
@@ -1127,7 +1127,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Basic Manufacturing",
+      "description": "Manufacturing",
       "fragment": "ManufacturingBasic",
       "isAvailable": true,
       "allowISO": "",
