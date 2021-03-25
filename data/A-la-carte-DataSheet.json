@@ -2,11 +2,11 @@
   "Name": "A-la-carte",
   "Lines": [
     {
-      "Topic": "MasterCommon",
+      "Topic": "Server",
       "Order": "01",
       "Level": 1,
-      "Title": "MasterCommon_title",
-      "Details": "MasterCommon_details",
+      "Title": "Server_title",
+      "Details": "Server_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -100,11 +100,11 @@
       ]
     },
     {
-      "Topic": "Accounting",
-      "Order": "02.1",
-      "Level": 2,
-      "Title": "Accounting_title",
-      "Details": "Accounting_details",
+      "Topic": "MultiTaxJournals",
+      "Order": "02.1.1",
+      "Level": 3,
+      "Title": "MultiTaxJournals_title",
+      "Details": "MultiTaxJournals_details",
       "NotYetAvailable": false,
       "denyISO": "BR",
       "options": [
@@ -115,11 +115,11 @@
       ]
     },
     {
-      "Topic": "CustomizableCodes",
+      "Topic": "CustomizedAccountingTemplates",
       "Order": "02.1.1",
       "Level": 3,
-      "Title": "CustomizableCodes_title",
-      "Details": "CustomizableCodes_details",
+      "Title": "CustomizedAccountingTemplates_title",
+      "Details": "CustomizedAccountingTemplates_details",
       "NotYetAvailable": false,
       "denyISO": "BR",
       "options": [
@@ -197,20 +197,6 @@
       "Details": "Cash_details",
       "NotYetAvailable": false,
       "denyISO": "IT,CH,BR",
-      "options": [
-        {
-          "edition": "CRT",
-          "availability": "optional"
-        }
-      ]
-    },
-    {
-      "Topic": "AP_AR",
-      "Order": "02.2",
-      "Level": 2,
-      "Title": "AP_AR_title",
-      "Details": "AP_AR_details",
-      "NotYetAvailable": false,
       "options": [
         {
           "edition": "CRT",
@@ -480,6 +466,20 @@
       ]
     },
     {
+      "Topic": "SalePurchaseDocuments",
+      "Order": "03",
+      "Level": 1,
+      "Title": "SalePurchaseDocuments_title",
+      "Details": "SalePurchaseDocuments_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "CRT",
+          "availability": "optional"
+        }
+      ]
+    },
+    {
       "Topic": "Sales",
       "Order": "03",
       "Level": 1,
@@ -494,11 +494,11 @@
       ]
     },
     {
-      "Topic": "SalesAdvItemsManag",
+      "Topic": "AdvancedItemsManagement",
       "Order": "03.1.1",
       "Level": 3,
-      "Title": "SalesAdvItemsManag_title",
-      "Details": "SalesAdvItemsManag_details",
+      "Title": "AdvancedItemsManagement_title",
+      "Details": "AdvancedItemsManagement_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -650,8 +650,22 @@
       ]
     },
     {
-      "Topic": "StoreVariants",
+      "Topic": "TCPOSConnector",
       "Order": "05.1.1",
+      "Level": 3,
+      "Title": "TCPOSConnector_title",
+      "Details": "TCPOSConnector_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "CRT",
+          "availability": "optional"
+        }
+      ]
+    },
+    {
+      "Topic": "StoreVariants",
+      "Order": "05.1.2",
       "Level": 3,
       "Title": "StoreVariants_title",
       "Details": "StoreVariants_details",
@@ -665,7 +679,7 @@
     },
     {
       "Topic": "FoodRecipe",
-      "Order": "05.1.2",
+      "Order": "05.1.3",
       "Level": 3,
       "Title": "FoodRecipe_title",
       "Details": "FoodRecipe_details",
@@ -679,7 +693,7 @@
     },
     {
       "Topic": "Vouchers",
-      "Order": "05.1.3",
+      "Order": "05.1.4",
       "Level": 3,
       "Title": "Vouchers_title",
       "Details": "Vouchers_details",
@@ -693,7 +707,7 @@
     },
     {
       "Topic": "InStore",
-      "Order": "05.1.4",
+      "Order": "05.1.5",
       "Level": 3,
       "Title": "InStore_title",
       "Details": "InStore_details",
@@ -707,7 +721,7 @@
     },
     {
       "Topic": "InStoreApp",
-      "Order": "05.1.5",
+      "Order": "05.1.6",
       "Level": 3,
       "Title": "InStoreApp_title",
       "Details": "InStoreApp_details",
@@ -866,20 +880,6 @@
       "Level": 1,
       "Title": "Inventory_title",
       "Details": "Inventory_details",
-      "NotYetAvailable": false,
-      "options": [
-        {
-          "edition": "CRT",
-          "availability": "optional"
-        }
-      ]
-    },
-    {
-      "Topic": "InventoryAdvItemsManag",
-      "Order": "08.1.1",
-      "Level": 3,
-      "Title": "InventoryAdvItemsManag_title",
-      "Details": "InventoryAdvItemsManag_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -1058,11 +1058,11 @@
       ]
     },
     {
-      "Topic": "Manufacturing",
+      "Topic": "ManufacturingBasic",
       "Order": "11",
       "Level": 1,
-      "Title": "Manufacturing_title",
-      "Details": "Manufacturing_details",
+      "Title": "ManufacturingBasic_title",
+      "Details": "ManufacturingBasic_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -1322,20 +1322,6 @@
       "Title": "DMS_title",
       "Details": "DMS_details",
       "NotYetAvailable": false,
-      "options": [
-        {
-          "edition": "CRT",
-          "availability": "optional"
-        }
-      ]
-    },
-    {
-      "Topic": "DMSMassive",
-      "Order": "13.1.1",
-      "Level": 3,
-      "Title": "DMSMassive_title",
-      "Details": "DMSMassive_details",
-      "NotYetAvailable": true,
       "options": [
         {
           "edition": "CRT",

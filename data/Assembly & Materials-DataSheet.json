@@ -2,11 +2,11 @@
   "Name": "Assembly & Materials",
   "Lines": [
     {
-      "Topic": "MasterCommon",
+      "Topic": "Server",
       "Order": "01",
       "Level": 1,
-      "Title": "MasterCommon_title",
-      "Details": "MasterCommon_details",
+      "Title": "Server_title",
+      "Details": "Server_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -184,17 +184,17 @@
       ]
     },
     {
-      "Topic": "Accounting",
-      "Order": "02.1",
-      "Level": 2,
-      "Title": "Accounting_title",
-      "Details": "Accounting_details",
+      "Topic": "MultiTaxJournals",
+      "Order": "02.1.1",
+      "Level": 3,
+      "Title": "MultiTaxJournals_title",
+      "Details": "MultiTaxJournals_details",
       "NotYetAvailable": false,
       "denyISO": "BR",
       "options": [
         {
           "edition": "STD",
-          "availability": "always"
+          "availability": ""
         },
         {
           "edition": "PRM",
@@ -211,11 +211,11 @@
       ]
     },
     {
-      "Topic": "CustomizableCodes",
+      "Topic": "CustomizedAccountingTemplates",
       "Order": "02.1.1",
       "Level": 3,
-      "Title": "CustomizableCodes_title",
-      "Details": "CustomizableCodes_details",
+      "Title": "CustomizedAccountingTemplates_title",
+      "Details": "CustomizedAccountingTemplates_details",
       "NotYetAvailable": false,
       "denyISO": "BR",
       "options": [
@@ -365,32 +365,6 @@
         {
           "edition": "PRO",
           "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "Topic": "AP_AR",
-      "Order": "02.2",
-      "Level": 2,
-      "Title": "AP_AR_title",
-      "Details": "AP_AR_details",
-      "NotYetAvailable": false,
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
         },
         {
           "edition": "ENT",
@@ -876,6 +850,32 @@
       ]
     },
     {
+      "Topic": "SalePurchaseDocuments",
+      "Order": "03",
+      "Level": 1,
+      "Title": "SalePurchaseDocuments_title",
+      "Details": "SalePurchaseDocuments_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
       "Topic": "Sales",
       "Order": "03",
       "Level": 1,
@@ -902,11 +902,11 @@
       ]
     },
     {
-      "Topic": "SalesAdvItemsManag",
+      "Topic": "AdvancedItemsManagement",
       "Order": "03.1.1",
       "Level": 3,
-      "Title": "SalesAdvItemsManag_title",
-      "Details": "SalesAdvItemsManag_details",
+      "Title": "AdvancedItemsManagement_title",
+      "Details": "AdvancedItemsManagement_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -1399,32 +1399,6 @@
       ]
     },
     {
-      "Topic": "InventoryAdvItemsManag",
-      "Order": "08.1.1",
-      "Level": 3,
-      "Title": "InventoryAdvItemsManag_title",
-      "Details": "InventoryAdvItemsManag_details",
-      "NotYetAvailable": false,
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
       "Topic": "MultiStorage",
       "Order": "08.1.2",
       "Level": 3,
@@ -1582,11 +1556,11 @@
       ]
     },
     {
-      "Topic": "Manufacturing",
+      "Topic": "ManufacturingBasic",
       "Order": "11",
       "Level": 1,
-      "Title": "Manufacturing_title",
-      "Details": "Manufacturing_details",
+      "Title": "ManufacturingBasic_title",
+      "Details": "ManufacturingBasic_details",
       "NotYetAvailable": false,
       "options": [
         {
@@ -1840,32 +1814,6 @@
         {
           "edition": "PRO",
           "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "Topic": "DMSMassive",
-      "Order": "13.1.1",
-      "Level": 3,
-      "Title": "DMSMassive_title",
-      "Details": "DMSMassive_details",
-      "NotYetAvailable": true,
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
         },
         {
           "edition": "ENT",

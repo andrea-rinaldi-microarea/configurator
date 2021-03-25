@@ -1,32 +1,32 @@
 {
-    "MasterCommon_title":"Anagrafiche e Funzioni Comuni",
-    "MasterCommon_details":"Anagrafiche di base quali Clienti, Fornitori, Condizioni di Pagamento, Banche. Definizione azienda, dati IVA ed esercizi fiscali. Configurazione parametri e servizi di base comuni a tutto il prodotto.",
+    "Server_title":"Anagrafiche e Funzioni Comuni",
+    "Server_details":"Anagrafiche di base quali Clienti, Fornitori, Condizioni di Pagamento, Banche. Definizione azienda, dati IVA ed esercizi fiscali. Configurazione parametri e servizi di base comuni a tutto il prodotto.",
 
     "Languages_title": "Descrizioni Multilingua",
     "Languages_details": "Descrizioni in molteplici lingue per Articoli, Piano dei Conti, Condizioni di Pagamento e molte altre anagrafiche. Utilizzabili nella compilazione dei documenti e nelle stampe.",
 
-    "Currencies_title": "Multi valuta",
+    "Currencies_title": "Multivaluta",
     "Currencies_details": "Gestione in divisa estera di tutti i documenti contabili, ciclo vendite ed acquisti. Conversione automatica listini, o gestione listini in valuta. Partitario in divisa con calcolo automatico differenze cambi. Conti contabili con saldo in divisa estera. Caricamento tassi di cambio manuale o automatico da Banca Centrale Europea o altre banche centrali locali.",
 
     "Contacts_title": "Gestione Contatti e Fornitori Potenziali",
     "Contacts_details": "Anagrafica contatti cliente e fornitori potenziali, passaggio a Cliente/Fornitore definitivo manuale o automatico in sede di trasformazione offerta in ordine.",
 
-    "Budget_title": "Gestione Budget Clienti/Fornitori",
+    "Budget_title": "Budget Clienti/Fornitori",
     "Budget_details": "Inserimento budget mensili per Clienti e Fornitori, acquisizione automatica dei consuntivi dai documenti. Stampe di confronto budget / consuntivo, dati utilizzabili per export o stampe personalizzate.",
 
     "KPIMobileApp_title": "KPI Dashboards mobile app",
     "KPIMobileApp_details":"App mobile iOS ed Android pensata per il responsabile aziendale, in area finance, sales ed operations, per tenere sotto controllo i fatti aziendali tramite degli indicatori immediati di facile consultazione. La app è già fornita di numerosi KPI predefiniti e se ne possono creare di personalizzati tramite MyMago Studio.",
 
-    "Financials_title": "Amministrazione e Contabilità",
-    "Financials_details": "",
+    "Financials_title" : "Contabilità Generale, Scadenzario e Partite Aperte",
+    "Financials_details": "Contabilità generale, prima nota, bilanci, pro-rata, IVA Agenzie di Viaggio. Piano dei Conti predefinito a norme UE o personalizzabile su 8 livelli. Partite aperte, scadenzari, effetti attivi, mandati di pagamento. Condizioni di pagamento personalizzabili. Gestione stampa contestuale dei Mandati SEPA Direct Debit, loro invio via e-mail ai clienti per la sottoscrizione. Stampa su file XML SEPA Direct Debit (SDD), stampa su file XML Bonifici SEPA Credit Transfer (SCT).  Importazione file XML SEPA secondo i tracciati Camt052 e Camt053 relativi alle rendicontazioni giornaliere dei conti bancari. Procedura di riconciliazione bancaria tra gli estratti conto importati e le registrazioni contabili, con possibilità sia di generare un nuovo movimento contabile dal singolo movimento bancario, con contestuale aggiornamento delle partite in caso di incassi o pagamenti, sia di collegare un movimento bancario ad una registrazione contabile già presente. Controlli di quadratura tra estratti conto bancari e contabilità.",
 
-    "Accounting_title" : "Contabilità Generale",
-    "Accounting_details": "Contabilità generale, prima nota, bilanci, pro-rata, IVA Agenzie di Viaggio. Piano dei Conti predefinito a norme UE o personalizzabile su 8 livelli.",
+    "MultiTaxJournals_title" : "Registri IVA Personalizzabili",
+    "MultiTaxJournals_details": "Definizione registri sezionali IVA aggiuntivi a quelli predefiniti, per personalizzare criteri di numerazione e stampa dei registri fiscali.",
 
-    "CustomizableCodes_title" : "Registri e modelli Personalizzabili",
-    "CustomizableCodes_details": "Definizione modelli contabili personalizzati aggiuntivi agli standard, creazione di modelli da registrazioni contabili compresi opzionalmente importi per scritture ricorrenti. Definizione registri sezionali IVA aggiuntivi a quelli predefiniti, per personalizzare criteri di numerazione e stampa dei registri fiscali.",
+    "CustomizedAccountingTemplates_title" : "Modelli Contabili Personalizzabili",
+    "CustomizedAccountingTemplates_details": "Definizione modelli contabili personalizzati aggiuntivi agli standard, creazione di modelli da registrazioni contabili compresi opzionalmente importi per scritture ricorrenti.",
 
-    "PurchaseElectronicInvoicing_title" : "Import Fatture Elettroniche",
+    "PurchaseElectronicInvoicing_title" : "Import contabile Fatturazione Elettronica Passiva",
     "PurchaseElectronicInvoicing_details": "Gestione della fatturazione elettronica nei Documenti Ricevuti. Con la procedura si importano nel programma le fatture elettroniche ricevute sul Digital Hub Zucchetti: l'utente può visualizzare la fattura e registrarla subito, oppure successivamente, nei Documenti Ricevuti in contabilità.",
 
     "Plafond_title" : "Gestione Plafond",
@@ -40,9 +40,6 @@
 
     "Cash_title" : "Gestione cassa",
     "Cash_details": "Funzione dedicata alla gestione completa di tutti i movimenti di entrata e uscita di cassa. Sessioni di cassa per singolo operatore. Collegamento con il partitario e la prima nota. Gestione di casse in valuta.",
-
-    "AP_AR_title" : "Scadenzario e Partite Aperte",
-    "AP_AR_details" : "Partite aperte, scadenzari, effetti attivi, mandati di pagamento. Condizioni di pagamento personalizzabili. Gestione stampa contestuale dei Mandati SEPA Direct Debit, loro invio via e-mail ai clienti per la sottoscrizione. Stampa su file XML SEPA Direct Debit (SDD), stampa su file XML Bonifici SEPA Credit Transfer (SCT).  Importazione file XML SEPA secondo i tracciati Camt052 e Camt053 relativi alle rendicontazioni giornaliere dei conti bancari. Procedura di riconciliazione bancaria tra gli estratti conto importati e le registrazioni contabili, con possibilità sia di generare un nuovo movimento contabile dal singolo movimento bancario, con contestuale aggiornamento delle partite in caso di incassi o pagamenti, sia di collegare un movimento bancario ad una registrazione contabile già presente. Controlli di quadratura tra estratti conto bancari e contabilità.",
 
     "Dunnings_title" : "Solleciti di Pagamento",
     "Dunnings_details": "Gestione di più livelli di sollecito, con un testo specifico per ciascun livello. Una procedura consente di stampare e inviare via mail le lettere di sollecito delle partite scadute nella lingua preferenziale del cliente, aggiornando contestualmente l’anagrafica cliente con i dati dell’ultimo sollecito inviato. Il testo della lettera di sollecito e della mail è liberamente personalizzabile dall’utente.",
@@ -62,7 +59,7 @@
     "AccountingBooks_title" : "Libro Inventari e Allegati",
     "AccountingBooks_details": "Stampa completa dei vari prospetti che compongono il Libro Inventari e Allegati, funzionalità avanzate di gestione degli Schemi di Riclassificazione e Analisi di Bilancio, Gestione dei Documenti da Emettere / Ricevere.",
 
-    "Basel_II_title" : "Analisi di Bilancio con Basilea II",
+    "Basel_II_title" : "Analisi di Bilancio (Basilea II)",
     "Basel_II_details": "Modulo sviluppato su Excel che sulla base dei dati di bilancio dell’Azienda e mediante l’analisi per indici e per flussi, è in grado di elaborare rapidamente una valutazione completa della situazione finanziaria, patrimoniale ed economica dell’Azienda. Il modulo inoltre consente di elaborare bilanci riclassificati personalizzati utilizzando funzioni di calcolo avanzate disponibili negli schemi di riclassificazione.",
 
     "FixedAssets_title" : "Cespiti",
@@ -86,11 +83,14 @@
     "Intrastat_title" : "Intrastat",
     "Intrastat_details": "Gestione annotazioni intrastat, rilevamento automatico da documenti di vendita ed acquisto, attribuzione nomencature combinate ai prodotti, produzione registri cartacei ed elettronici.",
 
+    "SalePurchaseDocuments_title": "Funzioni comuni ai documenti",
+    "SalePurchaseDocuments_details": "Funzioni comuni di gestione dei documenti del ciclo attivo e passivo",
+
     "Sales_title" : "Vendite",
     "Sales_details" : "Gestione fatture immediate ed accompagnatorie, DDT, note di credito e ricevute fiscali. Fatture di acconto, Fatture proforma e resi. Fatturazione e bollettazione immediata e differita, generazione dati per scheda di trasporto, gestione anagrafica articoli, statistiche legate a vendite. Codice a barre d’acquisto e di vendita, Articoli equivalenti, Produttori/Categorie prodotti, Copia documenti, Import/Export file articoli e note. Fatturazione Elettronica attiva, invio tramite DigitalHub Zucchetti.",
 
-    "SalesAdvItemsManag_title" : "Funzioni Avanzate Articoli",
-    "SalesAdvItemsManag_details" : "Politiche Prezzi, Politiche Spese, Codici Parlanti, Unità di misura derivate dall’articolo, Quantità accessorie.",
+    "AdvancedItemsManagement_title" : "Funzioni Avanzate Articoli",
+    "AdvancedItemsManagement_details" : "Politiche Prezzi, Politiche Spese, Codici Parlanti, Unità di misura derivate dall’articolo, Quantità accessorie.",
 
     "MultiStubBooks_title" : "Multibollettario",
     "MultiStubBooks_details": "Definizione bollettari aggiuntivi a quelli predefiniti, per personalizzare criteri di numerazione e stampa dei documenti di trasporto.",
@@ -119,7 +119,7 @@
     "eCommerce_title" : "e-commerce",
     "eCommerce_details": "Organizza il punto vendita on-line gestito con il motore di e-commerce Konakart di Zucchetti. Definizione prodotto con descrizioni brevi ed estese, anche in HTML, fotogallery, categorizzazione anche gerarchica, assortimento, prezzi e disponibilità specifici per la vendita on-line.",
 
-    "StoreManagement_title" : "Punto Vendita",
+    "StoreManagement_title" : "Store Management",
     "StoreManagement_details": "Gestione del punto vendita al dettaglio grazie all’integrazione con il sistema POS di TCPOS. Gestione centralizzata dei dati direttamente da Mago in qualità di back-end. Gli scontrini e i documenti di vendita generati dalle casse sono ricevuti direttamente in Mago e possono essere registrati in magazzino e in contabilità.",
 
     "StoreVariants_title" : "Varianti / Taglie e Colori",
@@ -155,7 +155,7 @@
     "AdditionalCharges_title" : "Oneri accessori",
     "AdditionalCharges_details": "Modelli di ripartizione oneri (dazi doganali, spese trasporto, ecc.), associazione articoli e categorie manuale od automatica, documento oneri accessori, rettifiche valorizzazioni di magazzino per attribuzione oneri.",
 
-    "PurchaseElectronicInvoicingAdv_title" : "Import Fatture Elettroniche",
+    "PurchaseElectronicInvoicingAdv_title" : "Import Fatturazione Elettronica Passiva",
     "PurchaseElectronicInvoicingAdv_details": "Consente l'importazione dei documenti elettronici passivi registrandoli in Mago4 come documenti del modulo Acquisti, permettendo anche la riconciliazione con le Bolle di Carico o gli Ordini di Acquisto presenti sul gestionale.",
 
     "PurchaseOrders_title" : "Ordini fornitori",
@@ -169,9 +169,6 @@
 
     "Inventory_title" : "Magazzino",
     "Inventory_details" : "Gestione anagrafica articoli e movimentazione magazzino, valorizzazione fiscale, LIFO e FIFO a scatti annuali, ABC, multibollettario, note tecniche. Statistiche legate a magazzino. Operazioni di carico e scarico velocizzate, tramite identificazione degli articoli e delle eventuali informazioni correlate, attraverso la lettura delle diverse tipologie di codici a barre, in apposita finestra semplificata e adattabile ai diversi documenti di vendita acquisto e movimenti di magazzino. Produzione e lettura di codici a barre strutturati su più segmenti e pertanto in grado di identificare con una sola scansione più informazioni, interpretazione dei codici di tipo GTIN (GS1-128). Possibilità di generazione file per l'invio dei dati alla stampante fiscale.",
-
-    "InventoryAdvItemsManag_title" : "Funzioni Avanzate Articoli",
-    "InventoryAdvItemsManag_details" : "Codici Parlanti, Unità di misura derivate dall’articolo, Quantità accessorie.",
 
     "MultiStorage_title" : "Multi deposito",
     "MultiStorage_details": "Gestione illimitati depositi, con dettaglio disponibilità, giacenza, entrate, uscite, ecc.. Movimentazione tra depositi, valorizzazione per deposito.",
@@ -209,8 +206,8 @@
     "Configurator_title" : "Configuratore",
     "Configurator_details": "Gestione configuratore commerciale di prodotto, con la possibilità tramite la gestione Varianti, di comporre interattivamente la configurazione del prodotto richiesta dal cliente.",
 
-    "Manufacturing_title" : "Produzione",
-    "Manufacturing_details": "Gestione dei documenti di produzione e loro sviluppo operativo. Gestione avanzamento, prelievo materiali, consuntivazione. Generazione automatica documenti, gestione dei terzisti, deposito conto lavorazione.",
+    "ManufacturingBasic_title" : "Produzione",
+    "ManufacturingBasic_details": "Gestione dei documenti di produzione e loro sviluppo operativo. Gestione avanzamento, prelievo materiali, consuntivazione. Generazione automatica documenti, gestione dei terzisti, deposito conto lavorazione.",
 
     "ManufacturingMobile_title" : "Manufacturing Mobile back-end",
     "ManufacturingMobile_details": "Gestione delle procedure di produzione mediante dispositivi portatili Wi-Fi Rfid: versamento a produzione da lavorazione interna, riordino a produzione articoli da mobile per Kanban, ecc.. Ogni dispositivo opera tramite la apposita app da installarsi su di esso.",
@@ -244,9 +241,6 @@
 
     "DMS_title" : "DMS",
     "DMS_details": "Modulo per la gestione degli allegati in forma elettronica per qualsiasi documento gestionale (documentale). Un allegato può essere facilmente ricercato applicando filtri specifici oltre ad essere subito fruibile aprendo il documento gestionale. È possibile inoltre allegare i report generati da MagoCloud.",
-
-    "DMSMassive_title" : "Archiviazione documentale massiva",
-    "DMSMassive_details": "Plug-in in grado di attivare la funzione di archiviazione documentale massiva.",
 
     "JobScheduler_title" : "Job Scheduler",
     "JobScheduler_details": "Esecuzione automatizzata di procedure, interne o esterne a MagoCloud, ad una data ed ora prefissata. Possibilità di definire sequenze di task articolate, composte anche da singoli task schedulabili, elencati secondo un ordine di esecuzione prestabilito.",
@@ -311,12 +305,11 @@
     "optional": "opzionale",
     "per number of users": "per numero utenti",
     "limited functionality": "funzionalità limitata",
-    "Base Module": "Modulo Base",
     "Multilanguage descriptions": "Descrizioni Multilingua",
     "Multicurrency":"Multivaluta",
-    "Contacts Management":"Gestione Contatti",
-    "Budget (Cust/Supp)":"Budget (Cli/For)",
-    "Financials":"Amministrazione e Contabilità",
+    "Contacts Management":"Gestione Contatti e Fornitori Potenziali",
+    "Budget Customers/Suppliers":"Budget Clienti/Fornitori",
+    "Accounting, Payables and Receivables":"Contabilità Generale, Scadenzario e Partite Aperte",
     "Sale Tax Journals": "Registri IVA vendite",
     "Purchase Tax Journals": "Registri IVA acquisti",
     "Other Tax Journals": "Registri IVA di altro tipo",
@@ -333,7 +326,7 @@
     "Payment Schedule Analysis and Cash Flow": "Analisi Scadenzari e Cash Flow",
     "Automatic Accrual and Deferrals": "Ratei e risconti automatici",
     "Balance Analysis and Reclassifications": "Analisi e riclassificazioni bilancio",
-    "Professionals Fees and Withholding Tax": "Gestione parcelle professionisti e ritenute d'acconto",
+    "Professionals Fees and Withholding Tax": "Professionisti e ritenute d'acconto",
     "CADI (VAT settlement and documents data communication)": "CADI (liquidazione e dati documenti IVA)",
     "Advanced Banks Management": "Gestione Banche Avanzato",
     "Foreign Bank Transfers / SDD Mandates": "Bonifici esteri / mandati SDD",
@@ -341,7 +334,7 @@
     "Tresaury": "Tesoreria",
     "Fixed Assets": "Cespiti",
     "Forecast Accounting": "Contabilità Previsionale",
-    "XBRL Balance": "XBRL Bilancio",
+    "XBRL Balance": "Bilancio XBRL",
     "Accounting Books and Balance Attachments": "Libro Inventari e Allegati",
     "Balance Analysis (Basel II)": "Analisi di Bilancio (Basilea II)",
     "Multicompany Balance": "Bilancio Consolidato",
@@ -355,7 +348,7 @@
     "OMNIA Connector": "Connettore OMNIA",
     "Payroll Import Connector":"Connettore Paghe Web",
     "TESAN Connector": "Connettore TESAN",
-    "Sales / Purchases": "Vendite / Acquisti",
+    "Documents common functions": "Funzioni comuni ai documenti",
     "Document Copy": "Copia documenti",
     "Items and Notes Import / Export": "Import / Export file articoli e note",
     "Price Policies": "Politiche prezzi",
@@ -369,18 +362,17 @@
     "Charge Policies": "Politiche Spese",
     "Sale Orders": "Ordini da clienti",
     "Customer Quotations": "Offerte a clienti",
-    "Sale Invoices / Delivery Notes": "Fatturazione / Bollettazione",
     "Sale Electronic Invoices": "Fatturazione Elettronica Attiva",
-    "Multiple Stub Books": "Gestione di più bollettari",
+    "Multiple Stub Books": "Multibollettari",
     "Variants / Size and Colors": "Varianti / Taglie e Colori",
     "Food Recipes": "Ricette Alimentari",
     "WEEE": "RAEE",
     "Credit Limit Management": "Gestione Fidi",
     "Additional Charges": "Oneri accessori",
     "Purchase Orders": "Ordini fornitori",
-    "Supplier Quotations": "Gestione offerte da fornitore",
+    "Supplier Quotations": "Offerte da fornitore",
     "Purchases": "Acquisti",
-    "Electronic Invoices Import in Purchase Documents": "Fatturazione Elettronica Import. Ciclo Passivo",
+    "Electronic Invoices Import in Purchase Documents": "Import Fatturazione Elettronica Passiva",
     "Inventory": "Magazzino",
     "Multistorage": "Multi deposito",
     "Single Step LIFO/FIFO": "LIFO/FIFO a scatti continui",
@@ -393,9 +385,9 @@
     "Bill of Materials": "Distinta Base",
     "Work Centers Calendar": "Calendario Associato ai CdL",
     "Work Centers Families": "Famiglie di CdL",
-    "Engineering Changing Order": "E.C.O.",
+    "Engineering Changing Order": "Engineering Changing Order",
     "Variants": "Varianti",
-    "Basic Manufacturing": "Produzione Base",
+    "Manufacturing": "Produzione",
     "Advanced Manufacturing": "Produzione Avanzata",
     "Advanced Planning": "Pianificazione Avanzata",
     "MO Confirmation Details": "Dettaglio delle Consuntivazioni OdP",
@@ -412,10 +404,10 @@
     "Tools Management": "Attrezzi",
     "Customized Reporting": "Reporting Personalizzato",
     "Customizable Tax Journals": "Registri IVA personalizzabili",
-    "Advanced AP/AR Management":"Scadenzario Avanzato",
-    "Advanced Items Management": "Gestione avanzata articoli",
+    "Advanced AP/AR Management":"Funzioni Avanzate di Scadenzario",
+    "Advanced Items Management": "Funzioni avanzate articoli",
     "MO Advanced Management": "Gestione avanzata OdP",
-    "Drawings Management, History and Versioning": "Gestione Disegni, storico e indici di revisione",
+    "Drawings Management, History and Versioning": "Disegni, storico e indici di revisione",
     "Massive Archiving Plug-In": "Archiviazione documentale massiva",
     "Includes: Price Policies, Charge Policies, Smart Codes and Advanced UoMs": "Include: Politiche Prezzi, Politiche Spese, Codici Parlanti e Unità di Misura Avanzate",
     "Includes: Customizable Bills Management, Vouchers Management, Factoring Management and Outstandings Management": "Include: Presentazioni effetti parametrizzabili, Reversali di incasso, Factoring e Gestione automatica insoluti",
@@ -437,7 +429,7 @@
     "Electronic Invoice Import": "Import Fatture Elettroniche",
     "Payables and Receivables": "Scadenzario e Partite Aperte",
     "Sales": "Vendite",
-    "Store Management": "Punto Vendita",
+    "Store Management": "Store Management",
     "WMS Advanced": "WMS Avanzato",
     "Drawings, History and Versioning": "Disegni, storico e indici di revisione",
     "Pay Per Transactions": "Prezzo calcolato sulla base delle transazioni",
@@ -445,5 +437,6 @@
     "Feature": "Funzionalità",
     "Available in some countries only": "Disponibile solo in alcuni Paesi",
     "Available in": "Disponibile in",
-    "Not available in": "Non disponibile in"
+    "Not available in": "Non disponibile in",
+    "TCPOS Connector": "Connettore TCPOS"
 }

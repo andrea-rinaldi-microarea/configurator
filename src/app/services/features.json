@@ -1,7 +1,7 @@
 [
  {
    "isModule": true,
-   "description": "Base Module",
+   "description": "Masters and Common Functions",
    "level": 1,
    "fragment": "Server",
    "isAvailable": true,
@@ -49,7 +49,7 @@
  },
  {
    "isModule": false,
-   "description": "Budget (Cust/Supp)",
+   "description": "Budget Customers/Suppliers",
    "level": 3,
    "fragment": "Budget",
    "isAvailable": true,
@@ -73,7 +73,7 @@
  },
  {
    "isModule": true,
-   "description": "Financials",
+   "description": "Accounting, Payables and Receivables",
    "level": 1,
    "fragment": "Financials",
    "isAvailable": true,
@@ -289,17 +289,6 @@
  },
  {
    "isModule": false,
-   "description": "Advanced Banks Management",
-   "fragment": "",
-   "isAvailable": true,
-   "allowISO": "IT",
-   "denyISO": "",
-   "optionID": "BAPL",
-   "tag": "BAPL",
-   "discontinued": true
- },
- {
-   "isModule": false,
    "description": "Analysis & Controlling",
    "level": 2,
    "fragment": "CostAccounting",
@@ -348,7 +337,7 @@
  },
  {
    "isModule": true,
-   "description": "Sales / Purchases",
+   "description": "Documents common functions",
    "level": 1,
    "fragment": "SalePurchaseDocuments",
    "isAvailable": true,
@@ -360,7 +349,7 @@
  },
  {
    "isModule": true,
-   "description": "Sale Invoices / Delivery Notes",
+   "description": "Sales",
    "level": 1,
    "fragment": "Sales",
    "isAvailable": true,
@@ -492,7 +481,7 @@
  },
  {
    "isModule": true,
-   "description": "Store Management (backend)",
+   "description": "Store Management",
    "level": 1,
    "fragment": "StoreManagement",
    "isAvailable": true,
@@ -576,7 +565,7 @@
  },
  {
    "isModule": true,
-   "description": "CRM - Infinity Connector",
+   "description": "CRM",
    "level": 1,
    "fragment": "InfinityConnector",
    "isAvailable": false,
@@ -744,17 +733,6 @@
  },
  {
    "isModule": false,
-   "description": "Barcode Manager",
-   "fragment": "",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "BARC",
-   "tag": "BARC",
-   "discontinued": true
- },
- {
-   "isModule": false,
    "description": "Lots and Serial Numbers",
    "level": 2,
    "fragment": "LotsSerials",
@@ -767,7 +745,7 @@
  },
  {
    "isModule": true,
-   "description": "WMS Basic",
+   "description": "WMS",
    "level": 1,
    "fragment": "WMSBasic",
    "isAvailable": true,
@@ -791,17 +769,6 @@
  },
  {
    "isModule": false,
-   "description": "WMS Shipping",
-   "fragment": "WMSShipping",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "WMSH",
-   "tag": "WMSH",
-   "discontinued": true
- },
- {
-   "isModule": false,
    "description": "WMS Mobile - backend",
    "level": 3,
    "fragment": "WMSMobile",
@@ -822,17 +789,6 @@
    "denyISO": "",
    "optionID": "WMRC",
    "tag": "WMRC",
-   "discontinued": false
- },
- {
-   "isModule": true,
-   "description": "Resources Management",
-   "fragment": "_RESMAN",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "RESM",
-   "tag": "SEVR",
    "discontinued": false
  },
  {
@@ -885,7 +841,7 @@
  },
  {
    "isModule": true,
-   "description": "Basic Manufacturing",
+   "description": "Manufacturing",
    "level": 1,
    "fragment": "ManufacturingBasic",
    "isAvailable": true,
@@ -1086,27 +1042,5 @@
    "optionID": "MYMS",
    "tag": "MYMS",
    "discontinued": false
- },
- {
-   "isModule": true,
-   "description": "Xgate",
-   "fragment": "",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "XGAT",
-   "tag": "XGAT",
-   "discontinued": true
- },
- {
-   "isModule": true,
-   "description": "IMS Custom Flows",
-   "fragment": "",
-   "isAvailable": true,
-   "allowISO": "",
-   "denyISO": "",
-   "optionID": "ISCF",
-   "tag": "ISCF",
-   "discontinued": true
  }
 ]

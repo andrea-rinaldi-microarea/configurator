@@ -1,6 +1,6 @@
 {
-    "MasterCommon_title": "Masters and Common Functions",
-    "MasterCommon_details": "Basic master information such as Customers, Suppliers, Payment Terms, Banks. Company data definition, Tax parameters and fiscal periods. Configuration for parameters and base services shared throughout the product.",
+    "Server_title": "Masters and Common Functions",
+    "Server_details": "Basic master information such as Customers, Suppliers, Payment Terms, Banks. Company data definition, Tax parameters and fiscal periods. Configuration for parameters and base services shared throughout the product.",
 
     "Languages_title": "Multilanguage descriptions",
     "Languages_details": "Descriptions in multiple languages available for Items, Chart of Accounts, Payment Terms and many other masters. Multilanguage descriptions are shown in document edit and on printouts.",
@@ -17,14 +17,14 @@
     "KPIMobileApp_title": "KPI Dashboards mobile app",
     "KPIMobileApp_details": "iOS and Android mobile app for the Finance, Sales or Operations manager. Provides quick access to company data through easy-to-use KPI widgets. Several standard KPIs are provided; customized KPIs can be created with MyMago Studio.",
 
-    "Financials_title": "Financials",
-    "Financials_details": "",
+    "Financials_title" : "Accounting, Payables and Receivables",
+    "Financials_details": "General Ledger management, journal entries, balances, pro-rata, Travel Agencies VAT. Predefined Chart of Accounts compliant to EU standards, or customizabile up to 8 levels. Payment schedules, bills and payment orders management. Customizabile payment methods. SEPA Direct Debit (SDD) Mandate contextual printing. SDD mandates can be sent by e-mail in order to be subscribed. The module allows you to print SDD and SCT (SEPA Credit Transfer) on XML files. Import of XML SEPA files according to Camt052 and Camt053 formats of bank accounts daily reports. Bank reconciliation procedure between imported bank statements and accounting entries, with the possibility to generate a new accounting entry from the bank operation, with the contextual payment schedule update in case of collections or payments, as well as to link a bank operation to an accounting entry already posted. Balancing Check reports between bank statements and General Ledgers.",
 
-    "Accounting_title" : "Accounting",
-    "Accounting_details": "General Ledger management, journal entries, balances, pro-rata, Travel Agencies VAT. Predefined Chart of Accounts compliant to EU standards, or customizabile up to 8 levels.",
+    "MultiTaxJournals_title" : "Customizable Tax Journals",
+    "MultiTaxJournals_details": "Additional Tax books in addition to the predefined ones, to customize numbering cirteria and organize Tax printouts.",
 
-    "CustomizableCodes_title" : "Customizable Journals and Templates",
-    "CustomizableCodes_details": "Custom accounting templates in addition to the standard ones, template definition from existing entries, complete with amounts if needed, to automate recurring transactions. Additional VAT books in addition to the predefined ones, to customize numbering cirteria and organize VAT printouts.",
+    "CustomizedAccountingTemplates_title" : "Customizable Accounting Templates",
+    "CustomizedAccountingTemplates_details": "Custom accounting templates in addition to the standard ones, template definition from existing entries, complete with amounts if needed, to automate recurring transactions.",
 
     "PurchaseElectronicInvoicing_title" : "Electronic Invoice Import",
     "PurchaseElectronicInvoicing_details": "Management of the e-Invoicing into the Received Documents. With this procedure, the electronic invoices received on the Zucchetti Digital Hub are imported into the program: the user can view the invoice and post it in the Received Documents in Accounting, immediately or later.",
@@ -41,9 +41,6 @@
     "Cash_title" : "Cash Management",
     "Cash_details": "Module dedicated to the management of all debit and credit transfers of money. Cash sessions for single user. Linked with payables and receivables and with general ledger. Foreign currency cash management.",
 
-    "AP_AR_title" : "Payables and Receivables",
-    "AP_AR_details" : "Payment schedules, bills and payment orders management. Customizabile payment methods. SEPA Direct Debit (SDD) Mandate contextual printing. SDD mandates can be sent by e-mail in order to be subscribed. The module allows you to print SDD and SCT (SEPA Credit Transfer) on XML files. Import of XML SEPA files according to Camt052 and Camt053 formats of bank accounts daily reports. Bank reconciliation procedure between imported bank statements and accounting entries, with the possibility to generate a new accounting entry from the bank operation, with the contextual payment schedule update in case of collections or payments, as well as to link a bank operation to an accounting entry already posted. Balancing Check reports between bank statements and General Ledgers.",
-    
     "Dunnings_title" : "Dunning letters",
     "Dunnings_details": "Management of more dunning levels, each with an own text. A procedure allows to print and send by e-mail dunning letters of due amounts in the customer’s language, with the automatic update of the last dunning sent data in customer master. The text of the dunning letter and of the e-mail is customizable by the user.",
 
@@ -86,11 +83,14 @@
     "Intrastat_title" : "Intrastat",
     "Intrastat_details": "Intrastat management, automatic entries generation from sale and purchase documents, items combined nomenclature, intrastat lists on file and on paper.",
 
+    "SalePurchaseDocuments_title": "Documents common functions",
+    "SalePurchaseDocuments_details": "Management functions common for all the Sales and Purchase documents.",
+
     "Sales_title" : "Sales",
     "Sales_details" : "Direct and shipping invoices, delivery notes, credit notes and receipts. Advance Invoices, Pro-forma Invoices and returns. Direct invoicing and immediate or delayed billing, data generation for transport card, items master data management, sales statistics. Multiple Sale and Purchase Barcode, Equivalent Items, Manufacturer / Product Categories, Document Copy, Import / Export Items and Notes. Sale Electroning Invoicing, sent through Zucchetti DigitalHub.",
 
-    "SalesAdvItemsManag_title" : "Advanced Items Management",
-    "SalesAdvItemsManag_details" : "Price Policies, Charge Policies, Smart Code, Multiple UoM per Item, Additional Quantities.",
+    "AdvancedItemsManagement_title" : "Advanced Items Management",
+    "AdvancedItemsManagement_details" : "Price Policies, Charge Policies, Smart Code, Multiple UoM per Item, Additional Quantities.",
 
     "MultiStubBooks_title" : "Multiple Stub Books",
     "MultiStubBooks_details": "Additional stub books in addition to the predefined ones, to customize numbering criteria for delivery documents and organize printouts.",
@@ -170,9 +170,6 @@
     "Inventory_title" : "Inventory",
     "Inventory_details" : "Items master data and inventory handling management, tax enhancement, annual LIFO/FIFO, ABC, multiple stub books, Technical Notes. Inventory statistics. Loading and unloading operations sped up through identification of the items and possible related information, by reading the several types of barcodes, in a separate window simplified and adapted to the different sales, purchase, inventory entry documents. Production and reading of barcodes structured on multiple segments and therefore able to identify by a single scan more information, interpretation of barcodes of type GTIN (GS1-128). File generation in order to send data to fiscal printer.",
 
-    "InventoryAdvItemsManag_title" : "Advanced Items Management",
-    "InventoryAdvItemsManag_details" : "Smart Code, Multiple UoM per Item, Additional Quantities.",
-
     "MultiStorage_title" : "Multistorage",
     "MultiStorage_details": "Unlimited number of storages, with detailed quantities for availability, stock, in, out, etc. Transfers between storages, valuation per storage.",
 
@@ -209,8 +206,8 @@
     "Configurator_title" : "Configurator",
     "Configurator_details": "Product sales configurator management. By managing variants, it’s possible to interactively compose the product configuration requested by the customer.",
 
-    "Manufacturing_title" : "Manufacturing",
-    "Manufacturing_details": "Manufacturing document management and operational development. Progress, materials collection, final accounting management. Documents automatic generation, contractors management, manufacturing account storage.",
+    "ManufacturingBasic_title" : "Manufacturing",
+    "ManufacturingBasic_details": "Manufacturing document management and operational development. Progress, materials collection, final accounting management. Documents automatic generation, contractors management, manufacturing account storage.",
 
     "ManufacturingMobile_title" : "Manufacturing Mobile back-end",
     "ManufacturingMobile_details": "Manufacturing procedures management throughout Wi-Fi Rfid devices: manufacturing orders confirmation from handhelds, production reorder from mobile for Kanban, etc.. Every device will require installing the specific mobile app.",
@@ -244,9 +241,6 @@
 
     "DMS_title" : "DMS",
     "DMS_details": "Module addressing the management of the attachments in electronic form to any ERP document (document management system). An attachment can be easily searched by applying specific filters as well as being immediately usable by opening the management document. It is also possible to attach reports generated by MagoCloud.",
-
-    "DMSMassive_title" : "Massive Archiving Plug-In",
-    "DMSMassive_details": "Plug-in activating the function of massive storage.",
 
     "JobScheduler_title" : "Job Scheduler",
     "JobScheduler_details": "Automate procedures execution, inside or outside MagoCloud, at a date and time fixed in advance. Allows to define articulated tasks sequences, composed by single schedulable tasks, listed in pre-execution order.",

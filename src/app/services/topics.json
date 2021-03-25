@@ -1,10 +1,10 @@
 [
  {
-  "topic": "MasterCommon",
+  "topic": "Server",
   "level": 1,
   "order": "01",
-  "title": "MasterCommon_title",
-  "details": "MasterCommon_details",
+  "title": "Server_title",
+  "details": "Server_details",
   "notYetAvailable": false
  },
  {
@@ -55,24 +55,24 @@
    "details": "Financials_details"
  },
  {
-   "topic": "Accounting",
-   "level": 2,
-   "order": "02.1",
-   "title":  "Accounting_title",
-   "details": "Accounting_details",
-   "denyISO": "BR",
-   "notYetAvailable": false
- },
- {
-   "topic": "CustomizableCodes",
+   "topic": "MultiTaxJournals",
    "level": 3,
    "order": "02.1.1",
-   "title":  "CustomizableCodes_title",
-   "details":  "CustomizableCodes_details",
+   "title":  "MultiTaxJournals_title",
+   "details":  "MultiTaxJournals_details",
    "denyISO": "BR",
    "notYetAvailable": false
  },
  {
+  "topic": "CustomizedAccountingTemplates",
+  "level": 3,
+  "order": "02.1.1",
+  "title":  "CustomizedAccountingTemplates_title",
+  "details":  "CustomizedAccountingTemplates_details",
+  "denyISO": "BR",
+  "notYetAvailable": false
+},
+{
    "topic": "PurchaseElectronicInvoicing",
    "level": 3,
    "order": "02.1.2",
@@ -117,13 +117,6 @@
    "denyISO": "IT,CH,BR",
    "notYetAvailable": false
  },
- {
-   "topic": "AP_AR",
-   "level": 2,
-   "order": "02.2",
-   "title":  "AP_AR_title",
-   "details": "AP_AR_details"
-  },
  {
    "topic": "Dunnings",
    "level": 3,
@@ -278,20 +271,28 @@
   "allowISO": "FR"
 },
 {
-   "topic": "Sales",
+   "topic": "SalePurchaseDocuments",
    "level": 1,
    "order": "03",
-   "title":  "Sales_title",
+   "title":  "SalePurchaseDocuments_title",
    "notYetAvailable": false,
-   "details": "Sales_details"
+   "details": "SalePurchaseDocuments_details"
  },
  {
-   "topic": "SalesAdvItemsManag",
+    "topic": "Sales",
+    "level": 1,
+    "order": "03",
+    "title":  "Sales_title",
+    "notYetAvailable": false,
+    "details": "Sales_details"
+  },
+ {
+   "topic": "AdvancedItemsManagement",
    "level": 3,
    "order": "03.1.1",
-   "title":  "SalesAdvItemsManag_title",
+   "title":  "AdvancedItemsManagement_title",
    "notYetAvailable": false,
-   "details": "SalesAdvItemsManag_details"
+   "details": "AdvancedItemsManagement_details"
 },
  {
    "topic": "MultiStubBooks",
@@ -512,14 +513,6 @@
    "details": "Inventory_details"
  },
  {
-   "topic": "InventoryAdvItemsManag",
-   "level": 3,
-   "order": "08.1.1",
-   "title":  "InventoryAdvItemsManag_title",
-   "notYetAvailable": false,
-   "details": "InventoryAdvItemsManag_details"
-},
- {
    "topic": "MultiStorage",
    "level": 3,
    "order": "08.1.2",
@@ -617,11 +610,11 @@
    "notYetAvailable": false
  },
  {
-   "topic": "Manufacturing",
+   "topic": "ManufacturingBasic",
    "level": 1,
    "order": "11",
-   "title":  "Manufacturing_title",
-   "details":  "Manufacturing_details",
+   "title":  "ManufacturingBasic_title",
+   "details":  "ManufacturingBasic_details",
    "notYetAvailable": false
  },
  {
@@ -765,14 +758,6 @@
    "title":  "DMS_title",
    "details":  "DMS_details",
    "notYetAvailable": false
- },
- {
-   "topic": "DMSMassive",
-   "level": 3,
-   "order": "13.1.1",
-   "title":  "DMSMassive_title",
-   "details":  "DMSMassive_details",
-   "notYetAvailable": true
  },
  {
    "topic": "JobScheduler",
