@@ -1,7 +1,7 @@
 {
   "name": "Administration & Services",
   "industryCode": "ADSE",
-  "version": "10",
+  "version": "12",
   "productID": "MC",
   "productName": "MagoCloud",
   "features": [
@@ -1100,6 +1100,34 @@
       "allowISO": "",
       "denyISO": "",
       "optionID": "MYMS",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Multicompany extension",
+      "fragment": "Multicompany",
+      "isAvailable": false,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MULT",
       "options": [
         {
           "edition": "STD",

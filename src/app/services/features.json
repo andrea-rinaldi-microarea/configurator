@@ -1042,5 +1042,17 @@
    "optionID": "MYMS",
    "tag": "MYMS",
    "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Multicompany extension",
+   "level": 1,
+   "fragment": "Multicompany",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "MULT",
+   "tag": "MULT",
+   "discontinued": false
  }
 ]

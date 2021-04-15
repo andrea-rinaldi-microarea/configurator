@@ -1231,7 +1231,7 @@
       "level": 1,
       "description": "WMS",
       "fragment": "WMSBasic",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "WMAA",
@@ -1259,7 +1259,7 @@
       "level": 3,
       "description": "WMS Advanced",
       "fragment": "WMSAdvanced",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "options": [
@@ -1286,7 +1286,7 @@
       "level": 3,
       "description": "WMS Mobile - backend",
       "fragment": "WMSMobile",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "WMRF",
@@ -1314,7 +1314,7 @@
       "level": 3,
       "description": "WMS Mobile - app",
       "fragment": "WMSMobileApp",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "WMRC",
@@ -1513,6 +1513,33 @@
         {
           "edition": "STD",
           "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Multicompany extension",
+      "fragment": "Multicompany",
+      "isAvailable": false,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MULT",
+      "options": [
+        {
+          "edition": "STD"
         },
         {
           "edition": "PRM",

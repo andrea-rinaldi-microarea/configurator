@@ -800,9 +800,17 @@
    "notYetAvailable": true
  },
  {
-   "topic": "MyMagoStudio",
+   "topic": "Multicompany",
    "level": 2,
    "order": "13.4",
+   "title":  "Multicompany_title",
+   "details":  "Multicompany_details",
+   "notYetAvailable": true
+ },
+ {
+   "topic": "MyMagoStudio",
+   "level": 2,
+   "order": "13.5",
    "title":  "MyMagoStudio_title",
    "details":  "MyMagoStudio_details",
    "notYetAvailable": true

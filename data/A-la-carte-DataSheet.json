@@ -1400,8 +1400,22 @@
       ]
     },
     {
-      "Topic": "MyMagoStudio",
+      "Topic": "Multicompany",
       "Order": "13.4",
+      "Level": 2,
+      "Title": "Multicompany_title",
+      "Details": "Multicompany_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "CRT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "Topic": "MyMagoStudio",
+      "Order": "13.5",
       "Level": 2,
       "Title": "MyMagoStudio_title",
       "Details": "MyMagoStudio_details",

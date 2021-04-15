@@ -253,5 +253,8 @@
     },
     "Auditing" : {
         "weight": 308
+    },
+    "Multicompany" : {
+        "weight": 0
     }
 }
