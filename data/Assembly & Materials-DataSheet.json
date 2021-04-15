@@ -1952,8 +1952,34 @@
       ]
     },
     {
-      "Topic": "MyMagoStudio",
+      "Topic": "Multicompany",
       "Order": "13.4",
+      "Level": 2,
+      "Title": "Multicompany_title",
+      "Details": "Multicompany_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "Topic": "MyMagoStudio",
+      "Order": "13.5",
       "Level": 2,
       "Title": "MyMagoStudio_title",
       "Details": "MyMagoStudio_details",

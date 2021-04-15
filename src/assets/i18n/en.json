@@ -293,5 +293,8 @@
     "Tesan_details": "The TESAN connector exports in a text file document data linked to items activated for the TEssera SANitaria management (Italian Public Healthcare ID). The file can be imported in the OMNIA Zucchetti product, and then sent to the governmental Healthcare organization, due for fiscal obligations.",
 
     "TCPOSConnector_title": "TCPOS Connector",
-    "TCPOSConnector_details": "The TCPOS connector manages data flows from Mago to TCPOS tills and vice versa, allowing a complete control of the store organization, prices, assortments, and so on."
+    "TCPOSConnector_details": "The TCPOS connector manages data flows from Mago to TCPOS tills and vice versa, allowing a complete control of the store organization, prices, assortments, and so on.",
+
+    "Multicompany_title": "Multicompany extension",
+    "Multicompany_details": "Such Extension allows addressing those cases characterised by companies “controlled by” or “connected to” one sole legal subject (holder of the license) by means of one single license of MagoCloud and with “n” active subscriptions equal to the number of Companies that need to be managed. This type of Extension will therefore allow managing scenarios such as Temporary Business Associations, estate agencies, etc. Such Extension is essential also when dealing with companies (e.g. accounting firms) whose core business is the bookkeeping of third party enterprises."
 }
