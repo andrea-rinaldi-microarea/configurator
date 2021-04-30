@@ -2077,6 +2077,7 @@
       "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
+      "optionID": "AUDT",
       "options": [
         {
           "edition": "STD",
@@ -2084,15 +2085,15 @@
         },
         {
           "edition": "PRM",
-          "availability": ""
+          "availability": "optional"
         },
         {
           "edition": "PRO",
-          "availability": "always"
+          "availability": "optional"
         },
         {
           "edition": "ENT",
-          "availability": "always"
+          "availability": "optional"
         }
       ]
     },
