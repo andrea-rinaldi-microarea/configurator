@@ -1443,6 +1443,33 @@
     {
       "isModule": false,
       "level": 2,
+      "description": "Deposit",
+      "fragment": "Deposit",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "DEPO",
+      "options": [
+        {
+          "edition": "STD"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
       "description": "Lots and Serial Numbers",
       "fragment": "LotsSerials",
       "isAvailable": true,

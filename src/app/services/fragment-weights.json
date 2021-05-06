@@ -256,5 +256,8 @@
     },
     "Multicompany" : {
         "weight": 0
+    },
+    "Deposit" : {
+        "weight": 300
     }
 }

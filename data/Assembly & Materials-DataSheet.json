@@ -1504,6 +1504,32 @@
       ]
     },
     {
+      "Topic": "Deposit",
+      "Order": "08.3",
+      "Level": 2,
+      "Title": "Deposit_title",
+      "Details": "Deposit_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
       "Topic": "BillOfMaterials",
       "Order": "10",
       "Level": 1,

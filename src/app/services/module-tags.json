@@ -110,7 +110,8 @@
     { "tag": "CRMM" },
     { "tag": "CRMF" },
     { "tag": "ECO" },
-    { "tag": "KPIM" }
+    { "tag": "KPIM" },
+    { "tag": "DEPO" }
 
 
 ]
