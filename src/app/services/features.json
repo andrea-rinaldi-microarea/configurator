@@ -732,6 +732,18 @@
    "discontinued": false
  },
  {
+  "isModule": false,
+  "description": "Deposit",
+  "level": 2,
+  "fragment": "Deposit",
+  "isAvailable": true,
+  "allowISO": "",
+  "denyISO": "",
+  "optionID": "DEPO",
+  "tag": "DEPO",
+  "discontinued": false
+},
+{
    "isModule": false,
    "description": "Lots and Serial Numbers",
    "level": 2,

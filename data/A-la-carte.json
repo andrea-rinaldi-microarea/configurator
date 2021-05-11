@@ -982,6 +982,22 @@
     {
       "isModule": false,
       "level": 2,
+      "description": "Deposit",
+      "fragment": "Deposit",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "DEPO",
+      "options": [
+        {
+          "edition": "CRT",
+          "availability": "optional"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
       "description": "Lots and Serial Numbers",
       "fragment": "LotsSerials",
       "isAvailable": true,
@@ -1083,7 +1099,7 @@
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "ECO",
+      "optionID": "ECOC",
       "options": [
         {
           "edition": "CRT",

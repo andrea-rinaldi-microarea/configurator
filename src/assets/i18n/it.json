@@ -182,6 +182,9 @@
     "LotsSerials_title" : "Lotti e Matricole",
     "LotsSerials_details": "Gestione lotti articoli, autonumerazione lotti, proposizioni automatiche in fase di scarico, movimentazione lotti anche per deposito, autonumerazione matricole, esplosione matricole in fase di scarico.",
 
+    "Deposit_title" : "Cauzioni",
+    "Deposit_details": "Gestione delle cauzioni.",
+
     "WMSBasic_title" : "WMS",
     "WMSBasic_details" : "Gestione del layout di magazzino, lettori barcode, preparazione spedizione / picking, definizione percorso ottimo, inventari periodici. Gestione avanzata delle spedizioni che utilizzino fornitori di logistica esterna o sistemi logistici di terze parti, anche con integrazione tramite sistemi EDI. Unica struttura ubicazioni fino a 4 livelli di coordinate.",
 
@@ -382,6 +385,7 @@
     "Quality Inspections": "Controllo qualità",
     "Technical Notes": "Note Tecniche",
     "Lots and Serial Numbers": "Lotti e Matricole",
+    "Deposit": "Cauzioni",
     "Advanced": "Avanzato",
     "Company Calendar": "Calendario Aziendale",
     "Bill of Materials": "Distinta Base",

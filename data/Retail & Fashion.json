@@ -1227,11 +1227,38 @@
       ]
     },
     {
+      "isModule": false,
+      "level": 2,
+      "description": "Deposit",
+      "fragment": "Deposit",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "DEPO",
+      "options": [
+        {
+          "edition": "STD"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
       "isModule": true,
       "level": 1,
       "description": "WMS",
       "fragment": "WMSBasic",
-      "isAvailable": true,
+      "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
       "optionID": "WMAA",
@@ -1259,7 +1286,7 @@
       "level": 3,
       "description": "WMS Advanced",
       "fragment": "WMSAdvanced",
-      "isAvailable": true,
+      "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
       "options": [
@@ -1286,7 +1313,7 @@
       "level": 3,
       "description": "WMS Mobile - backend",
       "fragment": "WMSMobile",
-      "isAvailable": true,
+      "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
       "optionID": "WMRF",
@@ -1314,7 +1341,7 @@
       "level": 3,
       "description": "WMS Mobile - app",
       "fragment": "WMSMobileApp",
-      "isAvailable": true,
+      "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
       "optionID": "WMRC",
@@ -1453,6 +1480,7 @@
       "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
+      "optionID": "AUDT",
       "options": [
         {
           "edition": "STD",
@@ -1460,15 +1488,15 @@
         },
         {
           "edition": "PRM",
-          "availability": ""
+          "availability": "optional"
         },
         {
           "edition": "PRO",
-          "availability": "always"
+          "availability": "optional"
         },
         {
           "edition": "ENT",
-          "availability": "always"
+          "availability": "optional"
         }
       ]
     },

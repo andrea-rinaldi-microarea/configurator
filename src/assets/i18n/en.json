@@ -182,6 +182,9 @@
     "LotsSerials_title" : "Lots and Serial Numbers",
     "LotsSerials_details": "Item lots management, lots auto-numbering, unloading automatic propositions, lots handling also for deposit, automatic serial numbers, serial numbers explosion during unloading.",
 
+    "Deposit_title" : "Deposit Management",
+    "Deposit_details": "Allow to manage the deposit.",
+
     "WMSBasic_title" : "WMS",
     "WMSBasic_details" : "Warehouse layout management, barcode scanner, shipment preparation/picking, optimal path definition, periodical inventories. Advanced management of shipments using external logistics providers or third party logistics systems, also with integration through EDI systems. Single bin structure up to 4 levels of coordinates.",
 
