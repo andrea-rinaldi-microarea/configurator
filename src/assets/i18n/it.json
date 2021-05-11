@@ -252,7 +252,7 @@
     "SecurityAdvanced_details": "Gestione dei livelli di accesso alle funzionalità applicative attribuibili a ruoli o ad utenti specifici, con dettaglio delle parti visibili ed accessibili di ciascuna funzione.",
 
     "Auditing_title" : "Auditing",
-    "Auditing_details": "Monitoraggio delle modifiche eseguite dagli utenti sui dati aziendali.",
+    "Auditing_details": "Monitora le attività eseguite dagli utenti nel tuo ERP. Traccia tutte le modifiche e gli aggiornamenti effettuati a documenti, articoli ecc. e verifica in modo intuitivo da chi sono stati eseguiti, grazie alla dashboard Grafana.",
 
     "Visibility_title" : "Visibility",
     "Visibility_details": "Gestione dei livelli di accesso ai dati aziendali attribuibili a ruoli o ad utenti specifici. Comprende il servizio di sicurezza basato sulla Semantica.",

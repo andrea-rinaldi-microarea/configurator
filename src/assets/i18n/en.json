@@ -252,7 +252,7 @@
     "SecurityAdvanced_details": "The module manages the levels of access to application functions; different access levels can be attributed to specific roles or users, with the details of the visible and accessible parts.",
 
     "Auditing_title" : "Auditing",
-    "Auditing_details": "Monitoring of the changes made by users on corporate data.",
+    "Auditing_details": "Monitor user activity in your ERP. Track in your Grafana dashboard all the changes and updates made to documents, articles etc. and check who did them.",
 
     "Visibility_title" : "Visibility",
     "Visibility_details": "The module manages the levels of access to corporate data; different access levels can be attributed to specific roles or users. It includes the security service based on semantics.",
