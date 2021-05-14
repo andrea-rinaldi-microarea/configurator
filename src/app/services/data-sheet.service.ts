@@ -28,16 +28,7 @@ export class DataSheetService {
           var l = new DataSheetLine(line);
           var actualLine = actualData.lines ? actualData.lines.find(al => al.topic == line.topic) : null;
           if (actualLine != null) {
-            // industry a-la-carte use a special edition "CRT", the editor show it as STD 
-            if (this.current.name == "A-la-carte") {
-              l.options = [];
-              editions.forEach(e => {
-                l.options.push(new DataSheetLineOption(e));
-              });              
-              l.options[STD].availability = actualLine.options[CRT].availability; 
-            } else {
-              l.options = actualLine.options;
-            }
+            l.options = actualLine.options;
             l.included = true;
             // allow forcing notYetAvailable on some specific industries
             l.notYetAvailable = actualLine.notYetAvailable;
@@ -57,10 +48,6 @@ export class DataSheetService {
       if (!line.included)
         return;
       var dsLine = new DataSheetLine(line);
-      if (this.current.name == 'A-la-carte') {
-        dsLine.options = [];
-        dsLine.options.push({edition: "CRT", availability: line.options[STD].availability});
-      }
       dataSheet.lines.push(dsLine);
     }); 
 

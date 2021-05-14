@@ -10,7 +10,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": "always"
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
           "availability": "always"
         }
       ]
@@ -24,7 +36,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -38,7 +62,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -52,7 +88,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -66,7 +114,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -80,7 +140,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
           "availability": "count"
         }
       ]
@@ -94,7 +166,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -109,7 +193,19 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -124,7 +220,19 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -139,7 +247,19 @@
       "allowISO": "IT",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -154,7 +274,19 @@
       "allowISO": "IT,HU",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -169,7 +301,19 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -184,7 +328,19 @@
       "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -199,7 +355,19 @@
       "denyISO": "IT,CH,BR",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -213,7 +381,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -227,7 +407,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -241,7 +433,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -256,7 +460,19 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -271,7 +487,19 @@
       "allowISO": "IT",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -286,7 +514,19 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -301,7 +541,19 @@
       "allowISO": "IT",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -315,7 +567,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -330,7 +594,19 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -345,7 +621,19 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -359,7 +647,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -373,7 +673,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -387,7 +699,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -402,7 +726,19 @@
       "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -415,7 +751,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -430,7 +778,19 @@
       "allowISO": "DE",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -445,7 +805,19 @@
       "allowISO": "ES",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -460,7 +832,19 @@
       "allowISO": "FR",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -474,7 +858,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -488,7 +884,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -502,7 +910,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -516,7 +936,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -530,7 +962,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -544,7 +988,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -558,7 +1014,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -573,7 +1041,19 @@
       "allowISO": "IT,RO,BG,HU,ES",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -588,7 +1068,19 @@
       "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -602,7 +1094,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -616,7 +1120,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -630,7 +1146,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -644,7 +1172,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -658,7 +1198,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -672,7 +1224,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -686,7 +1250,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -700,7 +1276,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -714,7 +1302,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -728,7 +1328,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
           "availability": "count"
         }
       ]
@@ -742,7 +1354,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -756,7 +1380,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
           "availability": "count"
         }
       ]
@@ -770,7 +1406,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
           "availability": "count"
         }
       ]
@@ -784,7 +1432,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
           "availability": "count"
         }
       ]
@@ -798,7 +1458,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -813,7 +1485,19 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -827,7 +1511,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -841,7 +1537,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -855,7 +1563,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -869,7 +1589,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -883,7 +1615,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -897,7 +1641,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -912,7 +1668,19 @@
       "allowISO": "HU,IT,CH,BG,DE",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -926,7 +1694,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -940,7 +1720,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -954,7 +1746,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -968,7 +1772,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -982,7 +1798,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -996,7 +1824,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1010,7 +1850,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
           "availability": "count"
         }
       ]
@@ -1024,7 +1876,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1038,7 +1902,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1052,7 +1928,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1066,7 +1954,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1080,7 +1980,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1094,7 +2006,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1108,7 +2032,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1122,7 +2058,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1136,7 +2084,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1150,7 +2110,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1164,7 +2136,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1178,7 +2162,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1192,7 +2188,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1206,7 +2214,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1220,7 +2240,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1235,7 +2267,19 @@
       "allowISO": "IT",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1250,7 +2294,19 @@
       "allowISO": "IT",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1265,7 +2321,19 @@
       "allowISO": "IT",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1280,7 +2348,19 @@
       "allowISO": "IT",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1295,7 +2375,19 @@
       "allowISO": "IT",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1310,7 +2402,19 @@
       "allowISO": "IT",
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1324,7 +2428,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1338,7 +2454,19 @@
       "NotYetAvailable": false,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1352,7 +2480,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1366,7 +2506,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1380,7 +2532,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1394,7 +2558,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1408,7 +2584,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
           "availability": "optional"
         }
       ]
@@ -1422,7 +2610,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
           "availability": "count"
         }
       ]
@@ -1436,7 +2636,19 @@
       "NotYetAvailable": true,
       "options": [
         {
-          "edition": "CRT",
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
           "availability": "count"
         }
       ]

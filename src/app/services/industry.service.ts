@@ -33,16 +33,7 @@ export class IndustryService {
           var feature = new Feature(f);
           var actualFeat = actualData.features ? actualData.features.find(f => f.fragment == feature.fragment) : null;
           if (actualFeat != null) {
-            // industry a-la-carte use a special edition "CRT", the editor show it as STD 
-            if (this.current.industryCode == "CART") {
-              feature.options = [];
-              editions.forEach(e => {
-                feature.options.push(new FeatureOption(e));
-              });              
-              feature.options[STD].availability = actualFeat.options[CRT].availability; 
-            } else {
-              feature.options = actualFeat.options;
-            }
+            feature.options = actualFeat.options;
             feature.included = true;
           } else {
             feature.options = [];
@@ -79,11 +70,6 @@ export class IndustryService {
       if (!f.included)
         return;
       var feat = new Feature(f);
-      // industry a-la-carte use a special edition "CRT", the editor show it as STD 
-      if (industry.industryCode == "CART") {
-        feat.options = [];
-        feat.options.push({edition: "CRT", availability: f.options[STD].availability});
-      }
       if (!this.isOptional(feat)) {
         feat.optionID = null;
       }  

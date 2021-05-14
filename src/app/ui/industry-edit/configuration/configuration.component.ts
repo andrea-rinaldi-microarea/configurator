@@ -23,11 +23,11 @@ export class ConfigurationComponent implements OnInit, DoCheck {
   private featureTypes = [
     {
       value: "",
-      icon: "fa-star-o"
+      icon: "fa-circle-o"
     },
     {
       value: "always",
-      icon: "fa-star"
+      icon: "fa-circle"
     },
     {
       value: "optional",
