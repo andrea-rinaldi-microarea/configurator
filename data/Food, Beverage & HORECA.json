@@ -1210,7 +1210,8 @@
       "optionID": "DEPO",
       "options": [
         {
-          "edition": "STD"
+          "edition": "STD",
+          "availability": ""
         },
         {
           "edition": "PRM",

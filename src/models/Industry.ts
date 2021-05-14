@@ -4,7 +4,7 @@ export class FeatureOption {
         public edition: string
     ) {}
 
-    public availability: string
+    public availability: string = "";
 }
 
 export class Feature {
