@@ -1075,7 +1075,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
-   "optionID": "CGMC",
+   "optionID": "MCMG",
    "tag": "MCMG",
    "discontinued": false
  },
@@ -1087,7 +1087,7 @@
    "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
-   "optionID": "CG01",
+   "optionID": "MC01",
    "tag": "MC01",
    "discontinued": false
  }

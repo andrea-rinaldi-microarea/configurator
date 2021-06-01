@@ -1156,7 +1156,7 @@
       "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "CGMC",
+      "optionID": "MCMG",
       "options": [
         {
           "edition": "STD",
@@ -1184,7 +1184,7 @@
       "isAvailable": false,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "CG01",
+      "optionID": "MC01",
       "options": [
         {
           "edition": "STD",
