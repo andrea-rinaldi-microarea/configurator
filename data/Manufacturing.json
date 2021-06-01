@@ -2207,6 +2207,62 @@
           "availability": "count"
         }
       ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Corporate Group Management",
+      "fragment": "CGM",
+      "isAvailable": false,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "CGMC",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "CGM Extension",
+      "fragment": "CGMExtension",
+      "isAvailable": false,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "CG01",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
     }
   ]
 }

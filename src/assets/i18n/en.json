@@ -299,5 +299,12 @@
     "TCPOSConnector_details": "The TCPOS connector manages data flows from Mago to TCPOS tills and vice versa, allowing a complete control of the store organization, prices, assortments, and so on.",
 
     "Multicompany_title": "Multicompany extension",
-    "Multicompany_details": "Such Extension allows addressing those cases characterised by companies “controlled by” or “connected to” one sole legal subject (holder of the license) by means of one single license of MagoCloud and with “n” active subscriptions equal to the number of Companies that need to be managed. This type of Extension will therefore allow managing scenarios such as Temporary Business Associations, estate agencies, etc. Such Extension is essential also when dealing with companies (e.g. accounting firms) whose core business is the bookkeeping of third party enterprises."
+    "Multicompany_details": "Such Extension allows addressing those cases characterised by companies “controlled by” or “connected to” one sole legal subject (holder of the license) by means of one single license of MagoCloud and with “n” active subscriptions equal to the number of Companies that need to be managed. This type of Extension will therefore allow managing scenarios such as Temporary Business Associations, estate agencies, etc. Such Extension is essential also when dealing with companies (e.g. accounting firms) whose core business is the bookkeeping of third party enterprises.",
+
+    "CGM_title": "Corporate Group Management",
+    "CGM_details": "Management of separate tax entities participating in the same business, with sharing of data such as master data and settings. The operating data of the various entities are kept separate but can be aggregated at the reporting level. The module allows the use of up to 3 separate tax entities, “controlled” or “associated” by a single legal entity and licensee. This module also allows to manage temporary business associations, real estate, etc.",
+
+    "CGMExtension_title": "CGM - Extension 1 Company",
+    "CGMExtension_details": "Adds 1 company to the basic 3 that can be managed with Corporate Group Management. You can buy as many of these Extensions as the additional companies to manage."
+
 }

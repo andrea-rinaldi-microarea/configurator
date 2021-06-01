@@ -1900,8 +1900,60 @@
       ]
     },
     {
+      "Topic": "Corporate Group Management",
+      "Order": "13.1",
+      "Level": 1,
+      "Title": "CGM_title",
+      "Details": "CGM_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional"
+        }
+      ]
+    },
+    {
+      "Topic": "CGM Extension",
+      "Order": "13.1.1",
+      "Level": 2,
+      "Title": "CGMExtension_title",
+      "Details": "CGMExtension_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
       "Topic": "Framework",
-      "Order": "13",
+      "Order": "14",
       "Level": 1,
       "Title": "Framework_title",
       "Details": "Framework_details",
@@ -1927,7 +1979,7 @@
     },
     {
       "Topic": "DMS",
-      "Order": "13.1",
+      "Order": "14.1",
       "Level": 2,
       "Title": "DMS_title",
       "Details": "DMS_details",
@@ -1953,7 +2005,7 @@
     },
     {
       "Topic": "JobScheduler",
-      "Order": "13.2",
+      "Order": "14.2",
       "Level": 2,
       "Title": "JobScheduler_title",
       "Details": "JobScheduler_details",
@@ -1979,7 +2031,7 @@
     },
     {
       "Topic": "Security",
-      "Order": "13.3",
+      "Order": "14.3",
       "Level": 2,
       "Title": "Security_title",
       "Details": "Security_details",
@@ -2005,7 +2057,7 @@
     },
     {
       "Topic": "SecurityAdvanced",
-      "Order": "13.3.1",
+      "Order": "14.3.1",
       "Level": 3,
       "Title": "SecurityAdvanced_title",
       "Details": "SecurityAdvanced_details",
@@ -2031,7 +2083,7 @@
     },
     {
       "Topic": "Auditing",
-      "Order": "13.3.2",
+      "Order": "14.3.2",
       "Level": 3,
       "Title": "Auditing_title",
       "Details": "Auditing_details",
@@ -2057,7 +2109,7 @@
     },
     {
       "Topic": "Visibility",
-      "Order": "13.3.3",
+      "Order": "14.3.3",
       "Level": 3,
       "Title": "Visibility_title",
       "Details": "Visibility_details",
@@ -2083,7 +2135,7 @@
     },
     {
       "Topic": "Multicompany",
-      "Order": "13.4",
+      "Order": "14.4",
       "Level": 2,
       "Title": "Multicompany_title",
       "Details": "Multicompany_details",
@@ -2109,7 +2161,7 @@
     },
     {
       "Topic": "MyMagoStudio",
-      "Order": "13.5",
+      "Order": "14.5",
       "Level": 2,
       "Title": "MyMagoStudio_title",
       "Details": "MyMagoStudio_details",

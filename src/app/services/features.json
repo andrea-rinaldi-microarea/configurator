@@ -1066,5 +1066,29 @@
    "optionID": "MULT",
    "tag": "MULT",
    "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "Corporate Group Management",
+   "level": 1,
+   "fragment": "CGM",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "CGMC",
+   "tag": "MCMG",
+   "discontinued": false
+ },
+ {
+   "isModule": true,
+   "description": "CGM Extension",
+   "level": 2,
+   "fragment": "CGMExtension",
+   "isAvailable": false,
+   "allowISO": "",
+   "denyISO": "",
+   "optionID": "CG01",
+   "tag": "MC01",
+   "discontinued": false
  }
 ]

@@ -753,16 +753,32 @@
   "allowISO": "IT"
 },
 {
+  "topic": "Corporate Group Management",
+  "level": 1,
+  "order": "13.1",
+  "title":  "CGM_title",
+  "details":  "CGM_details",
+  "notYetAvailable": true
+},
+{
+  "topic": "CGM Extension",
+  "level": 2,
+  "order": "13.1.1",
+  "title":  "CGMExtension_title",
+  "details":  "CGMExtension_details",
+  "notYetAvailable": true
+},
+{
    "topic": "Framework",
    "level": 1,
-   "order": "13",
+   "order": "14",
    "title":  "Framework_title",
    "details":  "Framework_details"
  },
  {
    "topic": "DMS",
    "level": 2,
-   "order": "13.1",
+   "order": "14.1",
    "title":  "DMS_title",
    "details":  "DMS_details",
    "notYetAvailable": false
@@ -770,7 +786,7 @@
  {
    "topic": "JobScheduler",
    "level": 2,
-   "order": "13.2",
+   "order": "14.2",
    "title":  "JobScheduler_title",
    "details":  "JobScheduler_details",
    "notYetAvailable": true
@@ -778,7 +794,7 @@
  {
    "topic": "Security",
    "level": 2,
-   "order": "13.3",
+   "order": "14.3",
    "title":  "Security_title",
    "details":  "Security_details",
    "notYetAvailable": true
@@ -786,7 +802,7 @@
  {
    "topic": "SecurityAdvanced",
    "level": 3,
-   "order": "13.3.1",
+   "order": "14.3.1",
    "title":  "SecurityAdvanced_title",
    "details":  "SecurityAdvanced_details",
    "notYetAvailable": true
@@ -794,7 +810,7 @@
  {
    "topic": "Auditing",
    "level": 3,
-   "order": "13.3.2",
+   "order": "14.3.2",
    "title":  "Auditing_title",
    "details":  "Auditing_details",
    "notYetAvailable": true
@@ -802,7 +818,7 @@
  {
    "topic": "Visibility",
    "level": 3,
-   "order": "13.3.3",
+   "order": "14.3.3",
    "title":  "Visibility_title",
    "details":  "Visibility_details",
    "notYetAvailable": true
@@ -810,7 +826,7 @@
  {
    "topic": "Multicompany",
    "level": 2,
-   "order": "13.4",
+   "order": "14.4",
    "title":  "Multicompany_title",
    "details":  "Multicompany_details",
    "notYetAvailable": true
@@ -818,7 +834,7 @@
  {
    "topic": "MyMagoStudio",
    "level": 2,
-   "order": "13.5",
+   "order": "14.5",
    "title":  "MyMagoStudio_title",
    "details":  "MyMagoStudio_details",
    "notYetAvailable": true
