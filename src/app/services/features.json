@@ -339,13 +339,13 @@
    "isModule": true,
    "description": "Documents common functions",
    "level": 1,
-   "fragment": "SalePurchaseDocuments",
-   "isAvailable": true,
+   "fragment": "",
+   "isAvailable": false,
    "allowISO": "",
    "denyISO": "",
-   "optionID": "SPDO",
+   "optionID": "",
    "tag": "VEDT",
-   "discontinued": false
+   "discontinued": true
  },
  {
    "isModule": true,

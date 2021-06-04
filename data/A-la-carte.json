@@ -791,33 +791,6 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Documents common functions",
-      "fragment": "SalePurchaseDocuments",
-      "isAvailable": true,
-      "allowISO": "",
-      "denyISO": "",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
-      "isModule": true,
-      "level": 1,
       "description": "Sales",
       "fragment": "Sales",
       "isAvailable": true,
