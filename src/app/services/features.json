@@ -504,6 +504,18 @@
   "discontinued": false
 },
 {
+ "isModule": false,
+ "description": "ePOS Connector",
+ "level": 3,
+ "fragment": "EPOSConnector",
+ "isAvailable": true,
+ "allowISO": "DE",
+ "denyISO": "",
+ "optionID": "EPCN",
+ "tag": "EPCN",
+ "discontinued": false
+},
+{
    "isModule": false,
    "description": "Variants / Size and Colors",
    "level": 3,

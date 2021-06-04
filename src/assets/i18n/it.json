@@ -120,7 +120,7 @@
     "eCommerce_details": "Organizza il punto vendita on-line gestito con il motore di e-commerce Konakart di Zucchetti. Definizione prodotto con descrizioni brevi ed estese, anche in HTML, fotogallery, categorizzazione anche gerarchica, assortimento, prezzi e disponibilità specifici per la vendita on-line.",
 
     "StoreManagement_title" : "Store Management",
-    "StoreManagement_details": "Gestione del punto vendita al dettaglio grazie all’integrazione con il sistema POS di TCPOS. Gestione centralizzata dei dati direttamente da Mago in qualità di back-end. Gli scontrini e i documenti di vendita generati dalle casse sono ricevuti direttamente in Mago e possono essere registrati in magazzino e in contabilità.",
+    "StoreManagement_details": "Gestione del punto vendita al dettaglio grazie all’integrazione con i sistemi POS Zucchetti TCPOS ed ePOS. Gestione centralizzata dei dati direttamente da Mago in qualità di back-end. Gli scontrini e i documenti di vendita generati dalle casse sono ricevuti direttamente in Mago e possono essere registrati in magazzino e in contabilità.",
 
     "StoreVariants_title" : "Varianti / Taglie e Colori",
     "StoreVariants_details": "Grazie alle Varianti di Retail e alla gestione Padre/Figlio è possibile gestire non solo il mondo delle taglie e colori ma anche molte altre varianti dell’articolo.",
@@ -296,7 +296,10 @@
     "Tesan_details": "Grazie al connettore TESAN è possibile esportare in un file di testo i dati relativi ai documenti nei quali sono presenti articoli attivati alla gestione TEssera SANitaria. Importando in seguito il file ottenuto in OMNIA, sarà possibile inviare la comunicazione di legge al Sistema Tessera Sanitaria.",
 
     "TCPOSConnector_title": "Connettore TCPOS",
-    "TCPOSConnector_details": "Il connettore TCPOS gestisce i flussi dati tra Mago e il front-end di cassa TCPOS tills e viceversa, consentendo un completo controllo dell'organizzazione del negozio, gestendo prezzi, assortimenti e così via.",
+    "TCPOSConnector_details": "Il connettore TCPOS gestisce i flussi dati tra Mago e il front-end di cassa TCPOS e viceversa, consentendo un completo controllo dell'organizzazione del negozio, gestendo prezzi, assortimenti e così via.",
+
+    "EPOSConnector_title": "Connettore ePOS",
+    "EPOSConnector_details": "Il connettore ePOS gestisce i flussi dati tra Mago e il front-end di cassa ePOS e viceversa, consentendo un completo controllo dell'organizzazione del negozio, gestendo prezzi, assortimenti e così via.",
 
     "Multicompany_title": "Estensione Multicompany",
     "Multicompany_details": "Tale Extension permette di gestire tutti quei casi di Aziende 'controllate' o 'collegate' da un singolo soggetto giuridico ed intestatario della licenza, tramite una singola licenza di MagoCloud e con enne sottoscrizioni attivi quanti sono le Aziende da gestire. Con questa tipologia di Extension si potrà quindi gestire anche situazioni come le ATI (associazioni temporanee d’impresa), immobiliari, ect. Tale Extension è imprescindibile anche per poter gestire società che gestiscono contabilità conto terzi come ad esempio i commercialisti.",
@@ -450,5 +453,6 @@
     "Available in some countries only": "Disponibile solo in alcuni Paesi",
     "Available in": "Disponibile in",
     "Not available in": "Non disponibile in",
-    "TCPOS Connector": "Connettore TCPOS"
+    "TCPOS Connector": "Connettore TCPOS",
+    "ePOS Connector": "Connettore ePOS"
 }

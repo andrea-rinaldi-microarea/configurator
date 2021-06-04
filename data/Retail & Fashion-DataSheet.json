@@ -980,8 +980,34 @@
       ]
     },
     {
-      "Topic": "StoreVariants",
+      "Topic": "EPOSConnector",
       "Order": "05.1.2",
+      "Level": 3,
+      "Title": "EPOSConnector_title",
+      "Details": "EPOSConnector_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "Topic": "StoreVariants",
+      "Order": "05.1.3",
       "Level": 3,
       "Title": "StoreVariants_title",
       "Details": "StoreVariants_details",
@@ -1007,7 +1033,7 @@
     },
     {
       "Topic": "Vouchers",
-      "Order": "05.1.4",
+      "Order": "05.1.5",
       "Level": 3,
       "Title": "Vouchers_title",
       "Details": "Vouchers_details",
@@ -1033,7 +1059,7 @@
     },
     {
       "Topic": "InStore",
-      "Order": "05.1.5",
+      "Order": "05.1.6",
       "Level": 3,
       "Title": "InStore_title",
       "Details": "InStore_details",
@@ -1059,7 +1085,7 @@
     },
     {
       "Topic": "InStoreApp",
-      "Order": "05.1.6",
+      "Order": "05.1.7",
       "Level": 3,
       "Title": "InStoreApp_title",
       "Details": "InStoreApp_details",

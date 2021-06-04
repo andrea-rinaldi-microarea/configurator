@@ -847,6 +847,34 @@
     {
       "isModule": false,
       "level": 3,
+      "description": "ePOS Connector",
+      "fragment": "EPOSConnector",
+      "isAvailable": true,
+      "allowISO": "DE",
+      "denyISO": "",
+      "optionID": "EPCN",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
       "description": "Variants / Size and Colors",
       "fragment": "StoreVariants",
       "isAvailable": true,
