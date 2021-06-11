@@ -2017,11 +2017,37 @@
         },
         {
           "edition": "PRM",
-          "availability": ""
+          "availability": "always"
         },
         {
           "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "Topic": "JobSchedulerAdvanced",
+      "Order": "14.2.1",
+      "Level": 3,
+      "Title": "JobSchedulerAdvanced_title",
+      "Details": "JobSchedulerAdvanced_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
           "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
         },
         {
           "edition": "ENT",

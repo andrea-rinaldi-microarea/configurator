@@ -1408,11 +1408,39 @@
         },
         {
           "edition": "PRM",
-          "availability": ""
+          "availability": "always"
         },
         {
           "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Advanced Scheduling",
+      "fragment": "JobSchedulerAdvanced",
+      "isAvailable": false,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "SCHA",
+      "options": [
+        {
+          "edition": "STD",
           "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
         },
         {
           "edition": "ENT",

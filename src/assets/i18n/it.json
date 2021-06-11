@@ -246,7 +246,10 @@
     "DMS_details": "Modulo per la gestione degli allegati in forma elettronica per qualsiasi documento gestionale (documentale). Un allegato può essere facilmente ricercato applicando filtri specifici oltre ad essere subito fruibile aprendo il documento gestionale. È possibile inoltre allegare i report generati da MagoCloud.",
 
     "JobScheduler_title" : "Job Scheduler",
-    "JobScheduler_details": "Esecuzione automatizzata di procedure, interne o esterne a MagoCloud, ad una data ed ora prefissata. Possibilità di definire sequenze di task articolate, composte anche da singoli task schedulabili, elencati secondo un ordine di esecuzione prestabilito.",
+    "JobScheduler_details": "Esecuzione automatizzata di procedure, interne o esterne a MagoCloud, ad una data ed ora prefissata.",
+
+    "JobSchedulerAdvanced_title" : "Scheduler Avanzato",
+    "JobSchedulerAdvanced_details": "Consente l’esecuzione di tutte le tipologie di task abilitati (report, mail, ecc.) e abilita all’esecuzione di sequenze di task articolate, composte anche da singoli task schedulabili, elencati secondo un ordine di esecuzione prestabilito.",
 
     "Security_title" : "Security",
     "Security_details": "Gestione dei diritti d’accesso per singoli utenti alle funzionalità applicative. ",

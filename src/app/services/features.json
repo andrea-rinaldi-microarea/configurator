@@ -1008,6 +1008,18 @@
    "discontinued": false
  },
  {
+  "isModule": false,
+  "description": "Advanced Scheduling",
+  "level": 2,
+  "fragment": "JobSchedulerAdvanced",
+  "isAvailable": false,
+  "allowISO": "",
+  "denyISO": "",
+  "optionID": "SCHA",
+  "tag": "SCHA",
+  "discontinued": false
+},
+{
    "isModule": true,
    "description": "Security",
    "level": 1,

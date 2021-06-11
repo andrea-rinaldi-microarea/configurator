@@ -248,6 +248,9 @@
     "JobScheduler_title" : "Job Scheduler",
     "JobScheduler_details": "Automate procedures execution, inside or outside MagoCloud, at a date and time fixed in advance. Allows to define articulated tasks sequences, composed by single schedulable tasks, listed in pre-execution order.",
 
+    "JobSchedulerAdvanced_title" : "Advanced Scheduling",
+    "JobSchedulerAdvanced_details": "Allows the execution of tasks of all types (reports, emails, etc.) and enables the execution of articulated task sequences, also composed of single schedulable tasks, listed according to a predefined order of execution.",
+
     "Security_title" : "Security",
     "Security_details": "Manages the individual users’ rights to connect to the application functions.",
 

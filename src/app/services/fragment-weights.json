@@ -242,6 +242,9 @@
     "JobScheduler" : {
         "weight": 660
     },
+    "JobSchedulerAdvanced" : {
+        "weight": 0
+    },
     "Security" : {
         "weight": 660
     },

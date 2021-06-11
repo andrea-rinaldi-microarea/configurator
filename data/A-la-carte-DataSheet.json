@@ -2576,6 +2576,32 @@
       ]
     },
     {
+      "Topic": "JobSchedulerAdvanced",
+      "Order": "14.2.1",
+      "Level": 3,
+      "Title": "JobSchedulerAdvanced_title",
+      "Details": "JobSchedulerAdvanced_details",
+      "NotYetAvailable": true,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional"
+        }
+      ]
+    },
+    {
       "Topic": "Security",
       "Order": "14.3",
       "Level": 2,
