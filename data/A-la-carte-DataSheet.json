@@ -752,19 +752,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -779,19 +779,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -806,19 +806,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -833,19 +833,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -859,19 +859,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -1147,19 +1147,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "PPT"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "PPT"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "PPT"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "PPT"
         }
       ]
     },
@@ -2267,19 +2267,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -2294,19 +2294,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -2321,19 +2321,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -2348,19 +2348,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -2375,19 +2375,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -2402,19 +2402,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -2429,19 +2429,19 @@
       "options": [
         {
           "edition": "STD",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRM",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
