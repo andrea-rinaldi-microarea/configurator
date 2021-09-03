@@ -3,7 +3,7 @@
         "tag": "SEVR", 
         "alias": ["SCOM", "SERD"]
     },
-    { "tag": "CONT" },
+    { "tag": "CONT", "description": "Financials" },
     { "tag": "COPR" },
     { "tag": "XBRL" },
     { "tag": "BAII" },
