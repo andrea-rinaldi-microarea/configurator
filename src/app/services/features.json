@@ -68,7 +68,6 @@
    "allowISO": "",
    "denyISO": "",
    "optionID": "KPIM",
-   "tag": "KPIM",
    "discontinued": false
  },
  {
@@ -596,7 +595,6 @@
    "allowISO": "",
    "denyISO": "",
    "optionID": "CRMS",
-   "tag": "CRMS",
    "discontinued": false
  },
  {
@@ -608,7 +606,6 @@
    "allowISO": "",
    "denyISO": "",
    "optionID": "CRMM",
-   "tag": "CRMM",
    "discontinued": false
  },
  {
@@ -620,7 +617,6 @@
    "allowISO": "",
    "denyISO": "",
    "optionID": "CRMF",
-   "tag": "CRMF",
    "discontinued": false
  },
  {
@@ -752,7 +748,6 @@
   "allowISO": "",
   "denyISO": "",
   "optionID": "DEPO",
-  "tag": "DEPO",
   "discontinued": false
 },
 {
@@ -836,7 +831,6 @@
    "allowISO": "",
    "denyISO": "",
    "optionID": "ECOC",
-   "tag": "ECO",
    "discontinued": false
  },
  {

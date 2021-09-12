@@ -145,6 +145,64 @@ tr.module-sep {
     border-top: 1px solid #A8A7A9;
 }
 
+tr.functional-area-sep {
+    background-color: #A8A7A9 !important;
+    -webkit-print-color-adjust: exact;
+    color: white;
+}
+
+tr.functional-area-sep-basic {
+    background-color: #5F497A !important;
+}
+
+tr.functional-area-sep-financials {
+    background-color: #17365D !important;
+}
+
+tr.functional-area-sep-sales {
+    background-color: #943634 !important;
+}
+
+tr.functional-area-sep-logistic {
+    background-color: #008080 !important;
+}
+
+tr.functional-area-sep-manufacturing {
+    background-color: #E36C0A !important;
+}
+
+tr.functional-area-sep-store {
+    background-color: #C0504D !important;
+}
+
+tr.functional-area-sep-integrate {
+    background-color: #76923C !important;
+}
+
+tr.functional-area-sep-connectors {
+    background-color: #404040 !important;
+}
+
+tr.functional-area-sep-ecommerce {
+    background-color: #17365D !important;
+}
+
+tr.functional-area-sep-monitoring {
+    background-color: #0070C0 !important;
+}
+
+tr.functional-area-sep-integration {
+    background-color: #365F91 !important;
+}
+
+tr.functional-area-sep-improve {
+    background-color: #244061 !important;
+}
+
+tr.functional-area-sep-cal {
+    background-color: #403152 !important;
+}
+
 tr.group-sep {
     border-top: 2px solid black;
 }
@@ -171,6 +229,7 @@ tr.group-sep {
     .screen-only {
         display: none;
     }
+
 }
 
 @media print {

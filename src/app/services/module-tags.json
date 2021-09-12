@@ -1,9 +1,17 @@
 [
     { 
+        "title": "Funzionalità di base",
+        "class": "functional-area-sep-basic",
         "tag": "SEVR", 
         "alias": ["SCOM", "SERD"]
     },
-    { "tag": "CONT", "description": "Financials" },
+    { "tag": "MAIL" },
+
+    { 
+        "title": "Area Amministrativa",
+        "class": "functional-area-sep-financials",
+        "tag": "CONT" 
+    },
     { "tag": "COPR" },
     { "tag": "XBRL" },
     { "tag": "BAII" },
@@ -15,6 +23,16 @@
     { "tag": "BAPL" },
     { "tag": "LIBR" },
     { "tag": "TESO" },
+    { "tag": "MCMG" },
+    { "tag": "MC01" },
+
+    { 
+        "title": "Area Vendite e Acquisti",
+        "class": "functional-area-sep-sales",
+        "tag": "CPCO"
+    },
+    { "tag": "CPFS" },
+    { "tag": "CPAC" },
     { "tag": "ORCL" },
     { "tag": "VEDT" },
     { "tag": "CONA" },
@@ -24,44 +42,104 @@
     { "tag": "ORFO" },
     { "tag": "ACQT" },
     { "tag": "INSP" },
-    { "tag": "MAGA" },
+
+    { 
+        "title": "Area Magazzino e Logistica",
+        "class": "functional-area-sep-logistic",
+        "tag": "MAGA"
+    },
     { "tag": "LOTT" },
     { "tag": "WMAA" },
     { "tag": "WMAD" },
     { "tag": "WMRF" },
+    { "tag": "WMSH" },
     { "tag": "BARC" },
-    { "tag": "DIST" },
+
+    { 
+        "title": "Area Produzione",
+        "class": "functional-area-sep-manufacturing",
+        "tag": "DIST"
+    },
     { "tag": "VARI" },
-    { "tag": "PRZB" },
     { "tag": "CONF" },
+    { "tag": "PRZB" },
     { "tag": "PRZA" },
     { "tag": "OPOR" },
     { "tag": "MANM" },
     { "tag": "PRZP" },
     { "tag": "PRPA" },
     { "tag": "ATTR" },
+
     { 
+        "title": "Area Punto Vendita",
+        "class": "functional-area-sep-store",
+        "tag": "STMN"
+    },
+    { "tag": "STRE" },
+    { "tag": "RMVN" },
+    { "tag": "STIA" },
+    { "tag": "TCCN" },
+
+    { 
+        "title": "Strumenti per Integrare",
+        "class": "functional-area-sep-integrate",
+        "tag": "XGAT"
+    },
+    { "tag": "ISCF" },
+
+    { 
+        "title": "Integrazioni - Connettori",
+        "class": "functional-area-sep-connectors",
+        "tag": "MAIF"
+    },
+    { "tag": "INPC" },
+
+    {
+        "title": "e-commerce",
+        "class": "functional-area-sep-ecommerce",
+        "tag": "KKCN"
+    },
+
+    { 
+        "title": "Strumenti per Monitorare",
+        "class": "functional-area-sep-monitoring",
+        "tag": "OSLL"
+    },
+    { "tag": "OSLS" },
+    { "tag": "VISI" },
+    { "tag": "AUDT" },
+
+    { 
+        "title": "Strumenti per Integrare",
+        "class": "functional-area-sep-integration",
+        "tag": "MDPS"
+    },
+
+    {
+        "title": "Strumenti per Migliorare", 
+        "class": "functional-area-sep-improve",
         "tag": "EATT", 
         "alias": ["DMSL"] 
     },
     { "tag": "MASS" },
-    { "tag": "MAIL" },
     { "tag": "SCHD" },
-    { "tag": "OSLS" },
-    { "tag": "AUDT" },
-    { "tag": "ELSR" },
-    { "tag": "FISC" },
-    { "tag": "IBCO" },
-    { "tag": "INPC" },
-    { "tag": "MAIF" },
-    { "tag": "ISCF" },
-    { "tag": "MDOC" },
-    { "tag": "MIGR" },
-    { "tag": "OSLL" },
-    { "tag": "SOSC" },
-    { "tag": "UBIC" },
-    { "tag": "XGAT" },
-    { "tag": "CPCO" },
+
+    { 
+        "title": "Client Access License",
+        "class": "functional-area-sep-cal",
+        "tag": "STIC"
+    },
+    { "tag": "WMRC" },
+    { "tag": "MANC" },
+
+    { "tag": "ELSR", "m4Only": true },
+    { "tag": "FISC", "m4Only": true },
+    { "tag": "IBCO", "m4Only": true },
+    { "tag": "MDOC", "m4Only": true },
+    { "tag": "MIGR", "m4Only": true },
+    { "tag": "SOSC", "m4Only": true },
+    { "tag": "UBIC", "m4Only": true },
+
     { 
         "tag": "EDU1",
         "package": ["SEVR"] 
@@ -95,24 +173,6 @@
         "tag": "CFUL",
         "alias": ["FULD"], 
         "package": ["SEVR", "CONT", "COPR", "XBRL", "BAII", "BICO", "COAN", "CSPT", "CASH", "INTR", "BAPL", "LIBR", "ORCL", "VEDT", "CONA", "RAEE", "SFMG", "CRED", "ORFO", "ACQT", "INSP", "MAGA", "LOTT", "WMAA", "WMAD", "BARC", "DIST", "VARI", "PRZB", "CONF", "PRZA", "OPOR", "PRZP", "PRPA", "EATT", "MAIL", "SCHD", "OSLS", "AUDT", "ELSR", "FISC", "MDOC", "OSLL", "SOSC", "XGAT"] 
-    },
-
-    { "tag": "STMN" },
-    { "tag": "KKCN" },
-    { "tag": "STRE" },
-    { "tag": "RMVN" },
-    { "tag": "STIC" },
-    { "tag": "STIA" },
-    { "tag": "CPAC" },
-    { "tag": "WMSH" },
-    { "tag": "VISI" },
-    { "tag": "CRMS" },
-    { "tag": "CRMM" },
-    { "tag": "CRMF" },
-    { "tag": "ECO" },
-    { "tag": "KPIM" },
-    { "tag": "DEPO" }
-
-
+    }
 ]
 

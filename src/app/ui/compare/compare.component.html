@@ -1,3 +1,19 @@
-<p>
-  compare works!
-</p>
+<div class="container main">
+  <div class="row justify-content-center">
+    <div class="print-only">
+      <img src="/assets/M4CloudBigLogo.png" alt="">
+    </div>
+  </div>
+  <div class="row mt-2">
+    <table class="table-sm table-borderless">
+      <tr>
+        <th>Tag</th>
+        <th>Description</th>
+      </tr>
+      <tr *ngFor="let module of mago4Modules.modules" [class.functional-area-sep]="module.isArea == true" [ngClass]="module.class">
+        <td>{{module.tag}}</td>
+        <td>{{module.description}}</td>
+      </tr>
+    </table>     
+  </div>
+</div>
