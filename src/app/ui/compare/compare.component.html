@@ -7,12 +7,10 @@
   <div class="row mt-2">
     <table class="table-sm table-borderless">
       <tr>
-        <th>Tag</th>
-        <th>Description</th>
+        <th>{{"Module/Function" | translate}}</th>
       </tr>
       <tr *ngFor="let module of mago4Modules.modules" [class.functional-area-sep]="module.isArea == true" [ngClass]="module.class">
-        <td>{{module.tag}}</td>
-        <td>{{module.description}}</td>
+        <td><em *ngIf="module.isArea != true">({{module.tag}})</em> {{module.description | translate}}</td>
       </tr>
     </table>     
   </div>

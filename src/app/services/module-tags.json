@@ -1,6 +1,6 @@
 [
     { 
-        "title": "Funzionalità di base",
+        "title": "Basic Functions",
         "class": "functional-area-sep-basic",
         "tag": "SEVR", 
         "alias": ["SCOM", "SERD"]
@@ -8,7 +8,7 @@
     { "tag": "MAIL" },
 
     { 
-        "title": "Area Amministrativa",
+        "title": "Financial Accounting Area",
         "class": "functional-area-sep-financials",
         "tag": "CONT" 
     },
@@ -27,7 +27,7 @@
     { "tag": "MC01" },
 
     { 
-        "title": "Area Vendite e Acquisti",
+        "title": "Sales and Purchases Area",
         "class": "functional-area-sep-sales",
         "tag": "CPCO"
     },
@@ -44,7 +44,7 @@
     { "tag": "INSP" },
 
     { 
-        "title": "Area Magazzino e Logistica",
+        "title": "Inventory and Logistic Area",
         "class": "functional-area-sep-logistic",
         "tag": "MAGA"
     },

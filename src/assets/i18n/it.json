@@ -457,5 +457,19 @@
     "Available in": "Disponibile in",
     "Not available in": "Non disponibile in",
     "TCPOS Connector": "Connettore TCPOS",
-    "ePOS Connector": "Connettore ePOS"
+    "ePOS Connector": "Connettore ePOS",
+    "Compare Features": "Confronta funzioni",
+    "Module/Function": "Modulo / Funzionalità",
+    "Basic Functions": "Funzionalità di base",
+    "Financial Accounting Area": "Area Amministrativa",
+    "Financials": "Contabilità",
+    "Accounting Inventory Book": "Libro Inventari e Allegati",
+    "CGM - Extension 1 Company":"CGM – Estensione 1 Azienda",
+    "Sales and Purchases Area": "Area Vendite e Acquisti",
+    "Passive e-Invoicing":"Fatturazione Elettronica Passiva",
+    "Advanced Purchase E-Invoices": "Fatturazione Elettronica Passiva Avanzata",
+    "Electronic Invoicing Documents Import (without DH)": "Fatturazione Elettronica Import Documenti (senza Digital Hub)",
+    "Inventory and Logistic Area": "Area Magazzino e Logistica",
+    "Lots and Serials": "Lotti e Matricole"
+
 }
