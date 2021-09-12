@@ -23,6 +23,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { DataSheetComponent } from './ui/data-sheet/data-sheet.component';
 import { LineExcludedPipe } from './ui/data-sheet/line-excluded-pipe';
 import { IndustryService } from './services/industry.service';
+import { CompareComponent } from './ui/compare/compare.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -43,7 +44,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     PricingComponent,
     DetailedInfoComponent,
     IndustryEditComponent,
-    DataSheetComponent
+    DataSheetComponent,
+    CompareComponent
   ],
   imports: [
     BrowserModule,

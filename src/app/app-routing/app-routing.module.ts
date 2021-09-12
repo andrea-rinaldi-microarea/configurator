@@ -3,6 +3,7 @@ import { IndustryEditComponent } from './../ui/industry-edit/industry-edit.compo
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { CompareComponent } from '../ui/compare/compare.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
       path: 'data-sheet',
       component: DataSheetComponent,
   },
+  {
+    path: 'compare',
+    component: CompareComponent,
+},
 ];
 
 @NgModule({
