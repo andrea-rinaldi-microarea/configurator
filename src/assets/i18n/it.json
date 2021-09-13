@@ -331,7 +331,6 @@
     "Purchase Tax Journals": "Registri IVA acquisti",
     "Other Tax Journals": "Registri IVA di altro tipo",
     "Customizable Accounting Templates": "Modelli contabili personalizzabili",
-    "Purchase Electronic Invoice Accounting Import": "Import contabile Fatturazione Elettronica Passiva",
     "Pro-rata Management": "Gestione Pro-rata",
     "Travel Agency VAT": "IVA Agenzie di Viaggio",
     "Plafond Management": "Gestione Plafond",
@@ -444,7 +443,7 @@
     "Masters and Common Functions": "Anagrafiche e Funzioni Comuni",
     "Accounting": "Contabilità Generale",
     "Customizable Journals and Templates": "Registri e modelli Personalizzabili",
-    "Electronic Invoice Import": "Import Fatture Elettroniche",
+    "Electronic Invoice Import": "Import Contabile Fatturazione Elettronica Passiva",
     "Payables and Receivables": "Scadenzario e Partite Aperte",
     "Sales": "Vendite",
     "Store Management": "Store Management",
@@ -481,6 +480,6 @@
     "Integration Tools": "Strumenti per Integrare",
     "Integrations - Connectors": "Integrazioni - Connettori",
     "Monitoring Tools": "Strumenti per Monitorare",
-    "Tools for Improving": "Strumenti per Migliorare"
-
+    "Tools for Improving": "Strumenti per Migliorare",
+    "Not yet available": "Non ancora disponibile"
 }

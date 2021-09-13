@@ -108,7 +108,7 @@
  },
  {
    "isModule": false,
-   "description": "Purchase Electronic Invoice Accounting Import",
+   "description": "Electronic Invoice Import",
    "level": 3,
    "fragment": "PurchaseElectronicInvoicing",
    "isAvailable": true,
@@ -640,7 +640,7 @@
    "allowISO": "",
    "denyISO": "BR",
    "optionID": "ADCH",
-   "tag": "SEVR",
+   "tag": "ACQT",
    "discontinued": false
  },
  {
@@ -1042,7 +1042,7 @@
    "description": "Auditing",
    "level": 3,
    "fragment": "Auditing",
-   "isAvailable": false,
+   "isAvailable": true,
    "allowISO": "",
    "denyISO": "",
    "optionID": "AUDT",

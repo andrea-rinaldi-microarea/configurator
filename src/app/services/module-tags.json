@@ -5,7 +5,6 @@
         "tag": "SEVR", 
         "alias": ["SCOM", "SERD"]
     },
-    { "tag": "MAIL" },
 
     { 
         "title": "Financial Accounting Area",
@@ -20,7 +19,7 @@
     { "tag": "CSPT" },
     { "tag": "CASH" },
     { "tag": "INTR" },
-    { "tag": "BAPL" },
+    { "tag": "BAPL", "includedIn": "Financials" },
     { "tag": "LIBR" },
     { "tag": "TESO" },
     { "tag": "MCMG" },
@@ -52,8 +51,8 @@
     { "tag": "WMAA" },
     { "tag": "WMAD" },
     { "tag": "WMRF" },
-    { "tag": "WMSH" },
-    { "tag": "BARC" },
+    { "tag": "WMSH", "includedIn": "WMSBasic" },
+    { "tag": "BARC", "includedIn": "Inventory" },
 
     { 
         "title": "Manufacturing Area",
@@ -132,6 +131,7 @@
     { "tag": "WMRC" },
     { "tag": "MANC" },
 
+    { "tag": "MAIL", "m4Only": true },
     { "tag": "ELSR", "m4Only": true },
     { "tag": "FISC", "m4Only": true },
     { "tag": "IBCO", "m4Only": true },

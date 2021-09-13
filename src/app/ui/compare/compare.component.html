@@ -1,16 +1,30 @@
 <div class="container main">
   <div class="row justify-content-center">
-    <div class="print-only">
-      <img src="/assets/M4CloudBigLogo.png" alt="">
+    <div class=" logo-container print-only">
+      <img class="logo" src="/assets/mago4Logo.png" alt="">
+      <div style="font-size: 3rem; display: inline;">&nbsp;&nbsp;VS.</div>
+      <img class="logo" src="/assets/M4CloudBigLogo.png" alt="">
     </div>
   </div>
   <div class="row mt-2">
     <table class="table-sm table-borderless">
       <tr>
-        <th>{{"Module/Function" | translate}}</th>
+        <th>Mago4 {{"Module/Function" | translate}}</th>
+        <th>MagoCloud {{"Feature" | translate}}</th>
       </tr>
-      <tr *ngFor="let module of mago4Modules.modules" [class.functional-area-sep]="module.isArea == true" [ngClass]="module.class">
-        <td><em *ngIf="module.isArea != true">({{module.tag}})</em> {{module.description | translate}}</td>
+      <tr *ngFor="let module of mago4Modules.modules">
+        <!-- <td  [class.functional-area-sep]="module.isArea == true" [ngClass]="module.class" class="mago4module"><em *ngIf="module.isArea != true">({{module.tag}})</em> {{module.description | translate}}</td> -->
+        <td  [class.functional-area-sep]="module.isArea == true" [ngClass]="module.class" class="mago4module">{{module.description | translate}}</td>
+        <td>
+          <span *ngIf="module.features.length == 0 && module.isArea != true">
+            <em>{{"Not yet available" | translate}}</em>
+          </span>
+          <span *ngIf="module.features.length > 0">
+            <tr *ngFor="let feature of module.features">
+              <td>{{feature.description | translate}}</td>
+            </tr>
+          </span>
+        </td>
       </tr>
     </table>     
   </div>

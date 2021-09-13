@@ -198,7 +198,7 @@
     {
       "isModule": false,
       "level": 3,
-      "description": "Purchase Electronic Invoice Accounting Import",
+      "description": "Electronic Invoice Import",
       "fragment": "PurchaseElectronicInvoicing",
       "isAvailable": true,
       "allowISO": "IT",
@@ -1507,7 +1507,7 @@
       "level": 3,
       "description": "Auditing",
       "fragment": "Auditing",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "AUDT",

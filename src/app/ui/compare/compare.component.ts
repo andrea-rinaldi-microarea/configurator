@@ -2,10 +2,11 @@ import { Title } from '@angular/platform-browser';
 import { Mago4Module, Mago4Modules } from './../../../models/Mago4';
 import { Component, OnInit } from '@angular/core';
 import { IndustryService } from '../../services/industry.service';
+import { Feature } from '../../../models/Industry';
 
 declare var require: any;
 const moduleTags = require("../../services/module-tags.json");
-const modulesDescription = require("../../services/modules-description.json");
+const features = require("../../services/features.json");
 
 @Component({
   selector: 'app-compare',
@@ -32,7 +33,13 @@ export class CompareComponent implements OnInit {
           }
           this.mago4Modules.modules.push(area);  
         }
-        this.mago4Modules.modules.push(new Mago4Module(tag.tag, this.industry.moduleDescription(tag.tag)));
+        var module = new Mago4Module(tag.tag, this.industry.moduleDescription(tag.tag));
+        features.forEach((f:Feature)  => {
+          if (f.isAvailable == true && (f.tag == module.tag || tag.includedIn == f.fragment)) {
+            module.features.push(new Feature(f));
+          }
+        });
+        this.mago4Modules.modules.push(module);
       }
     });
   }

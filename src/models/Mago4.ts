@@ -1,3 +1,5 @@
+import { Feature } from "./Industry";
+
 export class Mago4Module {
     constructor(
         public tag: string,
@@ -5,6 +7,7 @@ export class Mago4Module {
     ) {}
     public isArea: boolean = false;
     public class: string = "";
+    public features: Feature[] = [];
 }
 
 export class Mago4Modules {
