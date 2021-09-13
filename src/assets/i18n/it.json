@@ -470,6 +470,17 @@
     "Advanced Purchase E-Invoices": "Fatturazione Elettronica Passiva Avanzata",
     "Electronic Invoicing Documents Import (without DH)": "Fatturazione Elettronica Import Documenti (senza Digital Hub)",
     "Inventory and Logistic Area": "Area Magazzino e Logistica",
-    "Lots and Serials": "Lotti e Matricole"
+    "Lots and Serials": "Lotti e Matricole",
+    "Manufacturing Area": "Area Produzione" ,
+    "Manufacturing (Basic)": "Produzione Base",
+    "Manufacturing Planning (MRP II + CRP)": "Pianificazione (MRP II + CRP)",
+    "Advanced Manufacturing Planning": "Pianificazione Avanzata",
+    "Tools": "Attrezzi",
+    "Store Management Area": "Area Punto Vendita",
+    "Variants Size/Colors": "Varianti Taglie/Colori",
+    "Integration Tools": "Strumenti per Integrare",
+    "Integrations - Connectors": "Integrazioni - Connettori",
+    "Monitoring Tools": "Strumenti per Monitorare",
+    "Tools for Improving": "Strumenti per Migliorare"
 
 }

@@ -56,7 +56,7 @@
     { "tag": "BARC" },
 
     { 
-        "title": "Area Produzione",
+        "title": "Manufacturing Area",
         "class": "functional-area-sep-manufacturing",
         "tag": "DIST"
     },
@@ -71,7 +71,7 @@
     { "tag": "ATTR" },
 
     { 
-        "title": "Area Punto Vendita",
+        "title": "Store Management Area",
         "class": "functional-area-sep-store",
         "tag": "STMN"
     },
@@ -81,27 +81,27 @@
     { "tag": "TCCN" },
 
     { 
-        "title": "Strumenti per Integrare",
+        "title": "Integration Tools",
         "class": "functional-area-sep-integrate",
         "tag": "XGAT"
     },
     { "tag": "ISCF" },
 
     { 
-        "title": "Integrazioni - Connettori",
+        "title": "Integrations - Connectors",
         "class": "functional-area-sep-connectors",
         "tag": "MAIF"
     },
     { "tag": "INPC" },
 
     {
-        "title": "e-commerce",
+        "title": "eCommerce",
         "class": "functional-area-sep-ecommerce",
         "tag": "KKCN"
     },
 
     { 
-        "title": "Strumenti per Monitorare",
+        "title": "Monitoring Tools",
         "class": "functional-area-sep-monitoring",
         "tag": "OSLL"
     },
@@ -110,13 +110,13 @@
     { "tag": "AUDT" },
 
     { 
-        "title": "Strumenti per Integrare",
+        "title": "Integration Tools",
         "class": "functional-area-sep-integration",
         "tag": "MDPS"
     },
 
     {
-        "title": "Strumenti per Migliorare", 
+        "title": "Tools for Improving", 
         "class": "functional-area-sep-improve",
         "tag": "EATT", 
         "alias": ["DMSL"] 
