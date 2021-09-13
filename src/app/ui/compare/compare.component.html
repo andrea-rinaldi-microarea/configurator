@@ -1,29 +1,36 @@
 <div class="container main">
   <div class="row justify-content-center">
-    <div class=" logo-container print-only">
+    <div class="print-only logo-container">
       <img class="logo" src="/assets/mago4Logo.png" alt="">
       <div style="font-size: 3rem; display: inline;">&nbsp;&nbsp;VS.</div>
       <img class="logo" src="/assets/M4CloudBigLogo.png" alt="">
     </div>
+    <div class="print-only">
+      <h1>{{"Features Comparision" | translate}}</h1>
+    </div>
+  </div>
+  <div class="row print-only justify-content-left">
+    <p>{{"The functionalities of the Mago4 module on the left map to the MagoCloud features listed on the right." | translate}}</p>
+    <p><em>{{"IMPORTANT NOTE: the features details may change between the two products, please check carefully before the purchase." | translate}}</em></p>
   </div>
   <div class="row mt-2">
-    <table class="table-sm table-borderless">
+    <table class="table-sm table-borderless w-100 comparision">
       <tr>
-        <th>Mago4 {{"Module/Function" | translate}}</th>
-        <th>MagoCloud {{"Feature" | translate}}</th>
+        <th class="mago4-module-title">{{"Mago4 Module/Function" | translate}}</th>
+        <th class="magoCloud-module-title">{{"MagoCloud Feature" | translate}}</th>
       </tr>
       <tr *ngFor="let module of mago4Modules.modules">
-        <!-- <td  [class.functional-area-sep]="module.isArea == true" [ngClass]="module.class" class="mago4module"><em *ngIf="module.isArea != true">({{module.tag}})</em> {{module.description | translate}}</td> -->
-        <td  [class.functional-area-sep]="module.isArea == true" [ngClass]="module.class" class="mago4module">{{module.description | translate}}</td>
-        <td>
-          <span *ngIf="module.features.length == 0 && module.isArea != true">
-            <em>{{"Not yet available" | translate}}</em>
-          </span>
-          <span *ngIf="module.features.length > 0">
-            <tr *ngFor="let feature of module.features">
-              <td>{{feature.description | translate}}</td>
+        <!-- <td  [class.functional-area-sep]="module.isArea == true" [ngClass]="module.class" class="mago4-module"><em *ngIf="module.isArea != true">({{module.tag}})</em> {{module.description | translate}}</td> -->
+        <td [class.functional-area-sep]="module.isArea == true" [ngClass]="module.class" class="mago4-module w-50">{{module.description | translate}}</td>
+        <td [class.functional-area-sep]="module.isArea == true" class="p-0 w-50">
+          <table class="table-sm table-borderless w-100">
+            <tr class="magoCloud-feature" *ngFor="let feature of module.features">
+              <td >{{feature.description | translate}}</td>
             </tr>
-          </span>
+            <tr class="magoCloud-feature" *ngIf="module.features.length == 0 && module.isArea != true">
+              <td><em>{{"Not yet available" | translate}}</em></td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>     

@@ -451,14 +451,14 @@
     "Drawings, History and Versioning": "Disegni, storico e indici di revisione",
     "Pay Per Transactions": "Prezzo calcolato sulla base delle transazioni",
     "Show/hide features details": "Mostra/nasconde i dettagli delle funzionalità",
-    "Feature": "Funzionalità",
+    "MagoCloud Feature": "Funzionalità MagoCloud",
     "Available in some countries only": "Disponibile solo in alcuni Paesi",
     "Available in": "Disponibile in",
     "Not available in": "Non disponibile in",
     "TCPOS Connector": "Connettore TCPOS",
     "ePOS Connector": "Connettore ePOS",
     "Compare Features": "Confronta funzioni",
-    "Module/Function": "Modulo / Funzionalità",
+    "Mago4 Module/Function": "Modulo/Funzionalità Mago4",
     "Basic Functions": "Funzionalità di base",
     "Financial Accounting Area": "Area Amministrativa",
     "Financials": "Contabilità",
@@ -481,5 +481,8 @@
     "Integrations - Connectors": "Integrazioni - Connettori",
     "Monitoring Tools": "Strumenti per Monitorare",
     "Tools for Improving": "Strumenti per Migliorare",
-    "Not yet available": "Non ancora disponibile"
+    "Not yet available": "Non ancora disponibile",
+    "Features Comparision":"Confronto Funzionalità",
+    "The functionalities of the Mago4 module on the left map to the MagoCloud features listed on the right.": "Il contenuto del modulo di Mago4 sulla sinistra corrisponde alle funzionalità di MagoCloud indicate sulla destra. ",
+    "IMPORTANT NOTE: the features details may change between the two products, please check carefully before the purchase.":"NOTA IMPORTANTE: i dettagli delle singole funzioni possono essere diversi tra i due prodotti, si invita a controllarli accuratamente prima di procedere all'acquisto."
 }

@@ -1,11 +1,46 @@
-td.mago4module {
+table.comparision {
+    border: #000000;
+    border-style: double;
+}
+
+th.mago4-module-title {
+    background-color: #C0C0C0;
+    border: #000000;
+    border-style: double;
+    border-bottom: #808080 2px;
+    border-bottom-style: solid;
+}
+
+th.magoCloud-module-title {
+    border: #000000;
+    border-style: double;
+    border-bottom: #808080 2px;
+    border-bottom-style: solid;
+}
+
+td.mago4-module {
     vertical-align: baseline;
+    border: #000000;
+    border-style: double;
+    border-bottom: #808080 2px;
+    border-bottom-style: solid;
+    border-top: none;
+    background-color: #E0E0E0;
+}
+
+tr.magoCloud-feature {
+    border: #000000 1px solid;
+    border-left: none;
 }
 
 td.functional-area-sep {
-    background-color: #A8A7A9 !important;
     -webkit-print-color-adjust: exact;
     color: white;
+    border: #000000;
+    border-style: double;
+    border-bottom: #808080 2px;
+    border-bottom-style: solid;
+    border-top: none;
 }
 
 td.functional-area-sep-basic {
