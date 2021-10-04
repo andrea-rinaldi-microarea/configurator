@@ -1,7 +1,7 @@
 {
   "name": "Retail & Fashion",
   "industryCode": "REFA",
-  "version": "11",
+  "version": "19",
   "productID": "MC",
   "productName": "MagoCloud",
   "features": [
@@ -849,9 +849,11 @@
       "level": 3,
       "description": "TCPOS Connector",
       "fragment": "TCPOSConnector",
+      "incompatibilities": "EPOSConnector",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
+      "hasFlatPrice": true,
       "optionID": "TCCN",
       "options": [
         {
@@ -880,6 +882,8 @@
       "isAvailable": true,
       "allowISO": "DE",
       "denyISO": "",
+      "hasFlatPrice": true,
+      "incompatibilities": "TCPOSConnector",
       "optionID": "EPCN",
       "options": [
         {
@@ -939,7 +943,8 @@
       "optionID": "STVO",
       "options": [
         {
-          "edition": "STD"
+          "edition": "STD",
+          "availability": ""
         },
         {
           "edition": "PRM",
@@ -1233,7 +1238,7 @@
       "description": "Deposit",
       "fragment": "Deposit",
       "isAvailable": true,
-      "allowISO": "",
+      "allowISO": "DE",
       "denyISO": "",
       "optionID": "DEPO",
       "options": [
@@ -1398,7 +1403,7 @@
       "level": 1,
       "description": "Job Scheduler",
       "fragment": "JobScheduler",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "options": [
@@ -1425,7 +1430,7 @@
       "level": 2,
       "description": "Advanced Scheduling",
       "fragment": "JobSchedulerAdvanced",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "SCHA",
@@ -1453,7 +1458,7 @@
       "level": 1,
       "description": "Security",
       "fragment": "Security",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "options": [
@@ -1522,11 +1527,11 @@
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -1597,7 +1602,8 @@
       "optionID": "MULT",
       "options": [
         {
-          "edition": "STD"
+          "edition": "STD",
+          "availability": ""
         },
         {
           "edition": "PRM",

@@ -1,7 +1,7 @@
 {
   "name": "Manufacturing",
   "industryCode": "MANF",
-  "version": "12",
+  "version": "19",
   "productID": "MC",
   "productName": "MagoCloud",
   "features": [
@@ -1419,7 +1419,7 @@
       "description": "Deposit",
       "fragment": "Deposit",
       "isAvailable": true,
-      "allowISO": "",
+      "allowISO": "DE",
       "denyISO": "",
       "optionID": "DEPO",
       "options": [
@@ -1994,7 +1994,7 @@
       "level": 1,
       "description": "Job Scheduler",
       "fragment": "JobScheduler",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "options": [
@@ -2021,7 +2021,7 @@
       "level": 2,
       "description": "Advanced Scheduling",
       "fragment": "JobSchedulerAdvanced",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "SCHA",
@@ -2049,7 +2049,7 @@
       "level": 1,
       "description": "Security",
       "fragment": "Security",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "options": [
@@ -2118,11 +2118,11 @@
         },
         {
           "edition": "PRO",
-          "availability": "optional"
+          "availability": "always"
         },
         {
           "edition": "ENT",
-          "availability": "optional"
+          "availability": "always"
         }
       ]
     },
@@ -2193,7 +2193,8 @@
       "optionID": "MULT",
       "options": [
         {
-          "edition": "STD"
+          "edition": "STD",
+          "availability": ""
         },
         {
           "edition": "PRM",

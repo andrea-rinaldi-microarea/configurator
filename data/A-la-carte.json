@@ -1,7 +1,7 @@
 {
   "name": "A-la-carte",
   "industryCode": "CART",
-  "version": "4",
+  "version": "13",
   "productID": "MC",
   "productName": "MagoCloud",
   "features": [
@@ -1128,11 +1128,13 @@
       "isModule": false,
       "level": 3,
       "description": "TCPOS Connector",
+      "incompatibilities": "EPOSConnector",
       "fragment": "TCPOSConnector",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "TCCN",
+      "hasFlatPrice": true,
       "options": [
         {
           "edition": "STD",
@@ -1160,6 +1162,8 @@
       "isAvailable": true,
       "allowISO": "DE",
       "denyISO": "",
+      "hasFlatPrice": true,
+      "incompatibilities": "TCPOSConnector",
       "optionID": "EPCN",
       "options": [
         {
@@ -1718,7 +1722,7 @@
       "description": "Deposit",
       "fragment": "Deposit",
       "isAvailable": true,
-      "allowISO": "",
+      "allowISO": "DE",
       "denyISO": "",
       "optionID": "DEPO",
       "options": [
@@ -2305,7 +2309,7 @@
       "level": 1,
       "description": "Job Scheduler",
       "fragment": "JobScheduler",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "SCHD",
@@ -2333,7 +2337,7 @@
       "level": 2,
       "description": "Advanced Scheduling",
       "fragment": "JobSchedulerAdvanced",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "SCHA",
@@ -2361,7 +2365,7 @@
       "level": 1,
       "description": "Security",
       "fragment": "Security",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "OSLL",

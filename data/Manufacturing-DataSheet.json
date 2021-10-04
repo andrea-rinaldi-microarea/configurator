@@ -1535,6 +1535,7 @@
       "Level": 2,
       "Title": "Deposit_title",
       "Details": "Deposit_details",
+      "allowISO": "DE",
       "NotYetAvailable": false,
       "options": [
         {
@@ -2321,7 +2322,7 @@
       "Level": 2,
       "Title": "JobScheduler_title",
       "Details": "JobScheduler_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
@@ -2347,7 +2348,7 @@
       "Level": 3,
       "Title": "JobSchedulerAdvanced_title",
       "Details": "JobSchedulerAdvanced_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
@@ -2373,7 +2374,7 @@
       "Level": 2,
       "Title": "Security_title",
       "Details": "Security_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
@@ -2425,7 +2426,7 @@
       "Level": 3,
       "Title": "Auditing_title",
       "Details": "Auditing_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
@@ -2433,7 +2434,7 @@
         },
         {
           "edition": "PRM",
-          "availability": ""
+          "availability": "optional"
         },
         {
           "edition": "PRO",
@@ -2503,7 +2504,7 @@
       "Level": 2,
       "Title": "MyMagoStudio_title",
       "Details": "MyMagoStudio_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
