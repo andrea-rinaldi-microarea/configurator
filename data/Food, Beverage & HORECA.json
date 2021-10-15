@@ -1211,7 +1211,7 @@
       "description": "Deposit",
       "fragment": "Deposit",
       "isAvailable": true,
-      "allowISO": "DE",
+      "allowISO": "DE,AT",
       "denyISO": "",
       "optionID": "DEPO",
       "options": [

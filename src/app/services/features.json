@@ -745,7 +745,7 @@
   "level": 2,
   "fragment": "Deposit",
   "isAvailable": true,
-  "allowISO": "DE",
+  "allowISO": "DE,AT",
   "denyISO": "",
   "optionID": "DEPO",
   "discontinued": false
