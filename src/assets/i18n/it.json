@@ -284,10 +284,10 @@
     "Magix_details": "Generazione di file di testo con i saldi contabili da importarsi in Magix Fisco Azienda. Ciò consente di svolgere automaticamente una serie di adempimenti fiscali, quali la redazione delle dichiarazioni UNICO e IRAP, del Bilancio UE e della Nota integrativa.",
 			
     "Ago_title": "AGO",
-    "Ago_details": "Attraverso il tracciato MOVAGO è possibile scambiare dati contabili tra MagoCloud e AGO, in particolare si possono trasmettere ad AGO tutti i tipi di prima nota, incluso le anagrafiche clienti/fornitori utilizzate nei movimenti contabili, escluso le informazioni del partitario, mentre da AGO si possono ricevere solo tabelle (clienti/fornitori, sottoconti, codici IVA, codici Norma, codici CEE e causali contabili) e movimenti contabili puri (non IVA).",
+    "Ago_details": "Attraverso il tracciato MOVAGO è possibile scambiare dati contabili tra MagoCloud e AGO, in particolare si possono trasmettere ad AGO tutti i tipi di prima nota, incluso le anagrafiche clienti/fornitori utilizzate nei movimenti contabili, escluso le informazioni del partitario, mentre da AGO si possono ricevere solo tabelle contabili(sottoconti, codici IVA, codici Norma, codici CEE e causali contabili) e movimenti contabili puri (non IVA).",
 
     "Omnia_title": "OMNIA",
-    "Omnia_details": "Attraverso il tracciato LEMCO di OMNIA è possibile scambiare dati contabili tra MagoCloud e OMNIA, in particolare si possono trasmettere ad OMNIA tutti i tipi di prima nota, incluse le anagrafiche clienti/fornitori utilizzate nei movimenti contabili e le informazioni relative alla partite chiuse, mentre da OMNIA si possono ricevere solo tabelle (clienti/fornitori, sottoconti e causali contabili) e movimenti contabili puri (non IVA).",
+    "Omnia_details": "Attraverso il tracciato LEMCO di OMNIA è possibile scambiare dati contabili tra MagoCloud e OMNIA, in particolare si possono trasmettere ad OMNIA tutti i tipi di prima nota, incluse le anagrafiche clienti/fornitori utilizzate nei movimenti contabili e le informazioni relative alla partite chiuse, mentre da OMNIA si possono ricevere solo tabelle contabili (sottoconti e causali contabili) e movimenti contabili puri (non IVA).",
 
     "OmniaPaghe_title": "OMNIA Paghe / Paghe Web",
     "OmniaPaghe_details": "Il modulo “Connettore Paghe” consente di importare file creati con la procedura “Contabilizzazione paghe” di OMNIA e generare in MagoCloud, grazie all’utilizzo di opportuni parametri e modelli, le scritture contabili relative alla gestione del personale in contabilità ordinaria.",

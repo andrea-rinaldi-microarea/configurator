@@ -284,10 +284,10 @@
     "Magix_details": "Text file generation containing accounting balances to be imported in Magix Fisco Azienda. This allows to fulfill several fiscal operations, like UNICO and IRAP Tax Return, as well as the UE Balance with its additional note.",
 			
     "Ago_title": "AGO",
-    "Ago_details": "Accounting data can be exchanged between MagoCloud and AGO through the MOVAGO record layout. In detail, it is possible to transfer to AGO all accounting entries, customers and suppliers master data included, payment schedules data excludes, whereas it is possible to receive from AGO accounting tables (customers/suppliers, accounts, tax codes, accounting reasons) and pure accounting entries.",
+    "Ago_details": "Accounting data can be exchanged between MagoCloud and AGO through the MOVAGO record layout. In detail, it is possible to transfer to AGO all accounting entries, customers and suppliers master data included, payment schedules data excludes, whereas it is possible to receive from AGO accounting tables (accounts, tax codes, accounting reasons) and pure accounting entries.",
 
     "Omnia_title": "OMNIA",
-    "Omnia_details": "Accounting data can be exchanged between MagoCloud and OMNIA through the LEMCO record layout. In detail, it is possible to transfer to OMNIA all accounting entries, customers and suppliers master data included, as well as closed payment schedules data, whereas it is possible to receive from AGO accounting tables (customers/suppliers, accounts, accounting reasons) and pure accounting entries.",
+    "Omnia_details": "Accounting data can be exchanged between MagoCloud and OMNIA through the LEMCO record layout. In detail, it is possible to transfer to OMNIA all accounting entries, customers and suppliers master data included, as well as closed payment schedules data, whereas it is possible to receive from AGO accounting tables (accounts, accounting reasons) and pure accounting entries.",
 
     "OmniaPaghe_title": "OMNIA Paghe / Paghe Web",
     "OmniaPaghe_details": "The Payroll import module allows to import files from OMNIA Paghe and Paghe Web in order to generate in MagoCloud accounting entries and cost accounting entries.",
