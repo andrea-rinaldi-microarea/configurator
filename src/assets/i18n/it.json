@@ -99,7 +99,7 @@
     "PickingList_details": "Preparazione spedizione da uno o più ordini, anche parziale. Generazione automatica dei DDT secondo vari criteri (cliente, deposito, ecc.).",
 
     "SaleOrders_title" : "Ordini da Clienti",
-    "SaleOrders_details": "Gestione ordini da clienti, scadenzari, statistiche di acquisto e fatturato, offerte a cliente, gestione anagrafica articoli, statistiche.",
+    "SaleOrders_details": "Gestione ordini da clienti, scadenzari, statistiche di acquisto e fatturato, gestione anagrafica articoli, statistiche.",
 
     "CustomerQuotations_title" : "Offerte a Clienti",
     "CustomerQuotations_details": "Documento offerta a cliente, con tutti i dati propedeutici all’ordine e all’evasione. Intestabile ad un Contatto o ad un Cliente. Trasformazione offerta in ordine, anche parziale. Stampe e statistiche sulle offerte.",
