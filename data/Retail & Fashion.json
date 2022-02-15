@@ -710,6 +710,90 @@
     },
     {
       "isModule": true,
+      "level": 2,
+      "description": "SII - Immediate Reporting System",
+      "fragment": "SIITransmission",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "optionID": "SIIT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "TicketBAI",
+      "fragment": "TicketBAI",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "optionID": "TBAI",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "BATUZ",
+      "fragment": "BATUZ",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "optionID": "BATZ",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": true,
       "level": 1,
       "description": "Sales",
       "fragment": "Sales",
@@ -849,11 +933,9 @@
       "level": 3,
       "description": "TCPOS Connector",
       "fragment": "TCPOSConnector",
-      "incompatibilities": "EPOSConnector",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "hasFlatPrice": true,
       "optionID": "TCCN",
       "options": [
         {
@@ -882,8 +964,6 @@
       "isAvailable": true,
       "allowISO": "DE",
       "denyISO": "",
-      "hasFlatPrice": true,
-      "incompatibilities": "TCPOSConnector",
       "optionID": "EPCN",
       "options": [
         {
@@ -910,7 +990,7 @@
       "description": "Variants / Size and Colors",
       "fragment": "StoreVariants",
       "isAvailable": true,
-      "allowISO": "IT, DE, BG, SI, BR, RO",
+      "allowISO": "IT, DE, BG",
       "denyISO": "",
       "optionID": "RMVN",
       "options": [
@@ -1265,7 +1345,7 @@
       "level": 1,
       "description": "WMS",
       "fragment": "WMSBasic",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "WMAA",
@@ -1293,7 +1373,7 @@
       "level": 3,
       "description": "WMS Advanced",
       "fragment": "WMSAdvanced",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "options": [
@@ -1320,7 +1400,7 @@
       "level": 3,
       "description": "WMS Mobile - backend",
       "fragment": "WMSMobile",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "WMRF",
@@ -1348,7 +1428,7 @@
       "level": 3,
       "description": "WMS Mobile - app",
       "fragment": "WMSMobileApp",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
       "optionID": "WMRC",

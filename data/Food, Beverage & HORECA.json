@@ -710,6 +710,90 @@
     },
     {
       "isModule": true,
+      "level": 2,
+      "description": "SII - Immediate Reporting System",
+      "fragment": "SIITransmission",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "optionID": "SIIT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "TicketBAI",
+      "fragment": "TicketBAI",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "optionID": "TBAI",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "BATUZ",
+      "fragment": "BATUZ",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "optionID": "BATZ",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": true,
       "level": 1,
       "description": "Sales",
       "fragment": "Sales",
@@ -795,11 +879,9 @@
       "description": "TCPOS Connector",
       "fragment": "TCPOSConnector",
       "isAvailable": true,
-      "incompatibilities": "EPOSConnector",
       "allowISO": "",
       "denyISO": "",
       "optionID": "TCCN",
-      "hasFlatPrice": true,
       "options": [
         {
           "edition": "STD",
@@ -827,8 +909,6 @@
       "isAvailable": true,
       "allowISO": "DE",
       "denyISO": "",
-      "hasFlatPrice": true,
-      "incompatibilities": "TCPOSConnector",
       "optionID": "EPCN",
       "options": [
         {
@@ -855,7 +935,7 @@
       "description": "Variants / Size and Colors",
       "fragment": "StoreVariants",
       "isAvailable": true,
-      "allowISO": "IT, DE, BG, SI, BR, RO",
+      "allowISO": "IT, DE, BG",
       "denyISO": "",
       "optionID": "RMVN",
       "options": [

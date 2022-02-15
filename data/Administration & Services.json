@@ -710,6 +710,90 @@
     },
     {
       "isModule": true,
+      "level": 2,
+      "description": "SII - Immediate Reporting System",
+      "fragment": "SIITransmission",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "optionID": "SIIT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "TicketBAI",
+      "fragment": "TicketBAI",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "optionID": "TBAI",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "BATUZ",
+      "fragment": "BATUZ",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "optionID": "BATZ",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "always"
+        }
+      ]
+    },
+    {
+      "isModule": true,
       "level": 1,
       "description": "Sales",
       "fragment": "Sales",

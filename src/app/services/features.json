@@ -335,6 +335,42 @@
    "discontinued": false
  },
  {
+  "isModule": true,
+  "description": "SII - Immediate Reporting System",
+  "level": 2,
+  "fragment": "SIITransmission",
+  "isAvailable": true,
+  "allowISO": "ES",
+  "denyISO": "",
+  "optionID": "SIIT",
+  "tag": "SIIT",
+  "discontinued": false
+},
+{
+  "isModule": true,
+  "description": "TicketBAI",
+  "level": 2,
+  "fragment": "TicketBAI",
+  "isAvailable": true,
+  "allowISO": "ES",
+  "denyISO": "",
+  "optionID": "TBAI",
+  "tag": "TBAI",
+  "discontinued": false
+},
+{
+  "isModule": true,
+  "description": "BATUZ",
+  "level": 2,
+  "fragment": "BATUZ",
+  "isAvailable": true,
+  "allowISO": "ES",
+  "denyISO": "",
+  "optionID": "BATZ",
+  "tag": "BATZ",
+  "discontinued": false
+},
+ {
    "isModule": true,
    "description": "Documents common functions",
    "level": 1,
