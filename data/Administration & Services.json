@@ -986,6 +986,34 @@
       ]
     },
     {
+      "isModule": false,
+      "level": 1,
+      "description": "EDI Basic",
+      "fragment": "EDIBasic",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "EDIB",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional"
+        }
+      ]
+    },
+    {
       "isModule": true,
       "level": 1,
       "description": "DMS",

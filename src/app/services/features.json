@@ -1014,6 +1014,42 @@
    "discontinued": false
  },
  {
+  "isModule": false,
+  "description": "EDI Basic",
+  "level": 1,
+  "fragment": "EDIBasic",
+  "isAvailable": true,
+  "allowISO": "",
+  "denyISO": "",
+  "optionID": "EDIB",
+  "tag": "EDIB",
+  "discontinued": false
+},
+{
+  "isModule": false,
+  "description": "EDI Logistics",
+  "level": 2,
+  "fragment": "EDILogistics",
+  "isAvailable": true,
+  "allowISO": "",
+  "denyISO": "",
+  "optionID": "EDIL",
+  "tag": "EDIL",
+  "discontinued": false
+},
+{
+  "isModule": false,
+  "description": "EDI Purchases",
+  "level": 2,
+  "fragment": "EDIPurchases",
+  "isAvailable": true,
+  "allowISO": "",
+  "denyISO": "",
+  "optionID": "EDIP",
+  "tag": "EDIP",
+  "discontinued": false
+},
+{
    "isModule": true,
    "description": "DMS",
    "level": 1,
