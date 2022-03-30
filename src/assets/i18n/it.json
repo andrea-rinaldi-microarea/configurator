@@ -271,8 +271,8 @@
     "DatevConnector_title": "Connettore DATEV",
     "DatevConnector_details": "Nella versione localizzata per la Germania è disponibile il connettore DATEV, il software per commercialisti più diffuso in Germania. Il connettore trasmette i dati dei documenti del ciclo attivo e passivo, e nel caso di modulo Contabilità anche dalle registrazioni contabili. L'esportazione genera un file csv nel formato previsto da DATEV.",
 
-    "SIIConnector_title": "Trasmissione dati SII ed altre dichiarazioni fiscali",
-    "SIIConnector_details": "Nella versione localizzata per la Spagna sono disponibili la trasmissione dei dati ai fini SII ed altri adempimenti fiscali Spagnoli tramite il connettore al modulo TRM (Tax Reporting Module) di Solmicro (società del Gruppo Zucchetti). Il modulo, sulla base dei documenti di vendita e di acquisto inviati da MagoCloud, produce i principali dichiarativi fiscali tra cui la Dichiarazione SII.",
+    "SIITransmission_title": "Trasmissione dati SII ed altre dichiarazioni fiscali",
+    "SIITransmission_details": "Nella versione localizzata per la Spagna sono disponibili la trasmissione dei dati ai fini SII ed altri adempimenti fiscali Spagnoli tramite il connettore al modulo TRM (Tax Reporting Module) di Solmicro (società del Gruppo Zucchetti). Il modulo, sulla base dei documenti di vendita e di acquisto inviati da MagoCloud, produce i principali dichiarativi fiscali tra cui la Dichiarazione SII.",
 
     "FECGenerator_title": "Generazione file FEC",
     "FECGenerator_details": "Nella versione localizzata per la Francia è disponibile la generazione del file FEC, contenente i dati di tutte le registrazioni contabili di un determinato periodo. Può essere richiesto in caso di controlli fiscali.",

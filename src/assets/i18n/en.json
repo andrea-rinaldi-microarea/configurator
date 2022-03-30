@@ -271,8 +271,14 @@
     "DatevConnector_title": "DATEV Connector",
     "DatevConnector_details": "In the German Localization is available the connector for DATEV, a bookkeeping software largely used by accountants. The connector generates a csv file with accounting data from Sales and Purchase documents and from accounting entries if the Financial module is in use.",
 
-    "SIIConnector_title": "SII Data Transmission and other fiscal declarations",
-    "SIIConnector_details": "In the Spanish localization are available the SII Data Transmission, as well as other fiscal declarations, via the connector to TRM (Tax Reporting Module) of Solmicro (a Zucchetti Group Company). The module fulfil the main fiscal declarations, like SII, based on the Sales and Purchases documents transferred from MagoCloud.",
+    "SIITransmission_title": "Information Immediate Supply (SII)",
+    "SIITransmission_details": "SII is a system for reporting tax information on sales invoices and purchase invoices. It is mandatory in Spain for companies with a turnover > €6m.",
+
+    "TicketBAI_title": "TICKETBAI. Sale invoices reporting system",
+    "TicketBAI_details": "TicketBai is a tax reporting system for sales invoice information that is compulsory in Gipuzkoa and Alava (Basque Country).",
+
+    "BATUZ_title": "Batuz & Economic operations record book (TicketBai included)",
+    "BATUZ_details": "LROE/Batuz is complementary to TicketBai. It is a tax reporting system for sales and purchase invoice information that is mandatory in Bizkaia (Basque Country).",
 
     "FECGenerator_title": "FEC file generation",
     "FECGenerator_details": "In the French Localization it is available the FEC file generation, containing the data of all accounting entries posted in a selected period. It can be required in case of accounting fiscal auditing.",

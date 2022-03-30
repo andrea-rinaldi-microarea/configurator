@@ -253,18 +253,36 @@
   "allowISO": "DE"
 },
 {
-  "topic": "SIIConnector",
+  "topic": "SIITransmission",
   "level": 3,
   "order": "02.9.2",
-  "title":  "SIIConnector_title",
-  "details":  "SIIConnector_details",
+  "title":  "SIITransmission_title",
+  "details":  "SIITransmission_details",
+  "notYetAvailable": false,
+  "allowISO": "ES"
+},
+{
+  "topic": "TicketBAI",
+  "level": 3,
+  "order": "02.9.3",
+  "title":  "TicketBAI_title",
+  "details":  "TicketBAI_details",
+  "notYetAvailable": false,
+  "allowISO": "ES"
+},
+{
+  "topic": "BATUZ",
+  "level": 3,
+  "order": "02.9.4",
+  "title":  "BATUZ_title",
+  "details":  "BATUZ_details",
   "notYetAvailable": false,
   "allowISO": "ES"
 },
 {
   "topic": "FECGenerator",
   "level": 3,
-  "order": "02.9.3",
+  "order": "02.9.5",
   "title":  "FECGenerator_title",
   "details":  "FECGenerator_details",
   "notYetAvailable": false,
