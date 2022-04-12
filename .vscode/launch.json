@@ -40,6 +40,17 @@
             "type": "coreclr",
             "request": "attach",
             "processId": "${command:pickProcess}"
+        },
+        {
+            "type": "pwa-node",
+            "name": "Dictionary2CSV",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\dictionary2csv.js",
+            "args": ["${workspaceFolder}\\src\\assets\\i18n\\en.json"]
         }
+
     ]
 }
