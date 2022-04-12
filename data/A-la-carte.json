@@ -1267,6 +1267,34 @@
     {
       "isModule": false,
       "level": 3,
+      "description": "OpenPOS Connector",
+      "fragment": "OpenPOS",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MPCN",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "count"
+        },
+        {
+          "edition": "PRM",
+          "availability": "count"
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": "count"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
       "description": "Variants / Size and Colors",
       "fragment": "StoreVariants",
       "isAvailable": true,
