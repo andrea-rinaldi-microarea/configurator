@@ -90,7 +90,7 @@
     "Sales_details" : "Gestione fatture immediate ed accompagnatorie, DDT, note di credito e ricevute fiscali. Fatture di acconto, Fatture proforma e resi. Fatturazione e bollettazione immediata e differita, generazione dati per scheda di trasporto, gestione anagrafica articoli, statistiche legate a vendite. Codice a barre d’acquisto e di vendita, Articoli equivalenti, Produttori/Categorie prodotti, Copia documenti, Import/Export file articoli e note. Fatturazione Elettronica attiva, invio tramite DigitalHub Zucchetti.",
 
     "AdvancedItemsManagement_title" : "Funzioni Avanzate Articoli",
-    "AdvancedItemsManagement_details" : "Politiche Prezzi, Politiche Spese, Codici Parlanti, Unità di misura derivate dall’articolo, Quantità accessorie.",
+    "AdvancedItemsManagement_details" : "Politiche Prezzi, Politiche Spese, Codici Parlanti, Unità di misura derivate dall’articolo, Quantità accessorie, Importazione listini fornitore.",
 
     "MultiStubBooks_title" : "Multibollettario",
     "MultiStubBooks_details": "Definizione bollettari aggiuntivi a quelli predefiniti, per personalizzare criteri di numerazione e stampa dei documenti di trasporto.",

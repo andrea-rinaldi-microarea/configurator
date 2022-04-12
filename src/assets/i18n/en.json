@@ -90,7 +90,7 @@
     "Sales_details" : "Direct and shipping invoices, delivery notes, credit notes and receipts. Advance Invoices, Pro-forma Invoices and returns. Direct invoicing and immediate or delayed billing, data generation for transport card, items master data management, sales statistics. Multiple Sale and Purchase Barcode, Equivalent Items, Manufacturer / Product Categories, Document Copy, Import / Export Items and Notes. Sale Electroning Invoicing, sent through Zucchetti DigitalHub.",
 
     "AdvancedItemsManagement_title" : "Advanced Items Management",
-    "AdvancedItemsManagement_details" : "Price Policies, Charge Policies, Smart Code, Multiple UoM per Item, Additional Quantities.",
+    "AdvancedItemsManagement_details" : "Price Policies, Charge Policies, Smart Code, Multiple UoM per Item, Additional Quantities, Price Lists Import.",
 
     "MultiStubBooks_title" : "Multiple Stub Books",
     "MultiStubBooks_details": "Additional stub books in addition to the predefined ones, to customize numbering criteria for delivery documents and organize printouts.",
