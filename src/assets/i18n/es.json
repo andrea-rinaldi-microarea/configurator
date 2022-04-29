@@ -409,10 +409,12 @@
 ,
   "TCPOSConnector_details":"El conector TCPOS gestiona los flujos de datos de Mago a las cajas registradoras TCPOS y viceversa, permitiendo un control completo de la organización de la tienda, los precios, los surtidos, etc."
 ,
-  "EPOSConnector_title":"Conector ePOS"
-,
-  "EPOSConnector_details":"El conector ePOS gestiona los flujos de datos de Mago a las cajas registradoras ePOS y viceversa, permitiendo un control completo de la organización de la tienda, los precios, los surtidos, etc."
-,
+  "EPOSConnector_title":"Conector ePOS",
+  "EPOSConnector_details":"El conector ePOS gestiona los flujos de datos de Mago a las cajas registradoras ePOS y viceversa, permitiendo un control completo de la organización de la tienda, los precios, los surtidos, etc.",
+
+  "OpenPOSConnector_title":"Conector OpenPOS",
+  "OpenPOSConnector_details":"El conector OpenPOS permite conectar aplicaciones externas (relacionadas con el TPV o de otro tipo) a través de un conjunto específico de APIs. Permite también el control de la organización de la tienda, los precios, los surtidos, etc.",
+  
   "Multicompany_title":"Extensión Multicompany"
 ,
   "Multicompany_details":"Dicha Extensión permite abordar aquellos casos caracterizados por empresas \"controladas por\" o \"vinculadas a\" un único sujeto legal (titular de la licencia) mediante una única licencia de MagoCloud y con \"n\" suscripciones activas iguales al número de Empresas que es necesario gestionar. Este tipo de Extensión permitirá, por tanto, gestionar escenarios como las Uniones Temporales de Empresas, las agencias inmobiliarias, etc. Dicha Extensión es imprescindible también cuando se trata de empresas (por ejemplo, empresas de contabilidad) cuya actividad principal es la contabilidad de terceras empresas."

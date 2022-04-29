@@ -409,10 +409,12 @@
 ,
   "TCPOSConnector_details":"Die TCPOS-Verbindung verwaltet den Datenfluss von Mago zu den TCPOS-Kassen und umgekehrt und ermöglicht so eine vollständige Kontrolle der Filialorganisation, der Preise, des Sortiments usw."
 ,
-  "EPOSConnector_title":"ePOS-Verbindung"
-,
-  "EPOSConnector_details":"Die ePOS-Verbindung verwaltet den Datenfluss von Mago zu den ePOS-Kassen und umgekehrt und ermöglicht so eine vollständige Kontrolle der Filialorganisation, der Preise, des Sortiments usw."
-,
+  "EPOSConnector_title":"ePOS-Verbindung",
+  "EPOSConnector_details":"Die ePOS-Verbindung verwaltet den Datenfluss von Mago zu den ePOS-Kassen und umgekehrt und ermöglicht so eine vollständige Kontrolle der Filialorganisation, der Preise, des Sortiments usw.",
+
+  "OpenPOSConnector_title":"OpenPOS-Verbindung",
+  "OpenPOSConnector_details":"Der OpenPOS-Konnektor ermöglicht die Anbindung externer Anwendungen (POS-bezogener oder anderer Art) über einen speziellen Satz von APIs. Er ermöglicht auch die Steuerung der Ladenorganisation, der Preise, der Sortimente und so weiter.",
+  
   "Multicompany_title":"Unternehmensübergreifende Erweiterung"
 ,
   "Multicompany_details":"Diese Erweiterung ermöglicht es, Unternehmen, die von einer einzigen juristischen Person (dem Lizenzinhaber) kontrolliert werden oder mit ihr verbunden sind, mit einer einzigen MagoCloud-Lizenz und mit aktiven Abonnements, die der Anzahl der zu verwaltenden Unternehmen entsprechen, zu verwalten. Diese Art von Erweiterung ermöglicht daher die Verwaltung von Szenarien wie zeitlich begrenzte Unternehmensvereinigungen, Immobilienagenturen usw. Eine solche Erweiterung ist auch für Unternehmen (z. B. Wirtschaftsprüfungsgesellschaften) wichtig, deren Kerngeschäft die Buchführung von Drittunternehmen ist."

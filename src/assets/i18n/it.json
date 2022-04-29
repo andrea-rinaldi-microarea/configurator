@@ -304,6 +304,9 @@
     "EPOSConnector_title": "Connettore ePOS",
     "EPOSConnector_details": "Il connettore ePOS gestisce i flussi dati tra Mago e il front-end di cassa ePOS e viceversa, consentendo un completo controllo dell'organizzazione del negozio, gestendo prezzi, assortimenti e così via.",
 
+    "OpenPOSConnector_title": "Connettore OpenPOS",
+    "OpenPOSConnector_details": "Il connettore OpenPOS permette di collegare applicazioni esterne (sia POS che di altro tipo) tramite un set specifico di API. Permette anche il controllo dell'organizzazione del negozio, dei prezzi, degli assortimenti e così via.",
+
     "Multicompany_title": "Estensione Multicompany",
     "Multicompany_details": "Tale Extension permette di gestire tutti quei casi di Aziende 'controllate' o 'collegate' da un singolo soggetto giuridico ed intestatario della licenza, tramite una singola licenza di MagoCloud e con enne sottoscrizioni attivi quanti sono le Aziende da gestire. Con questa tipologia di Extension si potrà quindi gestire anche situazioni come le ATI (associazioni temporanee d’impresa), immobiliari, ect. Tale Extension è imprescindibile anche per poter gestire società che gestiscono contabilità conto terzi come ad esempio i commercialisti.",
 
