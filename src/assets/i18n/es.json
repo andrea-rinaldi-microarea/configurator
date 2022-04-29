@@ -1,0 +1,428 @@
+{
+  "Server_title":"Funcionalidades maestras y comunes"
+,
+  "Server_details":"Información maestra básica como Clientes, Proveedores, Condiciones de pago, Bancos. Definición de los datos de la empresa, parámetros y períodos fiscales. Configuración de parámetros y servicios básicos compartidos en todo el producto."
+,
+  "Languages_title":"Descripciones multilingüe"
+,
+  "Languages_details":"Descripciones en varios idiomas disponibles para los Artículos, el Plan de cuentas, las Condiciones de pago y muchos otros elementos maestros. Las descripciones multilingües se muestran en la edición de documentos y en las impresiones."
+,
+  "Currencies_title":"Multidivisa"
+,
+  "Currencies_details":"Gestión de divisas en cualquier documento: libro mayor, ventas, compras, etc. Conversión automática de listas de precios o tarifas en moneda extranjera. Cuentas por pagar y Cuentas por cobrar en moneda extranjera con cálculo automático de ganancias/pérdidas por tipo de canje. Plan de cuentas con saldos en moneda extranjera. Tipos de canje gestionados manualmente o descargados automáticamente del Banco Central Europeo u otros bancos centrales locales."
+,
+  "Contacts_title":"Gestión de contactos"
+,
+  "Contacts_details":"Maestros de contactos y proveedores potenciales. Actualización manual a Cliente/Proveedor o automática al transformar las ofertas en pedidos."
+,
+  "Budget_title":"Presupuesto (Cliente/Proveedor)"
+,
+  "Budget_details":"Presupuesto de importes mensuales de Clientes y Proveedores, adquisición automática de los datos reales con base en los documentos. Impresiones de Presupuestado frente a Real, los datos pueden exportarse o utilizarse en informes personalizados."
+,
+  "KPIMobileApp_title":"Cuadros de KPI, aplicación para móvil"
+,
+  "KPIMobileApp_details":"Aplicación para móvil iOS y Android para el director de Finanzas, Ventas u Operaciones. Proporciona un acceso rápido a los datos de la empresa a través de widgets de KPI fáciles de usar. Se proporcionan varios KPI estándar; se pueden crear KPI personalizados con MyMago Studio."
+,
+  "Financials_title":"Contabilidad, Cuentas por pagar y Cuentas por cobrar"
+,
+  "Financials_details":"Gestión del Libro Mayor, asientos de diario, saldos, prorrateo, IVA de agencias de viajes. Plan de cuentas predefinido conforme a las normas de la UE o personalizable hasta 8 niveles. Gestión de calendarios de pago, facturas y órdenes de pago. Métodos de pago personalizados. Impresión contextual del Mandato de Adeudo Directo SEPA (SEPA Direct Debit - SDD). Los mandatos de SDD pueden enviarse por correo electrónico para ser suscritos. El módulo permite imprimir SDD y SCT (Transferencia de crédito SEPA - SEPA Credit Transfer) en archivos XML. Importación de archivos XML SEPA según los formatos Camt052 y Camt053 de informes diarios de cuentas bancarias. Procedimiento de conciliación bancaria entre los extractos bancarios importados y los asientos contables, con la posibilidad de generar un nuevo asiento contable a partir de la operación bancaria, con la actualización contextual del calendario de pagos en caso de cobros o pagos, así como de vincular una operación bancaria a un asiento contable ya contabilizado. Informes de Comprobación de saldos entre los extractos bancarios y los Libros mayores."
+,
+  "MultiTaxJournals_title":"Diarios fiscales personalizables"
+,
+  "MultiTaxJournals_details":"Libros de Impuestos adicionales respecto a los predefinidos, para personalizar los criterios de numeración y organizar las impresiones de Impuestos."
+,
+  "CustomizedAccountingTemplates_title":"Plantillas de contabilidad personalizables"
+,
+  "CustomizedAccountingTemplates_details":"Plantillas contables personalizadas además de las estándar, definición de plantillas a partir de asientos existentes, completas con importes si es necesario, para automatizar las transacciones recurrentes."
+,
+  "PurchaseElectronicInvoicing_title":"Importación de facturas electrónicas"
+,
+  "PurchaseElectronicInvoicing_details":"Gestión de la Facturación electrónica en los Documentos Recibidos. Con este procedimiento, las facturas electrónicas recibidas en el Zucchetti Digital Hub se importan al programa: el usuario puede ver la factura y contabilizarla, inmediatamente o más tarde, en los Documentos Recibidos en Contabilidad."
+,
+  "Plafond_title":"Gestión de Plafond"
+,
+  "Plafond_details":"Cálculo del Plafond según el método del Plafond fijo. Los informes especiales permiten controlar el importe del Plafond utilizado en el período, es posible detallar los valores por documento así como los importes utilizados por cliente/proveedor, con el cálculo del saldo disponible residual de acuerdo con las Declaraciones de Intención contabilizadas. Gestión de Declaraciones de Intenciones Emitidas y Recibidas, con procedimientos de impresión de cartas y anulaciones y generación de archivos de Comunicación de Declaraciones de Intenciones Emitidas para su envío a la Agencia Tributaria."
+,
+  "AccrualsDeferrals_title":"Ajustes automáticos de periodificación"
+,
+  "AccrualsDeferrals_details":"Cálculo de los importes correspondientes a cada ejercicio durante la contabilización de los documentos contables. Contabilización automática de asientos de ajuste y transferencias iniciales. Gestión de aplazamientos plurianuales. Gestión de periodificaciones mensuales mediante la contabilización en la Contabilidad de Previsiones."
+,
+  "Payees_title":"Honorarios de profesionales y Retención Fiscal"
+,
+  "Payees_details":"Contabilización de los honorarios de los profesionales a partir de los documentos contables recibidos y generación de los pagos netos de las retenciones. Contabilización de los honorarios Pro-forma que se vinculan a un documento contable recibido con posterioridad. Contabilización automática de las retenciones en los pagos. Generación e impresión de la Certificación Única. Gestión fiscal de Enasarco."
+,
+  "Cash_title":"Gestión de tesorería"
+,
+  "Cash_details":"Módulo dedicado a la gestión de todas las transferencias de dinero a débito y crédito. Sesiones en efectivo para un solo usuario. Vinculado con los acreedores y deudores y con el libro mayor. Gestión de la tesorería en moneda extranjera."
+,
+  "Dunnings_title":"Cartas de reclamación"
+,
+  "Dunnings_details":"Gestión de varios niveles de reclamación, cada uno con un texto propio. Un procedimiento permite imprimir y enviar por correo electrónico cartas de reclamación de importes vencidos en el idioma del cliente, con la actualización automática de los datos de la última reclamación enviada en el maestro de clientes. El usuario puede personalizar el texto de la carta de reclamación y del correo electrónico."
+,
+  "AP_AR_Analysis_title":"Análisis del Calendario de Pagos y del Flujo de Caja"
+,
+  "AP_AR_Analysis_details":"Los informes especiales permiten analizar los importes vencidos o por vencer de las cuentas por pagar y por cobrar de acuerdo con los períodos de vencimiento personalizables por el usuario. La gestión del Flujo de Caja controla los importes de las entradas y salidas de efectivo en función de los cobros y pagos contabilizados o por contabilizar."
+,
+  "AP_AR_Plus_title":"Gestión avanzada de Cuentas por Pagar/Cuentas por Cobrar"
+,
+  "AP_AR_Plus_details":"Gestión de facturas personalizable, comprobantes de cobro, gestión de factoring y gestión automática de pendientes."
+,
+  "BalanceAnalysis_title":"Análisis de Balances y Reclasificaciones"
+,
+  "BalanceAnalysis_details":"Esquemas de reclasificación, predefinidos y personalizables, para los saldos están disponibles varias funciones de agregación. Las reclasificaciones funcionan tanto en los balances contables normales como en los de previsión y control de costes."
+,
+  "XBRL_title":"Balance XBRL"
+,
+  "XBRL_details":"Permite crear un balance electrónico que puede ser procesado con taxonomías XBRL. Las taxonomías XBRL que utilizar se actualizan automáticamente a través de Internet"
+,
+  "AccountingBooks_title":"Libros Contables y Anexos de Balance"
+,
+  "AccountingBooks_details":"El módulo incluye la impresión de todos los estados que componen el Libro de Inventario Contable, incluyendo los Anexos, y la gestión de los Documentos por emitir/recibir."
+,
+  "Basel_II_title":"Análisis de balances (Basel II)"
+,
+  "Basel_II_details":"Este módulo está construido sobre Excel. Basándose en los datos del balance de la empresa, el análisis de los ratios y el flujo de caja, el módulo puede procesar rápidamente una evaluación completa de los resultados financieros y económicos de la empresa. Además, el módulo permite crear balances reclasificados personalizados basados en funcionalidades avanzadas disponibles en los esquemas de reclasificación."
+,
+  "FixedAssets_title":"Activos fijos"
+,
+  "FixedAssets_details":"Gestión de activos fijos, hasta tres regímenes de amortización independientes. Simulaciones de depreciación de activos individuales y diario de activos fijos. Entradas de activos fijos desde y hacia la contabilidad, impresiones requeridas por la nota de balance."
+,
+  "ForecastAccounting_title":"Contabilidad predictiva"
+,
+  "ForecastAccounting_details":"Gestión de la contabilidad de previsiones en el Libro Mayor y análisis y control, generación de asientos contables reales a partir de los asientos de previsión, análisis del saldo de previsión."
+,
+  "MultiCompanyBalances_title":"Balances de varias empresas"
+,
+  "MultiCompanyBalances_details":"Gestión de plantillas multiempresa, intercambio de datos contables entre empresas y empresa controladora, balance multiempresa y balance reclasificado."
+,
+  "CostAccounting_title":"Análisis y control"
+,
+  "CostAccounting_details":"Asignación de costes e ingresos para centros de coste y trabajos. Contabilización separada de los valores presupuestarios y reales. Contabilización de valores reales totalmente integrada con los módulos de Finanzas, Inventario, Ventas, Compras y Depreciación. Análisis mensuales y del año fiscal, diferencias entre saldos presupuestarios y reales en valores completos y porcentajes."
+,
+  "ProductLines_title":"Líneas de producto"
+,
+  "ProductLines_details":"Añade un criterio de contabilización y agregación (Línea de producto) a los análisis de la Contabilidad de Costes, utilizable en todos los documentos, las transacciones y en todas las impresiones."
+,
+  "CostAccountingTransfer_title":"Transferencias"
+,
+  "CostAccountingTransfer_details":"Transferencias automáticas de centros de coste a centros de coste y/o trabajo/líneas de producto, mediante plantillas personalizables."
+,
+  "Intrastat_title":"Intrastat"
+,
+  "Intrastat_details":"Gestión de Intrastat, generación automática de entradas a partir de documentos de venta y compra, nomenclatura combinada de artículos, listas de Intrastat en archivo y en impreso."
+,
+  "SalePurchaseDocuments_title":"Funciones comunes de documentos"
+,
+  "SalePurchaseDocuments_details":"Funciones comunes de gestión para todos los documentos de Venta y Compra."
+,
+  "Sales_title":"Ventas"
+,
+  "Sales_details":"Facturas directas y de envío, albaranes, notas de crédito y recibos. Facturas anticipadas, facturas proforma y devoluciones. Facturación directa e inmediata o diferida, generación de datos para la tarjeta de transporte, gestión de datos maestros de artículos, estadísticas de ventas. Código de barras de compra y venta múltiple, artículos equivalentes, categorías de fabricante/producto, copia de documentos, artículos de importación/exportación y notas. Facturación electrónica de venta, enviada a través de Zucchetti DigitalHub."
+,
+  "AdvancedItemsManagement_title":"Gestión avanzada de artículos"
+,
+  "AdvancedItemsManagement_details":"Políticas de precios, políticas de cargos, código inteligente, múltiples UdM por artículo, cantidades adicionales."
+,
+  "MultiStubBooks_title":"Varios libros de talonarios"
+,
+  "MultiStubBooks_details":"Talonarios adicionales además de los predefinidos, para personalizar los criterios de numeración de los documentos de entrega y organizar las impresiones."
+,
+  "PickingList_title":"Lista de recogida"
+,
+  "PickingList_details":"Prepara para la Entrega de uno o varios Pedidos de venta, totales o parciales. Genera automáticamente Albaranes en función de varios criterios (cliente, almacenamiento, etc.)."
+,
+  "SaleOrders_title":"Pedidos de ventas"
+,
+  "SaleOrders_details":"Gestión de los pedidos de venta, calendarios, estadísticas de volumen de compras y ventas, gestión de los datos maestros de los artículos, estadísticas."
+,
+  "CustomerQuotations_title":"Ofertas para clientes"
+,
+  "CustomerQuotations_details":"Documento de Oferta para el cliente, con todos los datos necesarios para el posterior Pedido de venta y entrega. Puede dirigirse a un Cliente o a un Contacto. Se puede importar en un Pedido de venta, incluso parcialmente. Impresiones y estadísticas de Ofertas."
+,
+  "Conai_title":"Conai"
+,
+  "Conai_details":"Gestión de las cotizaciones CONAI para los productores e importadores de envases, cálculo de las cotizaciones de facturación, asociación automática a los productos, declaraciones. Exenciones para Clientes/Materiales."
+,
+  "WEEE_title":"RAEE"
+,
+  "WEEE_details":"Gestión de RAEE mediante la contribución de beneficios por categoría y artículo, cálculo automático en los documentos de venta, listas de comprobación."
+,
+  "SalesPeople_title":"Gestión del personal de ventas"
+,
+  "SalesPeople_details":"Gestión de agentes y gestores de zona, políticas de comisiones, cálculo de comisiones, movimientos de comisiones, devengos, pagos, transferencias de comisiones de impagados, estadísticas de agentes."
+,
+  "CreditLimit_title":"Gestión de límite de crédito"
+,
+  "CreditLimit_details":"Gestión del límite de crédito, bloqueo/advertencia por exceder el límite de crédito, personalización del límite de crédito del cliente, implementación de políticas de límites de crédito en todos los documentos del ciclo activo (empezando por los pedidos)."
+,
+  "eCommerce_title":"Comercio electrónico"
+,
+  "eCommerce_details":"Gestionar la tienda online con el motor de comercio electrónico Konakart, un producto de Zucchetti. Definición de productos con descripciones cortas y largas, admitido texto HTML, fotogalería, agrupación de categorías con estructura jerárquica, surtidos, precios y disponibilidad de productos específicos para la tienda online."
+,
+  "StoreManagement_title":"Gestión de la tienda"
+,
+  "StoreManagement_details":"Gestión de tiendas minoristas gracias a la integración con el sistema POS de TCPOS o Tap&Till. Gestión de datos centralizada directamente desde Mago como back-end. Los recibos y documentos de venta generados por las cajas se reciben directamente en Mago y pueden introducirse en el sistema de inventario y contabilidad."
+,
+  "StoreVariants_title":"Variantes / Talla y Colores"
+,
+  "StoreVariants_details":"Gracias a las Variantes de Venta al Público y a la gestión de Padres/Hijos, es posible gestionar no sólo el mundo de las tallas y los colores, sino también muchas otras variantes de artículos."
+,
+  "FoodRecipe_title":"Recetas de comida"
+,
+  "FoodRecipe_details":"Gestión completa de las recetas de comida, lista de ingredientes y detalles de la preparación. Cantidades de ingredientes fijas o proporcionales, descarga del inventario de los ingredientes utilizados para componer el plato terminado, Alérgenos y datos nutricionales para imprimir en las etiquetas de los envases o para exponer en la tienda."
+,
+  "Vouchers_title":"Vales"
+,
+  "Vouchers_details":"Gestión completa de los vales, como las tarjetas de prepago, los vales de comida o las tarjetas de regalo (por el momento no está disponible para Italia)."
+,
+  "InStore_title":"Back-end In-store"
+,
+  "InStore_details":"Gestión del control de existencias, inventario, entrada de mercancías, reordenación y solicitud de traslado para la tienda a través de dispositivos portátiles Wi-Fi Rfid, mediante una aplicación específica instalada en ellos."
+,
+  "InStoreApp_title":"Aplicación In-store"
+,
+  "InStoreApp_details":"Aplicación para Android para que el personal de la tienda ejecute en movilidad todas las operaciones habituales de gestión de productos: control de existencias, reordenación, solicitudes de traslado, etc. Se conecta a MagoCloud a través de una conexión a internet."
+,
+  "InfinityConnector_title":"CRM"
+,
+  "InfinityConnector_details":"Permite el acceso a las funcionalidades del CRM Infinity conectado a MagoCloud. Cada usuario de CRM habilitado tiene acceso a las funciones comunes de colaboración: calendario, correo y agenda."
+,
+  "CRMUserSales_title":"Usuario CRM de Ventas"
+,
+  "CRMUserSales_details":"Además de las funcionalidades comunes, se tiene acceso a: oportunidades, tratos, ofertas y pedidos de CRM."
+,
+  "CRMUserMarketing_title":"Usuario CRM de Marketing"
+,
+  "CRMUserMarketing_details":"Además de las funcionalidades comunes, se tiene acceso a: Contactos, Campañas de venta, Cuestionarios, Acciones de marketing (telemarketing, promociones, citas programadas, etc.)."
+,
+  "CRMUserFull_title":"Usuario completo de CRM"
+,
+  "CRMUserFull_details":"Combinación de las posibilidades otorgadas a Usuario de CRM de Ventas y a Usuario de CRM de Marketing."
+,
+  "Purchases_title":"Compras"
+,
+  "Purchases_details":"Gestión de la carga de materiales en inventario, comprobación de las entregas de los proveedores, entradas en el inventario, detalle de las compras, facturas de compra, notas de crédito y notas de débito, datos maestros de los artículos, estadísticas de compras. Artículos equivalentes, Categorías de Fabricante/Producto, Copia de documentos, Artículos de importación/exportación y Notas. Creación automática de Devoluciones a Proveedores a partir de los Conocimientos de embarque."
+,
+  "AdditionalCharges_title":"Cargos adicionales"
+,
+  "AdditionalCharges_details":"Plantillas de reparto para cargos adicionales (tarifas personalizadas, costes de transporte, etc.), asociación manual o automática de artículos y categorías a las plantillas, documento de cargos adicionales, entradas de ajuste de valoración de inventario para cargos adicionales."
+,
+  "PurchaseElectronicInvoicingAdv_title":"Importación de facturas electrónicas"
+,
+  "PurchaseElectronicInvoicingAdv_details":"El módulo permite la importación de documentos electrónicos pasivos registrándolos en Mago4 como documentos en el módulo de Compras, permitiendo también la conciliación con los Conocimientos de Embarque u Órdenes de Compra en el ERP."
+,
+  "PurchaseOrders_title":"Órdenes de compra"
+,
+  "PurchaseOrders_details":"Gestión de órdenes de compra, calendarios y cartas de reclamación, estadísticas de compras, datos maestros de artículos, estadísticas de órdenes de compra."
+,
+  "SupplierQuotations_title":"Ofertas de proveedores"
+,
+  "SupplierQuotations_details":"Documento de Solicitud de oferta al proveedor, con todos los datos necesarios para el posterior Pedido de Compra y recepción de mercancías. Puede dirigirse a un Proveedor conocido o a uno potencial. Puede importarse en un Pedido de compra, incluso parcialmente. Impresiones y estadísticas sobre las Solicitudes de oferta. Calendarios y cartas de reclamación."
+,
+  "QualityInspection_title":"Inspecciones de calidad"
+,
+  "QualityInspection_details":"Gestión de la Inspección de calidad mediante el registro de cargas en las pruebas, a través de la generación de órdenes de inspección. Examen de No Conformidades mediante la hoja de control de calidad y el registro de manipulación relacionado. Vuelve a la generación automática del proveedor."
+,
+  "Inventory_title":"Inventario"
+,
+  "Inventory_details":"Gestión de los datos maestros de los artículos y del manejo del inventario, mejora de los impuestos, LIFO/FIFO anual, ABC, libros de talones múltiples, Notas Técnicas. Estadísticas de inventario. Agilización de las operaciones de carga y descarga mediante la identificación de los artículos y la posible información relacionada, a través de la lectura de los distintos tipos de códigos de barras, en una ventana independiente simplificada y adaptada a los distintos documentos de venta, compra e inventario. Producción y lectura de códigos de barras estructurados en múltiples segmentos y por lo tanto capaces de identificar con un solo escaneo más información, interpretación de códigos de barras de tipo GTIN (GS1-128). Generación de archivos para el envío de datos a la impresora fiscal."
+,
+  "MultiStorage_title":"Multialmacén"
+,
+  "MultiStorage_details":"Número ilimitado de almacenes, con cantidades detalladas por disponibilidad, existencias, entrada, salida, etc. Traslados entre almacenes, valoración por almacén."
+,
+  "SingleStepLifoFifo_title":"LIFO/FIFO de un paso"
+,
+  "SingleStepLifoFifo_details":"Seguimiento de los valores de inventario por lote de compra individual, valores de descarga calculados según el enfoque LIFO o FIFO. Corrección siempre disponible, con reconstrucción de valores o entradas de ajuste de valores."
+,
+  "InventoryAdjustment_title":"Recuentos avanzados de inventario"
+,
+  "InventoryAdjustment_details":"Estructura el proceso de recuento de inventario, recuentos múltiples, documento de recuento de inventario permanente, importa el recuento de inventario desde dispositivo móvil."
+,
+  "LotsSerials_title":"Lotes y Números de serie"
+,
+  "LotsSerials_details":"Gestión de lotes de artículos, autonumeración de lotes, propuestas automáticas en fase de descarga, manejo de lotes también para depósito, números de serie automáticos, explosión de números de serie durante la fase de descarga."
+,
+  "Deposit_title":"Gestión de depósitos"
+,
+  "Deposit_details":"Permite gestionar el depósito."
+,
+  "WMSBasic_title":"WMS"
+,
+  "WMSBasic_details":"Gestión de la disposición del almacén, escáner de código de barras, preparación/picking de envíos, definición de la ruta óptima, inventarios periódicos. Gestión avanzada de envíos mediante proveedores externos de logística o sistemas logísticos de terceros, también con integración a través de sistemas EDI. Estructura de contenedor único con hasta 4 niveles de coordenadas."
+,
+  "WMSAdvanced_title":"WMS Advanced"
+,
+  "WMSAdvanced_details":"Gestión de las Unidades de almacén, gestión de pesos y capacidades, estrategias óptimas de almacenamiento y de picking, identificación automática y RFID, control de calidad en la recepción (necesario módulo de Inspección de Calidad), reposición guiada con análisis de existencias, inventarios continuos y a rotación. Estructuras de contenedores múltiples, acepta más de 4 niveles de coordenadas."
+,
+  "WMSMobile_title":"Back-end WMS Mobile"
+,
+  "WMSMobile_details":"Gestión de carga, descarga, almacenamiento, picking, inventario a través de dispositivos portátiles Wi-Fi, utilizando una aplicación específica instalada en ellos."
+,
+  "WMSMobileApp_title":"Aplicación WMS Mobile"
+,
+  "WMSMobileApp_details":"Aplicación para Android para que el personal del almacén pueda ejecutar en movilidad todas las operaciones habituales de gestión de existencias: visualización de existencias, ajuste de cantidades en tiempo real, entrega, recepción, transferencia de mercancías, recuento de inventario, embalaje y desembalaje de mercancías, picking y almacenamiento, impresión de etiquetas de código de barras. Conecta con MagoCloud a través de la conexión a internet, respalda algunas operaciones fuera de línea."
+,
+  "BillOfMaterials_title":"Lista de materiales"
+,
+  "BillOfMaterials_details":"Composición del producto y gestión de los costes asociados. Número ilimitado de niveles. Gestión de la manipulación de las materias primas y los productos acabados en el almacén. Explosión e implosión de la Lista de Materiales."
+,
+  "ECO_title":"Orden de modificaciones de la ingeniería"
+,
+  "ECO_details":"Proceso de variación de las características técnicas de los productos (Lista de materiales), documento para propuestas de cambios, confirmación de cambios, índice de revisión."
+,
+  "Variants_title":"Variantes"
+,
+  "Variants_details":"Gestión de las variantes de producto. Opción para definir nuevos productos modificando la Lista de materiales y los ciclos existentes de procesamiento de los productos."
+,
+  "Configurator_title":"Configurador"
+,
+  "Configurator_details":"Gestión del configurador de ventas de productos. Mediante la gestión de las variantes es posible componer de forma interactiva la configuración del producto solicitada por el cliente."
+,
+  "ManufacturingBasic_title":"Producción"
+,
+  "ManufacturingBasic_details":"Gestión de los documentos de fabricación y desarrollo operativo. Gestión de avance, recogida de materiales, gestión de la contabilidad final. Generación automática de documentos, gestión de contratistas, almacenamiento a cuenta de fabricación."
+,
+  "ManufacturingMobile_title":"Back-end Manufacturing Mobile"
+,
+  "ManufacturingMobile_details":"Gestión de los procedimientos de fabricación a través de dispositivos Wi-Fi Rfid: confirmación de órdenes de fabricación desde los dispositivos portátiles, reordenación de la producción desde dispositivo móvil para Kanban, etc. Cada dispositivo requerirá la instalación de la aplicación específica para móvil."
+,
+  "ManufacturingMobileApp_title":"Aplicación Manufacturing Mobile"
+,
+  "ManufacturingMobileApp_details":"Aplicación para Android para que el personal del almacén pueda ejecutar en movilidad todas las operaciones habituales de fabricación: confirmación de fabricación, reordenación para Kanban, etc. Conecta con MagoCloud a través de la conexión a internet, respalda algunas operaciones fuera de línea."
+,
+  "ManufacturingAdvanced_title":"Fabricación avanzada"
+,
+  "ManufacturingAdvanced_details":"Gestión de ciclos y recursos productivos (cdt y familias de cdt), múltiples pasos de procesamiento por orden de trabajo, alternativas. Avances (incluso parciales), costes y rentabilidad de las órdenes de trabajo. Panel de control, detalles de confirmación de MO, comparación de Lista/MO y análisis de los materiales en producción"
+,
+  "BillOfMaterialsPlus_title":"Dibujos, Cronología y Versiones"
+,
+  "BillOfMaterialsPlus_details":"Maestro de dibujos técnicos para los artículos y la lista de materiales. Código de especificación técnica y número de versión con índice de revisión. Los cambios cronológicos se almacenan y son fáciles de recuperar."
+,
+  "Kanban_title":"Kanban"
+,
+  "Kanban_details":"Procesos de fabricación con enfoque Kanban, reduciendo y facilitando las operaciones de gestión de procesos. Simplifica el reordenamiento de productos, introduciendo un enfoque \"visual\", para un proceso más fluido, aunque integrado."
+,
+  "ManufacturingPlanning_title":"Planificación"
+,
+  "ManufacturingPlanning_details":"Gestión de la planificación de las actividades de producción mediante MRP II y CRP con capacidades ilimitadas. Análisis de las Órdenes de producción mediante gráficos GANTT. Histogramas de análisis del perfil de carga."
+,
+  "MRPAdvanced_title":"Planificación Avanzada"
+,
+  "MRPAdvanced_details":"Añade funcionalidades para una mejor y más afinada gestión de la planificación. Simulaciones ilimitadas y múltiples fuentes de análisis para el MRP, la gestión de múltiples calendarios, la familia de máquinas, las previsiones de ventas. Gestión de Make or Buy. Calendario de Centros de Trabajo y Familias de Centros de Trabajo."
+,
+  "OpenOrders_title":"Pedidos Abiertos"
+,
+  "OpenOrders_details":"Gestión de la planificación mediante el uso de Contratos, Planes de Entrega y Órdenes de Venta y con diferentes niveles de certeza basados en la distancia temporal. Esta información puede integrarse con el algoritmo MRP (requiere Planificación Avanzada) que es capaz de sugerir suministros con base en los Pedidos Abiertos."
+,
+  "ToolsManagement_title":"Gestión de Herramientas"
+,
+  "ToolsManagement_details":"Gestión de las herramientas y máquinas-herramienta utilizadas en la Fabricación, con la posibilidad de agruparlas en familias de herramientas. Integración completa con el proceso de producción, supervisión de tareas y actualización automática de la cantidad o del tiempo operativo real. El módulo gestiona la generación, la sustitución automática y la retirada de las herramientas, y gestiona también sus procesos de revisión y mantenimiento mediante procedimientos específicos."
+,
+  "Framework_title":"Marco"
+,
+  "Framework_details":""
+,
+  "DMS_title":"DMS"
+,
+  "DMS_details":"Módulo que aborda la gestión de los anexos en formato electrónico para cualquier documento del ERP (sistema de gestión documental). Se puede buscar fácilmente un archivo adjunto aplicando filtros específicos, además de poder utilizarlo inmediatamente abriendo el documento de gestión. También es posible adjuntar informes generados por MagoCloud."
+,
+  "JobScheduler_title":"Planificador de Trabajos"
+,
+  "JobScheduler_details":"Automatiza la ejecución de procedimientos, dentro o fuera de MagoCloud, en una fecha y hora establecidas de antemano. Permite definir secuencias de tareas articuladas, compuestas por tareas individuales programables, enumeradas según un orden de ejecución predefinido."
+,
+  "JobSchedulerAdvanced_title":"Programación Avanzada"
+,
+  "JobSchedulerAdvanced_details":"Permite ejecutar tareas de todo tipo (informes, correos electrónicos, etc.) y posibilita la ejecución de secuencias de tareas articuladas, también compuestas por tareas individuales programables, enumeradas según un orden de ejecución predefinido."
+,
+  "Security_title":"Seguridad"
+,
+  "Security_details":"Gestiona los derechos de los usuarios individuales para conectarse a las funciones de la aplicación."
+,
+  "SecurityAdvanced_title":"Perfiles de acceso de seguridad"
+,
+  "SecurityAdvanced_details":"El módulo gestiona los niveles de acceso a las funciones de la aplicación; se pueden atribuir diferentes niveles de acceso a roles o usuarios específicos, con los detalles de las partes visibles y accesibles."
+,
+  "Auditing_title":"Auditoría"
+,
+  "Auditing_details":"Supervisa la actividad de los usuarios en el ERP. Efectúa el seguimiento, en el panel de control de Grafana, de todos los cambios y actualizaciones realizados en documentos, artículos, etc. y comprueba quién los ha realizado."
+,
+  "Visibility_title":"Visibilidad"
+,
+  "Visibility_details":"El módulo gestiona los niveles de acceso a los datos corporativos; se pueden atribuir diferentes niveles de acceso a roles o usuarios específicos. Incluye el servicio de seguridad basado en la semántica."
+,
+  "MyMagoStudio_title":"MyMago Studio"
+,
+  "MyMagoStudio_details":"Personalización de formularios estándar, definición de nuevos formularios, personalización de menús, personalización de informes existentes, definición de nuevos informes."
+,
+  "ExportAndConnectors_title":"Exportaciones y conectores"
+,
+  "DatevConnector_title":"Conector DATEV"
+,
+  "DatevConnector_details":"En la localización alemana está disponible el conector para DATEV, un software de contabilidad muy utilizado por los contables. El conector genera un archivo csv con los datos contables a partir de los documentos de Ventas y Compras y de los asientos contables si se utiliza el módulo Finanzas."
+,
+  "SIITransmission_title":"Suministro Inmediato de Información (SII)"
+,
+  "SIITransmission_details":"El SII es un sistema para informar sobre los impuestos en las facturas de venta y de compra. Es obligatorio en España para las empresas que facturan más de 6 millones de euros."
+,
+  "TicketBAI_title":"TICKETBAI. Sistema de facturación de ventas"
+,
+  "TicketBAI_details":"TicketBai es un sistema relacionado con los impuestos para la información de las facturas de venta que es obligatorio en Gipuzkoa y Álava (País Vasco)."
+,
+  "BATUZ_title":"Libro de registro de operaciones de Batuz & Economic (TicketBai incluido)"
+,
+  "BATUZ_details":"LROE/Batuz es complementario a TicketBai. Es un sistema relacionado con los impuestos para la información de las facturas de compra y venta que es obligatorio en Bizkaia (País Vasco)."
+,
+  "FECGenerator_title":"Generación de archivos FEC"
+,
+  "FECGenerator_details":"En la localización francesa está disponible la generación del fichero FEC, que contiene los datos de todos los asientos contables contabilizados en un periodo seleccionado. Puede requerirse en caso de auditoría fiscal contable."
+,
+  "ZucchettiConnectors_title":"Conectores con productos Zucchetti"
+,
+  "ZucchettiConnectors_details":"MagoCloud permite el intercambio de datos contables y de gestión con varios productos de software de Zucchetti."
+,
+  "Magix_title":"Magix Fisco Azienda"
+,
+  "Magix_details":"Generación de archivos de texto con saldos contables para importar en Magix Fisco Azienda. Esto permite cumplir con varias operaciones fiscales, como la declaración de impuestos UNICO e IRAP, así como el Balance UE con su nota adicional."
+,
+  "Ago_title":"AGO"
+,
+  "Ago_details":"Los datos contables se pueden intercambiar entre MagoCloud y AGO a través del diseño de registros MOVAGO. En concreto, es posible transferir a AGO todos los asientos contables, incluidos los datos maestros de clientes y proveedores, excluidos los datos de planes de pago, mientras que es posible recibir de AGO tablas contables (cuentas, códigos fiscales, motivos contables) y asientos contables puros."
+,
+  "Omnia_title":"OMNIA"
+,
+  "Omnia_details":"Los datos contables se pueden intercambiar entre MagoCloud y OMNIA a través del diseño de registros LEMCO. En concreto, es posible transferir a OMNIA todos los asientos contables, incluidos los datos maestros de clientes y proveedores, así como los datos de los calendarios de pago cerrados, mientras que es posible recibir de AGO tablas contables (cuentas, motivos contables) y asientos contables puros."
+,
+  "OmniaPaghe_title":"OMNIA Paghe / Paghe Web"
+,
+  "OmniaPaghe_details":"El módulo de importación de nóminas permite importar ficheros de OMNIA Paghe y Paghe Web para generar en MagoCloud asientos contables y de contabilidad de costes."
+,
+  "Maestro_title":"Maestro"
+,
+  "Maestro_details":"El conector permite exportar los saldos contables de MagoCloud a Maestro a través de un archivo Excel, generado por un procedimiento de acuerdo con un esquema de reclasificación que mapea las partidas contables de Maestro con las cuentas de MagoCloud."
+,
+  "Tesan_title":"TESAN"
+,
+  "Tesan_details":"El conector TESAN exporta en un archivo de texto los datos de los documentos vinculados a los elementos activados para la gestión de TEssera SANitaria (la tarjeta de identificación italiana para fines sanitarios). El archivo se puede importar en el producto OMNIA Zucchetti y luego enviar a la organización gubernamental de Salud, con base en obligaciones fiscales."
+,
+  "TCPOSConnector_title":"Conector TCPOS"
+,
+  "TCPOSConnector_details":"El conector TCPOS gestiona los flujos de datos de Mago a las cajas registradoras TCPOS y viceversa, permitiendo un control completo de la organización de la tienda, los precios, los surtidos, etc."
+,
+  "EPOSConnector_title":"Conector ePOS"
+,
+  "EPOSConnector_details":"El conector ePOS gestiona los flujos de datos de Mago a las cajas registradoras ePOS y viceversa, permitiendo un control completo de la organización de la tienda, los precios, los surtidos, etc."
+,
+  "Multicompany_title":"Extensión Multicompany"
+,
+  "Multicompany_details":"Dicha Extensión permite abordar aquellos casos caracterizados por empresas \"controladas por\" o \"vinculadas a\" un único sujeto legal (titular de la licencia) mediante una única licencia de MagoCloud y con \"n\" suscripciones activas iguales al número de Empresas que es necesario gestionar. Este tipo de Extensión permitirá, por tanto, gestionar escenarios como las Uniones Temporales de Empresas, las agencias inmobiliarias, etc. Dicha Extensión es imprescindible también cuando se trata de empresas (por ejemplo, empresas de contabilidad) cuya actividad principal es la contabilidad de terceras empresas."
+,
+  "CGM_title":"Gestión de Grupos Corporativos"
+,
+  "CGM_details":"Gestión de entidades fiscales separadas que participan en el mismo negocio, con la compartición de datos como los datos maestros y las configuraciones. Los datos operativos de las distintas entidades se mantienen separados, pero pueden agregarse a nivel de informe. El módulo permite utilizar hasta 3 entidades fiscales distintas, \"controladas\" o \"asociadas\" por parte de una única persona jurídica y licenciataria. Este módulo también permite gestionar las uniones temporales de empresas, las agencias inmobiliarias, etc."
+,
+  "CGMExtension_title":"CGM - Extensión 1 Empresa"
+,
+  "CGMExtension_details":"Añade 1 empresa a las 3 básicas que se pueden gestionar con la Gestión de Grupos Corporativos. Se pueden comprar tantas de estas extensiones como empresas adicionales se tengan que gestionar."
+
+}

@@ -1,0 +1,213 @@
+﻿Server_title;Stammdaten und Allgemeine Funktionen
+Server_details;Grundlegende Stammdaten wie Kunden, Lieferanten, Zahlungsbedingungen, Banken. Definition der Unternehmensdaten, Steuerparameter und Steuerperioden. Konfiguration für Parameter und Basisdienste, die im gesamten Produkt gemeinsam genutzt werden.
+Languages_title;Mehrsprachige Beschreibungen
+Languages_details;Beschreibungen, die in mehreren Sprachen für Artikel, Kontenplan, Zahlungsbedingungen und viele andere Stammdaten verfügbar sind. Mehrsprachige Beschreibungen werden in der Dokumentenbearbeitung und auf Ausdrucken angezeigt.
+Currencies_title;Mehrere Währungen
+Currencies_details;Verwaltung von Fremdwährungen in allen Belegen: Hauptbuchhaltung, Verkäufe, Einkäufe, usw. Automatische Umrechnung von Preislisten oder Preislisten in Fremdwährung. Forderungen und Verbindlichkeiten in Fremdwährung mit automatischer Kursgewinn/-verlustberechnung. Kontenplan mit Fremdwährungssalden. Die Wechselkurse werden manuell verwaltet oder automatisch von der Europäischen Zentralbank oder anderen lokalen Zentralbanken heruntergeladen.
+Contacts_title;Verwaltung von Kontaktdaten
+Contacts_details;Stammdaten von Kontakten und potenziellen Lieferanten Manuelle Aktualisierung für Kunden/Lieferanten oder automatisch bei der Umwandlung von Angeboten in Aufträge.
+Budget_title;Budget (Kunden/Lieferanten)
+Budget_details;Budgetierung der monatlichen Beträge für Kunden und Lieferanten, automatische Erfassung der Ist-Daten aus Belegen. Budget-/Ist-Ausdrucke, Daten können exportiert oder für individuelle Berichte verwendet werden.
+KPIMobileApp_title;KPI-Dashboards mobile Anwendung
+KPIMobileApp_details;"Mobile iOS- und Android-App für den Finanz-, Vertriebs- oder Betriebsleiter. Bietet schnellen Zugriff auf Unternehmensdaten durch einfach zu verwendende KPI-Widgets. Es werden mehrere Standard-KPIs bereitgestellt; individuelle KPIs können mit MyMago Studio erstellt werden."
+Financials_title;Buchhaltung, Verbindlichkeiten und Forderungen
+Financials_details;Verwaltung der Hauptbuchhaltung, Journalbuchungen, Salden, Pro-rata, Mehrwertsteuer für Reisebüros. Vordefinierter Kontenplan nach EU-Standard oder individuell anpassbar auf bis zu 8 Ebenen. Verwaltung von Zahlungsplänen, Rechnungen und Zahlungsaufträgen. Anpassungsfähige Zahlungsarten. SEPA-Lastschriftmandat (SDD) Kontextueller Druck. SDD-Mandate können per E-Mail verschickt werden, um übernommen zu werden. Das Modul ermöglicht es, SDD und SCT (SEPA-Überweisung) in XML-Dateien zu drucken. Import von XML-SEPA-Dateien in den Formaten Camt052 und Camt053 für die täglichen Berichte über Bankkonten. Bankabstimmungsverfahren zwischen importierten Bankauszügen und Buchungseinträgen, mit der Möglichkeit, einen neuen Buchungseintrag aus dem Bankvorgang zu generieren, mit der kontextbezogenen Aktualisierung des Zahlungsplans im Falle von Einzügen oder Zahlungen, sowie mit der Möglichkeit, einen Bankvorgang mit einem bereits gebuchten Buchungseintrag zu verbinden. Abgleich von Prüfberichten zwischen Bankauszügen und Hauptbuchhaltung.
+MultiTaxJournals_title;Anpassbare Steuerjournale
+MultiTaxJournals_details;Zusätzliche Steuerbücher zusätzlich zu den vordefinierten, um die Nummerierungskreise anzupassen und die Steuerausdrucke zu organisieren.
+CustomizedAccountingTemplates_title;Anpassbare Buchhaltungsvorlagen
+CustomizedAccountingTemplates_details;Benutzerdefinierte Buchungsvorlagen zusätzlich zu den Standardvorlagen, Definition von Vorlagen aus bestehenden Buchungen, ggf. mit Beträgen, um wiederkehrende Transaktionen zu automatisieren.
+PurchaseElectronicInvoicing_title;Import elektronischer Rechnungen
+PurchaseElectronicInvoicing_details;"Verwaltung der elektronischen Rechnungsstellung in den empfangenen Dokumenten. Mit diesem Verfahren werden die über den Zucchetti Digital Hub empfangenen elektronischen Rechnungen in das Programm importiert: Der Benutzer kann die Rechnung einsehen und sie sofort oder zu einem späteren Zeitpunkt in der Buchhaltung unter „Empfangene Dokumente"" buchen."
+Plafond_title;Plafond-Management
+Plafond_details;Plafondberechnung nach der festen Plafondmethode. Spezielle Berichte ermöglichen die Überwachung des in der Periode verwendeten Plafondbetrags, es ist möglich, die Werte nach Beleg sowie die verwendeten Beträge nach Kunde/Lieferant aufzuschlüsseln, mit der Berechnung des verfügbaren Restsaldos in Übereinstimmung mit den gebuchten Absichtserklärungen. Verwaltung der abgegebenen und eingegangenen Absichtserklärungen, mit Verfahren zum Drucken von Briefen und Stornierungen und zur Erstellung von Dateien für die Mitteilung der abgegebenen Absichtserklärungen, die an die Steuerbehörde gesendet werden.
+AccrualsDeferrals_title;Automatische Rechnungsabgrenzung
+AccrualsDeferrals_details;Berechnung der zugehörigen Beträge für jedes Geschäftsjahr bei der Buchung der Buchhaltungsbelege. Automatische Buchung von Korrekturbuchungen und Saldenübertragungen. Verwaltung der mehrjährigen Abgrenzungen. Monatliche Verwaltung der Rechnungsabgrenzungsposten durch die Buchung in der Vorschaurechnung.
+Payees_title;Honorare und Quellensteuer
+Payees_details;Verbuchung der Honorare aus den eingegangenen Buchungsbelegen und Erstellung der zu zahlenden Beträge abzüglich der Quellensteuer. Buchung von Anzahlungen, die mit einem später erhaltenen Buchhaltungsbeleg verknüpft werden. Automatische Buchung der Quellensteuer bei Zahlungen. Erstellung und Druck einer eindeutigen Bescheinigung. Enasarco-Steuerverwaltung.
+Cash_title;Kassenführung
+Cash_details;Modul für die Verwaltung aller Ein- und Auszahlungen von Geldbeträgen. Kassensitzungen für einen Benutzer. Verknüpfung mit Forderungen und Verbindlichkeiten sowie mit der Hauptbuchhaltung. Verwaltung von Barmitteln in Fremdwährung.
+Dunnings_title;Mahnschreiben
+Dunnings_details;Verwaltung von mehreren Mahnstufen, jede mit einem eigenen Text. Ein Verfahren ermöglicht das Drucken und Versenden von Mahnungen mit fälligen Beträgen per E-Mail in der Sprache des Kunden, mit automatischer Aktualisierung der Daten der letzten gesendeten Mahnung in den Kundenstammdaten. Der Text des Mahnschreibens und der E-Mail ist vom Benutzer anpassbar.
+AP_AR_Analysis_title;Analyse der Zahlungsfristen und des Cashflows
+AP_AR_Analysis_details;Spezielle Berichte ermöglichen die Analyse der überfälligen oder fällig werdenden Beträge von Forderungen und Verbindlichkeiten in Übereinstimmung mit den vom Benutzer anpassbaren Fälligkeitszeiträumen. Das Cash Flow-Management überwacht die Ein- und Ausgänge entsprechend den gebuchten oder zu buchenden Einnahmen und Zahlungen.
+AP_AR_Plus_title;Erweitertes AP/AR-Management
+AP_AR_Plus_details;Anpassbare Rechnungsverwaltung, Inkassobelege, Factoring-Management und automatische Verwaltung von Außenständen.
+BalanceAnalysis_title;Bilanzanalyse und Umgliederungen
+BalanceAnalysis_details;Umgliederungsschemata, vordefiniert und anpassbar, verschiedene Aggregationsfunktionen sind für die Salden verfügbar. Die Umgliederungen wirken sich entweder auf die regulären Buchhaltungssalden oder auf die Prognose- und Kostenkontrollsalden aus.
+XBRL_title;XBRL-Bilanz
+XBRL_details;Ermöglicht die Erstellung einer elektronischen Bilanz, die mit XBRL-Taxonomien verarbeitet werden kann. Zu verwendende XBRL-Taxonomien werden automatisch über das Internet aktualisiert
+AccountingBooks_title;Buchhaltungsbücher und Bilanzanhänge
+AccountingBooks_details;Das Modul umfasst den Ausdruck aller Aufstellungen, die das Bestandsbuch der Buchhaltung bilden, einschließlich der Anhänge, und die Verwaltung der auszustellenden/empfangenen Dokumente.
+Basel_II_title;Bilanzanalyse (Basel II)
+Basel_II_details;Dieses Modul ist auf Excel aufgebaut. Auf der Grundlage der Bilanzdaten des Unternehmens, der Kennzahlenanalyse und des Cashflows kann das Modul schnell eine vollständige Bewertung der finanziellen und wirtschaftlichen Leistung des Unternehmens vornehmen. Darüber hinaus ermöglicht das Modul die Erstellung kundenspezifischer reklassifizierter Salden auf der Grundlage erweiterter Funktionen, die in Reklassifizierungsschemata verfügbar sind.
+FixedAssets_title;Anlagevermögen
+FixedAssets_details;Verwaltung des Anlagevermögens, bis zu drei unabhängige Abschreibungsregelungen. Abschreibungssimulationen für einzelne Anlagen und Anlagenjournal. Buchungen des Anlagevermögens von und zur Buchhaltung, Ausdrucke, die für den Bilanzvermerk erforderlich sind.
+ForecastAccounting_title;Prognose
+ForecastAccounting_details;Verwaltung der Prognosebuchhaltung in der Hauptbuchhaltung und Analyse & Controlling, Generierung von Ist-Buchungen aus Prognosebuchungen, Analyse des Prognosesaldos.
+MultiCompanyBalances_title;Konzernbilanz
+MultiCompanyBalances_details;Verwaltung von Vorlagen für mehrere Unternehmen, Austausch von Buchhaltungsdaten zwischen Unternehmen und kontrollierenden Unternehmen, Mehrfirmenbilanz und umgegliederte Bilanz.
+CostAccounting_title;Analyse und Controlling
+CostAccounting_details;Kosten- und Einkommensverteilung für Kostenstellen und Aufträge. Getrennte Buchung von Budget und Istwerten. Die Buchung der Ist-Werte ist vollständig in die Module Finanzen, Inventar, Verkauf, Einkauf und Abschreibung integriert. Monats- und Geschäftsjahresanalysen, Abweichungen zwischen Budget- und Ist-Salden als volle Werte und Prozentsätze.
+ProductLines_title;Produktlinien
+ProductLines_details;Fügt der Kostenrechnungsanalyse ein Buchungs- und Aggregationskriterium (Produktlinie) hinzu, das in allen Belegen, Transaktionen und Ausdrucken verwendet werden kann.
+CostAccountingTransfer_title;Übertragungen
+CostAccountingTransfer_details;Automatische Übertragungen von Kostenstellen auf Kostenstellen und/oder Aufträge/Produktlinien über anpassbare Vorlagen.
+Intrastat_title;Intrastat
+Intrastat_details;Intrastat-Verwaltung, automatische Generierung von Einträgen aus Verkaufs- und Einkaufsbelegen, Artikel der Kombinierten Nomenklatur, Intrastat-Listen auf Datei und auf Papier.
+SalePurchaseDocuments_title;Allgemeine Dokumentenfunktionen
+SalePurchaseDocuments_details;Allgemeine Verwaltungsfunktionen für alle Verkaufs- und Einkaufsbelege.
+Sales_title;Vertrieb
+Sales_details;Direkt- und Versandrechnungen, Lieferscheine, Gutschriften und Quittungen. Vorauszahlungsrechnungen, Proforma-Rechnungen und Rücksendungen. Direktfakturierung und sofortige oder verzögerte Rechnungsstellung, Datengenerierung für Transportkarte, Artikelstammdatenverwaltung, Verkaufsstatistik. Mehrere Verkaufs- und Kauf-Barcodes, gleichwertige Artikel, Hersteller-/Produktkategorien, Dokumentenkopie, Artikelimport/-export und Anmerkungen. Elektronische Rechnungsstellung, übermittelt durch Zucchetti DigitalHub.
+AdvancedItemsManagement_title;Erweiterte Artikelverwaltung
+AdvancedItemsManagement_details;Preisrichtlinien, Gebührenrichtlinien, Smart Code, mehrere UoM pro Artikel, zusätzliche Mengen.
+MultiStubBooks_title;Mehrere Rumpfbücher
+MultiStubBooks_details;Zusätzliche Rumpfbücher zu den vordefinierten, um die Nummerierungskriterien für Lieferdokumente anzupassen und Ausdrucke zu organisieren.
+PickingList_title;Kommissionierliste
+PickingList_details;Vorbereiten der Lieferung von einem oder mehreren Verkaufsaufträgen, ganz oder teilweise. Automatische Generierung von Lieferscheinen auf der Grundlage verschiedener Kriterien (Kunde, Lager, etc.).
+SaleOrders_title;Verkaufsaufträge
+SaleOrders_details;Verwaltung von Kundenaufträgen, Zeitplänen, Statistiken über Einkaufs- und Verkaufsvolumen, Verwaltung von Artikelstammdaten, Statistiken.
+CustomerQuotations_title;Kundenangebote
+CustomerQuotations_details;Angebotsdokument des Kunden mit allen Daten, die für den anschließenden Verkaufsauftrag und die Lieferung benötigt werden. Kann an einen Kunden oder einen Ansprechpartner gerichtet werden. Kann in einen Verkaufsauftrag importiert werden, auch teilweise. Ausdrucke und Statistiken über Angebote.
+Conai_title;Conai
+Conai_details;CONAI-Beitragsverwaltung für Verpackungshersteller und -importeure, Beitragsberechnung, automatische Zuordnung zu Produkten, Abrechnungen. Ausnahmeregelungen für Kunden/Materialien.
+WEEE_title;EAG
+WEEE_details;EAG-Management durch Deckungsbeitrag nach Kategorie und Artikel, automatische Berechnung in den Verkaufsbelegen, Checklisten.
+SalesPeople_title;Vertriebsmanagement
+SalesPeople_details;Verwaltung von Vertretern und Gebietsleitern, Provisionsrichtlinie, Provisionsberechnungen, Provisionsbuchungen, Abgrenzungen, Zahlungen, Überweisung von unbezahlten Provisionen, Vertreterstatistiken.
+CreditLimit_title;Verwaltung des Kreditlimits
+CreditLimit_details;Verwaltung des Kreditlimits, Sperrung/Warnung bei Überschreitung des Kreditlimits, Anpassung des Kreditlimits des Kunden, Implementierung der Kreditlimitrichtlinie in allen aktiven Zyklusdokumenten (beginnend mit Bestellungen).
+eCommerce_title;E-Commerce
+eCommerce_details;Verwaltung des Online-Shops mit der E-Commerce-Engine Konakart, einem Produkt von Zucchetti. Produktdefinition mit Kurz- und ausführlichen Beschreibungen, HTML-Textunterstützung, Fotogalerie, Kategoriegruppierung mit hierarchischer Struktur, Sortimente, Preise und Produktverfügbarkeit speziell für den Online-Shop.
+StoreManagement_title;Filial-Management
+StoreManagement_details;Verwaltung von Einzelhandelsgeschäften dank der Integration mit dem POS-System von TCPOS oder Tap&Till. Zentralisierte Datenverwaltung direkt von Mago als Backend. Die von den Kassen generierten Belege und Verkaufsdokumente gehen direkt in Mago ein und können in das Inventar- und Buchhaltungssystem eingegeben werden.
+StoreVariants_title;Variationen / Größe und Farben
+StoreVariants_details;Dank der Retail-Varianten und der Eltern-Kind-Verwaltung ist es möglich, nicht nur die Größen und Farben, sondern auch viele andere Artikelvarianten zu verwalten.
+FoodRecipe_title;Rezepte
+FoodRecipe_details;Vollständige Verwaltung von Rezepten, Zutatenlisten und Zubereitungsdetails. Festgelegte oder proportionale Zutatenmengen, Entnahme der für das fertige Gericht verwendeten Zutaten aus dem Inventar, Allergene und Nährwertangaben, die auf Etiketten für die Verpackungen oder für die Auslage im Laden ausgedruckt werden.
+Vouchers_title;Gutscheine
+Vouchers_details;Vollständige Verwaltung von Gutscheinen, wie z. B. Prepaid-Karten, Essensgutscheinen oder Geschenkkarten (derzeit nicht für Italien verfügbar).
+InStore_title;Backend im Ladengeschäft
+InStore_details;Verwaltung der Bestandskontrolle, des Inventars, des Wareneingangs, der Nachbestellung und der Übertragungsanforderung für die Filiale über Wi-Fi Rfid-Handheld-Geräte, auf denen eine spezielle App installiert ist.
+InStoreApp_title;Filial-App
+InStoreApp_details;Android-Anwendung für das Personal in der Filiale, um mobil alle gängigen Produktverwaltungsvorgänge auszuführen: Bestandskontrolle, Nachbestellung, Übertragungsanträge usw. Verbindet sich mit MagoCloud über eine Internetverbindung.
+InfinityConnector_title;CRM
+InfinityConnector_details;Ermöglicht den Zugriff auf die Funktionalitäten des mit MagoCloud verbundenen Infinity CRM. Jeder aktivierte CRM-Benutzer hat Zugang zu den allgemeinen Funktionen für die Zusammenarbeit: Kalender, E-Mail und Agenda.
+CRMUserSales_title;Vertriebs-CRM-Benutzer
+CRMUserSales_details;Zusätzlich zu den allgemeinen Funktionen hat er Zugang zu: Opportunities, Deals, Angebote und CRM-Aufträge.
+CRMUserMarketing_title;Marketing-CRM-Benutzer
+CRMUserMarketing_details;Zusätzlich zu den allgemeinen Funktionen hat er Zugang zu: Kontakte, Verkaufskampagnen, Fragebögen, Marketing-Aktionen (Telemarketing, Vorschläge, geplante Termine usw.).
+CRMUserFull_title;Vollständiger CRM-Benutzer
+CRMUserFull_details;Kombination der Möglichkeiten der Vertriebs-CRM-Benutzer und der Marketing-CRM-Benutzer.
+Purchases_title;Einkauf
+Purchases_details;Verwaltung der Lagerbestände, Kontrolle der Lieferantenlieferungen, Lagerbuchungen, Einkaufsdetails, Einkaufsrechnungen, Gutschriften und Belastungsanzeigen, Artikelstammdaten, Einkaufsstatistiken. Gleichwertige Artikel, Hersteller-/Produktkategorien, Dokumentenkopie, Artikelimport/-export und Anmerkungen. Automatische Erstellung von Rücksendungen an Lieferanten aus Frachtbriefen.
+AdditionalCharges_title;Zusätzliche Gebühren
+AdditionalCharges_details;Verteilungsvorlagen für Zusatzkosten (kundenspezifische Gebühren, Transportkosten usw.), manuelle oder automatische Zuordnung von Artikeln und Kategorien zu Vorlagen, Dokument für Zusatzkosten, Inventarwertberichtigungsbuchungen für Zusatzkosten.
+PurchaseElectronicInvoicingAdv_title;Import von elektronischen Rechnungen
+PurchaseElectronicInvoicingAdv_details;Das Modul ermöglicht den Import elektronischer Lieferantendokumente, indem es sie in Mago4 wie Dokumente im Einkaufsmodul registriert und den Abgleich mit den Frachtbriefen oder Bestellungen im ERP ermöglicht.
+PurchaseOrders_title;Bestellungen
+PurchaseOrders_details;Verwaltung von Bestellungen, Terminen und Mahnungen, Einkaufsstatistiken, Artikelstammdaten, Bestellungsstatistiken.
+SupplierQuotations_title;Angebote von Lieferanten
+SupplierQuotations_details;Angebotsanfrage an den Lieferanten mit allen Daten, die für die anschließende Bestellung und den Wareneingang benötigt werden. Kann an einen bekannten Lieferanten oder einen potenziellen Lieferanten gerichtet werden. Kann in eine Bestellung importiert werden, auch teilweise. Ausdrucke und Statistiken über Angebotsanfragen. Zeitpläne und Mahnungen.
+QualityInspection_title;Qualitätskontrollen
+QualityInspection_details;Qualitätskontrollmanagement durch Lastaufnahme bei der Prüfung, durch Prüfauftragserstellung. Überwachung der Nichtkonformität durch Qualitätskontrollblatt und damit verbundene Aufzeichnung der Handhabung. Automatische Generierung von Rückgaben an den Lieferanten.
+Inventory_title;Bestandsverwaltung
+Inventory_details;Verwaltung von Artikelstammdaten und Bestandsführung, Steuererweiterung, LIFO/FIFO, ABC, mehrere Rumpfbücher, technische Hinweise. Bestandsstatistiken. Beschleunigung der Zugangs- und Entnahmevorgänge durch Identifizierung der Artikel und möglicher zugehöriger Informationen durch Lesen der verschiedenen Arten von Barcodes in einem separaten Fenster, das vereinfacht und an die verschiedenen Verkaufs-, Einkaufs- und Inventurbelege angepasst ist. Erstellung und Lesen von Barcodes, die in mehreren Segmenten strukturiert sind und daher mit einem einzigen Scan mehr Informationen übermitteln können, Interpretation von Barcodes des Typs GTIN (GS1-128). Dateierstellung, um Daten an den Steuerdruck zu senden.
+MultiStorage_title;Mehrere Lager
+MultiStorage_details;Unbegrenzte Anzahl von Lagern, mit detaillierten Mengenangaben für Verfügbarkeit, Bestand, Zugang, Abgang, etc. Umlagerungen zwischen Lagern, Bewertung pro Lager.
+SingleStepLifoFifo_title;Einstufiger LIFO/FIFO
+SingleStepLifoFifo_details;Verfolgung der Inventarwerte pro Einkaufscharge, Entnahmewerte berechnet nach LIFO- oder FIFO-Ansatz. Korrektur immer möglich, mit Rekonstruktion von Werten oder Wertberichtigungseinträgen.
+InventoryAdjustment_title;Erweiterte Inventurzählungen
+InventoryAdjustment_details;Strukturierung des Inventurprozesses, Mehrfachzählungen, permanenter Inventurbeleg, Import der Inventur aus dem Handy.
+LotsSerials_title;Lose und Seriennummern
+LotsSerials_details;Verwaltung von Losen, automatische Nummerierung von Losen, automatische Vorschläge für die Entnahme, Handling von Losen auch für die Einlagerung, automatische Seriennummern, Auflösung von Seriennummern bei der Entnahme.
+Deposit_title;Lagermanagement
+Deposit_details;Ermöglicht die Verwaltung der Lager.
+WMSBasic_title;WMS
+WMSBasic_details;Verwaltung des Lagerlayouts, Barcode-Scanner, Versandvorbereitung/Kommissionierung, Definition des optimalen Weges, periodische Inventuren. Erweitertes Management von Sendungen über externe Logistikdienstleister oder Logistiksysteme von Dritten, auch mit Integration über EDI-Systeme. Einzelplatzstruktur mit bis zu 4 Koordinatenebenen.
+WMSAdvanced_title;Erweiteres WMS
+WMSAdvanced_details;Verwaltung von Lagereinheiten, Gewichts- und Kapazitätsverwaltung, optimale Lagerungs- und Kommissionierungsstrategien, automatische Identifizierung und RFID, Qualitätskontrolle bei der Annahme (Qualitätskontrollfunktion erforderlich), geführter Nachschub mit Bestandsanalyse, laufende und rotierende Inventuren. Mehrere Bin-Strukturen, mehr als 4 Koordinatenebenen werden unterstützt.
+WMSMobile_title;Mobiles WMS-Backend
+WMSMobile_details;Verwaltung der Eingänge und Entnahmen, der Einlagerung, der Kommissionierung und der Inventur über Wi-Fi-Handheld-Geräte mit Hilfe einer darauf installierten spezifischen App.
+WMSMobileApp_title;Mobile WMS-App
+WMSMobileApp_details;Android-Anwendung für das Lagerpersonal zur mobilen Ausführung aller gängigen Lagerverwaltungsvorgänge: Bestandsvisualisierung, Echtzeit-Anpassung der Mengen, Lieferung, Wareneingang, Warenumlagerung, Inventurzählung, Ein- und Auspacken von Waren, Kommissionierung und Einlagerung, Ausdruck von Barcode-Etiketten. Verbindet sich mit MagoCloud über eine Internetverbindung und unterstützt einige Offline-Vorgänge.
+BillOfMaterials_title;Stückliste
+BillOfMaterials_details;Produktzusammensetzung und Verwaltung der damit verbundenen Kosten. Unbegrenzte Ebenen. Verwaltung des Handlings von Rohstoffen und Fertigerzeugnissen im Lager. Explosion und Implosion der Stückliste.
+ECO_title;Technischer Änderungsauftrag
+ECO_details;Verfahren zur Änderung der technischen Merkmale von Produkten (Stücklisten), Dokument für Änderungsvorschläge, Änderungsbestätigung, Revisionsindex.
+Variants_title;Varianten
+Variants_details;Verwaltung von Produktvarianten. Möglichkeit zur Definition neuer Produkte durch Änderung der Stückliste und der Bearbeitungszyklen der vorhandenen Produkte.
+Configurator_title;Konfigurator
+Configurator_details;Verwaltung des Produktkonfigurators für den Verkauf. Durch die Verwaltung von Varianten ist es möglich, die vom Kunden gewünschte Produktkonfiguration interaktiv zusammenzustellen.
+ManufacturingBasic_title;Fertigung
+ManufacturingBasic_details;Verwaltung von Fertigungsunterlagen und betriebliche Entwicklung. Fortschritt, Materialerfassung, Verwaltung der Endabrechnung. Automatische Erstellung von Dokumenten, Verwaltung von Vertragspartnern, Speicherung von Fertigungskonten.
+ManufacturingMobile_title;Mobiles Fertigungs-Backend
+ManufacturingMobile_details;Verwaltung von Fertigungsabläufen über Wi-Fi Rfid-Geräte: Rückmeldung von Fertigungsaufträgen über Handhelds, Nachbestellung von Produktionsaufträgen über Mobiltelefone für Kanban, etc. Für jedes Gerät muss die spezifische mobile App installiert werden.
+ManufacturingMobileApp_title;Mobile App für die Fertigung
+ManufacturingMobileApp_details;Android-Anwendung für das Lagerpersonal zur mobilen Ausführung aller gängigen Fertigungsvorgänge: Fertigungsbestätigung, Nachbestellung für Kanban, etc. Verbindet sich mit MagoCloud über eine Internetverbindung und unterstützt einige Offline-Vorgänge.
+ManufacturingAdvanced_title;Erweiterte Fertigung
+ManufacturingAdvanced_details;Zyklen und Verwaltung der produktiven Ressourcen (cdl und cdl-Familien), mehrere Bearbeitungsschritte pro Auftrag, Alternativen. Vorlaufschritte (auch teilweise), Auftragskosten und Rentabilität. Control Panel, Fertigungsauftrags-Bestätigungsdetails, Vergleich Liste/Fertigungsauftrag und Analyse von Materialien in der Produktion
+BillOfMaterialsPlus_title;Zeichnungen, Historie und Versionierung
+BillOfMaterialsPlus_details;Stammdaten der technischen Zeichnungen für Artikel und Stücklisten. Code der technischen Spezifikation und Versionsnummer mit Revisionsindex. Historische Änderungen werden gespeichert und sind leicht abrufbar.
+Kanban_title;Kanban
+Kanban_details;Fertigungsprozesse mit Kanban-Ansatz, Reduzierung und Vereinfachung des Prozessmanagements. Vereinfachen der Nachbestellung von Produkten, indem ein visueller Ansatz für einen reibungsloseren, aber dennoch integrierten Prozess eingeführt wird.
+ManufacturingPlanning_title;Planung
+ManufacturingPlanning_details;Verwaltung der Planung der Produktionsaktivitäten durch MRP II und CRP in unbegrenzter Kapazität. Analyse von Produktionsaufträgen über GANTT-Diagramme. Histogramme der Belastungsprofilanalyse.
+MRPAdvanced_title;Erweiterte Planung
+MRPAdvanced_details;Erweitert die Funktionalität für ein besseres und verfeinertes Planungsmanagement. Unbegrenzte Simulationen und mehrere Analysequellen für MRP, Multi-Calendar-Management, Maschinenfamilie, Verkaufsprognosen. Make or Buy-Management. Arbeitsplatz-Kalender und Arbeitsplatz-Familien.
+OpenOrders_title;Offene Aufträge
+OpenOrders_details;Planungsmanagement mit Hilfe von Verträgen, Lieferplänen und Kundenaufträgen und mit verschiedenen Sicherheitsstufen auf der Grundlage der zeitlichen Entfernung. Diese Informationen können in den Dispositionsalgorithmus integriert werden (erfordert die Erweiterte Planung), der in der Lage ist, Lieferungen auf der Grundlage offener Aufträge vorzuschlagen.
+ToolsManagement_title;Tools-Management
+ToolsManagement_details;Verwaltung der in der Fertigung verwendeten Werkzeuge und Werkzeugmaschinen, mit der Möglichkeit, diese in Werkzeugfamilien zu gruppieren. Vollständige Integration in den Produktionsprozess, Aufgabenüberwachung und automatische Aktualisierung der Menge oder der tatsächlichen Betriebszeit. Das Modul verwaltet die Erzeugung, den automatischen Austausch und das Auslaufen von Werkzeugen und steuert auch deren Überprüfungs- und Wartungsprozesse durch spezifische Verfahren.
+Framework_title;Framework
+Framework_details;
+DMS_title;DMS
+DMS_details;Modul zur Verwaltung der Anhänge in elektronischer Form zu jedem ERP-Dokument (Dokumentenmanagementsystem). Ein Anhang kann durch Anwendung spezifischer Filter leicht durchsucht werden und ist durch Öffnen des Verwaltungsdokuments sofort verwendbar. Es ist auch möglich, von MagoCloud erstellte Berichte anzuhängen.
+JobScheduler_title;Job Scheduler
+JobScheduler_details;Automatisieren der Ausführung von Verfahren, innerhalb oder außerhalb von MagoCloud, zu einem im Voraus festgelegten Datum und Zeitpunkt. Ermöglicht die Definition von gegliederten Aufgabensequenzen, die aus einzelnen planbaren Aufgaben bestehen, die in der Reihenfolge der Vorabausführung aufgeführt sind.
+JobSchedulerAdvanced_title;Advanced Scheduling
+JobSchedulerAdvanced_details;Erlaubt die Ausführung von Aufgaben aller Art (Berichte, E-Mails usw.) und ermöglicht die Ausführung von gegliederten Aufgabensequenzen, die auch aus einzelnen planbaren Aufgaben bestehen, die nach einer vordefinierten Reihenfolge der Ausführung aufgelistet werden.
+Security_title;Sicherheit
+Security_details;Verwaltet die Rechte der einzelnen Benutzer, sich mit den Anwendungsfunktionen zu verbinden
+SecurityAdvanced_title;Zugriffssicherheitsprofile
+SecurityAdvanced_details;"Das Modul verwaltet die Zugriffsebenen auf die Anwendungsfunktionen; verschiedene Zugriffsebenen können bestimmten Rollen oder Benutzern zugeordnet werden, mit den Details der sichtbaren und zugänglichen Teile."
+Auditing_title;Auditing
+Auditing_details;Überwachen der Benutzeraktivitäten in Ihrem ERP. Verfolgen Sie in Ihrem Grafana-Dashboard alle Änderungen und Aktualisierungen an Dokumenten, Artikeln usw. und prüfen Sie, wer sie vorgenommen hat.
+Visibility_title;Sichtbarkeit
+Visibility_details;"Das Modul verwaltet die Zugriffsebenen auf die Unternehmensdaten; verschiedene Zugriffsebenen können bestimmten Rollen oder Benutzern zugewiesen werden. Umfasst den Sicherheitsdienst auf der Grundlage der Semantik."
+MyMagoStudio_title;MyMago Studio
+MyMagoStudio_details;Anpassung von Standardformularen, Definition neuer Formulare, Anpassung von Menüs, Anpassung bestehender Berichte, Definition neuer Berichte.
+ExportAndConnectors_title;Exporte und Verbindungen
+DatevConnector_title;DATEV-Verbindung
+DatevConnector_details;In der deutschen Lokalisierung ist die Verbindung für DATEV verfügbar, eine Buchhaltungssoftware, die hauptsächlich von Buchhaltern verwendet wird. Die Verbindung generiert eine csv-Datei mit Buchhaltungsdaten aus Verkaufs- und Einkaufsbelegen und aus Buchungseinträgen, wenn das Finanzmodul verwendet wird.
+SIITransmission_title;Information Immediate Supply (SII)
+SIITransmission_details;SII ist ein System zur Meldung von Steuerinformationen auf Verkaufs- und Einkaufsrechnungen. In Spanien ist es für Unternehmen mit einem Umsatz von mehr als 6 Millionen Euro obligatorisch.
+TicketBAI_title;TICKETBAI. Berichtssystem für Verkaufsrechnungen
+TicketBAI_details;TicketBai ist ein Steuermeldesystem für Verkaufsrechnungen, das in Gipuzkoa und Alava (Baskenland) obligatorisch ist.
+BATUZ_title;Batuz & Economic Operations Record Book (inklusive TicketBai)
+BATUZ_details;LROE/Batuz ist eine Ergänzung zu TicketBai. Es handelt sich um ein in Bizkaia (Baskenland) obligatorisches Steuermeldesystem für Informationen aus Verkaufs- und Einkaufsrechnungen.
+FECGenerator_title;Erzeugung von FEC-Dateien
+FECGenerator_details;In der französischen Lokalisierung ist die Generierung einer FEC-Datei verfügbar, die die Daten aller in einer ausgewählten Periode gebuchten Buchungen enthält. Sie kann im Rahmen der steuerlichen Rechnungsprüfung erforderlich sein.
+ZucchettiConnectors_title;Verbindungen mit Zucchetti-Produkten
+ZucchettiConnectors_details;MagoCloud unterstützt den Austausch von Buchhaltungs- und Verwaltungsdaten mit verschiedenen Softwareprodukten von Zucchetti.
+Magix_title;Magix Fisco Azienda
+Magix_details;Erstellung einer Textdatei mit den Buchhaltungssalden, die in Magix Fisco Azienda importiert werden können. Dies ermöglicht es, mehrere steuerliche Operationen, wie UNICO- und IRAP-Steuererklärung, sowie die EU-Bilanz mit zusätzlichem Hinweis zu erfüllen.
+Ago_title;AGO
+Ago_details;Buchhaltungsdaten können zwischen MagoCloud und AGO über das MOVAGO-Datensatzlayout ausgetauscht werden. Im Einzelnen ist es möglich, an AGO alle Buchungen zu übertragen, einschließlich der Kunden- und Lieferantenstammdaten, mit Ausnahme der Zahlungsverkehrsdaten, während es möglich ist, von AGO-Buchhaltungstabellen (Konten, Steuerkennzeichen, Buchungsgründe) und reine Buchungen zu erhalten.
+Omnia_title;OMNIA
+Omnia_details;Buchhaltungsdaten können zwischen MagoCloud und OMNIA über das LEMCO-Datensatzlayout ausgetauscht werden. Im Detail ist es möglich, alle Buchungen, inklusive Kunden- und Lieferantenstammdaten, sowie abgeschlossene Zahlungspläne an OMNIA zu übertragen, während es möglich ist, von AGO Buchhaltungstabellen (Konten, Buchungsgründe) und reine Buchungen zu erhalten.
+OmniaPaghe_title;OMNIA Paghe / Paghe Web
+OmniaPaghe_details;Das Payroll-Importmodul ermöglicht es, Dateien aus OMNIA Paghe und Paghe Web zu importieren, um in MagoCloud Buchungen und Kostenrechnungen zu erstellen.
+Maestro_title;Maestro
+Maestro_details;Die Verbindung ermöglicht den Export von Buchhaltungssalden aus MagoCloud nach Maestro über eine Excel-Datei, die durch ein Verfahren in Übereinstimmung mit einem Reklassifizierungsschema erzeugt wird, das Maestro-Buchhaltungsposten mit MagoCloud-Konten abbildet.
+Tesan_title;TESAN
+Tesan_details;Die TESAN-Verbindung exportiert in einer Textdatei Dokumentdaten, die mit den für die TEssera SANitaria-Verwaltung aktivierten Elementen verknüpft sind (italienische ID des öffentlichen Gesundheitswesens). Die Datei kann in das Produkt OMNIA Zucchetti importiert werden und dann an die staatliche Gesundheitseinrichtung geschickt werden, die für die steuerlichen Verpflichtungen zuständig ist.
+TCPOSConnector_title;TCPOS-Verbindung
+TCPOSConnector_details;Die TCPOS-Verbindung verwaltet den Datenfluss von Mago zu den TCPOS-Kassen und umgekehrt und ermöglicht so eine vollständige Kontrolle der Filialorganisation, der Preise, des Sortiments usw.
+EPOSConnector_title;ePOS-Verbindung
+EPOSConnector_details;Die ePOS-Verbindung verwaltet den Datenfluss von Mago zu den ePOS-Kassen und umgekehrt und ermöglicht so eine vollständige Kontrolle der Filialorganisation, der Preise, des Sortiments usw.
+Multicompany_title;Unternehmensübergreifende Erweiterung
+Multicompany_details;Diese Erweiterung ermöglicht es, Unternehmen, die von einer einzigen juristischen Person (dem Lizenzinhaber) kontrolliert werden oder mit ihr verbunden sind, mit einer einzigen MagoCloud-Lizenz und mit aktiven Abonnements, die der Anzahl der zu verwaltenden Unternehmen entsprechen, zu verwalten. Diese Art von Erweiterung ermöglicht daher die Verwaltung von Szenarien wie zeitlich begrenzte Unternehmensvereinigungen, Immobilienagenturen usw. Eine solche Erweiterung ist auch für Unternehmen (z. B. Wirtschaftsprüfungsgesellschaften) wichtig, deren Kerngeschäft die Buchführung von Drittunternehmen ist.
+CGM_title;Konzernmanagement
+CGM_details;Verwaltung getrennter Steuerpflichtiger, die an demselben Geschäft beteiligt sind, mit gemeinsamer Nutzung von Daten wie Stammdaten und Einstellungen. Die Betriebsdaten der verschiedenen Einheiten werden getrennt gehalten, können aber auf der Berichtsebene aggregiert werden. Das Modul ermöglicht die Verwendung von bis zu 3 separaten Steuerpflichtigen, die von einer einzigen juristischen Person und einem Lizenznehmer kontrolliert oder verbunden werden. Dieses Modul ermöglicht auch die Verwaltung von temporären Unternehmensverbänden, Immobilien usw.
+CGMExtension_title;CGM - Erweiterung 1 Unternehmen
+CGMExtension_details;Fügt 1 Unternehmen zu den grundlegenden 3 hinzu, die mit dem Konzernmanagement verwaltet werden können. Sie können so viele dieser Erweiterungen erwerben, wie Sie zusätzliche Unternehmen verwalten möchten.
