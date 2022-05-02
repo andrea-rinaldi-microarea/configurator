@@ -425,6 +425,18 @@
 ,
   "CGMExtension_title":"CGM - Extensión 1 Empresa"
 ,
-  "CGMExtension_details":"Añade 1 empresa a las 3 básicas que se pueden gestionar con la Gestión de Grupos Corporativos. Se pueden comprar tantas de estas extensiones como empresas adicionales se tengan que gestionar."
+  "CGMExtension_details":"Añade 1 empresa a las 3 básicas que se pueden gestionar con la Gestión de Grupos Corporativos. Se pueden comprar tantas de estas extensiones como empresas adicionales se tengan que gestionar.",
+  
+  "Feature":"Característica",
+  "Legend": "Leyenda",
+  "not included": "no incluido",
+  "included": "incluido",
+  "optional": "opcional",
+  "per number of users": "por número de usuarios",
+  "Pay Per Transactions": "Pago por transacciones",
+  "Available in some countries only": "Disponible sólo en algunos países",
+  "Available in": "Disponible en",
+  "Not available in": "No disponible en",
+  "This feature is planned but not yet available": "Esta función está prevista pero aún no está disponible"
 
 }

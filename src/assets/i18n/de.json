@@ -425,6 +425,18 @@
 ,
   "CGMExtension_title":"CGM - Erweiterung 1 Unternehmen"
 ,
-  "CGMExtension_details":"Fügt 1 Unternehmen zu den grundlegenden 3 hinzu, die mit dem Konzernmanagement verwaltet werden können. Sie können so viele dieser Erweiterungen erwerben, wie Sie zusätzliche Unternehmen verwalten möchten."
+  "CGMExtension_details":"Fügt 1 Unternehmen zu den grundlegenden 3 hinzu, die mit dem Konzernmanagement verwaltet werden können. Sie können so viele dieser Erweiterungen erwerben, wie Sie zusätzliche Unternehmen verwalten möchten.",
+
+  "Feature":"Merkmal",
+  "Legend": "Beschriftung",
+  "not included": "nicht enthalten",
+  "included": "enthalten",
+  "optional": "optional",
+  "per number of users": "pro Anzahl der Benutzer",
+  "Pay Per Transactions": "pro Transaktion bezahlen",
+  "Available in some countries only": "Nur in einigen Ländern verfügbar",
+  "Available in": "Verfügbar in",
+  "Not available in": "Nicht verfügbar in",
+  "This feature is planned but not yet available": "Diese Funktion ist geplant, aber noch nicht verfügbar"
 
 }
