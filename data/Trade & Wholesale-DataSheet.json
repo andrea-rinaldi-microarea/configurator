@@ -796,35 +796,8 @@
       ]
     },
     {
-      "Topic": "SIIConnector",
-      "Order": "02.9.2",
-      "Level": 3,
-      "Title": "SIIConnector_title",
-      "Details": "SIIConnector_details",
-      "NotYetAvailable": false,
-      "allowISO": "ES",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": "always"
-        },
-        {
-          "edition": "PRO",
-          "availability": "always"
-        },
-        {
-          "edition": "ENT",
-          "availability": "always"
-        }
-      ]
-    },
-    {
       "Topic": "FECGenerator",
-      "Order": "02.9.3",
+      "Order": "02.9.5",
       "Level": 3,
       "Title": "FECGenerator_title",
       "Details": "FECGenerator_details",
@@ -1160,6 +1133,32 @@
         {
           "edition": "ENT",
           "availability": "PPT"
+        }
+      ]
+    },
+    {
+      "Topic": "OpenECommerce",
+      "Order": "04.1",
+      "Level": 2,
+      "Title": "OpenECommerce_title",
+      "Details": "OpenECommerce_details",
+      "NotYetAvailable": false,
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional"
         }
       ]
     },
@@ -1561,8 +1560,8 @@
       "Level": 2,
       "Title": "Deposit_title",
       "Details": "Deposit_details",
-      "allowISO": "DE",
       "NotYetAvailable": false,
+      "allowISO": "DE",
       "options": [
         {
           "edition": "STD",

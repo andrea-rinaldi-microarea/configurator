@@ -316,6 +316,9 @@
     "CGMExtension_title": "CGM - Estensione 1 Azienda",
     "CGMExtension_details": "Aggiunge 1 azienda alle 3 di base gestibili con il Corporate Group Management. Si possono acquistare tante di queste Estensioni quante sono le aziende aggiuntive da gestire.",
 
+    "OpenECommerce_title" : "Open e-commerce",
+    "OpenECommerce_details": "Connetti il tuo e-commerce preferito con le API offerte da Open e-commerce. Organizza i tui dati grazie all definizione prodotto con descrizioni brevi ed estese, anche in HTML, fotogallery, categorizzazione anche gerarchica, assortimento, prezzi e disponibilità specifici per la vendita on-line.",
+
     "Configurator": "Configuratore",
     "Module": "Modulo",
     "Functionality": "Funzionalità",

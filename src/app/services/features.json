@@ -515,6 +515,18 @@
    "discontinued": false
  },
  {
+  "isModule": true,
+  "description": "Open e-commerce",
+  "level": 1,
+  "fragment": "OpenECommerce",
+  "isAvailable": true,
+  "allowISO": "",
+  "denyISO": "",
+  "optionID": "OECO",
+  "tag": "OECO",
+  "discontinued": false
+},
+{
    "isModule": true,
    "description": "Store Management",
    "level": 1,
@@ -551,6 +563,18 @@
  "discontinued": false
 },
 {
+  "isModule": false,
+  "description": "OpenPOS Connector",
+  "level": 3,
+  "fragment": "OpenPOS",
+  "isAvailable": true,
+  "allowISO": "",
+  "denyISO": "",
+  "optionID": "MPCN",
+  "tag": "MPCN",
+  "discontinued": false
+ },
+ {
    "isModule": false,
    "description": "Variants / Size and Colors",
    "level": 3,

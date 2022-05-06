@@ -387,6 +387,14 @@
    "notYetAvailable": false
  },
  {
+  "topic": "OpenECommerce",
+  "level": 2,
+  "order": "04.1",
+  "title":  "OpenECommerce_title",
+  "details":  "OpenECommerce_details",
+  "notYetAvailable": false
+},
+{
    "topic": "StoreManagement",
    "level": 1,
    "order": "05",

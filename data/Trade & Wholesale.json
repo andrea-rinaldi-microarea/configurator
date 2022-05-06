@@ -1147,6 +1147,34 @@
     {
       "isModule": true,
       "level": 1,
+      "description": "Open e-commerce",
+      "fragment": "OpenECommerce",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "OECO",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
       "description": "CRM",
       "fragment": "InfinityConnector",
       "isAvailable": false,

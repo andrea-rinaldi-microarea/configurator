@@ -1183,6 +1183,34 @@
     {
       "isModule": true,
       "level": 1,
+      "description": "Open e-commerce",
+      "fragment": "OpenECommerce",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "OECO",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRM",
+          "availability": "optional"
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": "optional"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
       "description": "Store Management",
       "fragment": "StoreManagement",
       "isAvailable": true,
