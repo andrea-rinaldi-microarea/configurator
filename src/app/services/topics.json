@@ -674,7 +674,7 @@
    "order": "11.1.1",
    "title":  "ManufacturingMobile_title",
    "details":  "ManufacturingMobile_details",
-   "notYetAvailable": true
+   "notYetAvailable": false
  },
  {
    "topic": "ManufacturingMobileApp",
@@ -682,7 +682,7 @@
    "order": "11.1.2",
    "title":  "ManufacturingMobileApp_title",
    "details":  "ManufacturingMobileApp_details",
-   "notYetAvailable": true
+   "notYetAvailable": false
  },
  {
    "topic": "ManufacturingAdvanced",

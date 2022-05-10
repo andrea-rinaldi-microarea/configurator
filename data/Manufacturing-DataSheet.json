@@ -1796,7 +1796,7 @@
       "Level": 3,
       "Title": "ManufacturingMobile_title",
       "Details": "ManufacturingMobile_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
@@ -1822,7 +1822,7 @@
       "Level": 3,
       "Title": "ManufacturingMobileApp_title",
       "Details": "ManufacturingMobileApp_details",
-      "NotYetAvailable": true,
+      "NotYetAvailable": false,
       "options": [
         {
           "edition": "STD",
