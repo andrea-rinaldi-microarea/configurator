@@ -161,7 +161,7 @@
 ,
   "StoreManagement_title":"Filial-Management"
 ,
-  "StoreManagement_details":"Verwaltung von Einzelhandelsgeschäften dank der Integration mit dem POS-System von TCPOS oder Tap&Till. Zentralisierte Datenverwaltung direkt von Mago als Backend. Die von den Kassen generierten Belege und Verkaufsdokumente gehen direkt in Mago ein und können in das Inventar- und Buchhaltungssystem eingegeben werden."
+  "StoreManagement_details":"Verwaltung von Einzelhandelsgeschäften dank der Integration mit dem POS-System von TCPOS oder Tap&Till und mit anderen Kassensystemen über die OpenPOS API. Zentralisierte Datenverwaltung direkt von Mago als Backend. Die von den Kassen generierten Belege und Verkaufsdokumente gehen direkt in Mago ein und können in das Inventar- und Buchhaltungssystem eingegeben werden."
 ,
   "StoreVariants_title":"Variationen / Größe und Farben"
 ,

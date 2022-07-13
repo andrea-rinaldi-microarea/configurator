@@ -120,7 +120,7 @@
     "eCommerce_details": "Organizza il punto vendita on-line gestito con il motore di e-commerce Konakart di Zucchetti. Definizione prodotto con descrizioni brevi ed estese, anche in HTML, fotogallery, categorizzazione anche gerarchica, assortimento, prezzi e disponibilità specifici per la vendita on-line.",
 
     "StoreManagement_title" : "Store Management",
-    "StoreManagement_details": "Gestione del punto vendita al dettaglio grazie all’integrazione con i sistemi POS Zucchetti TCPOS ed ePOS. Gestione centralizzata dei dati direttamente da Mago in qualità di back-end. Gli scontrini e i documenti di vendita generati dalle casse sono ricevuti direttamente in Mago e possono essere registrati in magazzino e in contabilità.",
+    "StoreManagement_details": "Gestione del punto vendita al dettaglio grazie all’integrazione con i sistemi POS Zucchetti TCPOS ed ePOS, e altri sistemi POS tramite l'API OpenPOS. Gestione centralizzata dei dati direttamente da Mago in qualità di back-end. Gli scontrini e i documenti di vendita generati dalle casse sono ricevuti direttamente in Mago e possono essere registrati in magazzino e in contabilità.",
 
     "StoreVariants_title" : "Varianti / Taglie e Colori",
     "StoreVariants_details": "Grazie alle Varianti di Retail e alla gestione Padre/Figlio è possibile gestire non solo il mondo delle taglie e colori ma anche molte altre varianti dell’articolo.",

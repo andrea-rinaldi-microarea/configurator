@@ -161,7 +161,7 @@
 ,
   "StoreManagement_title":"Gestión de la tienda"
 ,
-  "StoreManagement_details":"Gestión de tiendas minoristas gracias a la integración con el sistema POS de TCPOS o Tap&Till. Gestión de datos centralizada directamente desde Mago como back-end. Los recibos y documentos de venta generados por las cajas se reciben directamente en Mago y pueden introducirse en el sistema de inventario y contabilidad."
+  "StoreManagement_details":"Gestión de tiendas minoristas gracias a la integración con el sistema POS de TCPOS o Tap&Till, y con otros sistemas POS a través de la API OpenPOS. Gestión de datos centralizada directamente desde Mago como back-end. Los recibos y documentos de venta generados por las cajas se reciben directamente en Mago y pueden introducirse en el sistema de inventario y contabilidad."
 ,
   "StoreVariants_title":"Variantes / Talla y Colores"
 ,
