@@ -235,7 +235,7 @@
       "fragment": "CustomizedAccountingTemplates",
       "isAvailable": true,
       "allowISO": "",
-      "denyISO": "BR",
+      "denyISO": "",
       "optionID": "CTEM",
       "options": [
         {

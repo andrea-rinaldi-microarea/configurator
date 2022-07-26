@@ -217,7 +217,7 @@
       "Title": "CustomizedAccountingTemplates_title",
       "Details": "CustomizedAccountingTemplates_details",
       "NotYetAvailable": false,
-      "denyISO": "BR",
+      "denyISO": "",
       "options": [
         {
           "edition": "STD",

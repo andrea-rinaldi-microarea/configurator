@@ -175,7 +175,7 @@
       "fragment": "CustomizedAccountingTemplates",
       "isAvailable": true,
       "allowISO": "",
-      "denyISO": "BR",
+      "denyISO": "",
       "options": [
         {
           "edition": "STD",

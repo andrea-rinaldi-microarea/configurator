@@ -101,7 +101,7 @@
    "fragment": "CustomizedAccountingTemplates",
    "isAvailable": true,
    "allowISO": "",
-   "denyISO": "BR",
+   "denyISO": "",
    "optionID": "CTEM",
    "tag": "CONT",
    "discontinued": false
