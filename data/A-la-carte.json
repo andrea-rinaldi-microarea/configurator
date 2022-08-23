@@ -1634,7 +1634,7 @@
       "description": "Electronic Invoices Import in Purchase Documents",
       "fragment": "PurchaseElectronicInvoicingAdv",
       "isAvailable": true,
-      "allowISO": "",
+      "allowISO": "IT",
       "denyISO": "",
       "optionID": "CPAC",
       "options": [

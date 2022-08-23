@@ -709,7 +709,7 @@
    "level": 3,
    "fragment": "PurchaseElectronicInvoicingAdv",
    "isAvailable": true,
-   "allowISO": "",
+   "allowISO": "IT",
    "denyISO": "",
    "optionID": "CPAC",
    "tag": "CPAC",
