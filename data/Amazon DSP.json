@@ -1,0 +1,1625 @@
+{
+  "name": "Amazon DSP",
+  "industryCode": "ADSP",
+  "version": "1",
+  "productID": "MC",
+  "productName": "MagoCloud",
+  "features": [
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Masters and Common Functions",
+      "fragment": "Server",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Multilanguage descriptions",
+      "fragment": "Languages",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MLNG",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Multicurrency",
+      "fragment": "Currencies",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MCUR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Contacts Management",
+      "fragment": "Contacts",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "CNTS",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Budget Customers/Suppliers",
+      "fragment": "Budget",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "BUDG",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Accounting, Payables and Receivables",
+      "fragment": "Financials",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Customizable Tax Journals",
+      "fragment": "MultiTaxJournals",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Customizable Accounting Templates",
+      "fragment": "CustomizedAccountingTemplates",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Electronic Invoice Import",
+      "fragment": "PurchaseElectronicInvoicing",
+      "isAvailable": true,
+      "allowISO": "IT",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Plafond Management",
+      "fragment": "Plafond",
+      "isAvailable": true,
+      "allowISO": "IT,HU",
+      "denyISO": "",
+      "optionID": "PLAF",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Automatic Accrual and Deferrals",
+      "fragment": "AccrualsDeferrals",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "optionID": "AADE",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Professionals Fees and Withholding Tax",
+      "fragment": "Payees",
+      "isAvailable": true,
+      "allowISO": "IT,RS,HR,CL,RO,NL,TN,ES",
+      "denyISO": "",
+      "optionID": "PFWT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Dunning letters",
+      "fragment": "Dunnings",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "DUNN",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Payment Schedule Analysis and Cash Flow",
+      "fragment": "AP_AR_Analysis",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Balance Analysis and Reclassifications",
+      "fragment": "BalanceAnalysis",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Fixed Assets",
+      "fragment": "FixedAssets",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "CSPT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Forecast Accounting",
+      "fragment": "ForecastAccounting",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "optionID": "COPR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Analysis & Controlling",
+      "fragment": "CostAccounting",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "COAN",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Product Lines",
+      "fragment": "ProductLines",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "CFIN",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Transfers",
+      "fragment": "CostAccountingTransfer",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "CATR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Intrastat",
+      "fragment": "Intrastat",
+      "isAvailable": true,
+      "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
+      "denyISO": "",
+      "optionID": "INTR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Sales",
+      "fragment": "Sales",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "always"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Advanced Items Management",
+      "fragment": "AdvancedItemsManagement",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "ADIM",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Multiple Stub Books",
+      "fragment": "MultiStubBooks",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MSBO",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Sale Orders",
+      "fragment": "SaleOrders",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "ORCL",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Customer Quotations",
+      "fragment": "CustomerQuotations",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "CQUO",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Sales Force Management",
+      "fragment": "SalesPeople",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "SFMG",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Credit Limit Management",
+      "fragment": "CreditLimit",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "CRED",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Purchases",
+      "fragment": "Purchases",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "ACQT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Additional Charges",
+      "fragment": "AdditionalCharges",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "optionID": "ADCH",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Electronic Invoices Import in Purchase Documents",
+      "fragment": "PurchaseElectronicInvoicingAdv",
+      "isAvailable": true,
+      "allowISO": "IT",
+      "denyISO": "",
+      "optionID": "CPAC",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Purchase Orders",
+      "fragment": "PurchaseOrders",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "ORFO",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Supplier Quotations",
+      "fragment": "SupplierQuotations",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "SQUO",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Quality Inspections",
+      "fragment": "QualityInspection",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "INSP",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Inventory",
+      "fragment": "Inventory",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MAGA",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Multistorage",
+      "fragment": "MultiStorage",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MSTO",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Single Step LIFO/FIFO",
+      "fragment": "SingleStepLifoFifo",
+      "isAvailable": true,
+      "allowISO": "HU,IT,CH,BG,DE",
+      "denyISO": "",
+      "optionID": "SSLF",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Advanced Inventory Counts",
+      "fragment": "InventoryAdjustment",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "ADIC",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Deposit",
+      "fragment": "Deposit",
+      "isAvailable": true,
+      "allowISO": "DE,AT",
+      "denyISO": "",
+      "optionID": "DEPO",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Lots and Serial Numbers",
+      "fragment": "LotsSerials",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "LOTT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "WMS",
+      "fragment": "WMSBasic",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "WMAA",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "WMS Advanced",
+      "fragment": "WMSAdvanced",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "WMAD",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "WMS Mobile - backend",
+      "fragment": "WMSMobile",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "WMRF",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "WMS Mobile - app",
+      "fragment": "WMSMobileApp",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "WMRC",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 1,
+      "description": "EDI Basic",
+      "fragment": "EDIBasic",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "EDIB",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "EDI Logistics",
+      "fragment": "EDILogistics",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "EDIL",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "EDI Purchases",
+      "fragment": "EDIPurchases",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "EDIP",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "DMS",
+      "fragment": "DMS",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "EATT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Job Scheduler",
+      "fragment": "JobScheduler",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "SCHD",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Advanced Scheduling",
+      "fragment": "JobSchedulerAdvanced",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "SCHA",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Security",
+      "fragment": "Security",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "OSLL",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Security Access profiles",
+      "fragment": "SecurityAdvanced",
+      "isAvailable": false,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "OSLS",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Auditing",
+      "fragment": "Auditing",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "AUDT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Visibility",
+      "fragment": "Visibility",
+      "isAvailable": false,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "VISI",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "MyMago Studio",
+      "fragment": "MyMagoStudio",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MYMS",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Multicompany extension",
+      "fragment": "Multicompany",
+      "isAvailable": false,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MULT",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Corporate Group Management",
+      "fragment": "CGM",
+      "isAvailable": false,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MCMG",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "optional"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "CGM Extension",
+      "fragment": "CGMExtension",
+      "isAvailable": false,
+      "allowISO": "",
+      "denyISO": "",
+      "optionID": "MC01",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": ""
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": "count"
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    }
+  ]
+}
