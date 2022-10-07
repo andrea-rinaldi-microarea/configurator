@@ -27,7 +27,7 @@
     "CustomizedAccountingTemplates_details": "Definizione modelli contabili personalizzati aggiuntivi agli standard, creazione di modelli da registrazioni contabili compresi opzionalmente importi per scritture ricorrenti.",
 
     "PurchaseElectronicInvoicing_title" : "Import contabile Fatturazione Elettronica Passiva",
-    "PurchaseElectronicInvoicing_details": "Gestione della fatturazione elettronica nei Documenti Ricevuti. Con la procedura si importano nel programma le fatture elettroniche ricevute sul Digital Hub Zucchetti: l'utente può visualizzare la fattura e registrarla subito, oppure successivamente, nei Documenti Ricevuti in contabilità.",
+    "PurchaseElectronicInvoicing_details": "Gestione della fatturazione elettronica nei Documenti Ricevuti. Con la procedura si importano nel programma le fatture elettroniche ricevute sul Digital Hub Zucchetti e caricate tramite upload da File System: l'utente può visualizzare la fattura e registrarla subito, oppure successivamente, nei Documenti Ricevuti in contabilità.",
 
     "Plafond_title" : "Gestione Plafond",
     "Plafond_details": "Calcolo del Plafond disponibile secondo il metodo del Plafond fisso. Appositi report consentono di controllare l’importo utilizzato nel periodo, è possibile dettagliare i valori per documento, nonché l’importo utilizzato per cliente/fornitore, con calcolo dell’importo residuo disponibile in base alle dichiarazioni di intento registrate. Gestione delle Dichiarazioni di Intento emesse e ricevute, con procedure di stampa lettere e revoche e generazione del file per la Comunicazione Dichiarazioni di Intento Emesse per l’Agenzia delle Entrate.",
@@ -319,6 +319,12 @@
     "OpenECommerce_title" : "Open e-commerce",
     "OpenECommerce_details": "Connetti il tuo e-commerce preferito con le API offerte da Open e-commerce. Organizza i tui dati grazie all definizione prodotto con descrizioni brevi ed estese, anche in HTML, fotogallery, categorizzazione anche gerarchica, assortimento, prezzi e disponibilità specifici per la vendita on-line.",
 
+    "EDIBasic_title": "EDI Basic",
+    "EDIBasic_details": "I moduli EDI consentono di gestire lo scambio di messaggi EDI, supportando i più comuni messaggi standard EDICOM. Il modulo EDI Basic supporta il messaggio standard PRICAT, consentendo il trasferimento di articoli, categorie e prezzi, attraverso un formato configurabile e personalizzabile: Viene supportato di default il formato BTE, ma è possibile configurare altri formati. È prevista un'area di staging che consente di controllare e integrare i dati prima di inserirli nel sistema. Le attività di importazione possono essere programmate per essere eseguite in background. Il modulo fornisce anche un sistema di transcodifica, per adattare i codici che differiscono tra i sistemi interfacciati.",
+
+    "EDILogisticsc_title": "EDI Logistics",
+    "EDILogistics_details": "Il modulo EDI Logistics estende il modulo EDI Basic e gestisce i messaggi EDI necessari per interfacciarsi con i fornitori esterni di servizi logistici. Il formato dei messaggi può essere facilmente configurato per adattarsi alle diverse esigenze. EDI Logistics supporta lo stesso sistema di transcodifica disponibile nel modulo EDI Basic, per adattare i codici che differiscono tra i sistemi interfacciati.",   
+    
     "Configurator": "Configuratore",
     "Module": "Modulo",
     "Functionality": "Funzionalità",

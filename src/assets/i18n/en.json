@@ -27,7 +27,7 @@
     "CustomizedAccountingTemplates_details": "Custom accounting templates in addition to the standard ones, template definition from existing entries, complete with amounts if needed, to automate recurring transactions.",
 
     "PurchaseElectronicInvoicing_title" : "Electronic Invoice Import",
-    "PurchaseElectronicInvoicing_details": "Management of the e-Invoicing into the Received Documents. With this procedure, the electronic invoices received on the Zucchetti Digital Hub are imported into the program: the user can view the invoice and post it in the Received Documents in Accounting, immediately or later.",
+    "PurchaseElectronicInvoicing_details": "Management of the e-Invoicing into the Received Documents. With this procedure, the electronic invoices received on the Zucchetti Digital Hub or uploaded via XML files are imported into the program: the user can view the invoice and post it in the Received Documents in Accounting, immediately or later.",
 
     "Plafond_title" : "Plafond Management",
     "Plafond_details": "Plafond calculation according to the fixed Plafond method. Special reports allow to monitor Plafond amount used in the period, it is possible to detail values by document as well as amounts used by customer/supplier, with the calculation of the residual available balance in accordance with posted Declarations of Intent. Issued and Received Declarations of Intent management, with procedures to print letters and annulments and file generation of the Communication of Issued Declarations of Intent to be sent to Tax Agency.",
@@ -323,6 +323,12 @@
     "CGMExtension_details": "Adds 1 company to the basic 3 that can be managed with Corporate Group Management. You can buy as many of these Extensions as the additional companies to manage.",
 
     "OpenECommerce_title" : "Open e-commerce",
-    "OpenECommerce_details": "Connect your favorite e-commerce with the API offered by Open e-commerce. Organize your online shop data thanks to the product definition with short and long descriptions, also in HTML, photo gallery, categorization also hierarchical, assortment, prices and availability specific for online sales."
+    "OpenECommerce_details": "Connect your favorite e-commerce with the API offered by Open e-commerce. Organize your online shop data thanks to the product definition with short and long descriptions, also in HTML, photo gallery, categorization also hierarchical, assortment, prices and availability specific for online sales.",
+
+    "EDIBasic_title": "EDI Basic",
+    "EDIBasic_details": "The EDI modules allow managing EDI messages exchange, supporting the most common EDICOM standard messages. The EDI Basic module supports the standard PRICAT message, allowing transferring Items, categories and prices, via a configurable and customizable format: BTE format is supported by default, but other formats can be configured. A staging area is provided, allowing checking and integrating data prior to input them into the system. The import tasks can be scheduled to run in background. The module provides also a transcoding system, to adapt codes that differ across the interfaced systems",
+
+    "EDILogistics_title": "EDI Logistics",
+    "EDILogistics_details": "The EDI Logistics module extends the EDI Basic one, and manages the EDI messages needed to interface with external logistics providers. The message format can be easily configured to match different needs. The EDI Logistics supports the same transcoding system available in the EDI Basic module, to adapt codes that differ across the interfaced systems."
 
 }

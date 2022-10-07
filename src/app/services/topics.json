@@ -741,16 +741,30 @@
    "notYetAvailable": false
  },
  {
-  "topic": "ZucchettiConnectors",
+  "topic": "EDIBasic",
   "level": 1,
   "order": "12",
+  "title":  "EDIBasic_title",
+  "details":  "EDIBasic_details"
+},
+{
+  "topic": "EDILogistics",
+  "level": 1,
+  "order": "12.1",
+  "title":  "EDILogistics_title",
+  "details":  "EDILogistics_details"
+},
+{
+  "topic": "ZucchettiConnectors",
+  "level": 1,
+  "order": "13",
   "title":  "ZucchettiConnectors_title",
   "details":  "ZucchettiConnectors_details"
 },
 {
   "topic": "Magix",
   "level": 3,
-  "order": "12.1.1",
+  "order": "13.1.1",
   "title":  "Magix_title",
   "details":  "Magix_details",
   "allowISO": "IT"
@@ -758,7 +772,7 @@
 {
   "topic": "Ago",
   "level": 3,
-  "order": "12.1.2",
+  "order": "13.1.2",
   "title":  "Ago_title",
   "details":  "Ago_details",
   "allowISO": "IT"
@@ -766,7 +780,7 @@
 {
   "topic": "Omnia",
   "level": 3,
-  "order": "12.1.3",
+  "order": "13.1.3",
   "title":  "Omnia_title",
   "details":  "Omnia_details",
   "allowISO": "IT"
@@ -774,7 +788,7 @@
 {
   "topic": "OmniaPaghe",
   "level": 3,
-  "order": "12.1.4",
+  "order": "13.1.4",
   "title":  "OmniaPaghe_title",
   "details":  "OmniaPaghe_details",
   "allowISO": "IT"
@@ -782,7 +796,7 @@
 {
   "topic": "Maestro",
   "level": 3,
-  "order": "12.1.5",
+  "order": "13.1.5",
   "title":  "Maestro_title",
   "details":  "Maestro_details",
   "allowISO": "IT"
@@ -790,7 +804,7 @@
 {
   "topic": "Tesan",
   "level": 3,
-  "order": "12.1.6",
+  "order": "13.1.6",
   "title":  "Tesan_title",
   "details":  "Tesan_details",
   "allowISO": "IT"
@@ -798,7 +812,7 @@
 {
   "topic": "Corporate Group Management",
   "level": 1,
-  "order": "13.1",
+  "order": "14.1",
   "title":  "CGM_title",
   "details":  "CGM_details",
   "notYetAvailable": true
@@ -806,7 +820,7 @@
 {
   "topic": "CGM Extension",
   "level": 2,
-  "order": "13.1.1",
+  "order": "14.1.1",
   "title":  "CGMExtension_title",
   "details":  "CGMExtension_details",
   "notYetAvailable": true
@@ -821,7 +835,7 @@
  {
    "topic": "DMS",
    "level": 2,
-   "order": "14.1",
+   "order": "15.1",
    "title":  "DMS_title",
    "details":  "DMS_details",
    "notYetAvailable": false
@@ -829,7 +843,7 @@
  {
    "topic": "JobScheduler",
    "level": 2,
-   "order": "14.2",
+   "order": "15.2",
    "title":  "JobScheduler_title",
    "details":  "JobScheduler_details",
    "notYetAvailable": false
@@ -837,7 +851,7 @@
  {
   "topic": "JobSchedulerAdvanced",
   "level": 3,
-  "order": "14.2.1",
+  "order": "15.2.1",
   "title":  "JobSchedulerAdvanced_title",
   "details":  "JobSchedulerAdvanced_details",
   "notYetAvailable": false
@@ -845,7 +859,7 @@
 {
    "topic": "Security",
    "level": 2,
-   "order": "14.3",
+   "order": "15.3",
    "title":  "Security_title",
    "details":  "Security_details",
    "notYetAvailable": false
@@ -853,7 +867,7 @@
  {
    "topic": "SecurityAdvanced",
    "level": 3,
-   "order": "14.3.1",
+   "order": "15.3.1",
    "title":  "SecurityAdvanced_title",
    "details":  "SecurityAdvanced_details",
    "notYetAvailable": true
@@ -861,7 +875,7 @@
  {
    "topic": "Auditing",
    "level": 3,
-   "order": "14.3.2",
+   "order": "15.3.2",
    "title":  "Auditing_title",
    "details":  "Auditing_details",
    "notYetAvailable": true
@@ -869,7 +883,7 @@
  {
    "topic": "Visibility",
    "level": 3,
-   "order": "14.3.3",
+   "order": "15.3.3",
    "title":  "Visibility_title",
    "details":  "Visibility_details",
    "notYetAvailable": true
@@ -877,7 +891,7 @@
  {
    "topic": "Multicompany",
    "level": 2,
-   "order": "14.4",
+   "order": "15.4",
    "title":  "Multicompany_title",
    "details":  "Multicompany_details",
    "notYetAvailable": true
@@ -885,7 +899,7 @@
  {
    "topic": "MyMagoStudio",
    "level": 2,
-   "order": "14.5",
+   "order": "15.5",
    "title":  "MyMagoStudio_title",
    "details":  "MyMagoStudio_details",
    "notYetAvailable": true
