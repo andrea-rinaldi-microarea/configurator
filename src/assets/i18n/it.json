@@ -322,7 +322,7 @@
     "EDIBasic_title": "EDI Basic",
     "EDIBasic_details": "I moduli EDI consentono di gestire lo scambio di messaggi EDI, supportando i più comuni messaggi standard EDICOM. Il modulo EDI Basic supporta il messaggio standard PRICAT, consentendo il trasferimento di articoli, categorie e prezzi, attraverso un formato configurabile e personalizzabile: Viene supportato di default il formato BTE, ma è possibile configurare altri formati. È prevista un'area di staging che consente di controllare e integrare i dati prima di inserirli nel sistema. Le attività di importazione possono essere programmate per essere eseguite in background. Il modulo fornisce anche un sistema di transcodifica, per adattare i codici che differiscono tra i sistemi interfacciati.",
 
-    "EDILogisticsc_title": "EDI Logistics",
+    "EDILogistics_title": "EDI Logistics",
     "EDILogistics_details": "Il modulo EDI Logistics estende il modulo EDI Basic e gestisce i messaggi EDI necessari per interfacciarsi con i fornitori esterni di servizi logistici. Il formato dei messaggi può essere facilmente configurato per adattarsi alle diverse esigenze. EDI Logistics supporta lo stesso sistema di transcodifica disponibile nel modulo EDI Basic, per adattare i codici che differiscono tra i sistemi interfacciati.",   
     
     "Configurator": "Configuratore",
