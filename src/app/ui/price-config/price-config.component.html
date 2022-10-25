@@ -58,12 +58,14 @@
         <th class="title-sep">{{"Feature" | translate}} <i class="ml-2 text-config-light fa fa-list screen-only" ngbTooltip="{{'Show/hide features details' | translate }}" (click)="showDetails=!showDetails"></i></th>
         <th class="text-center edition-sep title-sep" >{{"Available" | translate}}</th>
       </tr>
-      <tr *ngFor="let feature of industry.current.features" [class.excluded]="!feature.included || !feature.isAvailable">
+      <tr *ngFor="let feature of industry.current.features | PriceExcluded:!hideExcluded : editionList[currEdition].code : countryList[currCountry].code" 
+          [class.excluded]="!feature.included || !feature.isAvailable || ISOExcluded(feature)">
         <td width="15px"><app-toggler [disabled]="true" class="text-config-light screen-only" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
         <td >
           <app-detailed-info [className]="featureClass(feature)" [details]="detailedInfo(feature) | translate" icon="fa-angle-down" [forceShow]="showDetails">
             {{feature.description | translate}}
-            <i class="fa fa-calendar ml-2" [hidden]="feature.isAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
+            <i class="fa fa-calendar ml-2" [hidden]="feature.isAvailable || feature.discontinued" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
+            <i class="fa fa-globe screen-only" [hidden]="!isLocalized(feature)" placement="right" [ngbTooltip]="ISOTooltip(feature)"></i>
           </app-detailed-info>
         </td> 
         <td class="text-center edition-sep">
@@ -71,7 +73,7 @@
           [hidden]="!feature.included || feature.discontinued" 
           [disabled]="true" 
           class="text-config" 
-          [value]="option(feature, currEdition.code).availability" 
+          [value]="option(feature, editionList[currEdition].code).availability" 
           [options]="featureTypes"></app-toggler>
         </td>
       </tr>

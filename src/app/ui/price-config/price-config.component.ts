@@ -20,8 +20,8 @@ export class PriceConfigComponent implements OnInit {
   private currEdition:  number = null;
   private currCountry:  number = null;
   private industryList: string[] = industryList;
-  private editionList: string[] = editionList;
-  private countryList: string[] = countryList;
+  private editionList: any[] = editionList;
+  private countryList: any[] = countryList;
   private showDetails: boolean = false;
   private hideExcluded: boolean = false;
   private nrCals: number = 0;
@@ -29,11 +29,11 @@ export class PriceConfigComponent implements OnInit {
   private includedOptions = [
     {
       value: false,
-      icon: "fa-sign-in"
+      icon: "fa-times"
     },
     {
       value: true,
-      icon: "fa-ban"
+      icon: "fa-check"
     }
   ];
   
@@ -130,6 +130,32 @@ export class PriceConfigComponent implements OnInit {
   option(feature: Feature, edition: string): FeatureOption {
     var option : FeatureOption = feature.options.find(o => o.edition == edition);
     return option || new FeatureOption(edition);
+  }
+
+  ISOExcluded(feature: Feature) {
+    if (feature.allowISO != "" && !feature.allowISO.includes(this.countryList[this.currCountry].code))
+      return true;
+    if (feature.denyISO != "" && feature.denyISO.includes(this.countryList[this.currCountry].code))
+        return true;
+
+    return false;
+  }
+
+  isLocalized(feature: Feature): boolean {
+    return  (typeof feature.allowISO != "undefined" && feature.allowISO != "" ) ||
+            (typeof feature.denyISO != "undefined" && feature.denyISO != "")
+  }
+
+  ISOTooltip(feature: Feature) {
+    var tooltip: string;
+    if (feature.allowISO != "") {
+      tooltip = this.translate.instant("Available in") + ": " + feature.allowISO;
+    }
+    if (typeof feature.denyISO !== "undefined" && feature.denyISO != "") {
+      if (tooltip != null) tooltip += "\n";
+      tooltip = this.translate.instant("Not available in")  + ": " + feature.denyISO;
+    }
+    return tooltip;
   }
 
 }
