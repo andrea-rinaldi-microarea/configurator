@@ -1,0 +1,22 @@
+.inline-flex {
+    display: inline-flex;
+}
+
+select{
+    text-align: center;
+    text-align-last:center;
+    border:0;
+    padding: 3px 15px;
+}
+
+.country-list {
+    text-align: inherit;
+    text-align-last: inherit;
+    border: black 1px solid;
+    padding: 1px 1px 3px 1px;
+}
+
+.right {
+    position: absolute;
+    right:0;
+}

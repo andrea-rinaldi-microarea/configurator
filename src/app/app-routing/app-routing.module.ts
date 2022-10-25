@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { CompareComponent } from '../ui/compare/compare.component';
+import { PriceConfigComponent } from '../ui/price-config/price-config.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
     path: 'compare',
     component: CompareComponent,
 },
+{
+  path: 'price-config',
+  component: PriceConfigComponent,
+}
 ];
 
 @NgModule({

@@ -24,6 +24,8 @@ import { DataSheetComponent } from './ui/data-sheet/data-sheet.component';
 import { LineExcludedPipe } from './ui/data-sheet/line-excluded-pipe';
 import { IndustryService } from './services/industry.service';
 import { CompareComponent } from './ui/compare/compare.component';
+import { PriceConfigComponent } from './ui/price-config/price-config.component';
+import { PriceExcludedPipe } from './ui/price-config/price-excluded-pipe';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -45,7 +47,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     DetailedInfoComponent,
     IndustryEditComponent,
     DataSheetComponent,
-    CompareComponent
+    CompareComponent,
+    PriceConfigComponent,
+    PriceExcludedPipe
   ],
   imports: [
     BrowserModule,

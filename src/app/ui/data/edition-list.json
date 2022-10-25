@@ -1,0 +1,6 @@
+[
+    {"name":"Standard", "code":"STD"},
+    {"name":"Premium", "code":"PRM"},
+    {"name":"Professional", "code":"PRO"},
+    {"name":"Enterprise", "code":"ENT"}
+]

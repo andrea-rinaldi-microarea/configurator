@@ -1,0 +1,89 @@
+<div class="container main">
+  <div class="row justify-content-center">
+    <div class="print-only">
+      <img src="/assets/M4CloudBigLogo.png" alt="">
+    </div>
+  </div>
+  <div class="row mt-2 d-flex justify-content-around">
+    <div class="screen-only">
+      <div class="inline-flex">
+        <div class="col-1 text-right btn btn-sm mr-2" [class.not-visible]="currIndustry == 0" (click)="onPrev()">
+          <i class="fa fa-big fa-chevron-left text-config-light"></i>
+        </div>
+        <div>
+          <select class="bg-config text-config-white lead" [(ngModel)]="currIndustry"  (change)="onInfoChanged()">
+            <option *ngFor="let industry of industryList; let i=index"  [value]="i"> 
+            {{industry}}
+            </option>
+          </select>
+        </div>
+        <div>
+          <select class="ml-2 bg-config text-config-white lead" [(ngModel)]="currEdition"  (change)="onInfoChanged()">
+            <option *ngFor="let edition of editionList; let i=index"  [value]="i"> 
+            {{edition.name}}
+            </option>
+          </select>
+        </div>
+        <div class="col-1 text-left btn btn-sm" [class.not-visible]="currIndustry == industryList.length - 1" (click)="onNext()">
+          <i class="fa fa-big fa-chevron-right text-config-light"></i>
+        </div>
+      </div>
+    </div>
+    <div class="text-config title-config print-only">
+      {{industryList[currIndustry]}} - {{this.currEdition ? editionList[this.currEdition].name : ""}} edition ({{nrCals}} CALs)
+    </div>
+  </div>
+  <div class="row mt-2 d-flex justify-content-around" >
+    <div class="screen-only">
+      <div class="inline-flex">
+        <div>
+          {{"Country" | translate}}&nbsp;
+          <select class="country-list" [(ngModel)]="currCountry"  (change)="onInfoChanged()">
+            <option *ngFor="let country of countryList; let i=index"  [value]="i"> 
+            {{country.name}}
+            </option>
+          </select>
+          &nbsp;CAL x&nbsp;<input type="text" size="2" [(ngModel)]="nrCals" (change)="onInfoChanged()">
+        </div>
+      </div>
+    </div>
+    <div class="right screen-only" >
+        <button class="btn btn-outline-light" [disabled]="currIndustry == null || currEdition == null || currCountry == null || nrCals == 0" (click)="onPrint()"><i class="fa fa-big fa-print text-config-light"></i></button> 
+    </div>
+  </div>
+  <div class="row mt-2"  *ngIf="industry.current && currCountry && currEdition && (nrCals != 0)">
+    <table class="table table-sm table-borderless">
+      <tr>
+        <th width="15px"><app-toggler class="text-config-light screen-only title-sep" [(value)]="hideExcluded"></app-toggler></th>
+        <th class="title-sep">{{"Feature" | translate}} <i class="ml-2 text-config-light fa fa-list screen-only" ngbTooltip="{{'Show/hide features details' | translate }}" (click)="showDetails=!showDetails"></i></th>
+        <th class="text-center edition-sep title-sep" >{{"Available" | translate}}</th>
+      </tr>
+      <tr *ngFor="let feature of industry.current.features" [class.excluded]="!feature.included || !feature.isAvailable">
+        <td width="15px"><app-toggler [disabled]="true" class="text-config-light screen-only" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
+        <td >
+          <app-detailed-info [className]="featureClass(feature)" [details]="detailedInfo(feature) | translate" icon="fa-angle-down" [forceShow]="showDetails">
+            {{feature.description | translate}}
+            <i class="fa fa-calendar ml-2" [hidden]="feature.isAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
+          </app-detailed-info>
+        </td> 
+        <td class="text-center edition-sep">
+          <app-toggler 
+          [hidden]="!feature.included || feature.discontinued" 
+          [disabled]="true" 
+          class="text-config" 
+          [value]="option(feature, currEdition.code).availability" 
+          [options]="featureTypes"></app-toggler>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+  <div *ngIf="industry.current" class="legend print-only">
+    <hr>
+    {{"Legend" | translate}} <br>
+    <i class="fa fa-circle text-config"></i> {{"included" | translate}} &nbsp;
+    <i class="fa fa-check-square-o text-config"></i> {{"optional" | translate}} &nbsp;
+    <i class="fa fa-user-plus text-config"></i> {{"per number of users" | translate}} &nbsp;
+    <i class="fa fa-money text-config"></i> {{"Pay Per Transactions" | translate}}<br>
+  </div>
+</div>

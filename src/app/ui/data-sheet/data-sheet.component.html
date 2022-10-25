@@ -26,7 +26,8 @@
       {{industryList[currIndustry]}}
     </div>
     <div class="right screen-only" [hidden]="currIndustry == null">
-      <button class="btn btn-outline-light" [hidden]="editMode" (click)="onCSVExport()"><i class="fa fa-big fa-file-excel-o text-config-light"></i></button>       <button class="btn btn-outline-light" [hidden]="editMode" (click)="onPrint()"><i class="fa fa-big fa-print text-config-light"></i></button> 
+      <button class="btn btn-outline-light" [hidden]="editMode" (click)="onCSVExport()"><i class="fa fa-big fa-file-excel-o text-config-light"></i></button>       
+      <button class="btn btn-outline-light" [hidden]="editMode" (click)="onPrint()"><i class="fa fa-big fa-print text-config-light"></i></button> 
       <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button> 
       <div ngbDropdown class="d-inline-block">
         <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle placement="bottom" ngbTooltip="Copia un'altra industry">
