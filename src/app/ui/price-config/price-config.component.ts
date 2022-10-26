@@ -124,7 +124,7 @@ export class PriceConfigComponent implements OnInit {
   }
 
   detailedInfo(feature: Feature) {
-    return "bla bla";
+    return feature.fragment + "_details";
   }
 
   option(feature: Feature, edition: string): FeatureOption {
