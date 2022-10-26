@@ -1,3 +1,4 @@
+import { OptionsAfterPipe } from './ui/price-config/options-after-pipe';
 import { DataSheetService } from './services/data-sheet.service';
 import { ClientsService } from './services/clients.service';
 import { BrowserModule, Title } from '@angular/platform-browser';
@@ -49,7 +50,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     DataSheetComponent,
     CompareComponent,
     PriceConfigComponent,
-    PriceExcludedPipe
+    PriceExcludedPipe,
+    OptionsAfterPipe
   ],
   imports: [
     BrowserModule,

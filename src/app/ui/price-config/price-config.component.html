@@ -58,7 +58,7 @@
         <th class="title-sep">{{"Feature" | translate}} <i class="ml-2 text-config-light fa fa-list screen-only" ngbTooltip="{{'Show/hide features details' | translate }}" (click)="showDetails=!showDetails"></i></th>
         <th class="text-center edition-sep title-sep" >{{"Available" | translate}}</th>
       </tr>
-      <tr *ngFor="let feature of industry.current.features | PriceExcluded:!hideExcluded : editionList[currEdition].code : countryList[currCountry].code" 
+      <tr *ngFor="let feature of industry.current.features | PriceExcluded:!hideExcluded : editionList[currEdition].code : countryList[currCountry].code | OptionsAfter:editionList[currEdition].code" 
           [class.excluded]="!feature.included || !feature.isAvailable || ISOExcluded(feature)">
         <td width="15px"><app-toggler [disabled]="true" class="text-config-light screen-only" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
         <td >
