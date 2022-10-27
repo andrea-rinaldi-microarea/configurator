@@ -6,12 +6,12 @@ import { Pipe, PipeTransform } from "@angular/core";
     pure: false
 })
 export class PriceExcludedPipe  implements PipeTransform {
-    transform(features: Feature[], show: boolean, edition: string, country: string): any {
-        if (!features || show) {
+    transform(features: Feature[], showAll: boolean, edition: string, country: string, optionals: boolean): any {
+        if (!features) {
             return features;
         }
         return features.filter(feature => {
-            if (!feature.included || !feature.isAvailable)
+            if (!showAll && (!feature.included || !feature.isAvailable))
                 return false;
 
             if (feature.allowISO != "" && !feature.allowISO.includes(country))
@@ -20,7 +20,13 @@ export class PriceExcludedPipe  implements PipeTransform {
                 return false;
 
             var option : FeatureOption = feature.options.find(o => o.edition == edition);
-            if (option && option.availability == "")
+            if (option && option.availability == "" && !showAll)
+                return false;
+
+            if (!optionals && option.availability != "always")
+                return false;
+
+            if (optionals && option.availability == "always")
                 return false;
 
             return true;
