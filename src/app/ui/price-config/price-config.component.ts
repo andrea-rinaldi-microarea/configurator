@@ -141,19 +141,6 @@ export class PriceConfigComponent implements OnInit {
     return false;
   }
 
-  private switched: boolean = false;
-  isOptionsSectionStart(idx: number, feature: Feature, edition: string) {
-    var option : FeatureOption = feature.options.find(o => o.edition == edition);
-    if (idx == 0) { // needed if the list is showed again
-      this.switched = false; 
-    }
-    else if (!this.switched && option.availability != "always") {
-      this.switched = true;
-      return true;
-    }
-    return false;
-  }
-
   isLocalized(feature: Feature): boolean {
     return  (typeof feature.allowISO != "undefined" && feature.allowISO != "" ) ||
             (typeof feature.denyISO != "undefined" && feature.denyISO != "")
