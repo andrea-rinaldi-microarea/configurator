@@ -1,0 +1,10 @@
+www.microarea.it/MicroareaServiceProxy/index.html
+
+getpricebulk
+
+{
+"priceList" : "cloud",
+"itemCode": "%",
+"authToken": "cVsYiT1g699Uq8PW",
+"quantity": "1"
+}
