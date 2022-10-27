@@ -11,14 +11,14 @@
           <i class="fa fa-big fa-chevron-left text-config-light"></i>
         </div>
         <div>
-          <select class="bg-config text-config-white lead" [(ngModel)]="currIndustry"  (change)="onInfoChanged()">
+          <select class="bg-config text-config-white lead" [(ngModel)]="currIndustry"  (change)="onIndustryChanged()">
             <option *ngFor="let industry of industryList; let i=index"  [value]="i"> 
             {{industry}}
             </option>
           </select>
         </div>
         <div>
-          <select class="ml-2 bg-config text-config-white lead" [(ngModel)]="currEdition"  (change)="onInfoChanged()">
+          <select class="ml-2 bg-config text-config-white lead" [(ngModel)]="currEdition"  (change)="onEditionChanged()">
             <option *ngFor="let edition of editionList; let i=index"  [value]="i"> 
             {{edition.name}}
             </option>
@@ -38,12 +38,12 @@
       <div class="inline-flex">
         <div>
           {{"Country" | translate}}&nbsp;
-          <select class="country-list" [(ngModel)]="currCountry"  (change)="onInfoChanged()">
+          <select class="country-list" [(ngModel)]="currCountry"  (change)="onCountryChanged()">
             <option *ngFor="let country of countryList; let i=index"  [value]="i"> 
             {{country.name}}
             </option>
           </select>
-          &nbsp;CAL x&nbsp;<input type="text" size="2" [(ngModel)]="nrCals" (change)="onInfoChanged()">
+          &nbsp;CAL x&nbsp;<input type="text" size="2" [(ngModel)]="nrCals" (change)="onCALChanged()">
         </div>
       </div>
     </div>

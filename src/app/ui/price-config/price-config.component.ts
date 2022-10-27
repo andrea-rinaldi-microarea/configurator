@@ -103,8 +103,18 @@ export class PriceConfigComponent implements OnInit {
     }
   }
 
-  onInfoChanged() {
+  onIndustryChanged() {
     this.ShowPriceConfig();
+  }
+
+  onEditionChanged() {
+    this.setTitle();
+  }
+
+  onCountryChanged() {
+  }
+  
+  onCALChanged() {
   }
 
   onPrint() {
