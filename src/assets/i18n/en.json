@@ -323,7 +323,7 @@
     "CGMExtension_details": "Adds 1 company to the basic 3 that can be managed with Corporate Group Management. You can buy as many of these Extensions as the additional companies to manage.",
 
     "OpenECommerce_title" : "Open e-commerce",
-    "OpenECommerce_details": "Connect your favorite e-commerce with the API offered by Open e-commerce. Organize your online shop data thanks to the product definition with short and long descriptions, also in HTML, photo gallery, categorization also hierarchical, assortment, prices and availability specific for online sales.",
+    "OpenECommerce_details": "Connect your favorite e-commerce with the API offered by Open e-commerce. Organize your data thanks to product definition with short and extended descriptions, also in HTML, photo gallery, categorization also hierarchical, assortment, prices and availability specific to online sales. Use predefined connectors for popular e-commerce or develop your own independently.",
 
     "EDIBasic_title": "EDI Basic",
     "EDIBasic_details": "The EDI modules allow managing EDI messages exchange, supporting the most common EDICOM standard messages. The EDI Basic module supports the standard PRICAT message, allowing transferring Items, categories and prices, via a configurable and customizable format: BTE format is supported by default, but other formats can be configured. A staging area is provided, allowing checking and integrating data prior to input them into the system. The import tasks can be scheduled to run in background. The module provides also a transcoding system, to adapt codes that differ across the interfaced systems",
