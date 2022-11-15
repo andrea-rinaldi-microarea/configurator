@@ -313,8 +313,8 @@
     "CGM_title": "Corporate Group Management",
     "CGM_details": "Gestione di entità fiscali distinte che partecipano allo stesso business, con condivisione di dati quali anagrafiche ed impostazioni. I dati operativi delle varie entità vengono mantenuti separati ma sono aggregabili a livello di reportistica. Il modulo consente l’utilizzo di fino a 3 entità fiscali distinte, Aziende “controllate” o “collegate” da un singolo soggetto giuridico ed intestatario della licenza. Tale modulo permette di gestire anche ATI (associazioni temporanee d’impresa), immobiliari, etc.",
 
-    "CGMExtension_title": "CGM - Estensione 1 Azienda",
-    "CGMExtension_details": "Aggiunge 1 azienda alle 3 di base gestibili con il Corporate Group Management. Si possono acquistare tante di queste Estensioni quante sono le aziende aggiuntive da gestire.",
+    "CGMExtension_title": "CGM - Estensione Aziende Aggiuntive",
+    "CGMExtension_details": "Aggiunge utenti per gestire aziende in più rispetto alle 3 di base disponibili nella Corporate Group Management. È possibile acquistare il numero di utenti aggiuntivi da associare alle aziende aggiuntive da gestire (minimo 1 utente per azienda aggiuntiva).",
 
     "OpenECommerce_title" : "Open e-commerce",
     "OpenECommerce_details": "Connetti i tuoi e-commerce preferiti con le API offerte da Open e-commerce. Organizza i tuoi dati grazie all definizione prodotto con descrizioni brevi ed estese, anche in HTML, fotogallery, categorizzazione anche gerarchica, assortimento, prezzi e disponibilità specifici per la vendita on-line. Usa i connettori predefiniti per gli e-commerce più diffusi o sviluppa i tuoi autonomamente.",

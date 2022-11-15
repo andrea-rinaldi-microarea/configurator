@@ -319,8 +319,8 @@
     "CGM_title": "Corporate Group Management",
     "CGM_details": "Management of separate tax entities participating in the same business, with sharing of data such as master data and settings. The operating data of the various entities are kept separate but can be aggregated at the reporting level. The module allows the use of up to 3 separate tax entities, “controlled” or “associated” by a single legal entity and licensee. This module also allows to manage temporary business associations, real estate, etc.",
 
-    "CGMExtension_title": "CGM - Extension 1 Company",
-    "CGMExtension_details": "Adds 1 company to the basic 3 that can be managed with Corporate Group Management. You can buy as many of these Extensions as the additional companies to manage.",
+    "CGMExtension_title": "CGM - Extension Additional Companies",
+    "CGMExtension_details": "Adds users to manage additional companies beyond the 3 basic ones available in Corporate Group Management. You can purchase the number of additional users to associate with the additional companies to be managed (minimum 1 user per additional company).",
 
     "OpenECommerce_title" : "Open e-commerce",
     "OpenECommerce_details": "Connect your favorite e-commerce portals with the API offered by Open e-commerce. Organize your data thanks to product definition with short and extended descriptions, also in HTML, photo gallery, categorization also hierarchical, assortment, prices and availability specific to online sales. Use predefined connectors for popular e-commerce or develop your own independently.",
