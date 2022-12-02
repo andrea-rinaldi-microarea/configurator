@@ -98,6 +98,8 @@
     "STIA": "InStore Mobile",
     "STIC": "CAL InStore Mobile",
     "TCCN": "TCPOS Connector",
+    "MPCN": "OpenPOS Connector",
+    "OECO": "Open e-commerce",
     "MDPS": "MagicLink Server",
     "WMRC": "CAL WMS Mobile",
     "MANC": "CAL Manufacturing Mobile"

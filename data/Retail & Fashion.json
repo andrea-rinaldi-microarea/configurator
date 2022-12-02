@@ -876,34 +876,6 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "e-commerce",
-      "fragment": "eCommerce",
-      "isAvailable": true,
-      "allowISO": "",
-      "denyISO": "",
-      "optionID": "KKCN",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRM",
-          "availability": "PPT"
-        },
-        {
-          "edition": "PRO",
-          "availability": "PPT"
-        },
-        {
-          "edition": "ENT",
-          "availability": "PPT"
-        }
-      ]
-    },
-    {
-      "isModule": true,
-      "level": 1,
       "description": "Open e-commerce",
       "fragment": "OpenECommerce",
       "isAvailable": true,

@@ -1111,34 +1111,8 @@
       ]
     },
     {
-      "Topic": "eCommerce",
-      "Order": "04",
-      "Level": 1,
-      "Title": "eCommerce_title",
-      "Details": "eCommerce_details",
-      "NotYetAvailable": false,
-      "options": [
-        {
-          "edition": "STD",
-          "availability": ""
-        },
-        {
-          "edition": "PRM",
-          "availability": "PPT"
-        },
-        {
-          "edition": "PRO",
-          "availability": "PPT"
-        },
-        {
-          "edition": "ENT",
-          "availability": "PPT"
-        }
-      ]
-    },
-    {
       "Topic": "OpenECommerce",
-      "Order": "04.1",
+      "Order": "04",
       "Level": 2,
       "Title": "OpenECommerce_title",
       "Details": "OpenECommerce_details",

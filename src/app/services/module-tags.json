@@ -78,6 +78,8 @@
     { "tag": "RMVN" },
     { "tag": "STIA" },
     { "tag": "TCCN" },
+    { "tag": "MPCN" },
+    { "tag": "OECO" },
 
     { 
         "title": "Integration Tools",
@@ -92,12 +94,6 @@
         "tag": "MAIF"
     },
     { "tag": "INPC" },
-
-    {
-        "title": "eCommerce",
-        "class": "functional-area-sep-ecommerce",
-        "tag": "KKCN"
-    },
 
     { 
         "title": "Monitoring Tools",
