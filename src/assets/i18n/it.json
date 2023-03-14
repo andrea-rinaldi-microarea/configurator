@@ -220,7 +220,7 @@
 
     "ManufacturingAdvanced_title" : "Produzione Avanzata",
     "ManufacturingAdvanced_details" : "Gestione cicli e risorse produttive (cdl e famiglie di cdl), più fasi di lavorazione per ordine, alternative. Avanzamenti anche parziali, analisi costi e redditività commesse. Pannello di controllo, Dettaglio Consuntivazioni OdP, Confronto OdP / Distinta e Analisi materiali in produzione.",
-    
+
     "BillOfMaterialsPlus_title" : "Disegni, storico e indici di revisione",
     "BillOfMaterialsPlus_details": "Gestione anagrafica disegni tecnici per ogni articolo e distinta. Codice specifica tecnica e versioning con revisione, mantenimento di uno storico consultabile in modo diretto.",
 
@@ -282,7 +282,7 @@
 
     "Magix_title": "Magix Fisco Azienda",
     "Magix_details": "Generazione di file di testo con i saldi contabili da importarsi in Magix Fisco Azienda. Ciò consente di svolgere automaticamente una serie di adempimenti fiscali, quali la redazione delle dichiarazioni UNICO e IRAP, del Bilancio UE e della Nota integrativa.",
-			
+
     "Ago_title": "AGO",
     "Ago_details": "Attraverso il tracciato MOVAGO è possibile scambiare dati contabili tra MagoCloud e AGO, in particolare si possono trasmettere ad AGO tutti i tipi di prima nota, incluso le anagrafiche clienti/fornitori utilizzate nei movimenti contabili, escluso le informazioni del partitario, mentre da AGO si possono ricevere solo tabelle contabili(sottoconti, codici IVA, codici Norma, codici CEE e causali contabili) e movimenti contabili puri (non IVA).",
 
@@ -294,7 +294,7 @@
 
     "Maestro_title": "Maestro",
     "Maestro_details": "Il connettore con il software Maestro rende possibile l’esportazione dei saldi contabili di MagoCloud tramite un file Excel da importare in Maestro. Il file viene generato da una procedura sulla base di uno schema di riclassificazione dedicato che mappa le voci di Maestro con i conti di MagoCloud.",
-    
+
     "Tesan_title": "TESAN",
     "Tesan_details": "Grazie al connettore TESAN è possibile esportare in un file di testo i dati relativi ai documenti nei quali sono presenti articoli attivati alla gestione TEssera SANitaria. Importando in seguito il file ottenuto in OMNIA, sarà possibile inviare la comunicazione di legge al Sistema Tessera Sanitaria.",
 
@@ -313,8 +313,8 @@
     "CGM_title": "Corporate Group Management",
     "CGM_details": "Gestione di entità fiscali distinte che partecipano allo stesso business, con condivisione di dati quali anagrafiche ed impostazioni. I dati operativi delle varie entità vengono mantenuti separati ma sono aggregabili a livello di reportistica. Il modulo consente l’utilizzo di fino a 3 entità fiscali distinte, Aziende “controllate” o “collegate” da un singolo soggetto giuridico ed intestatario della licenza. Tale modulo permette di gestire anche ATI (associazioni temporanee d’impresa), immobiliari, etc.",
 
-    "CGMExtension_title": "CGM - Estensione Aziende Aggiuntive",
-    "CGMExtension_details": "Aggiunge utenti per gestire aziende in più rispetto alle 3 di base disponibili nella Corporate Group Management. È possibile acquistare il numero di utenti aggiuntivi da associare alle aziende aggiuntive da gestire (minimo 1 utente per azienda aggiuntiva).",
+    "CGMExtension_title": "CGM - Utenti per Aziende Aggiuntive",
+    "CGMExtension_details": "Aggiunge utenti per gestire aziende in più rispetto alle 3 di base disponibili nella Corporate Group Management. È possibile acquistare il numero di utenti che si desiderano associare alle aziende aggiuntive da gestire (minimo 1 utente per azienda aggiuntiva).",
 
     "OpenECommerce_title" : "Open e-commerce",
     "OpenECommerce_details": "Connetti i tuoi e-commerce preferiti con le API offerte da Open e-commerce. Organizza i tuoi dati grazie all definizione prodotto con descrizioni brevi ed estese, anche in HTML, fotogallery, categorizzazione anche gerarchica, assortimento, prezzi e disponibilità specifici per la vendita on-line. Usa i connettori predefiniti per gli e-commerce più diffusi o sviluppa i tuoi autonomamente.",
@@ -323,8 +323,8 @@
     "EDIBasic_details": "I moduli EDI consentono di gestire lo scambio di messaggi EDI, supportando i più comuni messaggi standard EDICOM. Il modulo EDI Basic supporta il messaggio standard PRICAT, consentendo il trasferimento di articoli, categorie e prezzi, attraverso un formato configurabile e personalizzabile: Viene supportato di default il formato BTE, ma è possibile configurare altri formati. È prevista un'area di staging che consente di controllare e integrare i dati prima di inserirli nel sistema. Le attività di importazione possono essere programmate per essere eseguite in background. Il modulo fornisce anche un sistema di transcodifica, per adattare i codici che differiscono tra i sistemi interfacciati.",
 
     "EDILogistics_title": "EDI Logistics",
-    "EDILogistics_details": "Il modulo EDI Logistics estende il modulo EDI Basic e gestisce i messaggi EDI necessari per interfacciarsi con i fornitori esterni di servizi logistici. Il formato dei messaggi può essere facilmente configurato per adattarsi alle diverse esigenze. EDI Logistics supporta lo stesso sistema di transcodifica disponibile nel modulo EDI Basic, per adattare i codici che differiscono tra i sistemi interfacciati.",   
-    
+    "EDILogistics_details": "Il modulo EDI Logistics estende il modulo EDI Basic e gestisce i messaggi EDI necessari per interfacciarsi con i fornitori esterni di servizi logistici. Il formato dei messaggi può essere facilmente configurato per adattarsi alle diverse esigenze. EDI Logistics supporta lo stesso sistema di transcodifica disponibile nel modulo EDI Basic, per adattare i codici che differiscono tra i sistemi interfacciati.",
+
     "Configurator": "Configuratore",
     "Module": "Modulo",
     "Functionality": "Funzionalità",

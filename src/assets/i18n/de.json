@@ -414,7 +414,7 @@
 
   "OpenPOSConnector_title":"OpenPOS-Verbindung",
   "OpenPOSConnector_details":"Der OpenPOS-Konnektor ermöglicht die Anbindung externer Anwendungen (POS-bezogener oder anderer Art) über einen speziellen Satz von APIs. Er ermöglicht auch die Steuerung der Ladenorganisation, der Preise, der Sortimente und so weiter.",
-  
+
   "Multicompany_title":"Unternehmensübergreifende Erweiterung"
 ,
   "Multicompany_details":"Diese Erweiterung ermöglicht es, Unternehmen, die von einer einzigen juristischen Person (dem Lizenzinhaber) kontrolliert werden oder mit ihr verbunden sind, mit einer einzigen MagoCloud-Lizenz und mit aktiven Abonnements, die der Anzahl der zu verwaltenden Unternehmen entsprechen, zu verwalten. Diese Art von Erweiterung ermöglicht daher die Verwaltung von Szenarien wie zeitlich begrenzte Unternehmensvereinigungen, Immobilienagenturen usw. Eine solche Erweiterung ist auch für Unternehmen (z. B. Wirtschaftsprüfungsgesellschaften) wichtig, deren Kerngeschäft die Buchführung von Drittunternehmen ist."
@@ -423,9 +423,9 @@
 ,
   "CGM_details":"Verwaltung getrennter Steuerpflichtiger, die an demselben Geschäft beteiligt sind, mit gemeinsamer Nutzung von Daten wie Stammdaten und Einstellungen. Die Betriebsdaten der verschiedenen Einheiten werden getrennt gehalten, können aber auf der Berichtsebene aggregiert werden. Das Modul ermöglicht die Verwendung von bis zu 3 separaten Steuerpflichtigen, die von einer einzigen juristischen Person und einem Lizenznehmer kontrolliert oder verbunden werden. Dieses Modul ermöglicht auch die Verwaltung von temporären Unternehmensverbänden, Immobilien usw."
 ,
-  "CGMExtension_title":"CGM - Erweiterung 1 Unternehmen"
+  "CGMExtension_title":"CGM - Benutzer für zusätzliche Unternehmen"
 ,
-  "CGMExtension_details":"Fügt 1 Unternehmen zu den grundlegenden 3 hinzu, die mit dem Konzernmanagement verwaltet werden können. Sie können so viele dieser Erweiterungen erwerben, wie Sie zusätzliche Unternehmen verwalten möchten.",
+  "CGMExtension_details":"Fügt Benutzer hinzu, um zusätzliche Unternehmen zu verwalten, die über die 3 Basisunternehmen hinausgehen, die in der Konzernmanagement verfügbar sind. Sie können die gewünschte Anzahl von Benutzern erwerben, um sie den zusätzlichen zu verwaltenden Unternehmen zuzuordnen (mindestens 1 Benutzer pro zusätzlichem Unternehmen).",
 
   "Feature":"Merkmal",
   "Legend": "Beschriftung",

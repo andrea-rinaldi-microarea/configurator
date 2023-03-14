@@ -414,7 +414,7 @@
 
   "OpenPOSConnector_title":"Conector OpenPOS",
   "OpenPOSConnector_details":"El conector OpenPOS permite conectar aplicaciones externas (relacionadas con el TPV o de otro tipo) a través de un conjunto específico de APIs. Permite también el control de la organización de la tienda, los precios, los surtidos, etc.",
-  
+
   "Multicompany_title":"Extensión Multicompany"
 ,
   "Multicompany_details":"Dicha Extensión permite abordar aquellos casos caracterizados por empresas \"controladas por\" o \"vinculadas a\" un único sujeto legal (titular de la licencia) mediante una única licencia de MagoCloud y con \"n\" suscripciones activas iguales al número de Empresas que es necesario gestionar. Este tipo de Extensión permitirá, por tanto, gestionar escenarios como las Uniones Temporales de Empresas, las agencias inmobiliarias, etc. Dicha Extensión es imprescindible también cuando se trata de empresas (por ejemplo, empresas de contabilidad) cuya actividad principal es la contabilidad de terceras empresas."
@@ -423,10 +423,10 @@
 ,
   "CGM_details":"Gestión de entidades fiscales separadas que participan en el mismo negocio, con la compartición de datos como los datos maestros y las configuraciones. Los datos operativos de las distintas entidades se mantienen separados, pero pueden agregarse a nivel de informe. El módulo permite utilizar hasta 3 entidades fiscales distintas, \"controladas\" o \"asociadas\" por parte de una única persona jurídica y licenciataria. Este módulo también permite gestionar las uniones temporales de empresas, las agencias inmobiliarias, etc."
 ,
-  "CGMExtension_title":"CGM - Extensión 1 Empresa"
+  "CGMExtension_title":"CGM - Usuarios para empresas adicionales"
 ,
-  "CGMExtension_details":"Añade 1 empresa a las 3 básicas que se pueden gestionar con la Gestión de Grupos Corporativos. Se pueden comprar tantas de estas extensiones como empresas adicionales se tengan que gestionar.",
-  
+  "CGMExtension_details":"Añade usuarios para administrar empresas adicionales más allá de las 3 básicas disponibles en Gestión de Grupos Corporativos. Puede adquirir el número de usuarios que desee para asociar con las empresas adicionales a gestionar (mínimo 1 usuario por empresa adicional).",
+
   "Feature":"Característica",
   "Legend": "Leyenda",
   "not included": "no incluido",
