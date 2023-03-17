@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 import { Industry, Feature, Weight, Distance, FeatureOption } from '../../models/Industry';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
+import { ProductService } from './product.service';
 
 declare var require: any;
-const features = require("./features.json");
 const fragmentWeights = require("./fragment-weights.json");
 const moduleTags = require("./module-tags.json");
 const modulesDescription = require("./modules-description.json");
@@ -21,7 +21,10 @@ export class IndustryService {
 
   public current: Industry;
 
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient,
+    private product: ProductService
+  ) { }
 
   public load(industry: string): Observable<any> {
     var $industry = new Observable<any>( observer => {
@@ -29,7 +32,7 @@ export class IndustryService {
         this.current = new Industry(industry);
         Object.assign(this.current, actualData);
         this.current.features = [];
-        features.forEach(f => {
+        this.product.features().forEach(f => {
           var feature = new Feature(f);
           var actualFeat = actualData.features ? actualData.features.find(f => f.fragment == feature.fragment) : null;
           if (actualFeat != null) {
@@ -72,9 +75,9 @@ export class IndustryService {
       var feat = new Feature(f);
       if (!this.isOptional(feat)) {
         feat.optionID = null;
-      }  
+      }
       industry.features.push(feat);
-    }); 
+    });
 
     this.http.post('/api/industry/save', industry).subscribe(res => {
       console.log("saved");
@@ -109,13 +112,13 @@ export class IndustryService {
       weight.min += value;
       weight.max += value;
       return;
-    } 
+    }
     weight.max += value;
   }
 
   public calculateWeights() {
     if (!this.current) return;
-    
+
     this.current.weights = [];
     editions.forEach(e => {
       this.current.weights.push(new Weight(e));
@@ -156,7 +159,7 @@ export class IndustryService {
     for (var m = 0; m < moduleTags.length; m++ ) {
       var mod = moduleTags[m];
       var found: boolean = false;
-      if (client.Modules.includes(mod.tag)) 
+      if (client.Modules.includes(mod.tag))
          found = true;
       else {
         if (mod.alias) {
@@ -170,7 +173,7 @@ export class IndustryService {
       }
       if (!found)
         continue;
-  
+
       if (mod.package) {
         client.package = mod.tag;
         this.lookForMods(mod.package, true);
@@ -212,8 +215,8 @@ export class IndustryService {
 
         // old discontinued features and new features that have no correspondance to existing ones are not counted as distance
         if (feat.discontinued || feat.tag == "" || feat.tag == null)
-          continue; 
-        
+          continue;
+
         if (feat.customer) {
           this.current.clientWeight += this.getWeight(feat);
         }
@@ -228,7 +231,7 @@ export class IndustryService {
   public moduleDescription(mod: string) {
     if (!mod)
       return null;
-    return modulesDescription[mod.trim()] ? modulesDescription[mod.trim()] : mod; 
+    return modulesDescription[mod.trim()] ? modulesDescription[mod.trim()] : mod;
   }
 }
 

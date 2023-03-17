@@ -26,6 +26,7 @@ import { IndustryService } from './services/industry.service';
 import { CompareComponent } from './ui/compare/compare.component';
 import { PriceConfigComponent } from './ui/price-config/price-config.component';
 import { PriceExcludedPipe } from './ui/price-config/price-excluded-pipe';
+import { ProductService } from './services/product.service';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -65,7 +66,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [ClientsService, DataSheetService, Title, IndustryService],
+  providers: [ClientsService, DataSheetService, Title, IndustryService, ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

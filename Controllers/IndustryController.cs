@@ -14,7 +14,7 @@ namespace Configurator.Controllers
         {
             if (!System.IO.File.Exists($"data\\{name}.json"))
             {
-                return new Industry();
+                return new Industry{name = name};
             }
             using(TextReader reader = new StreamReader($"data\\{name}.json")) {
                 var industry = JsonConvert.DeserializeObject<Industry>(reader.ReadToEnd());
@@ -29,7 +29,7 @@ namespace Configurator.Controllers
             {
                 writer.Write(
                     JsonConvert.SerializeObject(
-                        industry, 
+                        industry,
                         Formatting.Indented,
                         new JsonSerializerSettings {
                             NullValueHandling = NullValueHandling.Ignore

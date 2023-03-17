@@ -4,9 +4,9 @@ import { ClientsService } from '../../../services/clients.service';
 import { TranslateService } from '@ngx-translate/core';
 import { IndustryService } from '../../../services/industry.service';
 import { Weight } from '../../../../models/Industry';
+import { ProductService } from '../../../services/product.service';
 
 declare var require: any;
-const industryList = require("../../data/industry-list.json");
 const detailedInfos = require("./detailed-info.json");
 
 @Component({
@@ -17,7 +17,7 @@ const detailedInfos = require("./detailed-info.json");
 export class ConfigurationComponent implements OnInit, DoCheck {
 
   private currIndustry:  number = null;
-  private industryList: string[] = industryList;
+  private industryList: string[];
   private editMode: boolean;
 
   private featureTypes = [
@@ -31,17 +31,21 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     },
     {
       value: "optional",
-      icon: "fa-check-square-o"
+      icon: "fa-user"
     },
     {
       value: "count",
       icon: "fa-user-plus"
     },
     {
+      value: "standalone",
+      icon: "fa-check-square-o"
+    },
+    {
       value: "PPT",
       icon: "fa-money"
     }
-    
+
   ];
   private includedOptions = [
     {
@@ -57,8 +61,10 @@ export class ConfigurationComponent implements OnInit, DoCheck {
   constructor(
     private industry: IndustryService,
     private clients: ClientsService,
-    private translate: TranslateService
-  ) { 
+    private translate: TranslateService,
+    private product: ProductService
+  ) {
+    this.industryList = product.industryList();
   }
 
   ngOnInit() {
@@ -68,9 +74,9 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     // @@@TODO fare solo se la change detection riguarda i dati coinvolti nei calcoli
     this.industry.calculateWeights();
   }
-  
+
   private ShowConfiguration() {
-    this.industry.load(industryList[this.currIndustry]).subscribe( res => {
+    this.industry.load(this.industryList[this.currIndustry]).subscribe( res => {
       this.industry.calculateWeights();
       this.industry.showUsing(this.clients.current);
       this.industry.calculateDistances();
@@ -120,7 +126,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
 
   selectAll(edition: string) {
     var newValue = this.option(this.industry.current.features[0], edition).availability == this.featureTypes[0].value ?
-                    this.featureTypes[1].value : 
+                    this.featureTypes[1].value :
                     this.featureTypes[0].value;
 
     this.industry.current.features.forEach( feat => {
@@ -166,7 +172,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
       return weight.min + " " + String.fromCharCode(247) + " " + weight.max;
     }
   }
-  
+
   configurationDistance(distances: Distance[], edition: string): Distance {
     if (!distances) return new Distance(edition);
     var distance = distances.find(d => d.edition == edition);

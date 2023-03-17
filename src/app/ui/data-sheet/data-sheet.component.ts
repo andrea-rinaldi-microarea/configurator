@@ -4,9 +4,9 @@ import { DataSheetService } from '../../services/data-sheet.service';
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 import { Title } from '@angular/platform-browser';
+import { ProductService } from '../../services/product.service';
 
 declare var require: any;
-const industryList = require("../data/industry-list.json");
 
 @Component({
   selector: 'app-data-sheet',
@@ -16,7 +16,7 @@ const industryList = require("../data/industry-list.json");
 export class DataSheetComponent implements OnInit {
 
   private currIndustry:  number = null;
-  private industryList: string[] = industryList;
+  private industryList: string[];
   private editMode: boolean;
   private showDetails: boolean = false;
   private hideExcluded: boolean = false;
@@ -43,7 +43,7 @@ export class DataSheetComponent implements OnInit {
       icon: "fa-money"
     }
   ];
-  
+
   private includedOptions = [
     {
       value: false,
@@ -59,11 +59,14 @@ export class DataSheetComponent implements OnInit {
     private dataSheet: DataSheetService,
     public translate: TranslateService,
     public titleService: Title,
-    private ref: ChangeDetectorRef
-  ) { }
+    private ref: ChangeDetectorRef,
+    private product: ProductService
+  ) {
+    this.industryList = product.industryList();
+  }
 
   private setTitle() {
-    this.titleService.setTitle(industryList[this.currIndustry] + " - Data Sheet (" + this.translate.currentLang + ")");
+    this.titleService.setTitle(this.industryList[this.currIndustry] + " - Data Sheet (" + this.translate.currentLang + ")");
   }
 
   ngOnInit() {
@@ -73,8 +76,8 @@ export class DataSheetComponent implements OnInit {
   }
 
   private ShowDataSheet() {
-    this.dataSheet.load(industryList[this.currIndustry]).subscribe( res => {
-      this.editMode = false; 
+    this.dataSheet.load(this.industryList[this.currIndustry]).subscribe( res => {
+      this.editMode = false;
       this.setTitle();
     });
   }
@@ -130,7 +133,7 @@ export class DataSheetComponent implements OnInit {
 
     return "<br/>(" + this.ISOTooltip(line) + ")";
   }
-  
+
   option(line: DataSheetLine, edition: string): DataSheetLineOption {
     var option : DataSheetLineOption = line.options.find(o => o.edition == edition);
     if (!option) {
@@ -170,5 +173,5 @@ export class DataSheetComponent implements OnInit {
       }))
     });
     this.dataSheet.CSVExport(csv);
-  }  
+  }
 }

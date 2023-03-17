@@ -1170,6 +1170,18 @@
    "discontinued": false
  },
  {
+  "isModule": true,
+  "description": "Mago API",
+  "level": 1,
+  "fragment": "MagoAPI",
+  "isAvailable": true,
+  "allowISO": "",
+  "denyISO": "",
+  "optionID": "MAPI",
+  "tag": "MAPI",
+  "discontinued": false
+ },
+ {
    "isModule": true,
    "description": "Multicompany extension",
    "level": 1,

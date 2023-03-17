@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "serve": "ng serve",
-    "ng": "ng build",
+    "ngbuild": "ng build",
+    "ng": "ng",
     "dotnet": "dotnet build",
     "build": "npm run ng && npm run dotnet",
     "start": "dotnet run"

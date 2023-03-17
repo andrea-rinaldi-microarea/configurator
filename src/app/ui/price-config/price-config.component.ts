@@ -3,9 +3,9 @@ import { Title } from '@angular/platform-browser';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 import { Feature, FeatureOption } from '../../../models/Industry';
 import { IndustryService } from '../../services/industry.service';
+import { ProductService } from '../../services/product.service';
 
 declare var require: any;
-const industryList = require("../data/industry-list.json");
 const editionList = require("../data/edition-list.json");
 const countryList = require("../data/country-list.json");
 
@@ -19,7 +19,7 @@ export class PriceConfigComponent implements OnInit {
   private currIndustry:  number = null;
   private currEdition:  number = null;
   private currCountry:  number = null;
-  private industryList: string[] = industryList;
+  private industryList: string[];
   private editionList: any[] = editionList;
   private countryList: any[] = countryList;
   private showDetails: boolean = false;
@@ -36,7 +36,7 @@ export class PriceConfigComponent implements OnInit {
       icon: "fa-check"
     }
   ];
-  
+
   private featureTypes = [
     {
       value: "",
@@ -58,14 +58,17 @@ export class PriceConfigComponent implements OnInit {
       value: "PPT",
       icon: "fa-money"
     }
-    
+
   ];
   constructor(
                 private industry: IndustryService,
                 public translate: TranslateService,
                 public titleService: Title,
-                private ref: ChangeDetectorRef
-  ) { }
+                private ref: ChangeDetectorRef,
+                private product: ProductService
+  ) {
+    this.industryList = product.industryList();
+  }
 
   ngOnInit() {
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
@@ -74,11 +77,11 @@ export class PriceConfigComponent implements OnInit {
   }
 
   private setTitle() {
-    this.titleService.setTitle(industryList[this.currIndustry] + " - Selected Configuration Price - " + (this.currEdition  ? editionList[this.currEdition].name : "") + " edition");
+    this.titleService.setTitle(this.industryList[this.currIndustry] + " - Selected Configuration Price - " + (this.currEdition  ? editionList[this.currEdition].name : "") + " edition");
   }
 
   private ShowPriceConfig() {
-    this.industry.load(industryList[this.currIndustry]).subscribe( res => {
+    this.industry.load(this.industryList[this.currIndustry]).subscribe( res => {
       this.setTitle();
     });
   }
@@ -113,7 +116,7 @@ export class PriceConfigComponent implements OnInit {
 
   onCountryChanged() {
   }
-  
+
   onCALChanged() {
   }
 

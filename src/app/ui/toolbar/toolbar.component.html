@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light bg-config p-1">
     <div>
         <span class="navbar-brand">
-            <img src="/assets/M4Cloud.png" alt="">
+            <img src="{{ logo() }}" alt="">
         </span>
         <span class="navbar-brand text-config-white">{{"Configurator" | translate }}</span>
     </div>
@@ -14,6 +14,6 @@
     <div class="navbar-nav flex-row">
         <select class="form-control mr-3 bg-config text-config-white" #langSelect (change)="translate.use(langSelect.value)">
             <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
-        </select>   
+        </select>
     </div>
 </nav>

@@ -1,0 +1,248 @@
+{
+  "name": "MagoWeb A-la-carte",
+  "features": [
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Server",
+      "fragment": "MW-Server",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 1,
+      "description": "Financials",
+      "fragment": "MW-Financials",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Cash Management",
+      "fragment": "MW-Cash",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "IT,CH,BR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Forecast Accounting",
+      "fragment": "MW-ForecastAccounting",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Analysis & Controlling",
+      "fragment": "MW-CostAccounting",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Multicompany Balance",
+      "fragment": "MW-MultiCompanyBalances",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "XBRL Balance",
+      "fragment": "MW-XBRL",
+      "isAvailable": true,
+      "allowISO": "IT",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 3,
+      "description": "Balance Analysis (Basel II)",
+      "fragment": "MW-Basel_II",
+      "isAvailable": false,
+      "allowISO": "IT",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Fixed Assets",
+      "fragment": "MW-FixedAssets",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "STD",
+          "availability": "always"
+        },
+        {
+          "edition": "PRM",
+          "availability": ""
+        },
+        {
+          "edition": "PRO",
+          "availability": ""
+        },
+        {
+          "edition": "ENT",
+          "availability": ""
+        }
+      ]
+    }
+  ]
+}
