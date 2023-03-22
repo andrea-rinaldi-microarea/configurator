@@ -1,8 +1,9 @@
 import { Pricing } from './../../../../models/pricing';
 import { Component, OnInit, DoCheck } from '@angular/core';
 import { ClientsService } from '../../../services/clients.service';
-import { IndustryService, editions, STD, PRM, PRO, ENT } from '../../../services/industry.service';
-import { Weight, Feature } from '../../../../models/Industry';
+import { IndustryService } from '../../../services/industry.service';
+import { Weight, Feature, Edition } from '../../../../models/Industry';
+import { ProductService } from '../../../services/product.service';
 
 declare var require: any;
 const modulePricePRO = require("./module-price-PRO.json");
@@ -32,20 +33,19 @@ export class PricingComponent implements OnInit, DoCheck  {
   private mispriced: boolean = false;
   private mispricedInfo: string = "";
   private fullOptions: boolean[] = [false, false, false, false];
-
-  public STD = STD;
-  public PRM = PRM;
-  public PRO = PRO;
-  public ENT = ENT;
+  private editions: Edition[] = [];
 
   constructor(
     private industry: IndustryService,
-    private clients: ClientsService
-  ) { }
+    private clients: ClientsService,
+    private product: ProductService
+  ) {
+    this.editions = product.editions();
+  }
 
   ngOnInit() {
   }
-  
+
   ngDoCheck() {
     if (!this.useCustomCals) {
       this.nrCals = this.getCalculationCals();
@@ -67,9 +67,9 @@ export class PricingComponent implements OnInit, DoCheck  {
   calculateIndustryPrices(): void {
     if (!this.industry.current)
       return;
-    
+
     this.pricings = [];
-    editions.forEach((e, idx) => {
+    this.product.editions().forEach((e, idx) => {
       var pricing = new Pricing();
       this.calculateEditionPrice(this.industry.current.weights[idx], this.fullOptions[idx], pricing);
       this.pricings.push(pricing);

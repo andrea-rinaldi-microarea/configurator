@@ -1,4 +1,4 @@
-import { Distance, Feature, FeatureOption } from './../../../../models/Industry';
+import { Distance, Edition, Feature, FeatureOption } from './../../../../models/Industry';
 import { Component, OnInit, DoCheck } from '@angular/core';
 import { ClientsService } from '../../../services/clients.service';
 import { TranslateService } from '@ngx-translate/core';
@@ -19,6 +19,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
   private currIndustry:  number = null;
   private industryList: string[];
   private editMode: boolean;
+  private editions: Edition[] = [];
 
   private featureTypes = [
     {
@@ -65,6 +66,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     private product: ProductService
   ) {
     this.industryList = product.industryList();
+    this.editions = product.editions();
   }
 
   ngOnInit() {

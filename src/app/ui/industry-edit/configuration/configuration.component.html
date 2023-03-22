@@ -37,17 +37,8 @@
           <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
           <th class="text-center edition-sep" ></th>
           <th class="text-center edition-sep" ></th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'" (click)="editMode && selectAll('STD')">
-            <app-edition-header [disabled]="!editMode">Standard</app-edition-header>
-          </th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRM'" (click)="editMode && selectAll('PRM')">
-            <app-edition-header [disabled]="!editMode">Premium</app-edition-header>
-          </th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'" (click)="editMode && selectAll('PRO')">
-            <app-edition-header [disabled]="!editMode">Professional</app-edition-header>
-          </th>
-          <th class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'" (click)="editMode && selectAll('ENT')">
-            <app-edition-header [disabled]="!editMode">Enterprise</app-edition-header>
+          <th *ngFor="let edition of editions" class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() == edition.code" (click)="editMode && selectAll(edition.code)">
+            <app-edition-header [disabled]="!editMode">{{edition.description}}</app-edition-header>
           </th>
       </tr>
       <tr>
@@ -58,17 +49,9 @@
         </th>
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
-        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">
-          <span *ngIf="industry.current.weights">{{configurationWeight(industry.current.weights, 'STD')}}</span>
-        </th>
-        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRM'">
-          <span *ngIf="industry.current.weights">{{configurationWeight(industry.current.weights, 'PRM')}}</span>
-        </th>
-        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRO'">
-          <span *ngIf="industry.current.weights">{{configurationWeight(industry.current.weights, 'PRO')}}</span>
-        </th>
-        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='ENT'">
-          <span *ngIf="industry.current.weights">{{configurationWeight(industry.current.weights, 'ENT')}}</span>
+
+        <th *ngFor="let edition of editions" class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() ==edition.code">
+          <span *ngIf="industry.current.weights">{{configurationWeight(industry.current.weights, edition.code)}}</span>
         </th>
       </tr>
       <tr *ngIf="clients.show">
@@ -77,17 +60,9 @@
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
-        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='STD'">
-          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, 'STD').plus}} / -{{configurationDistance(industry.current.distances, 'STD').minus}}</span>
-        </th>
-        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRM'">
-          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, 'PRM').plus}} / -{{configurationDistance(industry.current.distances, 'PRM').minus}}</span>
-        </th>
-        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='PRO'">
-          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, 'PRO').plus}} / -{{configurationDistance(industry.current.distances, 'PRO').minus}}</span>
-        </th>
-        <th class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() =='ENT'">
-          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, 'ENT').plus}} / -{{configurationDistance(industry.current.distances, 'ENT').minus}}</span>
+
+        <th *ngFor="let edition of editions" class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() == edition.code">
+          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, edition.code).plus}} / -{{configurationDistance(industry.current.distances, edition.code).minus}}</span>
         </th>
       </tr>
       <tr *ngFor="let feature of industry.current.features | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.level == 1">
@@ -106,46 +81,18 @@
           </td>
           <td width="25px" class="text-center edition-sep"><i class="fa fa-globe" [hidden]="!isLocalized(feature)" placement="right" [ngbTooltip]="ISOTooltip(feature)"></i></td>
           <td width="30px" class="text-right edition-sep">{{getWeight(feature)}}</td>
-          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='STD'">
+
+          <td *ngFor="let edition of editions" class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() == edition.code">
             <app-toggler
               [hidden]="!feature.included || feature.discontinued"
               [disabled]="!editMode"
               class="text-config"
-              [class.text-danger]="clients.show && clients.current && isMinus(feature, 'STD')"
-              [class.text-user]="clients.show && clients.current && isPlus(feature, 'STD')"
-              [(value)]="option(feature, 'STD').availability"
+              [class.text-danger]="clients.show && clients.current && isMinus(feature, edition.code)"
+              [class.text-user]="clients.show && clients.current && isPlus(feature, edition.code)"
+              [(value)]="option(feature, edition.code).availability"
               [options]="featureTypes"></app-toggler>
           </td>
-          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRM'">
-            <app-toggler
-              [hidden]="!feature.included || feature.discontinued"
-              [disabled]="!editMode"
-              class="text-config"
-              [class.text-danger]="clients.show && clients.current && isMinus(feature, 'PRM')"
-              [class.text-user]="clients.show && clients.current && isPlus(feature, 'PRM')"
-              [(value)]="option(feature, 'PRM').availability"
-              [options]="featureTypes"></app-toggler>
-          </td>
-          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='PRO'">
-            <app-toggler
-              [hidden]="!feature.included || feature.discontinued"
-              [disabled]="!editMode"
-              class="text-config"
-              [class.text-danger]="clients.show && clients.current && isMinus(feature, 'PRO')"
-              [class.text-user]="clients.show && clients.current && isPlus(feature, 'PRO')"
-              [(value)]="option(feature, 'PRO').availability"
-              [options]="featureTypes"></app-toggler>
-          </td>
-          <td class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() =='ENT'">
-            <app-toggler
-              [hidden]="!feature.included || feature.discontinued"
-              [disabled]="!editMode"
-              class="text-config"
-              [class.text-danger]="clients.show && clients.current && isMinus(feature, 'ENT')"
-              [class.text-user]="clients.show && clients.current && isPlus(feature, 'ENT')"
-              [(value)]="option(feature, 'ENT').availability"
-              [options]="featureTypes"></app-toggler>
-          </td>
+
       </tr>
   </table>
 </div>

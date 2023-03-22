@@ -744,11 +744,11 @@
       ]
     },
     {
-      "Topic": "SIIConnector",
+      "Topic": "SIITransmission",
       "Order": "02.9.2",
       "Level": 3,
-      "Title": "SIIConnector_title",
-      "Details": "SIIConnector_details",
+      "Title": "SIITransmission_title",
+      "Details": "SIITransmission_details",
       "NotYetAvailable": false,
       "allowISO": "ES",
       "options": [

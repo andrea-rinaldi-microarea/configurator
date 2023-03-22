@@ -1,14 +1,17 @@
 import { Injectable } from '@angular/core';
-import { Feature } from '../../models/Industry';
+import { Edition, Feature } from '../../models/Industry';
 
 declare var require: any;
 const productConfig = require("./product-config.json");
 
-const MCindustryList = require("./mc-industry-list.json");
-const MWindustryList = require("./mw-industry-list.json");
+const MCIndustryList = require("./mc-industry-list.json");
+const MWIndustryList = require("./mw-industry-list.json");
 
 const MCFeatures = require("./mc-features.json");
 const MWFeatures = require("./mw-features.json");
+
+const MCEditions = require("./mc-editions.json");
+const MWEditions = require("./mw-editions.json");
 
 export const MAGO_CLOUD = "MagoCloud";
 export const MAGO_WEB = "MagoWeb";
@@ -27,10 +30,10 @@ export class ProductService {
 
   public industryList() : string[] {
     if (productConfig["activeProduct"] == MAGO_CLOUD) {
-      return MCindustryList;
+      return MCIndustryList;
     }
     else {
-      return MWindustryList;
+      return MWIndustryList;
     }
   }
 
@@ -45,6 +48,16 @@ export class ProductService {
       return MWFeatures;
     }
 
+  }
+
+  public editions() : Edition[]
+  {
+    if (productConfig["activeProduct"] == MAGO_CLOUD) {
+      return MCEditions;
+    }
+    else {
+      return MWEditions;
+    }
   }
 
 }

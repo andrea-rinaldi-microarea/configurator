@@ -12,7 +12,7 @@
         </div>
         <div>
           <select class="bg-config text-config-white lead" [disabled]="editMode" [(ngModel)]="currIndustry"  (change)="onIndustryChanged()">
-            <option *ngFor="let industry of industryList; let i=index"  [value]="i"> 
+            <option *ngFor="let industry of industryList; let i=index"  [value]="i">
             {{industry}}
             </option>
           </select>
@@ -26,9 +26,9 @@
       {{industryList[currIndustry]}}
     </div>
     <div class="right screen-only" [hidden]="currIndustry == null">
-      <button class="btn btn-outline-light" [hidden]="editMode" (click)="onCSVExport()"><i class="fa fa-big fa-file-excel-o text-config-light"></i></button>       
-      <button class="btn btn-outline-light" [hidden]="editMode" (click)="onPrint()"><i class="fa fa-big fa-print text-config-light"></i></button> 
-      <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button> 
+      <button class="btn btn-outline-light" [hidden]="editMode" (click)="onCSVExport()"><i class="fa fa-big fa-file-excel-o text-config-light"></i></button>
+      <button class="btn btn-outline-light" [hidden]="editMode" (click)="onPrint()"><i class="fa fa-big fa-print text-config-light"></i></button>
+      <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button>
       <div ngbDropdown class="d-inline-block">
         <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle placement="bottom" ngbTooltip="Copia un'altra industry">
             <i class="fa fa-big fa-files-o text-config-light"></i>
@@ -37,60 +37,33 @@
           <button class="dropdown-item" ngbDropdownItem *ngFor="let industry of industryList | OtherIndustries:currIndustry" (click)="onCopy(industry)">{{industry}}</button>
         </div>
       </div>
-      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onSave(); editMode=false"><i class="fa fa-big fa-floppy-o text-config-light"></i></button> 
-      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button> 
+      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onSave(); editMode=false"><i class="fa fa-big fa-floppy-o text-config-light"></i></button>
+      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button>
     </div>
   </div>
-  <div class="row mt-2" *ngIf="dataSheet.current"> 
+  <div class="row mt-2" *ngIf="dataSheet.current">
     <table class="table table-sm table-borderless">
         <tr>
           <th width="15px"><app-toggler class="text-config-light screen-only title-sep" [(value)]="hideExcluded"></app-toggler></th>
           <th class="title-sep">{{"Feature" | translate}} <i class="ml-2 text-config-light fa fa-list screen-only" ngbTooltip="{{'Show/hide features details' | translate }}" (click)="showDetails=!showDetails"></i></th>
           <th width="25px" class="text-center edition-sep title-sep" ></th>
-          <th class="text-center edition-sep title-sep" >Standard</th>
-          <th class="text-center edition-sep title-sep" >Premium</th>
-          <th class="text-center edition-sep title-sep" >Professional</th>
-          <th class="text-center edition-sep title-sep" >Enterprise</th>
+          <th *ngFor="let edition of editions" class="text-center edition-sep title-sep" >{{edition.description}}</th>
         </tr>
         <tr *ngFor="let line of dataSheet.current.lines | LineExcluded:!hideExcluded" [class.no-print]="line.notYetAvailable" [class.excluded]="!line.included">
           <td width="15px"><app-toggler [disabled]="!editMode" class="text-config-light screen-only" [(value)]="line.included" [options]="includedOptions"></app-toggler></td>
           <td >
             <app-detailed-info [className]="topicClass(line)" [details]="((line.details || '') | translate)+ISODetails(line)" icon="fa-angle-down" [forceShow]="showDetails">
               {{line.title | translate}}
-              <i class="fa fa-calendar ml-2" [hidden]="!line.notYetAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i> 
+              <i class="fa fa-calendar ml-2" [hidden]="!line.notYetAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i>
             </app-detailed-info>
-          </td> 
-          <td width="25px" class="text-center edition-sep"><i class="fa fa-globe" [hidden]="!isLocalized(line)" placement="right" [ngbTooltip]="ISOTooltip(line)"></i></td>  
-          <td class="text-center edition-sep">
-            <app-toggler 
-              [hidden]="!line.included" 
-              [disabled]="!editMode" 
-              class="text-config" 
-              [(value)]="option(line, 'STD').availability" 
-              [options]="topicTypes"></app-toggler>
           </td>
-          <td class="text-center edition-sep">
-            <app-toggler 
-              [hidden]="!line.included" 
-              [disabled]="!editMode" 
-              class="text-config" 
-              [(value)]="option(line, 'PRM').availability" 
-              [options]="topicTypes"></app-toggler>
-          </td>
-          <td class="text-center edition-sep">
-            <app-toggler 
-              [hidden]="!line.included" 
-              [disabled]="!editMode" 
-              class="text-config" 
-              [(value)]="option(line, 'PRO').availability" 
-              [options]="topicTypes"></app-toggler>
-          </td>
-          <td class="text-center edition-sep">
-            <app-toggler 
-              [hidden]="!line.included" 
-              [disabled]="!editMode" 
-              class="text-config" 
-              [(value)]="option(line, 'ENT').availability" 
+          <td width="25px" class="text-center edition-sep"><i class="fa fa-globe" [hidden]="!isLocalized(line)" placement="right" [ngbTooltip]="ISOTooltip(line)"></i></td>
+          <td *ngFor="let edition of editions" class="text-center edition-sep">
+            <app-toggler
+              [hidden]="!line.included"
+              [disabled]="!editMode"
+              class="text-config"
+              [(value)]="option(line, edition.code).availability"
               [options]="topicTypes"></app-toggler>
           </td>
       </tr>

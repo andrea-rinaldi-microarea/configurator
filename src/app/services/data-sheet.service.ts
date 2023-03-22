@@ -4,12 +4,11 @@ import { CSVDataSheet, Topic } from '../../models/data-sheet';
 import { Injectable } from '@angular/core';
 import { DataSheet, DataSheetLine } from '../../models/data-sheet';
 import { Observable } from 'rxjs/Observable';
+import { ProductService } from './product.service';
+import { Edition } from '../../models/Industry';
 
 declare var require: any;
 const topics = require("./topics.json");
-export const editions = [ "STD", "PRM", "PRO", "ENT" ];
-export const CRT = 0; // CRT is not a real edition anyway
-export const STD = 0;
 
 @Injectable()
 export class DataSheetService {
@@ -18,7 +17,8 @@ export class DataSheetService {
 
   constructor(
     private http: HttpClient
-  ) { }
+  ) {
+  }
 
   public load(industry: string): Observable<any> {
     var $dataSheet = new Observable<any>( observer => {
@@ -49,7 +49,7 @@ export class DataSheetService {
         return;
       var dsLine = new DataSheetLine(line);
       dataSheet.lines.push(dsLine);
-    }); 
+    });
 
     this.http.post('/api/dataSheet/save', dataSheet).subscribe(res => {
       console.log("saved");

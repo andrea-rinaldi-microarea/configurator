@@ -59,3 +59,10 @@ export class Industry {
     public clientWeight: number;
     public distances: Distance[] = [];
 }
+
+export class Edition {
+  constructor(
+    public code: string,
+    public description: string
+  ) {}
+}

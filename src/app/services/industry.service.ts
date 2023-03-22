@@ -9,13 +9,6 @@ const fragmentWeights = require("./fragment-weights.json");
 const moduleTags = require("./module-tags.json");
 const modulesDescription = require("./modules-description.json");
 
-export const editions = [ "STD", "PRM", "PRO", "ENT" ];
-export const CRT = 0; // CRT is not a real edition anyway
-export const STD = 0;
-export const PRM = 1;
-export const PRO = 2;
-export const ENT = 3;
-
 @Injectable()
 export class IndustryService {
 
@@ -40,8 +33,8 @@ export class IndustryService {
             feature.included = true;
           } else {
             feature.options = [];
-            editions.forEach(e => {
-              feature.options.push(new FeatureOption(e));
+            this.product.editions().forEach(e => {
+              feature.options.push(new FeatureOption(e.code));
             });
           }
           this.current.features.push(feature);
@@ -120,8 +113,8 @@ export class IndustryService {
     if (!this.current) return;
 
     this.current.weights = [];
-    editions.forEach(e => {
-      this.current.weights.push(new Weight(e));
+    this.product.editions().forEach(e => {
+      this.current.weights.push(new Weight(e.code));
     });
 
     for (var f = 0; f < this.current.features.length; f++) {
@@ -129,7 +122,7 @@ export class IndustryService {
       if (!feat.included)
         continue;
 
-      editions.forEach((e, idx) => {
+        this.product.editions().forEach((e, idx) => {
         this.calculateWeight(feat, feat.options[idx].availability, this.current.weights[idx]);
       });
     }
@@ -204,8 +197,8 @@ export class IndustryService {
     if (!this.current) return;
 
     this.current.distances = [];
-    editions.forEach( e => {
-      this.current.distances.push(new Distance(e));
+    this.product.editions().forEach( e => {
+      this.current.distances.push(new Distance(e.code));
     });
 
     this.current.clientWeight = 0;
@@ -221,7 +214,7 @@ export class IndustryService {
           this.current.clientWeight += this.getWeight(feat);
         }
 
-        editions.forEach( (e, idx) => {
+        this.product.editions().forEach( (e, idx) => {
           if (!feat.included) return;
           this.calculateDistance(feat, feat.options[idx].availability, this.current.distances[idx]);
         });

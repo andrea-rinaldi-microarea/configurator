@@ -11,20 +11,8 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "STD",
+          "edition": "GLB",
           "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
         }
       ]
     },
@@ -38,26 +26,29 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
+          "edition": "GLB",
+          "availability": "standalone"
         }
       ]
     },
     {
       "isModule": false,
-      "level": 3,
+      "level": 2,
+      "description": "Electronic Invoice Import",
+      "fragment": "MW-PurchaseElectronicInvoicing",
+      "isAvailable": true,
+      "allowISO": "IT",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "GLB",
+          "availability": "standalone"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
       "description": "Cash Management",
       "fragment": "MW-Cash",
       "isAvailable": true,
@@ -65,107 +56,14 @@
       "denyISO": "IT,CH,BR",
       "options": [
         {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
+          "edition": "GLB",
+          "availability": "standalone"
         }
       ]
     },
     {
       "isModule": false,
       "level": 2,
-      "description": "Forecast Accounting",
-      "fragment": "MW-ForecastAccounting",
-      "isAvailable": true,
-      "allowISO": "",
-      "denyISO": "BR",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "level": 2,
-      "description": "Analysis & Controlling",
-      "fragment": "MW-CostAccounting",
-      "isAvailable": true,
-      "allowISO": "",
-      "denyISO": "",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "level": 2,
-      "description": "Multicompany Balance",
-      "fragment": "MW-MultiCompanyBalances",
-      "isAvailable": true,
-      "allowISO": "",
-      "denyISO": "BR",
-      "options": [
-        {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
-        }
-      ]
-    },
-    {
-      "isModule": false,
-      "level": 3,
       "description": "XBRL Balance",
       "fragment": "MW-XBRL",
       "isAvailable": true,
@@ -173,47 +71,38 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
+          "edition": "GLB",
+          "availability": "standalone"
         }
       ]
     },
     {
       "isModule": false,
-      "level": 3,
+      "level": 2,
+      "description": "Accounting Books and Balance Attachments",
+      "fragment": "MW-AccountingBooks",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "options": [
+        {
+          "edition": "GLB",
+          "availability": "standalone"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
       "description": "Balance Analysis (Basel II)",
       "fragment": "MW-Basel_II",
-      "isAvailable": false,
+      "isAvailable": true,
       "allowISO": "IT",
       "denyISO": "",
       "options": [
         {
-          "edition": "STD",
-          "availability": "always"
-        },
-        {
-          "edition": "PRM",
-          "availability": ""
-        },
-        {
-          "edition": "PRO",
-          "availability": ""
-        },
-        {
-          "edition": "ENT",
-          "availability": ""
+          "edition": "GLB",
+          "availability": "standalone"
         }
       ]
     },
@@ -227,20 +116,113 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "STD",
-          "availability": "always"
-        },
+          "edition": "GLB",
+          "availability": "standalone"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Forecast Accounting",
+      "fragment": "MW-ForecastAccounting",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "options": [
         {
-          "edition": "PRM",
-          "availability": ""
-        },
+          "edition": "GLB",
+          "availability": "standalone"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Multicompany Balance",
+      "fragment": "MW-MultiCompanyBalances",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "BR",
+      "options": [
         {
-          "edition": "PRO",
-          "availability": ""
-        },
+          "edition": "GLB",
+          "availability": "standalone"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Analysis & Controlling",
+      "fragment": "MW-CostAccounting",
+      "isAvailable": true,
+      "allowISO": "",
+      "denyISO": "",
+      "options": [
         {
-          "edition": "ENT",
-          "availability": ""
+          "edition": "GLB",
+          "availability": "standalone"
+        }
+      ]
+    },
+    {
+      "isModule": false,
+      "level": 2,
+      "description": "Intrastat",
+      "fragment": "MW-Intrastat",
+      "isAvailable": true,
+      "allowISO": "AT,BE,BG,CY,CZ,DE,DK,EE,FI,FR,GB,GR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK,ES",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "GLB",
+          "availability": "standalone"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "SII - Immediate Reporting System",
+      "fragment": "MW-SIITransmission",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "GLB",
+          "availability": "standalone"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "TicketBAI",
+      "fragment": "MW-TicketBAI",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "GLB",
+          "availability": "standalone"
+        }
+      ]
+    },
+    {
+      "isModule": true,
+      "level": 2,
+      "description": "BATUZ",
+      "fragment": "MW-BATUZ",
+      "isAvailable": true,
+      "allowISO": "ES",
+      "denyISO": "",
+      "options": [
+        {
+          "edition": "GLB",
+          "availability": "standalone"
         }
       ]
     }

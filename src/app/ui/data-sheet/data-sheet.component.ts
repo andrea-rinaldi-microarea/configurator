@@ -5,6 +5,7 @@ import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 import { Title } from '@angular/platform-browser';
 import { ProductService } from '../../services/product.service';
+import { Edition } from '../../../models/Industry';
 
 declare var require: any;
 
@@ -20,6 +21,7 @@ export class DataSheetComponent implements OnInit {
   private editMode: boolean;
   private showDetails: boolean = false;
   private hideExcluded: boolean = false;
+  public editions: Edition[] = [];
 
   private topicTypes = [
     {
@@ -63,6 +65,7 @@ export class DataSheetComponent implements OnInit {
     private product: ProductService
   ) {
     this.industryList = product.industryList();
+    this.editions = product.editions();
   }
 
   private setTitle() {

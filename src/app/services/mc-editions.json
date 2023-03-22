@@ -1,0 +1,22 @@
+[
+  {
+    "code": "STD",
+    "description": "Standard",
+    "idx": 0
+  },
+  {
+    "code": "PRM",
+    "description": "Premium",
+    "idx": 1
+  },
+  {
+    "code": "PRO",
+    "description": "Professional",
+    "idx": 2
+  },
+  {
+    "code": "ENT",
+    "description": "Enterprise",
+    "idx": 3
+  }
+]

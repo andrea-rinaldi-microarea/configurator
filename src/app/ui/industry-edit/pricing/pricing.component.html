@@ -15,107 +15,68 @@
                       <div class="dropdown-item" ngbDropdownItem (click)="priceSource='LITE'">LITE</div>
                       <div class="dropdown-item" ngbDropdownItem (click)="priceSource='PRO'">PRO</div>
                       <div class="dropdown-item" ngbDropdownItem (click)="priceSource='NET'">NET</div>
-                    </div>                
-                  </div>                
+                    </div>
+                  </div>
               </div>
             </th>
-            <th class="text-center edition-sep" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">
-              Standard 
-              <i class="fa" [class.fa-check-square-o]="fullOptions[STD]" [class.fa-square-o]="!fullOptions[STD]" (click)="fullOptions[STD]=!fullOptions[STD]"></i>
+            <th *ngFor="let edition of editions" class="text-center edition-sep" [class.bg-pricing-selected]="clients.show && clients.getEdition() == edition.code">
+              {{edition.description}}
+              <i class="fa" [class.fa-check-square-o]="fullOptions[edition.idx]" [class.fa-square-o]="!fullOptions[edition.idx]" (click)="fullOptions[edition.idx]=!fullOptions[edition.idx]"></i>
             </th>
-            <th class="text-center edition-sep" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">
-              Premium
-              <i class="fa" [class.fa-check-square-o]="fullOptions[PRM]" [class.fa-square-o]="!fullOptions[PRM]" (click)="fullOptions[PRM]=!fullOptions[PRM]"></i>
-            </th>
-            <th class="text-center edition-sep" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">
-              Professional
-              <i class="fa" [class.fa-check-square-o]="fullOptions[PRO]" [class.fa-square-o]="!fullOptions[PRO]" (click)="fullOptions[PRO]=!fullOptions[PRO]"></i>
-            </th>
-            <th class="text-center edition-sep" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">
-              Enterprise
-              <i class="fa" [class.fa-check-square-o]="fullOptions[ENT]" [class.fa-square-o]="!fullOptions[ENT]" (click)="fullOptions[ENT]=!fullOptions[ENT]"></i>
-            </th>
-        </tr> 
+        </tr>
         <tr>
           <td class="text-right">licenza</td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.license | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{pricings[STD].license | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{pricings[PRM].license | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{pricings[PRO].license | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{pricings[ENT].license | currency : "EUR"}}</td>
+          <td *ngFor="let edition of editions" class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() == edition.code">{{pricings[edition.idx].license | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right">
             <span class="btn btn-mini" [hidden]="useCustomCals" (click)="useCustomCals=!useCustomCals">
               <i class="fa fa-pencil"></i>
               &nbsp;CAL x {{nrCals}}
-            </span> 
+            </span>
             <span [hidden]="!useCustomCals">
               <i class="btn btn-mini fa fa-undo" (click)="useCustomCals=!useCustomCals"></i>
-              &nbsp;CAL x <input type="text" size="1" [(ngModel)]="nrCals"> 
-            </span>  
+              &nbsp;CAL x <input type="text" size="1" [(ngModel)]="nrCals">
+            </span>
           </td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.calLicense | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{pricings[STD].calLicense | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{pricings[PRM].calLicense | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{pricings[PRO].calLicense | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{pricings[ENT].calLicense | currency : "EUR"}}</td>
+          <td *ngFor="let edition of editions" class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() == edition.code">{{pricings[edition.idx].calLicense | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right font-italic">totale licenze</td>
           <td class="text-center edition-sep font-italic" width="10%" [hidden]="!clients.show">{{customer.calLicense + customer.license | currency : "EUR"}}</td>
-          <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{pricings[STD].calLicense + pricings[STD].license | currency : "EUR"}}</td>
-          <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{pricings[PRM].calLicense + pricings[PRM].license | currency : "EUR"}}</td>
-          <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{pricings[PRO].calLicense + pricings[PRO].license | currency : "EUR"}}</td>
-          <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{pricings[ENT].calLicense + pricings[ENT].license | currency : "EUR"}}</td>
+          <td *ngFor="let edition of editions" class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() == edition.code">{{pricings[edition.idx].calLicense + pricings[edition.idx].license | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right row-sep">MLU</td>
           <td class="text-center edition-sep row-sep" width="10%" [hidden]="!clients.show">{{customer.mlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{pricings[STD].mlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{pricings[PRM].mlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{pricings[PRO].mlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{pricings[ENT].mlu | currency : "EUR"}}</td>
+          <td *ngFor="let edition of editions" class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() == edition.code">{{pricings[edition.idx].mlu | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right">MLU su CAL x {{nrCals}}</td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.calMlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{pricings[STD].calMlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{pricings[PRM].calMlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{pricings[PRO].calMlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{pricings[ENT].calMlu | currency : "EUR"}}</td>
+          <td *ngFor="let edition of editions" class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() == edition.code">{{pricings[edition.idx].calMlu | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right font-italic">canone annuale attuale</td>
           <td class="text-center edition-sep font-italic" width="10%" [hidden]="!clients.show">{{customer.calMlu + customer.mlu | currency : "EUR"}}</td>
-          <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'"></td>
-          <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'"></td>
-          <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'"></td>
-          <td class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'"></td>
+          <td  *ngFor="let edition of editions" class="text-center edition-sep font-italic" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() == edition.code"></td>
         </tr>
         <tr>
           <td class="text-right row-sep">Totale su 5 anni</td>
           <td class="text-center edition-sep row-sep" width="10%" [hidden]="!clients.show">{{customer.total5Years | currency : "EUR"}}</td>
-          <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{pricings[STD].total5Years | currency : "EUR"}}</td>
-          <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{pricings[PRM].total5Years | currency : "EUR"}}</td>
-          <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{pricings[PRO].total5Years | currency : "EUR"}}</td>
-          <td class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{pricings[ENT].total5Years | currency : "EUR"}}</td>
+          <td *ngFor="let edition of editions" class="text-center edition-sep row-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() == edition.code">{{pricings[edition.idx].total5Years | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right">utente/mese</td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.perUserMonth | number:'1.0-0' | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{pricings[STD].perUserMonth  | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{pricings[PRM].perUserMonth  | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{pricings[PRO].perUserMonth  | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{pricings[ENT].perUserMonth  | currency : "EUR"}}</td>
+          <td *ngFor="let edition of editions" class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() == edition.code">{{pricings[edition.idx].perUserMonth  | currency : "EUR"}}</td>
         </tr>
         <tr>
           <td class="text-right">canone equivalente annuo</td>
           <td class="text-center edition-sep" width="10%" [hidden]="!clients.show">{{customer.perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='STD'">{{pricings[STD].perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRM'">{{pricings[PRM].perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='PRO'">{{pricings[PRO].perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
-          <td class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() =='ENT'">{{pricings[ENT].perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
+          <td *ngFor="let edition of editions" class="text-center edition-sep" width="10%" [class.bg-pricing-selected]="clients.show && clients.getEdition() == edition.code">{{pricings[edition.idx].perUserMonth * nrCals * 12 | currency : "EUR"}}</td>
         </tr>
       </table>
   </div>
