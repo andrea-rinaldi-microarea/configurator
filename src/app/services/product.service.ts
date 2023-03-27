@@ -13,6 +13,9 @@ const MWFeatures = require("./mw-features.json");
 const MCEditions = require("./mc-editions.json");
 const MWEditions = require("./mw-editions.json");
 
+const MCFragmentWeights = require("./mc-fragment-weights.json");
+const MWFragmentWeights = require("./mw-fragment-weights.json");
+
 export const MAGO_CLOUD = "MagoCloud";
 export const MAGO_WEB = "MagoWeb";
 
@@ -59,5 +62,16 @@ export class ProductService {
       return MWEditions;
     }
   }
+
+  public fragmentWeights() : any
+  {
+    if (productConfig["activeProduct"] == MAGO_CLOUD) {
+      return MCFragmentWeights;
+    }
+    else {
+      return MWFragmentWeights;
+    }
+  }
+
 
 }

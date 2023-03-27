@@ -1,0 +1,266 @@
+{
+    "MW-Server" : {
+        "weight": 165
+    },
+    "MW-Financials" : {
+        "weight": 720
+    },
+    "MW-PurchaseElectronicInvoicing" : {
+        "weight": 250
+    },
+    "MW-Cash" : {
+        "weight": 110
+    },
+    "MW-XBRL" : {
+        "weight": 550
+    },
+    "MW-AccountingBooks" : {
+        "weight": 440
+    },
+    "MW-Basel_II" : {
+        "weight": 330
+    },
+    "MW-FixedAssets" : {
+        "weight": 605
+    },
+    "MW-ForecastAccounting" : {
+        "weight": 275
+    },
+    "MW-MultiCompanyBalances" : {
+        "weight": 605
+    },
+    "MW-CostAccounting" : {
+        "weight": 374
+    },
+    "MW-AdvancedCostAccounting" : {
+        "weight": 500
+    },
+    "MW-Intrastat" : {
+        "weight": 165
+    },
+    "MW-SIITransmission" : {
+        "weight": 0
+    },
+    "MW-TicketBAI" : {
+        "weight": 0
+    },
+    "MW-BATUZ" : {
+        "weight": 0
+    },
+    "MW-Sales" : {
+        "weight": 357
+    },
+    "MW-SaleOrders" : {
+        "weight": 290
+    },
+    "MW-Conai" : {
+        "weight": 165
+    },
+    "MW-WEEE" : {
+        "weight": 275
+    },
+    "MW-SalesPeople" : {
+        "weight": 275
+    },
+    "MW-CreditLimit" : {
+        "weight": 275
+    },
+    "MW-AdditionalCharges" : {
+        "weight": 150
+    },
+    "MW-OpenECommerce" : {
+        "weight": 0
+    },
+    "MW-StoreManagement": {
+        "weight": 1000
+    },
+    "MW-TCPOSConn01" : {
+        "weight": 0
+    },
+    "MW-TCPOSConn05" : {
+        "weight": 0
+    },
+    "MW-TCPOSConn10" : {
+        "weight": 0
+    },
+    "MW-TCPOSConn25" : {
+        "weight": 0
+    },
+    "MW-TCPOSConn50" : {
+        "weight": 0
+    },
+    "MW-TCPOSConn100" : {
+        "weight": 0
+    },
+    "MW-EPOSConn01" : {
+        "weight": 0
+    },
+    "MW-EPOSConn05" : {
+        "weight": 0
+    },
+    "MW-EPOSConn10" : {
+        "weight": 0
+    },
+    "MW-EPOSConn25" : {
+        "weight": 0
+    },
+    "MW-EPOSConn50" : {
+        "weight": 0
+    },
+    "MW-EPOSConn100" : {
+        "weight": 0
+    },
+    "MW-OpenPOSConn01" : {
+        "weight": 0
+    },
+    "MW-OpenPOSConn05" : {
+        "weight": 0
+    },
+    "MW-OpenPOSConn10" : {
+        "weight": 0
+    },
+    "MW-OpenPOSConn25" : {
+        "weight": 0
+    },
+    "MW-OpenPOSConn50" : {
+        "weight": 0
+    },
+    "MW-OpenPOSConn100" : {
+        "weight": 0
+    },
+    "MW-StoreVariants": {
+        "weight": 400
+    },
+    "MW-FoodRecipe": {
+        "weight": 400
+    },
+    "MW-Vouchers": {
+        "weight": 400
+    },
+    "MW-InStore": {
+        "weight": 880
+    },
+    "MW-InStoreApp": {
+        "weight": 330
+    },
+    "MW-InfinityConnector" : {
+        "weight": 550
+    },
+    "MW-Purchases" : {
+        "weight": 605
+    },
+    "MW-PurchaseElectronicInvoicingAdv" : {
+        "weight": 250
+    },
+    "MW-PurchaseOrders" : {
+        "weight": 290
+    },
+    "MW-QualityInspection" : {
+        "weight": 650
+    },
+    "MW-Inventory" : {
+        "weight": 770
+    },
+    "MW-Deposit" : {
+        "weight": 300
+    },
+    "MW-LotsSerials" : {
+        "weight": 165
+    },
+    "MW-WMSBasic" : {
+        "weight": 1950
+    },
+    "MW-WMSAdvanced" : {
+        "weight": 2860
+    },
+    "MW-WMSMobile" : {
+        "weight": 1100
+    },
+    "MW-WMSMobileApp" : {
+        "weight": 330
+    },
+    "MW-BillOfMaterials" : {
+        "weight": 748
+    },
+    "MW-ECO" : {
+        "weight": 300
+    },
+    "MW-Variants" : {
+        "weight": 605
+    },
+    "MW-Configurator" : {
+        "weight": 748
+    },
+    "MW-ManufacturingBasic" : {
+        "weight": 748
+    },
+    "MW-ManufacturingMobile" : {
+        "weight": 1320
+    },
+    "MW-ManufacturingMobileApp" : {
+        "weight": 330
+    },
+    "MW-ManufacturingAdvanced" : {
+        "weight": 3060
+    },
+    "MW-Kanban" : {
+        "weight": 200
+    },
+    "MW-ManufacturingPlanning" : {
+        "weight": 3300
+    },
+    "MW-MRPAdvanced" : {
+        "weight": 2400
+    },
+    "MW-ToolsManagement" : {
+        "weight": 880
+    },
+    "MW-EDIBasic" : {
+        "weight": 0
+    },
+    "MW-EDILogistics" : {
+        "weight": 0
+    },
+    "MW-EDIPurchases" : {
+        "weight": 0
+    },
+    "MW-Multicompany" : {
+        "weight": 0
+    },
+    "MW-CGM" : {
+        "weight": 0
+    },
+    "MW-CGMExtension" : {
+        "weight": 0
+    },
+    "MW-Auditing" : {
+        "weight": 308
+    },
+    "MW-DMS" : {
+        "weight": 1650
+    },
+    "MW-JobScheduler" : {
+        "weight": 660
+    },
+    "MW-Security" : {
+        "weight": 660
+    },
+    "MW-Visibility" : {
+        "weight": 3000
+    },
+    "MW-MyMagoStudio" : {
+        "weight": 0
+    },
+    "MW-MagoAPI" : {
+        "weight": 0
+    },
+    "MW-CAL01" : {
+        "weight": 0
+    },
+    "MW-CAL05" : {
+        "weight": 0
+    },
+    "MW-CAL10" : {
+        "weight": 0
+    }
+}

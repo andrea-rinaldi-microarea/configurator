@@ -5,7 +5,6 @@ import { Observable } from 'rxjs/Observable';
 import { ProductService } from './product.service';
 
 declare var require: any;
-const fragmentWeights = require("./fragment-weights.json");
 const moduleTags = require("./module-tags.json");
 const modulesDescription = require("./modules-description.json");
 
@@ -91,8 +90,8 @@ export class IndustryService {
   }
 
   public getWeight(feature: Feature): number {
-    if (fragmentWeights[feature.fragment]) {
-      return fragmentWeights[feature.fragment].weight;
+    if (this.product.fragmentWeights()[feature.fragment]) {
+      return this.product.fragmentWeights()[feature.fragment].weight;
     }
     return 0;
   }
