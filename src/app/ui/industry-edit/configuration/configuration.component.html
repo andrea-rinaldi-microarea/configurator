@@ -36,34 +36,41 @@
           <th>{{"Feature" | translate}}</th>
           <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
           <th class="text-center edition-sep" ></th>
-          <th class="text-center edition-sep" ></th>
+          <th class="text-center edition-sep" [hidden]="!hasWeights()"></th>
           <th *ngFor="let edition of editions" class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() == edition.code" (click)="editMode && selectAll(edition.code)">
             <app-edition-header [disabled]="!editMode">{{edition.description}}</app-edition-header>
           </th>
+          <th class="text-center edition-sep" [hidden]="!hasLicense()">{{"License" | translate}}</th>
+          <th class="text-center edition-sep" [hidden]="!hasLicense()">{{"MLU" | translate}}</th>
       </tr>
-      <tr>
+      <tr *ngIf="hasWeights()">
         <th class="subheader"></th>
         <th class="subheader"></th>
         <th class="text-center edition-sep subheader" [hidden]="!clients.show">
           <span *ngIf="industry.current.clientWeight">{{industry.current.clientWeight}}</span>
         </th>
         <th class="edition-sep subheader"></th>
-        <th class="edition-sep subheader"></th>
+        <th class="edition-sep subheader" [hidden]="!hasWeights()"></th>
 
         <th *ngFor="let edition of editions" class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() ==edition.code">
           <span *ngIf="industry.current.weights">{{configurationWeight(industry.current.weights, edition.code)}}</span>
         </th>
-      </tr>
+        <th class="text-center edition-sep" [hidden]="!hasLicense()"></th>
+        <th class="text-center edition-sep" [hidden]="!hasLicense()"></th>
+    </tr>
       <tr *ngIf="clients.show">
         <th class="subheader"></th>
         <th class="subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
-        <th class="edition-sep subheader"></th>
+        <th class="edition-sep subheader" [hidden]="!hasWeights()"></th>
 
         <th *ngFor="let edition of editions" class="text-center edition-sep subheader" [class.bg-user-light]="clients.getEdition() == edition.code">
-          <span *ngIf="industry.current.distances">+{{configurationDistance(industry.current.distances, edition.code).plus}} / -{{configurationDistance(industry.current.distances, edition.code).minus}}</span>
+          <span *ngIf="hasWeights() && industry.current.distances">+{{configurationDistance(industry.current.distances, edition.code).plus}} / -{{configurationDistance(industry.current.distances, edition.code).minus}}</span>
         </th>
+
+        <th class="text-center edition-sep" [hidden]="!hasLicense()"></th>
+        <th class="text-center edition-sep" [hidden]="!hasLicense()"></th>
       </tr>
       <tr *ngFor="let feature of industry.current.features | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.level == 1">
           <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
@@ -80,7 +87,7 @@
               [class.text-danger]="!feature.included || feature.discontinued"></i>
           </td>
           <td width="25px" class="text-center edition-sep"><i class="fa fa-globe" [hidden]="!isLocalized(feature)" placement="right" [ngbTooltip]="ISOTooltip(feature)"></i></td>
-          <td width="30px" class="text-right edition-sep">{{getWeight(feature)}}</td>
+          <td width="30px" class="text-right edition-sep" [hidden]="!hasWeights()">{{getWeight(feature)}}</td>
 
           <td *ngFor="let edition of editions" class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() == edition.code">
             <app-toggler
@@ -93,6 +100,9 @@
               [options]="featureTypes"></app-toggler>
           </td>
 
+          <td *ngIf="!getSpecial(feature)" width="30px" class="text-right edition-sep" [hidden]="!hasLicense()">{{getLicense(feature) | currency : "EUR"}}</td>
+          <td *ngIf="!getSpecial(feature)" width="30px" class="text-right edition-sep" [hidden]="!hasLicense()">{{getMLU(feature) | currency : "EUR"}}</td>
+          <td *ngIf="getSpecial(feature)" width="30px" colspan=2 class="text-right edition-sep" [hidden]="!hasLicense()">{{getSpecial(feature)}}</td>
       </tr>
   </table>
 </div>

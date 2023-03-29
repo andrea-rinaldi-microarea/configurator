@@ -77,7 +77,7 @@ export class IndustryService {
   }
 
   public copy(sourceIndustry: string): Observable<any> {
-    var saved: Industry = Object.assign(null, this.current);
+    var saved: Industry = Object.assign({}, this.current);
     var $industry = new Observable<any>(observer => {
       this.load(sourceIndustry).subscribe(res => {
         saved.features = this.current.features;
@@ -91,7 +91,31 @@ export class IndustryService {
 
   public getWeight(feature: Feature): number {
     if (this.product.fragmentWeights()[feature.fragment]) {
-      return this.product.fragmentWeights()[feature.fragment].weight;
+      return this.product.fragmentWeights()[feature.fragment].weight | 0;
+    }
+    return 0;
+  }
+
+  public getLicense(feature: Feature): number {
+    if (this.product.fragmentWeights()[feature.fragment]) {
+      return this.product.fragmentWeights()[feature.fragment].license | 0;
+    }
+    return 0;
+  }
+
+  public getSpecial(feature: Feature): string {
+    if  (
+          this.product.fragmentWeights()[feature.fragment] &&
+          this.product.fragmentWeights()[feature.fragment].special
+        ) {
+      return this.product.fragmentWeights()[feature.fragment].special;
+    }
+    return null;
+  }
+
+  public getMLU(feature: Feature): number {
+    if (this.product.fragmentWeights()[feature.fragment]) {
+      return this.product.fragmentWeights()[feature.fragment].mlu | 0;
     }
     return 0;
   }

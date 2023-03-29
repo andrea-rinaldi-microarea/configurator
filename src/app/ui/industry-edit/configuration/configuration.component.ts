@@ -202,4 +202,25 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     return detailedInfos[feature.fragment||feature.tag];
   }
 
+  hasWeights() : boolean {
+    return this.product.hasWeights();
+  }
+
+  hasLicense() : boolean {
+    return this.product.hasLicense();
+  }
+
+  getLicense(feature: Feature) {
+    return this.industry.getLicense(feature);
+  }
+
+  getMLU(feature: Feature) {
+    return this.industry.getMLU(feature);
+  }
+
+  getSpecial(feature: Feature) {
+    return this.industry.getSpecial(feature);
+  }
+
+
 }

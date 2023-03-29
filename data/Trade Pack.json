@@ -1,6 +1,6 @@
 {
-  "name": "MagoWeb A-la-carte",
-  "industryCode": "CART",
+  "name": "Trade Pack",
+  "industryCode": "TRPD",
   "version": "1",
   "productID": "MW",
   "productName": "MagoWeb",
@@ -31,7 +31,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -121,7 +121,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -136,7 +136,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -181,7 +181,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -256,7 +256,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -271,7 +271,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -316,7 +316,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -755,7 +755,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -785,7 +785,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -815,7 +815,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -845,7 +845,7 @@
       "options": [
         {
           "edition": "GLB",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },

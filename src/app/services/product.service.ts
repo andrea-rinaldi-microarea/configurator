@@ -53,8 +53,7 @@ export class ProductService {
 
   }
 
-  public editions() : Edition[]
-  {
+  public editions() : Edition[] {
     if (productConfig["activeProduct"] == MAGO_CLOUD) {
       return MCEditions;
     }
@@ -63,8 +62,7 @@ export class ProductService {
     }
   }
 
-  public fragmentWeights() : any
-  {
+  public fragmentWeights() : any {
     if (productConfig["activeProduct"] == MAGO_CLOUD) {
       return MCFragmentWeights;
     }
@@ -73,5 +71,22 @@ export class ProductService {
     }
   }
 
+  public hasWeights() : boolean {
+    if (productConfig["activeProduct"] == MAGO_CLOUD) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+
+  public hasLicense() : boolean {
+    if (productConfig["activeProduct"] == MAGO_CLOUD) {
+      return false;
+    }
+    else {
+      return true;
+    }
+  }
 
 }
