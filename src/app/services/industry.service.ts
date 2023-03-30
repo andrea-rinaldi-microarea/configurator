@@ -96,9 +96,25 @@ export class IndustryService {
     return 0;
   }
 
+  private isPackage(feature: Feature) : boolean {
+    return  this.current.industryCode != "CART" &&
+            feature.optionID == "SEVR";
+  }
+
   public getLicense(feature: Feature): number {
+    // var tag = this.isPackage(feature) ? this.current.industryCode : feature.fragment;
+
     if (this.product.fragmentWeights()[feature.fragment]) {
       return this.product.fragmentWeights()[feature.fragment].license | 0;
+    }
+    return 0;
+  }
+
+  public getMLU(feature: Feature): number {
+    // var tag = this.isPackage(feature) ? this.current.industryCode : feature.fragment;
+
+    if (this.product.fragmentWeights()[feature.fragment]) {
+      return this.product.fragmentWeights()[feature.fragment].mlu | 0;
     }
     return 0;
   }
@@ -111,13 +127,6 @@ export class IndustryService {
       return this.product.fragmentWeights()[feature.fragment].special;
     }
     return null;
-  }
-
-  public getMLU(feature: Feature): number {
-    if (this.product.fragmentWeights()[feature.fragment]) {
-      return this.product.fragmentWeights()[feature.fragment].mlu | 0;
-    }
-    return 0;
   }
 
   private calculateWeight(feat: Feature, availability: string, weight: Weight) {

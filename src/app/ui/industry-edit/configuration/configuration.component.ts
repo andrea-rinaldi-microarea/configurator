@@ -36,7 +36,7 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     },
     {
       value: "count",
-      icon: "fa-user-plus"
+      icon: "fa-cart-plus"
     },
     {
       value: "standalone",
@@ -222,5 +222,14 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     return this.industry.getSpecial(feature);
   }
 
+  isAlways(feature: Feature) {
+    if  (
+          feature.optionID == this.industry.current.industryCode ||
+          (feature.optionID == "SEVR" && this.industry.current.industryCode == "CART")
+        )
+      return false;
+
+    return feature.options[0].availability == "always";
+  }
 
 }

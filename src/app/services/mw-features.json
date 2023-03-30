@@ -1,6 +1,54 @@
 [
   {
     "isModule": true,
+    "description": "Trade Package",
+    "level": 1,
+    "fragment": "TRPD",
+    "isAvailable": true,
+    "allowISO": "",
+    "denyISO": "",
+    "optionID": "TRPD",
+    "tag": "TRPD",
+    "discontinued": false
+  },
+  {
+    "isModule": true,
+    "description": "Advanced Package",
+    "level": 1,
+    "fragment": "ADPD",
+    "isAvailable": true,
+    "allowISO": "",
+    "denyISO": "",
+    "optionID": "ADPD",
+    "tag": "ADPD",
+    "discontinued": false
+  },
+  {
+    "isModule": true,
+    "description": "Small Business Package",
+    "level": 1,
+    "fragment": "SBPD",
+    "isAvailable": true,
+    "allowISO": "",
+    "denyISO": "",
+    "optionID": "SBPD",
+    "tag": "SBPD",
+    "discontinued": false
+  },
+  {
+    "isModule": true,
+    "description": "Commercial Package",
+    "level": 1,
+    "fragment": "CMPD",
+    "isAvailable": true,
+    "allowISO": "",
+    "denyISO": "",
+    "optionID": "CMPD",
+    "tag": "CMPD",
+    "discontinued": false
+  },
+  {
+    "isModule": true,
     "description": "Server",
     "level": 1,
     "fragment": "MW-Server",
@@ -447,7 +495,7 @@
    "isModule": false,
    "description": "OpenPOS Connector 1 Till",
    "level": 2,
-   "fragment": "MW-OpenPOS01",
+   "fragment": "MW-OpenPOSConn01",
    "isAvailable": true,
    "allowISO": "",
    "denyISO": "",

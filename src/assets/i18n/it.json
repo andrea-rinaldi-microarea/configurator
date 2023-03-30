@@ -62,7 +62,7 @@
     "Basel_II_title" : "Analisi di Bilancio (Basilea II)",
     "Basel_II_details": "Modulo sviluppato su Excel che sulla base dei dati di bilancio dell’Azienda e mediante l’analisi per indici e per flussi, è in grado di elaborare rapidamente una valutazione completa della situazione finanziaria, patrimoniale ed economica dell’Azienda. Il modulo inoltre consente di elaborare bilanci riclassificati personalizzati utilizzando funzioni di calcolo avanzate disponibili negli schemi di riclassificazione.",
 
-    "FixedAssets_title" : "Cespiti",
+    "FixedAssets_title" : "Ammortamenti",
     "FixedAssets_details": "Gestione dei beni ammortizzabili, movimenti di variazione, fino a tre regimi di ammortamento paralleli e indipendenti. Simulazioni ammortamento del singolo bene e del registro dei beni ammortizzabili. Voci Immobilizzazioni in Inventario e nella Nota integrativa di bilancio. Collegamento diretto con la prima nota.",
 
     "ForecastAccounting_title" : "Contabilità Previsionale",
@@ -333,7 +333,10 @@
     "included": "incluso",
     "optional": "opzionale",
     "per number of users": "per numero utenti",
+    "optional, full-price": "opzionale, prezzo totale",
+    "choose quantity": "secondo quantità",
     "limited functionality": "funzionalità limitata",
+    "License": "Licenza",
     "Multilanguage descriptions": "Descrizioni Multilingua",
     "Multicurrency":"Multivaluta",
     "Contacts Management":"Gestione Contatti e Fornitori Potenziali",
@@ -360,7 +363,7 @@
     "Foreign Bank Transfers / SDD Mandates": "Bonifici esteri / mandati SDD",
     "Bank Reconciliations": "Riconciliazioni bancarie",
     "Tresaury": "Tesoreria",
-    "Fixed Assets": "Cespiti",
+    "Fixed Assets": "Ammortamenti",
     "Forecast Accounting": "Contabilità Previsionale",
     "XBRL Balance": "Bilancio XBRL",
     "Accounting Books and Balance Attachments": "Libro Inventari e Allegati",

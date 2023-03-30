@@ -15,7 +15,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "always"
         }
       ]
@@ -30,7 +30,7 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -45,7 +45,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -60,7 +60,7 @@
       "denyISO": "IT,CH,BR",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -75,7 +75,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -90,7 +90,7 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -105,7 +105,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -120,7 +120,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -135,7 +135,7 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -150,7 +150,7 @@
       "denyISO": "BR",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -165,7 +165,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -180,7 +180,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -195,7 +195,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -210,7 +210,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -225,7 +225,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -240,7 +240,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -255,7 +255,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -270,7 +270,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -285,7 +285,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -300,7 +300,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -315,7 +315,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -330,7 +330,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -345,7 +345,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -360,7 +360,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -376,7 +376,7 @@
       "optionID": "TC01",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -392,7 +392,7 @@
       "optionID": "TC05",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -408,7 +408,7 @@
       "optionID": "TC10",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -424,7 +424,7 @@
       "optionID": "TC25",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -440,7 +440,7 @@
       "optionID": "TC50",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -456,7 +456,7 @@
       "optionID": "T100",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -472,7 +472,7 @@
       "optionID": "EP01",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -488,7 +488,7 @@
       "optionID": "EP05",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -504,7 +504,7 @@
       "optionID": "EP10",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -520,7 +520,7 @@
       "optionID": "EP25",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -536,7 +536,7 @@
       "optionID": "EP50",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -552,7 +552,7 @@
       "optionID": "E100",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -568,7 +568,7 @@
       "optionID": "MP01",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -584,7 +584,7 @@
       "optionID": "MP05",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -600,7 +600,7 @@
       "optionID": "MP10",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -616,7 +616,7 @@
       "optionID": "MP25",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -632,7 +632,7 @@
       "optionID": "MP50",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -648,7 +648,7 @@
       "optionID": "M100",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -663,7 +663,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -678,7 +678,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -693,7 +693,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -708,7 +708,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -724,7 +724,7 @@
       "optionID": "STIC",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -739,7 +739,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -754,7 +754,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -769,7 +769,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -784,7 +784,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -799,7 +799,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -814,7 +814,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -829,7 +829,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -844,7 +844,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -859,7 +859,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -874,7 +874,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -889,7 +889,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -905,7 +905,7 @@
       "optionID": "WMRC",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -920,7 +920,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -935,7 +935,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -950,7 +950,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -965,7 +965,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -980,7 +980,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -995,7 +995,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1010,7 +1010,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1025,7 +1025,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1040,7 +1040,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1055,7 +1055,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1070,7 +1070,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1085,7 +1085,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1100,7 +1100,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1115,7 +1115,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1130,7 +1130,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1146,7 +1146,7 @@
       "optionID": "MULT",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -1161,7 +1161,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1177,7 +1177,7 @@
       "optionID": "MC01",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -1192,7 +1192,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1207,7 +1207,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1222,7 +1222,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1237,7 +1237,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1252,7 +1252,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1267,7 +1267,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1282,7 +1282,7 @@
       "denyISO": "",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "standalone"
         }
       ]
@@ -1298,7 +1298,7 @@
       "optionID": "PL01",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -1314,7 +1314,7 @@
       "optionID": "PL05",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]
@@ -1330,7 +1330,7 @@
       "optionID": "PL10",
       "options": [
         {
-          "edition": "GLB",
+          "edition": "UNQ",
           "availability": "count"
         }
       ]

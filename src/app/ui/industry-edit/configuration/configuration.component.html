@@ -1,50 +1,57 @@
-<div class="row mt-2 d-flex justify-content-center">
-  <div class="left-toolbar">
-    <button class="btn btn-outline-light" [class.not-visible]="clients.show" (click)="clients.show = !clients.show"><i class="fa fa-big fa-users text-config-light"></i></button>
-  </div>
-  <div class="col-1 text-right btn btn-sm" [class.not-visible]="currIndustry == 0" [class.disabled]="editMode" (click)="editMode || onPrev()">
-      <i class="fa fa-big fa-chevron-left text-config-light"></i>
-  </div>
-  <div>
-    <select class="bg-config text-config-white lead" [disabled]="editMode" [(ngModel)]="currIndustry"  (change)="onIndustryChanged()">
-      <option *ngFor="let industry of industryList; let i=index"  [value]="i">
-      {{industry}}
-      </option>
-    </select>
-  </div>
-  <div class="col-1 text-left btn btn-sm" [class.not-visible]="currIndustry == industryList.length - 1" [class.disabled]="editMode" (click)="editMode || onNext()">
-    <i class="fa fa-big fa-chevron-right text-config-light"></i>
-  </div>
-  <div class="right-toolbar" [hidden]="currIndustry == null">
-    <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button>
-    <div ngbDropdown class="d-inline-block">
-      <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle placement="bottom" ngbTooltip="Copia un'altra industry">
-          <i class="fa fa-big fa-files-o text-config-light"></i>
-      </button>
-      <div ngbDropdownMenu style="margin-left:-75px">
-        <button class="dropdown-item" ngbDropdownItem *ngFor="let industry of industryList | OtherIndustries:currIndustry" (click)="onCopy(industry)">{{industry}}</button>
+<div class="row mt-2 d-flex justify-content-around">
+  <div class="screen-only">
+    <div class="left-toolbar">
+      <button class="btn btn-outline-light" [class.not-visible]="clients.show" (click)="clients.show = !clients.show"><i class="fa fa-big fa-users text-config-light"></i></button>
+    </div>
+    <div class="inline-flex">
+      <div class="col-1 text-right btn btn-sm mr-2" [class.not-visible]="currIndustry == 0" [class.disabled]="editMode" (click)="editMode || onPrev()">
+          <i class="fa fa-big fa-chevron-left text-config-light"></i>
+      </div>
+      <div>
+        <select class="bg-config text-config-white lead" [disabled]="editMode" [(ngModel)]="currIndustry"  (change)="onIndustryChanged()">
+          <option *ngFor="let industry of industryList; let i=index"  [value]="i">
+          {{industry}}
+          </option>
+        </select>
+      </div>
+      <div class="col-1 text-left btn btn-sm" [class.not-visible]="currIndustry == industryList.length - 1" [class.disabled]="editMode" (click)="editMode || onNext()">
+        <i class="fa fa-big fa-chevron-right text-config-light"></i>
       </div>
     </div>
-    <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onSave(); editMode=false"><i class="fa fa-big fa-floppy-o text-config-light"></i></button>
-    <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button>
+    <div class="right-toolbar" [hidden]="currIndustry == null">
+      <button class="btn btn-outline-light" [hidden]="editMode" (click)="editMode=true"><i class="fa fa-big fa-pencil text-config-light"></i></button>
+      <div ngbDropdown class="d-inline-block">
+        <button class="btn btn-outline-light" [hidden]="!editMode" ngbDropdownToggle placement="bottom" ngbTooltip="Copia un'altra industry">
+            <i class="fa fa-big fa-files-o text-config-light"></i>
+        </button>
+        <div ngbDropdownMenu style="margin-left:-75px">
+          <button class="dropdown-item" ngbDropdownItem *ngFor="let industry of industryList | OtherIndustries:currIndustry" (click)="onCopy(industry)">{{industry}}</button>
+        </div>
+      </div>
+      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onSave(); editMode=false"><i class="fa fa-big fa-floppy-o text-config-light"></i></button>
+      <button class="btn btn-outline-light" [hidden]="!editMode" (click)="onCancel(); editMode=false"><i class="fa fa-big fa-undo text-config-light"></i></button>
+    </div>
+  </div>
+  <div class="text-config title-config mb-4 print-only">
+    {{industryList[currIndustry]}}
   </div>
 </div>
 <div class="row mt-2" *ngIf="industry.current">
   <table class="table table-sm table-borderless">
       <tr>
-          <th><app-toggler class="text-config-light" [(value)]="hideExcluded"></app-toggler></th>
+          <th class="screen-only"><app-toggler class="text-config-light" [(value)]="hideExcluded"></app-toggler></th>
           <th>{{"Feature" | translate}}</th>
           <th class="text-center edition-sep" [hidden]="!clients.show"><i class="fa fa-user fa-big text-user"></i> </th>
           <th class="text-center edition-sep" ></th>
           <th class="text-center edition-sep" [hidden]="!hasWeights()"></th>
           <th *ngFor="let edition of editions" class="text-center edition-sep" [class.bg-user-light]="clients.show && clients.getEdition() == edition.code" (click)="editMode && selectAll(edition.code)">
-            <app-edition-header [disabled]="!editMode">{{edition.description}}</app-edition-header>
+            <app-edition-header [disabled]="!editMode">{{edition.description | translate}}</app-edition-header>
           </th>
           <th class="text-center edition-sep" [hidden]="!hasLicense()">{{"License" | translate}}</th>
           <th class="text-center edition-sep" [hidden]="!hasLicense()">{{"MLU" | translate}}</th>
       </tr>
       <tr *ngIf="hasWeights()">
-        <th class="subheader"></th>
+        <th class="subheader screen-only"></th>
         <th class="subheader"></th>
         <th class="text-center edition-sep subheader" [hidden]="!clients.show">
           <span *ngIf="industry.current.clientWeight">{{industry.current.clientWeight}}</span>
@@ -59,7 +66,7 @@
         <th class="text-center edition-sep" [hidden]="!hasLicense()"></th>
     </tr>
       <tr *ngIf="clients.show">
-        <th class="subheader"></th>
+        <th class="subheader screen-only"></th>
         <th class="subheader"></th>
         <th class="edition-sep subheader"></th>
         <th class="edition-sep subheader"></th>
@@ -73,7 +80,7 @@
         <th class="text-center edition-sep" [hidden]="!hasLicense()"></th>
       </tr>
       <tr *ngFor="let feature of industry.current.features | Excluded:!hideExcluded" [class.excluded]="!feature.included" [class.module-sep]="feature.level == 1">
-          <td width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
+          <td class="screen-only" width="15px"><app-toggler [hidden]="feature.discontinued" [disabled]="!editMode" class="text-config-light" [(value)]="feature.included" [options]="includedOptions"></app-toggler></td>
           <td [class.discontinued]="feature.discontinued">
             <i class="fa fa-calendar text-warning" [hidden]="feature.isAvailable" placement="right" ngbTooltip="{{'This feature is planned but not yet available' | translate }}"></i>
             <app-detailed-info [details]="detailedInfo(feature) | translate" [className]="featureClass(feature)">{{feature.description | translate}}</app-detailed-info>
@@ -100,8 +107,8 @@
               [options]="featureTypes"></app-toggler>
           </td>
 
-          <td *ngIf="!getSpecial(feature)" width="30px" class="text-right edition-sep" [hidden]="!hasLicense()">{{getLicense(feature) | currency : "EUR"}}</td>
-          <td *ngIf="!getSpecial(feature)" width="30px" class="text-right edition-sep" [hidden]="!hasLicense()">{{getMLU(feature) | currency : "EUR"}}</td>
+          <td *ngIf="!getSpecial(feature)" width="30px" class="text-right edition-sep" [hidden]="!hasLicense()">{{ !isAlways(feature) ? (getLicense(feature) | currency : "EUR") : "" }}</td>
+          <td *ngIf="!getSpecial(feature)" width="30px" class="text-right edition-sep" [hidden]="!hasLicense()">{{ !isAlways(feature) ? (getMLU(feature) | currency : "EUR") : ""}}</td>
           <td *ngIf="getSpecial(feature)" width="30px" colspan=2 class="text-right edition-sep" [hidden]="!hasLicense()">{{getSpecial(feature)}}</td>
       </tr>
   </table>
@@ -113,6 +120,6 @@
   <i class="fa fa-circle text-config"></i> {{"included" | translate}} &nbsp;
   <i class="fa fa-user text-config"></i> {{"per number of users" | translate}} &nbsp;
   <i class="fa fa-check-square-o text-config"></i> {{"optional, full-price" | translate}} &nbsp;
-  <i class="fa fa-user-plus text-config"></i> {{"per additional users" | translate}} &nbsp;
+  <i class="fa fa-cart-plus text-config"></i> {{"choose quantity" | translate}} &nbsp;
 </div>
 

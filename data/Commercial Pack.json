@@ -1,6 +1,6 @@
 {
-  "name": "Trade Pack",
-  "industryCode": "TRPD",
+  "name": "Commercial Pack",
+  "industryCode": "CMPD",
   "version": "1",
   "productID": "MW",
   "productName": "MagoWeb",
@@ -8,8 +8,8 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Trade Package",
-      "fragment": "TRPD",
+      "description": "Commercial Package",
+      "fragment": "CMPD",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
@@ -46,7 +46,7 @@
       "options": [
         {
           "edition": "UNQ",
-          "availability": "always"
+          "availability": "standalone"
         }
       ]
     },
@@ -76,7 +76,7 @@
       "options": [
         {
           "edition": "UNQ",
-          "availability": "standalone"
+          "availability": "always"
         }
       ]
     },
@@ -136,7 +136,7 @@
       "options": [
         {
           "edition": "UNQ",
-          "availability": "always"
+          "availability": "standalone"
         }
       ]
     },
@@ -151,7 +151,7 @@
       "options": [
         {
           "edition": "UNQ",
-          "availability": "always"
+          "availability": "standalone"
         }
       ]
     },
@@ -211,7 +211,7 @@
       "options": [
         {
           "edition": "UNQ",
-          "availability": "always"
+          "availability": "standalone"
         }
       ]
     },
@@ -301,7 +301,7 @@
       "options": [
         {
           "edition": "UNQ",
-          "availability": "always"
+          "availability": "standalone"
         }
       ]
     },
@@ -316,7 +316,7 @@
       "options": [
         {
           "edition": "UNQ",
-          "availability": "always"
+          "availability": "standalone"
         }
       ]
     },
@@ -346,7 +346,7 @@
       "options": [
         {
           "edition": "UNQ",
-          "availability": "always"
+          "availability": "standalone"
         }
       ]
     },
@@ -815,7 +815,7 @@
       "options": [
         {
           "edition": "UNQ",
-          "availability": "always"
+          "availability": "standalone"
         }
       ]
     },
@@ -875,7 +875,7 @@
       "options": [
         {
           "edition": "UNQ",
-          "availability": "always"
+          "availability": "standalone"
         }
       ]
     },

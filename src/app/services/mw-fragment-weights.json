@@ -1,4 +1,20 @@
 {
+  "TRPD": {
+    "license": 3730,
+    "mlu": 746
+  },
+  "ADPD": {
+    "license": 1960,
+    "mlu": 392
+  },
+  "SBPD": {
+    "license": 1580,
+    "mlu": 316
+  },
+  "CMPD": {
+    "license": 1115,
+    "mlu": 223
+  },
   "MW-Server": {
       "license": 570,
       "mlu": 114
@@ -63,7 +79,7 @@
       "license": 190,
       "mlu": 38
    },
-  "MW_SAFT": {
+  "MW-SAFT": {
       "license": 635,
       "mlu": 127
    },
