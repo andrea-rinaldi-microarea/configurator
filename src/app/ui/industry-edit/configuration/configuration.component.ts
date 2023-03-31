@@ -4,7 +4,7 @@ import { ClientsService } from '../../../services/clients.service';
 import { TranslateService } from '@ngx-translate/core';
 import { IndustryService } from '../../../services/industry.service';
 import { Weight } from '../../../../models/Industry';
-import { ProductService } from '../../../services/product.service';
+import { MAGO_CLOUD, ProductService } from '../../../services/product.service';
 
 declare var require: any;
 const detailedInfos = require("./detailed-info.json");
@@ -232,4 +232,10 @@ export class ConfigurationComponent implements OnInit, DoCheck {
     return feature.options[0].availability == "always";
   }
 
+  public logo() : string {
+    if (this.product.activeProduct() == MAGO_CLOUD)
+      return "/assets/M4Cloud.png";
+    else
+      return "/assets/MagoWebLogo.png";
+  }
 }

@@ -561,15 +561,14 @@
       "isModule": false,
       "level": 2,
       "description": "OpenPOS Connector 1 Till",
-      "fragment": "MW-OpenPOS01",
+      "fragment": "MW-OpenPOSConn01",
       "isAvailable": true,
       "allowISO": "",
       "denyISO": "",
-      "optionID": "MP01",
       "options": [
         {
           "edition": "UNQ",
-          "availability": "count"
+          "availability": ""
         }
       ]
     },

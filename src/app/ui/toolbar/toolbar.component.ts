@@ -29,7 +29,7 @@ export class ToolbarComponent implements OnInit {
     if (this.product.activeProduct() == MAGO_CLOUD)
       return "/assets/M4Cloud.png";
     else
-      return "/assets/M4Web.png";
+      return "/assets/MagoWebLogoInv.png";
   }
 
 }
