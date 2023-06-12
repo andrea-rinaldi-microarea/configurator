@@ -1,5 +1,5 @@
 {
-  "name": "Commercial Pack",
+  "name": "Stock & Sell Pack",
   "industryCode": "CMPD",
   "version": "1",
   "productID": "MW",
@@ -8,7 +8,7 @@
     {
       "isModule": true,
       "level": 1,
-      "description": "Commercial Package",
+      "description": "Stock & Sell Package",
       "fragment": "CMPD",
       "isAvailable": true,
       "allowISO": "",
